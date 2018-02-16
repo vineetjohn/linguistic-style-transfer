@@ -1,6 +1,7 @@
 # Custom
 data/
 tensorflow_logs/
+word-embeddings/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
