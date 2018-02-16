@@ -3,8 +3,8 @@ Neural network parametrized objective to disentangle and transfer authorship sty
 
 ## Model Architecture
 
-![Model Architecture](https://github.com/v1n337/authorship-style-transfer/blob/master/authorship-style-transfer-adversarial-network-graph.png)
+![Model Architecture](https://github.com/v1n337/authorship-style-transfer/blob/master/images/authorship-style-transfer-adversarial-network-graph.png)
 
 ## Training Results
 
-![Training Results](https://github.com/v1n337/authorship-style-transfer/blob/master/authorship-style-transfer-adversarial-network-losses.png)
+![Training Results](https://github.com/v1n337/authorship-style-transfer/blob/master/images/authorship-style-transfer-adversarial-network-losses.png)
