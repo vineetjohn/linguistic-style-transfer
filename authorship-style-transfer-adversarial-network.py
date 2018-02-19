@@ -497,7 +497,7 @@ word_lists = map(generate_sentence, generated_sequences)
 # In[ ]:
 
 
-output_file_path = "data/generated_sentences.txt"
+output_file_path = "data/generated_sentences.txt" + dt.now().strftime("%Y%m%d-%H%M%S")
 with open(output_file_path, 'w') as output_file:
     for disjoint_sentence in word_lists:
         output_file.write(" ".join(disjoint_sentence) + "\n")
