@@ -182,8 +182,7 @@ for key in text_tokenizer.word_index:
     pretrained_embedding_matrix[i] = get_word2vec_embedding(key, wv_model_1, 300)
     i += 1
     if i >= VOCAB_SIZE:
-        break
-    
+        break    
 
 
 # In[ ]:
@@ -210,35 +209,55 @@ class GenerativeAdversarialNetwork():
     
     def get_sentence_representation(self, embedded_sequence):
 
-        lstm_cell_fw = tf.contrib.rnn.LSTMCell(
-            num_units=128)
-        lstm_cell_bw = tf.contrib.rnn.LSTMCell(
-            num_units=128)
+        lstm_cell_fw = tf.contrib.rnn.DropoutWrapper(
+            cell=tf.contrib.rnn.LSTMCell(num_units=128),
+            input_keep_prob=0.75,
+            output_keep_prob=0.75,
+            state_keep_prob=0.75
+        )
+        
+        lstm_cell_bw = tf.contrib.rnn.DropoutWrapper(
+            cell=tf.contrib.rnn.LSTMCell(num_units=128),
+            input_keep_prob=0.75,
+            output_keep_prob=0.75,
+            state_keep_prob=0.75
+        )
 
         _, rnn_states = tf.nn.bidirectional_dynamic_rnn(
             cell_fw=lstm_cell_fw, cell_bw=lstm_cell_bw, 
             inputs=embedded_sequence, 
             dtype=tf.float32, time_major=False)
-        sentence_representation = tf.concat(
+        
+        sentence_representation_dense = tf.concat(
             values=[rnn_states[0].h, rnn_states[1].h], axis=1, 
             name="sentence_representation")
+        
+        sentence_representation = tf.nn.dropout(
+            x=sentence_representation_dense, keep_prob=0.75)
 
         return sentence_representation
 
     def get_content_representation(self, sentence_representation):
         
-        dense_content = tf.layers.dense(
+        content_representation_dense = tf.layers.dense(
             inputs=sentence_representation, units=self.content_embedding_size, 
             activation=tf.nn.relu, name="content_representation")
+        
+        content_representation = tf.nn.dropout(
+            x=content_representation_dense, keep_prob=0.75)
 
-        return dense_content
+        return content_representation
 
     def get_style_representation(self, sentence_representation):
         
-        dense_style = tf.layers.dense(
+        style_representation_dense = tf.layers.dense(
             inputs=sentence_representation, units=self.style_embedding_size, 
             activation=tf.nn.relu, name="style_representation")
-        return dense_style
+        
+        style_representation = tf.nn.dropout(
+            x=style_representation_dense, keep_prob=0.75)
+            
+        return style_representation
 
     def get_label_prediction(self, content_representation):
 
@@ -253,12 +272,19 @@ class GenerativeAdversarialNetwork():
     def generate_output_sequence(self, embedded_sequence, style_representation, 
                                  content_representation):
         
-        generative_embedding = tf.concat(
+        generative_embedding_dense = tf.concat(
             values=[style_representation, content_representation], axis=1)
+        generative_embedding = tf.nn.dropout(
+            x=generative_embedding_dense, keep_prob=0.75)
         print("generative_embedding: {}".format(generative_embedding))
         
-        decoder_cell = tf.nn.rnn_cell.LSTMCell(
-            num_units=128, state_is_tuple=False)
+        decoder_cell = tf.contrib.rnn.DropoutWrapper(
+            cell=tf.nn.rnn_cell.LSTMCell(
+                num_units=128, state_is_tuple=False),
+            input_keep_prob=0.75,
+            output_keep_prob=0.75,
+            state_keep_prob=0.75
+        )
         
         batch_sequence_lengths = tf.scalar_mul(
             scalar=MAX_SEQUENCE_LENGTH, 
@@ -324,16 +350,16 @@ class GenerativeAdversarialNetwork():
         print("content_representation: {}".format(content_representation))
 
         # use content representation to predict a label
-#         self.label_prediction = self.get_label_prediction(
-#             content_representation)
-#         print("label_prediction: {}".format(self.label_prediction))
+        self.label_prediction = self.get_label_prediction(
+            content_representation)
+        print("label_prediction: {}".format(self.label_prediction))
 
-#         self.adversarial_loss = tf.losses.softmax_cross_entropy(
-#             onehot_labels=self.input_label, logits=self.label_prediction)
-#         print("adversarial_loss: {}".format(self.adversarial_loss))
+        self.adversarial_loss = tf.losses.softmax_cross_entropy(
+            onehot_labels=self.input_label, logits=self.label_prediction)
+        print("adversarial_loss: {}".format(self.adversarial_loss))
 
-#         self.adversarial_loss_summary = tf.summary.scalar(
-#             tensor=self.adversarial_loss, name="adversarial_loss")
+        self.adversarial_loss_summary = tf.summary.scalar(
+            tensor=self.adversarial_loss, name="adversarial_loss")
 
         # get style representation
         style_representation = self.get_style_representation(
@@ -360,13 +386,13 @@ class GenerativeAdversarialNetwork():
             logdir="/tmp/tensorflow_logs/" + dt.now().strftime("%Y%m%d-%H%M%S") + "/", 
             graph=sess.graph)
         
-#         adversarial_training_optimizer = tf.train.AdamOptimizer()
-#         adversarial_training_operation = adversarial_training_optimizer.minimize(
-#             self.adversarial_loss)
+        adversarial_training_optimizer = tf.train.AdamOptimizer()
+        adversarial_training_operation = adversarial_training_optimizer.minimize(
+            self.adversarial_loss)
         
         reconstruction_training_optimizer = tf.train.AdamOptimizer()
         reconstruction_training_operation = reconstruction_training_optimizer.minimize(
-            self.reconstruction_loss)
+            self.reconstruction_loss - self.adversarial_loss)
         
         sess.run(tf.global_variables_initializer())
         sess.run(
@@ -383,11 +409,10 @@ class GenerativeAdversarialNetwork():
 
         for current_epoch in range(1, training_epochs + 1):
             for batch_number in range(num_batches):
-#                 _, adv_loss, adv_loss_sum,
-                _, rec_loss, rec_loss_sum = sess.run(
+                _, adv_loss, adv_loss_sum,                 _, rec_loss, rec_loss_sum = sess.run(
                     fetches=[
-#                         adversarial_training_operation, self.adversarial_loss, 
-#                         self.adversarial_loss_summary, 
+                        adversarial_training_operation, self.adversarial_loss, 
+                        self.adversarial_loss_summary, 
                         reconstruction_training_operation, self.reconstruction_loss, 
                         self.reconstruction_loss_summary], 
                     feed_dict={
@@ -398,13 +423,13 @@ class GenerativeAdversarialNetwork():
                             batch_number * self.batch_size : \
                             (batch_number + 1) * self.batch_size]
                     })
-#                 writer.add_summary(adv_loss_sum, current_epoch)
+            writer.add_summary(adv_loss_sum, current_epoch)
             writer.add_summary(rec_loss_sum, current_epoch)
             writer.flush()
 
             if (current_epoch % epoch_reporting_interval == 0):
-                print("Training epoch: {}; Reconstruction Loss: {}"
-                      .format(current_epoch, rec_loss))
+                print("Training epoch: {}; " +                       "Reconstruction loss: {}" +                       "Adversarial loss {}"
+                      .format(current_epoch, rec_loss, adv_loss))
         
         writer.close()
 
