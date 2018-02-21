@@ -62,8 +62,8 @@ def browser_notify(message):
 # In[ ]:
 
 
-text_file_path = "data/c50-articles-dev.txt"
-label_file_path = "data/c50-labels-dev.txt"
+text_file_path = "data/c50-articles.txt"
+label_file_path = "data/c50-labels.txt"
 
 
 # ### Conversion of texts into integer sequences
@@ -375,7 +375,7 @@ class GenerativeAdversarialNetwork():
 
         epoch_reporting_interval = 1
         self.training_examples_size = DATA_SIZE
-        training_epochs = 100
+        training_epochs = 30
         num_batches = self.training_examples_size // self.batch_size
         print("Training - texts shape: {}; labels shape {}"
               .format(padded_sequences[:self.training_examples_size].shape, 
@@ -497,7 +497,7 @@ word_lists = map(generate_sentence, generated_sequences)
 # In[ ]:
 
 
-output_file_path = "data/generated_sentences.txt" + dt.now().strftime("%Y%m%d-%H%M%S")
+output_file_path = "output/generated_sentences_{}.txt".format(dt.now().strftime("%Y%m%d-%H%M%S"))
 with open(output_file_path, 'w') as output_file:
     for disjoint_sentence in word_lists:
         output_file.write(" ".join(disjoint_sentence) + "\n")
