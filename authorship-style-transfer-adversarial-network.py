@@ -62,8 +62,8 @@ def browser_notify(message):
 # In[ ]:
 
 
-text_file_path = "data/c50-articles-dev.txt"
-label_file_path = "data/c50-labels-dev.txt"
+text_file_path = "data/c50-articles.txt"
+label_file_path = "data/c50-labels.txt"
 
 
 # ### Conversion of texts into integer sequences
@@ -206,6 +206,8 @@ class GenerativeAdversarialNetwork():
         self.style_embedding_size = 128
         self.content_embedding_size = 128
         self.batch_size = 100
+        self.start_token = tf.constant(SOS_INDEX)
+        self.end_token = tf.constant(EOS_INDEX)
     
     def get_sentence_representation(self, embedded_sequence):
 
@@ -269,8 +271,9 @@ class GenerativeAdversarialNetwork():
 
         return softmax_output
     
+    
     def generate_output_sequence(self, embedded_sequence, style_representation, 
-                                 content_representation):
+                                 content_representation, word_embeddings):
         
         generative_embedding_dense = tf.concat(
             values=[style_representation, content_representation], axis=1)
@@ -291,24 +294,56 @@ class GenerativeAdversarialNetwork():
             x=tf.ones([self.batch_size], dtype=tf.int32))
         print("batch_sequence_lengths: {}".format(batch_sequence_lengths))
         
+        sos_tokens = tf.scalar_mul(
+            scalar=self.start_token, 
+            x=tf.ones([self.batch_size], dtype=tf.int32))
+        print("sos_tokens: {}".format(sos_tokens))
         
-        # Helper
-        training_helper = tf.contrib.seq2seq.TrainingHelper(
-            inputs=embedded_sequence, sequence_length=batch_sequence_lengths)
+        
+        def get_training_decoder_output():
+            training_helper = tf.contrib.seq2seq.TrainingHelper(
+                inputs=embedded_sequence, 
+                sequence_length=batch_sequence_lengths)
+            
+            training_decoder = tf.contrib.seq2seq.BasicDecoder(
+                cell=decoder_cell, helper=training_helper, 
+                initial_state=generative_embedding,
+                output_layer=tf.layers.Dense(
+                    units=VOCAB_SIZE, activation=tf.nn.relu))
 
-        # Decoder
-        generative_decoder = tf.contrib.seq2seq.BasicDecoder(
-            cell=decoder_cell, helper=training_helper, 
-            initial_state=generative_embedding,
-            output_layer=tf.layers.Dense(
-                units=VOCAB_SIZE, activation=tf.nn.relu))
+            # Dynamic decoding
+            final_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                decoder=training_decoder,
+                maximum_iterations=MAX_SEQUENCE_LENGTH)
+            print("final_decoder_output: {}".format(final_decoder_output))
+            
+            return final_decoder_output
+
+        def get_inference_decoder_output():
+            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+                embedding=word_embeddings, 
+                start_tokens=sos_tokens, 
+                end_token=self.end_token)
+            
+            inference_decoder = tf.contrib.seq2seq.BasicDecoder(
+                cell=decoder_cell, helper=greedy_embedding_helper, 
+                initial_state=generative_embedding,
+                output_layer=tf.layers.Dense(
+                    units=VOCAB_SIZE, activation=tf.nn.relu))
+
+            # Dynamic decoding
+            final_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                decoder=inference_decoder,
+                maximum_iterations=MAX_SEQUENCE_LENGTH)
+            print("final_decoder_output: {}".format(final_decoder_output))
+            
+            return final_decoder_output
         
-        # Dynamic decoding
-        final_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-            decoder=generative_decoder,
-            maximum_iterations=MAX_SEQUENCE_LENGTH)
-        print("final_decoder_output: {}".format(final_decoder_output))
-        
+        final_decoder_output = tf.cond(
+            pred=self.training_phase, 
+            true_fn=get_training_decoder_output, 
+            false_fn=get_inference_decoder_output)
+
         softmax_prediction = tf.nn.softmax(logits=final_decoder_output.rnn_output)
 
         return softmax_prediction
@@ -325,6 +360,10 @@ class GenerativeAdversarialNetwork():
             dtype=tf.float32, shape=[self.batch_size, NUM_LABELS], 
             name="input_label")
         print("input_label: {}".format(self.input_label))
+        
+        self.training_phase = tf.placeholder(
+            dtype=tf.bool, name="training_phase")
+        print("training_phase: {}".format(self.training_phase))
 
         # word embeddings matrix
         word_embeddings = tf.get_variable(
@@ -337,7 +376,7 @@ class GenerativeAdversarialNetwork():
         print("word_embeddings: {}".format(word_embeddings))
         
         embedded_sequence = tf.nn.embedding_lookup(
-            word_embeddings, self.input_sequence, name="embedded_sequence")
+            params=word_embeddings, ids=self.input_sequence, name="embedded_sequence")
         print("embedded_sequence: {}".format(embedded_sequence))
 
         # get sentence representation
@@ -369,7 +408,8 @@ class GenerativeAdversarialNetwork():
         
         # generate new sentence
         self.generated_logits = self.generate_output_sequence(
-            embedded_sequence, style_representation, content_representation)
+            embedded_sequence, style_representation, content_representation,
+            word_embeddings)
         print("generated_logits: {}".format(self.generated_logits))
         
         self.reconstruction_loss = tf.contrib.seq2seq.sequence_loss(
@@ -422,7 +462,8 @@ class GenerativeAdversarialNetwork():
                             (batch_number + 1) * self.batch_size],
                         self.input_label: one_hot_labels[
                             batch_number * self.batch_size : \
-                            (batch_number + 1) * self.batch_size]
+                            (batch_number + 1) * self.batch_size],
+                        self.training_phase: True
                     })
             writer.add_summary(adv_loss_sum, current_epoch)
             writer.add_summary(rec_loss_sum, current_epoch)
@@ -449,7 +490,8 @@ class GenerativeAdversarialNetwork():
                         (batch_number + 1) * self.batch_size],
                     self.input_label: one_hot_labels[
                         batch_number * self.batch_size : \
-                        (batch_number + 1) * self.batch_size]
+                        (batch_number + 1) * self.batch_size],
+                    self.training_phase: False
                 })
             generated_sequences.extend(generated_sequences_batch)
 
