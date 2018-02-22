@@ -62,8 +62,8 @@ def browser_notify(message):
 # In[ ]:
 
 
-text_file_path = "data/c50-articles.txt"
-label_file_path = "data/c50-labels.txt"
+text_file_path = "data/c50-articles-dev.txt"
+label_file_path = "data/c50-labels-dev.txt"
 
 
 # ### Conversion of texts into integer sequences
@@ -171,7 +171,7 @@ def get_word2vec_embedding(word, model, dimensions):
 # In[ ]:
 
 
-pretrained_embedding_matrix = np.zeros((VOCAB_SIZE, EMBEDDING_SIZE), dtype=float)
+pretrained_embedding_matrix = np.random.rand(VOCAB_SIZE, EMBEDDING_SIZE)
 
 
 # In[ ]:
@@ -291,6 +291,7 @@ class GenerativeAdversarialNetwork():
             x=tf.ones([self.batch_size], dtype=tf.int32))
         print("batch_sequence_lengths: {}".format(batch_sequence_lengths))
         
+        
         # Helper
         training_helper = tf.contrib.seq2seq.TrainingHelper(
             inputs=embedded_sequence, sequence_length=batch_sequence_lengths)
@@ -401,7 +402,7 @@ class GenerativeAdversarialNetwork():
 
         epoch_reporting_interval = 1
         self.training_examples_size = DATA_SIZE
-        training_epochs = 30
+        training_epochs = 3
         num_batches = self.training_examples_size // self.batch_size
         print("Training - texts shape: {}; labels shape {}"
               .format(padded_sequences[:self.training_examples_size].shape, 
@@ -428,8 +429,7 @@ class GenerativeAdversarialNetwork():
             writer.flush()
 
             if (current_epoch % epoch_reporting_interval == 0):
-                print("Training epoch: {}; " +                       "Reconstruction loss: {}" +                       "Adversarial loss {}"
-                      .format(current_epoch, rec_loss, adv_loss))
+                print("Training epoch: {}; Reconstruction loss: {}; Adversarial loss {}"                      .format(current_epoch, rec_loss, adv_loss))
         
         writer.close()
 
