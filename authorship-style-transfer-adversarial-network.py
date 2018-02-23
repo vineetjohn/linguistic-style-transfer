@@ -198,228 +198,231 @@ class GenerativeAdversarialNetwork():
     
     def get_sentence_representation(self, embedded_sequence):
 
-        lstm_cell_fw = tf.contrib.rnn.DropoutWrapper(
-            cell=tf.contrib.rnn.LSTMCell(num_units=128),
-            input_keep_prob=0.75,
-            output_keep_prob=0.75,
-            state_keep_prob=0.75
-        )
+        with tf.name_scope('sentence_representation'):
+            lstm_cell_fw = tf.contrib.rnn.DropoutWrapper(
+                cell=tf.contrib.rnn.LSTMCell(num_units=128),
+                input_keep_prob=0.75,
+                output_keep_prob=0.75,
+                state_keep_prob=0.75
+            )
 
-        lstm_cell_bw = tf.contrib.rnn.DropoutWrapper(
-            cell=tf.contrib.rnn.LSTMCell(num_units=128),
-            input_keep_prob=0.75,
-            output_keep_prob=0.75,
-            state_keep_prob=0.75
-        )
+            lstm_cell_bw = tf.contrib.rnn.DropoutWrapper(
+                cell=tf.contrib.rnn.LSTMCell(num_units=128),
+                input_keep_prob=0.75,
+                output_keep_prob=0.75,
+                state_keep_prob=0.75
+            )
 
-        _, rnn_states = tf.nn.bidirectional_dynamic_rnn(
-            cell_fw=lstm_cell_fw, cell_bw=lstm_cell_bw, 
-            inputs=embedded_sequence, 
-            sequence_length=self.sequence_lengths,
-            dtype=tf.float32, time_major=False)
+            _, rnn_states = tf.nn.bidirectional_dynamic_rnn(
+                cell_fw=lstm_cell_fw, cell_bw=lstm_cell_bw, 
+                inputs=embedded_sequence, 
+                sequence_length=self.sequence_lengths,
+                dtype=tf.float32, time_major=False)
 
-        sentence_representation_dense = tf.concat(
-            values=[rnn_states[0].h, rnn_states[1].h], axis=1)
+            sentence_representation_dense = tf.concat(
+                values=[rnn_states[0].h, rnn_states[1].h], axis=1)
 
-        sentence_representation = tf.nn.dropout(
-            x=sentence_representation_dense, keep_prob=0.75, 
-            name="sentence_representation")
+            sentence_representation = tf.nn.dropout(
+                x=sentence_representation_dense, keep_prob=0.75)
 
-        return sentence_representation
+            return sentence_representation
 
     def get_content_representation(self, sentence_representation):
         
-        content_representation_dense = tf.layers.dense(
-            inputs=sentence_representation, units=self.content_embedding_size, 
-            activation=tf.nn.relu)
-        
-        content_representation = tf.nn.dropout(
-            x=content_representation_dense, keep_prob=0.75, 
-            name="content_representation")
+        with tf.name_scope('content_representation'):
+            content_representation_dense = tf.layers.dense(
+                inputs=sentence_representation, units=self.content_embedding_size, 
+                activation=tf.nn.relu, name="content_representation")
 
-        return content_representation
+            content_representation = tf.nn.dropout(
+                x=content_representation_dense, keep_prob=0.75)
+
+            return content_representation
 
     def get_style_representation(self, sentence_representation):
         
-        style_representation_dense = tf.layers.dense(
-            inputs=sentence_representation, units=self.style_embedding_size, 
-            activation=tf.nn.relu)
-        
-        style_representation = tf.nn.dropout(
-            x=style_representation_dense, keep_prob=0.75, 
-            name="style_representation")
+        with tf.name_scope('style_representation'):
+            style_representation_dense = tf.layers.dense(
+                inputs=sentence_representation, units=self.style_embedding_size, 
+                activation=tf.nn.relu, name="style_representation")
+
+            style_representation = tf.nn.dropout(
+                x=style_representation_dense, keep_prob=0.75)
             
-        return style_representation
+            return style_representation
 
     def get_label_prediction(self, content_representation):
 
-        dense_1 = tf.layers.dense(
-            inputs=content_representation, units=NUM_LABELS, 
-            activation=tf.nn.relu)
-        
-        softmax_output = tf.nn.softmax(dense_1, name="label_prediction")
+        with tf.name_scope('label_prediction'):
+            label_projection = tf.layers.dense(
+                inputs=content_representation, units=NUM_LABELS, 
+                activation=tf.nn.relu, name="label_prediction")
 
-        return softmax_output
+            label_prediction = tf.nn.softmax(label_projection)
+
+            return label_prediction
     
     
-    def generate_output_sequence(self, embedded_sequence, style_representation, 
-                                 content_representation, decoder_embeddings):
+    def generate_output_sequence(self, embedded_sequence, generative_embedding, 
+                                 decoder_embeddings):
         
-        generative_embedding_dense = tf.concat(
-            values=[style_representation, content_representation], axis=1)
-        generative_embedding = tf.nn.dropout(
-            x=generative_embedding_dense, keep_prob=0.75,
-            name="generative_embedding")
-        print("generative_embedding: {}".format(generative_embedding))
-        
-        decoder_cell = tf.contrib.rnn.DropoutWrapper(
-            cell=tf.nn.rnn_cell.LSTMCell(
-                num_units=128, state_is_tuple=False),
-            input_keep_prob=0.75,
-            output_keep_prob=0.75,
-            state_keep_prob=0.75
-        )
-        
-        batch_sequence_lengths = tf.scalar_mul(
-            scalar=MAX_SEQUENCE_LENGTH, 
-            x=tf.ones([self.batch_size], dtype=tf.int32))
-#         print("batch_sequence_lengths: {}".format(batch_sequence_lengths))
-        
-        sos_tokens = tf.scalar_mul(
-            scalar=self.start_token, 
-            x=tf.ones([self.batch_size], dtype=tf.int32))
-#         print("sos_tokens: {}".format(sos_tokens))
-        
-        def get_training_decoder_output():
-            training_helper = tf.contrib.seq2seq.TrainingHelper(
-                inputs=embedded_sequence, 
-                sequence_length=batch_sequence_lengths)
-            
-            training_decoder = tf.contrib.seq2seq.BasicDecoder(
-                cell=decoder_cell, helper=training_helper, 
-                initial_state=generative_embedding,
-                output_layer=tf.layers.Dense(
-                    units=VOCAB_SIZE, activation=tf.nn.relu))
+        with tf.name_scope('sequence_decoder'):
+            decoder_cell = tf.contrib.rnn.DropoutWrapper(
+                cell=tf.nn.rnn_cell.LSTMCell(
+                    num_units=128, state_is_tuple=False),
+                input_keep_prob=0.75,
+                output_keep_prob=0.75,
+                state_keep_prob=0.75
+            )
 
-            # Dynamic decoding
-            training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                decoder=training_decoder, impute_finished=True,
-                maximum_iterations=MAX_SEQUENCE_LENGTH)
-            
-            return training_decoder_output
+            def get_training_decoder_output():
+                
+                with tf.name_scope('training_decoder'):
 
-        def get_inference_decoder_output():  
-            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-                embedding=decoder_embeddings, 
-                start_tokens=sos_tokens, 
-                end_token=self.end_token)
+                    batch_sequence_lengths = tf.scalar_mul(
+                        scalar=MAX_SEQUENCE_LENGTH, 
+                        x=tf.ones([self.batch_size], dtype=tf.int32))
 
-            inference_decoder = tf.contrib.seq2seq.BasicDecoder(
-                cell=decoder_cell, helper=greedy_embedding_helper, 
-                initial_state=generative_embedding,
-                output_layer=tf.layers.Dense(
-                    units=VOCAB_SIZE, activation=tf.nn.relu))
+                    training_helper = tf.contrib.seq2seq.TrainingHelper(
+                        inputs=embedded_sequence, 
+                        sequence_length=batch_sequence_lengths)
 
-            # Dynamic decoding
-            inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                decoder=inference_decoder, impute_finished=True, 
-                maximum_iterations=MAX_SEQUENCE_LENGTH)
+                    training_decoder = tf.contrib.seq2seq.BasicDecoder(
+                        cell=decoder_cell, helper=training_helper, 
+                        initial_state=generative_embedding,
+                        output_layer=tf.layers.Dense(
+                            units=VOCAB_SIZE, activation=tf.nn.relu))
+                    training_decoder.initialize(name="training_decoder")
 
-            return inference_decoder_output
-        
-        final_decoder_output = tf.cond(
-            pred=self.training_phase, 
-            true_fn=get_training_decoder_output, 
-            false_fn=get_inference_decoder_output,
-            name="training_inference_conditional")
+                    # Dynamic decoding
+                    training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                        decoder=training_decoder, impute_finished=True,
+                        maximum_iterations=MAX_SEQUENCE_LENGTH)
 
-        sequence_prediction = tf.nn.softmax(
-            logits=final_decoder_output.rnn_output,
-            name="sequence_prediction")
+                    return training_decoder_output
 
-        return sequence_prediction
+            def get_inference_decoder_output():  
+                
+                with tf.name_scope('inference_decoder'):
+                    sos_tokens = tf.scalar_mul(
+                        scalar=self.start_token, 
+                        x=tf.ones([self.batch_size], dtype=tf.int32))
+
+                    greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+                        embedding=decoder_embeddings, 
+                        start_tokens=sos_tokens, 
+                        end_token=self.end_token)
+
+                    inference_decoder = tf.contrib.seq2seq.BasicDecoder(
+                        cell=decoder_cell, helper=greedy_embedding_helper, 
+                        initial_state=generative_embedding,
+                        output_layer=tf.layers.Dense(
+                            units=VOCAB_SIZE, activation=tf.nn.relu))
+                    inference_decoder.initialize(name="inference_decoder")
+
+                    # Dynamic decoding
+                    inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                        decoder=inference_decoder, impute_finished=True, 
+                        maximum_iterations=MAX_SEQUENCE_LENGTH)
+
+                    return inference_decoder_output
+
+            decoder_output = tf.cond(
+                pred=self.training_phase, 
+                true_fn=get_training_decoder_output, 
+                false_fn=get_inference_decoder_output,
+                name="training_inference_conditional")
+
+        return decoder_output
 
 
     def build_model(self):
         
-        with tf.name_scope("input_placeholders"):
-            self.input_sequence = tf.placeholder(
-                dtype=tf.int32, shape=[None, MAX_SEQUENCE_LENGTH], 
-                name="input_sequence")
-            print("input_sequence: {}".format(self.input_sequence))
+        self.input_sequence = tf.placeholder(
+            dtype=tf.int32, shape=[None, MAX_SEQUENCE_LENGTH], 
+            name="input_sequence")
+        print("input_sequence: {}".format(self.input_sequence))
 
-            self.input_label = tf.placeholder(
-                dtype=tf.float32, shape=[None, NUM_LABELS], 
-                name="input_label")
-            print("input_label: {}".format(self.input_label))
+        self.input_label = tf.placeholder(
+            dtype=tf.float32, shape=[None, NUM_LABELS], 
+            name="input_label")
+        print("input_label: {}".format(self.input_label))
 
-            self.sequence_lengths = tf.placeholder(
-                dtype=tf.int32, shape=[None], 
-                name="sequence_lengths")
-            print("sequence_lengths: {}".format(self.sequence_lengths))
+        self.sequence_lengths = tf.placeholder(
+            dtype=tf.int32, shape=[None], 
+            name="sequence_lengths")
+        print("sequence_lengths: {}".format(self.sequence_lengths))
 
-            self.training_phase = tf.placeholder(
-                dtype=tf.bool, name="training_phase")
-            print("training_phase: {}".format(self.training_phase))
+        self.training_phase = tf.placeholder(
+            dtype=tf.bool, name="training_phase")
+        print("training_phase: {}".format(self.training_phase))
         
         self.batch_size = tf.shape(self.input_sequence)[0]
 
         # word embeddings matrix
-        with tf.name_scope("encoder_variables"):
-            encoder_embeddings = tf.get_variable(
-                initializer=encoder_embedding_matrix, dtype=tf.float32, 
-                name="encoder_embeddings")
-            print("encoder_embeddings: {}".format(encoder_embeddings))
-        
-            embedded_sequence = tf.nn.embedding_lookup(
-                params=encoder_embeddings, ids=self.input_sequence, 
-                name="embedded_sequence")
-            print("embedded_sequence: {}".format(embedded_sequence))
+        encoder_embeddings = tf.get_variable(
+            initializer=encoder_embedding_matrix, dtype=tf.float32, 
+            name="encoder_embeddings")
+        print("encoder_embeddings: {}".format(encoder_embeddings))
 
-            # get sentence representation
-            sentence_representation = self.get_sentence_representation(
-                embedded_sequence)
-            print("sentence_representation: {}".format(sentence_representation))
+        embedded_sequence = tf.nn.embedding_lookup(
+            params=encoder_embeddings, ids=self.input_sequence, 
+            name="embedded_sequence")
+        print("embedded_sequence: {}".format(embedded_sequence))
 
-            # get content representation
-            content_representation = self.get_content_representation(
-                sentence_representation)
-            print("content_representation: {}".format(content_representation))
+        # get sentence representation
+        sentence_representation = self.get_sentence_representation(
+            embedded_sequence)
+        print("sentence_representation: {}".format(sentence_representation))
 
-            # get style representation
-            style_representation = self.get_style_representation(
-                sentence_representation)
-            print("style_representation: {}".format(style_representation))
+        # get content representation
+        content_representation = self.get_content_representation(
+            sentence_representation)
+        print("content_representation: {}".format(content_representation))
+
+        # get style representation
+        style_representation = self.get_style_representation(
+            sentence_representation)
+        print("style_representation: {}".format(style_representation))
 
         # use content representation to predict a label
-        with tf.name_scope("adversarial_discriminator_variables"):
-            self.label_prediction = self.get_label_prediction(
-                content_representation)
-            print("label_prediction: {}".format(self.label_prediction))
+        self.label_prediction = self.get_label_prediction(
+            content_representation)
+        print("label_prediction: {}".format(self.label_prediction))
 
-            self.adversarial_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_label, logits=self.label_prediction)
-            print("adversarial_loss: {}".format(self.adversarial_loss))
+        self.adversarial_loss = tf.losses.softmax_cross_entropy(
+            onehot_labels=self.input_label, logits=self.label_prediction)
+        print("adversarial_loss: {}".format(self.adversarial_loss))
         
         # generate new sentence
-        with tf.name_scope("decoder_variables"):
-            decoder_embeddings = tf.get_variable(
-                initializer=decoder_embedding_matrix, dtype=tf.float32, 
-                name="decoder_embeddings")
-            print("decoder_embeddings: {}".format(decoder_embeddings))
+        with tf.name_scope('generative_embedding'):
+            generative_embedding_dense = tf.concat(
+                values=[style_representation, content_representation], axis=1)
 
-            self.generated_logits = self.generate_output_sequence(
-                embedded_sequence, style_representation, content_representation,
-                decoder_embeddings)
-            print("generated_logits: {}".format(self.generated_logits))
+            generative_embedding = tf.nn.dropout(
+                x=generative_embedding_dense, keep_prob=0.75)
+            print("generative_embedding: {}".format(generative_embedding))
+        
+        decoder_embeddings = tf.get_variable(
+            initializer=decoder_embedding_matrix, dtype=tf.float32, 
+            name="decoder_embeddings")
+        print("decoder_embeddings: {}".format(decoder_embeddings))
 
+        with tf.name_scope('sequence_prediction'):
+            decoder_output = self.generate_output_sequence(
+                embedded_sequence, generative_embedding, decoder_embeddings)
+
+            self.sequence_prediction = tf.nn.softmax(
+                logits=decoder_output.rnn_output,
+                name="sequence_prediction")
+
+        with tf.name_scope('reconstruction_loss'):
             output_sequence_mask = tf.sequence_mask(
                 lengths=self.sequence_lengths, maxlen=MAX_SEQUENCE_LENGTH, 
                 dtype=tf.float32)
-            print("output_sequence_mask: {}".format(output_sequence_mask))
 
             self.reconstruction_loss = tf.contrib.seq2seq.sequence_loss(
-                logits=self.generated_logits, targets=self.input_sequence, 
+                logits=self.sequence_prediction, targets=self.input_sequence, 
                 weights=output_sequence_mask)
             print("reconstruction_loss: {}".format(self.reconstruction_loss))
         
@@ -515,7 +518,7 @@ class GenerativeAdversarialNetwork():
         
         generated_sequences = list()
         
-        samples_size = 100
+        samples_size = 10
         batch_size = 100
         num_batches = samples_size // batch_size
         
@@ -530,7 +533,7 @@ class GenerativeAdversarialNetwork():
             
             generated_sequences_batch = self.run_batch(
                 start_index=start_index, end_index=end_index,
-                training_phase=False, fetches=self.generated_logits)
+                training_phase=False, fetches=self.sequence_prediction)
             
             generated_sequences.extend(generated_sequences_batch)
 
@@ -596,10 +599,11 @@ def generate_sentence(floating_index_sequence):
 
 word_lists = list(map(generate_sentence, generated_sequences))
 
+
+print(list(map(lambda x: len(list(x)), word_lists)))
 for word_list in word_lists:
     print(len(list(word_list)))
     print(" ".join(word_list))
-# print(list(map(lambda x: len(list(x)), word_lists)))
 # print(list(map(lambda x: " ".join(x), word_lists)))
 
 
