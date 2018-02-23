@@ -21,12 +21,14 @@ os.environ["CUDA_VISIBLE_DEVICES"]="0"
 # In[ ]:
 
 
+import random
 import numpy as np
 import tensorflow as tf
 import gensim
 
 from datetime import datetime as dt
 from tensorflow.python.client import device_lib
+from nltk.translate.bleu_score import corpus_bleu
 
 
 # In[ ]:
@@ -283,23 +285,25 @@ class GenerativeAdversarialNetwork():
                         scalar=MAX_SEQUENCE_LENGTH, 
                         x=tf.ones([self.batch_size], dtype=tf.int32))
 
-                    training_helper = tf.contrib.seq2seq.TrainingHelper(
-                        inputs=embedded_sequence, 
-                        sequence_length=batch_sequence_lengths)
+                training_helper = tf.contrib.seq2seq.TrainingHelper(
+                    inputs=embedded_sequence, 
+                    sequence_length=batch_sequence_lengths)
+                training_helper.initialize(name="training_decoder")
 
-                    training_decoder = tf.contrib.seq2seq.BasicDecoder(
-                        cell=decoder_cell, helper=training_helper, 
-                        initial_state=generative_embedding,
-                        output_layer=tf.layers.Dense(
-                            units=VOCAB_SIZE, activation=tf.nn.relu))
-                    training_decoder.initialize(name="training_decoder")
+                training_decoder = tf.contrib.seq2seq.BasicDecoder(
+                    cell=decoder_cell, helper=training_helper, 
+                    initial_state=generative_embedding,
+                    output_layer=tf.layers.Dense(
+                        units=VOCAB_SIZE, activation=tf.nn.relu))
+                training_decoder.initialize(name="training_decoder")
 
-                    # Dynamic decoding
-                    training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                        decoder=training_decoder, impute_finished=True,
-                        maximum_iterations=MAX_SEQUENCE_LENGTH)
+                # Dynamic decoding
+                training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                    decoder=training_decoder, impute_finished=True,
+                    maximum_iterations=MAX_SEQUENCE_LENGTH, 
+                    scope="training_decoder")
 
-                    return training_decoder_output
+                return training_decoder_output
 
             def get_inference_decoder_output():  
                 
@@ -308,24 +312,26 @@ class GenerativeAdversarialNetwork():
                         scalar=self.start_token, 
                         x=tf.ones([self.batch_size], dtype=tf.int32))
 
-                    greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-                        embedding=decoder_embeddings, 
-                        start_tokens=sos_tokens, 
-                        end_token=self.end_token)
+                greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+                    embedding=decoder_embeddings, 
+                    start_tokens=sos_tokens, 
+                    end_token=self.end_token)
+                greedy_embedding_helper.initialize(name="inference_decoder")
 
-                    inference_decoder = tf.contrib.seq2seq.BasicDecoder(
-                        cell=decoder_cell, helper=greedy_embedding_helper, 
-                        initial_state=generative_embedding,
-                        output_layer=tf.layers.Dense(
-                            units=VOCAB_SIZE, activation=tf.nn.relu))
-                    inference_decoder.initialize(name="inference_decoder")
+                inference_decoder = tf.contrib.seq2seq.BasicDecoder(
+                    cell=decoder_cell, helper=greedy_embedding_helper, 
+                    initial_state=generative_embedding,
+                    output_layer=tf.layers.Dense(
+                        units=VOCAB_SIZE, activation=tf.nn.relu))
+                inference_decoder.initialize(name="inference_decoder")
 
-                    # Dynamic decoding
-                    inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                        decoder=inference_decoder, impute_finished=True, 
-                        maximum_iterations=MAX_SEQUENCE_LENGTH)
+                # Dynamic decoding
+                inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                    decoder=inference_decoder, impute_finished=True, 
+                    maximum_iterations=MAX_SEQUENCE_LENGTH, 
+                    scope="inference_decoder")
 
-                    return inference_decoder_output
+                return inference_decoder_output
 
             decoder_output = tf.cond(
                 pred=self.training_phase, 
@@ -433,10 +439,10 @@ class GenerativeAdversarialNetwork():
         self.reconstruction_loss_summary = tf.summary.scalar(
             tensor=self.reconstruction_loss, name="reconstruction_loss")
         
-    def get_batch_indices(self, batch_size, batch_number, data_limit):
+    def get_batch_indices(self, offset, batch_size, batch_number, data_limit):
         
-        start_index = batch_number * batch_size
-        end_index = (batch_number + 1) * batch_size
+        start_index = offset + (batch_number * batch_size)
+        end_index = offset + ((batch_number + 1) * batch_size)
 
         end_index = data_limit if end_index > data_limit else end_index
 
@@ -488,8 +494,8 @@ class GenerativeAdversarialNetwork():
             for batch_number in range(num_batches + 1):
                 
                 (start_index, end_index) = self.get_batch_indices(
-                    batch_size=batch_size, batch_number=batch_number, 
-                    data_limit=DATA_SIZE)
+                    offset=0, batch_size=batch_size, 
+                    batch_number=batch_number, data_limit=DATA_SIZE)
                 
                 if start_index == end_index:
                     break
@@ -514,19 +520,17 @@ class GenerativeAdversarialNetwork():
         
         writer.close()
 
-    def infer(self, sess):
+    def infer(self, sess, offset, samples_size):
         
         generated_sequences = list()
-        
-        samples_size = 10
         batch_size = 100
         num_batches = samples_size // batch_size
         
         for batch_number in range(num_batches + 1):
 
             (start_index, end_index) = self.get_batch_indices(
-                batch_size=batch_size, batch_number=batch_number, 
-                data_limit=samples_size)
+                offset=offset, batch_size=batch_size, 
+                batch_number=batch_number, data_limit=(offset + samples_size))
 
             if start_index == end_index:
                 break
@@ -572,39 +576,74 @@ gan.train(sess)
 # In[ ]:
 
 
-generated_sequences = gan.infer(sess)
+inference_set_size = 10
+offset = random.randint(0, (DATA_SIZE - 1) - inference_set_size)
+print("offset: {} {}".format(offset, (offset + inference_set_size)))
+
+actual_sequences = integer_text_sequences[offset : (offset + inference_set_size)]
+# print(actual_sequences)
+generated_sequences = gan.infer(sess, offset, inference_set_size)
 
 
 # In[ ]:
 
 
 index_word_inverse_map = {v: k for k, v in text_tokenizer.word_index.items()}
+bleu_score_weights = {
+    1: (1.0, 0.0, 0.0, 0.0),
+    2: (0.5, 0.5, 0.0, 0.0),
+    3: (0.34, 0.33, 0.33, 0.0),
+    4: (0.25, 0.25, 0.25, 0.25),
+}
 
 def generate_word(word_embedding):
     return np.argmax(word_embedding)
 
-def generate_sentence(floating_index_sequence):
-    word_indices = map(generate_word, floating_index_sequence)
-    word_indices = list(filter(lambda x: x > 0, word_indices))
-#     print(word_indices)
-    
-    words = list(map(lambda x: index_word_inverse_map[x], word_indices))
-#     print(words)
-    
+def generate_sentence_from_indices(index_sequence):
+    words = list(map(lambda x: index_word_inverse_map[x], index_sequence))
     return words
+
+def generate_sentence_from_logits(floating_index_sequence):
+    word_indices = map(generate_word, floating_index_sequence)
+    word_indices = list(filter(lambda x: x > 0, word_indices))    
+    words = list(map(lambda x: index_word_inverse_map[x], word_indices))
+    return words
+
+def get_corpus_bleu_scores(actual_word_lists, generated_word_lists):
+    bleu_scores = dict()
+    for i in range(1, 5):
+        bleu_scores[i] = corpus_bleu(
+            list_of_references=actual_word_lists, 
+            hypotheses=generated_word_lists,
+            weights=bleu_score_weights[i])
+        
+    return bleu_scores
 
 
 # In[ ]:
 
 
-word_lists = list(map(generate_sentence, generated_sequences))
+actual_word_lists = list(map(generate_sentence_from_indices, actual_sequences))
+generated_word_lists = list(map(generate_sentence_from_logits, generated_sequences))
+# print(actual_word_lists)
 
+bleu_scores = get_corpus_bleu_scores(
+    list(map(lambda x: [x], actual_word_lists)), 
+    generated_word_lists)
+print("bleu_scores: {}".format(bleu_scores))
 
-print(list(map(lambda x: len(list(x)), word_lists)))
-for word_list in word_lists:
-    print(len(list(word_list)))
-    print(" ".join(word_list))
-# print(list(map(lambda x: " ".join(x), word_lists)))
+actual_sentences = list()
+generated_sentences = list()
+print(list(map(lambda x: len(list(x)), generated_word_lists)))
+for i in range(inference_set_size):
+#     print(len(list(word_list)))
+    actual_sentence = " ".join(actual_word_lists[i][1:])
+    print("actual_sentence: {}".format(actual_sentence))
+    actual_sentences.append(actual_sentence)
+    
+    generated_sentence = " ".join(generated_word_lists[i])
+    print("generated_sentence: {}".format(generated_sentence))
+    generated_sentences.append(generated_sentence)
 
 
 # In[ ]:
@@ -612,6 +651,6 @@ for word_list in word_lists:
 
 # output_file_path = "output/generated_sentences_{}.txt".format(dt.now().strftime("%Y%m%d-%H%M%S"))
 # with open(output_file_path, 'w') as output_file:
-#     for disjoint_sentence in word_lists:
-#         output_file.write(" ".join(disjoint_sentence) + "\n")
+#     for disjoint_sentence in generated_sentences:
+#         output_file.writelines(generated_sentences)
 
