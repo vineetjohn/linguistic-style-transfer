@@ -3,6 +3,7 @@ data/
 output/
 tensorflow_logs/
 word-embeddings/
+.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
