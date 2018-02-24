@@ -14,13 +14,6 @@ os.environ["CUDA_VISIBLE_DEVICES"]="0"
 # In[ ]:
 
 
-# !/usr/local/cuda-8.0/extras/demo_suite/deviceQuery
-# !nvidia-smi
-
-
-# In[ ]:
-
-
 import random
 import numpy as np
 import tensorflow as tf
@@ -34,12 +27,15 @@ from nltk.translate.bleu_score import corpus_bleu
 # In[ ]:
 
 
-def get_available_gpus():
-    """ Get available GPU devices info. """
-    local_device_protos = device_lib.list_local_devices()
-    return [x.name for x in local_device_protos if x.device_type == 'GPU']
+tf.reset_default_graph()
 
-print(get_available_gpus())
+
+# In[ ]:
+
+
+config_proto = tf.ConfigProto()
+config_proto.gpu_options.allow_growth=True  
+sess = tf.Session(config=config_proto)
 
 
 # ---
@@ -171,13 +167,13 @@ decoder_embedding_matrix = np.random.rand(VOCAB_SIZE + 1, EMBEDDING_SIZE).astype
 #     decoder_embedding_matrix[i] = get_word2vec_embedding(key, wv_model_1, 300)
 #     i += 1
 #     if i >= VOCAB_SIZE:
-#         break    
+#         break
+# del wv_model_1
 
 
 # In[ ]:
 
 
-print(encoder_embedding_matrix.dtype, decoder_embedding_matrix.dtype)
 print(encoder_embedding_matrix.shape, decoder_embedding_matrix.shape)
 
 
@@ -186,6 +182,8 @@ print(encoder_embedding_matrix.shape, decoder_embedding_matrix.shape)
 # ## Deep Learning Model
 
 # ### Setup Instructions
+
+# ### Train Network
 
 # In[ ]:
 
@@ -387,9 +385,9 @@ class GenerativeAdversarialNetwork():
         print("content_representation: {}".format(content_representation))
 
         # get style representation
-        style_representation = self.get_style_representation(
+        self.style_representation = self.get_style_representation(
             sentence_representation)
-        print("style_representation: {}".format(style_representation))
+        print("style_representation: {}".format(self.style_representation))
 
         # use content representation to predict a label
         self.label_prediction = self.get_label_prediction(
@@ -403,7 +401,7 @@ class GenerativeAdversarialNetwork():
         # generate new sentence
         with tf.name_scope('generative_embedding'):
             generative_embedding_dense = tf.concat(
-                values=[style_representation, content_representation], axis=1)
+                values=[self.style_representation, content_representation], axis=1)
 
             generative_embedding = tf.nn.dropout(
                 x=generative_embedding_dense, keep_prob=0.75)
@@ -434,10 +432,10 @@ class GenerativeAdversarialNetwork():
         
         # loss summaries for tensorboard logging
         self.adversarial_loss_summary = tf.summary.scalar(
-            tensor=self.adversarial_loss, name="adversarial_loss")
+            tensor=self.adversarial_loss, name="adversarial_loss_summary")
 
         self.reconstruction_loss_summary = tf.summary.scalar(
-            tensor=self.reconstruction_loss, name="reconstruction_loss")
+            tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         
     def get_batch_indices(self, offset, batch_size, batch_number, data_limit):
         
@@ -491,6 +489,7 @@ class GenerativeAdversarialNetwork():
                       one_hot_labels[:self.training_examples_size].shape))
 
         for current_epoch in range(1, training_epochs + 1):
+            self.all_style_representations = list()
             for batch_number in range(num_batches + 1):
                 
                 (start_index, end_index) = self.get_batch_indices(
@@ -505,11 +504,15 @@ class GenerativeAdversarialNetwork():
                            self.adversarial_loss_summary, 
                            reconstruction_training_operation, 
                            self.reconstruction_loss, 
-                           self.reconstruction_loss_summary]
+                           self.reconstruction_loss_summary, 
+                           self.style_representation]
                 
-                _, adv_loss, adv_loss_sum, _, rec_loss, rec_loss_sum = self.run_batch(
-                    start_index=start_index, end_index=end_index, training_phase=True, 
+                _, adv_loss, adv_loss_sum, _, rec_loss,                 rec_loss_sum, style_embeddings = self.run_batch(
+                    start_index=start_index, end_index=end_index, 
+                    training_phase=True, 
                     fetches=fetches)
+                
+                self.all_style_representations.extend(style_embeddings)
                     
             writer.add_summary(adv_loss_sum, current_epoch)
             writer.add_summary(rec_loss_sum, current_epoch)
@@ -544,27 +547,11 @@ class GenerativeAdversarialNetwork():
         return generated_sequences
 
 
-# ### Train Network
-
-# In[ ]:
-
-
-tf.reset_default_graph()
-
-
 # In[ ]:
 
 
 gan = GenerativeAdversarialNetwork()
 gan.build_model()
-
-
-# In[ ]:
-
-
-config_proto = tf.ConfigProto()
-config_proto.gpu_options.allow_growth=True  
-sess = tf.Session(config=config_proto)
 
 
 # In[ ]:
@@ -653,4 +640,28 @@ for i in range(inference_set_size):
 # with open(output_file_path, 'w') as output_file:
 #     for disjoint_sentence in generated_sentences:
 #         output_file.writelines(generated_sentences)
+
+
+# In[ ]:
+
+
+style_embeddings = np.asarray(gan.all_style_representations)
+print("style_embeddings_shape: {}".format(style_embeddings.shape))
+
+
+# In[ ]:
+
+
+all_author_embeddings = dict()
+for i in range(DATA_SIZE):
+    author_label = label_sequences[i][0]
+    if author_label not in all_author_embeddings:
+        all_author_embeddings[author_label] = list()
+    all_author_embeddings[author_label].append(style_embeddings[i])
+
+average_author_embeddings = dict()
+for author_label in all_author_embeddings:
+    average_author_embeddings[author_label] = np.mean(all_author_embeddings[author_label], axis=0)
+
+# print(average_author_embeddings)
 
