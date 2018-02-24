@@ -55,10 +55,12 @@ if DEV_MODE:
     text_file_path = "data/c50-articles-dev.txt"
     label_file_path = "data/c50-labels-dev.txt"
     training_epochs = 3
+    VOCAB_SIZE = 1000
 else:
     text_file_path = "data/c50-articles.txt"
     label_file_path = "data/c50-labels.txt"
     training_epochs = 50
+    VOCAB_SIZE = 10000
 
 
 # ### Conversion of texts into integer sequences
@@ -66,7 +68,6 @@ else:
 # In[ ]:
 
 
-VOCAB_SIZE = 1000
 EMBEDDING_SIZE = 300
 
 
@@ -201,36 +202,33 @@ print(encoder_embedding_matrix.shape, decoder_embedding_matrix.shape)
 class GenerativeAdversarialNetwork():
 
     def __init__(self):
-        self.style_embedding_size = 128
-        self.content_embedding_size = 128
-        self.start_token = tf.constant(SOS_INDEX)
-        self.end_token = tf.constant(EOS_INDEX)
+        self.batch_size = 100
+        self.style_embedding_size = 512
+        self.content_embedding_size = 512
     
     def get_sentence_representation(self, embedded_sequence):
 
         with tf.name_scope('sentence_representation'):
             lstm_cell_fw = tf.contrib.rnn.DropoutWrapper(
-                cell=tf.contrib.rnn.LSTMCell(num_units=128),
+                cell=tf.contrib.rnn.BasicLSTMCell(num_units=256),
                 input_keep_prob=0.75,
                 output_keep_prob=0.75,
-                state_keep_prob=0.75
-            )
+                state_keep_prob=0.75)
 
             lstm_cell_bw = tf.contrib.rnn.DropoutWrapper(
-                cell=tf.contrib.rnn.LSTMCell(num_units=128),
+                cell=tf.contrib.rnn.BasicLSTMCell(num_units=256),
                 input_keep_prob=0.75,
                 output_keep_prob=0.75,
-                state_keep_prob=0.75
-            )
+                state_keep_prob=0.75)
 
-            _, rnn_states = tf.nn.bidirectional_dynamic_rnn(
+            _, encoder_states = tf.nn.bidirectional_dynamic_rnn(
                 cell_fw=lstm_cell_fw, cell_bw=lstm_cell_bw, 
-                inputs=embedded_sequence, 
+                inputs=embedded_sequence,
                 sequence_length=self.sequence_lengths,
-                dtype=tf.float32, time_major=False)
+                dtype=tf.float32)
 
             sentence_representation_dense = tf.concat(
-                values=[rnn_states[0].h, rnn_states[1].h], axis=1)
+                values=[encoder_states[0].h, encoder_states[1].h], axis=1)
 
             sentence_representation = tf.nn.dropout(
                 x=sentence_representation_dense, keep_prob=0.75)
@@ -276,117 +274,104 @@ class GenerativeAdversarialNetwork():
     def generate_output_sequence(self, embedded_sequence, generative_embedding, 
                                  decoder_embeddings):
         
-        with tf.name_scope('sequence_decoder'):
+        
+        def get_training_decoder_output():
+
             decoder_cell = tf.contrib.rnn.DropoutWrapper(
-                cell=tf.nn.rnn_cell.LSTMCell(
-                    num_units=128, state_is_tuple=False),
+                cell=tf.nn.rnn_cell.BasicLSTMCell(
+                    num_units=256, state_is_tuple=False),
                 input_keep_prob=0.75,
                 output_keep_prob=0.75,
-                state_keep_prob=0.75
-            )
+                state_keep_prob=0.75)
+            
+            training_helper = tf.contrib.seq2seq.TrainingHelper(
+                inputs=embedded_sequence, 
+                sequence_length=tf.fill([self.batch_size], MAX_SEQUENCE_LENGTH))
 
-            def get_training_decoder_output():
-                
-                with tf.name_scope('training_decoder'):
+            training_decoder = tf.contrib.seq2seq.BasicDecoder(
+                cell=decoder_cell, helper=training_helper, 
+                initial_state=generative_embedding,
+                output_layer=tf.layers.Dense(
+                    units=VOCAB_SIZE, activation=tf.nn.relu))
 
-                    batch_sequence_lengths = tf.scalar_mul(
-                        scalar=MAX_SEQUENCE_LENGTH, 
-                        x=tf.ones([self.batch_size], dtype=tf.int32))
+            # Dynamic decoding
+            training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                decoder=training_decoder, impute_finished=True,
+                maximum_iterations=MAX_SEQUENCE_LENGTH)
+            
+            return training_decoder_output
 
-                training_helper = tf.contrib.seq2seq.TrainingHelper(
-                    inputs=embedded_sequence, 
-                    sequence_length=batch_sequence_lengths)
-                training_helper.initialize(name="training_decoder")
+        def get_inference_decoder_output():
 
-                training_decoder = tf.contrib.seq2seq.BasicDecoder(
-                    cell=decoder_cell, helper=training_helper, 
-                    initial_state=generative_embedding,
-                    output_layer=tf.layers.Dense(
-                        units=VOCAB_SIZE, activation=tf.nn.relu))
-                training_decoder.initialize(name="training_decoder")
+            decoder_cell = tf.contrib.rnn.DropoutWrapper(
+                cell=tf.nn.rnn_cell.BasicLSTMCell(
+                    num_units=256, state_is_tuple=False),
+                input_keep_prob=0.75,
+                output_keep_prob=0.75,
+                state_keep_prob=0.75)
 
-                # Dynamic decoding
-                training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                    decoder=training_decoder, impute_finished=True,
-                    maximum_iterations=MAX_SEQUENCE_LENGTH, 
-                    scope="training_decoder")
+            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+                embedding=decoder_embeddings, 
+                start_tokens=tf.fill([self.batch_size], SOS_INDEX), 
+                end_token=EOS_INDEX)
 
-                return training_decoder_output
+            inference_decoder = tf.contrib.seq2seq.BasicDecoder(
+                cell=decoder_cell, helper=greedy_embedding_helper, 
+                initial_state=generative_embedding,
+                output_layer=tf.layers.Dense(
+                    units=VOCAB_SIZE, activation=tf.nn.relu))
 
-            def get_inference_decoder_output():  
-                
-                with tf.name_scope('inference_decoder'):
-                    sos_tokens = tf.scalar_mul(
-                        scalar=self.start_token, 
-                        x=tf.ones([self.batch_size], dtype=tf.int32))
+            # Dynamic decoding
+            inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                decoder=inference_decoder, impute_finished=True, 
+                maximum_iterations=MAX_SEQUENCE_LENGTH)
 
-                greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-                    embedding=decoder_embeddings, 
-                    start_tokens=sos_tokens, 
-                    end_token=self.end_token)
-                greedy_embedding_helper.initialize(name="inference_decoder")
+            return inference_decoder_output
+        
+        decoder_output = tf.cond(
+            pred=self.training_phase, 
+            true_fn=get_training_decoder_output, 
+            false_fn=get_inference_decoder_output,
+            name="training_inference_conditional")
 
-                inference_decoder = tf.contrib.seq2seq.BasicDecoder(
-                    cell=decoder_cell, helper=greedy_embedding_helper, 
-                    initial_state=generative_embedding,
-                    output_layer=tf.layers.Dense(
-                        units=VOCAB_SIZE, activation=tf.nn.relu))
-                inference_decoder.initialize(name="inference_decoder")
-
-                # Dynamic decoding
-                inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                    decoder=inference_decoder, impute_finished=True, 
-                    maximum_iterations=MAX_SEQUENCE_LENGTH, 
-                    scope="inference_decoder")
-
-                return inference_decoder_output
-
-            decoder_output = tf.cond(
-                pred=self.training_phase, 
-                true_fn=get_training_decoder_output, 
-                false_fn=get_inference_decoder_output,
-                name="training_inference_conditional")
-
-        return decoder_output
+        return decoder_output.rnn_output
 
 
     def build_model(self):
         
         self.input_sequence = tf.placeholder(
-            dtype=tf.int32, shape=[None, MAX_SEQUENCE_LENGTH], 
+            dtype=tf.int32, shape=[self.batch_size, MAX_SEQUENCE_LENGTH], 
             name="input_sequence")
         print("input_sequence: {}".format(self.input_sequence))
 
         self.input_label = tf.placeholder(
-            dtype=tf.float32, shape=[None, NUM_LABELS], 
+            dtype=tf.float32, shape=[self.batch_size, NUM_LABELS], 
             name="input_label")
         print("input_label: {}".format(self.input_label))
 
         self.sequence_lengths = tf.placeholder(
-            dtype=tf.int32, shape=[None], 
+            dtype=tf.int32, shape=[self.batch_size], 
             name="sequence_lengths")
         print("sequence_lengths: {}".format(self.sequence_lengths))
 
         self.training_phase = tf.placeholder(
             dtype=tf.bool, name="training_phase")
         print("training_phase: {}".format(self.training_phase))
-        
-        self.batch_size = tf.shape(self.input_sequence)[0]
 
         # word embeddings matrix
         encoder_embeddings = tf.get_variable(
-            initializer=encoder_embedding_matrix, dtype=tf.float32, 
+            initializer=encoder_embedding_matrix, dtype=tf.float32,
             name="encoder_embeddings")
         print("encoder_embeddings: {}".format(encoder_embeddings))
 
-        embedded_sequence = tf.nn.embedding_lookup(
+        encoder_embedded_sequence = tf.nn.embedding_lookup(
             params=encoder_embeddings, ids=self.input_sequence, 
-            name="embedded_sequence")
-        print("embedded_sequence: {}".format(embedded_sequence))
+            name="encoder_embedded_sequence")
+        print("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
 
         # get sentence representation
         sentence_representation = self.get_sentence_representation(
-            embedded_sequence)
+            encoder_embedded_sequence)
         print("sentence_representation: {}".format(sentence_representation))
 
         # get content representation
@@ -410,25 +395,31 @@ class GenerativeAdversarialNetwork():
         
         # generate new sentence
         with tf.name_scope('generative_embedding'):
-            generative_embedding_dense = tf.concat(
+            generative_embedding_concatenated = tf.concat(
                 values=[self.style_representation, content_representation], axis=1)
+            
+            generative_embedding_dense = tf.layers.dense(
+                inputs=generative_embedding_concatenated, 
+                units=512, 
+                activation=tf.nn.relu)
 
             generative_embedding = tf.nn.dropout(
                 x=generative_embedding_dense, keep_prob=0.75)
             print("generative_embedding: {}".format(generative_embedding))
         
         decoder_embeddings = tf.get_variable(
-            initializer=decoder_embedding_matrix, dtype=tf.float32, 
+            initializer=decoder_embedding_matrix, dtype=tf.float32,
             name="decoder_embeddings")
         print("decoder_embeddings: {}".format(decoder_embeddings))
+        
+        decoder_embedded_sequence = tf.nn.embedding_lookup(
+            params=decoder_embeddings, ids=self.input_sequence, 
+            name="decoder_embedded_sequence")
+        print("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
         with tf.name_scope('sequence_prediction'):
-            decoder_output = self.generate_output_sequence(
-                embedded_sequence, generative_embedding, decoder_embeddings)
-
-            self.sequence_prediction = tf.nn.softmax(
-                logits=decoder_output.rnn_output,
-                name="sequence_prediction")
+            self.sequence_prediction =                 self.generate_output_sequence(
+                    decoder_embedded_sequence, generative_embedding, decoder_embeddings)
 
         with tf.name_scope('reconstruction_loss'):
             output_sequence_mask = tf.sequence_mask(
@@ -438,6 +429,7 @@ class GenerativeAdversarialNetwork():
             self.reconstruction_loss = tf.contrib.seq2seq.sequence_loss(
                 logits=self.sequence_prediction, targets=self.input_sequence, 
                 weights=output_sequence_mask)
+
             print("reconstruction_loss: {}".format(self.reconstruction_loss))
         
         # loss summaries for tensorboard logging
@@ -491,22 +483,18 @@ class GenerativeAdversarialNetwork():
 
         epoch_reporting_interval = 1
         self.training_examples_size = DATA_SIZE
-        batch_size = 100
-        num_batches = self.training_examples_size // batch_size
+        num_batches = self.training_examples_size // self.batch_size
         print("Training - texts shape: {}; labels shape {}"
               .format(padded_sequences[:self.training_examples_size].shape, 
                       one_hot_labels[:self.training_examples_size].shape))
 
         for current_epoch in range(1, training_epochs + 1):
             self.all_style_representations = list()
-            for batch_number in range(num_batches + 1):
+            for batch_number in range(num_batches):
                 
                 (start_index, end_index) = self.get_batch_indices(
-                    offset=0, batch_size=batch_size, 
+                    offset=0, batch_size=self.batch_size, 
                     batch_number=batch_number, data_limit=DATA_SIZE)
-                
-                if start_index == end_index:
-                    break
                 
                 fetches = [adversarial_training_operation, 
                            self.adversarial_loss, 
@@ -535,13 +523,12 @@ class GenerativeAdversarialNetwork():
     def infer(self, sess, offset, samples_size):
         
         generated_sequences = list()
-        batch_size = 100
-        num_batches = samples_size // batch_size
+        num_batches = samples_size // self.batch_size
         
         for batch_number in range(num_batches + 1):
 
             (start_index, end_index) = self.get_batch_indices(
-                offset=offset, batch_size=batch_size, 
+                offset=offset, batch_size=self.batch_size, 
                 batch_number=batch_number, data_limit=(offset + samples_size))
 
             if start_index == end_index:
@@ -572,9 +559,9 @@ gan.train(sess)
 # In[ ]:
 
 
-inference_set_size = 10
+inference_set_size = 1 * gan.batch_size
 offset = random.randint(0, (DATA_SIZE - 1) - inference_set_size)
-print("offset: {} {}".format(offset, (offset + inference_set_size)))
+print("range: {}-{}".format(offset, (offset + inference_set_size)))
 
 actual_sequences = integer_text_sequences[offset : (offset + inference_set_size)]
 # print(actual_sequences)
@@ -631,10 +618,10 @@ print("bleu_scores: {}".format(bleu_scores))
 actual_sentences = list()
 generated_sentences = list()
 print(list(map(lambda x: len(list(x)), generated_word_lists)))
-for i in range(inference_set_size):
-#     print(len(list(word_list)))
+for i in range(100):
+    print(len(generated_word_lists[i]))
     actual_sentence = " ".join(actual_word_lists[i][1:])
-    print("actual_sentence: {}".format(actual_sentence))
+#     print("actual_sentence: {}".format(actual_sentence))
     actual_sentences.append(actual_sentence)
     
     generated_sentence = " ".join(generated_word_lists[i])
@@ -645,10 +632,11 @@ for i in range(inference_set_size):
 # In[ ]:
 
 
-# output_file_path = "output/generated_sentences_{}.txt".format(dt.now().strftime("%Y%m%d-%H%M%S"))
-# with open(output_file_path, 'w') as output_file:
-#     for disjoint_sentence in generated_sentences:
-#         output_file.writelines(generated_sentences)
+if not DEV_MODE:
+    output_file_path = "output/generated_sentences_{}.txt".format(dt.now().strftime("%Y%m%d-%H%M%S"))
+    with open(output_file_path, 'w') as output_file:
+        for disjoint_sentence in generated_sentences:
+            output_file.writelines(generated_sentences)
 
 
 # In[ ]:
