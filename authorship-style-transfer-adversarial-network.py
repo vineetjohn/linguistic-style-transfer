@@ -27,6 +27,12 @@ from nltk.translate.bleu_score import corpus_bleu
 # In[ ]:
 
 
+DEV_MODE = 1
+
+
+# In[ ]:
+
+
 tf.reset_default_graph()
 
 
@@ -45,8 +51,14 @@ sess = tf.Session(config=config_proto)
 # In[ ]:
 
 
-text_file_path = "data/c50-articles-dev.txt"
-label_file_path = "data/c50-labels-dev.txt"
+if DEV_MODE:
+    text_file_path = "data/c50-articles-dev.txt"
+    label_file_path = "data/c50-labels-dev.txt"
+    training_epochs = 3
+else:
+    text_file_path = "data/c50-articles.txt"
+    label_file_path = "data/c50-labels.txt"
+    training_epochs = 50
 
 
 # ### Conversion of texts into integer sequences
@@ -133,15 +145,6 @@ word_vector_path = "word-embeddings/"
 # In[ ]:
 
 
-# # Google news pretrained vectors
-# wv_model_path = word_vector_path + "GoogleNews-vectors-negative300.bin.gz"
-# wv_model_1 = gensim.models.KeyedVectors.load_word2vec_format(
-#     wv_model_path, binary=True, unicode_errors='ignore')
-
-
-# In[ ]:
-
-
 def get_word2vec_embedding(word, model, dimensions):
 
     vec_rep = np.zeros(dimensions)
@@ -161,14 +164,21 @@ decoder_embedding_matrix = np.random.rand(VOCAB_SIZE + 1, EMBEDDING_SIZE).astype
 # In[ ]:
 
 
-# i = 0
-# for key in text_tokenizer.word_index:
-#     encoder_embedding_matrix[i] = get_word2vec_embedding(key, wv_model_1, 300)
-#     decoder_embedding_matrix[i] = get_word2vec_embedding(key, wv_model_1, 300)
-#     i += 1
-#     if i >= VOCAB_SIZE:
-#         break
-# del wv_model_1
+if not DEV_MODE:
+    # Google news pretrained vectors
+    wv_model_path = word_vector_path + "GoogleNews-vectors-negative300.bin.gz"
+    wv_model_1 = gensim.models.KeyedVectors.load_word2vec_format(
+        wv_model_path, binary=True, unicode_errors='ignore')
+
+    i = 0
+    for key in text_tokenizer.word_index:
+        encoder_embedding_matrix[i] = get_word2vec_embedding(key, wv_model_1, 300)
+        decoder_embedding_matrix[i] = get_word2vec_embedding(key, wv_model_1, 300)
+        i += 1
+        if i >= VOCAB_SIZE:
+            break
+            
+    del wv_model_1
 
 
 # In[ ]:
@@ -481,7 +491,6 @@ class GenerativeAdversarialNetwork():
 
         epoch_reporting_interval = 1
         self.training_examples_size = DATA_SIZE
-        training_epochs = 3
         batch_size = 100
         num_batches = self.training_examples_size // batch_size
         print("Training - texts shape: {}; labels shape {}"
