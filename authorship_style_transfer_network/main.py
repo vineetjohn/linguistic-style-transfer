@@ -49,6 +49,7 @@ def main(argv):
     decoder_embedding_matrix = np.random.rand(vocab_size + 1, EMBEDDING_SIZE).astype('float32')
 
     if not DEV_MODE:
+        print("Loading pretrained embeddings")
         encoder_embedding_matrix, decoder_embedding_matrix = word_embedder.add_word_vectors_to_embeddings(
             word_index, WORD_VECTOR_PATH, encoder_embedding_matrix,
             decoder_embedding_matrix, vocab_size, EMBEDDING_SIZE)
@@ -102,7 +103,7 @@ def main(argv):
     print("style_embeddings_shape: {}".format(style_embeddings.shape))
 
     all_author_embeddings = dict()
-    for i in range(data_size):
+    for i in range(data_size - (data_size % network.batch_size)):
         author_label = label_sequences[i][0]
         if author_label not in all_author_embeddings:
             all_author_embeddings[author_label] = list()
@@ -111,7 +112,7 @@ def main(argv):
     average_author_embeddings = dict()
     for author_label in all_author_embeddings:
         average_author_embeddings[author_label] = np.mean(all_author_embeddings[author_label], axis=0)
-    # print("average_author_embeddings: {}".format(average_author_embeddings))
+    print("average_author_embeddings: {}".format(average_author_embeddings))
 
 
 def get_tensorflow_session():
