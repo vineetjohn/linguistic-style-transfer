@@ -3,7 +3,6 @@
 source $HOME/.pyenv/bin/activate
 
 PROJECT_DIR_PATH="$PWD/$(dirname $0)/"
-echo $PROJECT_DIR_PATH
 cd $PROJECT_DIR_PATH
 
 export PYTHONPATH=$PROJECT_DIR_PATH
