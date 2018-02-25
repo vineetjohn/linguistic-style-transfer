@@ -1,8 +1,9 @@
+import numpy as np
 import gensim
 
 
 def get_word2vec_embedding(word, model, dimensions):
-    vec_rep = None
+    vec_rep = np.random.rand(dimensions)
     if word in model:
         vec_rep = model[word]
 
@@ -18,8 +19,9 @@ def add_word_vectors_to_embeddings(word_index, word_vector_path, encoder_embeddi
 
     i = 0
     for key in word_index:
-        encoder_embedding_matrix[i] = get_word2vec_embedding(key, wv_model, embedding_size)
-        decoder_embedding_matrix[i] = get_word2vec_embedding(key, wv_model, embedding_size)
+        word_embedding = get_word2vec_embedding(key, wv_model, embedding_size)
+        encoder_embedding_matrix[i] = word_embedding
+        decoder_embedding_matrix[i] = word_embedding 
         i += 1
         if i >= vocab_size:
             break
