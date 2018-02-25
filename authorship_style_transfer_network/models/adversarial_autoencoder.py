@@ -89,20 +89,32 @@ class AdversarialAutoencoder():
     def generate_output_sequence(self, embedded_sequence, generative_embedding,
                                  decoder_embeddings):
 
+        generative_cell_state = tf.layers.dense(
+            inputs=generative_embedding, units=256,
+            activation=tf.nn.relu)
+        generative_hidden_state = tf.layers.dense(
+            inputs=generative_embedding, units=256,
+            activation=tf.nn.relu)
+
+        decoder_cell = tf.contrib.rnn.DropoutWrapper(
+            cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=256),
+            input_keep_prob=0.75,
+            output_keep_prob=0.75,
+            state_keep_prob=0.75)
+
+        init_decoder_cell_state = tf.contrib.rnn.LSTMStateTuple(
+            c=generative_cell_state, h=generative_hidden_state)
+        print("init_decoder_cell_state: {}".format(init_decoder_cell_state))
+
         def get_training_decoder_output():
-            decoder_cell = tf.contrib.rnn.DropoutWrapper(
-                cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=256),
-                input_keep_prob=0.75,
-                output_keep_prob=0.75,
-                state_keep_prob=0.75)
 
             training_helper = tf.contrib.seq2seq.TrainingHelper(
                 inputs=embedded_sequence,
-                sequence_length=tf.fill([self.batch_size], self.max_sequence_length))
+                sequence_length=self.sequence_lengths)
 
             training_decoder = tf.contrib.seq2seq.BasicDecoder(
                 cell=decoder_cell, helper=training_helper,
-                initial_state=decoder_cell.zero_state(self.batch_size, tf.float32),
+                initial_state=init_decoder_cell_state,
                 output_layer=tf.layers.Dense(
                     units=self.vocab_size, activation=tf.nn.relu))
 
@@ -114,11 +126,6 @@ class AdversarialAutoencoder():
             return training_decoder_output
 
         def get_inference_decoder_output():
-            decoder_cell = tf.contrib.rnn.DropoutWrapper(
-                cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=256),
-                input_keep_prob=0.75,
-                output_keep_prob=0.75,
-                state_keep_prob=0.75)
 
             greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
                 embedding=decoder_embeddings,
@@ -127,7 +134,7 @@ class AdversarialAutoencoder():
 
             inference_decoder = tf.contrib.seq2seq.BasicDecoder(
                 cell=decoder_cell, helper=greedy_embedding_helper,
-                initial_state=decoder_cell.zero_state(self.batch_size, tf.float32),
+                initial_state=init_decoder_cell_state,
                 output_layer=tf.layers.Dense(
                     units=self.vocab_size, activation=tf.nn.relu))
 
@@ -209,7 +216,7 @@ class AdversarialAutoencoder():
 
             generative_embedding_dense = tf.layers.dense(
                 inputs=generative_embedding_concatenated,
-                units=512,
+                units=1024,
                 activation=tf.nn.relu)
 
             generative_embedding = tf.nn.dropout(
@@ -277,9 +284,9 @@ class AdversarialAutoencoder():
             logdir="/tmp/tensorflow_logs/" + dt.now().strftime("%Y%m%d-%H%M%S") + "/",
             graph=sess.graph)
 
-        adversarial_training_optimizer = tf.train.AdamOptimizer()
-        adversarial_training_operation = adversarial_training_optimizer.minimize(
-            self.adversarial_loss)
+        # adversarial_training_optimizer = tf.train.AdamOptimizer()
+        # adversarial_training_operation = adversarial_training_optimizer.minimize(
+        #     self.adversarial_loss)
 
         reconstruction_training_optimizer = tf.train.AdamOptimizer()
         reconstruction_training_operation = reconstruction_training_optimizer.minimize(
@@ -301,15 +308,16 @@ class AdversarialAutoencoder():
                     offset=0, batch_size=self.batch_size,
                     batch_number=batch_number, data_limit=data_size)
 
-                fetches = [adversarial_training_operation,
-                           self.adversarial_loss,
-                           self.adversarial_loss_summary,
-                           reconstruction_training_operation,
-                           self.reconstruction_loss,
-                           self.reconstruction_loss_summary,
-                           self.style_representation]
+                fetches = [
+                    # adversarial_training_operation,
+                    self.adversarial_loss,
+                    self.adversarial_loss_summary,
+                    reconstruction_training_operation,
+                    self.reconstruction_loss,
+                    self.reconstruction_loss_summary,
+                    self.style_representation]
 
-                _, adv_loss, adv_loss_sum, _, rec_loss, \
+                adv_loss, adv_loss_sum, _, rec_loss, \
                 rec_loss_sum, style_embeddings = self.run_batch(
                     sess, start_index, end_index, True, fetches)
 
