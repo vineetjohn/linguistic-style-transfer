@@ -3,7 +3,7 @@ import tensorflow as tf
 from datetime import datetime as dt
 
 
-class AdversarialAutoencoder():
+class AdversarialAutoencoder:
 
     def __init__(self, num_labels, max_sequence_length, vocab_size, sos_index, eos_index,
                  encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, one_hot_labels,
@@ -86,21 +86,12 @@ class AdversarialAutoencoder():
 
             return label_prediction
 
-    def generate_output_sequence(self, embedded_sequence, generative_embedding,
-                                 decoder_embeddings):
-
-        generative_cell_state = tf.layers.dense(
-            inputs=generative_embedding, units=256,
-            activation=tf.nn.relu)
-        generative_hidden_state = tf.layers.dense(
-            inputs=generative_embedding, units=256,
-            activation=tf.nn.relu)
+    def generate_output_sequence(self, embedded_sequence, generative_cell_state,
+                                 generative_hidden_state, decoder_embeddings):
 
         decoder_cell = tf.contrib.rnn.DropoutWrapper(
-            cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=256),
-            input_keep_prob=0.75,
-            output_keep_prob=0.75,
-            state_keep_prob=0.75)
+            cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=256, name="decoder_cell"),
+            input_keep_prob=0.75, output_keep_prob=0.75, state_keep_prob=0.75)
 
         init_decoder_cell_state = tf.contrib.rnn.LSTMStateTuple(
             c=generative_cell_state, h=generative_hidden_state)
@@ -108,42 +99,50 @@ class AdversarialAutoencoder():
 
         def get_training_decoder_output():
 
-            training_helper = tf.contrib.seq2seq.TrainingHelper(
-                inputs=embedded_sequence,
-                sequence_length=self.sequence_lengths)
+            with tf.name_scope('training_decoder'):
 
-            training_decoder = tf.contrib.seq2seq.BasicDecoder(
-                cell=decoder_cell, helper=training_helper,
-                initial_state=init_decoder_cell_state,
-                output_layer=tf.layers.Dense(
-                    units=self.vocab_size, activation=tf.nn.relu))
+                training_helper = tf.contrib.seq2seq.TrainingHelper(
+                    inputs=embedded_sequence,
+                    sequence_length=self.sequence_lengths)
 
-            # Dynamic decoding
-            training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                decoder=training_decoder, impute_finished=True,
-                maximum_iterations=self.max_sequence_length)
+                training_decoder = tf.contrib.seq2seq.BasicDecoder(
+                    cell=decoder_cell, helper=training_helper,
+                    initial_state=init_decoder_cell_state,
+                    output_layer=tf.layers.Dense(
+                        units=self.vocab_size, activation=tf.nn.relu))
+                training_decoder.initialize("training_decoder")
 
-            return training_decoder_output
+                # Dynamic decoding
+                training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                    decoder=training_decoder, impute_finished=True,
+                    maximum_iterations=self.max_sequence_length,
+                    scope="training_decoder")
+
+                return training_decoder_output
 
         def get_inference_decoder_output():
 
-            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-                embedding=decoder_embeddings,
-                start_tokens=tf.fill([self.batch_size], self.sos_index),
-                end_token=self.eos_index)
+            with tf.name_scope('inference_decoder'):
 
-            inference_decoder = tf.contrib.seq2seq.BasicDecoder(
-                cell=decoder_cell, helper=greedy_embedding_helper,
-                initial_state=init_decoder_cell_state,
-                output_layer=tf.layers.Dense(
-                    units=self.vocab_size, activation=tf.nn.relu))
+                greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+                    embedding=decoder_embeddings,
+                    start_tokens=tf.fill([self.batch_size], self.sos_index),
+                    end_token=self.eos_index)
 
-            # Dynamic decoding
-            inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                decoder=inference_decoder, impute_finished=True,
-                maximum_iterations=self.max_sequence_length)
+                inference_decoder = tf.contrib.seq2seq.BasicDecoder(
+                    cell=decoder_cell, helper=greedy_embedding_helper,
+                    initial_state=init_decoder_cell_state,
+                    output_layer=tf.layers.Dense(
+                        units=self.vocab_size, activation=tf.nn.relu))
+                inference_decoder.initialize("inference_decoder")
 
-            return inference_decoder_output
+                # Dynamic decoding
+                inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                    decoder=inference_decoder, impute_finished=True,
+                    maximum_iterations=self.max_sequence_length,
+                    scope="inference_decoder")
+
+                return inference_decoder_output
 
         decoder_output = tf.cond(
             pred=self.training_phase,
@@ -174,11 +173,16 @@ class AdversarialAutoencoder():
             dtype=tf.bool, name="training_phase")
         print("training_phase: {}".format(self.training_phase))
 
-        # word embeddings matrix
+        # word embeddings matrices
         encoder_embeddings = tf.get_variable(
             initializer=self.encoder_embedding_matrix, dtype=tf.float32,
-            name="encoder_embeddings")
+            trainable=True, name="encoder_embeddings")
         print("encoder_embeddings: {}".format(encoder_embeddings))
+
+        decoder_embeddings = tf.get_variable(
+            initializer=self.decoder_embedding_matrix, dtype=tf.float32,
+            trainable=True, name="decoder_embeddings")
+        print("decoder_embeddings: {}".format(decoder_embeddings))
 
         encoder_embedded_sequence = tf.nn.embedding_lookup(
             params=encoder_embeddings, ids=self.input_sequence,
@@ -210,23 +214,25 @@ class AdversarialAutoencoder():
         print("adversarial_loss: {}".format(self.adversarial_loss))
 
         # generate new sentence
-        with tf.name_scope('generative_embedding'):
-            generative_embedding_concatenated = tf.concat(
-                values=[self.style_representation, content_representation], axis=1)
+        generative_embedding_concatenated = tf.concat(
+            values=[self.style_representation, content_representation], axis=1)
 
-            generative_embedding_dense = tf.layers.dense(
-                inputs=generative_embedding_concatenated,
-                units=1024,
-                activation=tf.nn.relu)
+        with tf.name_scope('generative_cell_state'):
+            generative_cell_state_dense = tf.layers.dense(
+                inputs=generative_embedding_concatenated, units=256,
+                activation=tf.nn.relu, name="generative_cell_state")
+            generative_cell_state = tf.nn.dropout(
+                x=generative_cell_state_dense, keep_prob=0.75)
 
-            generative_embedding = tf.nn.dropout(
-                x=generative_embedding_dense, keep_prob=0.75)
-            print("generative_embedding: {}".format(generative_embedding))
+        with tf.name_scope('generative_hidden_state'):
+            generative_hidden_state_dense = tf.layers.dense(
+                inputs=generative_embedding_concatenated, units=256,
+                activation=tf.nn.relu, name="generative_hidden_state")
+            generative_hidden_state = tf.nn.dropout(
+                x=generative_hidden_state_dense, keep_prob=0.75)
 
-        decoder_embeddings = tf.get_variable(
-            initializer=self.decoder_embedding_matrix, dtype=tf.float32,
-            name="decoder_embeddings")
-        print("decoder_embeddings: {}".format(decoder_embeddings))
+        print("generative_cell_state: {};\ngenerative_hidden_state: {}"
+              .format(generative_cell_state, generative_hidden_state))
 
         decoder_embedded_sequence = tf.nn.embedding_lookup(
             params=decoder_embeddings, ids=self.input_sequence,
@@ -236,7 +242,8 @@ class AdversarialAutoencoder():
         with tf.name_scope('sequence_prediction'):
             self.sequence_prediction = \
                 self.generate_output_sequence(
-                    decoder_embedded_sequence, generative_embedding, decoder_embeddings)
+                    decoder_embedded_sequence, generative_cell_state,
+                    generative_hidden_state, decoder_embeddings)
 
         with tf.name_scope('reconstruction_loss'):
             output_sequence_mask = tf.sequence_mask(
@@ -290,7 +297,7 @@ class AdversarialAutoencoder():
 
         reconstruction_training_optimizer = tf.train.AdamOptimizer()
         reconstruction_training_operation = reconstruction_training_optimizer.minimize(
-            self.reconstruction_loss - self.adversarial_loss)
+            self.reconstruction_loss)
 
         sess.run(tf.global_variables_initializer())
 

@@ -112,7 +112,7 @@ def main(argv):
     average_author_embeddings = dict()
     for author_label in all_author_embeddings:
         average_author_embeddings[author_label] = np.mean(all_author_embeddings[author_label], axis=0)
-    print("average_author_embeddings: {}".format(average_author_embeddings))
+    # print("average_author_embeddings: {}".format(average_author_embeddings))
 
 
 def get_tensorflow_session():
