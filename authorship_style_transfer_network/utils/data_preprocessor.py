@@ -1,7 +1,10 @@
 import tensorflow as tf
 import numpy as np
 
-def get_text_sequences(text_file_path, vocab_size, max_sequence_length):
+MAX_SEQUENCE_LENGTH = 20
+
+
+def get_text_sequences(text_file_path, vocab_size):
 
     text_tokenizer = tf.keras.preprocessing.text.Tokenizer(
         num_words=vocab_size, filters='!"#$%&()*+,-./:;=?@[\\]^_`{|}~\t\n')
@@ -15,12 +18,18 @@ def get_text_sequences(text_file_path, vocab_size, max_sequence_length):
     text_sequence_lengths = np.asarray(
         a=list(map(lambda x: len(x), integer_text_sequences)), dtype=np.int32)
 
-    # MAX_SEQUENCE_LENGTH = np.amax(text_sequence_lengths)
+    # max_sequence_length = MAX_SEQUENCE_LENGTH
+    max_sequence_length = int(np.median(text_sequence_lengths))
+    print("max_sequence_length: ", max_sequence_length)
 
     padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
         integer_text_sequences, maxlen=max_sequence_length, padding='post', truncating='post')
 
-    return padded_sequences, text_sequence_lengths, text_tokenizer.word_index, integer_text_sequences
+    text_sequence_lengths = np.asarray(list(map(
+        lambda x: max_sequence_length if x > max_sequence_length else x, text_sequence_lengths)))
+
+    return padded_sequences, text_sequence_lengths, text_tokenizer.word_index, \
+           integer_text_sequences, max_sequence_length
 
 
 def get_labels(label_file_path):
@@ -37,4 +46,4 @@ def get_labels(label_file_path):
     one_hot_labels = np.asarray(list(
         map(lambda x: np.eye(num_labels, k=x[0])[0], label_sequences)))
 
-    return one_hot_labels, num_labels
+    return one_hot_labels, num_labels, label_sequences
