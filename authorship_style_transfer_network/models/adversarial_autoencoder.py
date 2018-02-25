@@ -90,7 +90,7 @@ class AdversarialAutoencoder:
                                  generative_hidden_state, decoder_embeddings):
 
         decoder_cell = tf.contrib.rnn.DropoutWrapper(
-            cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=256, name="decoder_cell"),
+            cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=256),
             input_keep_prob=0.75, output_keep_prob=0.75, state_keep_prob=0.75)
 
         init_decoder_cell_state = tf.contrib.rnn.LSTMStateTuple(
