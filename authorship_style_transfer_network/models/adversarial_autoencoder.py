@@ -97,60 +97,46 @@ class AdversarialAutoencoder:
             c=generative_cell_state, h=generative_hidden_state)
         print("init_decoder_cell_state: {}".format(init_decoder_cell_state))
 
-        def get_training_decoder_output():
+        with tf.name_scope('training_decoder'):
 
-            with tf.name_scope('training_decoder'):
+            training_helper = tf.contrib.seq2seq.TrainingHelper(
+                inputs=embedded_sequence,
+                sequence_length=self.sequence_lengths)
 
-                training_helper = tf.contrib.seq2seq.TrainingHelper(
-                    inputs=embedded_sequence,
-                    sequence_length=self.sequence_lengths)
+            training_decoder = tf.contrib.seq2seq.BasicDecoder(
+                cell=decoder_cell, helper=training_helper,
+                initial_state=init_decoder_cell_state,
+                output_layer=tf.layers.Dense(
+                    units=self.vocab_size, activation=tf.nn.relu))
+            training_decoder.initialize("training_decoder")
 
-                training_decoder = tf.contrib.seq2seq.BasicDecoder(
-                    cell=decoder_cell, helper=training_helper,
-                    initial_state=init_decoder_cell_state,
-                    output_layer=tf.layers.Dense(
-                        units=self.vocab_size, activation=tf.nn.relu))
-                training_decoder.initialize("training_decoder")
+            # Dynamic decoding
+            training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                decoder=training_decoder, impute_finished=True,
+                maximum_iterations=self.max_sequence_length,
+                scope="training_decoder")
 
-                # Dynamic decoding
-                training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                    decoder=training_decoder, impute_finished=True,
-                    maximum_iterations=self.max_sequence_length,
-                    scope="training_decoder")
+        with tf.name_scope('inference_decoder'):
 
-                return training_decoder_output
+            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+                embedding=decoder_embeddings,
+                start_tokens=tf.fill([self.batch_size], self.sos_index),
+                end_token=self.eos_index)
 
-        def get_inference_decoder_output():
+            inference_decoder = tf.contrib.seq2seq.BasicDecoder(
+                cell=decoder_cell, helper=greedy_embedding_helper,
+                initial_state=init_decoder_cell_state,
+                output_layer=tf.layers.Dense(
+                    units=self.vocab_size, activation=tf.nn.relu))
+            inference_decoder.initialize("inference_decoder")
 
-            with tf.name_scope('inference_decoder'):
+            # Dynamic decoding
+            inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
+                decoder=inference_decoder, impute_finished=True,
+                maximum_iterations=self.max_sequence_length,
+                scope="inference_decoder")
 
-                greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-                    embedding=decoder_embeddings,
-                    start_tokens=tf.fill([self.batch_size], self.sos_index),
-                    end_token=self.eos_index)
-
-                inference_decoder = tf.contrib.seq2seq.BasicDecoder(
-                    cell=decoder_cell, helper=greedy_embedding_helper,
-                    initial_state=init_decoder_cell_state,
-                    output_layer=tf.layers.Dense(
-                        units=self.vocab_size, activation=tf.nn.relu))
-                inference_decoder.initialize("inference_decoder")
-
-                # Dynamic decoding
-                inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                    decoder=inference_decoder, impute_finished=True,
-                    maximum_iterations=self.max_sequence_length,
-                    scope="inference_decoder")
-
-                return inference_decoder_output
-
-        decoder_output = tf.cond(
-            pred=self.training_phase,
-            true_fn=get_training_decoder_output,
-            false_fn=get_inference_decoder_output,
-            name="training_inference_conditional")
-
-        return decoder_output.rnn_output
+        return training_decoder_output.rnn_output, inference_decoder_output.rnn_output
 
     def build_model(self):
 
@@ -240,7 +226,7 @@ class AdversarialAutoencoder:
         print("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
         with tf.name_scope('sequence_prediction'):
-            self.sequence_prediction = \
+            training_output, self.inference_output = \
                 self.generate_output_sequence(
                     decoder_embedded_sequence, generative_cell_state,
                     generative_hidden_state, decoder_embeddings)
@@ -251,7 +237,7 @@ class AdversarialAutoencoder:
                 dtype=tf.float32)
 
             self.reconstruction_loss = tf.contrib.seq2seq.sequence_loss(
-                logits=self.sequence_prediction, targets=self.input_sequence,
+                logits=training_output, targets=self.input_sequence,
                 weights=output_sequence_mask)
 
             print("reconstruction_loss: {}".format(self.reconstruction_loss))
@@ -308,6 +294,7 @@ class AdversarialAutoencoder:
               .format(self.padded_sequences[:training_examples_size].shape,
                       self.one_hot_labels[:training_examples_size].shape))
 
+        adv_loss, adv_loss_sum, rec_loss, rec_loss_sum = (None, None, None, None)
         for current_epoch in range(1, training_epochs + 1):
             self.all_style_representations = list()
             for batch_number in range(num_batches):
@@ -355,7 +342,7 @@ class AdversarialAutoencoder:
                 break
 
             generated_sequences_batch = self.run_batch(
-                sess, start_index, end_index, False, self.sequence_prediction)
+                sess, start_index, end_index, False, self.inference_output)
 
             generated_sequences.extend(generated_sequences_batch)
 
