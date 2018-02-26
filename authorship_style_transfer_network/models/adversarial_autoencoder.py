@@ -8,7 +8,7 @@ class AdversarialAutoencoder:
     def __init__(self, num_labels, max_sequence_length, vocab_size, sos_index, eos_index,
                  encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, one_hot_labels,
                  text_sequence_lengths, label_sequences):
-        self.batch_size = 100
+        self.batch_size = 128
         self.style_embedding_size = 512
         self.content_embedding_size = 512
         self.encoder_rnn_size = 256
