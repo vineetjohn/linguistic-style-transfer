@@ -1,7 +1,7 @@
 # Custom
 data/
 output/
-tensorflow_logs/
+saved-models/
 word-embeddings/
 .idea/
 

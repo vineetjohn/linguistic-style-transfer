@@ -1,18 +1,19 @@
-import tensorflow as tf
-
 from datetime import datetime as dt
+
+import tensorflow as tf
 
 
 class AdversarialAutoencoder:
 
     def __init__(self, num_labels, max_sequence_length, vocab_size, sos_index, eos_index,
                  encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, one_hot_labels,
-                 text_sequence_lengths):
+                 text_sequence_lengths, label_sequences):
         self.batch_size = 100
         self.style_embedding_size = 512
         self.content_embedding_size = 512
         self.encoder_rnn_size = 256
         self.num_labels = num_labels
+        self.label_sequences = label_sequences
         self.max_sequence_length = max_sequence_length
         self.vocab_size = vocab_size
         self.sos_index = sos_index
@@ -22,6 +23,7 @@ class AdversarialAutoencoder:
         self.padded_sequences = padded_sequences
         self.one_hot_labels = one_hot_labels
         self.text_sequence_lengths = text_sequence_lengths
+        self.model_save_path = "./saved-models/model.ckpt"
 
     def get_sentence_representation(self, embedded_sequence):
 
@@ -81,7 +83,6 @@ class AdversarialAutoencoder:
         print("projection_layer: {}".format(projection_layer))
 
         with tf.name_scope('training_decoder'):
-
             training_helper = tf.contrib.seq2seq.TrainingHelper(
                 inputs=embedded_sequence,
                 sequence_length=self.sequence_lengths)
@@ -98,7 +99,6 @@ class AdversarialAutoencoder:
                 scope="training_decoder")
 
         with tf.name_scope('inference_decoder'):
-
             greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
                 embedding=decoder_embeddings,
                 start_tokens=tf.fill([self.batch_size], self.sos_index),
@@ -261,6 +261,7 @@ class AdversarialAutoencoder:
             self.reconstruction_loss)
 
         sess.run(tf.global_variables_initializer())
+        saver = tf.train.Saver()
 
         epoch_reporting_interval = 1
         training_examples_size = data_size
@@ -292,6 +293,8 @@ class AdversarialAutoencoder:
 
                 self.all_style_representations.extend(style_embeddings)
 
+            saver.save(
+                sess=sess, save_path=self.model_save_path)
             writer.add_summary(adv_loss_sum, current_epoch)
             writer.add_summary(rec_loss_sum, current_epoch)
             writer.flush()
@@ -299,10 +302,13 @@ class AdversarialAutoencoder:
             if (current_epoch % epoch_reporting_interval == 0):
                 print("Training epoch: {}; Reconstruction loss: {}; Adversarial loss {}" \
                       .format(current_epoch, rec_loss, adv_loss))
-
         writer.close()
 
     def infer(self, sess, offset, samples_size):
+
+        sess.run(tf.global_variables_initializer())
+        saver = tf.train.Saver()
+        saver.restore(sess=sess, save_path=self.model_save_path)
 
         generated_sequences = list()
         num_batches = samples_size // self.batch_size
