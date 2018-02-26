@@ -11,6 +11,7 @@ class AdversarialAutoencoder:
         self.batch_size = 100
         self.style_embedding_size = 512
         self.content_embedding_size = 512
+        self.encoder_rnn_size = 256
         self.num_labels = num_labels
         self.max_sequence_length = max_sequence_length
         self.vocab_size = vocab_size
@@ -25,17 +26,8 @@ class AdversarialAutoencoder:
     def get_sentence_representation(self, embedded_sequence):
 
         with tf.name_scope('sentence_representation'):
-            lstm_cell_fw = tf.contrib.rnn.DropoutWrapper(
-                cell=tf.contrib.rnn.BasicLSTMCell(num_units=256),
-                input_keep_prob=0.75,
-                output_keep_prob=0.75,
-                state_keep_prob=0.75)
-
-            lstm_cell_bw = tf.contrib.rnn.DropoutWrapper(
-                cell=tf.contrib.rnn.BasicLSTMCell(num_units=256),
-                input_keep_prob=0.75,
-                output_keep_prob=0.75,
-                state_keep_prob=0.75)
+            lstm_cell_fw = tf.contrib.rnn.BasicLSTMCell(num_units=self.encoder_rnn_size)
+            lstm_cell_bw = tf.contrib.rnn.BasicLSTMCell(num_units=self.encoder_rnn_size)
 
             _, encoder_states = tf.nn.bidirectional_dynamic_rnn(
                 cell_fw=lstm_cell_fw, cell_bw=lstm_cell_bw,
@@ -46,41 +38,31 @@ class AdversarialAutoencoder:
             sentence_representation_dense = tf.concat(
                 values=[encoder_states[0].h, encoder_states[1].h], axis=1)
 
-            sentence_representation = tf.nn.dropout(
-                x=sentence_representation_dense, keep_prob=0.75)
-
-            return sentence_representation
+            return sentence_representation_dense
 
     def get_content_representation(self, sentence_representation):
 
         with tf.name_scope('content_representation'):
             content_representation_dense = tf.layers.dense(
                 inputs=sentence_representation, units=self.content_embedding_size,
-                activation=tf.nn.relu, name="content_representation")
-
-            content_representation = tf.nn.dropout(
-                x=content_representation_dense, keep_prob=0.75)
-
-            return content_representation
+                name="content_representation")
+            return content_representation_dense
 
     def get_style_representation(self, sentence_representation):
 
         with tf.name_scope('style_representation'):
             style_representation_dense = tf.layers.dense(
                 inputs=sentence_representation, units=self.style_embedding_size,
-                activation=tf.nn.relu, name="style_representation")
+                name="style_representation")
 
-            style_representation = tf.nn.dropout(
-                x=style_representation_dense, keep_prob=0.75)
-
-            return style_representation
+            return style_representation_dense
 
     def get_label_prediction(self, content_representation):
 
         with tf.name_scope('label_prediction'):
             label_projection = tf.layers.dense(
                 inputs=content_representation, units=self.num_labels,
-                activation=tf.nn.relu, name="label_prediction")
+                name="label_prediction")
 
             label_prediction = tf.nn.softmax(label_projection)
 
@@ -89,15 +71,13 @@ class AdversarialAutoencoder:
     def generate_output_sequence(self, embedded_sequence, generative_cell_state,
                                  generative_hidden_state, decoder_embeddings):
 
-        decoder_cell = tf.contrib.rnn.DropoutWrapper(
-            cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=256),
-            input_keep_prob=0.75, output_keep_prob=0.75, state_keep_prob=0.75)
+        decoder_cell = tf.nn.rnn_cell.BasicLSTMCell(num_units=self.encoder_rnn_size)
 
         init_decoder_cell_state = tf.contrib.rnn.LSTMStateTuple(
             c=generative_cell_state, h=generative_hidden_state)
         print("init_decoder_cell_state: {}".format(init_decoder_cell_state))
 
-        projection_layer = tf.layers.Dense(units=self.vocab_size, activation=tf.nn.relu)
+        projection_layer = tf.layers.Dense(units=self.vocab_size)
         print("projection_layer: {}".format(projection_layer))
 
         with tf.name_scope('training_decoder'):
@@ -204,20 +184,16 @@ class AdversarialAutoencoder:
 
         with tf.name_scope('generative_cell_state'):
             generative_cell_state_dense = tf.layers.dense(
-                inputs=generative_embedding_concatenated, units=256,
-                activation=tf.nn.relu, name="generative_cell_state")
-            generative_cell_state = tf.nn.dropout(
-                x=generative_cell_state_dense, keep_prob=0.75)
+                inputs=generative_embedding_concatenated, units=self.encoder_rnn_size,
+                name="generative_cell_state")
 
         with tf.name_scope('generative_hidden_state'):
             generative_hidden_state_dense = tf.layers.dense(
-                inputs=generative_embedding_concatenated, units=256,
-                activation=tf.nn.relu, name="generative_hidden_state")
-            generative_hidden_state = tf.nn.dropout(
-                x=generative_hidden_state_dense, keep_prob=0.75)
+                inputs=generative_embedding_concatenated, units=self.encoder_rnn_size,
+                name="generative_hidden_state")
 
         print("generative_cell_state: {};\ngenerative_hidden_state: {}"
-              .format(generative_cell_state, generative_hidden_state))
+              .format(generative_cell_state_dense, generative_hidden_state_dense))
 
         decoder_embedded_sequence = tf.nn.embedding_lookup(
             params=decoder_embeddings, ids=self.input_sequence,
@@ -227,8 +203,8 @@ class AdversarialAutoencoder:
         with tf.name_scope('sequence_prediction'):
             training_output, self.inference_output = \
                 self.generate_output_sequence(
-                    decoder_embedded_sequence, generative_cell_state,
-                    generative_hidden_state, decoder_embeddings)
+                    decoder_embedded_sequence, generative_cell_state_dense,
+                    generative_hidden_state_dense, decoder_embeddings)
 
         with tf.name_scope('reconstruction_loss'):
             output_sequence_mask = tf.sequence_mask(
