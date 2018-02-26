@@ -7,9 +7,6 @@ data_folder = "data/training-set"
 text_file_path = "data/c50-articles.txt"
 labels_file_path = "data/c50-labels.txt"
 
-start_token = "<SOS> "
-end_token = " <EOS>"
-
 
 def clean_text(string):
     string = re.sub(r"\\n", " ", string)
@@ -19,7 +16,7 @@ def clean_text(string):
     string = re.sub(r"\'re", " are", string)
     string = re.sub(r"\'d", " would", string)
     string = re.sub(r"\'ll", " will", string)
-    string = re.sub(r'\d+', "", string)
+    string = re.sub(r'\d+', "num_placeholder", string)
     string = string.replace("\r", " ")
     string = string.replace("\n", " ")
     string = string.strip().lower()
@@ -45,5 +42,5 @@ with open(text_file_path, 'w') as text_file, open(labels_file_path, 'w') as labe
                     sentences = nltk.tokenize.sent_tokenize(article)
                     for sentence in sentences:
                         cleaned_sentence = clean_text(sentence)
-                        text_file.write(start_token + cleaned_sentence + end_token + "\n")
+                        text_file.write(cleaned_sentence + "\n")
                         label_file.write(author + "\n")
