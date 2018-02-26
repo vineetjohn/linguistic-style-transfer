@@ -25,13 +25,13 @@ def main(argv):
         print("In dev mode")
         text_file_path = "data/c50-articles-dev.txt"
         label_file_path = "data/c50-labels-dev.txt"
-        training_epochs = 30
+        training_epochs = 10
         vocab_size = 1000
     else:
         text_file_path = "data/c50-articles.txt"
         label_file_path = "data/c50-labels.txt"
         training_epochs = 50
-        vocab_size = 5000
+        vocab_size = 10000
 
     padded_sequences, text_sequence_lengths, word_index, integer_text_sequences, max_sequence_length = \
         data_preprocessor.get_text_sequences(text_file_path, vocab_size)
@@ -77,7 +77,7 @@ def main(argv):
         lambda x: data_postprocessor.generate_sentence_from_indices(x, inverse_word_index),
         actual_sequences))
     generated_word_lists = list(map(
-        lambda x: data_postprocessor.generate_sentence_from_logits(x, inverse_word_index),
+        lambda x: data_postprocessor.generate_sentence_from_indices(x, inverse_word_index),
         generated_sequences))
 
     bleu_scores = bleu_scorer.get_corpus_bleu_scores(
