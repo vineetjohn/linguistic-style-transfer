@@ -97,6 +97,9 @@ class AdversarialAutoencoder:
             c=generative_cell_state, h=generative_hidden_state)
         print("init_decoder_cell_state: {}".format(init_decoder_cell_state))
 
+        projection_layer = tf.layers.Dense(units=self.vocab_size, activation=tf.nn.relu)
+        print("projection_layer: {}".format(projection_layer))
+
         with tf.name_scope('training_decoder'):
 
             training_helper = tf.contrib.seq2seq.TrainingHelper(
@@ -106,11 +109,9 @@ class AdversarialAutoencoder:
             training_decoder = tf.contrib.seq2seq.BasicDecoder(
                 cell=decoder_cell, helper=training_helper,
                 initial_state=init_decoder_cell_state,
-                output_layer=tf.layers.Dense(
-                    units=self.vocab_size, activation=tf.nn.relu))
+                output_layer=projection_layer)
             training_decoder.initialize("training_decoder")
 
-            # Dynamic decoding
             training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
                 decoder=training_decoder, impute_finished=True,
                 maximum_iterations=self.max_sequence_length,
@@ -126,17 +127,15 @@ class AdversarialAutoencoder:
             inference_decoder = tf.contrib.seq2seq.BasicDecoder(
                 cell=decoder_cell, helper=greedy_embedding_helper,
                 initial_state=init_decoder_cell_state,
-                output_layer=tf.layers.Dense(
-                    units=self.vocab_size, activation=tf.nn.relu))
+                output_layer=projection_layer)
             inference_decoder.initialize("inference_decoder")
 
-            # Dynamic decoding
             inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
                 decoder=inference_decoder, impute_finished=True,
                 maximum_iterations=self.max_sequence_length,
                 scope="inference_decoder")
 
-        return training_decoder_output.rnn_output, inference_decoder_output.rnn_output
+        return training_decoder_output.rnn_output, inference_decoder_output.sample_id
 
     def build_model(self):
 
