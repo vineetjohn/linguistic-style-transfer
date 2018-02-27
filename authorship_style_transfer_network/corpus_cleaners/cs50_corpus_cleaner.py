@@ -16,7 +16,7 @@ def clean_text(string):
     string = re.sub(r"\'re", " are", string)
     string = re.sub(r"\'d", " would", string)
     string = re.sub(r"\'ll", " will", string)
-    string = re.sub(r'\d+', "num_placeholder", string)
+    string = re.sub(r'\d+', "number", string)
     string = string.replace("\r", " ")
     string = string.replace("\n", " ")
     string = string.strip().lower()

@@ -71,7 +71,8 @@ class AdversarialAutoencoder:
             return label_prediction
 
     def generate_output_sequence(self, embedded_sequence, generative_cell_state,
-                                 generative_hidden_state, decoder_embeddings):
+                                 generative_hidden_state, decoder_embeddings,
+                                 target_sequence_lengths):
 
         decoder_cell = tf.nn.rnn_cell.BasicLSTMCell(num_units=self.encoder_rnn_size)
 
@@ -85,7 +86,7 @@ class AdversarialAutoencoder:
         with tf.name_scope('training_decoder'):
             training_helper = tf.contrib.seq2seq.TrainingHelper(
                 inputs=embedded_sequence,
-                sequence_length=self.sequence_lengths)
+                sequence_length=target_sequence_lengths)
 
             training_decoder = tf.contrib.seq2seq.BasicDecoder(
                 cell=decoder_cell, helper=training_helper,
@@ -95,7 +96,7 @@ class AdversarialAutoencoder:
 
             training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
                 decoder=training_decoder, impute_finished=True,
-                maximum_iterations=self.max_sequence_length,
+                maximum_iterations=self.max_sequence_length + 1,
                 scope="training_decoder")
 
         with tf.name_scope('inference_decoder'):
@@ -112,7 +113,7 @@ class AdversarialAutoencoder:
 
             inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
                 decoder=inference_decoder, impute_finished=True,
-                maximum_iterations=self.max_sequence_length,
+                maximum_iterations=self.max_sequence_length + 1,
                 scope="inference_decoder")
 
         return training_decoder_output.rnn_output, inference_decoder_output.sample_id
@@ -124,6 +125,12 @@ class AdversarialAutoencoder:
             name="input_sequence")
         print("input_sequence: {}".format(self.input_sequence))
 
+        self.target_sequence = tf.concat(
+            values=[tf.tile(input=tf.constant([[self.sos_index]]), multiples=[self.batch_size, 1]),
+                    self.input_sequence],
+            axis=1, name="target_sequence")
+        print("target_sequence: {}".format(self.target_sequence))
+
         self.input_label = tf.placeholder(
             dtype=tf.float32, shape=[self.batch_size, self.num_labels],
             name="input_label")
@@ -133,6 +140,10 @@ class AdversarialAutoencoder:
             dtype=tf.int32, shape=[self.batch_size],
             name="sequence_lengths")
         print("sequence_lengths: {}".format(self.sequence_lengths))
+
+        target_sequence_lengths = tf.add(
+            x=self.sequence_lengths, y=1, name="sequence_lengths")
+        print("target_sequence_lengths: {}".format(target_sequence_lengths))
 
         self.training_phase = tf.placeholder(
             dtype=tf.bool, name="training_phase")
@@ -196,7 +207,7 @@ class AdversarialAutoencoder:
               .format(generative_cell_state_dense, generative_hidden_state_dense))
 
         decoder_embedded_sequence = tf.nn.embedding_lookup(
-            params=decoder_embeddings, ids=self.input_sequence,
+            params=decoder_embeddings, ids=self.target_sequence,
             name="decoder_embedded_sequence")
         print("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
@@ -204,15 +215,16 @@ class AdversarialAutoencoder:
             training_output, self.inference_output = \
                 self.generate_output_sequence(
                     decoder_embedded_sequence, generative_cell_state_dense,
-                    generative_hidden_state_dense, decoder_embeddings)
+                    generative_hidden_state_dense, decoder_embeddings,
+                    target_sequence_lengths)
 
         with tf.name_scope('reconstruction_loss'):
             output_sequence_mask = tf.sequence_mask(
-                lengths=self.sequence_lengths, maxlen=self.max_sequence_length,
+                lengths=target_sequence_lengths, maxlen=self.max_sequence_length + 1,
                 dtype=tf.float32)
 
             self.reconstruction_loss = tf.contrib.seq2seq.sequence_loss(
-                logits=training_output, targets=self.input_sequence,
+                logits=training_output, targets=self.target_sequence,
                 weights=output_sequence_mask)
 
             print("reconstruction_loss: {}".format(self.reconstruction_loss))

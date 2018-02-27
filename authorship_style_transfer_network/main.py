@@ -18,13 +18,14 @@ WORD_VECTOR_PATH = "word-embeddings/"
 
 def get_data(text_file_path, vocab_size, label_file_path, dev_mode):
 
-    padded_sequences, text_sequence_lengths, word_index, integer_text_sequences, max_sequence_length = \
+    padded_sequences, text_sequence_lengths, word_index, \
+    integer_text_sequences, max_sequence_length = \
         data_preprocessor.get_text_sequences(text_file_path, vocab_size)
     print("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     print("padded_sequences: {}".format(padded_sequences.shape))
 
-    sos_index = word_index['<sos>']
-    eos_index = word_index['<eos>']
+    sos_index = word_index['sos']
+    eos_index = word_index['eos']
     data_size = padded_sequences.shape[0]
 
     one_hot_labels, num_labels, label_sequences = data_preprocessor.get_labels(label_file_path)
@@ -112,7 +113,7 @@ def main(argv):
         text_file_path = "data/c50-articles-dev.txt"
         label_file_path = "data/c50-labels-dev.txt"
         training_epochs = 3
-        vocab_size = 1000
+        vocab_size = 3000
     else:
         text_file_path = "data/c50-articles.txt"
         label_file_path = "data/c50-labels.txt"

@@ -3,7 +3,7 @@ import gensim
 
 
 def get_word2vec_embedding(word, model, dimensions):
-    vec_rep = np.random.rand(dimensions)
+    vec_rep = np.random.uniform(-0.05, 0.05, size=(dimensions))
     if word in model:
         vec_rep = model[word]
 
