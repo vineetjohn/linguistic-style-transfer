@@ -14,6 +14,8 @@ class AdversarialAutoencoder:
         self.encoder_rnn_size = 512
         self.recurrent_state_keep_prob = 0.5
         self.fully_connected_dropout = 0.5
+        self.gradient_clipping_value = 1.0
+        self.optimizer_learning_rate = 0.0005
         self.num_labels = num_labels
         self.label_sequences = label_sequences
         self.max_sequence_length = max_sequence_length
@@ -281,15 +283,16 @@ class AdversarialAutoencoder:
         # adversarial_training_operation = adversarial_training_optimizer.minimize(
         #     self.adversarial_loss)
 
-        reconstruction_training_optimizer = tf.train.AdamOptimizer(learning_rate=0.0005)
+        reconstruction_training_optimizer = tf.train.AdamOptimizer(learning_rate=self.optimizer_learning_rate)
         reconstruction_gradients = reconstruction_training_optimizer.compute_gradients(
             loss=self.reconstruction_loss, var_list=trainable_variables)
-        reconstruction_gradients = [list(x) for x in zip(*reconstruction_gradients)][1]
-        # print("reconstruction_gradients", reconstruction_gradients)
-        reconstruction_clipped_gradients, _ = tf.clip_by_global_norm(
-            t_list=reconstruction_gradients, clip_norm=tf.constant(value=1, dtype=tf.float32))
+        reconstruction_clipped_gradients = \
+            [(tf.clip_by_value(
+                t=variable, clip_value_min=tf.constant(value=(-1 * self.gradient_clipping_value)),
+                clip_value_max=tf.constant(value=self.gradient_clipping_value)), variable)
+             for (gradient, variable) in reconstruction_gradients if gradient is not None]
         reconstruction_training_operation = reconstruction_training_optimizer.apply_gradients(
-            zip(reconstruction_clipped_gradients, trainable_variables))
+            reconstruction_clipped_gradients)
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
