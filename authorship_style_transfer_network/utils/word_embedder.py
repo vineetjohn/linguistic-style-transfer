@@ -1,17 +1,16 @@
-import numpy as np
 import gensim
 
 
-def get_word2vec_embedding(word, model, dimensions):
-    vec_rep = np.random.uniform(-0.05, 0.05, size=(dimensions))
+def get_word2vec_embedding(word, model):
+    vec_rep = None
     if word in model:
         vec_rep = model[word]
 
     return vec_rep
 
 
-def add_word_vectors_to_embeddings(word_index, word_vector_path, encoder_embedding_matrix, decoder_embedding_matrix,
-                                   vocab_size, embedding_size):
+def add_word_vectors_to_embeddings(word_index, word_vector_path, encoder_embedding_matrix,
+                                   decoder_embedding_matrix, vocab_size):
 
     wv_model_path = word_vector_path + "GoogleNews-vectors-negative300.bin.gz"
     wv_model = gensim.models.KeyedVectors.load_word2vec_format(
@@ -19,9 +18,10 @@ def add_word_vectors_to_embeddings(word_index, word_vector_path, encoder_embeddi
 
     i = 0
     for key in word_index:
-        word_embedding = get_word2vec_embedding(key, wv_model, embedding_size)
-        encoder_embedding_matrix[i] = word_embedding
-        decoder_embedding_matrix[i] = word_embedding 
+        word_embedding = get_word2vec_embedding(key, wv_model)
+        if word_embedding:
+            encoder_embedding_matrix[i] = word_embedding
+            decoder_embedding_matrix[i] = word_embedding
         i += 1
         if i >= vocab_size:
             break
