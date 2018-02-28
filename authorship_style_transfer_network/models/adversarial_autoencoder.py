@@ -9,13 +9,13 @@ class AdversarialAutoencoder:
                  encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, one_hot_labels,
                  text_sequence_lengths, label_sequences):
         self.batch_size = 128
-        self.style_embedding_size = 1024
-        self.content_embedding_size = 1024
-        self.encoder_rnn_size = 512
-        self.recurrent_state_keep_prob = 0.5
-        self.fully_connected_dropout = 0.5
+        self.style_embedding_size = 512
+        self.content_embedding_size = 512
+        self.encoder_rnn_size = 256
+        self.recurrent_state_keep_prob = 0.8
+        self.fully_connected_keep_prob = 0.8
         self.gradient_clipping_value = 1.0
-        self.optimizer_learning_rate = 0.0005
+        self.optimizer_learning_rate = 0.001
         self.num_labels = num_labels
         self.label_sequences = label_sequences
         self.max_sequence_length = max_sequence_length
@@ -53,7 +53,7 @@ class AdversarialAutoencoder:
 
             sentence_representation = tf.nn.dropout(
                 x=tf.concat(values=[encoder_states[0].h, encoder_states[1].h], axis=1),
-                keep_prob=self.fully_connected_dropout,
+                keep_prob=self.fully_connected_keep_prob,
                 name="sentence_representation")
 
             return sentence_representation
@@ -64,7 +64,7 @@ class AdversarialAutoencoder:
             content_representation = tf.nn.dropout(
                 x=tf.layers.dense(
                     inputs=sentence_representation, units=self.content_embedding_size),
-                keep_prob=self.fully_connected_dropout,
+                keep_prob=self.fully_connected_keep_prob,
                 name="content_representation")
 
             return content_representation
@@ -75,7 +75,7 @@ class AdversarialAutoencoder:
             style_representation_dense = tf.nn.dropout(
                 x=tf.layers.dense(
                     inputs=sentence_representation, units=self.style_embedding_size),
-                keep_prob=self.fully_connected_dropout,
+                keep_prob=self.fully_connected_keep_prob,
                 name="style_representation")
 
             return style_representation_dense
@@ -194,13 +194,13 @@ class AdversarialAutoencoder:
         print("style_representation: {}".format(self.style_representation))
 
         # use content representation to predict a label
-        self.label_prediction = self.get_label_prediction(
-            content_representation)
-        print("label_prediction: {}".format(self.label_prediction))
+        # self.label_prediction = self.get_label_prediction(
+        #     content_representation)
+        # print("label_prediction: {}".format(self.label_prediction))
 
-        self.adversarial_loss = tf.losses.softmax_cross_entropy(
-            onehot_labels=self.input_label, logits=self.label_prediction)
-        print("adversarial_loss: {}".format(self.adversarial_loss))
+        # self.adversarial_loss = tf.losses.softmax_cross_entropy(
+        #     onehot_labels=self.input_label, logits=self.label_prediction)
+        # print("adversarial_loss: {}".format(self.adversarial_loss))
 
         # generate new sentence
         generative_embedding_concatenated = tf.concat(
@@ -209,13 +209,13 @@ class AdversarialAutoencoder:
         with tf.name_scope('generative_cell_state'):
             generative_cell_state = tf.nn.dropout(
                 x=tf.layers.dense(inputs=generative_embedding_concatenated, units=self.encoder_rnn_size),
-                keep_prob=self.fully_connected_dropout,
+                keep_prob=self.fully_connected_keep_prob,
                 name="generative_cell_state")
 
         with tf.name_scope('generative_hidden_state'):
             generative_hidden_state = tf.nn.dropout(
                 x=tf.layers.dense(inputs=generative_embedding_concatenated, units=self.encoder_rnn_size),
-                keep_prob=self.fully_connected_dropout,
+                keep_prob=self.fully_connected_keep_prob,
                 name="generative_hidden_state")
 
         print("generative_cell_state: {};\ngenerative_hidden_state: {}"
@@ -244,7 +244,7 @@ class AdversarialAutoencoder:
             print("reconstruction_loss: {}".format(self.reconstruction_loss))
 
         # loss summaries for tensorboard logging
-        tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
+        # tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
@@ -277,6 +277,7 @@ class AdversarialAutoencoder:
             graph=sess.graph)
 
         trainable_variables = tf.trainable_variables()
+        print("trainable_variables: {}".format(trainable_variables))
         # adversarial_training_optimizer = tf.train.AdamOptimizer()
         # adversarial_training_operation = adversarial_training_optimizer.minimize(
         #     self.adversarial_loss)
@@ -286,11 +287,11 @@ class AdversarialAutoencoder:
             loss=self.reconstruction_loss, var_list=trainable_variables)
         reconstruction_clipped_gradients = \
             [(tf.clip_by_value(
-                t=variable, clip_value_min=tf.constant(value=(-1 * self.gradient_clipping_value)),
+                t=gradient, clip_value_min=tf.constant(value=(-1 * self.gradient_clipping_value)),
                 clip_value_max=tf.constant(value=self.gradient_clipping_value)), variable)
              for (gradient, variable) in reconstruction_gradients if gradient is not None]
         reconstruction_training_operation = reconstruction_training_optimizer.apply_gradients(
-            reconstruction_clipped_gradients)
+            grads_and_vars=reconstruction_clipped_gradients)
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
@@ -312,13 +313,13 @@ class AdversarialAutoencoder:
 
                 fetches = [
                     # adversarial_training_operation,
-                    self.adversarial_loss,
+                    # self.adversarial_loss,
                     reconstruction_training_operation,
                     self.reconstruction_loss,
                     self.style_representation,
                     self.all_summaries]
 
-                adv_loss, _, rec_loss, style_embeddings, all_summaries = self.run_batch(
+                _, rec_loss, style_embeddings, all_summaries = self.run_batch(
                     sess, start_index, end_index, True, fetches)
 
                 self.all_style_representations.extend(style_embeddings)
@@ -329,8 +330,8 @@ class AdversarialAutoencoder:
             writer.flush()
 
             if (current_epoch % epoch_reporting_interval == 0):
-                print("Training epoch: {}; Reconstruction loss: {}; Adversarial loss {}" \
-                      .format(current_epoch, rec_loss, adv_loss))
+                print("Reconstruction loss: {:.9f}; Training epoch: {}" \
+                      .format(rec_loss, current_epoch))
         writer.close()
 
     def infer(self, sess, offset, samples_size):
