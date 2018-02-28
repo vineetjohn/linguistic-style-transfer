@@ -31,8 +31,8 @@ def get_data(text_file_path, vocab_size, label_file_path, dev_mode):
     one_hot_labels, num_labels, label_sequences = data_preprocessor.get_labels(label_file_path)
     print("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
-    encoder_embedding_matrix = np.random.rand(vocab_size + 1, EMBEDDING_SIZE).astype('float32')
-    decoder_embedding_matrix = np.random.rand(vocab_size + 1, EMBEDDING_SIZE).astype('float32')
+    encoder_embedding_matrix = np.random.rand(vocab_size, EMBEDDING_SIZE).astype('float32')
+    decoder_embedding_matrix = np.random.rand(vocab_size, EMBEDDING_SIZE).astype('float32')
     print("encoder_embedding_matrix: {}".format(encoder_embedding_matrix.shape))
     print("decoder_embedding_matrix: {}".format(decoder_embedding_matrix.shape))
 
@@ -118,7 +118,7 @@ def main(argv):
         text_file_path = "data/c50-articles.txt"
         label_file_path = "data/c50-labels.txt"
         training_epochs = 50
-        vocab_size = 10000
+        vocab_size = 25000
 
     # Retrieve all data
     num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \

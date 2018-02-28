@@ -17,6 +17,8 @@ def get_text_sequences(text_file_path, vocab_size):
 
     with open(text_file_path) as text_file:
         text_tokenizer.fit_on_texts(text_file)
+    available_vocab = len(text_tokenizer.word_index)
+    print("available_vocab: {}".format(available_vocab))
 
     num_predefined_tokens = len(word_index)
     for index, word in enumerate(text_tokenizer.word_index):
