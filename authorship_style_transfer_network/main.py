@@ -31,8 +31,10 @@ def get_data(text_file_path, vocab_size, label_file_path, dev_mode):
     one_hot_labels, num_labels, label_sequences = data_preprocessor.get_labels(label_file_path)
     print("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
-    encoder_embedding_matrix = np.random.rand(vocab_size, EMBEDDING_SIZE).astype('float32')
-    decoder_embedding_matrix = np.random.rand(vocab_size, EMBEDDING_SIZE).astype('float32')
+    encoder_embedding_matrix = np.random.uniform(
+        low=-0.05, high=0.05, size=(vocab_size, EMBEDDING_SIZE)).astype(dtype=np.float32)
+    decoder_embedding_matrix = np.random.uniform(
+        low=-0.05, high=0.05, size=(vocab_size, EMBEDDING_SIZE)).astype(dtype=np.float32)
     print("encoder_embedding_matrix: {}".format(encoder_embedding_matrix.shape))
     print("decoder_embedding_matrix: {}".format(decoder_embedding_matrix.shape))
 
@@ -40,7 +42,7 @@ def get_data(text_file_path, vocab_size, label_file_path, dev_mode):
         print("Loading pretrained embeddings")
         encoder_embedding_matrix, decoder_embedding_matrix = word_embedder.add_word_vectors_to_embeddings(
             word_index, WORD_VECTOR_PATH, encoder_embedding_matrix,
-            decoder_embedding_matrix, vocab_size, EMBEDDING_SIZE)
+            decoder_embedding_matrix, vocab_size)
 
     return num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \
         encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \

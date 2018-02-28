@@ -244,11 +244,9 @@ class AdversarialAutoencoder:
             print("reconstruction_loss: {}".format(self.reconstruction_loss))
 
         # loss summaries for tensorboard logging
-        self.adversarial_loss_summary = tf.summary.scalar(
-            tensor=self.adversarial_loss, name="adversarial_loss_summary")
-
-        self.reconstruction_loss_summary = tf.summary.scalar(
-            tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
+        tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
+        tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
+        self.all_summaries = tf.summary.merge_all()
 
     def get_batch_indices(self, offset, batch_size, batch_number, data_limit):
 
@@ -304,7 +302,7 @@ class AdversarialAutoencoder:
               .format(self.padded_sequences[:training_examples_size].shape,
                       self.one_hot_labels[:training_examples_size].shape))
 
-        adv_loss, adv_loss_sum, rec_loss, rec_loss_sum = (None, None, None, None)
+        adv_loss, rec_loss, all_summaries = (None, None, None)
         for current_epoch in range(1, training_epochs + 1):
             self.all_style_representations = list()
             for batch_number in range(num_batches):
@@ -315,22 +313,19 @@ class AdversarialAutoencoder:
                 fetches = [
                     # adversarial_training_operation,
                     self.adversarial_loss,
-                    self.adversarial_loss_summary,
                     reconstruction_training_operation,
                     self.reconstruction_loss,
-                    self.reconstruction_loss_summary,
-                    self.style_representation]
+                    self.style_representation,
+                    self.all_summaries]
 
-                adv_loss, adv_loss_sum, _, rec_loss, \
-                rec_loss_sum, style_embeddings = self.run_batch(
+                adv_loss, _, rec_loss, style_embeddings, all_summaries = self.run_batch(
                     sess, start_index, end_index, True, fetches)
 
                 self.all_style_representations.extend(style_embeddings)
 
             saver.save(
                 sess=sess, save_path=self.model_save_path)
-            writer.add_summary(adv_loss_sum, current_epoch)
-            writer.add_summary(rec_loss_sum, current_epoch)
+            writer.add_summary(all_summaries, current_epoch)
             writer.flush()
 
             if (current_epoch % epoch_reporting_interval == 0):
