@@ -103,7 +103,6 @@ class AdversarialAutoencoder:
         print("init_decoder_cell_state: {}".format(init_decoder_cell_state))
 
         projection_layer = tf.layers.Dense(units=self.vocab_size, use_bias=False)
-        print("projection_layer: {}".format(projection_layer))
 
         with tf.name_scope('training_decoder'):
             training_helper = tf.contrib.seq2seq.TrainingHelper(
@@ -277,13 +276,20 @@ class AdversarialAutoencoder:
             logdir="/tmp/tensorflow_logs/" + dt.now().strftime("%Y%m%d-%H%M%S") + "/",
             graph=sess.graph)
 
+        trainable_variables = tf.trainable_variables()
         # adversarial_training_optimizer = tf.train.AdamOptimizer()
         # adversarial_training_operation = adversarial_training_optimizer.minimize(
         #     self.adversarial_loss)
 
-        reconstruction_training_optimizer = tf.train.AdamOptimizer()
-        reconstruction_training_operation = reconstruction_training_optimizer.minimize(
-            self.reconstruction_loss)
+        reconstruction_training_optimizer = tf.train.AdamOptimizer(learning_rate=0.0005)
+        reconstruction_gradients = reconstruction_training_optimizer.compute_gradients(
+            loss=self.reconstruction_loss, var_list=trainable_variables)
+        reconstruction_gradients = [list(x) for x in zip(*reconstruction_gradients)][1]
+        # print("reconstruction_gradients", reconstruction_gradients)
+        reconstruction_clipped_gradients, _ = tf.clip_by_global_norm(
+            t_list=reconstruction_gradients, clip_norm=tf.constant(value=1, dtype=tf.float32))
+        reconstruction_training_operation = reconstruction_training_optimizer.apply_gradients(
+            zip(reconstruction_clipped_gradients, trainable_variables))
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
