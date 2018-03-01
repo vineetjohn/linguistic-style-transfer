@@ -9,10 +9,8 @@ class AdversarialAutoencoder:
                  encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, one_hot_labels,
                  text_sequence_lengths, label_sequences):
         self.batch_size = 128
-        self.style_embedding_size = 512
-        self.content_embedding_size = 512
         self.encoder_rnn_size = 256
-        self.recurrent_state_keep_prob = 0.5
+        self.recurrent_state_keep_prob = 0.8
         self.fully_connected_keep_prob = 0.5
         self.gradient_clipping_value = 1.0
         self.optimizer_learning_rate = 0.0001
@@ -34,52 +32,19 @@ class AdversarialAutoencoder:
 
         with tf.name_scope('sentence_representation'):
 
-            lstm_cell_fw = tf.nn.rnn_cell.DropoutWrapper(
+            encoder_lstm_cell = tf.nn.rnn_cell.DropoutWrapper(
                 cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=self.encoder_rnn_size),
                 input_keep_prob=self.recurrent_state_keep_prob,
                 output_keep_prob=self.recurrent_state_keep_prob,
                 state_keep_prob=self.recurrent_state_keep_prob)
 
-            lstm_cell_bw = tf.nn.rnn_cell.DropoutWrapper(
-                cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=self.encoder_rnn_size),
-                input_keep_prob=self.recurrent_state_keep_prob,
-                output_keep_prob=self.recurrent_state_keep_prob,
-                state_keep_prob=self.recurrent_state_keep_prob)
-
-            _, encoder_states = tf.nn.bidirectional_dynamic_rnn(
-                cell_fw=lstm_cell_fw, cell_bw=lstm_cell_bw,
+            _, encoder_state = tf.nn.dynamic_rnn(
+                cell=encoder_lstm_cell,
                 inputs=embedded_sequence,
                 sequence_length=self.sequence_lengths,
                 dtype=tf.float32)
 
-            sentence_representation = tf.nn.dropout(
-                x=tf.concat(values=[encoder_states[0].h, encoder_states[1].h], axis=1),
-                keep_prob=self.fully_connected_keep_prob,
-                name="sentence_representation")
-
-            return sentence_representation
-
-    def get_content_representation(self, sentence_representation):
-
-        with tf.name_scope('content_representation'):
-            content_representation = tf.nn.dropout(
-                x=tf.layers.dense(
-                    inputs=sentence_representation, units=self.content_embedding_size),
-                keep_prob=self.fully_connected_keep_prob,
-                name="content_representation")
-
-            return content_representation
-
-    def get_style_representation(self, sentence_representation):
-
-        with tf.name_scope('style_representation'):
-            style_representation_dense = tf.nn.dropout(
-                x=tf.layers.dense(
-                    inputs=sentence_representation, units=self.style_embedding_size),
-                keep_prob=self.fully_connected_keep_prob,
-                name="style_representation")
-
-            return style_representation_dense
+            return encoder_state
 
     def get_label_prediction(self, content_representation):
 
@@ -92,18 +57,13 @@ class AdversarialAutoencoder:
 
             return label_prediction
 
-    def generate_output_sequence(self, embedded_sequence, generative_cell_state,
-                                 generative_hidden_state, decoder_embeddings):
+    def generate_output_sequence(self, embedded_sequence, encoder_state, decoder_embeddings):
 
         decoder_cell = tf.nn.rnn_cell.DropoutWrapper(
             cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=self.encoder_rnn_size),
             input_keep_prob=self.recurrent_state_keep_prob,
             output_keep_prob=self.recurrent_state_keep_prob,
             state_keep_prob=self.recurrent_state_keep_prob)
-
-        init_decoder_state = tf.contrib.rnn.LSTMStateTuple(
-            c=generative_cell_state, h=generative_hidden_state)
-        print("init_decoder_state: {}".format(init_decoder_state))
 
         projection_layer = tf.layers.Dense(units=self.vocab_size, use_bias=False)
 
@@ -114,7 +74,7 @@ class AdversarialAutoencoder:
 
             training_decoder = tf.contrib.seq2seq.BasicDecoder(
                 cell=decoder_cell, helper=training_helper,
-                initial_state=init_decoder_state,
+                initial_state=encoder_state,
                 output_layer=projection_layer)
             training_decoder.initialize("training_decoder")
 
@@ -131,9 +91,9 @@ class AdversarialAutoencoder:
                 end_token=self.eos_index,
                 initial_state=tf.contrib.rnn.LSTMStateTuple(
                     c=tf.contrib.seq2seq.tile_batch(
-                        t=generative_cell_state, multiplier=self.beam_search_width),
+                        t=encoder_state.c, multiplier=self.beam_search_width),
                     h=tf.contrib.seq2seq.tile_batch(
-                        t=generative_hidden_state, multiplier=self.beam_search_width)),
+                        t=encoder_state.h, multiplier=self.beam_search_width)),
                 beam_width=self.beam_search_width, output_layer=projection_layer,
                 length_penalty_weight = 0.0
             )
@@ -186,52 +146,18 @@ class AdversarialAutoencoder:
         print("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
 
         # get sentence representation
-        sentence_representation = self.get_sentence_representation(
+        encoder_state = self.get_sentence_representation(
             encoder_embedded_sequence)
-        print("sentence_representation: {}".format(sentence_representation))
+        print("encoder_state: {}".format(encoder_state))
 
-        # get content representation
-        content_representation = self.get_content_representation(
-            sentence_representation)
-        print("content_representation: {}".format(content_representation))
-
-        # get style representation
-        self.style_representation = self.get_style_representation(
-            sentence_representation)
-        print("style_representation: {}".format(self.style_representation))
-
-        # use content representation to predict a label
-        # self.label_prediction = self.get_label_prediction(
-        #     content_representation)
-        # print("label_prediction: {}".format(self.label_prediction))
-
-        # self.adversarial_loss = tf.losses.softmax_cross_entropy(
-        #     onehot_labels=self.input_label, logits=self.label_prediction)
-        # print("adversarial_loss: {}".format(self.adversarial_loss))
-
-        # generate new sentence
-        generative_embedding_concatenated = tf.concat(
-            values=[self.style_representation, content_representation], axis=1)
-
-        with tf.name_scope('generative_cell_state'):
-            generative_cell_state = tf.nn.dropout(
-                x=tf.layers.dense(inputs=generative_embedding_concatenated,
-                                  units=self.encoder_rnn_size),
-                keep_prob=self.fully_connected_keep_prob,
-                name="generative_cell_state")
-            print("generative_cell_state: {}".format(generative_cell_state))
-
-        with tf.name_scope('generative_hidden_state'):
-            generative_hidden_state = tf.nn.dropout(
-                x=tf.layers.dense(inputs=generative_embedding_concatenated,
-                                  units=self.encoder_rnn_size),
-                keep_prob=self.fully_connected_keep_prob,
-                name="generative_hidden_state")
-            print("generative_hidden_state: {}".format(generative_hidden_state))
+        left_shifted_decoder_input = tf.strided_slice(
+            input_=self.input_sequence, begin=[0, 0], end=[self.batch_size, -1], strides=[1, 1],)
+        decoder_input = tf.concat(
+            values=[tf.fill([self.batch_size, 1], self.sos_index), left_shifted_decoder_input], axis=1)
 
         decoder_embedded_sequence = tf.nn.dropout(
             x=tf.nn.embedding_lookup(
-            params=decoder_embeddings, ids=self.input_sequence),
+            params=decoder_embeddings, ids=decoder_input),
             keep_prob=self.fully_connected_keep_prob,
             name="decoder_embedded_sequence")
         print("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
@@ -239,8 +165,7 @@ class AdversarialAutoencoder:
         with tf.name_scope('sequence_prediction'):
             training_output, self.inference_output = \
                 self.generate_output_sequence(
-                    decoder_embedded_sequence, generative_cell_state,
-                    generative_hidden_state, decoder_embeddings)
+                    decoder_embedded_sequence, encoder_state, decoder_embeddings)
             print("training_output: {}".format(training_output))
             print("inference_output: {}".format(self.inference_output))
 
@@ -254,8 +179,6 @@ class AdversarialAutoencoder:
                 weights=output_sequence_mask)
             print("reconstruction_loss: {}".format(self.reconstruction_loss))
 
-        # loss summaries for tensorboard logging
-        # tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
@@ -289,11 +212,8 @@ class AdversarialAutoencoder:
 
         trainable_variables = tf.trainable_variables()
         print("trainable_variables: {}".format(trainable_variables))
-        # adversarial_training_optimizer = tf.train.AdamOptimizer()
-        # adversarial_training_operation = adversarial_training_optimizer.minimize(
-        #     self.adversarial_loss)
 
-        reconstruction_training_optimizer = tf.train.GradientDescentOptimizer(
+        reconstruction_training_optimizer = tf.train.AdamOptimizer(
             learning_rate=self.optimizer_learning_rate)
         reconstruction_gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
             loss=self.reconstruction_loss, var_list=trainable_variables)
@@ -314,24 +234,18 @@ class AdversarialAutoencoder:
 
         adv_loss, rec_loss, all_summaries = (None, None, None)
         for current_epoch in range(1, training_epochs + 1):
-            self.all_style_representations = list()
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
                     offset=0, batch_size=self.batch_size,
                     batch_number=batch_number, data_limit=data_size)
 
                 fetches = [
-                    # adversarial_training_operation,
-                    # self.adversarial_loss,
                     reconstruction_training_operation,
                     self.reconstruction_loss,
-                    self.style_representation,
                     self.all_summaries]
 
-                _, rec_loss, style_embeddings, all_summaries = self.run_batch(
+                _, rec_loss, all_summaries = self.run_batch(
                     sess, start_index, end_index, True, fetches)
-
-                self.all_style_representations.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=self.model_save_path)
             writer.add_summary(all_summaries, current_epoch)
