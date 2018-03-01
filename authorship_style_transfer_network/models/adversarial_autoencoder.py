@@ -12,10 +12,11 @@ class AdversarialAutoencoder:
         self.style_embedding_size = 512
         self.content_embedding_size = 512
         self.encoder_rnn_size = 256
-        self.recurrent_state_keep_prob = 0.8
-        self.fully_connected_keep_prob = 0.8
-        self.gradient_clipping_value = 1.0
-        self.optimizer_learning_rate = 0.001
+        self.recurrent_state_keep_prob = 0.5
+        self.fully_connected_keep_prob = 0.5
+        self.gradient_clipping_value = 5.0
+        self.optimizer_learning_rate = 0.0001
+        self.beam_search_width = 5
         self.num_labels = num_labels
         self.label_sequences = label_sequences
         self.max_sequence_length = max_sequence_length
@@ -100,9 +101,9 @@ class AdversarialAutoencoder:
             output_keep_prob=self.recurrent_state_keep_prob,
             state_keep_prob=self.recurrent_state_keep_prob)
 
-        init_decoder_cell_state = tf.contrib.rnn.LSTMStateTuple(
+        init_decoder_state = tf.contrib.rnn.LSTMStateTuple(
             c=generative_cell_state, h=generative_hidden_state)
-        print("init_decoder_cell_state: {}".format(init_decoder_cell_state))
+        print("init_decoder_state: {}".format(init_decoder_state))
 
         projection_layer = tf.layers.Dense(units=self.vocab_size, use_bias=False)
 
@@ -113,7 +114,7 @@ class AdversarialAutoencoder:
 
             training_decoder = tf.contrib.seq2seq.BasicDecoder(
                 cell=decoder_cell, helper=training_helper,
-                initial_state=init_decoder_cell_state,
+                initial_state=init_decoder_state,
                 output_layer=projection_layer)
             training_decoder.initialize("training_decoder")
 
@@ -123,23 +124,27 @@ class AdversarialAutoencoder:
                 scope="training_decoder")
 
         with tf.name_scope('inference_decoder'):
-            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-                embedding=decoder_embeddings,
-                start_tokens=tf.fill([self.batch_size], self.sos_index),
-                end_token=self.eos_index)
 
-            inference_decoder = tf.contrib.seq2seq.BasicDecoder(
-                cell=decoder_cell, helper=greedy_embedding_helper,
-                initial_state=init_decoder_cell_state,
-                output_layer=projection_layer)
+            inference_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
+                cell=decoder_cell, embedding=decoder_embeddings,
+                start_tokens=tf.fill([self.batch_size], self.sos_index),
+                end_token=self.eos_index,
+                initial_state=tf.contrib.rnn.LSTMStateTuple(
+                    c=tf.contrib.seq2seq.tile_batch(
+                        t=generative_cell_state, multiplier=self.beam_search_width),
+                    h=tf.contrib.seq2seq.tile_batch(
+                        t=generative_hidden_state, multiplier=self.beam_search_width)),
+                beam_width=self.beam_search_width, output_layer=projection_layer,
+                length_penalty_weight = 0.0
+            )
             inference_decoder.initialize("inference_decoder")
 
             inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                decoder=inference_decoder, impute_finished=True,
+                decoder=inference_decoder, impute_finished=False,
                 maximum_iterations=self.max_sequence_length,
                 scope="inference_decoder")
 
-        return training_decoder_output.rnn_output, inference_decoder_output.sample_id
+        return training_decoder_output.rnn_output, inference_decoder_output.predicted_ids
 
     def build_model(self):
 
@@ -210,18 +215,19 @@ class AdversarialAutoencoder:
 
         with tf.name_scope('generative_cell_state'):
             generative_cell_state = tf.nn.dropout(
-                x=tf.layers.dense(inputs=generative_embedding_concatenated, units=self.encoder_rnn_size),
+                x=tf.layers.dense(inputs=generative_embedding_concatenated,
+                                  units=self.encoder_rnn_size),
                 keep_prob=self.fully_connected_keep_prob,
                 name="generative_cell_state")
+            print("generative_cell_state: {}".format(generative_cell_state))
 
         with tf.name_scope('generative_hidden_state'):
             generative_hidden_state = tf.nn.dropout(
-                x=tf.layers.dense(inputs=generative_embedding_concatenated, units=self.encoder_rnn_size),
+                x=tf.layers.dense(inputs=generative_embedding_concatenated,
+                                  units=self.encoder_rnn_size),
                 keep_prob=self.fully_connected_keep_prob,
                 name="generative_hidden_state")
-
-        print("generative_cell_state: {};\ngenerative_hidden_state: {}"
-              .format(generative_cell_state, generative_hidden_state))
+            print("generative_hidden_state: {}".format(generative_hidden_state))
 
         decoder_embedded_sequence = tf.nn.dropout(
             x=tf.nn.embedding_lookup(
@@ -235,6 +241,8 @@ class AdversarialAutoencoder:
                 self.generate_output_sequence(
                     decoder_embedded_sequence, generative_cell_state,
                     generative_hidden_state, decoder_embeddings)
+            print("training_output: {}".format(training_output))
+            print("inference_output: {}".format(self.inference_output))
 
         with tf.name_scope('reconstruction_loss'):
             output_sequence_mask = tf.sequence_mask(
@@ -244,7 +252,6 @@ class AdversarialAutoencoder:
             self.reconstruction_loss = tf.contrib.seq2seq.sequence_loss(
                 logits=training_output, targets=self.input_sequence,
                 weights=output_sequence_mask)
-
             print("reconstruction_loss: {}".format(self.reconstruction_loss))
 
         # loss summaries for tensorboard logging
