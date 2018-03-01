@@ -283,20 +283,17 @@ class AdversarialAutoencoder:
         #     self.adversarial_loss)
 
         reconstruction_training_optimizer = tf.train.AdamOptimizer(learning_rate=self.optimizer_learning_rate)
-        reconstruction_gradients = reconstruction_training_optimizer.compute_gradients(
+        reconstruction_gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
             loss=self.reconstruction_loss, var_list=trainable_variables)
-        reconstruction_clipped_gradients = \
-            [(tf.clip_by_value(
-                t=gradient, clip_value_min=tf.constant(value=(-1 * self.gradient_clipping_value)),
-                clip_value_max=tf.constant(value=self.gradient_clipping_value)), variable)
-             for (gradient, variable) in reconstruction_gradients if gradient is not None]
+        gradients, variables = zip(*reconstruction_gradients_and_variables)
+        clipped_gradients, _ = tf.clip_by_global_norm(
+            t_list=gradients, clip_norm=self.gradient_clipping_value)
         reconstruction_training_operation = reconstruction_training_optimizer.apply_gradients(
-            grads_and_vars=reconstruction_clipped_gradients)
+            grads_and_vars=zip(clipped_gradients, variables))
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
 
-        epoch_reporting_interval = 1
         training_examples_size = data_size
         num_batches = training_examples_size // self.batch_size
         print("Training - texts shape: {}; labels shape {}"
@@ -324,14 +321,12 @@ class AdversarialAutoencoder:
 
                 self.all_style_representations.extend(style_embeddings)
 
-            saver.save(
-                sess=sess, save_path=self.model_save_path)
+            saver.save(sess=sess, save_path=self.model_save_path)
             writer.add_summary(all_summaries, current_epoch)
             writer.flush()
 
-            if (current_epoch % epoch_reporting_interval == 0):
-                print("Reconstruction loss: {:.9f}; Training epoch: {}" \
-                      .format(rec_loss, current_epoch))
+            print("Reconstruction loss: {:.9f}; Training epoch: {}" \
+                  .format(rec_loss, current_epoch))
         writer.close()
 
     def infer(self, sess, offset, samples_size):
