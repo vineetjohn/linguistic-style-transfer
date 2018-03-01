@@ -106,21 +106,21 @@ def main(argv):
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--dev-mode", action="store_true")
+    parser.add_argument("--training-epochs", type=int)
+    parser.add_argument("--vocab-size", type=int)
     args_namespace = parser.parse_args(argv)
     command_line_args = vars(args_namespace)
     dev_mode = command_line_args['dev_mode']
+    training_epochs = command_line_args['training_epochs']
+    vocab_size = command_line_args['vocab_size']
 
     if dev_mode:
         print("In dev mode")
         text_file_path = "data/c50-articles-dev.txt"
         label_file_path = "data/c50-labels-dev.txt"
-        training_epochs = 3
-        vocab_size = 3000
     else:
         text_file_path = "data/c50-articles.txt"
         label_file_path = "data/c50-labels.txt"
-        training_epochs = 50
-        vocab_size = 25000
 
     # Retrieve all data
     num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \
