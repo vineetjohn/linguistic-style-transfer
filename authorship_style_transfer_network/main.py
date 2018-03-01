@@ -77,7 +77,7 @@ def execute_post_inference_operations(word_index, integer_text_sequences, offset
         lambda x: data_postprocessor.generate_sentence_from_indices(x, inverse_word_index),
         actual_sequences))
     generated_word_lists = list(map(
-        lambda x: data_postprocessor.generate_sentence_from_indices(x, inverse_word_index),
+        lambda x: data_postprocessor.generate_sentence_from_beam_indices(x, inverse_word_index),
         generated_sequences))
 
     # Evaluate model scores
