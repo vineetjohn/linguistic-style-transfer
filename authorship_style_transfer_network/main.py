@@ -73,24 +73,23 @@ def execute_post_inference_operations(word_index, integer_text_sequences, offset
 
     inverse_word_index = {v: k for k, v in word_index.items()}
     actual_sequences = integer_text_sequences[offset: (offset + inference_set_size)]
-    actual_word_lists = list(map(
-        lambda x: data_postprocessor.generate_sentence_from_indices(x, inverse_word_index),
-        actual_sequences))
-    generated_word_lists = list(map(
-        lambda x: data_postprocessor.generate_sentence_from_beam_indices(x, inverse_word_index),
-        generated_sequences))
+    actual_word_lists = \
+        [data_postprocessor.generate_sentence_from_indices(x, inverse_word_index)
+         for x in actual_sequences]
+    generated_word_lists = \
+        [data_postprocessor.generate_sentence_from_beam_indices(x, inverse_word_index)
+         for x in generated_sequences]
 
     # Evaluate model scores
     bleu_scores = bleu_scorer.get_corpus_bleu_scores(
-        list(map(lambda x: [x], actual_word_lists)),
-        generated_word_lists)
+        [[x] for x in actual_word_lists], generated_word_lists)
     print("bleu_scores: {}".format(bleu_scores))
 
-    # Print scores to output
-    print(list(map(lambda x: len(list(x)), generated_word_lists)))
+    print("Generated sentence lengths:")
+    print([len(x) for x in generated_word_lists])
 
-    actual_sentences = list(map(lambda x: " ".join(x[1:]), actual_word_lists))
-    generated_sentences = list(map(lambda x: " ".join(x), generated_word_lists))
+    actual_sentences = [" ".join(x) for x in actual_word_lists]
+    generated_sentences = [" ".join(x) for x in generated_word_lists]
 
     for i in range(3):
         print("actual_sentence: {}".format(actual_sentences[i]))
@@ -139,8 +138,6 @@ def main(argv):
     # Train and save model
     sess = get_tensorflow_session()
     network.train(sess, data_size, training_epochs)
-    execute_post_training_operations(
-        network.all_style_representations, data_size, network.batch_size, label_sequences)
     sess.close()
     print("Training complete!")
 
