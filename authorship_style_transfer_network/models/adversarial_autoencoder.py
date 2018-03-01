@@ -173,8 +173,10 @@ class AdversarialAutoencoder:
             trainable=True, name="decoder_embeddings")
         print("decoder_embeddings: {}".format(decoder_embeddings))
 
-        encoder_embedded_sequence = tf.nn.embedding_lookup(
-            params=encoder_embeddings, ids=self.input_sequence,
+        encoder_embedded_sequence = tf.nn.dropout(
+            x=tf.nn.embedding_lookup(
+                params=encoder_embeddings, ids=self.input_sequence),
+            keep_prob=self.fully_connected_keep_prob,
             name="encoder_embedded_sequence")
         print("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
 
@@ -221,8 +223,10 @@ class AdversarialAutoencoder:
         print("generative_cell_state: {};\ngenerative_hidden_state: {}"
               .format(generative_cell_state, generative_hidden_state))
 
-        decoder_embedded_sequence = tf.nn.embedding_lookup(
-            params=decoder_embeddings, ids=self.input_sequence,
+        decoder_embedded_sequence = tf.nn.dropout(
+            x=tf.nn.embedding_lookup(
+            params=decoder_embeddings, ids=self.input_sequence),
+            keep_prob=self.fully_connected_keep_prob,
             name="decoder_embedded_sequence")
         print("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
