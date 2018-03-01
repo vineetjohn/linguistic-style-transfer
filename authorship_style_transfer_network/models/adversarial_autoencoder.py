@@ -14,7 +14,7 @@ class AdversarialAutoencoder:
         self.encoder_rnn_size = 256
         self.recurrent_state_keep_prob = 0.5
         self.fully_connected_keep_prob = 0.5
-        self.gradient_clipping_value = 5.0
+        self.gradient_clipping_value = 1.0
         self.optimizer_learning_rate = 0.0001
         self.beam_search_width = 5
         self.num_labels = num_labels
@@ -293,7 +293,8 @@ class AdversarialAutoencoder:
         # adversarial_training_operation = adversarial_training_optimizer.minimize(
         #     self.adversarial_loss)
 
-        reconstruction_training_optimizer = tf.train.AdamOptimizer(learning_rate=self.optimizer_learning_rate)
+        reconstruction_training_optimizer = tf.train.GradientDescentOptimizer(
+            learning_rate=self.optimizer_learning_rate)
         reconstruction_gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
             loss=self.reconstruction_loss, var_list=trainable_variables)
         gradients, variables = zip(*reconstruction_gradients_and_variables)
