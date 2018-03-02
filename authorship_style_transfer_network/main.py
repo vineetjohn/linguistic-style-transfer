@@ -19,7 +19,7 @@ WORD_VECTOR_PATH = "word-embeddings/"
 def get_data(text_file_path, vocab_size, label_file_path, dev_mode):
 
     padded_sequences, text_sequence_lengths, word_index, \
-    integer_text_sequences, max_sequence_length = \
+        integer_text_sequences, max_sequence_length = \
         data_preprocessor.get_text_sequences(text_file_path, vocab_size)
     print("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     print("padded_sequences: {}".format(padded_sequences.shape))
@@ -123,9 +123,9 @@ def main(argv):
 
     # Retrieve all data
     num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \
-    encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
-    one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
-    decoder_embedding_matrix, data_size, word_index, integer_text_sequences = \
+        encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
+        one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
+        decoder_embedding_matrix, data_size, word_index, integer_text_sequences = \
         get_data(text_file_path, vocab_size, label_file_path, dev_mode)
 
     # Build model

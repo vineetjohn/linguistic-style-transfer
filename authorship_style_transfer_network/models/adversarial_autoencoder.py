@@ -27,6 +27,9 @@ class AdversarialAutoencoder:
         self.one_hot_labels = one_hot_labels
         self.text_sequence_lengths = text_sequence_lengths
         self.model_save_path = "./saved-models/model.ckpt"
+        self.input_sequence, self.input_label, self.sequence_lengths, \
+            self.reconstruction_loss, self.inference_output, \
+            self.all_summaries = None, None, None, None, None, None
 
     def get_sentence_representation(self, embedded_sequence):
 
@@ -52,9 +55,7 @@ class AdversarialAutoencoder:
             label_projection = tf.layers.dense(
                 inputs=content_representation, units=self.num_labels,
                 name="label_prediction")
-
             label_prediction = tf.nn.softmax(label_projection)
-
             return label_prediction
 
     def generate_output_sequence(self, embedded_sequence, encoder_state, decoder_embeddings):
@@ -95,7 +96,7 @@ class AdversarialAutoencoder:
                     h=tf.contrib.seq2seq.tile_batch(
                         t=encoder_state.h, multiplier=self.beam_search_width)),
                 beam_width=self.beam_search_width, output_layer=projection_layer,
-                length_penalty_weight = 0.0
+                length_penalty_weight=0.0
             )
             inference_decoder.initialize("inference_decoder")
 
@@ -122,10 +123,6 @@ class AdversarialAutoencoder:
             dtype=tf.int32, shape=[self.batch_size],
             name="sequence_lengths")
         print("sequence_lengths: {}".format(self.sequence_lengths))
-
-        self.training_phase = tf.placeholder(
-            dtype=tf.bool, name="training_phase")
-        print("training_phase: {}".format(self.training_phase))
 
         # word embeddings matrices
         encoder_embeddings = tf.get_variable(
@@ -156,8 +153,7 @@ class AdversarialAutoencoder:
             values=[tf.fill([self.batch_size, 1], self.sos_index), left_shifted_decoder_input], axis=1)
 
         decoder_embedded_sequence = tf.nn.dropout(
-            x=tf.nn.embedding_lookup(
-            params=decoder_embeddings, ids=decoder_input),
+            x=tf.nn.embedding_lookup(params=decoder_embeddings, ids=decoder_input),
             keep_prob=self.fully_connected_keep_prob,
             name="decoder_embedded_sequence")
         print("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
@@ -182,24 +178,22 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
-    def get_batch_indices(self, offset, batch_size, batch_number, data_limit):
+    def get_batch_indices(self, offset, batch_number, data_limit):
 
-        start_index = offset + (batch_number * batch_size)
-        end_index = offset + ((batch_number + 1) * batch_size)
-
+        start_index = offset + (batch_number * self.batch_size)
+        end_index = offset + ((batch_number + 1) * self.batch_size)
         end_index = data_limit if end_index > data_limit else end_index
 
-        return (start_index, end_index)
+        return start_index, end_index
 
-    def run_batch(self, sess, start_index, end_index, training_phase, fetches):
+    def run_batch(self, sess, start_index, end_index, fetches):
 
         ops = sess.run(
             fetches=fetches,
             feed_dict={
                 self.input_sequence: self.padded_sequences[start_index: end_index],
                 self.input_label: self.one_hot_labels[start_index: end_index],
-                self.sequence_lengths: self.text_sequence_lengths[start_index: end_index],
-                self.training_phase: training_phase
+                self.sequence_lengths: self.text_sequence_lengths[start_index: end_index]
             })
 
         return ops
@@ -236,8 +230,7 @@ class AdversarialAutoencoder:
         for current_epoch in range(1, training_epochs + 1):
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
-                    offset=0, batch_size=self.batch_size,
-                    batch_number=batch_number, data_limit=data_size)
+                    offset=0, batch_number=batch_number, data_limit=data_size)
 
                 fetches = [
                     reconstruction_training_operation,
@@ -245,13 +238,13 @@ class AdversarialAutoencoder:
                     self.all_summaries]
 
                 _, rec_loss, all_summaries = self.run_batch(
-                    sess, start_index, end_index, True, fetches)
+                    sess, start_index, end_index, fetches)
 
             saver.save(sess=sess, save_path=self.model_save_path)
             writer.add_summary(all_summaries, current_epoch)
             writer.flush()
 
-            print("Reconstruction loss: {:.9f}; Training epoch: {}" \
+            print("Reconstruction loss: {:.9f}; Training epoch: {}"
                   .format(rec_loss, current_epoch))
         writer.close()
 
@@ -267,14 +260,13 @@ class AdversarialAutoencoder:
         for batch_number in range(num_batches + 1):
 
             (start_index, end_index) = self.get_batch_indices(
-                offset=offset, batch_size=self.batch_size,
-                batch_number=batch_number, data_limit=(offset + samples_size))
+                offset=offset, batch_number=batch_number, data_limit=(offset + samples_size))
 
             if start_index == end_index:
                 break
 
             generated_sequences_batch = self.run_batch(
-                sess, start_index, end_index, False, self.inference_output)
+                sess, start_index, end_index, self.inference_output)
 
             generated_sequences.extend(generated_sequences_batch)
 
