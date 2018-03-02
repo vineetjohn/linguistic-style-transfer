@@ -11,7 +11,7 @@ def generate_sentence_from_indices(index_sequence, inverse_word_index):
 
 
 def generate_sentence_from_beam_indices(index_sequence, inverse_word_index):
-    words = [inverse_word_index[x[np.random.randint(0, len(x))]] for x in index_sequence]
+    words = [inverse_word_index[x[0]] for x in index_sequence]
     return words
 
 
