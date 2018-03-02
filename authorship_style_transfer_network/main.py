@@ -6,6 +6,7 @@ from datetime import datetime as dt
 import numpy as np
 import tensorflow as tf
 
+from authorship_style_transfer_network.utils import log
 from authorship_style_transfer_network.models import adversarial_autoencoder
 from authorship_style_transfer_network.utils import bleu_scorer
 from authorship_style_transfer_network.utils import data_postprocessor
@@ -14,32 +15,33 @@ from authorship_style_transfer_network.utils import word_embedder
 
 EMBEDDING_SIZE = 300
 WORD_VECTOR_PATH = "word-embeddings/"
+logger = log.setup_custom_logger('root')
 
 
-def get_data(text_file_path, vocab_size, label_file_path, dev_mode):
+def get_data(text_file_path, vocab_size, label_file_path, use_pretrained_embeddings):
 
     padded_sequences, text_sequence_lengths, word_index, \
         integer_text_sequences, max_sequence_length = \
         data_preprocessor.get_text_sequences(text_file_path, vocab_size)
-    print("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
-    print("padded_sequences: {}".format(padded_sequences.shape))
+    logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
+    logger.debug("padded_sequences: {}".format(padded_sequences.shape))
 
     sos_index = word_index['sos']
     eos_index = word_index['eos']
     data_size = padded_sequences.shape[0]
 
     one_hot_labels, num_labels, label_sequences = data_preprocessor.get_labels(label_file_path)
-    print("one_hot_labels.shape: {}".format(one_hot_labels.shape))
+    logger.debug("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
     encoder_embedding_matrix = np.random.uniform(
         low=-0.05, high=0.05, size=(vocab_size, EMBEDDING_SIZE)).astype(dtype=np.float32)
     decoder_embedding_matrix = np.random.uniform(
         low=-0.05, high=0.05, size=(vocab_size, EMBEDDING_SIZE)).astype(dtype=np.float32)
-    print("encoder_embedding_matrix: {}".format(encoder_embedding_matrix.shape))
-    print("decoder_embedding_matrix: {}".format(decoder_embedding_matrix.shape))
+    logger.debug("encoder_embedding_matrix: {}".format(encoder_embedding_matrix.shape))
+    logger.debug("decoder_embedding_matrix: {}".format(decoder_embedding_matrix.shape))
 
-    if not dev_mode:
-        print("Loading pretrained embeddings")
+    if use_pretrained_embeddings:
+        logger.info("Loading pretrained embeddings")
         encoder_embedding_matrix, decoder_embedding_matrix = word_embedder.add_word_vectors_to_embeddings(
             word_index, WORD_VECTOR_PATH, encoder_embedding_matrix,
             decoder_embedding_matrix, vocab_size)
@@ -53,7 +55,7 @@ def get_data(text_file_path, vocab_size, label_file_path, dev_mode):
 def execute_post_training_operations(all_style_representations, data_size, batch_size, label_sequences):
     # Extract style embeddings
     style_embeddings = np.asarray(all_style_representations)
-    print("style_embeddings_shape: {}".format(style_embeddings.shape))
+    logger.info("style_embeddings_shape: {}".format(style_embeddings.shape))
 
     all_author_embeddings = dict()
     for i in range(data_size - (data_size % batch_size)):
@@ -65,7 +67,7 @@ def execute_post_training_operations(all_style_representations, data_size, batch
     average_author_embeddings = dict()
     for author_label in all_author_embeddings:
         average_author_embeddings[author_label] = np.mean(all_author_embeddings[author_label], axis=0)
-    # print("average_author_embeddings: {}".format(average_author_embeddings))
+    # logger.info("average_author_embeddings: {}".format(average_author_embeddings))
 
 
 def execute_post_inference_operations(word_index, integer_text_sequences, offset, inference_set_size,
@@ -83,17 +85,17 @@ def execute_post_inference_operations(word_index, integer_text_sequences, offset
     # Evaluate model scores
     bleu_scores = bleu_scorer.get_corpus_bleu_scores(
         [[x] for x in actual_word_lists], generated_word_lists)
-    print("bleu_scores: {}".format(bleu_scores))
+    logger.info("bleu_scores: {}".format(bleu_scores))
 
-    print("Generated sentence lengths:")
-    print([len(x) for x in generated_word_lists])
+    logger.debug("Generated sentence lengths:")
+    logger.debug([len(x) for x in generated_word_lists])
 
     actual_sentences = [" ".join(x) for x in actual_word_lists]
     generated_sentences = [" ".join(x) for x in generated_word_lists]
 
     for i in range(3):
-        print("actual_sentence: {}".format(actual_sentences[i]))
-        print("generated_sentence: {}".format(generated_sentences[i]))
+        logger.debug("actual_sentence: {}".format(actual_sentences[i]))
+        logger.debug("generated_sentence: {}".format(generated_sentences[i]))
 
     output_file_path = "output/generated_sentences_{}.txt".format(dt.now().strftime("%Y%m%d%H%M%S"))
     with open(output_file_path, 'w') as output_file:
@@ -105,16 +107,15 @@ def main(argv):
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--dev-mode", action="store_true")
+    parser.add_argument("--use-pretrained-embeddings", action="store_true")
     parser.add_argument("--training-epochs", type=int)
     parser.add_argument("--vocab-size", type=int)
+
     args_namespace = parser.parse_args(argv)
     command_line_args = vars(args_namespace)
-    dev_mode = command_line_args['dev_mode']
-    training_epochs = command_line_args['training_epochs']
-    vocab_size = command_line_args['vocab_size']
 
-    if dev_mode:
-        print("In dev mode")
+    if command_line_args['dev_mode']:
+        logger.info("Running in dev mode")
         text_file_path = "data/c50-articles-dev.txt"
         label_file_path = "data/c50-labels-dev.txt"
     else:
@@ -126,9 +127,11 @@ def main(argv):
         encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
         one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
         decoder_embedding_matrix, data_size, word_index, integer_text_sequences = \
-        get_data(text_file_path, vocab_size, label_file_path, dev_mode)
+        get_data(text_file_path, command_line_args['vocab_size'], label_file_path,
+                 command_line_args['use_pretrained_embeddings'])
 
     # Build model
+    logger.info("Building model architecture")
     network = adversarial_autoencoder.AdversarialAutoencoder(
         num_labels, max_sequence_length, vocab_size, sos_index, eos_index,
         encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences,
@@ -136,20 +139,22 @@ def main(argv):
     network.build_model()
 
     # Train and save model
+    logger.info("Training model")
     sess = get_tensorflow_session()
-    network.train(sess, data_size, training_epochs)
+    network.train(sess, data_size, command_line_args['training_epochs'])
     sess.close()
-    print("Training complete!")
+    logger.info("Training complete!")
 
     # Restore model and run inference
+    logger.info("Inferring test samples")
     sess = get_tensorflow_session()
     inference_set_size = 1 * network.batch_size
     offset = random.randint(0, (data_size - 1) - inference_set_size)
-    print("inference range: {}-{}".format(offset, (offset + inference_set_size)))
+    logger.debug("inference range: {}-{}".format(offset, (offset + inference_set_size)))
     generated_sequences = network.infer(sess, offset, inference_set_size)
     execute_post_inference_operations(
         word_index, integer_text_sequences, offset, inference_set_size, generated_sequences)
-    print("Inference complete!")
+    logger.info("Inference complete!")
 
 
 def get_tensorflow_session():
