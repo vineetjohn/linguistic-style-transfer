@@ -33,10 +33,10 @@ def get_text_sequences(text_file_path, vocab_size):
 
     max_sequence_length = int(np.median(text_sequence_lengths))
     print("max_sequence_length: ", max_sequence_length)
-
-    def mark_unknown_words(integer_text_sequence):
-        return [x if x < vocab_size else word_index['unk'] for x in integer_text_sequence ]
-    integer_text_sequences = [mark_unknown_words(x) for x in integer_text_sequences]
+    
+    integer_text_sequences = [
+        [x if x < vocab_size else word_index['unk'] for x in sequence]
+        for sequence in integer_text_sequences]
     integer_text_sequences = [x + [word_index['eos']] for x in integer_text_sequences]
 
     padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
