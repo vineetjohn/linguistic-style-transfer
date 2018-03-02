@@ -1,6 +1,9 @@
+import logging
 from datetime import datetime as dt
 
 import tensorflow as tf
+
+logger = logging.getLogger('root')
 
 
 class AdversarialAutoencoder:
@@ -8,8 +11,8 @@ class AdversarialAutoencoder:
     def __init__(self, num_labels, max_sequence_length, vocab_size, sos_index, eos_index,
                  encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, one_hot_labels,
                  text_sequence_lengths, label_sequences):
-        self.batch_size = 128
-        self.encoder_rnn_size = 256
+        self.batch_size = 32
+        self.encoder_rnn_size = 1024
         self.recurrent_state_keep_prob = 0.8
         self.fully_connected_keep_prob = 0.5
         self.gradient_clipping_value = 1.0
@@ -112,40 +115,40 @@ class AdversarialAutoencoder:
         self.input_sequence = tf.placeholder(
             dtype=tf.int32, shape=[self.batch_size, self.max_sequence_length],
             name="input_sequence")
-        print("input_sequence: {}".format(self.input_sequence))
+        logger.debug("input_sequence: {}".format(self.input_sequence))
 
         self.input_label = tf.placeholder(
             dtype=tf.float32, shape=[self.batch_size, self.num_labels],
             name="input_label")
-        print("input_label: {}".format(self.input_label))
+        logger.debug("input_label: {}".format(self.input_label))
 
         self.sequence_lengths = tf.placeholder(
             dtype=tf.int32, shape=[self.batch_size],
             name="sequence_lengths")
-        print("sequence_lengths: {}".format(self.sequence_lengths))
+        logger.debug("sequence_lengths: {}".format(self.sequence_lengths))
 
         # word embeddings matrices
         encoder_embeddings = tf.get_variable(
             initializer=self.encoder_embedding_matrix, dtype=tf.float32,
             trainable=True, name="encoder_embeddings")
-        print("encoder_embeddings: {}".format(encoder_embeddings))
+        logger.debug("encoder_embeddings: {}".format(encoder_embeddings))
 
         decoder_embeddings = tf.get_variable(
             initializer=self.decoder_embedding_matrix, dtype=tf.float32,
             trainable=True, name="decoder_embeddings")
-        print("decoder_embeddings: {}".format(decoder_embeddings))
+        logger.debug("decoder_embeddings: {}".format(decoder_embeddings))
 
         encoder_embedded_sequence = tf.nn.dropout(
             x=tf.nn.embedding_lookup(
                 params=encoder_embeddings, ids=self.input_sequence),
             keep_prob=self.fully_connected_keep_prob,
             name="encoder_embedded_sequence")
-        print("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
+        logger.debug("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
 
         # get sentence representation
         encoder_state = self.get_sentence_representation(
             encoder_embedded_sequence)
-        print("encoder_state: {}".format(encoder_state))
+        logger.debug("encoder_state: {}".format(encoder_state))
 
         left_shifted_decoder_input = tf.strided_slice(
             input_=self.input_sequence, begin=[0, 0], end=[self.batch_size, -1], strides=[1, 1],)
@@ -156,14 +159,14 @@ class AdversarialAutoencoder:
             x=tf.nn.embedding_lookup(params=decoder_embeddings, ids=decoder_input),
             keep_prob=self.fully_connected_keep_prob,
             name="decoder_embedded_sequence")
-        print("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
+        logger.debug("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
         with tf.name_scope('sequence_prediction'):
             training_output, self.inference_output = \
                 self.generate_output_sequence(
                     decoder_embedded_sequence, encoder_state, decoder_embeddings)
-            print("training_output: {}".format(training_output))
-            print("inference_output: {}".format(self.inference_output))
+            logger.debug("training_output: {}".format(training_output))
+            logger.debug("inference_output: {}".format(self.inference_output))
 
         with tf.name_scope('reconstruction_loss'):
             output_sequence_mask = tf.sequence_mask(
@@ -173,7 +176,7 @@ class AdversarialAutoencoder:
             self.reconstruction_loss = tf.contrib.seq2seq.sequence_loss(
                 logits=training_output, targets=self.input_sequence,
                 weights=output_sequence_mask)
-            print("reconstruction_loss: {}".format(self.reconstruction_loss))
+            logger.debug("reconstruction_loss: {}".format(self.reconstruction_loss))
 
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         self.all_summaries = tf.summary.merge_all()
@@ -205,7 +208,7 @@ class AdversarialAutoencoder:
             graph=sess.graph)
 
         trainable_variables = tf.trainable_variables()
-        print("trainable_variables: {}".format(trainable_variables))
+        logger.debug("trainable_variables: {}".format(trainable_variables))
 
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
             learning_rate=self.optimizer_learning_rate)
@@ -222,9 +225,9 @@ class AdversarialAutoencoder:
 
         training_examples_size = data_size
         num_batches = training_examples_size // self.batch_size
-        print("Training - texts shape: {}; labels shape {}"
-              .format(self.padded_sequences[:training_examples_size].shape,
-                      self.one_hot_labels[:training_examples_size].shape))
+        logger.debug("Training - texts shape: {}; labels shape {}"
+                     .format(self.padded_sequences[:training_examples_size].shape,
+                             self.one_hot_labels[:training_examples_size].shape))
 
         adv_loss, rec_loss, all_summaries = (None, None, None)
         for current_epoch in range(1, training_epochs + 1):
@@ -244,8 +247,8 @@ class AdversarialAutoencoder:
             writer.add_summary(all_summaries, current_epoch)
             writer.flush()
 
-            print("Reconstruction loss: {:.9f}; Training epoch: {}"
-                  .format(rec_loss, current_epoch))
+            logger.info("Reconstruction loss: {:.9f}; Training epoch: {}"
+                        .format(rec_loss, current_epoch))
         writer.close()
 
     def infer(self, sess, offset, samples_size):

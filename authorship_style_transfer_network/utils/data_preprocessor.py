@@ -1,7 +1,10 @@
+import logging
+
 import tensorflow as tf
 import numpy as np
 
 MAX_SEQUENCE_LENGTH = 20
+logger = logging.getLogger('root')
 
 
 def get_text_sequences(text_file_path, vocab_size):
@@ -18,7 +21,7 @@ def get_text_sequences(text_file_path, vocab_size):
     with open(text_file_path) as text_file:
         text_tokenizer.fit_on_texts(text_file)
     available_vocab = len(text_tokenizer.word_index)
-    print("available_vocab: {}".format(available_vocab))
+    logger.info("available_vocab: {}".format(available_vocab))
 
     num_predefined_tokens = len(word_index)
     for index, word in enumerate(text_tokenizer.word_index):
@@ -32,7 +35,7 @@ def get_text_sequences(text_file_path, vocab_size):
         a=[len(x) for x in integer_text_sequences], dtype=np.int32)
 
     max_sequence_length = int(np.median(text_sequence_lengths))
-    print("max_sequence_length: ", max_sequence_length)
+    logger.info("max_sequence_length: {}".format(max_sequence_length))
     
     integer_text_sequences = [
         [x if x < vocab_size else word_index['unk'] for x in sequence]
