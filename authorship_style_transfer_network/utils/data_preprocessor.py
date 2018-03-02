@@ -46,8 +46,8 @@ def get_text_sequences(text_file_path, vocab_size):
     text_sequence_lengths = np.asarray(
         [max_sequence_length if x > max_sequence_length else x for x in text_sequence_lengths])
 
-    return padded_sequences, text_sequence_lengths, text_tokenizer.word_index, \
-           integer_text_sequences, max_sequence_length
+    return [padded_sequences, text_sequence_lengths, text_tokenizer.word_index,
+            integer_text_sequences, max_sequence_length]
 
 
 def get_labels(label_file_path):
@@ -64,4 +64,4 @@ def get_labels(label_file_path):
     one_hot_labels = np.asarray(
         [np.eye(num_labels, k=x[0])[0] for x in label_sequences])
 
-    return one_hot_labels, num_labels, label_sequences
+    return [one_hot_labels, num_labels, label_sequences]
