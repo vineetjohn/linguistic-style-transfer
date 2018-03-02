@@ -97,6 +97,11 @@ def execute_post_inference_operations(word_index, integer_text_sequences, offset
         logger.debug("actual_sentence: {}".format(actual_sentences[i]))
         logger.debug("generated_sentence: {}".format(generated_sentences[i]))
 
+    output_file_path = "output/actual_sentences_{}.txt".format(dt.now().strftime("%Y%m%d%H%M%S"))
+    with open(output_file_path, 'w') as output_file:
+        for sentence in actual_sentences:
+            output_file.write(sentence + "\n")
+
     output_file_path = "output/generated_sentences_{}.txt".format(dt.now().strftime("%Y%m%d%H%M%S"))
     with open(output_file_path, 'w') as output_file:
         for sentence in generated_sentences:
