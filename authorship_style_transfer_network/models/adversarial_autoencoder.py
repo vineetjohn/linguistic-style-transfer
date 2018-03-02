@@ -235,10 +235,10 @@ class AdversarialAutoencoder:
                 (start_index, end_index) = self.get_batch_indices(
                     offset=0, batch_number=batch_number, data_limit=data_size)
 
-                fetches = [
-                    reconstruction_training_operation,
-                    self.reconstruction_loss,
-                    self.all_summaries]
+                fetches = \
+                    [reconstruction_training_operation,
+                     self.reconstruction_loss,
+                     self.all_summaries]
 
                 _, rec_loss, all_summaries = self.run_batch(
                     sess, start_index, end_index, fetches)
