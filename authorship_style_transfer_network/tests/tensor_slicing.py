@@ -24,4 +24,13 @@ with tf.Session() as sess:
     # print(sess.run(bar_1))
     # print(sess.run(baz))
     # print(sess.run(tf.concat([baz, bar], axis=1)))
-    print(sess.run(tf.strided_slice(foo, [0, 0], [3, -1], [1, 1], name='slice_input')))
+    # print(sess.run(tf.strided_slice(foo, [0, 0], [3, -1], [1, 1], name='slice_input')))
+
+    inference_mask = tf.sequence_mask(
+        lengths=[2, 1, 3], maxlen=3,
+        dtype=tf.bool)
+    print(sess.run(inference_mask))
+
+    inference_output = tf.boolean_mask(
+        tensor=foo, mask=inference_mask, axis=0)
+    print(sess.run(inference_output))

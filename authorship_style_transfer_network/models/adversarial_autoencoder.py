@@ -108,7 +108,7 @@ class AdversarialAutoencoder:
                 maximum_iterations=self.max_sequence_length,
                 scope="inference_decoder")
 
-        return training_decoder_output.rnn_output, inference_decoder_output.predicted_ids
+        return training_decoder_output.rnn_output, inference_decoder_output.predicted_ids[:, :, 0]
 
     def build_model(self):
 
@@ -165,6 +165,7 @@ class AdversarialAutoencoder:
             training_output, self.inference_output = \
                 self.generate_output_sequence(
                     decoder_embedded_sequence, encoder_state, decoder_embeddings)
+
             logger.debug("training_output: {}".format(training_output))
             logger.debug("inference_output: {}".format(self.inference_output))
 
@@ -260,7 +261,8 @@ class AdversarialAutoencoder:
         generated_sequences = list()
         num_batches = samples_size // self.batch_size
 
-        for batch_number in range(num_batches + 1):
+        end_index = None
+        for batch_number in range(num_batches):
 
             (start_index, end_index) = self.get_batch_indices(
                 offset=offset, batch_number=batch_number, data_limit=(offset + samples_size))
@@ -273,4 +275,4 @@ class AdversarialAutoencoder:
 
             generated_sequences.extend(generated_sequences_batch)
 
-        return generated_sequences
+        return generated_sequences, end_index
