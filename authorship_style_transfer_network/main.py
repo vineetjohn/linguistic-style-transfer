@@ -1,16 +1,15 @@
 import argparse
-import random
 import sys
 from datetime import datetime as dt
 
 import numpy as np
 import tensorflow as tf
 
-from authorship_style_transfer_network.utils import log_initializer
 from authorship_style_transfer_network.models import adversarial_autoencoder
 from authorship_style_transfer_network.utils import bleu_scorer
 from authorship_style_transfer_network.utils import data_postprocessor
 from authorship_style_transfer_network.utils import data_preprocessor
+from authorship_style_transfer_network.utils import log_initializer
 from authorship_style_transfer_network.utils import word_embedder
 
 EMBEDDING_SIZE = 300
@@ -111,7 +110,7 @@ def execute_post_inference_operations(word_index, actual_sequences, start_index,
 def main(argv):
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dev-mode", action="store_true", default=True)
+    parser.add_argument("--dev-mode", action="store_true", default=False)
     parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
     parser.add_argument("--training-epochs", type=int, default=10)
     parser.add_argument("--vocab-size", type=int, default=1000)
