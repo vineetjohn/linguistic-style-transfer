@@ -89,26 +89,24 @@ class AdversarialAutoencoder:
 
         with tf.name_scope('inference_decoder'):
 
-            inference_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
-                cell=decoder_cell, embedding=decoder_embeddings,
+            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+                embedding=decoder_embeddings,
                 start_tokens=tf.fill([self.batch_size], self.sos_index),
-                end_token=self.eos_index,
-                initial_state=tf.contrib.rnn.LSTMStateTuple(
-                    c=tf.contrib.seq2seq.tile_batch(
-                        t=encoder_state.c, multiplier=self.beam_search_width),
-                    h=tf.contrib.seq2seq.tile_batch(
-                        t=encoder_state.h, multiplier=self.beam_search_width)),
-                beam_width=self.beam_search_width, output_layer=projection_layer,
-                length_penalty_weight=0.0
-            )
+                end_token=self.eos_index)
+
+            inference_decoder = tf.contrib.seq2seq.BasicDecoder(
+                cell=decoder_cell, helper=greedy_embedding_helper,
+                initial_state=encoder_state,
+                output_layer=projection_layer)
             inference_decoder.initialize("inference_decoder")
 
             inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                decoder=inference_decoder, impute_finished=False,
+                decoder=inference_decoder, impute_finished=True,
                 maximum_iterations=self.max_sequence_length,
                 scope="inference_decoder")
 
-        return training_decoder_output.rnn_output, inference_decoder_output.predicted_ids
+        return training_decoder_output.rnn_output, inference_decoder_output.sample_id
+>>>>>>> dev
 
     def build_model(self):
 
@@ -146,14 +144,11 @@ class AdversarialAutoencoder:
         logger.debug("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
 
         # get sentence representation
-        encoder_state = self.get_sentence_representation(
-            encoder_embedded_sequence)
+        encoder_state = self.get_sentence_representation(encoder_embedded_sequence)
         logger.debug("encoder_state: {}".format(encoder_state))
 
-        left_shifted_decoder_input = tf.strided_slice(
-            input_=self.input_sequence, begin=[0, 0], end=[self.batch_size, -1], strides=[1, 1],)
         decoder_input = tf.concat(
-            values=[tf.fill([self.batch_size, 1], self.sos_index), left_shifted_decoder_input], axis=1)
+            values=[tf.fill([self.batch_size, 1], self.sos_index), self.input_sequence], axis=1)
 
         decoder_embedded_sequence = tf.nn.dropout(
             x=tf.nn.embedding_lookup(params=decoder_embeddings, ids=decoder_input),
@@ -260,7 +255,8 @@ class AdversarialAutoencoder:
         generated_sequences = list()
         num_batches = samples_size // self.batch_size
 
-        for batch_number in range(num_batches + 1):
+        end_index = None
+        for batch_number in range(num_batches):
 
             (start_index, end_index) = self.get_batch_indices(
                 offset=offset, batch_number=batch_number, data_limit=(offset + samples_size))
@@ -273,4 +269,5 @@ class AdversarialAutoencoder:
 
             generated_sequences.extend(generated_sequences_batch)
 
-        return generated_sequences
+        return generated_sequences, end_index
+

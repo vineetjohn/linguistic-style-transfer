@@ -6,7 +6,7 @@ from datetime import datetime as dt
 import numpy as np
 import tensorflow as tf
 
-from authorship_style_transfer_network.utils import log
+from authorship_style_transfer_network.utils import log_initializer
 from authorship_style_transfer_network.models import adversarial_autoencoder
 from authorship_style_transfer_network.utils import bleu_scorer
 from authorship_style_transfer_network.utils import data_postprocessor
@@ -15,7 +15,7 @@ from authorship_style_transfer_network.utils import word_embedder
 
 EMBEDDING_SIZE = 300
 WORD_VECTOR_PATH = "word-embeddings/"
-logger = log.setup_custom_logger('root')
+logger = None
 
 
 def get_data(text_file_path, vocab_size, label_file_path, use_pretrained_embeddings):
@@ -70,16 +70,16 @@ def execute_post_training_operations(all_style_representations, data_size, batch
     # logger.info("average_author_embeddings: {}".format(average_author_embeddings))
 
 
-def execute_post_inference_operations(word_index, integer_text_sequences, offset, inference_set_size,
+def execute_post_inference_operations(word_index, integer_text_sequences, start_index, final_index,
                                       generated_sequences):
 
     inverse_word_index = {v: k for k, v in word_index.items()}
-    actual_sequences = integer_text_sequences[offset: (offset + inference_set_size)]
+    actual_sequences = integer_text_sequences[start_index:final_index]
     actual_word_lists = \
         [data_postprocessor.generate_sentence_from_indices(x, inverse_word_index)
          for x in actual_sequences]
     generated_word_lists = \
-        [data_postprocessor.generate_sentence_from_beam_indices(x, inverse_word_index)
+        [data_postprocessor.generate_sentence_from_indices(x, inverse_word_index)
          for x in generated_sequences]
 
     # Evaluate model scores
@@ -87,8 +87,8 @@ def execute_post_inference_operations(word_index, integer_text_sequences, offset
         [[x] for x in actual_word_lists], generated_word_lists)
     logger.info("bleu_scores: {}".format(bleu_scores))
 
-    logger.debug("Generated sentence lengths:")
-    logger.debug([len(x) for x in generated_word_lists])
+    logger.debug("Minimum generated sentence length: {}"
+                 .format(min(len(x) for x in generated_word_lists)))
 
     actual_sentences = [" ".join(x) for x in actual_word_lists]
     generated_sentences = [" ".join(x) for x in generated_word_lists]
@@ -112,13 +112,17 @@ def execute_post_inference_operations(word_index, integer_text_sequences, offset
 def main(argv):
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dev-mode", action="store_true")
-    parser.add_argument("--use-pretrained-embeddings", action="store_true")
-    parser.add_argument("--training-epochs", type=int)
-    parser.add_argument("--vocab-size", type=int)
+    parser.add_argument("--dev-mode", action="store_true", default=True)
+    parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
+    parser.add_argument("--training-epochs", type=int, default=10)
+    parser.add_argument("--vocab-size", type=int, default=1000)
+    parser.add_argument("--logging-level", type=str, default="INFO")
 
     args_namespace = parser.parse_args(argv)
     command_line_args = vars(args_namespace)
+
+    global logger
+    logger = log_initializer.setup_custom_logger('root', command_line_args['logging_level'])
 
     if command_line_args['dev_mode']:
         logger.info("Running in dev mode")
@@ -152,14 +156,12 @@ def main(argv):
     logger.info("Training complete!")
 
     # Restore model and run inference
-    logger.info("Inferring test samples")
-    sess = get_tensorflow_session()
-    inference_set_size = 1 * network.batch_size
-    offset = random.randint(0, (data_size - 1) - inference_set_size)
+    inference_set_size = data_size
+    offset = 0
     logger.debug("inference range: {}-{}".format(offset, (offset + inference_set_size)))
-    generated_sequences = network.infer(sess, offset, inference_set_size)
+    generated_sequences, final_index = network.infer(sess, offset, inference_set_size)
     execute_post_inference_operations(
-        word_index, integer_text_sequences, offset, inference_set_size, generated_sequences)
+        word_index, integer_text_sequences, offset, final_index, generated_sequences)
     logger.info("Inference complete!")
 
 
