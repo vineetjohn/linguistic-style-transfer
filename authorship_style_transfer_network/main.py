@@ -20,8 +20,7 @@ logger = None
 
 def get_data(text_file_path, vocab_size, label_file_path, use_pretrained_embeddings):
 
-    padded_sequences, text_sequence_lengths, word_index, \
-        integer_text_sequences, max_sequence_length = \
+    padded_sequences, text_sequence_lengths, word_index, max_sequence_length = \
         data_preprocessor.get_text_sequences(text_file_path, vocab_size)
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     logger.debug("padded_sequences: {}".format(padded_sequences.shape))
@@ -49,7 +48,7 @@ def get_data(text_file_path, vocab_size, label_file_path, use_pretrained_embeddi
     return num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \
         encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
         one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
-        decoder_embedding_matrix, data_size, word_index, integer_text_sequences
+        decoder_embedding_matrix, data_size, word_index
 
 
 def execute_post_training_operations(all_style_representations, data_size, batch_size, label_sequences):
@@ -70,11 +69,11 @@ def execute_post_training_operations(all_style_representations, data_size, batch
     # logger.info("average_author_embeddings: {}".format(average_author_embeddings))
 
 
-def execute_post_inference_operations(word_index, integer_text_sequences, start_index, final_index,
+def execute_post_inference_operations(word_index, actual_sequences, start_index, final_index,
                                       generated_sequences):
 
     inverse_word_index = {v: k for k, v in word_index.items()}
-    actual_sequences = integer_text_sequences[start_index:final_index]
+    actual_sequences = actual_sequences[start_index:final_index]
     actual_word_lists = \
         [data_postprocessor.generate_sentence_from_indices(x, inverse_word_index)
          for x in actual_sequences]
@@ -136,7 +135,7 @@ def main(argv):
     num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \
         encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
         one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
-        decoder_embedding_matrix, data_size, word_index, integer_text_sequences = \
+        decoder_embedding_matrix, data_size, word_index = \
         get_data(text_file_path, command_line_args['vocab_size'], label_file_path,
                  command_line_args['use_pretrained_embeddings'])
 
@@ -156,12 +155,14 @@ def main(argv):
     logger.info("Training complete!")
 
     # Restore model and run inference
+    logger.info("Inferring test samples")
+    sess = get_tensorflow_session()
     inference_set_size = data_size
     offset = 0
     logger.debug("inference range: {}-{}".format(offset, (offset + inference_set_size)))
     generated_sequences, final_index = network.infer(sess, offset, inference_set_size)
     execute_post_inference_operations(
-        word_index, integer_text_sequences, offset, final_index, generated_sequences)
+        word_index, padded_sequences, offset, final_index, generated_sequences)
     logger.info("Inference complete!")
 
 

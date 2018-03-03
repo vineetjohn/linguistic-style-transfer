@@ -106,7 +106,6 @@ class AdversarialAutoencoder:
                 scope="inference_decoder")
 
         return training_decoder_output.rnn_output, inference_decoder_output.sample_id
->>>>>>> dev
 
     def build_model(self):
 
