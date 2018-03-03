@@ -15,7 +15,7 @@ from authorship_style_transfer_network.utils import word_embedder
 
 EMBEDDING_SIZE = 300
 WORD_VECTOR_PATH = "word-embeddings/"
-logger = log.setup_custom_logger('root')
+logger = None
 
 
 def get_data(text_file_path, vocab_size, label_file_path, use_pretrained_embeddings):
@@ -112,13 +112,17 @@ def execute_post_inference_operations(word_index, integer_text_sequences, start_
 def main(argv):
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dev-mode", action="store_true")
-    parser.add_argument("--use-pretrained-embeddings", action="store_true")
-    parser.add_argument("--training-epochs", type=int)
-    parser.add_argument("--vocab-size", type=int)
+    parser.add_argument("--dev-mode", action="store_true", default=True)
+    parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
+    parser.add_argument("--training-epochs", type=int, default=10)
+    parser.add_argument("--vocab-size", type=int, default=1000)
+    parser.add_argument("--logging-level", type=str, default="INFO")
 
     args_namespace = parser.parse_args(argv)
     command_line_args = vars(args_namespace)
+
+    global logger
+    logger = log.setup_custom_logger('root', command_line_args['logging_level'])
 
     if command_line_args['dev_mode']:
         logger.info("Running in dev mode")
