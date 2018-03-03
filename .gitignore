@@ -3,6 +3,7 @@ data/
 output/
 saved-models/
 word-embeddings/
+tests/
 .idea/
 
 # Byte-compiled / optimized / DLL files
