@@ -5,9 +5,7 @@ import tensorflow as tf
 
 from authorship_style_transfer_network.utils import global_constants
 
-MAX_SEQUENCE_LENGTH = 20
-
-logger = logging.getLogger(global_constants.LOGGER_NAME)
+logger = logging.getLogger(global_constants.logger_name)
 
 
 def get_text_sequences(text_file_path, vocab_size):

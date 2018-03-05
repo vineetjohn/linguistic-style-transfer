@@ -4,7 +4,7 @@ import gensim
 
 from authorship_style_transfer_network.utils import global_constants
 
-logger = logging.getLogger(global_constants.LOGGER_NAME)
+logger = logging.getLogger(global_constants.logger_name)
 
 
 def add_word_vectors_to_embeddings(word_index, word_vector_path, encoder_embedding_matrix,

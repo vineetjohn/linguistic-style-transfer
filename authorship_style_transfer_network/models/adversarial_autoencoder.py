@@ -5,7 +5,7 @@ import tensorflow as tf
 
 from authorship_style_transfer_network.utils import global_constants
 
-logger = logging.getLogger(global_constants.LOGGER_NAME)
+logger = logging.getLogger(global_constants.logger_name)
 
 
 class AdversarialAutoencoder:

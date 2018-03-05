@@ -5,21 +5,18 @@ from datetime import datetime as dt
 import numpy as np
 import tensorflow as tf
 
-from authorship_style_transfer_network.utils import global_constants
 from authorship_style_transfer_network.models import adversarial_autoencoder
 from authorship_style_transfer_network.utils import bleu_scorer
 from authorship_style_transfer_network.utils import data_postprocessor
 from authorship_style_transfer_network.utils import data_preprocessor
+from authorship_style_transfer_network.utils import global_constants
 from authorship_style_transfer_network.utils import log_initializer
 from authorship_style_transfer_network.utils import word_embedder
 
-EMBEDDING_SIZE = 300
-WORD_VECTOR_PATH = "word-embeddings/"
 logger = None
 
 
 def get_data(text_file_path, vocab_size, label_file_path, use_pretrained_embeddings):
-
     padded_sequences, text_sequence_lengths, word_index, max_sequence_length, actual_sequences = \
         data_preprocessor.get_text_sequences(text_file_path, vocab_size)
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
@@ -33,22 +30,22 @@ def get_data(text_file_path, vocab_size, label_file_path, use_pretrained_embeddi
     logger.debug("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
     encoder_embedding_matrix = np.random.uniform(
-        low=-0.05, high=0.05, size=(vocab_size, EMBEDDING_SIZE)).astype(dtype=np.float32)
+        low=-0.05, high=0.05, size=(vocab_size, global_constants.embedding_size)).astype(dtype=np.float32)
     decoder_embedding_matrix = np.random.uniform(
-        low=-0.05, high=0.05, size=(vocab_size, EMBEDDING_SIZE)).astype(dtype=np.float32)
+        low=-0.05, high=0.05, size=(vocab_size, global_constants.embedding_size)).astype(dtype=np.float32)
     logger.debug("encoder_embedding_matrix: {}".format(encoder_embedding_matrix.shape))
     logger.debug("decoder_embedding_matrix: {}".format(decoder_embedding_matrix.shape))
 
     if use_pretrained_embeddings:
         logger.info("Loading pretrained embeddings")
         encoder_embedding_matrix, decoder_embedding_matrix = word_embedder.add_word_vectors_to_embeddings(
-            word_index, WORD_VECTOR_PATH, encoder_embedding_matrix,
+            word_index, global_constants.word_vector_path, encoder_embedding_matrix,
             decoder_embedding_matrix, vocab_size)
 
     return num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \
-        encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
-        one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
-        decoder_embedding_matrix, data_size, word_index, actual_sequences
+           encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
+           one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
+           decoder_embedding_matrix, data_size, word_index, actual_sequences
 
 
 def execute_post_training_operations(all_style_representations, data_size, batch_size, label_sequences):
@@ -71,7 +68,6 @@ def execute_post_training_operations(all_style_representations, data_size, batch
 
 def execute_post_inference_operations(word_index, actual_sequences, start_index, final_index,
                                       generated_sequences, final_sequence_lengths, max_sequence_length):
-
     logger.debug("Minimum generated sentence length: {}".format(min(final_sequence_lengths)))
 
     inverse_word_index = {v: k for k, v in word_index.items()}
@@ -117,7 +113,6 @@ def execute_post_inference_operations(word_index, actual_sequences, start_index,
 
 
 def main(argv):
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--dev-mode", action="store_true", default=False)
     parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
@@ -130,7 +125,7 @@ def main(argv):
 
     global logger
     logger = log_initializer.setup_custom_logger(
-        global_constants.LOGGER_NAME, command_line_args['logging_level'])
+        global_constants.logger_name, command_line_args['logging_level'])
 
     if command_line_args['dev_mode']:
         logger.info("Running in dev mode")
@@ -142,9 +137,9 @@ def main(argv):
 
     # Retrieve all data
     num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \
-        encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
-        one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
-        decoder_embedding_matrix, data_size, word_index, actual_sequences = \
+    encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
+    one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
+    decoder_embedding_matrix, data_size, word_index, actual_sequences = \
         get_data(text_file_path, command_line_args['vocab_size'], label_file_path,
                  command_line_args['use_pretrained_embeddings'])
 
