@@ -45,9 +45,11 @@ def get_text_sequences(text_file_path, vocab_size):
         value=word_index['eos'])
 
     text_sequence_lengths = np.asarray(
-        [max_sequence_length if x > max_sequence_length else x for x in text_sequence_lengths])
+        [max_sequence_length if x >= max_sequence_length
+         else x + 1 for x in text_sequence_lengths])  # x + 1 to accomodate a single EOS token
 
-    return [padded_sequences, text_sequence_lengths, text_tokenizer.word_index, max_sequence_length]
+    return [padded_sequences, text_sequence_lengths, text_tokenizer.word_index, max_sequence_length,
+            actual_sequences]
 
 
 def get_labels(label_file_path):

@@ -10,6 +10,7 @@ BLEU_SCORE_WEIGHTS = {
 
 def get_corpus_bleu_scores(actual_word_lists, generated_word_lists):
     bleu_scores = dict()
+
     for i in range(1, 5):
         bleu_scores[i] = corpus_bleu(
             list_of_references=actual_word_lists,

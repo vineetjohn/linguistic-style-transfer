@@ -31,13 +31,12 @@ class AdversarialAutoencoder:
         self.text_sequence_lengths = text_sequence_lengths
         self.model_save_path = "./saved-models/model.ckpt"
         self.input_sequence, self.input_label, self.sequence_lengths, \
-            self.reconstruction_loss, self.inference_output, \
-            self.all_summaries = None, None, None, None, None, None
+        self.reconstruction_loss, self.inference_output, \
+        self.all_summaries = None, None, None, None, None, None
 
     def get_sentence_representation(self, embedded_sequence):
 
         with tf.name_scope('sentence_representation'):
-
             encoder_lstm_cell = tf.nn.rnn_cell.DropoutWrapper(
                 cell=tf.nn.rnn_cell.BasicLSTMCell(num_units=self.encoder_rnn_size),
                 input_keep_prob=self.recurrent_state_keep_prob,
@@ -88,24 +87,27 @@ class AdversarialAutoencoder:
                 scope="training_decoder")
 
         with tf.name_scope('inference_decoder'):
-
-            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-                embedding=decoder_embeddings,
+            inference_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
+                cell=decoder_cell, embedding=decoder_embeddings,
                 start_tokens=tf.fill([self.batch_size], self.sos_index),
-                end_token=self.eos_index)
-
-            inference_decoder = tf.contrib.seq2seq.BasicDecoder(
-                cell=decoder_cell, helper=greedy_embedding_helper,
-                initial_state=encoder_state,
-                output_layer=projection_layer)
+                end_token=self.eos_index,
+                initial_state=tf.contrib.rnn.LSTMStateTuple(
+                    c=tf.contrib.seq2seq.tile_batch(
+                        t=encoder_state.c, multiplier=self.beam_search_width),
+                    h=tf.contrib.seq2seq.tile_batch(
+                        t=encoder_state.h, multiplier=self.beam_search_width)),
+                beam_width=self.beam_search_width, output_layer=projection_layer,
+                length_penalty_weight=0.0
+            )
             inference_decoder.initialize("inference_decoder")
 
-            inference_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                decoder=inference_decoder, impute_finished=True,
+            inference_decoder_output, _, final_sequence_lengths = tf.contrib.seq2seq.dynamic_decode(
+                decoder=inference_decoder, impute_finished=False,
                 maximum_iterations=self.max_sequence_length,
                 scope="inference_decoder")
 
-        return training_decoder_output.rnn_output, inference_decoder_output.sample_id
+        return training_decoder_output.rnn_output, inference_decoder_output.predicted_ids[:, :, 0], \
+            final_sequence_lengths[:, 0]
 
     def build_model(self):
 
@@ -156,19 +158,32 @@ class AdversarialAutoencoder:
         logger.debug("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
         with tf.name_scope('sequence_prediction'):
-            training_output, self.inference_output = \
+            training_output, self.inference_output, self.final_sequence_lengths = \
                 self.generate_output_sequence(
                     decoder_embedded_sequence, encoder_state, decoder_embeddings)
             logger.debug("training_output: {}".format(training_output))
             logger.debug("inference_output: {}".format(self.inference_output))
 
         with tf.name_scope('reconstruction_loss'):
+            batch_maxlen = tf.reduce_max(self.sequence_lengths)
+            print("batch_maxlen: {}".format(batch_maxlen))
+
+            # the training decoder only emits outputs equal in time-steps to the
+            # max time in the current batch
+            target_sequence = tf.slice(
+                input_=self.input_sequence,
+                begin=[0, 0],
+                size=[self.batch_size, batch_maxlen],
+                name="target_sequence")
+            print("target_sequence: {}".format(target_sequence))
+
             output_sequence_mask = tf.sequence_mask(
-                lengths=self.sequence_lengths, maxlen=self.max_sequence_length,
+                lengths=tf.add(x=self.sequence_lengths, y=1),
+                maxlen=batch_maxlen,
                 dtype=tf.float32)
 
             self.reconstruction_loss = tf.contrib.seq2seq.sequence_loss(
-                logits=training_output, targets=self.input_sequence,
+                logits=training_output, targets=target_sequence,
                 weights=output_sequence_mask)
             logger.debug("reconstruction_loss: {}".format(self.reconstruction_loss))
 
@@ -252,6 +267,7 @@ class AdversarialAutoencoder:
         saver.restore(sess=sess, save_path=self.model_save_path)
 
         generated_sequences = list()
+        final_sequence_lengths = list()
         num_batches = samples_size // self.batch_size
 
         end_index = None
@@ -263,10 +279,10 @@ class AdversarialAutoencoder:
             if start_index == end_index:
                 break
 
-            generated_sequences_batch = self.run_batch(
-                sess, start_index, end_index, self.inference_output)
+            generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
+                sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths])
 
             generated_sequences.extend(generated_sequences_batch)
+            final_sequence_lengths.extend(final_sequence_lengths_batch)
 
-        return generated_sequences, end_index
-
+        return generated_sequences, end_index, final_sequence_lengths

@@ -5,7 +5,7 @@ def generate_word(word_embedding):
     return np.argmax(word_embedding)
 
 
-def generate_sentence_from_indices(index_sequence, inverse_word_index):
+def generate_words_from_indices(index_sequence, inverse_word_index):
     words = [inverse_word_index[x] for x in index_sequence]
     return words
 
