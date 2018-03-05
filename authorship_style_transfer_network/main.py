@@ -5,6 +5,7 @@ from datetime import datetime as dt
 import numpy as np
 import tensorflow as tf
 
+from authorship_style_transfer_network.utils import global_constants
 from authorship_style_transfer_network.models import adversarial_autoencoder
 from authorship_style_transfer_network.utils import bleu_scorer
 from authorship_style_transfer_network.utils import data_postprocessor
@@ -128,7 +129,8 @@ def main(argv):
     command_line_args = vars(args_namespace)
 
     global logger
-    logger = log_initializer.setup_custom_logger('root', command_line_args['logging_level'])
+    logger = log_initializer.setup_custom_logger(
+        global_constants.LOGGER_NAME, command_line_args['logging_level'])
 
     if command_line_args['dev_mode']:
         logger.info("Running in dev mode")

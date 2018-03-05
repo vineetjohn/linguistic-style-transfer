@@ -1,14 +1,16 @@
 import logging
 
-import tensorflow as tf
 import numpy as np
+import tensorflow as tf
+
+from authorship_style_transfer_network.utils import global_constants
 
 MAX_SEQUENCE_LENGTH = 20
-logger = logging.getLogger('root')
+
+logger = logging.getLogger(global_constants.LOGGER_NAME)
 
 
 def get_text_sequences(text_file_path, vocab_size):
-
     word_index = {
         'unk': 0,
         'sos': 1,
@@ -35,7 +37,7 @@ def get_text_sequences(text_file_path, vocab_size):
 
     max_sequence_length = int(np.median(text_sequence_lengths))
     logger.info("max_sequence_length: {}".format(max_sequence_length))
-    
+
     actual_sequences = [
         [x if x < vocab_size else word_index['unk'] for x in sequence]
         for sequence in actual_sequences]
@@ -53,7 +55,6 @@ def get_text_sequences(text_file_path, vocab_size):
 
 
 def get_labels(label_file_path):
-
     label_tokenizer = tf.keras.preprocessing.text.Tokenizer()
 
     with open(label_file_path) as label_file:

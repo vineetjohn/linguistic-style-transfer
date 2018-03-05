@@ -3,7 +3,9 @@ from datetime import datetime as dt
 
 import tensorflow as tf
 
-logger = logging.getLogger('root')
+from authorship_style_transfer_network.utils import global_constants
+
+logger = logging.getLogger(global_constants.LOGGER_NAME)
 
 
 class AdversarialAutoencoder:
@@ -33,8 +35,8 @@ class AdversarialAutoencoder:
 
         # declare model fetches and placeholders
         self.input_sequence, self.input_label, self.sequence_lengths, \
-            self.reconstruction_loss, self.adversarial_loss, self.inference_output, \
-            self.all_summaries, self.final_sequence_lengths \
+        self.reconstruction_loss, self.adversarial_loss, self.inference_output, \
+        self.all_summaries, self.final_sequence_lengths \
             = None, None, None, None, None, None, None, None
 
     def get_style_embedding(self, embedded_sequence):
@@ -142,8 +144,8 @@ class AdversarialAutoencoder:
                 scope="inference_decoder")
 
         return training_decoder_output.rnn_output, \
-            inference_decoder_output.predicted_ids[:, :, 0], \
-            final_sequence_lengths[:, 0]  # index 0 gets the best beam search outcome
+               inference_decoder_output.predicted_ids[:, :, 0], \
+               final_sequence_lengths[:, 0]  # index 0 gets the best beam search outcome
 
     def build_model(self):
 
@@ -183,7 +185,9 @@ class AdversarialAutoencoder:
         logger.debug("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
 
         decoder_input = tf.concat(
-            values=[tf.fill([self.batch_size, 1], self.sos_index), self.input_sequence], axis=1)
+            values=[tf.fill(dims=[self.batch_size, 1], value=self.sos_index, name="start_tokens"),
+                    self.input_sequence],
+            axis=1, name="decoder_input")
         decoder_embedded_sequence = tf.nn.dropout(
             x=tf.nn.embedding_lookup(params=decoder_embeddings, ids=decoder_input),
             keep_prob=self.fully_connected_keep_prob,
@@ -199,7 +203,9 @@ class AdversarialAutoencoder:
         logger.debug("content_embedding: {}".format(content_embedding))
 
         # concatenated generative embedding
-        generative_embedding = tf.concat(values=[style_embedding, content_embedding], axis=1)
+        generative_embedding = tf.concat(
+            values=[style_embedding, content_embedding], axis=1,
+            name="generative_embedding")
         logger.debug("generative_embedding: {}".format(generative_embedding))
 
         # sequence predictions
