@@ -30,10 +30,12 @@ class AdversarialAutoencoder:
         self.one_hot_labels = one_hot_labels
         self.text_sequence_lengths = text_sequence_lengths
         self.model_save_path = "./saved-models/model.ckpt"
+
+        # declare model fetches and placeholders
         self.input_sequence, self.input_label, self.sequence_lengths, \
-            self.reconstruction_loss, self.inference_output, \
+            self.reconstruction_loss, self.adversarial_loss, self.inference_output, \
             self.all_summaries, self.final_sequence_lengths \
-            = None, None, None, None, None, None, None
+            = None, None, None, None, None, None, None, None
 
     def get_style_embedding(self, embedded_sequence):
 
@@ -87,11 +89,11 @@ class AdversarialAutoencoder:
 
             return tf.concat(values=encoder_states, axis=1)
 
-    def get_label_prediction(self, content_representation):
+    def get_label_prediction(self, content_embedding):
 
         with tf.name_scope('label_prediction'):
             label_projection = tf.layers.dense(
-                inputs=content_representation, units=self.num_labels,
+                inputs=content_embedding, units=self.num_labels,
                 name="label_prediction")
             label_prediction = tf.nn.softmax(label_projection)
             return label_prediction
@@ -139,11 +141,13 @@ class AdversarialAutoencoder:
                 maximum_iterations=self.max_sequence_length,
                 scope="inference_decoder")
 
-        return training_decoder_output.rnn_output, inference_decoder_output.predicted_ids[:, :, 0], \
-            final_sequence_lengths[:, 0]
+        return training_decoder_output.rnn_output, \
+            inference_decoder_output.predicted_ids[:, :, 0], \
+            final_sequence_lengths[:, 0]  # index 0 gets the best beam search outcome
 
     def build_model(self):
 
+        # model inputs
         self.input_sequence = tf.placeholder(
             dtype=tf.int32, shape=[self.batch_size, self.max_sequence_length],
             name="input_sequence")
@@ -170,21 +174,13 @@ class AdversarialAutoencoder:
             trainable=True, name="decoder_embeddings")
         logger.debug("decoder_embeddings: {}".format(decoder_embeddings))
 
+        # embedded sequences
         encoder_embedded_sequence = tf.nn.dropout(
             x=tf.nn.embedding_lookup(
                 params=encoder_embeddings, ids=self.input_sequence),
             keep_prob=self.fully_connected_keep_prob,
             name="encoder_embedded_sequence")
         logger.debug("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
-
-        style_embedding = self.get_style_embedding(encoder_embedded_sequence)
-        logger.debug("style_embedding: {}".format(style_embedding))
-
-        content_embedding = self.get_content_embedding(encoder_embedded_sequence)
-        logger.debug("content_embedding: {}".format(content_embedding))
-
-        generative_embedding = tf.concat(values=[style_embedding, content_embedding], axis=1)
-        logger.debug("generative_embedding: {}".format(generative_embedding))
 
         decoder_input = tf.concat(
             values=[tf.fill([self.batch_size, 1], self.sos_index), self.input_sequence], axis=1)
@@ -194,6 +190,19 @@ class AdversarialAutoencoder:
             name="decoder_embedded_sequence")
         logger.debug("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
+        # style embedding
+        style_embedding = self.get_style_embedding(encoder_embedded_sequence)
+        logger.debug("style_embedding: {}".format(style_embedding))
+
+        # content embedding
+        content_embedding = self.get_content_embedding(encoder_embedded_sequence)
+        logger.debug("content_embedding: {}".format(content_embedding))
+
+        # concatenated generative embedding
+        generative_embedding = tf.concat(values=[style_embedding, content_embedding], axis=1)
+        logger.debug("generative_embedding: {}".format(generative_embedding))
+
+        # sequence predictions
         with tf.name_scope('sequence_prediction'):
             training_output, self.inference_output, self.final_sequence_lengths = \
                 self.generate_output_sequence(
@@ -201,9 +210,19 @@ class AdversarialAutoencoder:
             logger.debug("training_output: {}".format(training_output))
             logger.debug("inference_output: {}".format(self.inference_output))
 
+        # adversarial loss
+        with tf.name_scope('adversarial_loss'):
+            label_prediction = self.get_label_prediction(content_embedding)
+            logger.debug("label_prediction: {}".format(label_prediction))
+
+            self.adversarial_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_label, logits=label_prediction)
+            logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
+
+        # reconstruction loss
         with tf.name_scope('reconstruction_loss'):
             batch_maxlen = tf.reduce_max(self.sequence_lengths)
-            print("batch_maxlen: {}".format(batch_maxlen))
+            logger.debug("batch_maxlen: {}".format(batch_maxlen))
 
             # the training decoder only emits outputs equal in time-steps to the
             # max time in the current batch
@@ -212,7 +231,7 @@ class AdversarialAutoencoder:
                 begin=[0, 0],
                 size=[self.batch_size, batch_maxlen],
                 name="target_sequence")
-            print("target_sequence: {}".format(target_sequence))
+            logger.debug("target_sequence: {}".format(target_sequence))
 
             output_sequence_mask = tf.sequence_mask(
                 lengths=tf.add(x=self.sequence_lengths, y=1),
@@ -224,7 +243,9 @@ class AdversarialAutoencoder:
                 weights=output_sequence_mask)
             logger.debug("reconstruction_loss: {}".format(self.reconstruction_loss))
 
+        # tensorboard logging variable summaries
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
+        tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
     def get_batch_indices(self, offset, batch_number, data_limit):

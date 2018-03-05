@@ -65,11 +65,13 @@ def execute_post_training_operations(all_style_representations, data_size, batch
     average_author_embeddings = dict()
     for author_label in all_author_embeddings:
         average_author_embeddings[author_label] = np.mean(all_author_embeddings[author_label], axis=0)
-    # logger.info("average_author_embeddings: {}".format(average_author_embeddings))
+    logger.debug("average_author_embeddings: {}".format(average_author_embeddings))
 
 
 def execute_post_inference_operations(word_index, actual_sequences, start_index, final_index,
                                       generated_sequences, final_sequence_lengths, max_sequence_length):
+
+    logger.debug("Minimum generated sentence length: {}".format(min(final_sequence_lengths)))
 
     inverse_word_index = {v: k for k, v in word_index.items()}
     actual_sequences = actual_sequences[start_index:final_index]
@@ -93,9 +95,6 @@ def execute_post_inference_operations(word_index, actual_sequences, start_index,
     bleu_scores = bleu_scorer.get_corpus_bleu_scores(
         [[x] for x in actual_word_lists], generated_word_lists)
     logger.info("bleu_scores: {}".format(bleu_scores))
-
-    logger.debug("Minimum generated sentence length: {}"
-                 .format(min(len(x) for x in generated_word_lists)))
 
     actual_sentences = [" ".join(x) for x in actual_word_lists]
     generated_sentences = [" ".join(x) for x in generated_word_lists]
