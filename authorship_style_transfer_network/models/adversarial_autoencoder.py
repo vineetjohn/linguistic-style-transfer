@@ -277,11 +277,34 @@ class AdversarialAutoencoder:
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
 
-        reconstruction_training_optimizer = tf.train.AdamOptimizer(
-            learning_rate=self.optimizer_learning_rate)
-        reconstruction_gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
-            loss=self.reconstruction_loss, var_list=trainable_variables)
-        gradients, variables = zip(*reconstruction_gradients_and_variables)
+        composite_loss = self.reconstruction_loss - self.adversarial_loss
+
+        # optimize classification
+        adversarial_training_variables = [
+            x for x in trainable_variables if all(
+                scope not in x.name for scope in
+                ["decoder_embeddings", "style_embedding", "training_decoder"])]
+        logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
+        adversarial_training_optimizer = tf.train.AdamOptimizer(learning_rate=self.optimizer_learning_rate)
+        gradients_and_variables = adversarial_training_optimizer.compute_gradients(
+            loss=self.adversarial_loss, var_list=adversarial_training_variables)
+        gradients, variables = zip(*gradients_and_variables)
+        clipped_gradients, _ = tf.clip_by_global_norm(
+            t_list=gradients, clip_norm=self.gradient_clipping_value)
+        adversarial_training_operation = adversarial_training_optimizer.apply_gradients(
+            grads_and_vars=zip(clipped_gradients, variables))
+
+        # optimize reconstruction
+        reconstruction_training_variables = [
+            x for x in trainable_variables if all(
+                scope not in x.name for scope in
+                ["label_prediction"])]
+        logger.debug("reconstruction_variables: {}".format(reconstruction_training_variables))
+        reconstruction_training_optimizer = tf.train.AdamOptimizer(learning_rate=self.optimizer_learning_rate)
+        gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
+            loss=composite_loss,
+            var_list=reconstruction_training_variables)
+        gradients, variables = zip(*gradients_and_variables)
         clipped_gradients, _ = tf.clip_by_global_norm(
             t_list=gradients, clip_norm=self.gradient_clipping_value)
         reconstruction_training_operation = reconstruction_training_optimizer.apply_gradients(
@@ -296,7 +319,7 @@ class AdversarialAutoencoder:
                      .format(self.padded_sequences[:training_examples_size].shape,
                              self.one_hot_labels[:training_examples_size].shape))
 
-        adv_loss, rec_loss, all_summaries = (None, None, None)
+        reconstruction_loss, adversarial_loss, all_summaries = (None, None, None)
         for current_epoch in range(1, training_epochs + 1):
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
@@ -304,18 +327,20 @@ class AdversarialAutoencoder:
 
                 fetches = \
                     [reconstruction_training_operation,
+                     adversarial_training_operation,
                      self.reconstruction_loss,
+                     self.adversarial_loss,
                      self.all_summaries]
 
-                _, rec_loss, all_summaries = self.run_batch(
+                _, _, reconstruction_loss, adversarial_loss, all_summaries = self.run_batch(
                     sess, start_index, end_index, fetches)
 
             saver.save(sess=sess, save_path=self.model_save_path)
             writer.add_summary(all_summaries, current_epoch)
             writer.flush()
 
-            logger.info("Reconstruction loss: {:.9f}; Training epoch: {}"
-                        .format(rec_loss, current_epoch))
+            logger.info("Reconstruction loss: {:.9f}; Adversarial loss: {:.9f}; Training epoch: {}"
+                        .format(reconstruction_loss, adversarial_loss, current_epoch))
         writer.close()
 
     def infer(self, sess, offset, samples_size):
