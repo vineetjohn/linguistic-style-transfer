@@ -31,12 +31,15 @@ class AdversarialAutoencoder:
         self.text_sequence_lengths = text_sequence_lengths
         self.model_save_path = "./saved-models/model.ckpt"
         self.input_sequence, self.input_label, self.sequence_lengths, \
-        self.reconstruction_loss, self.inference_output, \
-        self.all_summaries = None, None, None, None, None, None
+            self.reconstruction_loss, self.inference_output, \
+            self.all_summaries, self.final_sequence_lengths \
+            = None, None, None, None, None, None, None
 
     def get_style_embedding(self, embedded_sequence):
 
-        with tf.name_scope('sentence_representation'):
+        scope_name = "style_embedding"
+
+        with tf.name_scope(scope_name):
             encoder_cell_fw = tf.nn.rnn_cell.DropoutWrapper(
                 cell=tf.contrib.rnn.GRUCell(num_units=self.encoder_rnn_size),
                 input_keep_prob=self.recurrent_state_keep_prob,
@@ -52,6 +55,33 @@ class AdversarialAutoencoder:
                 cell_fw=encoder_cell_fw,
                 cell_bw=encoder_cell_bw,
                 inputs=embedded_sequence,
+                scope=scope_name,
+                sequence_length=self.sequence_lengths,
+                dtype=tf.float32)
+
+            return tf.concat(values=encoder_states, axis=1)
+
+    def get_content_embedding(self, embedded_sequence):
+
+        scope_name = "content_embedding"
+
+        with tf.name_scope(scope_name):
+            encoder_cell_fw = tf.nn.rnn_cell.DropoutWrapper(
+                cell=tf.contrib.rnn.GRUCell(num_units=self.encoder_rnn_size),
+                input_keep_prob=self.recurrent_state_keep_prob,
+                output_keep_prob=self.recurrent_state_keep_prob,
+                state_keep_prob=self.recurrent_state_keep_prob)
+            encoder_cell_bw = tf.nn.rnn_cell.DropoutWrapper(
+                cell=tf.contrib.rnn.GRUCell(num_units=self.encoder_rnn_size),
+                input_keep_prob=self.recurrent_state_keep_prob,
+                output_keep_prob=self.recurrent_state_keep_prob,
+                state_keep_prob=self.recurrent_state_keep_prob)
+
+            _, encoder_states = tf.nn.bidirectional_dynamic_rnn(
+                cell_fw=encoder_cell_fw,
+                cell_bw=encoder_cell_bw,
+                inputs=embedded_sequence,
+                scope=scope_name,
                 sequence_length=self.sequence_lengths,
                 dtype=tf.float32)
 
@@ -66,10 +96,10 @@ class AdversarialAutoencoder:
             label_prediction = tf.nn.softmax(label_projection)
             return label_prediction
 
-    def generate_output_sequence(self, embedded_sequence, encoder_state, decoder_embeddings):
+    def generate_output_sequence(self, embedded_sequence, generative_embedding, decoder_embeddings):
 
         decoder_cell = tf.nn.rnn_cell.DropoutWrapper(
-            cell=tf.contrib.rnn.GRUCell(num_units=self.encoder_rnn_size * 2),
+            cell=tf.contrib.rnn.GRUCell(num_units=self.encoder_rnn_size * 4),
             input_keep_prob=self.recurrent_state_keep_prob,
             output_keep_prob=self.recurrent_state_keep_prob,
             state_keep_prob=self.recurrent_state_keep_prob)
@@ -83,7 +113,7 @@ class AdversarialAutoencoder:
 
             training_decoder = tf.contrib.seq2seq.BasicDecoder(
                 cell=decoder_cell, helper=training_helper,
-                initial_state=encoder_state,
+                initial_state=generative_embedding,
                 output_layer=projection_layer)
             training_decoder.initialize("training_decoder")
 
@@ -98,7 +128,7 @@ class AdversarialAutoencoder:
                 start_tokens=tf.fill([self.batch_size], self.sos_index),
                 end_token=self.eos_index,
                 initial_state=tf.contrib.seq2seq.tile_batch(
-                    t=encoder_state, multiplier=self.beam_search_width),
+                    t=generative_embedding, multiplier=self.beam_search_width),
                 beam_width=self.beam_search_width, output_layer=projection_layer,
                 length_penalty_weight=0.0
             )
@@ -147,13 +177,17 @@ class AdversarialAutoencoder:
             name="encoder_embedded_sequence")
         logger.debug("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
 
-        # get sentence representation
-        encoder_state = self.get_style_embedding(encoder_embedded_sequence)
-        logger.debug("encoder_state: {}".format(encoder_state))
+        style_embedding = self.get_style_embedding(encoder_embedded_sequence)
+        logger.debug("style_embedding: {}".format(style_embedding))
+
+        content_embedding = self.get_content_embedding(encoder_embedded_sequence)
+        logger.debug("content_embedding: {}".format(content_embedding))
+
+        generative_embedding = tf.concat(values=[style_embedding, content_embedding], axis=1)
+        logger.debug("generative_embedding: {}".format(generative_embedding))
 
         decoder_input = tf.concat(
             values=[tf.fill([self.batch_size, 1], self.sos_index), self.input_sequence], axis=1)
-
         decoder_embedded_sequence = tf.nn.dropout(
             x=tf.nn.embedding_lookup(params=decoder_embeddings, ids=decoder_input),
             keep_prob=self.fully_connected_keep_prob,
@@ -163,7 +197,7 @@ class AdversarialAutoencoder:
         with tf.name_scope('sequence_prediction'):
             training_output, self.inference_output, self.final_sequence_lengths = \
                 self.generate_output_sequence(
-                    decoder_embedded_sequence, encoder_state, decoder_embeddings)
+                    decoder_embedded_sequence, generative_embedding, decoder_embeddings)
             logger.debug("training_output: {}".format(training_output))
             logger.debug("inference_output: {}".format(self.inference_output))
 
