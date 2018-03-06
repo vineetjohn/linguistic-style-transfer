@@ -16,7 +16,7 @@ from authorship_style_transfer_network.utils import word_embedder
 logger = None
 
 
-def get_data(text_file_path, vocab_size, label_file_path, use_pretrained_embeddings):
+def get_data(text_file_path, vocab_size, label_file_path):
     padded_sequences, text_sequence_lengths, word_index, max_sequence_length, actual_sequences = \
         data_preprocessor.get_text_sequences(text_file_path, vocab_size)
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
@@ -29,23 +29,8 @@ def get_data(text_file_path, vocab_size, label_file_path, use_pretrained_embeddi
     one_hot_labels, num_labels, label_sequences = data_preprocessor.get_labels(label_file_path)
     logger.debug("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
-    encoder_embedding_matrix = np.random.uniform(
-        low=-0.05, high=0.05, size=(vocab_size, global_constants.embedding_size)).astype(dtype=np.float32)
-    decoder_embedding_matrix = np.random.uniform(
-        low=-0.05, high=0.05, size=(vocab_size, global_constants.embedding_size)).astype(dtype=np.float32)
-    logger.debug("encoder_embedding_matrix: {}".format(encoder_embedding_matrix.shape))
-    logger.debug("decoder_embedding_matrix: {}".format(decoder_embedding_matrix.shape))
-
-    if use_pretrained_embeddings:
-        logger.info("Loading pretrained embeddings")
-        encoder_embedding_matrix, decoder_embedding_matrix = word_embedder.add_word_vectors_to_embeddings(
-            word_index, global_constants.word_vector_path, encoder_embedding_matrix,
-            decoder_embedding_matrix, vocab_size)
-
-    return num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \
-           encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
-           one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
-           decoder_embedding_matrix, data_size, word_index, actual_sequences
+    return num_labels, max_sequence_length, vocab_size, sos_index, eos_index, padded_sequences, \
+           one_hot_labels, text_sequence_lengths, label_sequences, data_size, word_index, actual_sequences
 
 
 def execute_post_training_operations(all_style_representations, data_size, batch_size, label_sequences):
@@ -112,9 +97,28 @@ def execute_post_inference_operations(word_index, actual_sequences, start_index,
             output_file.write(sentence + "\n")
 
 
+def get_word_embeddings(vocab_size, word_index, use_pretrained_embeddings, train_model):
+    encoder_embedding_matrix = np.random.uniform(
+        low=-0.05, high=0.05, size=(vocab_size, global_constants.embedding_size)).astype(dtype=np.float32)
+    decoder_embedding_matrix = np.random.uniform(
+        low=-0.05, high=0.05, size=(vocab_size, global_constants.embedding_size)).astype(dtype=np.float32)
+    logger.debug("encoder_embedding_matrix: {}".format(encoder_embedding_matrix.shape))
+    logger.debug("decoder_embedding_matrix: {}".format(decoder_embedding_matrix.shape))
+
+    if train_model and use_pretrained_embeddings:
+        logger.info("Loading pretrained embeddings")
+        encoder_embedding_matrix, decoder_embedding_matrix = word_embedder.add_word_vectors_to_embeddings(
+            word_index, global_constants.word_vector_path, encoder_embedding_matrix,
+            decoder_embedding_matrix, vocab_size)
+
+    return encoder_embedding_matrix, decoder_embedding_matrix
+
+
 def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument("--dev-mode", action="store_true", default=False)
+    parser.add_argument("--train-model", action="store_true", default=False)
+    parser.add_argument("--infer-sequences", action="store_true", default=False)
     parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
     parser.add_argument("--training-epochs", type=int, default=10)
     parser.add_argument("--vocab-size", type=int, default=1000)
@@ -135,13 +139,18 @@ def main(argv):
         text_file_path = "data/c50-articles.txt"
         label_file_path = "data/c50-labels.txt"
 
+    if not (command_line_args['train_model'] or command_line_args['infer_sequences']):
+        logger.info("Nothing to do")
+        sys.exit(0)
+
     # Retrieve all data
-    num_labels, max_sequence_length, vocab_size, sos_index, eos_index, \
-    encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, \
-    one_hot_labels, text_sequence_lengths, label_sequences, encoder_embedding_matrix, \
-    decoder_embedding_matrix, data_size, word_index, actual_sequences = \
-        get_data(text_file_path, command_line_args['vocab_size'], label_file_path,
-                 command_line_args['use_pretrained_embeddings'])
+    num_labels, max_sequence_length, vocab_size, sos_index, eos_index, padded_sequences, \
+    one_hot_labels, text_sequence_lengths, label_sequences, data_size, word_index, actual_sequences = \
+        get_data(text_file_path, command_line_args['vocab_size'], label_file_path)
+
+    encoder_embedding_matrix, decoder_embedding_matrix = \
+        get_word_embeddings(vocab_size, word_index, command_line_args['use_pretrained_embeddings'],
+                            command_line_args['train_model'])
 
     # Build model
     logger.info("Building model architecture")
@@ -152,26 +161,28 @@ def main(argv):
     network.build_model()
 
     # Train and save model
-    logger.info("Training model")
-    sess = get_tensorflow_session()
-    network.train(sess, data_size, command_line_args['training_epochs'])
-    sess.close()
-    logger.info("Training complete!")
+    if command_line_args['train_model']:
+        logger.info("Training model")
+        sess = get_tensorflow_session()
+        network.train(sess, data_size, command_line_args['training_epochs'])
+        sess.close()
+        logger.info("Training complete!")
 
     # Restore model and run inference
-    logger.info("Inferring test samples")
-    sess = get_tensorflow_session()
-    inference_set_size = data_size
-    offset = 0
-    logger.debug("inference range: {}-{}".format(offset, (offset + inference_set_size)))
-    generated_sequences, final_index, final_sequence_lengths = \
-        network.infer(sess, offset, inference_set_size)
-    logger.debug("final_sequence_lengths: {}".format(final_sequence_lengths))
-
-    execute_post_inference_operations(
-        word_index, actual_sequences, offset, final_index, generated_sequences, final_sequence_lengths,
-        max_sequence_length)
-    logger.info("Inference complete!")
+    if command_line_args['infer_sequences']:
+        logger.info("Inferring test samples")
+        sess = get_tensorflow_session()
+        inference_set_size = data_size
+        offset = 0
+        logger.debug("inference range: {}-{}".format(offset, (offset + inference_set_size)))
+        generated_sequences, final_index, final_sequence_lengths = \
+            network.infer(sess, offset, inference_set_size)
+        sess.close()
+        logger.debug("final_sequence_lengths: {}".format(final_sequence_lengths))
+        execute_post_inference_operations(
+            word_index, actual_sequences, offset, final_index, generated_sequences, final_sequence_lengths,
+            max_sequence_length)
+        logger.info("Inference complete!")
 
 
 def get_tensorflow_session():
