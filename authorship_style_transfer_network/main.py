@@ -140,7 +140,7 @@ def main(argv):
         label_file_path = "data/c50-labels.txt"
 
     if not (command_line_args['train_model'] or command_line_args['infer_sequences']):
-        logger.info("Nothing to do")
+        logger.info("Nothing to do. Exiting ...")
         sys.exit(0)
 
     # Retrieve all data

@@ -1,6 +1,7 @@
 import logging
 from datetime import datetime as dt
 
+import numpy as np
 import tensorflow as tf
 
 from authorship_style_transfer_network.utils import global_constants
@@ -39,8 +40,7 @@ class AdversarialAutoencoder:
         self.all_summaries, self.final_sequence_lengths \
             = None, None, None, None, None, None, None, None
 
-    def get_style_embedding(self, embedded_sequence):
-
+    def get_style_embedding(self, encoder_embedded_sequence):
         scope_name = "style_embedding"
 
         with tf.name_scope(scope_name):
@@ -58,15 +58,14 @@ class AdversarialAutoencoder:
             _, encoder_states = tf.nn.bidirectional_dynamic_rnn(
                 cell_fw=encoder_cell_fw,
                 cell_bw=encoder_cell_bw,
-                inputs=embedded_sequence,
+                inputs=encoder_embedded_sequence,
                 scope=scope_name,
                 sequence_length=self.sequence_lengths,
                 dtype=tf.float32)
 
             return tf.concat(values=encoder_states, axis=1)
 
-    def get_content_embedding(self, embedded_sequence):
-
+    def get_content_embedding(self, encoder_embedded_sequence):
         scope_name = "content_embedding"
 
         with tf.name_scope(scope_name):
@@ -84,7 +83,7 @@ class AdversarialAutoencoder:
             _, encoder_states = tf.nn.bidirectional_dynamic_rnn(
                 cell_fw=encoder_cell_fw,
                 cell_bw=encoder_cell_bw,
-                inputs=embedded_sequence,
+                inputs=encoder_embedded_sequence,
                 scope=scope_name,
                 sequence_length=self.sequence_lengths,
                 dtype=tf.float32)
@@ -165,6 +164,15 @@ class AdversarialAutoencoder:
             name="sequence_lengths")
         logger.debug("sequence_lengths: {}".format(self.sequence_lengths))
 
+        self.conditioned_generation_mode = tf.placeholder(
+            dtype=tf.bool, name="conditioned_generation_mode")
+        logger.debug("conditioned_generation_mode: {}".format(self.conditioned_generation_mode))
+
+        self.conditioning_embedding = tf.placeholder(
+            dtype=tf.float32, shape=[self.batch_size, self.encoder_rnn_size * 2],
+            name="conditioning_embedding")
+        logger.debug("conditioning_embedding: {}".format(self.conditioning_embedding))
+
         # word embeddings matrices
         encoder_embeddings = tf.get_variable(
             initializer=self.encoder_embedding_matrix, dtype=tf.float32,
@@ -195,7 +203,10 @@ class AdversarialAutoencoder:
         logger.debug("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
         # style embedding
-        style_embedding = self.get_style_embedding(encoder_embedded_sequence)
+        style_embedding = tf.cond(
+            pred=self.conditioned_generation_mode,
+            true_fn=lambda: self.conditioning_embedding,
+            false_fn=lambda: self.get_style_embedding(encoder_embedded_sequence))
         logger.debug("style_embedding: {}".format(style_embedding))
 
         # content embedding
@@ -262,14 +273,16 @@ class AdversarialAutoencoder:
 
         return start_index, end_index
 
-    def run_batch(self, sess, start_index, end_index, fetches):
+    def run_batch(self, sess, start_index, end_index, fetches, conditioning_embedding):
 
         ops = sess.run(
             fetches=fetches,
             feed_dict={
                 self.input_sequence: self.padded_sequences[start_index: end_index],
                 self.input_label: self.one_hot_labels[start_index: end_index],
-                self.sequence_lengths: self.text_sequence_lengths[start_index: end_index]
+                self.sequence_lengths: self.text_sequence_lengths[start_index: end_index],
+                self.conditioned_generation_mode: bool(conditioning_embedding),
+                self.conditioning_embedding: conditioning_embedding
             })
 
         return ops
@@ -339,7 +352,7 @@ class AdversarialAutoencoder:
                      self.all_summaries]
 
                 _, _, reconstruction_loss, adversarial_loss, all_summaries = self.run_batch(
-                    sess, start_index, end_index, fetches)
+                    sess, start_index, end_index, fetches, None)
 
             saver.save(sess=sess, save_path=self.model_save_path)
             writer.add_summary(all_summaries, current_epoch)
@@ -369,7 +382,40 @@ class AdversarialAutoencoder:
                 break
 
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
-                sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths])
+                sess, start_index, end_index,
+                [self.inference_output, self.final_sequence_lengths], None)
+
+            generated_sequences.extend(generated_sequences_batch)
+            final_sequence_lengths.extend(final_sequence_lengths_batch)
+
+        return generated_sequences, end_index, final_sequence_lengths
+
+    def generate_novel_sentences(self, sess, offset, samples_size):
+
+        conditioning_embedding = np.random.uniform(
+            low=-0.05, high=0.05, size=(self.batch_size, self.encoder_rnn_size * 2)) \
+            .astype(dtype=np.float32)
+
+        sess.run(tf.global_variables_initializer())
+        saver = tf.train.Saver()
+        saver.restore(sess=sess, save_path=self.model_save_path)
+
+        generated_sequences = list()
+        final_sequence_lengths = list()
+        num_batches = samples_size // self.batch_size
+
+        end_index = None
+        for batch_number in range(num_batches):
+
+            (start_index, end_index) = self.get_batch_indices(
+                offset=offset, batch_number=batch_number, data_limit=(offset + samples_size))
+
+            if start_index == end_index:
+                break
+
+            generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
+                sess, start_index, end_index,
+                [self.inference_output, self.final_sequence_lengths], conditioning_embedding)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
