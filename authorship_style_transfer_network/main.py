@@ -9,7 +9,7 @@ from authorship_style_transfer_network.models import adversarial_autoencoder
 from authorship_style_transfer_network.utils import bleu_scorer
 from authorship_style_transfer_network.utils import data_postprocessor
 from authorship_style_transfer_network.utils import data_preprocessor
-from authorship_style_transfer_network.utils import global_constants
+from authorship_style_transfer_network.config import global_config
 from authorship_style_transfer_network.utils import log_initializer
 from authorship_style_transfer_network.utils import word_embedder
 
@@ -99,16 +99,16 @@ def execute_post_inference_operations(word_index, actual_sequences, start_index,
 
 def get_word_embeddings(vocab_size, word_index, use_pretrained_embeddings, train_model):
     encoder_embedding_matrix = np.random.uniform(
-        low=-0.05, high=0.05, size=(vocab_size, global_constants.embedding_size)).astype(dtype=np.float32)
+        low=-0.05, high=0.05, size=(vocab_size, global_config.embedding_size)).astype(dtype=np.float32)
     decoder_embedding_matrix = np.random.uniform(
-        low=-0.05, high=0.05, size=(vocab_size, global_constants.embedding_size)).astype(dtype=np.float32)
+        low=-0.05, high=0.05, size=(vocab_size, global_config.embedding_size)).astype(dtype=np.float32)
     logger.debug("encoder_embedding_matrix: {}".format(encoder_embedding_matrix.shape))
     logger.debug("decoder_embedding_matrix: {}".format(decoder_embedding_matrix.shape))
 
     if train_model and use_pretrained_embeddings:
         logger.info("Loading pretrained embeddings")
         encoder_embedding_matrix, decoder_embedding_matrix = word_embedder.add_word_vectors_to_embeddings(
-            word_index, global_constants.word_vector_path, encoder_embedding_matrix,
+            word_index, global_config.word_vector_path, encoder_embedding_matrix,
             decoder_embedding_matrix, vocab_size)
 
     return encoder_embedding_matrix, decoder_embedding_matrix
@@ -129,7 +129,7 @@ def main(argv):
 
     global logger
     logger = log_initializer.setup_custom_logger(
-        global_constants.logger_name, command_line_args['logging_level'])
+        global_config.logger_name, command_line_args['logging_level'])
 
     if command_line_args['dev_mode']:
         logger.info("Running in dev mode")

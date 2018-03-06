@@ -3,9 +3,9 @@ import logging
 import numpy as np
 import tensorflow as tf
 
-from authorship_style_transfer_network.utils import global_constants
+from authorship_style_transfer_network.config import global_config
 
-logger = logging.getLogger(global_constants.logger_name)
+logger = logging.getLogger(global_config.logger_name)
 
 
 def get_text_sequences(text_file_path, vocab_size):

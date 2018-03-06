@@ -2,9 +2,9 @@ import logging
 
 import gensim
 
-from authorship_style_transfer_network.utils import global_constants
+from authorship_style_transfer_network.config import global_config
 
-logger = logging.getLogger(global_constants.logger_name)
+logger = logging.getLogger(global_config.logger_name)
 
 
 def add_word_vectors_to_embeddings(word_index, word_vector_path, encoder_embedding_matrix,

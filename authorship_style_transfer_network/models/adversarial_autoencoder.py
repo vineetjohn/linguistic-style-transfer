@@ -4,9 +4,9 @@ from datetime import datetime as dt
 import numpy as np
 import tensorflow as tf
 
-from authorship_style_transfer_network.utils import global_constants
+from authorship_style_transfer_network.config import global_config
 
-logger = logging.getLogger(global_constants.logger_name)
+logger = logging.getLogger(global_config.logger_name)
 
 
 class AdversarialAutoencoder:
@@ -14,13 +14,14 @@ class AdversarialAutoencoder:
     def __init__(self, num_labels, max_sequence_length, vocab_size, sos_index, eos_index,
                  encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, one_hot_labels,
                  text_sequence_lengths, label_sequences):
-        self.batch_size = 32
-        self.encoder_rnn_size = 512
-        self.recurrent_state_keep_prob = 0.8
-        self.fully_connected_keep_prob = 0.5
-        self.gradient_clipping_value = 1.0
-        self.optimizer_learning_rate = 0.0001
-        self.beam_search_width = 5
+        self.batch_size = global_config.model_config["batch_size"]
+        self.encoder_rnn_size = global_config.model_config["encoder_rnn_size"]
+        self.recurrent_state_keep_prob = global_config.model_config["recurrent_state_keep_prob"]
+        self.fully_connected_keep_prob = global_config.model_config["fully_connected_keep_prob"]
+        self.gradient_clipping_value = global_config.model_config["gradient_clipping_value"]
+        self.optimizer_learning_rate = global_config.model_config["optimizer_learning_rate"]
+        self.beam_search_width = global_config.model_config["beam_search_width"]
+        self.model_save_path = global_config.model_config["model_save_path"]
         self.num_labels = num_labels
         self.label_sequences = label_sequences
         self.max_sequence_length = max_sequence_length
@@ -32,7 +33,6 @@ class AdversarialAutoencoder:
         self.padded_sequences = padded_sequences
         self.one_hot_labels = one_hot_labels
         self.text_sequence_lengths = text_sequence_lengths
-        self.model_save_path = "./saved-models/model.ckpt"
 
         # declare model fetches and placeholders
         self.input_sequence, self.input_label, self.sequence_lengths, \
@@ -275,13 +275,19 @@ class AdversarialAutoencoder:
 
     def run_batch(self, sess, start_index, end_index, fetches, conditioning_embedding):
 
+        conditioned_generation_mode = bool(conditioning_embedding)
+        if not conditioned_generation_mode:
+            conditioning_embedding = np.random.uniform(
+                low=-0.05, high=0.05, size=(self.batch_size, self.encoder_rnn_size * 2)) \
+                .astype(dtype=np.float32)
+
         ops = sess.run(
             fetches=fetches,
             feed_dict={
                 self.input_sequence: self.padded_sequences[start_index: end_index],
                 self.input_label: self.one_hot_labels[start_index: end_index],
                 self.sequence_lengths: self.text_sequence_lengths[start_index: end_index],
-                self.conditioned_generation_mode: bool(conditioning_embedding),
+                self.conditioned_generation_mode: conditioned_generation_mode,
                 self.conditioning_embedding: conditioning_embedding
             })
 
