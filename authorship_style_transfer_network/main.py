@@ -2,6 +2,7 @@ import argparse
 import pickle
 import sys
 from datetime import datetime as dt
+from random import randint
 
 import numpy as np
 import tensorflow as tf
@@ -31,28 +32,30 @@ def get_data(text_file_path, vocab_size, label_file_path):
            one_hot_labels, text_sequence_lengths, label_sequences, data_size, word_index, actual_sequences
 
 
-def execute_post_training_operations(all_style_embeddings, data_size, batch_size, label_sequences):
+def get_average_label_embeddings(data_size, batch_size, label_sequences):
     with open(global_config.author_embedding_path, 'rb') as pickle_file:
-        pickle.load(pickle_file)
+        all_style_embeddings = pickle.load(pickle_file)
 
     style_embeddings = np.asarray(all_style_embeddings)
     logger.info("style_embeddings_shape: {}".format(style_embeddings.shape))
 
-    all_author_embeddings = dict()
+    label_embedding_map = dict()
     for i in range(data_size - (data_size % batch_size)):
         author_label = label_sequences[i][0]
-        if author_label not in all_author_embeddings:
-            all_author_embeddings[author_label] = list()
-        all_author_embeddings[author_label].append(style_embeddings[i])
+        if author_label not in label_embedding_map:
+            label_embedding_map[author_label] = list()
+        label_embedding_map[author_label].append(style_embeddings[i])
 
-    average_author_embeddings = dict()
-    for author_label in all_author_embeddings:
-        average_author_embeddings[author_label] = np.mean(all_author_embeddings[author_label], axis=0)
-    logger.debug("average_author_embeddings: {}".format(average_author_embeddings))
+    average_label_embeddings = dict()
+    for author_label in label_embedding_map:
+        average_label_embeddings[author_label] = np.mean(label_embedding_map[author_label], axis=0)
+    logger.debug("average_label_embeddings: {}".format(average_label_embeddings))
+
+    return average_label_embeddings
 
 
 def execute_post_inference_operations(word_index, actual_sequences, start_index, final_index,
-                                      generated_sequences, final_sequence_lengths, max_sequence_length):
+                                      generated_sequences, final_sequence_lengths, max_sequence_length, mode):
     logger.debug("Minimum generated sentence length: {}".format(min(final_sequence_lengths)))
 
     inverse_word_index = {v: k for k, v in word_index.items()}
@@ -86,12 +89,12 @@ def execute_post_inference_operations(word_index, actual_sequences, start_index,
         logger.debug("generated_sentence: {}".format(generated_sentences[i]))
 
     timestamped_file_suffix = dt.now().strftime("%Y%m%d%H%M%S")
-    output_file_path = "output/actual_sentences_{}.txt".format(timestamped_file_suffix)
+    output_file_path = "output/actual_sentences_{}_{}.txt".format(mode, timestamped_file_suffix)
     with open(output_file_path, 'w') as output_file:
         for sentence in actual_sentences:
             output_file.write(sentence + "\n")
 
-    output_file_path = "output/generated_sentences_{}.txt".format(timestamped_file_suffix)
+    output_file_path = "output/generated_sentences_{}_{}.txt".format(mode, timestamped_file_suffix)
     with open(output_file_path, 'w') as output_file:
         for sentence in generated_sentences:
             output_file.write(sentence + "\n")
@@ -119,6 +122,7 @@ def main(argv):
     parser.add_argument("--dev-mode", action="store_true", default=False)
     parser.add_argument("--train-model", action="store_true", default=False)
     parser.add_argument("--infer-sequences", action="store_true", default=False)
+    parser.add_argument("--generate-novel-text", action="store_true", default=False)
     parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
     parser.add_argument("--training-epochs", type=int, default=10)
     parser.add_argument("--vocab-size", type=int, default=1000)
@@ -139,7 +143,8 @@ def main(argv):
         text_file_path = "data/c50-articles.txt"
         label_file_path = "data/c50-labels.txt"
 
-    if not (command_line_args['train_model'] or command_line_args['infer_sequences']):
+    if not (command_line_args['train_model'] or command_line_args['infer_sequences'] or
+            command_line_args['generate_novel_text']):
         logger.info("Nothing to do. Exiting ...")
         sys.exit(0)
 
@@ -164,10 +169,8 @@ def main(argv):
     if command_line_args['train_model']:
         logger.info("Training model")
         sess = get_tensorflow_session()
-        all_style_embeddings = network.train(sess, data_size, command_line_args['training_epochs'])
+        network.train(sess, data_size, command_line_args['training_epochs'])
         sess.close()
-        execute_post_training_operations(all_style_embeddings, data_size,
-                                         model_config.batch_size, label_sequences)
         logger.info("Training complete!")
 
     # Restore model and run inference
@@ -183,8 +186,25 @@ def main(argv):
         logger.debug("final_sequence_lengths: {}".format(final_sequence_lengths))
         execute_post_inference_operations(
             word_index, actual_sequences, offset, final_index, generated_sequences, final_sequence_lengths,
-            max_sequence_length)
+            max_sequence_length, "infer_sequences")
         logger.info("Inference complete!")
+
+    # Enforce a particular style embedding and regenerate all text
+    if command_line_args['generate_novel_text']:
+        logger.info("Generating novel text")
+        random_style_choice = randint(1, num_labels)
+        logger.debug("style chosen: {}".format(random_style_choice))
+        average_label_embeddings = get_average_label_embeddings(data_size, model_config.batch_size, label_sequences)
+        style_embedding = np.asarray(average_label_embeddings[random_style_choice])
+        sess = get_tensorflow_session()
+        offset = 0
+        samples_size = data_size
+        generated_sequences, final_index, final_sequence_lengths =\
+            network.generate_novel_sentences(sess, offset, samples_size, style_embedding)
+        execute_post_inference_operations(
+            word_index, actual_sequences, offset, final_index, generated_sequences, final_sequence_lengths,
+            max_sequence_length, "generate_novel_text")
+        logger.info("Generation complete!")
 
 
 def get_tensorflow_session():

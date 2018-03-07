@@ -268,9 +268,8 @@ class AdversarialAutoencoder:
 
         return start_index, end_index
 
-    def run_batch(self, sess, start_index, end_index, fetches, conditioning_embedding):
+    def run_batch(self, sess, start_index, end_index, fetches, conditioning_embedding, conditioned_generation_mode):
 
-        conditioned_generation_mode = bool(conditioning_embedding)
         if not conditioned_generation_mode:
             conditioning_embedding = np.random.uniform(
                 low=-0.05, high=0.05, size=(self.batch_size, self.encoder_rnn_size * 2)) \
@@ -355,7 +354,7 @@ class AdversarialAutoencoder:
                      self.all_summaries]
 
                 _, _, reconstruction_loss, adversarial_loss, style_embeddings, all_summaries = self.run_batch(
-                    sess, start_index, end_index, fetches, None)
+                    sess, start_index, end_index, fetches, None, False)
                 all_style_embeddings.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=self.model_save_path)
@@ -368,8 +367,6 @@ class AdversarialAutoencoder:
             logger.info("Reconstruction loss: {:.9f}; Adversarial loss: {:.9f}; Training epoch: {}"
                         .format(reconstruction_loss, adversarial_loss, current_epoch))
         writer.close()
-
-        return all_style_embeddings
 
     def infer(self, sess, offset, samples_size):
 
@@ -392,18 +389,18 @@ class AdversarialAutoencoder:
 
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index,
-                [self.inference_output, self.final_sequence_lengths], None)
+                [self.inference_output, self.final_sequence_lengths], None, False)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
 
         return generated_sequences, end_index, final_sequence_lengths
 
-    def generate_novel_sentences(self, sess, offset, samples_size):
+    def generate_novel_sentences(self, sess, offset, samples_size, style_embedding):
+        print("style_embedding.shape: {}".format(style_embedding.shape))
 
-        conditioning_embedding = np.random.uniform(
-            low=-0.05, high=0.05, size=(self.batch_size, self.encoder_rnn_size * 2)) \
-            .astype(dtype=np.float32)
+        conditioning_embedding = np.tile(A=style_embedding, reps=(self.batch_size, 1))
+        print("conditioning_embedding.shape: {}".format(conditioning_embedding.shape))
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
@@ -424,7 +421,7 @@ class AdversarialAutoencoder:
 
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index,
-                [self.inference_output, self.final_sequence_lengths], conditioning_embedding)
+                [self.inference_output, self.final_sequence_lengths], conditioning_embedding, True)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
