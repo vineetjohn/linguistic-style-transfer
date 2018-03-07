@@ -1,10 +1,11 @@
 import logging
+import pickle
 from datetime import datetime as dt
 
 import numpy as np
 import tensorflow as tf
 
-from authorship_style_transfer_network.config import global_config
+from authorship_style_transfer_network.config import global_config, model_config
 
 logger = logging.getLogger(global_config.logger_name)
 
@@ -14,14 +15,14 @@ class AdversarialAutoencoder:
     def __init__(self, num_labels, max_sequence_length, vocab_size, sos_index, eos_index,
                  encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, one_hot_labels,
                  text_sequence_lengths, label_sequences):
-        self.batch_size = global_config.model_config["batch_size"]
-        self.encoder_rnn_size = global_config.model_config["encoder_rnn_size"]
-        self.recurrent_state_keep_prob = global_config.model_config["recurrent_state_keep_prob"]
-        self.fully_connected_keep_prob = global_config.model_config["fully_connected_keep_prob"]
-        self.gradient_clipping_value = global_config.model_config["gradient_clipping_value"]
-        self.optimizer_learning_rate = global_config.model_config["optimizer_learning_rate"]
-        self.beam_search_width = global_config.model_config["beam_search_width"]
-        self.model_save_path = global_config.model_config["model_save_path"]
+        self.batch_size = model_config.batch_size
+        self.encoder_rnn_size = model_config.encoder_rnn_size
+        self.recurrent_state_keep_prob = model_config.recurrent_state_keep_prob
+        self.fully_connected_keep_prob = model_config.fully_connected_keep_prob
+        self.gradient_clipping_value = model_config.gradient_clipping_value
+        self.optimizer_learning_rate = model_config.optimizer_learning_rate
+        self.beam_search_width = model_config.beam_search_width
+        self.model_save_path = model_config.model_save_path
         self.num_labels = num_labels
         self.label_sequences = label_sequences
         self.max_sequence_length = max_sequence_length
@@ -33,12 +34,6 @@ class AdversarialAutoencoder:
         self.padded_sequences = padded_sequences
         self.one_hot_labels = one_hot_labels
         self.text_sequence_lengths = text_sequence_lengths
-
-        # declare model fetches and placeholders
-        self.input_sequence, self.input_label, self.sequence_lengths, \
-        self.reconstruction_loss, self.adversarial_loss, self.inference_output, \
-        self.all_summaries, self.final_sequence_lengths \
-            = None, None, None, None, None, None, None, None
 
     def get_style_embedding(self, encoder_embedded_sequence):
         scope_name = "style_embedding"
@@ -203,11 +198,11 @@ class AdversarialAutoencoder:
         logger.debug("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
         # style embedding
-        style_embedding = tf.cond(
+        self.style_embedding = tf.cond(
             pred=self.conditioned_generation_mode,
             true_fn=lambda: self.conditioning_embedding,
             false_fn=lambda: self.get_style_embedding(encoder_embedded_sequence))
-        logger.debug("style_embedding: {}".format(style_embedding))
+        logger.debug("style_embedding: {}".format(self.style_embedding))
 
         # content embedding
         content_embedding = self.get_content_embedding(encoder_embedded_sequence)
@@ -215,7 +210,7 @@ class AdversarialAutoencoder:
 
         # concatenated generative embedding
         generative_embedding = tf.concat(
-            values=[style_embedding, content_embedding], axis=1,
+            values=[self.style_embedding, content_embedding], axis=1,
             name="generative_embedding")
         logger.debug("generative_embedding: {}".format(generative_embedding))
 
@@ -346,6 +341,7 @@ class AdversarialAutoencoder:
 
         reconstruction_loss, adversarial_loss, all_summaries = (None, None, None)
         for current_epoch in range(1, training_epochs + 1):
+            all_style_embeddings = list()
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
                     offset=0, batch_number=batch_number, data_limit=data_size)
@@ -355,18 +351,25 @@ class AdversarialAutoencoder:
                      adversarial_training_operation,
                      self.reconstruction_loss,
                      self.adversarial_loss,
+                     self.style_embedding,
                      self.all_summaries]
 
-                _, _, reconstruction_loss, adversarial_loss, all_summaries = self.run_batch(
+                _, _, reconstruction_loss, adversarial_loss, style_embeddings, all_summaries = self.run_batch(
                     sess, start_index, end_index, fetches, None)
+                all_style_embeddings.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=self.model_save_path)
             writer.add_summary(all_summaries, current_epoch)
             writer.flush()
 
+            with open(global_config.author_embedding_path, 'wb') as pickle_file:
+                pickle.dump(all_style_embeddings, pickle_file)
+
             logger.info("Reconstruction loss: {:.9f}; Adversarial loss: {:.9f}; Training epoch: {}"
                         .format(reconstruction_loss, adversarial_loss, current_epoch))
         writer.close()
+
+        return all_style_embeddings
 
     def infer(self, sess, offset, samples_size):
 

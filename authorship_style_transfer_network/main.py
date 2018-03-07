@@ -1,17 +1,15 @@
 import argparse
+import pickle
 import sys
 from datetime import datetime as dt
 
 import numpy as np
 import tensorflow as tf
 
+from authorship_style_transfer_network.config import global_config, model_config
 from authorship_style_transfer_network.models import adversarial_autoencoder
-from authorship_style_transfer_network.utils import bleu_scorer
-from authorship_style_transfer_network.utils import data_postprocessor
-from authorship_style_transfer_network.utils import data_preprocessor
-from authorship_style_transfer_network.config import global_config
-from authorship_style_transfer_network.utils import log_initializer
-from authorship_style_transfer_network.utils import word_embedder
+from authorship_style_transfer_network.utils import bleu_scorer, data_postprocessor, \
+    data_preprocessor, log_initializer, word_embedder
 
 logger = None
 
@@ -33,9 +31,11 @@ def get_data(text_file_path, vocab_size, label_file_path):
            one_hot_labels, text_sequence_lengths, label_sequences, data_size, word_index, actual_sequences
 
 
-def execute_post_training_operations(all_style_representations, data_size, batch_size, label_sequences):
-    # Extract style embeddings
-    style_embeddings = np.asarray(all_style_representations)
+def execute_post_training_operations(all_style_embeddings, data_size, batch_size, label_sequences):
+    with open(global_config.author_embedding_path, 'rb') as pickle_file:
+        pickle.load(pickle_file)
+
+    style_embeddings = np.asarray(all_style_embeddings)
     logger.info("style_embeddings_shape: {}".format(style_embeddings.shape))
 
     all_author_embeddings = dict()
@@ -164,8 +164,10 @@ def main(argv):
     if command_line_args['train_model']:
         logger.info("Training model")
         sess = get_tensorflow_session()
-        network.train(sess, data_size, command_line_args['training_epochs'])
+        all_style_embeddings = network.train(sess, data_size, command_line_args['training_epochs'])
         sess.close()
+        execute_post_training_operations(all_style_embeddings, data_size,
+                                         model_config.batch_size, label_sequences)
         logger.info("Training complete!")
 
     # Restore model and run inference
