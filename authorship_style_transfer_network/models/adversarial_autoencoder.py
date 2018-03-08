@@ -388,7 +388,7 @@ class AdversarialAutoencoder:
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
 
-        return generated_sequences, end_index, final_sequence_lengths
+        return generated_sequences, final_sequence_lengths
 
     def generate_novel_sentences(self, sess, offset, samples_size, style_embedding):
         print("style_embedding.shape: {}".format(style_embedding.shape))
@@ -420,4 +420,4 @@ class AdversarialAutoencoder:
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
 
-        return generated_sequences, end_index, final_sequence_lengths
+        return generated_sequences, final_sequence_lengths
