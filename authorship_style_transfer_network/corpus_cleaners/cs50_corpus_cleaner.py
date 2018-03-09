@@ -29,6 +29,7 @@ print(authors)
 
 article_list = list()
 author_labels = list()
+file_extension = ".txt"
 
 with open(text_file_path, 'w') as text_file, open(labels_file_path, 'w') as label_file:
     for author in authors:
@@ -36,7 +37,7 @@ with open(text_file_path, 'w') as text_file, open(labels_file_path, 'w') as labe
         files = os.listdir(author_directory)
 
         for filepath in map(lambda x: author_directory + "/" + x,files):
-            if filepath[-4:] == ".txt":
+            if filepath[-1 * len(file_extension):] == file_extension:
                 with open(filepath, 'r') as file:
                     article = file.read()
                     sentences = nltk.tokenize.sent_tokenize(article)
