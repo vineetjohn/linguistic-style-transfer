@@ -3,9 +3,9 @@ import re
 
 import nltk
 
-data_folder = "data/training-set"
-text_file_path = "data/c50-articles.txt"
-labels_file_path = "data/c50-labels.txt"
+data_folder = "data/c50/training-set"
+text_file_path = "data/c50/articles.txt"
+labels_file_path = "data/c50/labels.txt"
 
 
 def clean_text(string):
