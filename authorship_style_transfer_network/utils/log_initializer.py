@@ -2,7 +2,9 @@ import logging
 
 
 def setup_custom_logger(name, log_level):
-    formatter = logging.Formatter(fmt='%(asctime)s:%(levelname)s: %(message)s')
+    formatter = logging.Formatter(
+        fmt="%(asctime)s:%(levelname)s: %(message)s",
+        datefmt="%Y-%m-%dT%H:%M:%S")
 
     handler = logging.StreamHandler()
     handler.setFormatter(formatter)

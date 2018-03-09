@@ -33,12 +33,11 @@ def get_text_sequences(text_file_path, vocab_size):
     text_sequence_lengths = np.asarray(
         a=[len(x) for x in actual_sequences], dtype=np.int32)
 
-    max_sequence_length = int(np.median(text_sequence_lengths))
-    logger.info("max_sequence_length: {}".format(max_sequence_length))
-
     actual_sequences = [
         [x if x < vocab_size else word_index['unk'] for x in sequence]
         for sequence in actual_sequences]
+
+    max_sequence_length = global_config.max_sequence_length
 
     padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
         actual_sequences, maxlen=max_sequence_length, padding='post', truncating='post',

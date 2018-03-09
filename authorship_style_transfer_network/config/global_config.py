@@ -1,5 +1,6 @@
 logger_name = "style_transfer"
 embedding_size = 300
+max_sequence_length = 20
 word_vector_path = "./word-embeddings/"
 save_directory = "./saved-models"
 author_embedding_path = save_directory + "/style_embeddings.pkl"
