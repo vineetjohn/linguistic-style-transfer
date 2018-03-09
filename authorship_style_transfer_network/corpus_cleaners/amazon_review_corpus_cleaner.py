@@ -22,10 +22,6 @@ def clean_text(string):
     return string
 
 
-article_list = list()
-author_labels = list()
-file_extension = ".txt"
-
 with open(text_file_path, 'w') as text_file, open(labels_file_path, 'w') as label_file:
     with open(positive_reviews_file_path, 'r') as positive_reviews_file:
         for review in positive_reviews_file:

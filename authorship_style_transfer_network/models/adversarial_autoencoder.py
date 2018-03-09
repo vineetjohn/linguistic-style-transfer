@@ -160,34 +160,36 @@ class AdversarialAutoencoder:
             name="conditioning_embedding")
         logger.debug("conditioning_embedding: {}".format(self.conditioning_embedding))
 
-        # word embeddings matrices
-        encoder_embeddings = tf.get_variable(
-            initializer=self.encoder_embedding_matrix, dtype=tf.float32,
-            trainable=True, name="encoder_embeddings")
-        logger.debug("encoder_embeddings: {}".format(encoder_embeddings))
-
-        decoder_embeddings = tf.get_variable(
-            initializer=self.decoder_embedding_matrix, dtype=tf.float32,
-            trainable=True, name="decoder_embeddings")
-        logger.debug("decoder_embeddings: {}".format(decoder_embeddings))
-
-        # embedded sequences
-        encoder_embedded_sequence = tf.nn.dropout(
-            x=tf.nn.embedding_lookup(
-                params=encoder_embeddings, ids=self.input_sequence),
-            keep_prob=model_config.fully_connected_keep_prob,
-            name="encoder_embedded_sequence")
-        logger.debug("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
-
         decoder_input = tf.concat(
             values=[tf.fill(dims=[model_config.batch_size, 1], value=self.sos_index, name="start_tokens"),
                     self.input_sequence],
             axis=1, name="decoder_input")
-        decoder_embedded_sequence = tf.nn.dropout(
-            x=tf.nn.embedding_lookup(params=decoder_embeddings, ids=decoder_input),
-            keep_prob=model_config.fully_connected_keep_prob,
-            name="decoder_embedded_sequence")
-        logger.debug("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
+
+        with tf.device('/cpu:0'):
+            # word embeddings matrices
+            encoder_embeddings = tf.get_variable(
+                initializer=self.encoder_embedding_matrix, dtype=tf.float32,
+                trainable=True, name="encoder_embeddings")
+            logger.debug("encoder_embeddings: {}".format(encoder_embeddings))
+
+            decoder_embeddings = tf.get_variable(
+                initializer=self.decoder_embedding_matrix, dtype=tf.float32,
+                trainable=True, name="decoder_embeddings")
+            logger.debug("decoder_embeddings: {}".format(decoder_embeddings))
+
+            # embedded sequences
+            encoder_embedded_sequence = tf.nn.dropout(
+                x=tf.nn.embedding_lookup(
+                    params=encoder_embeddings, ids=self.input_sequence),
+                keep_prob=model_config.fully_connected_keep_prob,
+                name="encoder_embedded_sequence")
+            logger.debug("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
+
+            decoder_embedded_sequence = tf.nn.dropout(
+                x=tf.nn.embedding_lookup(params=decoder_embeddings, ids=decoder_input),
+                keep_prob=model_config.fully_connected_keep_prob,
+                name="decoder_embedded_sequence")
+            logger.debug("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
         # style embedding
         self.style_embedding = tf.cond(

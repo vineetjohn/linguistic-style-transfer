@@ -37,7 +37,7 @@ def get_average_label_embeddings(data_size, label_sequences):
         all_style_embeddings = pickle.load(pickle_file)
 
     style_embeddings = np.asarray(all_style_embeddings)
-    logger.info("style_embeddings_shape: {}".format(style_embeddings.shape))
+    logger.debug("style_embeddings_shape: {}".format(style_embeddings.shape))
 
     label_embedding_map = dict()
     for i in range(data_size - (data_size % model_config.batch_size)):
@@ -49,7 +49,7 @@ def get_average_label_embeddings(data_size, label_sequences):
     average_label_embeddings = dict()
     for author_label in label_embedding_map:
         average_label_embeddings[author_label] = np.mean(label_embedding_map[author_label], axis=0)
-    logger.debug("average_label_embeddings: {}".format(average_label_embeddings))
+    logger.debug("Pickled averaged style embeddings")
 
     return average_label_embeddings
 
@@ -217,8 +217,10 @@ def main(argv):
 
 
 def get_tensorflow_session():
-    config_proto = tf.ConfigProto()
-    config_proto.gpu_options.allow_growth = True
+    gpu_options = tf.GPUOptions(allow_growth=True)
+    config_proto = tf.ConfigProto(
+        log_device_placement=False, allow_soft_placement=True,
+        gpu_options=gpu_options)
 
     return tf.Session(config=config_proto)
 
