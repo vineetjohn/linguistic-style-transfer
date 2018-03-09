@@ -130,6 +130,8 @@ def main(argv):
     parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
     parser.add_argument("--training-epochs", type=int, default=10)
     parser.add_argument("--vocab-size", type=int, default=1000)
+    parser.add_argument("--text-file-path", type=str, required=True)
+    parser.add_argument("--label-file-path", type=str, required=True)
     parser.add_argument("--logging-level", type=str, default="INFO")
 
     args_namespace = parser.parse_args(argv)
@@ -139,14 +141,6 @@ def main(argv):
     logger = log_initializer.setup_custom_logger(
         global_config.logger_name, command_line_args['logging_level'])
 
-    if command_line_args['dev_mode']:
-        logger.info("Running in dev mode")
-        text_file_path = "data/c50-articles-dev.txt"
-        label_file_path = "data/c50-labels-dev.txt"
-    else:
-        text_file_path = "data/c50-articles.txt"
-        label_file_path = "data/c50-labels.txt"
-
     if not (command_line_args['train_model'] or command_line_args['infer_sequences'] or
             command_line_args['generate_novel_text']):
         logger.info("Nothing to do. Exiting ...")
@@ -155,7 +149,8 @@ def main(argv):
     # Retrieve all data
     num_labels, max_sequence_length, vocab_size, sos_index, eos_index, padded_sequences, \
     one_hot_labels, text_sequence_lengths, label_sequences, data_size, word_index, actual_sequences = \
-        get_data(text_file_path, command_line_args['vocab_size'], label_file_path)
+        get_data(command_line_args['text_file_path'], command_line_args['vocab_size'],
+                 command_line_args['label_file_path'])
 
     encoder_embedding_matrix, decoder_embedding_matrix = \
         get_word_embeddings(vocab_size, word_index, command_line_args['use_pretrained_embeddings'],
