@@ -1,7 +1,8 @@
 from linguistic_style_transfer_model.config import global_config
 
 batch_size = 32
-encoder_rnn_size = 128
+style_embedding_size = 4
+content_embedding_size = 128
 recurrent_state_keep_prob = 0.8
 fully_connected_keep_prob = 0.8
 gradient_clipping_value = 5.0

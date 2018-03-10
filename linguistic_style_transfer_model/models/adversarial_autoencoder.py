@@ -32,12 +32,12 @@ class AdversarialAutoencoder:
 
         with tf.name_scope(scope_name):
             encoder_cell_fw = tf.nn.rnn_cell.DropoutWrapper(
-                cell=tf.contrib.rnn.GRUCell(num_units=model_config.encoder_rnn_size),
+                cell=tf.contrib.rnn.GRUCell(num_units=model_config.style_embedding_size),
                 input_keep_prob=model_config.recurrent_state_keep_prob,
                 output_keep_prob=model_config.recurrent_state_keep_prob,
                 state_keep_prob=model_config.recurrent_state_keep_prob)
             encoder_cell_bw = tf.nn.rnn_cell.DropoutWrapper(
-                cell=tf.contrib.rnn.GRUCell(num_units=model_config.encoder_rnn_size),
+                cell=tf.contrib.rnn.GRUCell(num_units=model_config.style_embedding_size),
                 input_keep_prob=model_config.recurrent_state_keep_prob,
                 output_keep_prob=model_config.recurrent_state_keep_prob,
                 state_keep_prob=model_config.recurrent_state_keep_prob)
@@ -57,12 +57,12 @@ class AdversarialAutoencoder:
 
         with tf.name_scope(scope_name):
             encoder_cell_fw = tf.nn.rnn_cell.DropoutWrapper(
-                cell=tf.contrib.rnn.GRUCell(num_units=model_config.encoder_rnn_size),
+                cell=tf.contrib.rnn.GRUCell(num_units=model_config.content_embedding_size),
                 input_keep_prob=model_config.recurrent_state_keep_prob,
                 output_keep_prob=model_config.recurrent_state_keep_prob,
                 state_keep_prob=model_config.recurrent_state_keep_prob)
             encoder_cell_bw = tf.nn.rnn_cell.DropoutWrapper(
-                cell=tf.contrib.rnn.GRUCell(num_units=model_config.encoder_rnn_size),
+                cell=tf.contrib.rnn.GRUCell(num_units=model_config.content_embedding_size),
                 input_keep_prob=model_config.recurrent_state_keep_prob,
                 output_keep_prob=model_config.recurrent_state_keep_prob,
                 state_keep_prob=model_config.recurrent_state_keep_prob)
@@ -89,7 +89,9 @@ class AdversarialAutoencoder:
     def generate_output_sequence(self, embedded_sequence, generative_embedding, decoder_embeddings):
 
         decoder_cell = tf.nn.rnn_cell.DropoutWrapper(
-            cell=tf.contrib.rnn.GRUCell(num_units=model_config.encoder_rnn_size * 4),
+            cell=tf.contrib.rnn.GRUCell(
+                num_units=2 * (model_config.style_embedding_size +
+                               model_config.content_embedding_size)),
             input_keep_prob=model_config.recurrent_state_keep_prob,
             output_keep_prob=model_config.recurrent_state_keep_prob,
             state_keep_prob=model_config.recurrent_state_keep_prob)
@@ -156,7 +158,8 @@ class AdversarialAutoencoder:
         logger.debug("conditioned_generation_mode: {}".format(self.conditioned_generation_mode))
 
         self.conditioning_embedding = tf.placeholder(
-            dtype=tf.float32, shape=[model_config.batch_size, model_config.encoder_rnn_size * 2],
+            dtype=tf.float32,
+            shape=[model_config.batch_size, 2 * model_config.style_embedding_size],
             name="conditioning_embedding")
         logger.debug("conditioning_embedding: {}".format(self.conditioning_embedding))
 
@@ -255,7 +258,6 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
-
     def get_batch_indices(self, offset, batch_number, data_limit):
 
         start_index = offset + (batch_number * model_config.batch_size)
@@ -264,15 +266,14 @@ class AdversarialAutoencoder:
 
         return start_index, end_index
 
-
     def run_batch(self, sess, start_index, end_index, fetches, shuffled_padded_sequences,
                   shuffled_one_hot_labels, shuffled_text_sequence_lengths,
                   conditioning_embedding, conditioned_generation_mode):
 
         if not conditioned_generation_mode:
             conditioning_embedding = np.random.uniform(
-                low=-0.05, high=0.05, size=(model_config.batch_size, model_config.encoder_rnn_size * 2)) \
-                .astype(dtype=np.float32)
+                size=(model_config.batch_size, 2 * model_config.style_embedding_size),
+                low=-0.05, high=0.05).astype(dtype=np.float32)
 
         ops = sess.run(
             fetches=fetches,
@@ -285,7 +286,6 @@ class AdversarialAutoencoder:
             })
 
         return ops
-
 
     def train(self, sess, data_size, training_epochs):
 
@@ -379,7 +379,6 @@ class AdversarialAutoencoder:
                         .format(reconstruction_loss, adversarial_loss, current_epoch))
         writer.close()
 
-
     def infer(self, sess, offset, samples_size):
 
         sess.run(tf.global_variables_initializer())
@@ -392,7 +391,6 @@ class AdversarialAutoencoder:
 
         end_index = None
         for batch_number in range(num_batches):
-
             (start_index, end_index) = self.get_batch_indices(
                 offset=offset, batch_number=batch_number, data_limit=(offset + samples_size))
 
@@ -405,7 +403,6 @@ class AdversarialAutoencoder:
             final_sequence_lengths.extend(final_sequence_lengths_batch)
 
         return generated_sequences, final_sequence_lengths
-
 
     def generate_novel_sentences(self, sess, offset, samples_size, style_embedding):
 
@@ -421,7 +418,6 @@ class AdversarialAutoencoder:
 
         end_index = None
         for batch_number in range(num_batches):
-
             (start_index, end_index) = self.get_batch_indices(
                 offset=offset, batch_number=batch_number, data_limit=(offset + samples_size))
 
