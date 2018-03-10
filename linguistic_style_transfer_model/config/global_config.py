@@ -1,9 +1,10 @@
-logger_name = "style_transfer"
+logger_name = "linguistic_style_transfer"
 embedding_size = 300
 max_sequence_length = 20
 word_vector_path = "./word-embeddings/"
 save_directory = "./saved-models"
-author_embedding_path = save_directory + "/style_embeddings.pkl"
+all_style_embeddings_path = save_directory + "/all_style_embeddings.pkl"
+average_style_embeddings_path = save_directory + "/avg_style_embeddings.pkl"
 bleu_score_weights = {
     1: (1.0, 0.0, 0.0, 0.0),
     2: (0.5, 0.5, 0.0, 0.0),

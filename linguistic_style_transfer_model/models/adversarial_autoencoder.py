@@ -5,7 +5,7 @@ from datetime import datetime as dt
 import numpy as np
 import tensorflow as tf
 
-from authorship_style_transfer_network.config import global_config, model_config
+from linguistic_style_transfer_model.config import global_config, model_config
 
 logger = logging.getLogger(global_config.logger_name)
 
@@ -372,7 +372,7 @@ class AdversarialAutoencoder:
             writer.add_summary(all_summaries, current_epoch)
             writer.flush()
 
-            with open(global_config.author_embedding_path, 'wb') as pickle_file:
+            with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)
 
             logger.info("Reconstruction loss: {:.9f}; Adversarial loss: {:.9f}; Training epoch: {}"

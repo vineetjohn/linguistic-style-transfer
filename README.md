@@ -1,3 +1,2 @@
-# Authorship Style-Transfer
-Neural network parametrized objective to disentangle and transfer authorship style from text content
-
+# Linguistic Style-Transfer
+Neural network model to disentangle and transfer linguistic style in text

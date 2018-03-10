@@ -2,7 +2,7 @@ import logging
 
 import gensim
 
-from authorship_style_transfer_network.config import global_config
+from linguistic_style_transfer_model.config import global_config
 
 logger = logging.getLogger(global_config.logger_name)
 
