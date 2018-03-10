@@ -37,7 +37,6 @@ def get_average_label_embeddings(data_size, label_sequences):
         all_style_embeddings = pickle.load(pickle_file)
 
     style_embeddings = np.asarray(all_style_embeddings)
-    logger.debug("style_embeddings_shape: {}".format(style_embeddings.shape))
 
     label_embedding_map = dict()
     for i in range(data_size - (data_size % model_config.batch_size)):
@@ -46,10 +45,13 @@ def get_average_label_embeddings(data_size, label_sequences):
             label_embedding_map[label] = list()
         label_embedding_map[label].append(style_embeddings[i])
 
+    with open(global_config.label_mapped_style_embeddings_path, 'wb') as pickle_file:
+        pickle.dump(label_embedding_map, pickle_file)
+    logger.debug("Pickled label mapped style embeddings")
+
     average_label_embeddings = dict()
     for label in label_embedding_map:
         average_label_embeddings[label] = np.mean(label_embedding_map[label], axis=0)
-    logger.debug("Pickled averaged style embeddings")
 
     return average_label_embeddings
 
