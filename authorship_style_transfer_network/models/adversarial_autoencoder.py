@@ -203,9 +203,10 @@ class AdversarialAutoencoder:
         logger.debug("content_embedding: {}".format(content_embedding))
 
         # concatenated generative embedding
-        generative_embedding = tf.concat(
-            values=[self.style_embedding, content_embedding], axis=1,
-            name="generative_embedding")
+        generative_embedding = tf.nn.leaky_relu(
+            features=tf.concat(
+                values=[self.style_embedding, content_embedding],
+                axis=1), name="generative_embedding")
         logger.debug("generative_embedding: {}".format(generative_embedding))
 
         # sequence predictions
@@ -300,10 +301,10 @@ class AdversarialAutoencoder:
         # optimize classification
         adversarial_training_variables = [
             x for x in trainable_variables if all(
-                scope not in x.name for scope in
-                ["decoder_embeddings", "style_embedding", "training_decoder"])]
+                scope in x.name for scope in
+                ["label_prediction"])]
         logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
-        adversarial_training_optimizer = tf.train.AdamOptimizer(
+        adversarial_training_optimizer = tf.train.GradientDescentOptimizer(
             learning_rate=model_config.adversarial_discriminator_learning_rate)
         gradients_and_variables = adversarial_training_optimizer.compute_gradients(
             loss=self.adversarial_loss, var_list=adversarial_training_variables)
@@ -395,9 +396,6 @@ class AdversarialAutoencoder:
             (start_index, end_index) = self.get_batch_indices(
                 offset=offset, batch_number=batch_number, data_limit=(offset + samples_size))
 
-            if start_index == end_index:
-                break
-
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
                 self.padded_sequences, self.one_hot_labels, self.text_sequence_lengths,
@@ -410,10 +408,8 @@ class AdversarialAutoencoder:
 
 
     def generate_novel_sentences(self, sess, offset, samples_size, style_embedding):
-        print("style_embedding.shape: {}".format(style_embedding.shape))
 
         conditioning_embedding = np.tile(A=style_embedding, reps=(model_config.batch_size, 1))
-        print("conditioning_embedding.shape: {}".format(conditioning_embedding.shape))
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
@@ -428,9 +424,6 @@ class AdversarialAutoencoder:
 
             (start_index, end_index) = self.get_batch_indices(
                 offset=offset, batch_number=batch_number, data_limit=(offset + samples_size))
-
-            if start_index == end_index:
-                break
 
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
