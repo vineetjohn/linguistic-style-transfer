@@ -254,6 +254,7 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
+
     def get_batch_indices(self, offset, batch_number, data_limit):
 
         start_index = offset + (batch_number * model_config.batch_size)
@@ -262,7 +263,10 @@ class AdversarialAutoencoder:
 
         return start_index, end_index
 
-    def run_batch(self, sess, start_index, end_index, fetches, conditioning_embedding, conditioned_generation_mode):
+
+    def run_batch(self, sess, start_index, end_index, fetches, shuffled_padded_sequences,
+                  shuffled_one_hot_labels, shuffled_text_sequence_lengths,
+                  conditioning_embedding, conditioned_generation_mode):
 
         if not conditioned_generation_mode:
             conditioning_embedding = np.random.uniform(
@@ -272,14 +276,15 @@ class AdversarialAutoencoder:
         ops = sess.run(
             fetches=fetches,
             feed_dict={
-                self.input_sequence: self.padded_sequences[start_index: end_index],
-                self.input_label: self.one_hot_labels[start_index: end_index],
-                self.sequence_lengths: self.text_sequence_lengths[start_index: end_index],
+                self.input_sequence: shuffled_padded_sequences[start_index: end_index],
+                self.input_label: shuffled_one_hot_labels[start_index: end_index],
+                self.sequence_lengths: shuffled_text_sequence_lengths[start_index: end_index],
                 self.conditioned_generation_mode: conditioned_generation_mode,
                 self.conditioning_embedding: conditioning_embedding
             })
 
         return ops
+
 
     def train(self, sess, data_size, training_epochs):
 
@@ -335,8 +340,15 @@ class AdversarialAutoencoder:
                              self.one_hot_labels[:training_examples_size].shape))
 
         reconstruction_loss, adversarial_loss, all_summaries = (None, None, None)
+
         for current_epoch in range(1, training_epochs + 1):
+
             all_style_embeddings = list()
+            shuffle_indices = np.random.permutation(np.arange(data_size))
+            shuffled_padded_sequences = self.padded_sequences[shuffle_indices]
+            shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
+            shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
+
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
                     offset=0, batch_number=batch_number, data_limit=data_size)
@@ -349,8 +361,10 @@ class AdversarialAutoencoder:
                      self.style_embedding,
                      self.all_summaries]
 
-                _, _, reconstruction_loss, adversarial_loss, style_embeddings, all_summaries = self.run_batch(
-                    sess, start_index, end_index, fetches, None, False)
+                _, _, reconstruction_loss, adversarial_loss, \
+                style_embeddings, all_summaries = self.run_batch(
+                    sess, start_index, end_index, fetches, shuffled_padded_sequences,
+                    shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False)
                 all_style_embeddings.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=model_config.model_save_path)
@@ -363,6 +377,7 @@ class AdversarialAutoencoder:
             logger.info("Reconstruction loss: {:.9f}; Adversarial loss: {:.9f}; Training epoch: {}"
                         .format(reconstruction_loss, adversarial_loss, current_epoch))
         writer.close()
+
 
     def infer(self, sess, offset, samples_size):
 
@@ -384,13 +399,15 @@ class AdversarialAutoencoder:
                 break
 
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
-                sess, start_index, end_index,
-                [self.inference_output, self.final_sequence_lengths], None, False)
+                sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
+                self.padded_sequences, self.one_hot_labels, self.text_sequence_lengths,
+                None, False)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
 
         return generated_sequences, final_sequence_lengths
+
 
     def generate_novel_sentences(self, sess, offset, samples_size, style_embedding):
         print("style_embedding.shape: {}".format(style_embedding.shape))
@@ -416,8 +433,9 @@ class AdversarialAutoencoder:
                 break
 
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
-                sess, start_index, end_index,
-                [self.inference_output, self.final_sequence_lengths], conditioning_embedding, True)
+                sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
+                self.padded_sequences, self.one_hot_labels, self.text_sequence_lengths,
+                conditioning_embedding, True)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)

@@ -166,7 +166,7 @@ def main(argv):
 
     # Train and save model
     if command_line_args['train_model']:
-        logger.info("Training model")
+        logger.info("Training model ...")
         sess = get_tensorflow_session()
         network.train(sess, data_size, command_line_args['training_epochs'])
         sess.close()
@@ -175,7 +175,7 @@ def main(argv):
     if command_line_args['infer_sequences'] or command_line_args['generate_novel_text']:
         samples_size = data_size - (data_size % model_config.batch_size)
         offset = 0
-        logger.debug("sampling range: {}-{}".format(offset, (offset + samples_size)))
+        logger.debug("Sampling range: {}-{}".format(offset, (offset + samples_size)))
 
         inverse_word_index = {v: k for k, v in word_index.items()}
         timestamped_file_suffix = dt.now().strftime("%Y%m%d%H%M%S")
@@ -186,12 +186,11 @@ def main(argv):
 
         # Restore model and run inference
         if command_line_args['infer_sequences']:
-            logger.info("Inferring test samples")
+            logger.info("Inferring test samples ...")
             sess = get_tensorflow_session()
             generated_sequences, final_sequence_lengths = \
                 network.infer(sess, offset, samples_size)
             sess.close()
-            logger.debug("final_sequence_lengths: {}".format(final_sequence_lengths))
             execute_post_inference_operations(
                 word_index, actual_word_lists, generated_sequences, final_sequence_lengths,
                 max_sequence_length, inverse_word_index, timestamped_file_suffix,
@@ -200,9 +199,9 @@ def main(argv):
 
         # Enforce a particular style embedding and regenerate text
         if command_line_args['generate_novel_text']:
-            logger.info("Generating novel text")
+            logger.info("Generating novel text ...")
             random_style_choice = randint(1, num_labels)
-            logger.debug("style chosen: {}".format(random_style_choice))
+            logger.debug("Style chosen: {}".format(random_style_choice))
             average_label_embeddings = get_average_label_embeddings(
                 data_size, label_sequences)
             style_embedding = np.asarray(average_label_embeddings[random_style_choice])
