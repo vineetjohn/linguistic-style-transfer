@@ -3,6 +3,11 @@ import re
 
 import nltk
 
+from linguistic_style_transfer_model.config import global_config
+from linguistic_style_transfer_model.utils import log_initializer
+
+logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
+
 data_folder = "data/c50/training-set"
 text_file_path = "data/c50/articles.txt"
 labels_file_path = "data/c50/labels.txt"
@@ -25,7 +30,7 @@ def clean_text(string):
 
 
 authors = os.listdir(data_folder)
-print(authors)
+logger.debug("Authors: {}".format(authors))
 
 article_list = list()
 author_labels = list()
@@ -36,7 +41,7 @@ with open(text_file_path, 'w') as text_file, open(labels_file_path, 'w') as labe
         author_directory = data_folder + "/" + author
         files = os.listdir(author_directory)
 
-        for filepath in map(lambda x: author_directory + "/" + x,files):
+        for filepath in map(lambda x: author_directory + "/" + x, files):
             if filepath[-1 * len(file_extension):] == file_extension:
                 with open(filepath, 'r') as file:
                     article = file.read()
