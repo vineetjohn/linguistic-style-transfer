@@ -149,6 +149,7 @@ def main(argv):
         sys.exit(0)
 
     # Retrieve all data
+    logger.info("Reading data ...")
     num_labels, max_sequence_length, vocab_size, sos_index, eos_index, padded_sequences, \
     one_hot_labels, text_sequence_lengths, label_sequences, data_size, word_index, actual_sequences = \
         get_data(command_line_args['text_file_path'], command_line_args['vocab_size'],
@@ -159,7 +160,7 @@ def main(argv):
                             command_line_args['train_model'])
 
     # Build model
-    logger.info("Building model architecture")
+    logger.info("Building model architecture ...")
     network = adversarial_autoencoder.AdversarialAutoencoder(
         num_labels, max_sequence_length, vocab_size, sos_index, eos_index,
         encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences,

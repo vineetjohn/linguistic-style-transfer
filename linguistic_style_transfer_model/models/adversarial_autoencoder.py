@@ -304,7 +304,7 @@ class AdversarialAutoencoder:
                 scope in x.name for scope in
                 ["label_prediction"])]
         logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
-        adversarial_training_optimizer = tf.train.GradientDescentOptimizer(
+        adversarial_training_optimizer = tf.train.AdamOptimizer(
             learning_rate=model_config.adversarial_discriminator_learning_rate)
         gradients_and_variables = adversarial_training_optimizer.compute_gradients(
             loss=self.adversarial_loss, var_list=adversarial_training_variables)
