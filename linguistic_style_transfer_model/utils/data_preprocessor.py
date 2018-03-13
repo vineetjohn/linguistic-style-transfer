@@ -10,9 +10,9 @@ logger = logging.getLogger(global_config.logger_name)
 
 def get_text_sequences(text_file_path, vocab_size):
     word_index = {
-        'unk': 0,
-        'sos': 1,
-        'eos': 2,
+        global_config.unk_token: 0,
+        global_config.sos_token: 1,
+        global_config.eos_token: 2,
     }
 
     text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
@@ -34,14 +34,14 @@ def get_text_sequences(text_file_path, vocab_size):
         a=[len(x) for x in actual_sequences], dtype=np.int32)
 
     actual_sequences = [
-        [x if x < vocab_size else word_index['unk'] for x in sequence]
+        [x if x < vocab_size else word_index[global_config.unk_token] for x in sequence]
         for sequence in actual_sequences]
 
     max_sequence_length = global_config.max_sequence_length
 
     padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
-        actual_sequences, maxlen=max_sequence_length, padding='post', truncating='post',
-        value=word_index['eos'])
+        actual_sequences, maxlen=max_sequence_length, padding='post',
+        truncating='post', value=word_index[global_config.eos_token])
 
     text_sequence_lengths = np.asarray(
         [max_sequence_length if x >= max_sequence_length

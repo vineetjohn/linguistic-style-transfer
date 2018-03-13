@@ -21,8 +21,8 @@ def get_data(text_file_path, vocab_size, label_file_path):
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     logger.debug("padded_sequences: {}".format(padded_sequences.shape))
 
-    sos_index = word_index['sos']
-    eos_index = word_index['eos']
+    sos_index = word_index[global_config.sos_token]
+    eos_index = word_index[global_config.eos_token]
     data_size = padded_sequences.shape[0]
 
     one_hot_labels, num_labels, label_sequences = data_preprocessor.get_labels(label_file_path)
@@ -62,7 +62,7 @@ def flush_ground_truth_sentences(actual_sequences, start_index, final_index, max
 
     actual_sequences = tf.keras.preprocessing.sequence.pad_sequences(
         actual_sequences, maxlen=max_sequence_length, padding='post', truncating='post',
-        value=word_index['eos'])
+        value=word_index[global_config.eos_token])
 
     actual_word_lists = \
         [data_postprocessor.generate_words_from_indices(x, inverse_word_index)
@@ -87,7 +87,7 @@ def execute_post_inference_operations(word_index, actual_word_lists, generated_s
 
     generated_sequences = tf.keras.preprocessing.sequence.pad_sequences(
         trimmed_generated_sequences, maxlen=max_sequence_length, padding='post', truncating='post',
-        value=word_index['eos'])
+        value=word_index[global_config.eos_token])
 
     generated_word_lists = \
         [data_postprocessor.generate_words_from_indices(x, inverse_word_index)

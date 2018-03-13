@@ -5,6 +5,9 @@ word_vector_path = "./word-embeddings/"
 save_directory = "./saved-models"
 all_style_embeddings_path = save_directory + "/all_style_embeddings.pkl"
 label_mapped_style_embeddings_path = save_directory + "/label_mapped_style_embeddings.pkl"
+unk_token = "<unk>"
+sos_token = "<sos>"
+eos_token = "<eos>"
 bleu_score_weights = {
     1: (1.0, 0.0, 0.0, 0.0),
     2: (0.5, 0.5, 0.0, 0.0),
