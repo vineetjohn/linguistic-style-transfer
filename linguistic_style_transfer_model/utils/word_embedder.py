@@ -8,7 +8,7 @@ logger = logging.getLogger(global_config.logger_name)
 
 
 def add_word_vectors_to_embeddings(word_index, word_vector_path, encoder_embedding_matrix,
-                                   decoder_embedding_matrix, vocab_size):
+                                   decoder_embedding_matrix):
     wv_model_path = word_vector_path + "GoogleNews-vectors-negative300.bin.gz"
     wv_model = gensim.models.KeyedVectors.load_word2vec_format(
         wv_model_path, binary=True, unicode_errors='ignore')
@@ -24,7 +24,7 @@ def add_word_vectors_to_embeddings(word_index, word_vector_path, encoder_embeddi
             pass
 
         i += 1
-        if i >= vocab_size:
+        if i >= global_config.vocab_size:
             break
 
     del wv_model

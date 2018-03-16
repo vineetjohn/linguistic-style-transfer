@@ -12,20 +12,15 @@ logger = logging.getLogger(global_config.logger_name)
 
 class AdversarialAutoencoder:
 
-    def __init__(self, num_labels, max_sequence_length, vocab_size, sos_index, eos_index,
-                 encoder_embedding_matrix, decoder_embedding_matrix, padded_sequences, one_hot_labels,
-                 text_sequence_lengths, label_sequences):
+    def __init__(self, padded_sequences, text_sequence_lengths, one_hot_labels, num_labels,
+                 word_index, encoder_embedding_matrix, decoder_embedding_matrix):
+        self.padded_sequences = padded_sequences
+        self.text_sequence_lengths = text_sequence_lengths
+        self.one_hot_labels = one_hot_labels
         self.num_labels = num_labels
-        self.label_sequences = label_sequences
-        self.max_sequence_length = max_sequence_length
-        self.vocab_size = vocab_size
-        self.sos_index = sos_index
-        self.eos_index = eos_index
+        self.word_index = word_index
         self.encoder_embedding_matrix = encoder_embedding_matrix
         self.decoder_embedding_matrix = decoder_embedding_matrix
-        self.padded_sequences = padded_sequences
-        self.one_hot_labels = one_hot_labels
-        self.text_sequence_lengths = text_sequence_lengths
 
     def get_sentence_embedding(self, encoder_embedded_sequence):
         scope_name = "sentence_embedding"
@@ -87,7 +82,7 @@ class AdversarialAutoencoder:
             output_keep_prob=model_config.recurrent_state_keep_prob,
             state_keep_prob=model_config.recurrent_state_keep_prob)
 
-        projection_layer = tf.layers.Dense(units=self.vocab_size, use_bias=False)
+        projection_layer = tf.layers.Dense(units=global_config.vocab_size, use_bias=False)
 
         with tf.name_scope("training_decoder"):
             training_helper = tf.contrib.seq2seq.TrainingHelper(
@@ -102,14 +97,16 @@ class AdversarialAutoencoder:
 
             training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
                 decoder=training_decoder, impute_finished=True,
-                maximum_iterations=self.max_sequence_length,
+                maximum_iterations=global_config.max_sequence_length,
                 scope="training_decoder")
 
         with tf.name_scope("inference_decoder"):
             inference_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
                 cell=decoder_cell, embedding=decoder_embeddings,
-                start_tokens=tf.fill([model_config.batch_size], self.sos_index),
-                end_token=self.eos_index,
+                start_tokens=tf.fill(
+                    dims=[model_config.batch_size],
+                    value=self.word_index[global_config.sos_token]),
+                end_token=self.word_index[global_config.eos_token],
                 initial_state=tf.contrib.seq2seq.tile_batch(
                     t=generative_embedding, multiplier=model_config.beam_search_width),
                 beam_width=model_config.beam_search_width, output_layer=projection_layer,
@@ -119,7 +116,7 @@ class AdversarialAutoencoder:
 
             inference_decoder_output, _, final_sequence_lengths = tf.contrib.seq2seq.dynamic_decode(
                 decoder=inference_decoder, impute_finished=False,
-                maximum_iterations=self.max_sequence_length,
+                maximum_iterations=global_config.max_sequence_length,
                 scope="inference_decoder")
 
         return training_decoder_output.rnn_output, \
@@ -130,7 +127,7 @@ class AdversarialAutoencoder:
 
         # model inputs
         self.input_sequence = tf.placeholder(
-            dtype=tf.int32, shape=[model_config.batch_size, self.max_sequence_length],
+            dtype=tf.int32, shape=[model_config.batch_size, global_config.max_sequence_length],
             name="input_sequence")
         logger.debug("input_sequence: {}".format(self.input_sequence))
 
@@ -155,8 +152,12 @@ class AdversarialAutoencoder:
         logger.debug("conditioning_embedding: {}".format(self.conditioning_embedding))
 
         decoder_input = tf.concat(
-            values=[tf.fill(dims=[model_config.batch_size, 1], value=self.sos_index, name="start_tokens"),
-                    self.input_sequence],
+            values=[
+                tf.fill(
+                    dims=[model_config.batch_size, 1],
+                    value=self.word_index[global_config.sos_token],
+                    name="start_tokens"),
+                self.input_sequence],
             axis=1, name="decoder_input")
 
         with tf.device('/cpu:0'):
@@ -280,7 +281,7 @@ class AdversarialAutoencoder:
 
         return ops
 
-    def train(self, sess, data_size, training_epochs):
+    def train(self, sess, data_size):
 
         writer = tf.summary.FileWriter(
             logdir="/tmp/tensorflow_logs/" + dt.now().strftime("%Y%m%d-%H%M%S") + "/",
@@ -335,7 +336,7 @@ class AdversarialAutoencoder:
 
         reconstruction_loss, adversarial_loss, all_summaries = (None, None, None)
 
-        for current_epoch in range(1, training_epochs + 1):
+        for current_epoch in range(1, global_config.training_epochs + 1):
 
             all_style_embeddings = list()
             shuffle_indices = np.random.permutation(np.arange(data_size))
@@ -361,7 +362,7 @@ class AdversarialAutoencoder:
                     shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False)
                 all_style_embeddings.extend(style_embeddings)
 
-            saver.save(sess=sess, save_path=model_config.model_save_path)
+            saver.save(sess=sess, save_path=global_config.model_save_path)
             writer.add_summary(all_summaries, current_epoch)
             writer.flush()
 
@@ -376,7 +377,7 @@ class AdversarialAutoencoder:
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
-        saver.restore(sess=sess, save_path=model_config.model_save_path)
+        saver.restore(sess=sess, save_path=global_config.model_save_path)
 
         generated_sequences = list()
         final_sequence_lengths = list()
@@ -403,7 +404,7 @@ class AdversarialAutoencoder:
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
-        saver.restore(sess=sess, save_path=model_config.model_save_path)
+        saver.restore(sess=sess, save_path=global_config.model_save_path)
 
         generated_sequences = list()
         final_sequence_lengths = list()

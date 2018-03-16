@@ -33,22 +33,20 @@ def get_text_sequences(text_file_path, vocab_size):
     text_sequence_lengths = np.asarray(
         a=[len(x) for x in actual_sequences], dtype=np.int32)
 
-    actual_sequences = [
+    global_config.vocab_size = vocab_size if len(word_index) > vocab_size else len(word_index)
+    trimmed_sequences = [
         [x if x < vocab_size else word_index[global_config.unk_token] for x in sequence]
         for sequence in actual_sequences]
 
-    max_sequence_length = global_config.max_sequence_length
-
     padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
-        actual_sequences, maxlen=max_sequence_length, padding='post',
+        trimmed_sequences, maxlen=global_config.max_sequence_length, padding='post',
         truncating='post', value=word_index[global_config.eos_token])
 
     text_sequence_lengths = np.asarray(
-        [max_sequence_length if x >= max_sequence_length
+        [global_config.max_sequence_length if x >= global_config.max_sequence_length
          else x + 1 for x in text_sequence_lengths])  # x + 1 to accomodate a single EOS token
 
-    return [padded_sequences, text_sequence_lengths, text_tokenizer.word_index, max_sequence_length,
-            actual_sequences]
+    return [word_index, actual_sequences, padded_sequences, text_sequence_lengths]
 
 
 def get_labels(label_file_path):
@@ -66,4 +64,4 @@ def get_labels(label_file_path):
     one_hot_labels = np.asarray(
         [np.eye(num_labels, k=x[0])[0] for x in label_sequences])
 
-    return [one_hot_labels, num_labels, label_sequences]
+    return [label_sequences, one_hot_labels, num_labels]
