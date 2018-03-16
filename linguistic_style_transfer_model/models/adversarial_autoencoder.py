@@ -27,17 +27,16 @@ class AdversarialAutoencoder:
         self.one_hot_labels = one_hot_labels
         self.text_sequence_lengths = text_sequence_lengths
 
-    def get_style_embedding(self, encoder_embedded_sequence):
-        scope_name = "style_embedding"
-
+    def get_sentence_embedding(self, encoder_embedded_sequence):
+        scope_name = "sentence_embedding"
         with tf.name_scope(scope_name):
             encoder_cell_fw = tf.nn.rnn_cell.DropoutWrapper(
-                cell=tf.contrib.rnn.GRUCell(num_units=model_config.style_embedding_size),
+                cell=tf.contrib.rnn.GRUCell(num_units=model_config.encoder_rnn_size),
                 input_keep_prob=model_config.recurrent_state_keep_prob,
                 output_keep_prob=model_config.recurrent_state_keep_prob,
                 state_keep_prob=model_config.recurrent_state_keep_prob)
             encoder_cell_bw = tf.nn.rnn_cell.DropoutWrapper(
-                cell=tf.contrib.rnn.GRUCell(num_units=model_config.style_embedding_size),
+                cell=tf.contrib.rnn.GRUCell(num_units=model_config.encoder_rnn_size),
                 input_keep_prob=model_config.recurrent_state_keep_prob,
                 output_keep_prob=model_config.recurrent_state_keep_prob,
                 state_keep_prob=model_config.recurrent_state_keep_prob)
@@ -52,53 +51,45 @@ class AdversarialAutoencoder:
 
             return tf.concat(values=encoder_states, axis=1)
 
-    def get_content_embedding(self, encoder_embedded_sequence):
-        scope_name = "content_embedding"
+    def get_style_embedding(self, sentence_embedding):
 
-        with tf.name_scope(scope_name):
-            encoder_cell_fw = tf.nn.rnn_cell.DropoutWrapper(
-                cell=tf.contrib.rnn.GRUCell(num_units=model_config.content_embedding_size),
-                input_keep_prob=model_config.recurrent_state_keep_prob,
-                output_keep_prob=model_config.recurrent_state_keep_prob,
-                state_keep_prob=model_config.recurrent_state_keep_prob)
-            encoder_cell_bw = tf.nn.rnn_cell.DropoutWrapper(
-                cell=tf.contrib.rnn.GRUCell(num_units=model_config.content_embedding_size),
-                input_keep_prob=model_config.recurrent_state_keep_prob,
-                output_keep_prob=model_config.recurrent_state_keep_prob,
-                state_keep_prob=model_config.recurrent_state_keep_prob)
+        style_embedding = tf.nn.dropout(
+            x=tf.layers.dense(
+                inputs=sentence_embedding, units=model_config.style_embedding_size,
+                activation=tf.nn.relu, name="style_embedding"),
+            keep_prob=model_config.fully_connected_keep_prob)
 
-            _, encoder_states = tf.nn.bidirectional_dynamic_rnn(
-                cell_fw=encoder_cell_fw,
-                cell_bw=encoder_cell_bw,
-                inputs=encoder_embedded_sequence,
-                scope=scope_name,
-                sequence_length=self.sequence_lengths,
-                dtype=tf.float32)
+        return style_embedding
 
-            return tf.concat(values=encoder_states, axis=1)
+    def get_content_embedding(self, sentence_embedding):
+
+        content_embedding = tf.nn.dropout(
+            x=tf.layers.dense(
+                inputs=sentence_embedding, units=model_config.content_embedding_size,
+                activation=tf.nn.relu, name="content_embedding"),
+            keep_prob=model_config.fully_connected_keep_prob)
+
+        return content_embedding
 
     def get_label_prediction(self, content_embedding):
 
-        with tf.name_scope('label_prediction'):
-            label_projection = tf.layers.dense(
-                inputs=content_embedding, units=self.num_labels,
-                name="label_prediction")
-            label_prediction = tf.nn.softmax(label_projection)
-            return label_prediction
+        label_prediction = tf.layers.dense(
+            inputs=content_embedding, units=self.num_labels,
+            activation=tf.nn.softmax, name="label_prediction")
+
+        return label_prediction
 
     def generate_output_sequence(self, embedded_sequence, generative_embedding, decoder_embeddings):
 
         decoder_cell = tf.nn.rnn_cell.DropoutWrapper(
-            cell=tf.contrib.rnn.GRUCell(
-                num_units=2 * (model_config.style_embedding_size +
-                               model_config.content_embedding_size)),
+            cell=tf.contrib.rnn.GRUCell(num_units=model_config.decoder_rnn_size),
             input_keep_prob=model_config.recurrent_state_keep_prob,
             output_keep_prob=model_config.recurrent_state_keep_prob,
             state_keep_prob=model_config.recurrent_state_keep_prob)
 
         projection_layer = tf.layers.Dense(units=self.vocab_size, use_bias=False)
 
-        with tf.name_scope('training_decoder'):
+        with tf.name_scope("training_decoder"):
             training_helper = tf.contrib.seq2seq.TrainingHelper(
                 inputs=embedded_sequence,
                 sequence_length=self.sequence_lengths)
@@ -114,7 +105,7 @@ class AdversarialAutoencoder:
                 maximum_iterations=self.max_sequence_length,
                 scope="training_decoder")
 
-        with tf.name_scope('inference_decoder'):
+        with tf.name_scope("inference_decoder"):
             inference_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
                 cell=decoder_cell, embedding=decoder_embeddings,
                 start_tokens=tf.fill([model_config.batch_size], self.sos_index),
@@ -159,7 +150,7 @@ class AdversarialAutoencoder:
 
         self.conditioning_embedding = tf.placeholder(
             dtype=tf.float32,
-            shape=[model_config.batch_size, 2 * model_config.style_embedding_size],
+            shape=[model_config.batch_size, model_config.style_embedding_size],
             name="conditioning_embedding")
         logger.debug("conditioning_embedding: {}".format(self.conditioning_embedding))
 
@@ -184,32 +175,34 @@ class AdversarialAutoencoder:
             encoder_embedded_sequence = tf.nn.dropout(
                 x=tf.nn.embedding_lookup(
                     params=encoder_embeddings, ids=self.input_sequence),
-                keep_prob=model_config.fully_connected_keep_prob,
+                keep_prob=model_config.sequence_word_keep_prob,
                 name="encoder_embedded_sequence")
             logger.debug("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
 
             decoder_embedded_sequence = tf.nn.dropout(
                 x=tf.nn.embedding_lookup(params=decoder_embeddings, ids=decoder_input),
-                keep_prob=model_config.fully_connected_keep_prob,
+                keep_prob=model_config.sequence_word_keep_prob,
                 name="decoder_embedded_sequence")
             logger.debug("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
+
+        sentence_embedding = self.get_sentence_embedding(encoder_embedded_sequence)
 
         # style embedding
         self.style_embedding = tf.cond(
             pred=self.conditioned_generation_mode,
             true_fn=lambda: self.conditioning_embedding,
-            false_fn=lambda: self.get_style_embedding(encoder_embedded_sequence))
+            false_fn=lambda: self.get_style_embedding(sentence_embedding))
         logger.debug("style_embedding: {}".format(self.style_embedding))
 
         # content embedding
-        content_embedding = self.get_content_embedding(encoder_embedded_sequence)
+        content_embedding = self.get_content_embedding(sentence_embedding)
         logger.debug("content_embedding: {}".format(content_embedding))
 
         # concatenated generative embedding
-        generative_embedding = tf.nn.leaky_relu(
-            features=tf.concat(
-                values=[self.style_embedding, content_embedding],
-                axis=1), name="generative_embedding")
+        generative_embedding = tf.layers.dense(
+            inputs=tf.concat(values=[self.style_embedding, content_embedding], axis=1),
+            units=model_config.decoder_rnn_size, activation=tf.nn.relu,
+            name="generative_embedding")
         logger.debug("generative_embedding: {}".format(generative_embedding))
 
         # sequence predictions
@@ -272,7 +265,7 @@ class AdversarialAutoencoder:
 
         if not conditioned_generation_mode:
             conditioning_embedding = np.random.uniform(
-                size=(model_config.batch_size, 2 * model_config.style_embedding_size),
+                size=(model_config.batch_size, model_config.style_embedding_size),
                 low=-0.05, high=0.05).astype(dtype=np.float32)
 
         ops = sess.run(
@@ -304,7 +297,7 @@ class AdversarialAutoencoder:
                 scope in x.name for scope in
                 ["label_prediction"])]
         logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
-        adversarial_training_optimizer = tf.train.AdamOptimizer(
+        adversarial_training_optimizer = tf.train.GradientDescentOptimizer(
             learning_rate=model_config.adversarial_discriminator_learning_rate)
         gradients_and_variables = adversarial_training_optimizer.compute_gradients(
             loss=self.adversarial_loss, var_list=adversarial_training_variables)
