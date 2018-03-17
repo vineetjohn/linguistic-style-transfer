@@ -76,8 +76,13 @@ def execute_post_inference_operations(actual_word_lists, generated_sequences, fi
                                       inverse_word_index, timestamped_file_suffix, mode):
     logger.debug("Minimum generated sentence length: {}".format(min(final_sequence_lengths)))
 
-    trimmed_generated_sequences = [x[:(y - 1)] for (x, y) in
-                                   zip(generated_sequences, final_sequence_lengths)]
+    # first trims the generates sentences down to the length the decoder returns
+    # then trim any <eos> token
+    trimmed_generated_sequences = \
+        [[index for index in sequence
+          if index != global_config.predefined_word_index[global_config.eos_token]]
+         for sequence in [x[:(y - 1)] for (x, y) in zip(generated_sequences, final_sequence_lengths)]]
+
     generated_word_lists = \
         [data_postprocessor.generate_words_from_indices(x, inverse_word_index)
          for x in trimmed_generated_sequences]

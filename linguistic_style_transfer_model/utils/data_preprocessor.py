@@ -9,12 +9,7 @@ logger = logging.getLogger(global_config.logger_name)
 
 
 def get_text_sequences(text_file_path, vocab_size):
-    word_index = {
-        global_config.unk_token: 0,
-        global_config.sos_token: 1,
-        global_config.eos_token: 2,
-    }
-
+    word_index = global_config.predefined_word_index
     text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
 
     with open(text_file_path) as text_file:
