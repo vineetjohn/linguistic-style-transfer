@@ -391,7 +391,7 @@ class AdversarialAutoencoder:
             with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)
 
-            log_msg = "Reconstruction loss: {:.9f}; Adversarial loss: {:.9f}; Style loss: {:.9f}; Epoch: {}"
+            log_msg = "Losses: [Reconstruction: {:.9f}, Adversarial: {:.9f}, Style: {:.9f}]; Epoch: {}"
             logger.info(log_msg.format(reconstruction_loss, adversarial_loss, style_loss, current_epoch))
 
         writer.close()
