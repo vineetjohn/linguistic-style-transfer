@@ -66,13 +66,21 @@ class AdversarialAutoencoder:
 
         return content_embedding
 
-    def get_label_prediction(self, content_embedding):
+    def get_style_label_prediction(self, style_embedding):
 
-        label_prediction = tf.layers.dense(
+        style_label_prediction = tf.layers.dense(
+            inputs=style_embedding, units=self.num_labels,
+            activation=tf.nn.softmax, name="style_label_prediction")
+
+        return style_label_prediction
+
+    def get_adversarial_label_prediction(self, content_embedding):
+
+        adversarial_label_prediction = tf.layers.dense(
             inputs=content_embedding, units=self.num_labels,
-            activation=tf.nn.softmax, name="label_prediction")
+            activation=tf.nn.softmax, name="adversarial_label_prediction")
 
-        return label_prediction
+        return adversarial_label_prediction
 
     def generate_output_sequence(self, embedded_sequence, generative_embedding, decoder_embeddings):
 
@@ -216,12 +224,21 @@ class AdversarialAutoencoder:
 
         # adversarial loss
         with tf.name_scope('adversarial_loss'):
-            label_prediction = self.get_label_prediction(content_embedding)
-            logger.debug("label_prediction: {}".format(label_prediction))
+            adversarial_label_prediction = self.get_adversarial_label_prediction(content_embedding)
+            logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
             self.adversarial_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_label, logits=label_prediction)
+                onehot_labels=self.input_label, logits=adversarial_label_prediction)
             logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
+
+        # style prediction loss
+        with tf.name_scope('style_prediction_loss'):
+            style_label_prediction = self.get_style_label_prediction(self.style_embedding)
+            logger.debug("style_label_prediction: {}".format(style_label_prediction))
+
+            self.style_prediction_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_label, logits=style_label_prediction)
+            logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
 
         # reconstruction loss
         with tf.name_scope('reconstruction_loss'):
@@ -249,6 +266,7 @@ class AdversarialAutoencoder:
 
         # tensorboard logging variable summaries
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
+        tf.summary.scalar(tensor=self.style_prediction_loss, name="style_prediction_loss_summary")
         tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
@@ -290,14 +308,15 @@ class AdversarialAutoencoder:
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
 
-        composite_loss = self.reconstruction_loss - \
-                         (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight)
+        composite_loss = self.reconstruction_loss \
+                         - (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight) \
+                         + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
 
         # optimize classification
         adversarial_training_variables = [
             x for x in trainable_variables if all(
                 scope in x.name for scope in
-                ["label_prediction"])]
+                ["adversarial_label_prediction"])]
         logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
         adversarial_training_optimizer = tf.train.GradientDescentOptimizer(
             learning_rate=model_config.adversarial_discriminator_learning_rate)
@@ -313,7 +332,7 @@ class AdversarialAutoencoder:
         reconstruction_training_variables = [
             x for x in trainable_variables if all(
                 scope not in x.name for scope in
-                ["label_prediction"])]
+                ["adversarial_label_prediction"])]
         logger.debug("reconstruction_variables: {}".format(reconstruction_training_variables))
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
             learning_rate=model_config.generator_learning_rate)
@@ -354,10 +373,12 @@ class AdversarialAutoencoder:
                      adversarial_training_operation,
                      self.reconstruction_loss,
                      self.adversarial_loss,
+                     self.style_prediction_loss,
                      self.style_embedding,
                      self.all_summaries]
 
-                _, _, reconstruction_loss, adversarial_loss, \
+                _, _, \
+                reconstruction_loss, adversarial_loss, style_loss, \
                 style_embeddings, all_summaries = self.run_batch(
                     sess, start_index, end_index, fetches, shuffled_padded_sequences,
                     shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False)
@@ -370,8 +391,9 @@ class AdversarialAutoencoder:
             with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)
 
-            logger.info("Reconstruction loss: {:.9f}; Adversarial loss: {:.9f}; Training epoch: {}"
-                        .format(reconstruction_loss, adversarial_loss, current_epoch))
+            log_msg = "Reconstruction loss: {:.9f}; Adversarial loss: {:.9f}; Style loss: {:.9f}; Epoch: {}"
+            logger.info(log_msg.format(reconstruction_loss, adversarial_loss, style_loss, current_epoch))
+
         writer.close()
 
     def infer(self, sess, offset, samples_size):

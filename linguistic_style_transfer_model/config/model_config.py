@@ -10,4 +10,5 @@ gradient_clipping_value = 5.0
 generator_learning_rate = 0.0005
 adversarial_discriminator_learning_rate = 0.0005
 adversarial_discriminator_loss_weight = 10
+style_prediction_loss_weight = 1
 beam_search_width = 10
