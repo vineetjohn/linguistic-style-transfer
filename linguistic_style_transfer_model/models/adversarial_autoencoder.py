@@ -290,7 +290,8 @@ class AdversarialAutoencoder:
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
 
-        composite_loss = self.reconstruction_loss - self.adversarial_loss
+        composite_loss = self.reconstruction_loss - \
+                         (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight)
 
         # optimize classification
         adversarial_training_variables = [
