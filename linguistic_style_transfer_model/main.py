@@ -1,8 +1,8 @@
+import os
 import argparse
 import pickle
 import sys
 from datetime import datetime as dt
-from random import randint
 
 import numpy as np
 import tensorflow as tf
@@ -64,7 +64,8 @@ def flush_ground_truth_sentences(actual_sequences, start_index, final_index,
 
     actual_sentences = [" ".join(x) for x in actual_word_lists]
 
-    output_file_path = "output/actual_sentences_{}.txt".format(timestamped_file_suffix)
+    output_file_path = "output/{}/actual_sentences.txt".format(timestamped_file_suffix)
+    os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
     with open(output_file_path, 'w') as output_file:
         for sentence in actual_sentences:
             output_file.write(sentence + "\n")
@@ -93,7 +94,8 @@ def execute_post_inference_operations(actual_word_lists, generated_sequences, fi
     logger.info("bleu_scores: {}".format(bleu_scores))
     generated_sentences = [" ".join(x) for x in generated_word_lists]
 
-    output_file_path = "output/generated_{}_{}.txt".format(mode, timestamped_file_suffix)
+    output_file_path = "output/{}/generated_{}.txt".format(timestamped_file_suffix, mode)
+    os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
     with open(output_file_path, 'w') as output_file:
         for sentence in generated_sentences:
             output_file.write(sentence + "\n")
@@ -195,20 +197,28 @@ def main(argv):
 
         # Enforce a particular style embedding and regenerate text
         if options.generate_novel_text:
+
             logger.info("Generating novel text ...")
-            random_style_choice = randint(1, num_labels)
-            logger.info("Style chosen: {}".format(random_style_choice))
-            average_label_embeddings = get_average_label_embeddings(
-                data_size, label_sequences)
-            style_embedding = np.asarray(average_label_embeddings[random_style_choice])
-            sess = get_tensorflow_session()
-            generated_sequences, final_sequence_lengths = \
-                network.generate_novel_sentences(sess, offset, samples_size, style_embedding)
-            execute_post_inference_operations(
-                actual_word_lists, generated_sequences, final_sequence_lengths,
-                inverse_word_index, timestamped_file_suffix,
-                "novel_sentences")
-            logger.info("Generation complete!")
+            for i in range(num_labels):
+
+                style_choice = i + 1
+                logger.info("Style chosen: {}".format(style_choice))
+
+                average_label_embeddings = get_average_label_embeddings(
+                    data_size, label_sequences)
+                style_embedding = np.asarray(average_label_embeddings[style_choice])
+
+                sess = get_tensorflow_session()
+                generated_sequences, final_sequence_lengths = \
+                    network.generate_novel_sentences(sess, offset, samples_size, style_embedding)
+                sess.close()
+
+                execute_post_inference_operations(
+                    actual_word_lists, generated_sequences, final_sequence_lengths,
+                    inverse_word_index, timestamped_file_suffix,
+                    "novel_sentences_{}".format(style_choice))
+
+                logger.info("Generation complete!")
 
 
 def get_tensorflow_session():
