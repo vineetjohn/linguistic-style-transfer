@@ -68,16 +68,28 @@ class AdversarialAutoencoder:
 
     def get_style_label_prediction(self, style_embedding):
 
+        style_label_mlp = tf.nn.dropout(
+            x=tf.layers.dense(
+                inputs=style_embedding, units=model_config.style_embedding_size / 2,
+                activation=tf.nn.relu, name="style_label_prediction_dense"),
+            keep_prob=model_config.fully_connected_keep_prob)
+
         style_label_prediction = tf.layers.dense(
-            inputs=style_embedding, units=self.num_labels,
+            inputs=style_label_mlp, units=self.num_labels,
             activation=tf.nn.softmax, name="style_label_prediction")
 
         return style_label_prediction
 
     def get_adversarial_label_prediction(self, content_embedding):
 
+        adversarial_label_mlp = tf.nn.dropout(
+            x=tf.layers.dense(
+                inputs=content_embedding, units=model_config.content_embedding_size / 2,
+                activation=tf.nn.relu, name="adversarial_label_prediction_dense"),
+            keep_prob=model_config.fully_connected_keep_prob)
+
         adversarial_label_prediction = tf.layers.dense(
-            inputs=content_embedding, units=self.num_labels,
+            inputs=adversarial_label_mlp, units=self.num_labels,
             activation=tf.nn.softmax, name="adversarial_label_prediction")
 
         return adversarial_label_prediction
@@ -208,10 +220,12 @@ class AdversarialAutoencoder:
         logger.debug("content_embedding: {}".format(content_embedding))
 
         # concatenated generative embedding
-        generative_embedding = tf.layers.dense(
-            inputs=tf.concat(values=[self.style_embedding, content_embedding], axis=1),
-            units=model_config.decoder_rnn_size, activation=tf.nn.relu,
-            name="generative_embedding")
+        generative_embedding = tf.nn.dropout(
+            x=tf.layers.dense(
+                inputs=tf.concat(values=[self.style_embedding, content_embedding], axis=1),
+                units=model_config.decoder_rnn_size, activation=tf.nn.relu,
+                name="generative_embedding"),
+            keep_prob=model_config.fully_connected_keep_prob)
         logger.debug("generative_embedding: {}".format(generative_embedding))
 
         # sequence predictions
@@ -312,11 +326,12 @@ class AdversarialAutoencoder:
                          - (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight) \
                          + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
 
+        adversarial_variable_labels = ["adversarial_label_prediction"]
+
         # optimize classification
         adversarial_training_variables = [
-            x for x in trainable_variables if all(
-                scope in x.name for scope in
-                ["adversarial_label_prediction"])]
+            x for x in trainable_variables if any(
+                scope in x.name for scope in adversarial_variable_labels)]
         logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
         adversarial_training_optimizer = tf.train.GradientDescentOptimizer(
             learning_rate=model_config.adversarial_discriminator_learning_rate)
@@ -331,8 +346,7 @@ class AdversarialAutoencoder:
         # optimize reconstruction
         reconstruction_training_variables = [
             x for x in trainable_variables if all(
-                scope not in x.name for scope in
-                ["adversarial_label_prediction"])]
+                scope not in x.name for scope in adversarial_variable_labels)]
         logger.debug("reconstruction_variables: {}".format(reconstruction_training_variables))
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
             learning_rate=model_config.generator_learning_rate)
