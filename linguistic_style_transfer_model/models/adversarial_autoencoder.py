@@ -282,7 +282,6 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         tf.summary.scalar(tensor=self.style_prediction_loss, name="style_prediction_loss_summary")
         tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
-        self.all_summaries = tf.summary.merge_all()
 
     def get_batch_indices(self, offset, batch_number, data_limit):
 
@@ -322,9 +321,12 @@ class AdversarialAutoencoder:
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
 
-        composite_loss = self.reconstruction_loss \
-                         - (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight) \
-                         + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
+        self.composite_loss = \
+            self.reconstruction_loss \
+            - (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight) \
+            + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
+        tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
+        self.all_summaries = tf.summary.merge_all()
 
         adversarial_variable_labels = ["adversarial_label_prediction"]
 
@@ -351,7 +353,7 @@ class AdversarialAutoencoder:
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
             learning_rate=model_config.generator_learning_rate)
         gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
-            loss=composite_loss,
+            loss=self.composite_loss,
             var_list=reconstruction_training_variables)
         gradients, variables = zip(*gradients_and_variables)
         clipped_gradients, _ = tf.clip_by_global_norm(
@@ -388,11 +390,12 @@ class AdversarialAutoencoder:
                      self.reconstruction_loss,
                      self.adversarial_loss,
                      self.style_prediction_loss,
+                     self.composite_loss,
                      self.style_embedding,
                      self.all_summaries]
 
                 _, _, \
-                reconstruction_loss, adversarial_loss, style_loss, \
+                reconstruction_loss, adversarial_loss, style_loss, composite_loss, \
                 style_embeddings, all_summaries = self.run_batch(
                     sess, start_index, end_index, fetches, shuffled_padded_sequences,
                     shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False)
@@ -405,8 +408,10 @@ class AdversarialAutoencoder:
             with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)
 
-            log_msg = "Losses: [Reconstruction: {:.9f}, Adversarial: {:.9f}, Style: {:.9f}]; Epoch: {}"
-            logger.info(log_msg.format(reconstruction_loss, adversarial_loss, style_loss, current_epoch))
+            log_msg = "Losses: [Composite: {:.4f}, Reconstruction: {:.4f}, " \
+                      "Adversarial: {:.4f}, Style: {:.4f}]; Epoch: {}"
+            logger.info(log_msg.format(
+                composite_loss, reconstruction_loss, adversarial_loss, style_loss, current_epoch))
 
         writer.close()
 
