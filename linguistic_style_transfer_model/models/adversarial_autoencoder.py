@@ -220,12 +220,10 @@ class AdversarialAutoencoder:
         logger.debug("content_embedding: {}".format(content_embedding))
 
         # concatenated generative embedding
-        generative_embedding = tf.nn.dropout(
-            x=tf.layers.dense(
-                inputs=tf.concat(values=[self.style_embedding, content_embedding], axis=1),
-                units=model_config.decoder_rnn_size, activation=tf.nn.relu,
-                name="generative_embedding"),
-            keep_prob=model_config.fully_connected_keep_prob)
+        generative_embedding = tf.layers.dense(
+            inputs=tf.concat(values=[self.style_embedding, content_embedding], axis=1),
+            units=model_config.decoder_rnn_size, activation=tf.nn.leaky_relu,
+            name="generative_embedding")
         logger.debug("generative_embedding: {}".format(generative_embedding))
 
         # sequence predictions
