@@ -51,7 +51,7 @@ class AdversarialAutoencoder:
         style_embedding = tf.nn.dropout(
             x=tf.layers.dense(
                 inputs=sentence_embedding, units=model_config.style_embedding_size,
-                activation=tf.nn.relu, name="style_embedding"),
+                activation=tf.nn.leaky_relu, name="style_embedding"),
             keep_prob=model_config.fully_connected_keep_prob)
 
         return style_embedding
@@ -61,7 +61,7 @@ class AdversarialAutoencoder:
         content_embedding = tf.nn.dropout(
             x=tf.layers.dense(
                 inputs=sentence_embedding, units=model_config.content_embedding_size,
-                activation=tf.nn.relu, name="content_embedding"),
+                activation=tf.nn.leaky_relu, name="content_embedding"),
             keep_prob=model_config.fully_connected_keep_prob)
 
         return content_embedding
@@ -71,7 +71,7 @@ class AdversarialAutoencoder:
         style_label_mlp = tf.nn.dropout(
             x=tf.layers.dense(
                 inputs=style_embedding, units=model_config.style_embedding_size / 2,
-                activation=tf.nn.relu, name="style_label_prediction_dense"),
+                activation=tf.nn.leaky_relu, name="style_label_prediction_dense"),
             keep_prob=model_config.fully_connected_keep_prob)
 
         style_label_prediction = tf.layers.dense(
@@ -85,7 +85,7 @@ class AdversarialAutoencoder:
         adversarial_label_mlp = tf.nn.dropout(
             x=tf.layers.dense(
                 inputs=content_embedding, units=model_config.content_embedding_size / 2,
-                activation=tf.nn.relu, name="adversarial_label_prediction_dense"),
+                activation=tf.nn.leaky_relu, name="adversarial_label_prediction_dense"),
             keep_prob=model_config.fully_connected_keep_prob)
 
         adversarial_label_prediction = tf.layers.dense(
