@@ -240,7 +240,7 @@ class AdversarialAutoencoder:
             logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
             self.adversarial_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_label, logits=adversarial_label_prediction)
+                onehot_labels=self.input_label, logits=adversarial_label_prediction, label_smoothing=0.1)
             logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
 
         # style prediction loss
@@ -249,7 +249,7 @@ class AdversarialAutoencoder:
             logger.debug("style_label_prediction: {}".format(style_label_prediction))
 
             self.style_prediction_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_label, logits=style_label_prediction)
+                onehot_labels=self.input_label, logits=style_label_prediction, label_smoothing=0.1)
             logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
 
         # reconstruction loss
