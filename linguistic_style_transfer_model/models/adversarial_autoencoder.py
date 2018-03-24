@@ -70,7 +70,7 @@ class AdversarialAutoencoder:
 
         style_label_mlp = tf.nn.dropout(
             x=tf.layers.dense(
-                inputs=style_embedding, units=model_config.style_embedding_size / 2,
+                inputs=style_embedding, units=model_config.style_embedding_size,
                 activation=tf.nn.leaky_relu, name="style_label_prediction_dense"),
             keep_prob=model_config.fully_connected_keep_prob)
 
@@ -84,7 +84,7 @@ class AdversarialAutoencoder:
 
         adversarial_label_mlp = tf.nn.dropout(
             x=tf.layers.dense(
-                inputs=content_embedding, units=model_config.content_embedding_size / 2,
+                inputs=content_embedding, units=model_config.content_embedding_size,
                 activation=tf.nn.leaky_relu, name="adversarial_label_prediction_dense"),
             keep_prob=model_config.fully_connected_keep_prob)
 
@@ -285,7 +285,7 @@ class AdversarialAutoencoder:
         # tensorboard logging variable summaries
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         tf.summary.scalar(tensor=self.style_prediction_loss, name="style_prediction_loss_summary")
-        tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
+        tf.summary.scalar(tensor=unweighted_adversarial_loss, name="adversarial_loss_summary")
 
     def get_batch_indices(self, offset, batch_number, data_limit):
 
