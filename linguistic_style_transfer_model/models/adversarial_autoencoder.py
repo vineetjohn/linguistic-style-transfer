@@ -349,11 +349,8 @@ class AdversarialAutoencoder:
             learning_rate=model_config.adversarial_discriminator_learning_rate)
         gradients_and_variables = adversarial_training_optimizer.compute_gradients(
             loss=self.adversarial_loss, var_list=adversarial_training_variables)
-        gradients, variables = zip(*gradients_and_variables)
-        clipped_gradients, _ = tf.clip_by_global_norm(
-            t_list=gradients, clip_norm=model_config.gradient_clipping_value)
         adversarial_training_operation = adversarial_training_optimizer.apply_gradients(
-            grads_and_vars=zip(clipped_gradients, variables))
+            grads_and_vars=gradients_and_variables)
 
         # optimize reconstruction
         reconstruction_training_variables = [
