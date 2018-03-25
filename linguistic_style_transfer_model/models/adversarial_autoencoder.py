@@ -327,16 +327,16 @@ class AdversarialAutoencoder:
         self.all_summaries = tf.summary.merge_all()
 
         adversarial_variable_labels = ["adversarial_label_prediction"]
+        adversarial_training_variables = [
+            x for x in trainable_variables if any(
+                scope in x.name for scope in adversarial_variable_labels)]
+        logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
+        adversarial_training_optimizer = tf.train.RMSPropOptimizer(
+            learning_rate=model_config.adversarial_discriminator_learning_rate)
 
         # optimize adversarial classification
         adversarial_training_operation = None
         for i in range(model_config.adversarial_discriminator_iterations):
-            adversarial_training_variables = [
-                x for x in trainable_variables if any(
-                    scope in x.name for scope in adversarial_variable_labels)]
-            logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
-            adversarial_training_optimizer = tf.train.RMSPropOptimizer(
-                learning_rate=model_config.adversarial_discriminator_learning_rate)
             gradients_and_variables = adversarial_training_optimizer.compute_gradients(
                 loss=self.adversarial_loss, var_list=adversarial_training_variables)
             gradients, variables = zip(*gradients_and_variables)
