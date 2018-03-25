@@ -328,17 +328,26 @@ class AdversarialAutoencoder:
 
         adversarial_variable_labels = ["adversarial_label_prediction"]
 
-        # optimize classification
-        adversarial_training_variables = [
-            x for x in trainable_variables if any(
-                scope in x.name for scope in adversarial_variable_labels)]
-        logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
-        adversarial_training_optimizer = tf.train.RMSPropOptimizer(
-            learning_rate=model_config.adversarial_discriminator_learning_rate)
-        gradients_and_variables = adversarial_training_optimizer.compute_gradients(
-            loss=self.adversarial_loss, var_list=adversarial_training_variables)
-        adversarial_training_operation = adversarial_training_optimizer.apply_gradients(
-            grads_and_vars=gradients_and_variables)
+        # optimize adversarial classification
+        adversarial_training_operation = None
+        for i in range(model_config.adversarial_discriminator_iterations):
+            adversarial_training_variables = [
+                x for x in trainable_variables if any(
+                    scope in x.name for scope in adversarial_variable_labels)]
+            logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
+            adversarial_training_optimizer = tf.train.RMSPropOptimizer(
+                learning_rate=model_config.adversarial_discriminator_learning_rate)
+            gradients_and_variables = adversarial_training_optimizer.compute_gradients(
+                loss=self.adversarial_loss, var_list=adversarial_training_variables)
+            gradients, variables = zip(*gradients_and_variables)
+            clipped_gradients = [
+                tf.clip_by_value(
+                    t=gradient,
+                    clip_value_min=-1 * model_config.adversarial_discriminator_gradient_clip_value,
+                    clip_value_max=model_config.adversarial_discriminator_gradient_clip_value)
+                for gradient in gradients if gradient is not None]
+            adversarial_training_operation = adversarial_training_optimizer.apply_gradients(
+                grads_and_vars=zip(clipped_gradients, variables))
 
         # optimize reconstruction
         reconstruction_training_variables = [
@@ -346,13 +355,17 @@ class AdversarialAutoencoder:
                 scope not in x.name for scope in adversarial_variable_labels)]
         logger.debug("reconstruction_variables: {}".format(reconstruction_training_variables))
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
-            learning_rate=model_config.generator_learning_rate)
+            learning_rate=model_config.autoencoder_learning_rate)
         gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
             loss=self.composite_loss,
             var_list=reconstruction_training_variables)
         gradients, variables = zip(*gradients_and_variables)
-        clipped_gradients, _ = tf.clip_by_global_norm(
-            t_list=gradients, clip_norm=model_config.gradient_clipping_value)
+        clipped_gradients = [
+            tf.clip_by_value(
+                t=gradient,
+                clip_value_min=-1 * model_config.autoencoder_gradient_clip_value,
+                clip_value_max=model_config.autoencoder_gradient_clip_value)
+            for gradient in gradients if gradient is not None]
         reconstruction_training_operation = reconstruction_training_optimizer.apply_gradients(
             grads_and_vars=zip(clipped_gradients, variables))
 
