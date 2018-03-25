@@ -171,9 +171,6 @@ class AdversarialAutoencoder:
             name="conditioning_embedding")
         logger.debug("conditioning_embedding: {}".format(self.conditioning_embedding))
 
-        self.adversarial_discriminator_loss_weight = tf.placeholder(
-            dtype=tf.float32, shape=(), name="adversarial_discriminator_loss_weight")
-
         decoder_input = tf.concat(
             values=[
                 tf.fill(
@@ -242,11 +239,8 @@ class AdversarialAutoencoder:
             adversarial_label_prediction = self.get_adversarial_label_prediction(content_embedding)
             logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
-            unweighted_adversarial_loss = tf.losses.softmax_cross_entropy(
+            self.adversarial_loss = tf.losses.softmax_cross_entropy(
                 onehot_labels=self.input_label, logits=adversarial_label_prediction, label_smoothing=0.1)
-            self.adversarial_loss = tf.scalar_mul(
-                scalar=self.adversarial_discriminator_loss_weight,
-                x=unweighted_adversarial_loss)
             logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
 
         # style prediction loss
@@ -285,7 +279,7 @@ class AdversarialAutoencoder:
         # tensorboard logging variable summaries
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         tf.summary.scalar(tensor=self.style_prediction_loss, name="style_prediction_loss_summary")
-        tf.summary.scalar(tensor=unweighted_adversarial_loss, name="adversarial_loss_summary")
+        tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
 
     def get_batch_indices(self, offset, batch_number, data_limit):
 
@@ -297,8 +291,7 @@ class AdversarialAutoencoder:
 
     def run_batch(self, sess, start_index, end_index, fetches, shuffled_padded_sequences,
                   shuffled_one_hot_labels, shuffled_text_sequence_lengths,
-                  conditioning_embedding, conditioned_generation_mode,
-                  adversarial_discriminator_loss_weight):
+                  conditioning_embedding, conditioned_generation_mode):
 
         if not conditioned_generation_mode:
             conditioning_embedding = np.random.uniform(
@@ -312,8 +305,7 @@ class AdversarialAutoencoder:
                 self.input_label: shuffled_one_hot_labels[start_index: end_index],
                 self.sequence_lengths: shuffled_text_sequence_lengths[start_index: end_index],
                 self.conditioned_generation_mode: conditioned_generation_mode,
-                self.conditioning_embedding: conditioning_embedding,
-                self.adversarial_discriminator_loss_weight: adversarial_discriminator_loss_weight
+                self.conditioning_embedding: conditioning_embedding
             })
 
         return ops
@@ -323,10 +315,6 @@ class AdversarialAutoencoder:
         writer = tf.summary.FileWriter(
             logdir="/tmp/tensorflow_logs/" + dt.now().strftime("%Y%m%d-%H%M%S") + "/",
             graph=sess.graph)
-
-        annealment_epochs = int(
-            global_config.training_epochs *
-            model_config.adversarial_discriminator_loss_annealment_fraction)
 
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
@@ -387,12 +375,6 @@ class AdversarialAutoencoder:
             shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
             shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
 
-            adversarial_discriminator_loss_weight = \
-                model_config.adversarial_discriminator_loss_weight \
-                    if current_epoch - 1 > annealment_epochs \
-                    else ((current_epoch - 1) / annealment_epochs) * \
-                         model_config.adversarial_discriminator_loss_weight
-
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
                     offset=0, batch_number=batch_number, data_limit=data_size)
@@ -411,8 +393,7 @@ class AdversarialAutoencoder:
                 reconstruction_loss, adversarial_loss, style_loss, composite_loss, \
                 style_embeddings, all_summaries = self.run_batch(
                     sess, start_index, end_index, fetches, shuffled_padded_sequences,
-                    shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False,
-                    adversarial_discriminator_loss_weight)
+                    shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False)
                 all_style_embeddings.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=global_config.model_save_path)
@@ -447,7 +428,7 @@ class AdversarialAutoencoder:
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
                 self.padded_sequences, self.one_hot_labels, self.text_sequence_lengths,
-                None, False, 0)
+                None, False)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
@@ -474,7 +455,7 @@ class AdversarialAutoencoder:
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
                 self.padded_sequences, self.one_hot_labels, self.text_sequence_lengths,
-                conditioning_embedding, True, 0)
+                conditioning_embedding, True)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
