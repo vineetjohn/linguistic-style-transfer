@@ -17,7 +17,7 @@ logger = None
 
 
 def get_data(options):
-    [word_index, actual_sequences, padded_sequences, text_sequence_lengths] = \
+    [word_index, actual_sequences, padded_sequences, text_sequence_lengths, bow_representations] = \
         data_preprocessor.get_text_sequences(options.text_file_path, options.vocab_size)
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     logger.debug("padded_sequences: {}".format(padded_sequences.shape))
@@ -27,7 +27,7 @@ def get_data(options):
     logger.debug("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
     return [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-            label_sequences, one_hot_labels, num_labels]
+            label_sequences, one_hot_labels, num_labels, bow_representations]
 
 
 def get_average_label_embeddings(data_size, label_sequences):
@@ -151,7 +151,7 @@ def main(argv):
     # Retrieve all data
     logger.info("Reading data ...")
     [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-     label_sequences, one_hot_labels, num_labels] = get_data(options)
+     label_sequences, one_hot_labels, num_labels, bow_representations] = get_data(options)
     data_size = padded_sequences.shape[0]
 
     encoder_embedding_matrix, decoder_embedding_matrix = \
@@ -161,7 +161,7 @@ def main(argv):
     logger.info("Building model architecture ...")
     network = adversarial_autoencoder.AdversarialAutoencoder(
         padded_sequences, text_sequence_lengths, one_hot_labels, num_labels,
-        word_index, encoder_embedding_matrix, decoder_embedding_matrix)
+        word_index, encoder_embedding_matrix, decoder_embedding_matrix, bow_representations)
     network.build_model()
 
     # Train and save model

@@ -9,6 +9,16 @@ from linguistic_style_transfer_model.config import global_config
 logger = logging.getLogger(global_config.logger_name)
 
 
+def get_bow_representation(index_sequence):
+    bow_representation = np.zeros(shape=global_config.vocab_size, dtype=np.int32)
+    for index in index_sequence:
+        bow_representation[index] += 1
+
+    bow_representation = np.divide(bow_representation, len(index_sequence))
+
+    return bow_representation
+
+
 def get_text_sequences(text_file_path, vocab_size):
     word_index = global_config.predefined_word_index
     text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
@@ -34,6 +44,8 @@ def get_text_sequences(text_file_path, vocab_size):
         [x if x < vocab_size else word_index[global_config.unk_token] for x in sequence]
         for sequence in actual_sequences]
 
+    bow_representations = np.asarray([get_bow_representation(x) for x in trimmed_sequences])
+
     padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
         trimmed_sequences, maxlen=global_config.max_sequence_length, padding='post',
         truncating='post', value=word_index[global_config.eos_token])
@@ -42,7 +54,7 @@ def get_text_sequences(text_file_path, vocab_size):
         [global_config.max_sequence_length if x >= global_config.max_sequence_length
          else x + 1 for x in text_sequence_lengths])  # x + 1 to accomodate a single EOS token
 
-    return [word_index, actual_sequences, padded_sequences, text_sequence_lengths]
+    return [word_index, actual_sequences, padded_sequences, text_sequence_lengths, bow_representations]
 
 
 def get_labels(label_file_path):

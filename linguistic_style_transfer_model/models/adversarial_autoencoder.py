@@ -13,7 +13,7 @@ logger = logging.getLogger(global_config.logger_name)
 class AdversarialAutoencoder:
 
     def __init__(self, padded_sequences, text_sequence_lengths, one_hot_labels, num_labels,
-                 word_index, encoder_embedding_matrix, decoder_embedding_matrix):
+                 word_index, encoder_embedding_matrix, decoder_embedding_matrix, bow_representations):
         self.padded_sequences = padded_sequences
         self.text_sequence_lengths = text_sequence_lengths
         self.one_hot_labels = one_hot_labels
@@ -21,6 +21,7 @@ class AdversarialAutoencoder:
         self.word_index = word_index
         self.encoder_embedding_matrix = encoder_embedding_matrix
         self.decoder_embedding_matrix = decoder_embedding_matrix
+        self.bow_representations = bow_representations
 
     def get_sentence_embedding(self, encoder_embedded_sequence):
         scope_name = "sentence_embedding"
@@ -70,7 +71,7 @@ class AdversarialAutoencoder:
         noise = tf.random_normal(shape=tf.shape(input_layer), mean=0.0, stddev=std, dtype=tf.float32)
         return input_layer + noise
 
-    def get_style_label_prediction(self, style_embedding):
+    def get_style_label_and_bow_prediction(self, style_embedding):
 
         style_label_mlp = tf.nn.dropout(
             x=tf.layers.dense(
@@ -82,7 +83,10 @@ class AdversarialAutoencoder:
             inputs=style_label_mlp, units=self.num_labels,
             activation=tf.nn.softmax, name="style_label_prediction")
 
-        return style_label_prediction
+        bow_prediction = tf.layers.dense(
+            inputs=style_label_mlp, units=global_config.vocab_size, name="bow_prediction")
+
+        return [style_label_prediction, bow_prediction]
 
     def get_adversarial_label_prediction(self, content_embedding):
 
@@ -174,6 +178,11 @@ class AdversarialAutoencoder:
             dtype=tf.float32, shape=[model_config.batch_size, self.num_labels],
             name="input_label")
         logger.debug("input_label: {}".format(self.input_label))
+
+        self.input_bow_representations = tf.placeholder(
+            dtype=tf.float32, shape=[model_config.batch_size, global_config.vocab_size],
+            name="input_bow_representations")
+        logger.debug("input_bow_representations: {}".format(self.input_bow_representations))
 
         self.sequence_lengths = tf.placeholder(
             dtype=tf.int32, shape=[model_config.batch_size],
@@ -274,12 +283,22 @@ class AdversarialAutoencoder:
 
         # style prediction loss
         with tf.name_scope('style_prediction_loss'):
-            style_label_prediction = self.get_style_label_prediction(self.style_embedding)
+            [style_label_prediction, bow_prediction] = \
+                self.get_style_label_and_bow_prediction(self.style_embedding)
             logger.debug("style_label_prediction: {}".format(style_label_prediction))
+            logger.debug("bow_prediction: {}".format(bow_prediction))
 
             self.style_prediction_loss = tf.losses.softmax_cross_entropy(
                 onehot_labels=self.input_label, logits=style_label_prediction, label_smoothing=0.1)
             logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
+
+            self.bow_prediction_loss = tf.reduce_mean(
+                input_tensor=tf.nn.softmax_cross_entropy_with_logits(
+                    labels=self.input_bow_representations,
+                    logits=bow_prediction))
+            self.bow_prediction_loss /= tf.exp(tf.constant(
+                value=global_config.vocab_size, dtype=tf.float32))
+            logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
 
         # reconstruction loss
         with tf.name_scope('reconstruction_loss'):
@@ -319,7 +338,7 @@ class AdversarialAutoencoder:
         return start_index, end_index
 
     def run_batch(self, sess, start_index, end_index, fetches, shuffled_padded_sequences,
-                  shuffled_one_hot_labels, shuffled_text_sequence_lengths,
+                  shuffled_one_hot_labels, shuffled_text_sequence_lengths, shuffled_bow_representations,
                   conditioning_embedding, conditioned_generation_mode, current_epoch):
 
         if not conditioned_generation_mode:
@@ -333,6 +352,7 @@ class AdversarialAutoencoder:
                 self.input_sequence: shuffled_padded_sequences[start_index: end_index],
                 self.input_label: shuffled_one_hot_labels[start_index: end_index],
                 self.sequence_lengths: shuffled_text_sequence_lengths[start_index: end_index],
+                self.input_bow_representations: shuffled_bow_representations[start_index: end_index],
                 self.conditioned_generation_mode: conditioned_generation_mode,
                 self.conditioning_embedding: conditioning_embedding,
                 self.epoch: current_epoch
@@ -348,11 +368,12 @@ class AdversarialAutoencoder:
 
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
-
         self.composite_loss = \
             self.reconstruction_loss \
             - (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight) \
-            + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
+            - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
+            + (self.style_prediction_loss * model_config.style_prediction_loss_weight) \
+            - (self.bow_prediction_loss * model_config.bow_prediction_loss_weight)
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
 
@@ -390,6 +411,7 @@ class AdversarialAutoencoder:
             shuffled_padded_sequences = self.padded_sequences[shuffle_indices]
             shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
             shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
+            shuffled_bow_representations = self.bow_representations[shuffle_indices]
 
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
@@ -402,17 +424,17 @@ class AdversarialAutoencoder:
                      self.adversarial_loss,
                      self.adversarial_entropy,
                      self.style_prediction_loss,
+                     self.bow_prediction_loss,
                      self.composite_loss,
                      self.style_embedding,
                      self.all_summaries]
 
-                _, _, \
-                reconstruction_loss, adversarial_loss, adversarial_entropy, \
-                style_loss, composite_loss, style_embeddings, all_summaries = \
+                [_, _, reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
+                 bow_representation_loss, composite_loss, style_embeddings, all_summaries] = \
                     self.run_batch(
                         sess, start_index, end_index, fetches, shuffled_padded_sequences,
-                        shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False,
-                        current_epoch)
+                        shuffled_one_hot_labels, shuffled_text_sequence_lengths,
+                        shuffled_bow_representations, None, False, current_epoch)
                 all_style_embeddings.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=global_config.model_save_path)
@@ -423,10 +445,10 @@ class AdversarialAutoencoder:
                 pickle.dump(all_style_embeddings, pickle_file)
 
             log_msg = "Loss: [Total: {:.4f}, Rec: {:.4f}, AdvCE: {:.4f}, " \
-                      "AdvE: {:.4f}, Style: {:.4f}]; Epoch: {}"
+                      "AdvE: {:.4f}, Style: {:.4f}, BOW: {:.4f}]; Epoch: {}"
             logger.info(log_msg.format(
                 composite_loss, reconstruction_loss, adversarial_loss,
-                adversarial_entropy, style_loss, current_epoch))
+                adversarial_entropy, style_loss, bow_representation_loss, current_epoch))
 
         writer.close()
 
@@ -448,7 +470,7 @@ class AdversarialAutoencoder:
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
                 self.padded_sequences, self.one_hot_labels, self.text_sequence_lengths,
-                None, False, 0)
+                self.bow_representations, None, False, 0)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
@@ -475,7 +497,7 @@ class AdversarialAutoencoder:
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
                 self.padded_sequences, self.one_hot_labels, self.text_sequence_lengths,
-                conditioning_embedding, True, 0)
+                self.bow_representations, conditioning_embedding, True, 0)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
