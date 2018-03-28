@@ -25,7 +25,8 @@ adversarial_discriminator_loss_weight = 1
 style_prediction_loss_weight = 1
 
 # training iterations
-adversarial_discriminator_iterations = 5
+adversarial_discriminator_iterations = 1
+autoencoder_iterations = 5
 
 # decoding settings
 beam_search_width = 5

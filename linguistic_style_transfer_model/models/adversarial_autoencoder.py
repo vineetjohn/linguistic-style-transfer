@@ -356,18 +356,21 @@ class AdversarialAutoencoder:
         logger.debug("reconstruction_variables: {}".format(reconstruction_training_variables))
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
             learning_rate=model_config.autoencoder_learning_rate)
-        gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
-            loss=self.composite_loss,
-            var_list=reconstruction_training_variables)
-        gradients, variables = zip(*gradients_and_variables)
-        clipped_gradients = [
-            tf.clip_by_value(
-                t=gradient,
-                clip_value_min=-1 * model_config.autoencoder_gradient_clip_value,
-                clip_value_max=model_config.autoencoder_gradient_clip_value)
-            for gradient in gradients if gradient is not None]
-        reconstruction_training_operation = reconstruction_training_optimizer.apply_gradients(
-            grads_and_vars=zip(clipped_gradients, variables))
+
+        reconstruction_training_operation = None
+        for i in range(model_config.autoencoder_iterations):
+            gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
+                loss=self.composite_loss,
+                var_list=reconstruction_training_variables)
+            gradients, variables = zip(*gradients_and_variables)
+            clipped_gradients = [
+                tf.clip_by_value(
+                    t=gradient,
+                    clip_value_min=-1 * model_config.autoencoder_gradient_clip_value,
+                    clip_value_max=model_config.autoencoder_gradient_clip_value)
+                for gradient in gradients if gradient is not None]
+            reconstruction_training_operation = reconstruction_training_optimizer.apply_gradients(
+                grads_and_vars=zip(clipped_gradients, variables))
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
