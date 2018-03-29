@@ -66,6 +66,10 @@ class AdversarialAutoencoder:
 
         return content_embedding
 
+    def gaussian_noise_layer(self, input_layer, std):
+        noise = tf.random_normal(shape=tf.shape(input_layer), mean=0.0, stddev=std, dtype=tf.float32)
+        return input_layer + noise
+
     def get_style_label_prediction(self, style_embedding):
 
         style_label_mlp = tf.nn.dropout(
@@ -84,12 +88,16 @@ class AdversarialAutoencoder:
 
         adversarial_label_mlp = tf.nn.dropout(
             x=tf.layers.dense(
-                inputs=content_embedding, units=model_config.content_embedding_size,
+                inputs=self.gaussian_noise_layer(
+                    content_embedding, model_config.adversarial_discriminator_noise_stddev),
+                units=model_config.content_embedding_size,
                 activation=tf.nn.leaky_relu, name="adversarial_label_prediction_dense"),
             keep_prob=model_config.fully_connected_keep_prob)
 
         adversarial_label_prediction = tf.layers.dense(
-            inputs=adversarial_label_mlp, units=self.num_labels,
+            inputs=self.gaussian_noise_layer(
+                adversarial_label_mlp, model_config.adversarial_discriminator_noise_stddev),
+            units=self.num_labels,
             activation=tf.nn.softmax, name="adversarial_label_prediction")
 
         return adversarial_label_prediction
