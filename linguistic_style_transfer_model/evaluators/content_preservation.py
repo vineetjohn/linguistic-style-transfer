@@ -46,16 +46,23 @@ def main(argv):
     glove_model = load_glove_model(options["embeddings_file_path"])
 
     cosine_distances = list()
+    skip_count = 0
     with \
             open(options["source_file_path"]) as source_file, \
             open(options["target_file_path"]) as target_file:
         for line_tuple in zip(source_file, target_file):
             line_1, line_2 = line_tuple
-            cosine_distance = cosine(
-                get_sentence_embedding(line_1, glove_model),
-                get_sentence_embedding(line_2, glove_model))
-            cosine_distances.append(cosine_distance)
-    logger.info("Aggregate content preservation: {}".format(sum(cosine_distances) / len(cosine_distances)))
+            try:
+                cosine_distance = 1 - cosine(
+                    get_sentence_embedding(line_1, glove_model),
+                    get_sentence_embedding(line_2, glove_model))
+                cosine_distances.append(cosine_distance)
+            except ValueError:
+                skip_count += 1
+                logger.debug("Skipped lines: {} :-: {}".format(line_1, line_2))
+    logger.info("{} lines skipped due to errors".format(skip_count))
+    mean_cosine_distance = np.mean(np.asarray(cosine_distances), axis=0)
+    logger.info("Aggregate content preservation: {}".format(mean_cosine_distance))
 
 
 if __name__ == "__main__":
