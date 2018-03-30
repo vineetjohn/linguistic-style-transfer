@@ -251,6 +251,10 @@ class AdversarialAutoencoder:
                 onehot_labels=self.input_label, logits=adversarial_label_prediction, label_smoothing=0.1)
             logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
 
+            self.adversarial_entropy = -tf.reduce_mean(
+                input_tensor=adversarial_label_prediction * tf.log(adversarial_label_prediction))
+            logger.debug("adversarial_entropy: {}".format(self.adversarial_entropy))
+
         # style prediction loss
         with tf.name_scope('style_prediction_loss'):
             style_label_prediction = self.get_style_label_prediction(self.style_embedding)
@@ -329,7 +333,7 @@ class AdversarialAutoencoder:
 
         self.composite_loss = \
             self.reconstruction_loss \
-            - (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight) \
+            - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
             + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
@@ -408,16 +412,18 @@ class AdversarialAutoencoder:
                      adversarial_training_operation,
                      self.reconstruction_loss,
                      self.adversarial_loss,
+                     self.adversarial_entropy,
                      self.style_prediction_loss,
                      self.composite_loss,
                      self.style_embedding,
                      self.all_summaries]
 
                 _, _, \
-                reconstruction_loss, adversarial_loss, style_loss, composite_loss, \
-                style_embeddings, all_summaries = self.run_batch(
-                    sess, start_index, end_index, fetches, shuffled_padded_sequences,
-                    shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False)
+                reconstruction_loss, adversarial_loss, adversarial_entropy, \
+                style_loss, composite_loss, style_embeddings, all_summaries = \
+                    self.run_batch(
+                        sess, start_index, end_index, fetches, shuffled_padded_sequences,
+                        shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False)
                 all_style_embeddings.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=global_config.model_save_path)
@@ -427,10 +433,10 @@ class AdversarialAutoencoder:
             with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)
 
-            log_msg = "Losses: [Composite: {:.4f}, Reconstruction: {:.4f}, " \
-                      "Adversarial: {:.4f}, Style: {:.4f}]; Epoch: {}"
+            log_msg = "Losses: [Total: {:.4f}, Rec: {:.4f}, AdvCE: {:.4f}, AdvE: {:.4f}, Style: {:.4f}]; Epoch: {}"
             logger.info(log_msg.format(
-                composite_loss, reconstruction_loss, adversarial_loss, style_loss, current_epoch))
+                composite_loss, reconstruction_loss, adversarial_loss, adversarial_entropy,
+                style_loss, current_epoch))
 
         writer.close()
 
