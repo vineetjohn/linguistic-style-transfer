@@ -33,3 +33,6 @@ beam_search_width = 10
 
 # noise settings
 adversarial_discriminator_noise_stddev = 0.2
+
+# annealing
+autoencoder_annealment_min_epoch = 50
