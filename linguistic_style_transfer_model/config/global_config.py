@@ -12,6 +12,7 @@ save_directory = "./saved-models"
 model_save_path = save_directory + "/linguistic_style_transfer_model.ckpt"
 all_style_embeddings_path = save_directory + "/all_style_embeddings.pkl"
 label_mapped_style_embeddings_path = save_directory + "/label_mapped_style_embeddings.pkl"
+label_names_path = save_directory + "/label_names.pkl"
 
 unk_token = "<unk>"
 sos_token = "<sos>"

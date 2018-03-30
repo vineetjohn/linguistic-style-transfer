@@ -1,4 +1,5 @@
 import logging
+import pickle
 
 import numpy as np
 import tensorflow as tf
@@ -53,7 +54,10 @@ def get_labels(label_file_path):
     with open(label_file_path) as label_file:
         label_sequences = label_tokenizer.texts_to_sequences(label_file)
 
-    logger.info("labels: {}".format(label_tokenizer.word_index))
+    label_map = {v: k for k, v in label_tokenizer.word_index.items()}
+    with open(global_config.label_names_path, 'wb') as pickle_file:
+        pickle.dump(label_map, pickle_file)
+    logger.info("labels: {}".format(label_map))
 
     num_labels = len(label_tokenizer.word_index)
     one_hot_labels = np.asarray(
