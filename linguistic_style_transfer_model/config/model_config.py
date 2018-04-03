@@ -4,24 +4,24 @@ batch_size = 32
 # layer sizes
 encoder_rnn_size = 1024
 decoder_rnn_size = 1024
-style_embedding_size = 8
+style_embedding_size = 64
 content_embedding_size = 512
 
 # dropout
-sequence_word_keep_prob = 0.6
-recurrent_state_keep_prob = 0.6
-fully_connected_keep_prob = 0.5
+sequence_word_keep_prob = 0.8
+recurrent_state_keep_prob = 0.8
+fully_connected_keep_prob = 0.6
 
 # learning rates
 autoencoder_learning_rate = 0.0001
-adversarial_discriminator_learning_rate = 0.00001
+adversarial_discriminator_learning_rate = 0.0001
 
 # gradient clipping values
-autoencoder_gradient_clip_value = 1.0
-adversarial_discriminator_gradient_clip_value = 0.001
+autoencoder_gradient_clip_value = 5.0
+adversarial_discriminator_gradient_clip_value = 0.01
 
 # loss weights
-adversarial_discriminator_loss_weight = 10
+adversarial_discriminator_loss_weight = 1
 style_prediction_loss_weight = 1
 
 # training iterations
