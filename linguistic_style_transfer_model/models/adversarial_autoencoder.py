@@ -264,6 +264,10 @@ class AdversarialAutoencoder:
             adversarial_label_prediction = self.get_adversarial_label_prediction(content_embedding)
             logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
+            self.adversarial_entropy = -tf.reduce_sum(
+                adversarial_label_prediction * tf.log(adversarial_label_prediction))
+            logger.debug("adversarial_entropy: {}".format(self.adversarial_entropy))
+
             self.adversarial_loss = tf.losses.softmax_cross_entropy(
                 onehot_labels=self.input_label, logits=adversarial_label_prediction, label_smoothing=0.1)
             logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
@@ -347,56 +351,28 @@ class AdversarialAutoencoder:
 
         self.composite_loss = \
             self.reconstruction_loss * self.reconstruction_weight \
-            - (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight) \
+            - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
             + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
 
-        adversarial_variable_labels = ["adversarial_label_prediction"]
-        adversarial_training_variables = [
-            x for x in trainable_variables if any(
-                scope in x.name for scope in adversarial_variable_labels)]
-        logger.debug("adversarial_training_variables: {}".format(adversarial_training_variables))
-        adversarial_training_optimizer = tf.train.RMSPropOptimizer(
+        adversarial_training_optimizer = tf.train.GradientDescentOptimizer(
             learning_rate=model_config.adversarial_discriminator_learning_rate)
 
         # optimize adversarial classification
         adversarial_training_operation = None
         for i in range(model_config.adversarial_discriminator_iterations):
-            gradients_and_variables = adversarial_training_optimizer.compute_gradients(
-                loss=self.adversarial_loss, var_list=adversarial_training_variables)
-            gradients, variables = zip(*gradients_and_variables)
-            clipped_gradients = [
-                tf.clip_by_value(
-                    t=gradient,
-                    clip_value_min=-1 * model_config.adversarial_discriminator_gradient_clip_value,
-                    clip_value_max=model_config.adversarial_discriminator_gradient_clip_value)
-                for gradient in gradients if gradient is not None]
-            adversarial_training_operation = adversarial_training_optimizer.apply_gradients(
-                grads_and_vars=zip(clipped_gradients, variables))
+            adversarial_training_operation = \
+                adversarial_training_optimizer.minimize(self.adversarial_loss)
 
         # optimize reconstruction
-        reconstruction_training_variables = [
-            x for x in trainable_variables if all(
-                scope not in x.name for scope in adversarial_variable_labels)]
-        logger.debug("reconstruction_variables: {}".format(reconstruction_training_variables))
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
             learning_rate=model_config.autoencoder_learning_rate)
 
         reconstruction_training_operation = None
         for i in range(model_config.autoencoder_iterations):
-            gradients_and_variables = reconstruction_training_optimizer.compute_gradients(
-                loss=self.composite_loss,
-                var_list=reconstruction_training_variables)
-            gradients, variables = zip(*gradients_and_variables)
-            clipped_gradients = [
-                tf.clip_by_value(
-                    t=gradient,
-                    clip_value_min=-1 * model_config.autoencoder_gradient_clip_value,
-                    clip_value_max=model_config.autoencoder_gradient_clip_value)
-                for gradient in gradients if gradient is not None]
-            reconstruction_training_operation = reconstruction_training_optimizer.apply_gradients(
-                grads_and_vars=zip(clipped_gradients, variables))
+            reconstruction_training_operation = \
+                reconstruction_training_optimizer.minimize(self.composite_loss)
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
@@ -424,17 +400,19 @@ class AdversarialAutoencoder:
                      adversarial_training_operation,
                      self.reconstruction_loss,
                      self.adversarial_loss,
+                     self.adversarial_entropy,
                      self.style_prediction_loss,
                      self.composite_loss,
                      self.style_embedding,
                      self.all_summaries]
 
                 _, _, \
-                reconstruction_loss, adversarial_loss, style_loss, composite_loss, \
-                style_embeddings, all_summaries = self.run_batch(
-                    sess, start_index, end_index, fetches, shuffled_padded_sequences,
-                    shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False,
-                    current_epoch)
+                reconstruction_loss, adversarial_loss, adversarial_entropy, \
+                style_loss, composite_loss, style_embeddings, all_summaries = \
+                    self.run_batch(
+                        sess, start_index, end_index, fetches, shuffled_padded_sequences,
+                        shuffled_one_hot_labels, shuffled_text_sequence_lengths, None, False,
+                        current_epoch)
                 all_style_embeddings.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=global_config.model_save_path)
@@ -444,10 +422,11 @@ class AdversarialAutoencoder:
             with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)
 
-            log_msg = "Losses: [Composite: {:.4f}, Reconstruction: {:.4f}, " \
-                      "Adversarial: {:.4f}, Style: {:.4f}]; Epoch: {}"
+            log_msg = "Loss: [Total: {:.4f}, Rec: {:.4f}, AdvCE: {:.4f}, " \
+                      "AdvE: {:.4f}, Style: {:.4f}]; Epoch: {}"
             logger.info(log_msg.format(
-                composite_loss, reconstruction_loss, adversarial_loss, style_loss, current_epoch))
+                composite_loss, reconstruction_loss, adversarial_loss,
+                adversarial_entropy, style_loss, current_epoch))
 
         writer.close()
 
