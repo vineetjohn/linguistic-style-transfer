@@ -13,6 +13,8 @@ model_save_path = save_directory + "/linguistic_style_transfer_model.ckpt"
 all_style_embeddings_path = save_directory + "/all_style_embeddings.pkl"
 label_mapped_style_embeddings_path = save_directory + "/label_mapped_style_embeddings.pkl"
 label_names_path = save_directory + "/label_names.pkl"
+style_coordinates_path = save_directory + "/style_coordinates.pkl"
+style_embedding_plot_path = save_directory + "/tsne_embeddings_plot.svg"
 
 unk_token = "<unk>"
 sos_token = "<sos>"

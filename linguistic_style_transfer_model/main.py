@@ -1,5 +1,5 @@
-import os
 import argparse
+import os
 import pickle
 import sys
 from datetime import datetime as dt
@@ -8,10 +8,10 @@ import numpy as np
 import tensorflow as tf
 
 from linguistic_style_transfer_model.config import global_config, model_config
+from linguistic_style_transfer_model.config.options import Options
 from linguistic_style_transfer_model.models import adversarial_autoencoder
 from linguistic_style_transfer_model.utils import bleu_scorer, data_postprocessor, \
-    data_preprocessor, log_initializer, word_embedder
-from linguistic_style_transfer_model.config.options import Options
+    data_preprocessor, log_initializer, word_embedder, tsne_interface
 
 logger = None
 
@@ -42,6 +42,8 @@ def get_average_label_embeddings(data_size, label_sequences):
         if label not in label_embedding_map:
             label_embedding_map[label] = list()
         label_embedding_map[label].append(style_embeddings[i])
+
+    tsne_interface.generate_style_plot_coordinates(label_embedding_map)
 
     with open(global_config.label_mapped_style_embeddings_path, 'wb') as pickle_file:
         pickle.dump(label_embedding_map, pickle_file)
@@ -199,13 +201,12 @@ def main(argv):
         if options.generate_novel_text:
 
             logger.info("Generating novel text ...")
+            average_label_embeddings = get_average_label_embeddings(
+                data_size, label_sequences)
             for i in range(num_labels):
-
                 style_choice = i + 1
                 logger.info("Style chosen: {}".format(style_choice))
 
-                average_label_embeddings = get_average_label_embeddings(
-                    data_size, label_sequences)
                 style_embedding = np.asarray(average_label_embeddings[style_choice])
 
                 sess = get_tensorflow_session()

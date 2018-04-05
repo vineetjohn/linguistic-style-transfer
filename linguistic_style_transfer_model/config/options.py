@@ -1,5 +1,4 @@
 class Options:
-
     logging_level = None
     train_model = None
     infer_sequences = None
