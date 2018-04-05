@@ -264,8 +264,8 @@ class AdversarialAutoencoder:
             adversarial_label_prediction = self.get_adversarial_label_prediction(content_embedding)
             logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
-            self.adversarial_entropy = -tf.reduce_sum(
-                adversarial_label_prediction * tf.log(adversarial_label_prediction))
+            self.adversarial_entropy = -tf.reduce_mean(
+                input_tensor=adversarial_label_prediction * tf.log(adversarial_label_prediction))
             logger.debug("adversarial_entropy: {}".format(self.adversarial_entropy))
 
             self.adversarial_loss = tf.losses.softmax_cross_entropy(
@@ -350,7 +350,7 @@ class AdversarialAutoencoder:
         logger.debug("trainable_variables: {}".format(trainable_variables))
 
         self.composite_loss = \
-            self.reconstruction_loss * self.reconstruction_weight \
+            self.reconstruction_loss \
             - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
             + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
