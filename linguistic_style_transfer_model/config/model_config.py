@@ -16,13 +16,9 @@ fully_connected_keep_prob = 0.6
 autoencoder_learning_rate = 0.0001
 adversarial_discriminator_learning_rate = 0.0001
 
-# gradient clipping values
-autoencoder_gradient_clip_value = 5.0
-adversarial_discriminator_gradient_clip_value = 0.01
-
 # loss weights
-adversarial_discriminator_loss_weight = 1
-style_prediction_loss_weight = 1
+adversarial_discriminator_loss_weight = 20
+style_prediction_loss_weight = 10
 
 # training iterations
 adversarial_discriminator_iterations = 1
