@@ -273,8 +273,8 @@ class AdversarialAutoencoder:
             adversarial_label_prediction = self.get_adversarial_label_prediction(content_embedding)
             logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
-            self.adversarial_entropy = -tf.reduce_mean(
-                input_tensor=adversarial_label_prediction * tf.log(adversarial_label_prediction))
+            self.adversarial_entropy = tf.reduce_mean(
+                input_tensor=-1 * adversarial_label_prediction * tf.log(adversarial_label_prediction))
             logger.debug("adversarial_entropy: {}".format(self.adversarial_entropy))
 
             self.adversarial_loss = tf.losses.softmax_cross_entropy(
@@ -293,11 +293,11 @@ class AdversarialAutoencoder:
             logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
 
             self.bow_prediction_loss = tf.reduce_mean(
-                input_tensor=tf.nn.softmax_cross_entropy_with_logits(
-                    labels=self.input_bow_representations,
-                    logits=bow_prediction))
-            self.bow_prediction_loss /= tf.exp(tf.constant(
-                value=global_config.vocab_size, dtype=tf.float32))
+                input_tensor=tf.nn.sigmoid(
+                    x=tf.nn.softmax_cross_entropy_with_logits(
+                        labels=self.input_bow_representations,
+                        logits=bow_prediction)),
+                name="bow_prediction_loss")
             logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
 
         # reconstruction loss
@@ -369,8 +369,7 @@ class AdversarialAutoencoder:
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
         self.composite_loss = \
-            self.reconstruction_loss \
-            - (self.adversarial_loss * model_config.adversarial_discriminator_loss_weight) \
+            self.reconstruction_loss * self.reconstruction_weight \
             - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
             + (self.style_prediction_loss * model_config.style_prediction_loss_weight) \
             - (self.bow_prediction_loss * model_config.bow_prediction_loss_weight)
