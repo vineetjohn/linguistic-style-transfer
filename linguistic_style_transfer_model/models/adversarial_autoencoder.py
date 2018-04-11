@@ -274,7 +274,10 @@ class AdversarialAutoencoder:
             logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
             self.adversarial_entropy = tf.reduce_mean(
-                input_tensor=-1 * adversarial_label_prediction * tf.log(adversarial_label_prediction))
+                input_tensor=tf.reduce_sum(
+                    input_tensor=-adversarial_label_prediction *
+                                 tf.log(adversarial_label_prediction),
+                    axis=1))
             logger.debug("adversarial_entropy: {}".format(self.adversarial_entropy))
 
             self.adversarial_loss = tf.losses.softmax_cross_entropy(
