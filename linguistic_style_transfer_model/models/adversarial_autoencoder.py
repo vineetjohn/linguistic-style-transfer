@@ -73,18 +73,12 @@ class AdversarialAutoencoder:
 
     def get_style_label_and_bow_prediction(self, style_embedding):
 
-        style_label_mlp = tf.nn.dropout(
-            x=tf.layers.dense(
-                inputs=style_embedding, units=model_config.style_embedding_size,
-                activation=tf.nn.leaky_relu, name="style_label_prediction_dense"),
-            keep_prob=model_config.fully_connected_keep_prob)
-
         style_label_prediction = tf.layers.dense(
-            inputs=style_label_mlp, units=self.num_labels,
+            inputs=style_embedding, units=self.num_labels,
             activation=tf.nn.softmax, name="style_label_prediction")
 
         bow_prediction = tf.layers.dense(
-            inputs=style_label_mlp, units=global_config.vocab_size, name="bow_prediction")
+            inputs=style_embedding, units=global_config.vocab_size, name="bow_prediction")
 
         return [style_label_prediction, bow_prediction]
 
@@ -195,7 +189,7 @@ class AdversarialAutoencoder:
 
         self.conditioning_embedding = tf.placeholder(
             dtype=tf.float32,
-            shape=[model_config.batch_size, model_config.style_embedding_size],
+            shape=[model_config.batch_size, self.num_labels],
             name="conditioning_embedding")
         logger.debug("conditioning_embedding: {}".format(self.conditioning_embedding))
 
@@ -242,11 +236,13 @@ class AdversarialAutoencoder:
 
         sentence_embedding = self.get_sentence_embedding(encoder_embedded_sequence)
 
+        style_label_prediction, bow_prediction = self.get_style_label_and_bow_prediction(sentence_embedding)
+
         # style embedding
         self.style_embedding = tf.cond(
             pred=self.conditioned_generation_mode,
             true_fn=lambda: self.conditioning_embedding,
-            false_fn=lambda: self.get_style_embedding(sentence_embedding))
+            false_fn=lambda: style_label_prediction)
         logger.debug("style_embedding: {}".format(self.style_embedding))
 
         # content embedding
@@ -286,8 +282,8 @@ class AdversarialAutoencoder:
 
         # style prediction loss
         with tf.name_scope('style_prediction_loss'):
-            [style_label_prediction, bow_prediction] = \
-                self.get_style_label_and_bow_prediction(self.style_embedding)
+            # [style_label_prediction, bow_prediction] = \
+            #     self.get_style_label_and_bow_prediction(self.style_embedding)
             logger.debug("style_label_prediction: {}".format(style_label_prediction))
             logger.debug("bow_prediction: {}".format(bow_prediction))
 
@@ -346,7 +342,7 @@ class AdversarialAutoencoder:
 
         if not conditioned_generation_mode:
             conditioning_embedding = np.random.uniform(
-                size=(model_config.batch_size, model_config.style_embedding_size),
+                size=(model_config.batch_size, self.num_labels),
                 low=-0.05, high=0.05).astype(dtype=np.float32)
 
         ops = sess.run(
@@ -372,15 +368,14 @@ class AdversarialAutoencoder:
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
         self.composite_loss = \
-            self.reconstruction_loss * self.reconstruction_weight \
+            self.reconstruction_loss \
             - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
-            + (self.style_prediction_loss * model_config.style_prediction_loss_weight) \
-            - (self.bow_prediction_loss * model_config.bow_prediction_loss_weight)
+            + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
+        # - (self.bow_prediction_loss * model_config.bow_prediction_loss_weight)
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
 
-        adversarial_training_optimizer = tf.train.GradientDescentOptimizer(
-            learning_rate=model_config.adversarial_discriminator_learning_rate)
+        adversarial_variable_labels = ["adversarial_label_prediction"]
 
         # optimize adversarial classification
         adversarial_training_optimizer = tf.train.RMSPropOptimizer(
@@ -418,11 +413,11 @@ class AdversarialAutoencoder:
         for current_epoch in range(1, global_config.training_epochs + 1):
 
             all_style_embeddings = list()
-            shuffle_indices = np.random.permutation(np.arange(data_size))
-            shuffled_padded_sequences = self.padded_sequences[shuffle_indices]
-            shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
-            shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
-            shuffled_bow_representations = self.bow_representations[shuffle_indices]
+            # shuffle_indices = np.random.permutation(np.arange(data_size))
+            # shuffled_padded_sequences = self.padded_sequences[shuffle_indices]
+            # shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
+            # shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
+            # shuffled_bow_representations = self.bow_representations[shuffle_indices]
 
             shuffle_indices = np.random.permutation(
                 np.arange(start=0, stop=data_size, step=model_config.batch_size))
@@ -445,9 +440,9 @@ class AdversarialAutoencoder:
                 [_, _, reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
                  bow_representation_loss, composite_loss, style_embeddings, all_summaries] = \
                     self.run_batch(
-                        sess, start_index, end_index, fetches, shuffled_padded_sequences,
-                        shuffled_one_hot_labels, shuffled_text_sequence_lengths,
-                        shuffled_bow_representations, None, False, current_epoch)
+                        sess, start_index, end_index, fetches, self.padded_sequences,
+                        self.one_hot_labels, self.text_sequence_lengths,
+                        self.bow_representations, None, False, current_epoch)
                 all_style_embeddings.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=global_config.model_save_path)
@@ -457,8 +452,8 @@ class AdversarialAutoencoder:
             with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)
 
-            log_msg = "Loss: [Total: {:.4f}, Rec: {:.4f}, AdvCE: {:.4f}, " \
-                      "AdvE: {:.4f}, Style: {:.4f}, BOW: {:.4f}]; Epoch: {}"
+            log_msg = "Loss: [Total: {:.4f}, Rec: {:.2f}, AdvCE: {:.2f}, " \
+                      "AdvE: {:.2f}, Style: {:.2f}, BOW: {:.2f}]; Epoch: {}"
             logger.info(log_msg.format(
                 composite_loss, reconstruction_loss, adversarial_loss,
                 adversarial_entropy, style_loss, bow_representation_loss, current_epoch))
