@@ -20,10 +20,13 @@ def generate_style_plot_coordinates(label_mapped_style_embeddings):
     logger.debug("markers: {}".format(markers))
 
     style_embeddings = np.asarray(a=style_embeddings)
-    logger.info("Extracted individual embeddings")
+    logger.info("Extracted individual embeddings of shape {}".format(style_embeddings.shape))
 
     logger.info("Learning plot co-ordinates")
-    style_coordinates = TSNE(n_components=2).fit_transform(X=style_embeddings)
+    style_coordinates = \
+        TSNE(n_components=2).fit_transform(X=style_embeddings) \
+        if style_embeddings.shape[1] != 2 \
+        else style_embeddings
     logger.debug("style_coordinates.shape: {}".format(style_coordinates.shape))
 
     with open(global_config.style_coordinates_path, 'wb') as pickle_file:

@@ -9,6 +9,7 @@ logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 
 with open(global_config.label_names_path, 'rb') as pickle_file:
     label_names = pickle.load(pickle_file)
+logger.info("label_names: {}".format(label_names))
 
 with open(global_config.style_coordinates_path, 'rb') as pickle_file:
     (style_coordinates, markers) = pickle.load(pickle_file)
