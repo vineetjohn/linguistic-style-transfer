@@ -383,19 +383,28 @@ class AdversarialAutoencoder:
             learning_rate=model_config.adversarial_discriminator_learning_rate)
 
         # optimize adversarial classification
+        adversarial_training_optimizer = tf.train.RMSPropOptimizer(
+            learning_rate=model_config.adversarial_discriminator_learning_rate)
+        adversarial_training_variables = [
+            x for x in trainable_variables if any(
+                scope in x.name for scope in adversarial_variable_labels)]
+        logger.debug("adversarial_training_optimizer.variables: {}".format(adversarial_training_variables))
         adversarial_training_operation = None
         for i in range(model_config.adversarial_discriminator_iterations):
-            adversarial_training_operation = \
-                adversarial_training_optimizer.minimize(self.adversarial_loss)
+            adversarial_training_operation = adversarial_training_optimizer.minimize(
+                loss=self.adversarial_loss, var_list=adversarial_training_variables)
 
         # optimize reconstruction
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
             learning_rate=model_config.autoencoder_learning_rate)
-
+        reconstruction_training_variables = [
+            x for x in trainable_variables if all(
+                scope not in x.name for scope in adversarial_variable_labels)]
+        logger.debug("reconstruction_training_optimizer.variables: {}".format(reconstruction_training_variables))
         reconstruction_training_operation = None
         for i in range(model_config.autoencoder_iterations):
-            reconstruction_training_operation = \
-                reconstruction_training_optimizer.minimize(self.composite_loss)
+            reconstruction_training_operation = reconstruction_training_optimizer.minimize(
+                loss=self.composite_loss, var_list=reconstruction_training_variables)
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
@@ -415,9 +424,11 @@ class AdversarialAutoencoder:
             shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
             shuffled_bow_representations = self.bow_representations[shuffle_indices]
 
-            for batch_number in range(num_batches):
-                (start_index, end_index) = self.get_batch_indices(
-                    offset=0, batch_number=batch_number, data_limit=data_size)
+            shuffle_indices = np.random.permutation(
+                np.arange(start=0, stop=data_size, step=model_config.batch_size))
+
+            for shuffle_index in shuffle_indices:
+                [start_index, end_index] = [shuffle_index, shuffle_index + model_config.batch_size]
 
                 fetches = \
                     [reconstruction_training_operation,

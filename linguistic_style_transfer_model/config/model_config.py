@@ -17,13 +17,13 @@ autoencoder_learning_rate = 0.0001
 adversarial_discriminator_learning_rate = 0.0001
 
 # loss weights
-adversarial_discriminator_loss_weight = 20
-style_prediction_loss_weight = 10
+adversarial_discriminator_loss_weight = 1
+style_prediction_loss_weight = 1
 bow_prediction_loss_weight = 1
 
 # training iterations
-adversarial_discriminator_iterations = 1
-autoencoder_iterations = 10
+adversarial_discriminator_iterations = 10
+autoencoder_iterations = 1
 
 # decoding settings
 beam_search_width = 10
