@@ -336,8 +336,8 @@ class AdversarialAutoencoder:
 
         return start_index, end_index
 
-    def run_batch(self, sess, start_index, end_index, fetches, shuffled_padded_sequences,
-                  shuffled_one_hot_labels, shuffled_text_sequence_lengths, shuffled_bow_representations,
+    def run_batch(self, sess, start_index, end_index, fetches, padded_sequences,
+                  one_hot_labels, text_sequence_lengths, bow_representations,
                   conditioning_embedding, conditioned_generation_mode, current_epoch):
 
         if not conditioned_generation_mode:
@@ -348,10 +348,10 @@ class AdversarialAutoencoder:
         ops = sess.run(
             fetches=fetches,
             feed_dict={
-                self.input_sequence: shuffled_padded_sequences[start_index: end_index],
-                self.input_label: shuffled_one_hot_labels[start_index: end_index],
-                self.sequence_lengths: shuffled_text_sequence_lengths[start_index: end_index],
-                self.input_bow_representations: shuffled_bow_representations[start_index: end_index],
+                self.input_sequence: padded_sequences[start_index: end_index],
+                self.input_label: one_hot_labels[start_index: end_index],
+                self.sequence_lengths: text_sequence_lengths[start_index: end_index],
+                self.input_bow_representations: bow_representations[start_index: end_index],
                 self.conditioned_generation_mode: conditioned_generation_mode,
                 self.conditioning_embedding: conditioning_embedding,
                 self.epoch: current_epoch
@@ -413,12 +413,6 @@ class AdversarialAutoencoder:
         for current_epoch in range(1, global_config.training_epochs + 1):
 
             all_style_embeddings = list()
-            # shuffle_indices = np.random.permutation(np.arange(data_size))
-            # shuffled_padded_sequences = self.padded_sequences[shuffle_indices]
-            # shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
-            # shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
-            # shuffled_bow_representations = self.bow_representations[shuffle_indices]
-
             shuffle_indices = np.random.permutation(
                 np.arange(start=0, stop=data_size, step=model_config.batch_size))
 
@@ -440,9 +434,10 @@ class AdversarialAutoencoder:
                 [_, _, reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
                  bow_representation_loss, composite_loss, style_embeddings, all_summaries] = \
                     self.run_batch(
-                        sess, start_index, end_index, fetches, self.padded_sequences,
-                        self.one_hot_labels, self.text_sequence_lengths,
-                        self.bow_representations, None, False, current_epoch)
+                        sess, start_index, end_index, fetches,
+                        self.padded_sequences, self.one_hot_labels,
+                        self.text_sequence_lengths, self.bow_representations,
+                        None, False, current_epoch)
                 all_style_embeddings.extend(style_embeddings)
 
             saver.save(sess=sess, save_path=global_config.model_save_path)
