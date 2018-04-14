@@ -33,25 +33,36 @@ def get_data(options):
 def get_average_label_embeddings(data_size, label_sequences):
     with open(global_config.all_style_embeddings_path, 'rb') as pickle_file:
         all_style_embeddings = pickle.load(pickle_file)
+    with open(global_config.all_content_embeddings_path, 'rb') as pickle_file:
+        all_content_embeddings = pickle.load(pickle_file)
 
     style_embeddings = np.asarray(all_style_embeddings)
+    content_embeddings = np.asarray(all_content_embeddings)
 
-    label_embedding_map = dict()
+    style_embedding_map = dict()
+    content_embedding_map = dict()
+
     for i in range(data_size - (data_size % model_config.batch_size)):
         label = label_sequences[i][0]
-        if label not in label_embedding_map:
-            label_embedding_map[label] = list()
-        label_embedding_map[label].append(style_embeddings[i])
 
-    tsne_interface.generate_style_plot_coordinates(label_embedding_map)
+        if label not in style_embedding_map:
+            style_embedding_map[label] = list()
+        style_embedding_map[label].append(style_embeddings[i])
+
+        if label not in content_embedding_map:
+            content_embedding_map[label] = list()
+        content_embedding_map[label].append(content_embeddings[i])
+
+    tsne_interface.generate_plot_coordinates(style_embedding_map, global_config.style_coordinates_path)
+    tsne_interface.generate_plot_coordinates(content_embedding_map, global_config.content_coordinates_path)
 
     with open(global_config.label_mapped_style_embeddings_path, 'wb') as pickle_file:
-        pickle.dump(label_embedding_map, pickle_file)
+        pickle.dump(style_embedding_map, pickle_file)
     logger.debug("Pickled label mapped style embeddings")
 
     average_label_embeddings = dict()
-    for label in label_embedding_map:
-        average_label_embeddings[label] = np.mean(label_embedding_map[label], axis=0)
+    for label in style_embedding_map:
+        average_label_embeddings[label] = np.mean(style_embedding_map[label], axis=0)
 
     return average_label_embeddings
 

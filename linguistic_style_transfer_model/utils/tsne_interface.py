@@ -9,27 +9,26 @@ from linguistic_style_transfer_model.config import global_config
 logger = logging.getLogger(global_config.logger_name)
 
 
-def generate_style_plot_coordinates(label_mapped_style_embeddings):
-    style_embeddings = list()
+def generate_plot_coordinates(label_mapped_embeddings, coordinates_path):
+    embeddings = list()
     markers = list()
-    for label in label_mapped_style_embeddings:
-        markers.append(len(style_embeddings))
-        for style_embedding in label_mapped_style_embeddings[label]:
-            style_embeddings.append(style_embedding)
-    markers.append(len(style_embeddings))
+    for label in label_mapped_embeddings:
+        markers.append(len(embeddings))
+        for embedding in label_mapped_embeddings[label]:
+            embeddings.append(embedding)
+    markers.append(len(embeddings))
     logger.debug("markers: {}".format(markers))
 
-    style_embeddings = np.asarray(a=style_embeddings)
-    logger.info("Extracted individual embeddings of shape {}".format(style_embeddings.shape))
+    embeddings = np.asarray(a=embeddings)
+    logger.info("Extracted individual embeddings of shape {}".format(embeddings.shape))
 
     logger.info("Learning plot co-ordinates")
-    style_coordinates = \
-        TSNE(n_components=2).fit_transform(X=style_embeddings) \
-        if style_embeddings.shape[1] != 2 \
-        else style_embeddings
-    logger.debug("style_coordinates.shape: {}".format(style_coordinates.shape))
+    coordinates = \
+        TSNE(n_components=2).fit_transform(X=embeddings) \
+            if embeddings.shape[1] != 2 else embeddings
+    logger.debug("coordinates.shape: {}".format(coordinates.shape))
 
-    with open(global_config.style_coordinates_path, 'wb') as pickle_file:
-        pickle.dump((style_coordinates, markers), pickle_file)
+    with open(coordinates_path, 'wb') as pickle_file:
+        pickle.dump((coordinates, markers), pickle_file)
 
     logger.info("Dumped T-SNE co-ordinates")

@@ -246,12 +246,12 @@ class AdversarialAutoencoder:
         logger.debug("style_embedding: {}".format(self.style_embedding))
 
         # content embedding
-        content_embedding = self.get_content_embedding(sentence_embedding)
-        logger.debug("content_embedding: {}".format(content_embedding))
+        self.content_embedding = self.get_content_embedding(sentence_embedding)
+        logger.debug("content_embedding: {}".format(self.content_embedding))
 
         # concatenated generative embedding
         generative_embedding = tf.layers.dense(
-            inputs=tf.concat(values=[self.style_embedding, content_embedding], axis=1),
+            inputs=tf.concat(values=[self.style_embedding, self.content_embedding], axis=1),
             units=model_config.decoder_rnn_size, activation=tf.nn.leaky_relu,
             name="generative_embedding")
         logger.debug("generative_embedding: {}".format(generative_embedding))
@@ -266,7 +266,7 @@ class AdversarialAutoencoder:
 
         # adversarial loss
         with tf.name_scope('adversarial_loss'):
-            adversarial_label_prediction = self.get_adversarial_label_prediction(content_embedding)
+            adversarial_label_prediction = self.get_adversarial_label_prediction(self.content_embedding)
             logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
             self.adversarial_entropy = tf.reduce_mean(
@@ -413,6 +413,8 @@ class AdversarialAutoencoder:
         for current_epoch in range(1, global_config.training_epochs + 1):
 
             all_style_embeddings = list()
+            all_content_embeddings = list()
+
             shuffle_indices = np.random.permutation(
                 np.arange(start=0, stop=data_size, step=model_config.batch_size))
 
@@ -429,16 +431,20 @@ class AdversarialAutoencoder:
                      self.bow_prediction_loss,
                      self.composite_loss,
                      self.style_embedding,
+                     self.content_embedding,
                      self.all_summaries]
 
-                [_, _, reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
-                 bow_representation_loss, composite_loss, style_embeddings, all_summaries] = \
+                [_, _, reconstruction_loss, adversarial_loss, adversarial_entropy,
+                 style_loss, bow_representation_loss, composite_loss,
+                 style_embeddings, content_embedding, all_summaries] = \
                     self.run_batch(
                         sess, start_index, end_index, fetches,
                         self.padded_sequences, self.one_hot_labels,
                         self.text_sequence_lengths, self.bow_representations,
                         None, False, current_epoch)
+
                 all_style_embeddings.extend(style_embeddings)
+                all_content_embeddings.extend(content_embedding)
 
             saver.save(sess=sess, save_path=global_config.model_save_path)
             writer.add_summary(all_summaries, current_epoch)
@@ -446,6 +452,8 @@ class AdversarialAutoencoder:
 
             with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)
+            with open(global_config.all_content_embeddings_path, 'wb') as pickle_file:
+                pickle.dump(all_content_embeddings, pickle_file)
 
             log_msg = "Loss: [Total: {:.4f}, Rec: {:.2f}, AdvCE: {:.2f}, " \
                       "AdvE: {:.2f}, Style: {:.2f}, BOW: {:.2f}]; Epoch: {}"
