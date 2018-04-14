@@ -73,6 +73,6 @@ def get_labels(label_file_path):
 
     num_labels = len(label_tokenizer.word_index)
     one_hot_labels = np.asarray(
-        [np.eye(num_labels, k=x[0])[0] for x in label_sequences])
+        [np.eye(num_labels, k=(x[0] - 1))[0] for x in label_sequences])
 
     return [label_sequences, one_hot_labels, num_labels]
