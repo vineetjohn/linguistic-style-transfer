@@ -189,7 +189,7 @@ class AdversarialAutoencoder:
 
         self.conditioning_embedding = tf.placeholder(
             dtype=tf.float32,
-            shape=[model_config.batch_size, self.num_labels],
+            shape=[model_config.batch_size, model_config.style_embedding_size],
             name="conditioning_embedding")
         logger.debug("conditioning_embedding: {}".format(self.conditioning_embedding))
 
@@ -236,13 +236,13 @@ class AdversarialAutoencoder:
 
         sentence_embedding = self.get_sentence_embedding(encoder_embedded_sequence)
 
-        style_label_prediction, bow_prediction = self.get_style_label_and_bow_prediction(sentence_embedding)
+        # style_label_prediction, bow_prediction = self.get_style_label_and_bow_prediction(sentence_embedding)
 
         # style embedding
         self.style_embedding = tf.cond(
             pred=self.conditioned_generation_mode,
             true_fn=lambda: self.conditioning_embedding,
-            false_fn=lambda: style_label_prediction)
+            false_fn=lambda: self.get_style_embedding(sentence_embedding))
         logger.debug("style_embedding: {}".format(self.style_embedding))
 
         # content embedding
@@ -282,8 +282,8 @@ class AdversarialAutoencoder:
 
         # style prediction loss
         with tf.name_scope('style_prediction_loss'):
-            # [style_label_prediction, bow_prediction] = \
-            #     self.get_style_label_and_bow_prediction(self.style_embedding)
+            [style_label_prediction, bow_prediction] = \
+                self.get_style_label_and_bow_prediction(self.style_embedding)
             logger.debug("style_label_prediction: {}".format(style_label_prediction))
             logger.debug("bow_prediction: {}".format(bow_prediction))
 
@@ -342,7 +342,7 @@ class AdversarialAutoencoder:
 
         if not conditioned_generation_mode:
             conditioning_embedding = np.random.uniform(
-                size=(model_config.batch_size, self.num_labels),
+                size=(model_config.batch_size, model_config.style_embedding_size),
                 low=-0.05, high=0.05).astype(dtype=np.float32)
 
         ops = sess.run(
@@ -415,11 +415,15 @@ class AdversarialAutoencoder:
             all_style_embeddings = list()
             all_content_embeddings = list()
 
-            shuffle_indices = np.random.permutation(
-                np.arange(start=0, stop=data_size, step=model_config.batch_size))
+            shuffle_indices = np.random.permutation(np.arange(data_size))
+            shuffled_padded_sequences = self.padded_sequences[shuffle_indices]
+            shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
+            shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
+            shuffled_bow_representations = self.bow_representations[shuffle_indices]
 
-            for shuffle_index in shuffle_indices:
-                [start_index, end_index] = [shuffle_index, shuffle_index + model_config.batch_size]
+            for batch_number in range(num_batches):
+                (start_index, end_index) = self.get_batch_indices(
+                    offset=0, batch_number=batch_number, data_limit=data_size)
 
                 fetches = \
                     [reconstruction_training_operation,
@@ -455,11 +459,11 @@ class AdversarialAutoencoder:
             with open(global_config.all_content_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_content_embeddings, pickle_file)
 
-            log_msg = "Loss: [Total: {:.4f}, Rec: {:.2f}, AdvCE: {:.2f}, " \
-                      "AdvE: {:.2f}, Style: {:.2f}, BOW: {:.2f}]; Epoch: {}"
+            log_msg = "Loss: [Rec: {:.2f}, AdvCE: {:.2f}, AdvE: {:.2f}, " \
+                      "Style: {:.2f}, BOW: {:.2f}, Total: {:.4f}]; Epoch: {}"
             logger.info(log_msg.format(
-                composite_loss, reconstruction_loss, adversarial_loss,
-                adversarial_entropy, style_loss, bow_representation_loss, current_epoch))
+                reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
+                bow_representation_loss, composite_loss, current_epoch))
 
         writer.close()
 
