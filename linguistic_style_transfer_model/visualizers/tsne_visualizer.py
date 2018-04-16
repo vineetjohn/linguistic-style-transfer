@@ -9,7 +9,8 @@ logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 colors = ['b', 'r', 'g', 'c', 'm', 'y', 'k']
 
 
-def plot_coordinates(coordinates, plot_path, markers, label_names):
+def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
+    plt.figure(fig_num)
     for i in range(len(markers) - 1):
         plt.scatter(x=coordinates[markers[i]:markers[i + 1], 0],
                     y=coordinates[markers[i]:markers[i + 1], 1],
@@ -27,12 +28,12 @@ def main():
     with open(global_config.style_coordinates_path, 'rb') as pickle_file:
         (style_coordinates, markers) = pickle.load(pickle_file)
         plot_coordinates(style_coordinates, global_config.style_embedding_plot_path,
-                         markers, label_names)
+                         markers, label_names, 0)
 
     with open(global_config.content_coordinates_path, 'rb') as pickle_file:
         (content_coordinates, markers) = pickle.load(pickle_file)
         plot_coordinates(content_coordinates, global_config.content_embedding_plot_path,
-                         markers, label_names)
+                         markers, label_names, 1)
 
 
 if __name__ == "__main__":
