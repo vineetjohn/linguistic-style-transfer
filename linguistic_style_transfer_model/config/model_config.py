@@ -22,7 +22,7 @@ style_prediction_loss_weight = 1
 bow_prediction_loss_weight = 1
 
 # training iterations
-adversarial_discriminator_iterations = 10
+adversarial_discriminator_iterations = 3
 autoencoder_iterations = 1
 
 # decoding settings
