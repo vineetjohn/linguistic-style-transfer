@@ -292,10 +292,8 @@ class AdversarialAutoencoder:
                 onehot_labels=self.input_label, logits=style_label_prediction, label_smoothing=0.1)
             logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
 
-            self.bow_prediction_loss = tf.reduce_mean(
-                input_tensor=tf.nn.softmax_cross_entropy_with_logits(
-                    labels=self.input_bow_representations, logits=bow_prediction),
-                name="bow_prediction_loss")
+            self.bow_prediction_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_bow_representations, logits=bow_prediction, label_smoothing=0.1)
             logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
 
             self.bow_entropy = tf.reduce_mean(
