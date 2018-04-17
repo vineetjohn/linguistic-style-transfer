@@ -273,8 +273,7 @@ class AdversarialAutoencoder:
             self.adversarial_entropy = tf.reduce_mean(
                 input_tensor=tf.reduce_sum(
                     input_tensor=-adversarial_label_prediction *
-                                 tf.log(adversarial_label_prediction),
-                    axis=1))
+                                 tf.log(adversarial_label_prediction + model_config.epsilon), axis=1))
             logger.debug("adversarial_entropy: {}".format(self.adversarial_entropy))
 
             self.adversarial_loss = tf.losses.softmax_cross_entropy(
@@ -298,7 +297,7 @@ class AdversarialAutoencoder:
 
             self.bow_entropy = tf.reduce_mean(
                 input_tensor=tf.reduce_sum(
-                    input_tensor=-bow_prediction * tf.log(bow_prediction), axis=1))
+                    input_tensor=-bow_prediction * tf.log(bow_prediction + model_config.epsilon), axis=1))
             logger.debug("bow_entropy: {}".format(self.bow_entropy))
 
         # reconstruction loss
