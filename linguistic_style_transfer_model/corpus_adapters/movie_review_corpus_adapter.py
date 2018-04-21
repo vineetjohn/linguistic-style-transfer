@@ -1,6 +1,6 @@
 import re
 
-positive_reviews_file_path = "data/movie-reviews/rt-polarity.neg"
+positive_reviews_file_path = "data/movie-reviews/rt-polarity.pos"
 negative_reviews_file_path = "data/movie-reviews/rt-polarity.neg"
 text_file_path = "data/movie-reviews/reviews.txt"
 labels_file_path = "data/movie-reviews/sentiment.txt"
