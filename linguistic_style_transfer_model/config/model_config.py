@@ -24,9 +24,6 @@ style_prediction_loss_weight = 1
 adversarial_discriminator_iterations = 3
 autoencoder_iterations = 1
 
-# decoding settings
-beam_search_width = 10
-
 # noise settings
 adversarial_discriminator_noise_stddev = 0.2
 
