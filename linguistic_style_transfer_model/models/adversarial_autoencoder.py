@@ -233,12 +233,19 @@ class AdversarialAutoencoder:
 
         # style_label_prediction, bow_prediction = self.get_style_label_and_bow_prediction(sentence_embedding)
 
+        style_keep_probabilities = tf.random_uniform(
+            shape=[model_config.batch_size], maxval=1, dtype=tf.float32)
+        style_filter = style_keep_probabilities < model_config.style_embedding_keep_prob
+        logger.debug("style_filter: {}".format(style_filter))
+
         # style embedding
-        self.style_embedding = tf.cond(
+        self.style_embedding = self.get_style_embedding(sentence_embedding)
+        final_style_embedding = tf.cond(
             pred=self.conditioned_generation_mode,
             true_fn=lambda: self.conditioning_embedding,
-            false_fn=lambda: self.get_style_embedding(sentence_embedding))
-        logger.debug("style_embedding: {}".format(self.style_embedding))
+            false_fn=lambda: tf.where(
+                condition=style_filter, x=self.style_embedding, y=tf.zeros_like(self.style_embedding)))
+        logger.debug("style_embedding: {}".format(final_style_embedding))
 
         # content embedding
         self.content_embedding = self.get_content_embedding(sentence_embedding)
@@ -246,7 +253,7 @@ class AdversarialAutoencoder:
 
         # concatenated generative embedding
         generative_embedding = tf.layers.dense(
-            inputs=tf.concat(values=[self.style_embedding, self.content_embedding], axis=1),
+            inputs=tf.concat(values=[final_style_embedding, self.content_embedding], axis=1),
             units=model_config.decoder_rnn_size, activation=tf.nn.leaky_relu,
             name="generative_embedding")
         logger.debug("generative_embedding: {}".format(generative_embedding))
