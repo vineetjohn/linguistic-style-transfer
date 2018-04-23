@@ -18,6 +18,8 @@ style_coordinates_path = save_directory + "/style_coordinates.pkl"
 content_coordinates_path = save_directory + "/content_coordinates.pkl"
 style_embedding_plot_path = save_directory + "/tsne_embeddings_plot_style.svg"
 content_embedding_plot_path = save_directory + "/tsne_embeddings_plot_content.svg"
+style_embedding_custom_plot_path = save_directory + "/tsne_embeddings_custom_plot_style.svg"
+content_embedding_custom_plot_path = save_directory + "/tsne_embeddings_custom_plot_content.svg"
 
 unk_token = "<unk>"
 sos_token = "<sos>"
