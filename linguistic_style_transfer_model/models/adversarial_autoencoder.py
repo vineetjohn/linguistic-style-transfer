@@ -402,7 +402,11 @@ class AdversarialAutoencoder:
             all_style_embeddings = list()
             all_content_embeddings = list()
 
-            shuffle_indices = np.random.permutation(np.arange(data_size))
+            if current_epoch != global_config.training_epochs:
+                shuffle_indices = np.random.permutation(np.arange(data_size))
+            else:
+                shuffle_indices = np.arange(data_size)
+
             shuffled_padded_sequences = self.padded_sequences[shuffle_indices]
             shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
             shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
@@ -429,8 +433,8 @@ class AdversarialAutoencoder:
                  style_embeddings, content_embedding, all_summaries] = \
                     self.run_batch(
                         sess, start_index, end_index, fetches,
-                        self.padded_sequences, self.one_hot_labels,
-                        self.text_sequence_lengths, self.bow_representations,
+                        shuffled_padded_sequences, shuffled_one_hot_labels,
+                        shuffled_text_sequence_lengths, shuffled_bow_representations,
                         None, False, current_epoch)
 
                 all_style_embeddings.extend(style_embeddings)
