@@ -1,4 +1,7 @@
-class Options:
+from types import SimpleNamespace
+
+
+class Options(SimpleNamespace):
     logging_level = None
     train_model = None
     infer_sequences = None
