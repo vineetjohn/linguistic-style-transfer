@@ -54,7 +54,30 @@ def get_text_sequences(text_file_path, vocab_size):
         [global_config.max_sequence_length if x >= global_config.max_sequence_length
          else x + 1 for x in text_sequence_lengths])  # x + 1 to accomodate a single EOS token
 
-    return [word_index, actual_sequences, padded_sequences, text_sequence_lengths, bow_representations]
+    return [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
+            bow_representations, text_tokenizer]
+
+
+def get_test_sequences(text_file_path, word_index, text_tokenizer):
+    with open(text_file_path) as text_file:
+        actual_sequences = text_tokenizer.texts_to_sequences(text_file)
+
+    trimmed_sequences = [
+        [x if x < global_config.vocab_size else word_index[global_config.unk_token] for x in sequence]
+        for sequence in actual_sequences]
+
+    padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
+        trimmed_sequences, maxlen=global_config.max_sequence_length, padding='post',
+        truncating='post', value=word_index[global_config.eos_token])
+
+    text_sequence_lengths = np.asarray(
+        a=[len(x) for x in actual_sequences], dtype=np.int32)
+
+    text_sequence_lengths = np.asarray(
+        [global_config.max_sequence_length if x >= global_config.max_sequence_length
+         else x + 1 for x in text_sequence_lengths])  # x + 1 to accomodate a single EOS token
+
+    return [actual_sequences, padded_sequences, text_sequence_lengths]
 
 
 def get_labels(label_file_path):

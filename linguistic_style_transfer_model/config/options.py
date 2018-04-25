@@ -10,4 +10,6 @@ class Options(SimpleNamespace):
     training_epochs = None
     text_file_path = None
     label_file_path = None
+    dump_embeddings = None
+    test_samples_file_path = None
     use_pretrained_embeddings = None

@@ -17,7 +17,8 @@ logger = None
 
 
 def get_data(options):
-    [word_index, actual_sequences, padded_sequences, text_sequence_lengths, bow_representations] = \
+    [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
+     bow_representations, text_tokenizer] = \
         data_preprocessor.get_text_sequences(options.text_file_path, options.vocab_size)
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     logger.debug("padded_sequences: {}".format(padded_sequences.shape))
@@ -27,10 +28,10 @@ def get_data(options):
     logger.debug("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
     return [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-            label_sequences, one_hot_labels, num_labels, bow_representations]
+            label_sequences, one_hot_labels, num_labels, bow_representations, text_tokenizer]
 
 
-def get_average_label_embeddings(data_size, label_sequences):
+def get_average_label_embeddings(data_size, label_sequences, dump_embeddings):
     with open(global_config.all_style_embeddings_path, 'rb') as pickle_file:
         all_style_embeddings = pickle.load(pickle_file)
     with open(global_config.all_content_embeddings_path, 'rb') as pickle_file:
@@ -53,8 +54,11 @@ def get_average_label_embeddings(data_size, label_sequences):
             content_embedding_map[label] = list()
         content_embedding_map[label].append(content_embeddings[i])
 
-    tsne_interface.generate_plot_coordinates(style_embedding_map, global_config.style_coordinates_path)
-    tsne_interface.generate_plot_coordinates(content_embedding_map, global_config.content_coordinates_path)
+    if dump_embeddings:
+        tsne_interface.generate_plot_coordinates(
+            style_embedding_map, global_config.style_coordinates_path)
+        tsne_interface.generate_plot_coordinates(
+            content_embedding_map, global_config.content_coordinates_path)
 
     with open(global_config.label_mapped_style_embeddings_path, 'wb') as pickle_file:
         pickle.dump(style_embedding_map, pickle_file)
@@ -144,6 +148,8 @@ def main(argv):
     parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
     parser.add_argument("--text-file-path", type=str, required=True)
     parser.add_argument("--label-file-path", type=str, required=True)
+    parser.add_argument("--test-samples-file-path", type=str, required=False)
+    parser.add_argument("--dump-embeddings", action="store_true", default=False)
     parser.add_argument("--vocab-size", type=int, default=1000)
     parser.add_argument("--training-epochs", type=int, default=10)
     parser.add_argument("--logging-level", type=str, default="INFO")
@@ -162,7 +168,8 @@ def main(argv):
     # Retrieve all data
     logger.info("Reading data ...")
     [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-     label_sequences, one_hot_labels, num_labels, bow_representations] = get_data(options)
+     label_sequences, one_hot_labels, num_labels, bow_representations, text_tokenizer] \
+        = get_data(options)
     data_size = padded_sequences.shape[0]
 
     encoder_embedding_matrix, decoder_embedding_matrix = \
@@ -211,19 +218,32 @@ def main(argv):
         # Enforce a particular style embedding and regenerate text
         if options.generate_novel_text:
 
+            test_samples_file_path = options.test_samples_file_path \
+                if options.test_samples_file_path else options.text_file_path
+
             logger.info("Generating novel text ...")
             average_label_embeddings = get_average_label_embeddings(
-                data_size, label_sequences)
+                data_size, label_sequences, options.dump_embeddings)
             for i in range(num_labels):
                 style_choice = i + 1
                 logger.info("Style chosen: {}".format(style_choice))
 
                 style_embedding = np.asarray(average_label_embeddings[style_choice])
 
+                [actual_sequences, padded_sequences, text_sequence_lengths] = \
+                    data_preprocessor.get_test_sequences(
+                        test_samples_file_path, word_index, text_tokenizer)
+
                 sess = get_tensorflow_session()
                 generated_sequences, final_sequence_lengths = \
-                    network.generate_novel_sentences(sess, offset, samples_size, style_embedding)
+                    network.generate_novel_sentences(
+                        sess, padded_sequences, text_sequence_lengths, style_embedding,
+                        num_labels)
                 sess.close()
+
+                actual_word_lists = \
+                    [data_postprocessor.generate_words_from_indices(x, inverse_word_index)
+                     for x in actual_sequences]
 
                 execute_post_inference_operations(
                     actual_word_lists, generated_sequences, final_sequence_lengths,

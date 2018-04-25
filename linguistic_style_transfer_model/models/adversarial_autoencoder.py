@@ -489,7 +489,8 @@ class AdversarialAutoencoder:
 
         return generated_sequences, final_sequence_lengths
 
-    def generate_novel_sentences(self, sess, offset, samples_size, style_embedding):
+    def generate_novel_sentences(self, sess, padded_sequences, text_sequence_lengths, style_embedding,
+                                 num_labels):
 
         conditioning_embedding = np.tile(A=style_embedding, reps=(model_config.batch_size, 1))
 
@@ -499,17 +500,23 @@ class AdversarialAutoencoder:
 
         generated_sequences = list()
         final_sequence_lengths = list()
-        num_batches = samples_size // model_config.batch_size
+        num_batches = len(padded_sequences) // model_config.batch_size
+
+        # these won't be needed to generate new sentences, so just use random numbers
+        one_hot_labels_placeholder = np.random.randint(
+            low=0, high=1, size=(len(padded_sequences), num_labels)).astype(dtype=np.int32)
+        bow_representation_placeholder = np.random.randint(
+            low=0, high=1, size=(len(padded_sequences), global_config.vocab_size)).astype(dtype=np.int32)
 
         end_index = None
         for batch_number in range(num_batches):
             (start_index, end_index) = self.get_batch_indices(
-                offset=offset, batch_number=batch_number, data_limit=(offset + samples_size))
+                offset=0, batch_number=batch_number, data_limit=len(padded_sequences))
 
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
-                self.padded_sequences, self.one_hot_labels, self.text_sequence_lengths,
-                self.bow_representations, conditioning_embedding, True, 0)
+                padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
+                bow_representation_placeholder, conditioning_embedding, True, 0)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
