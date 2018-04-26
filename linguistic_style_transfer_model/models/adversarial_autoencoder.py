@@ -77,7 +77,11 @@ class AdversarialAutoencoder:
             inputs=style_embedding, units=self.num_labels,
             activation=tf.nn.softmax, name="style_label_prediction")
 
-        return [style_label_prediction, None]
+        bow_prediction = tf.layers.dense(
+            inputs=style_embedding, units=global_config.vocab_size,
+            activation=tf.nn.softmax, name="bow_prediction")
+
+        return [style_label_prediction, bow_prediction]
 
     def get_adversarial_label_prediction(self, content_embedding):
 
@@ -231,8 +235,6 @@ class AdversarialAutoencoder:
 
         sentence_embedding = self.get_sentence_embedding(encoder_embedded_sequence)
 
-        # style_label_prediction, bow_prediction = self.get_style_label_and_bow_prediction(sentence_embedding)
-
         style_keep_probabilities = tf.random_uniform(
             shape=[model_config.batch_size], maxval=1, dtype=tf.float32)
         style_filter = style_keep_probabilities < model_config.style_embedding_keep_prob
@@ -292,6 +294,15 @@ class AdversarialAutoencoder:
                 onehot_labels=self.input_label, logits=style_label_prediction, label_smoothing=0.1)
             logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
 
+            self.bow_prediction_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_bow_representations, logits=bow_prediction, label_smoothing=0.1)
+            logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
+
+            self.bow_entropy = tf.reduce_mean(
+                input_tensor=tf.reduce_sum(
+                    input_tensor=-bow_prediction * tf.log(bow_prediction + model_config.epsilon), axis=1))
+            logger.debug("bow_entropy: {}".format(self.bow_entropy))
+
         # reconstruction loss
         with tf.name_scope('reconstruction_loss'):
             batch_maxlen = tf.reduce_max(self.sequence_lengths)
@@ -320,6 +331,7 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         tf.summary.scalar(tensor=self.style_prediction_loss, name="style_prediction_loss_summary")
         tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
+        tf.summary.scalar(tensor=self.bow_prediction_loss, name="bow_prediction_loss_summary")
 
     def get_batch_indices(self, offset, batch_number, data_limit):
 
@@ -363,8 +375,8 @@ class AdversarialAutoencoder:
         self.composite_loss = \
             self.reconstruction_loss \
             - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
-            + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
-        # - (self.bow_entropy * model_config.bow_prediction_loss_weight)
+            + (self.style_prediction_loss * model_config.style_prediction_loss_weight) \
+            - (self.bow_prediction_loss * model_config.bow_prediction_loss_weight)
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
 
@@ -380,7 +392,7 @@ class AdversarialAutoencoder:
         adversarial_training_operation = None
         for i in range(model_config.adversarial_discriminator_iterations):
             adversarial_training_operation = adversarial_training_optimizer.minimize(
-                loss=self.adversarial_loss,
+                loss=self.adversarial_loss + self.bow_prediction_loss,
                 var_list=adversarial_training_variables)
 
         # optimize reconstruction
@@ -430,13 +442,15 @@ class AdversarialAutoencoder:
                      self.adversarial_loss,
                      self.adversarial_entropy,
                      self.style_prediction_loss,
+                     self.bow_prediction_loss,
+                     self.bow_entropy,
                      self.composite_loss,
                      self.style_embedding,
                      self.content_embedding,
                      self.all_summaries]
 
                 [_, _, reconstruction_loss, adversarial_loss, adversarial_entropy,
-                 style_loss, composite_loss,
+                 style_loss, bow_representation_loss, bow_entropy, composite_loss,
                  style_embeddings, content_embedding, all_summaries] = \
                     self.run_batch(
                         sess, start_index, end_index, fetches,
@@ -457,10 +471,11 @@ class AdversarialAutoencoder:
                 pickle.dump(all_content_embeddings, pickle_file)
 
             log_msg = "[R: {:.2f}, ACE: {:.2f}, AE: {:.2f}, " \
-                      "S: {:.2f}] Epoch {}: {:.4f} "
+                      "S: {:.2f}, BCE: {:.2f}, BE: {:.2f}], " \
+                      "Epoch {}: {:.4f} "
             logger.info(log_msg.format(
                 reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
-                current_epoch, composite_loss))
+                bow_representation_loss, bow_entropy, current_epoch, composite_loss))
 
         writer.close()
 
