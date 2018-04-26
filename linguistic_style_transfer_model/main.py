@@ -18,7 +18,7 @@ logger = None
 
 def get_data(options):
     [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-     bow_representations, text_tokenizer] = \
+     bow_representations, text_tokenizer, inverse_word_index] = \
         data_preprocessor.get_text_sequences(options.text_file_path, options.vocab_size)
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     logger.debug("padded_sequences: {}".format(padded_sequences.shape))
@@ -28,7 +28,8 @@ def get_data(options):
     logger.debug("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
     return [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-            label_sequences, one_hot_labels, num_labels, bow_representations, text_tokenizer]
+            label_sequences, one_hot_labels, num_labels, bow_representations,
+            text_tokenizer, inverse_word_index]
 
 
 def get_average_label_embeddings(data_size, label_sequences, dump_embeddings):
@@ -168,7 +169,8 @@ def main(argv):
     # Retrieve all data
     logger.info("Reading data ...")
     [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-     label_sequences, one_hot_labels, num_labels, bow_representations, text_tokenizer] \
+     label_sequences, one_hot_labels, num_labels, bow_representations,
+     text_tokenizer, inverse_word_index] \
         = get_data(options)
     data_size = padded_sequences.shape[0]
 
@@ -195,7 +197,6 @@ def main(argv):
         offset = 0
         logger.debug("Sampling range: {}-{}".format(offset, (offset + samples_size)))
 
-        inverse_word_index = {v: k for k, v in word_index.items()}
         timestamped_file_suffix = dt.now().strftime("%Y%m%d%H%M%S")
 
         actual_word_lists = flush_ground_truth_sentences(

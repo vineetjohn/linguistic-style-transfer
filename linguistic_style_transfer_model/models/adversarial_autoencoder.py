@@ -78,8 +78,8 @@ class AdversarialAutoencoder:
             activation=tf.nn.softmax, name="style_label_prediction")
 
         bow_prediction = tf.layers.dense(
-            inputs=style_embedding, units=global_config.vocab_size,
-            activation=tf.nn.softmax, name="bow_prediction")
+            inputs=style_embedding, units=global_config.bow_size,
+            activation=tf.nn.sigmoid, name="bow_prediction")
 
         return [style_label_prediction, bow_prediction]
 
@@ -173,7 +173,7 @@ class AdversarialAutoencoder:
         logger.debug("input_label: {}".format(self.input_label))
 
         self.input_bow_representations = tf.placeholder(
-            dtype=tf.float32, shape=[model_config.batch_size, global_config.vocab_size],
+            dtype=tf.float32, shape=[model_config.batch_size, global_config.bow_size],
             name="input_bow_representations")
         logger.debug("input_bow_representations: {}".format(self.input_bow_representations))
 
@@ -521,7 +521,7 @@ class AdversarialAutoencoder:
         one_hot_labels_placeholder = np.random.randint(
             low=0, high=1, size=(len(padded_sequences), num_labels)).astype(dtype=np.int32)
         bow_representation_placeholder = np.random.randint(
-            low=0, high=1, size=(len(padded_sequences), global_config.vocab_size)).astype(dtype=np.int32)
+            low=0, high=1, size=(len(padded_sequences), global_config.bow_size)).astype(dtype=np.int32)
 
         end_index = None
         for batch_number in range(num_batches):

@@ -1,6 +1,7 @@
 logger_name = "linguistic_style_transfer"
 
 vocab_size = None
+bow_size = None
 training_epochs = None
 
 embedding_size = 300
