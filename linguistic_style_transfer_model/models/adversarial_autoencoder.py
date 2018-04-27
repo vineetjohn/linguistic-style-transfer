@@ -245,8 +245,9 @@ class AdversarialAutoencoder:
         final_style_embedding = tf.cond(
             pred=self.conditioned_generation_mode,
             true_fn=lambda: self.conditioning_embedding,
-            false_fn=lambda: tf.where(
-                condition=style_filter, x=self.style_embedding, y=tf.zeros_like(self.style_embedding)))
+            false_fn=lambda: self.style_embedding)
+        # false_fn=lambda: tf.where(
+        #     condition=style_filter, x=self.style_embedding, y=tf.zeros_like(self.style_embedding)))
         logger.debug("style_embedding: {}".format(final_style_embedding))
 
         # content embedding
