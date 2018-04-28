@@ -2,8 +2,17 @@ import re
 
 positive_reviews_file_path = "data/amazon-reviews/pos.txt"
 negative_reviews_file_path = "data/amazon-reviews/neg.txt"
-text_file_path = "data/amazon-reviews/reviews.txt"
-labels_file_path = "data/amazon-reviews/sentiment.txt"
+
+train_text_file_path = "data/amazon-reviews/reviews-train.txt"
+train_labels_file_path = "data/amazon-reviews/sentiment-train.txt"
+val_text_file_path = "data/amazon-reviews/reviews-val.txt"
+val_labels_file_path = "data/amazon-reviews/sentiment-val.txt"
+test_text_file_path = "data/amazon-reviews/reviews-test.txt"
+test_labels_file_path = "data/amazon-reviews/sentiment-test.txt"
+
+train_size = 65536
+val_size = 1024
+test_size = 16384
 
 
 def clean_text(string):
@@ -22,15 +31,42 @@ def clean_text(string):
     return string
 
 
-with open(text_file_path, 'w') as text_file, open(labels_file_path, 'w') as label_file:
-    with open(positive_reviews_file_path, 'r') as positive_reviews_file:
-        for review in positive_reviews_file:
-            cleaned_sentence = clean_text(review)
-            text_file.write(cleaned_sentence + "\n")
-            label_file.write("pos" + "\n")
+count = 0
+total_reviews = train_size + val_size + test_size
+print("Total Review size: {}".format(total_reviews))
+collected_positive_reviews = list()
+collected_negative_reviews = list()
 
-    with open(negative_reviews_file_path, 'r') as negative_reviews_file:
-        for review in negative_reviews_file:
-            cleaned_sentence = clean_text(review)
-            text_file.write(cleaned_sentence + "\n")
+with open(positive_reviews_file_path, 'r') as positive_reviews_file, \
+        open(negative_reviews_file_path, 'r') as negative_reviews_file:
+    for positive_review, negative_review in zip(positive_reviews_file, negative_reviews_file):
+        collected_positive_reviews.append(clean_text(positive_review))
+        collected_negative_reviews.append(clean_text(negative_review))
+        count += 1
+        if count == total_reviews:
+            print("Collected {} reviews".format(count))
+            break
+
+
+def write_file(text_file_path, labels_file_path, positive_reviews, negative_reviews):
+    print("Positive reviews: {}, Negative reviews : {}".format(len(positive_reviews), len(negative_reviews)))
+    with open(text_file_path, 'w') as text_file, open(labels_file_path, 'w') as label_file:
+        for review in positive_reviews:
+            text_file.write(review + "\n")
+            label_file.write("pos" + "\n")
+        for review in negative_reviews:
+            text_file.write(review + "\n")
             label_file.write("neg" + "\n")
+
+
+write_file(train_text_file_path, train_labels_file_path, collected_positive_reviews[:train_size],
+           collected_negative_reviews[:train_size])
+print("Training files saved")
+
+write_file(val_text_file_path, val_labels_file_path, collected_positive_reviews[train_size:train_size + val_size],
+           collected_negative_reviews[train_size:train_size + val_size])
+print("Validation files saved")
+
+write_file(test_text_file_path, test_labels_file_path, collected_positive_reviews[train_size + val_size:],
+           collected_negative_reviews[train_size + val_size:])
+print("Testing files saved")
