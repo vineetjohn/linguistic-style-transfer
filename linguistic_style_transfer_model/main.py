@@ -1,6 +1,5 @@
 import argparse
 import os
-import pickle
 import sys
 from datetime import datetime as dt
 
@@ -10,66 +9,26 @@ import tensorflow as tf
 from linguistic_style_transfer_model.config import global_config, model_config
 from linguistic_style_transfer_model.config.options import Options
 from linguistic_style_transfer_model.models import adversarial_autoencoder
-from linguistic_style_transfer_model.utils import bleu_scorer, data_postprocessor, \
-    data_preprocessor, log_initializer, word_embedder, tsne_interface
+from linguistic_style_transfer_model.utils import bleu_scorer, \
+    data_processor, log_initializer, word_embedder
 
 logger = None
 
 
 def get_data(options):
     [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-     bow_representations, text_tokenizer, inverse_word_index] = \
-        data_preprocessor.get_text_sequences(options.text_file_path, options.vocab_size)
+     bow_representations, text_tokenizer, inverse_word_index, cleaned_word_index] = \
+        data_processor.get_text_sequences(options.text_file_path, options.vocab_size)
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     logger.debug("padded_sequences: {}".format(padded_sequences.shape))
 
-    label_sequences, one_hot_labels, num_labels = \
-        data_preprocessor.get_labels(options.label_file_path)
+    [label_sequences, one_hot_labels, num_labels] = \
+        data_processor.get_labels(options.label_file_path)
     logger.debug("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
     return [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
             label_sequences, one_hot_labels, num_labels, bow_representations,
-            text_tokenizer, inverse_word_index]
-
-
-def get_average_label_embeddings(data_size, label_sequences, dump_embeddings):
-    with open(global_config.all_style_embeddings_path, 'rb') as pickle_file:
-        all_style_embeddings = pickle.load(pickle_file)
-    with open(global_config.all_content_embeddings_path, 'rb') as pickle_file:
-        all_content_embeddings = pickle.load(pickle_file)
-
-    style_embeddings = np.asarray(all_style_embeddings)
-    content_embeddings = np.asarray(all_content_embeddings)
-
-    style_embedding_map = dict()
-    content_embedding_map = dict()
-
-    for i in range(data_size - (data_size % model_config.batch_size)):
-        label = label_sequences[i][0]
-
-        if label not in style_embedding_map:
-            style_embedding_map[label] = list()
-        style_embedding_map[label].append(style_embeddings[i])
-
-        if label not in content_embedding_map:
-            content_embedding_map[label] = list()
-        content_embedding_map[label].append(content_embeddings[i])
-
-    if dump_embeddings:
-        tsne_interface.generate_plot_coordinates(
-            style_embedding_map, global_config.style_coordinates_path)
-        tsne_interface.generate_plot_coordinates(
-            content_embedding_map, global_config.content_coordinates_path)
-
-    with open(global_config.label_mapped_style_embeddings_path, 'wb') as pickle_file:
-        pickle.dump(style_embedding_map, pickle_file)
-    logger.debug("Pickled label mapped style embeddings")
-
-    average_label_embeddings = dict()
-    for label in style_embedding_map:
-        average_label_embeddings[label] = np.mean(style_embedding_map[label], axis=0)
-
-    return average_label_embeddings
+            text_tokenizer, inverse_word_index, cleaned_word_index]
 
 
 def flush_ground_truth_sentences(actual_sequences, start_index, final_index,
@@ -77,7 +36,7 @@ def flush_ground_truth_sentences(actual_sequences, start_index, final_index,
     actual_sequences = actual_sequences[start_index:final_index]
 
     actual_word_lists = \
-        [data_postprocessor.generate_words_from_indices(x, inverse_word_index)
+        [data_processor.generate_words_from_indices(x, inverse_word_index)
          for x in actual_sequences]
 
     actual_sentences = [" ".join(x) for x in actual_word_lists]
@@ -103,7 +62,7 @@ def execute_post_inference_operations(actual_word_lists, generated_sequences, fi
          for sequence in [x[:(y - 1)] for (x, y) in zip(generated_sequences, final_sequence_lengths)]]
 
     generated_word_lists = \
-        [data_postprocessor.generate_words_from_indices(x, inverse_word_index)
+        [data_processor.generate_words_from_indices(x, inverse_word_index)
          for x in trimmed_generated_sequences]
 
     # Evaluate model scores
@@ -149,7 +108,11 @@ def main(argv):
     parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
     parser.add_argument("--text-file-path", type=str, required=True)
     parser.add_argument("--label-file-path", type=str, required=True)
+    parser.add_argument("--validation-text-file-path", type=str, required=True)
+    parser.add_argument("--validation-label-file-path", type=str, required=True)
+    parser.add_argument("--validation-embeddings-file-path", type=str, required=True)
     parser.add_argument("--test-samples-file-path", type=str, required=False)
+    parser.add_argument("--classifier-checkpoint-dir", type=str, required=False)
     parser.add_argument("--dump-embeddings", action="store_true", default=False)
     parser.add_argument("--vocab-size", type=int, default=1000)
     parser.add_argument("--training-epochs", type=int, default=10)
@@ -165,13 +128,13 @@ def main(argv):
         sys.exit(0)
 
     global_config.training_epochs = options.training_epochs
+    global_config.experiment_timestamp = dt.now().strftime("%Y%m%d%H%M%S")
 
     # Retrieve all data
     logger.info("Reading data ...")
     [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
      label_sequences, one_hot_labels, num_labels, bow_representations,
-     text_tokenizer, inverse_word_index] \
-        = get_data(options)
+     text_tokenizer, inverse_word_index, cleaned_word_index] = get_data(options)
     data_size = padded_sequences.shape[0]
 
     encoder_embedding_matrix, decoder_embedding_matrix = \
@@ -188,7 +151,19 @@ def main(argv):
     if options.train_model:
         logger.info("Training model ...")
         sess = get_tensorflow_session()
-        network.train(sess, data_size)
+
+        [_, validation_actual_word_lists, validation_sequences, validation_sequence_lengths,
+         validation_bow_representations] = \
+            data_processor.get_test_sequences(
+                options.validation_text_file_path, word_index, text_tokenizer,
+                inverse_word_index, cleaned_word_index)
+        [_, validation_labels] = \
+            data_processor.get_test_labels(
+                options.validation_label_file_path)
+
+        network.train(sess, data_size, validation_sequences, validation_sequence_lengths,
+                      validation_bow_representations, validation_labels, inverse_word_index,
+                      validation_actual_word_lists, options)
         sess.close()
         logger.info("Training complete!")
 
@@ -197,11 +172,9 @@ def main(argv):
         offset = 0
         logger.debug("Sampling range: {}-{}".format(offset, (offset + samples_size)))
 
-        timestamped_file_suffix = dt.now().strftime("%Y%m%d%H%M%S")
-
         actual_word_lists = flush_ground_truth_sentences(
             actual_sequences, offset, offset + samples_size,
-            inverse_word_index, timestamped_file_suffix)
+            inverse_word_index, global_config.experiment_timestamp)
 
         # Restore model and run inference
         if options.infer_sequences:
@@ -212,28 +185,31 @@ def main(argv):
             sess.close()
             execute_post_inference_operations(
                 actual_word_lists, generated_sequences, final_sequence_lengths,
-                inverse_word_index, timestamped_file_suffix,
+                inverse_word_index, global_config.experiment_timestamp,
                 "reconstructed_sentences")
             logger.info("Inference complete!")
 
         # Enforce a particular style embedding and regenerate text
         if options.generate_novel_text:
 
-            test_samples_file_path = options.test_samples_file_path \
-                if options.test_samples_file_path else options.text_file_path
+            if options.evaluation_text_file_path:
+                evaluation_text_file_path = options.evaluation_text_file_path
+            else:
+                logger.info("No evaluation file provided. Evaluation on the training file")
+                evaluation_text_file_path = options.text_file_path
 
             logger.info("Generating novel text ...")
-            average_label_embeddings = get_average_label_embeddings(
+            average_label_embeddings = data_processor.get_average_label_embeddings(
                 data_size, label_sequences, options.dump_embeddings)
             for i in range(num_labels):
-                style_choice = i + 1
-                logger.info("Style chosen: {}".format(style_choice))
+                logger.info("Style chosen: {}".format(i))
 
-                style_embedding = np.asarray(average_label_embeddings[style_choice])
+                style_embedding = np.asarray(average_label_embeddings[i])
 
-                [actual_sequences, padded_sequences, text_sequence_lengths] = \
-                    data_preprocessor.get_test_sequences(
-                        test_samples_file_path, word_index, text_tokenizer)
+                [actual_sequences, _, padded_sequences, text_sequence_lengths, _] = \
+                    data_processor.get_test_sequences(
+                        evaluation_text_file_path, word_index, text_tokenizer,
+                        inverse_word_index, cleaned_word_index)
 
                 sess = get_tensorflow_session()
                 generated_sequences, final_sequence_lengths = \
@@ -243,13 +219,13 @@ def main(argv):
                 sess.close()
 
                 actual_word_lists = \
-                    [data_postprocessor.generate_words_from_indices(x, inverse_word_index)
+                    [data_processor.generate_words_from_indices(x, inverse_word_index)
                      for x in actual_sequences]
 
                 execute_post_inference_operations(
                     actual_word_lists, generated_sequences, final_sequence_lengths,
-                    inverse_word_index, timestamped_file_suffix,
-                    "novel_sentences_{}".format(style_choice))
+                    inverse_word_index, global_config.experiment_timestamp,
+                    "novel_sentences_{}".format(i))
 
                 logger.info("Generation complete!")
 

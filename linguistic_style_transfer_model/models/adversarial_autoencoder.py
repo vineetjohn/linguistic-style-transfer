@@ -1,4 +1,5 @@
 import logging
+import os
 import pickle
 from datetime import datetime as dt
 
@@ -6,6 +7,8 @@ import numpy as np
 import tensorflow as tf
 
 from linguistic_style_transfer_model.config import global_config, model_config
+from linguistic_style_transfer_model.evaluators import content_preservation, style_transfer
+from linguistic_style_transfer_model.utils import data_processor
 
 logger = logging.getLogger(global_config.logger_name)
 
@@ -365,7 +368,9 @@ class AdversarialAutoencoder:
 
         return ops
 
-    def train(self, sess, data_size):
+    def train(self, sess, data_size, validation_sequences, validation_sequence_lengths,
+              validation_bow_representations, validation_labels, inverse_word_index,
+              validation_actual_word_lists, options):
 
         writer = tf.summary.FileWriter(
             logdir="/tmp/tensorflow_logs/" + dt.now().strftime("%Y%m%d-%H%M%S") + "/",
@@ -376,8 +381,8 @@ class AdversarialAutoencoder:
         self.composite_loss = \
             self.reconstruction_loss \
             - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
-            + (self.style_prediction_loss * model_config.style_prediction_loss_weight) \
-            - (self.bow_prediction_loss * model_config.bow_prediction_loss_weight)
+            + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
+        # - (self.bow_prediction_loss * model_config.bow_prediction_loss_weight)
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
 
@@ -393,7 +398,7 @@ class AdversarialAutoencoder:
         adversarial_training_operation = None
         for i in range(model_config.adversarial_discriminator_iterations):
             adversarial_training_operation = adversarial_training_optimizer.minimize(
-                loss=self.adversarial_loss + self.bow_prediction_loss,
+                loss=self.adversarial_loss,
                 var_list=adversarial_training_variables)
 
         # optimize reconstruction
@@ -471,12 +476,86 @@ class AdversarialAutoencoder:
             with open(global_config.all_content_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_content_embeddings, pickle_file)
 
-            log_msg = "[R: {:.2f}, ACE: {:.2f}, AE: {:.2f}, " \
-                      "S: {:.2f}, BCE: {:.2f}, BE: {:.2f}], " \
+            log_msg = "[R: {:.2f}, ACE: {:.2f}, AE: {:.2f}, S: {:.2f}, BCE: {:.2f}, BE: {:.2f}], " \
                       "Epoch {}: {:.4f} "
             logger.info(log_msg.format(
                 reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
                 bow_representation_loss, bow_entropy, current_epoch, composite_loss))
+
+            if not current_epoch % global_config.validation_interval:
+
+                glove_model = content_preservation.load_glove_model(options.validation_embeddings_file_path)
+
+                for i in range(self.num_labels):
+
+                    label_embeddings = list()
+                    validation_sequences_to_transfer = list()
+                    validation_labels_to_transfer = list()
+                    validation_sequence_lengths_to_transfer = list()
+                    validation_bow_representations_to_transfer = list()
+
+                    for k in range(len(all_style_embeddings)):
+                        if shuffled_one_hot_labels[k].tolist().index(1) == i:
+                            label_embeddings.append(all_style_embeddings[k])
+                        else:
+                            validation_sequences_to_transfer.append(validation_sequences[k])
+                            validation_labels_to_transfer.append(validation_labels[k])
+                            validation_sequence_lengths_to_transfer.append(validation_sequence_lengths[k])
+                            validation_bow_representations_to_transfer.append(validation_bow_representations[k])
+
+                    style_embedding = np.median(np.asarray(label_embeddings), axis=0)
+
+                    conditioning_embedding = np.tile(A=style_embedding, reps=(model_config.batch_size, 1))
+
+                    validation_batches = len(label_embeddings) // model_config.batch_size
+                    validation_generated_sequences = list()
+                    validation_generated_sequence_lengths = list()
+                    for batch_number in range(validation_batches):
+                        (start_index, end_index) = self.get_batch_indices(
+                            offset=0, batch_number=batch_number, data_limit=len(label_embeddings))
+
+                        [validation_generated_sequences_batch, validation_sequence_lengths_batch] = \
+                            self.run_batch(
+                                sess, start_index, end_index,
+                                [self.inference_output, self.final_sequence_lengths],
+                                validation_sequences_to_transfer, validation_labels_to_transfer,
+                                validation_sequence_lengths_to_transfer,
+                                validation_bow_representations_to_transfer,
+                                conditioning_embedding, True, current_epoch)
+                        validation_generated_sequences.extend(validation_generated_sequences_batch)
+                        validation_generated_sequence_lengths.extend(validation_sequence_lengths_batch)
+
+                    padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
+                        validation_generated_sequences, maxlen=global_config.max_sequence_length, padding='post',
+                        truncating='post', value=self.word_index[global_config.eos_token])
+
+                    trimmed_generated_sequences = \
+                        [[index for index in sequence
+                          if index != global_config.predefined_word_index[global_config.eos_token]]
+                         for sequence in [x[:(y - 1)] for (x, y) in zip(
+                            validation_generated_sequences, validation_generated_sequence_lengths)]]
+
+                    generated_word_lists = \
+                        [data_processor.generate_words_from_indices(x, inverse_word_index)
+                         for x in trimmed_generated_sequences]
+
+                    generated_sentences = [" ".join(x) for x in generated_word_lists]
+
+                    output_file_path = "output/{}/validation_sentences_{}.txt".format(
+                        global_config.experiment_timestamp, i)
+                    os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+                    with open(output_file_path, 'w') as output_file:
+                        for sentence in generated_sentences:
+                            output_file.write(sentence + "\n")
+
+                    # one_hot_label = np.zeros(shape=self.num_labels, dtype=np.int32)
+                    # one_hot_label[i] = 1
+
+                    style_transfer.get_style_transfer_score(
+                        options.classifier_checkpoint_dir, padded_sequences, i)
+                    content_preservation_score = content_preservation.get_content_preservation_score(
+                        validation_actual_word_lists, generated_word_lists, glove_model)
+                    logger.info("content_preservation_score: {}".format(content_preservation_score))
 
         writer.close()
 

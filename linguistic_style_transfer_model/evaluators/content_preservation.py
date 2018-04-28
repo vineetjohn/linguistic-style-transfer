@@ -1,4 +1,5 @@
 import argparse
+import logging
 import sys
 
 import numpy as np
@@ -6,9 +7,8 @@ import tensorflow as tf
 from scipy.spatial.distance import cosine
 
 from linguistic_style_transfer_model.config import global_config
-from linguistic_style_transfer_model.utils import log_initializer
 
-logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
+logger = logging.getLogger(global_config.logger_name)
 
 
 def load_glove_model(glove_file):
@@ -24,8 +24,7 @@ def load_glove_model(glove_file):
     return model
 
 
-def get_sentence_embedding(sentence, model):
-    tokens = tf.keras.preprocessing.text.text_to_word_sequence(sentence)
+def get_sentence_embedding(tokens, model):
     embeddings = np.asarray([model[token] for token in tokens if token in model])
 
     min_embedding = np.min(embeddings, axis=0)
@@ -36,6 +35,39 @@ def get_sentence_embedding(sentence, model):
     return sentence_embedding
 
 
+def get_content_preservation_score(actual_word_lists, generated_word_lists, embedding_model):
+    cosine_distances = list()
+    skip_count = 0
+    for word_list_1, word_list_2 in zip(actual_word_lists, generated_word_lists):
+        try:
+            cosine_distance = 1 - cosine(
+                get_sentence_embedding(word_list_1, embedding_model),
+                get_sentence_embedding(word_list_2, embedding_model))
+            cosine_distances.append(cosine_distance)
+        except ValueError:
+            skip_count += 1
+            logger.debug("Skipped lines: {} :-: {}".format(word_list_1, word_list_2))
+
+    logger.info("{} lines skipped due to errors".format(skip_count))
+    mean_cosine_distance = np.mean(np.asarray(cosine_distances), axis=0)
+
+    return mean_cosine_distance
+
+
+def run_content_preservation_evaluator(source_file, target_file, embeddings_file):
+    glove_model = load_glove_model(embeddings_file)
+    actual_word_lists, generated_word_lists = list(), list()
+    with open(source_file) as source_file, open(target_file) as target_file:
+        for line_1, line_2 in zip(source_file, target_file):
+            actual_word_lists.append(tf.keras.preprocessing.text.text_to_word_sequence(line_1))
+            actual_word_lists.append(tf.keras.preprocessing.text.text_to_word_sequence(line_2))
+    del glove_model
+
+    content_preservation_score = get_content_preservation_score(
+        actual_word_lists, generated_word_lists, glove_model)
+    logger.info("Aggregate content preservation: {}".format(content_preservation_score))
+
+
 def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument("--embeddings-file-path", type=str, required=True)
@@ -43,26 +75,8 @@ def main(argv):
     parser.add_argument("--target-file-path", type=str, required=True)
 
     options = vars(parser.parse_args(args=argv))
-    glove_model = load_glove_model(options["embeddings_file_path"])
-
-    cosine_distances = list()
-    skip_count = 0
-    with \
-            open(options["source_file_path"]) as source_file, \
-            open(options["target_file_path"]) as target_file:
-        for line_tuple in zip(source_file, target_file):
-            line_1, line_2 = line_tuple
-            try:
-                cosine_distance = 1 - cosine(
-                    get_sentence_embedding(line_1, glove_model),
-                    get_sentence_embedding(line_2, glove_model))
-                cosine_distances.append(cosine_distance)
-            except ValueError:
-                skip_count += 1
-                logger.debug("Skipped lines: {} :-: {}".format(line_1, line_2))
-    logger.info("{} lines skipped due to errors".format(skip_count))
-    mean_cosine_distance = np.mean(np.asarray(cosine_distances), axis=0)
-    logger.info("Aggregate content preservation: {}".format(mean_cosine_distance))
+    run_content_preservation_evaluator(
+        options["source_file_path"], options["target_file_path"], options["embeddings_file_path"])
 
 
 if __name__ == "__main__":

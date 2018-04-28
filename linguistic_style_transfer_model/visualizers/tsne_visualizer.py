@@ -52,7 +52,7 @@ def main(argv):
 
     logger.info(args)
     if not args["label_file_path"]:
-        with open(global_config.label_names_path, 'rb') as pickle_file:
+        with open(global_config.index_to_label_dict_path, 'rb') as pickle_file:
             label_names = pickle.load(pickle_file)
         logger.info("label_names: {}".format(label_names))
 

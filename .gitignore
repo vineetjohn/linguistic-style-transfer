@@ -2,6 +2,7 @@
 logs/
 data/
 output/
+runs/
 saved-models/
 word-embeddings/
 tests/
