@@ -427,10 +427,7 @@ class AdversarialAutoencoder:
             all_style_embeddings = list()
             all_content_embeddings = list()
 
-            if current_epoch != global_config.training_epochs:
-                shuffle_indices = np.random.permutation(np.arange(data_size))
-            else:
-                shuffle_indices = np.arange(data_size)
+            shuffle_indices = np.random.permutation(np.arange(data_size))
 
             shuffled_padded_sequences = self.padded_sequences[shuffle_indices]
             shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
@@ -464,6 +461,12 @@ class AdversarialAutoencoder:
                         shuffled_text_sequence_lengths, shuffled_bow_representations,
                         None, False, current_epoch)
 
+                log_msg = "[R: {:.2f}, ACE: {:.2f}, AE: {:.2f}, S: {:.2f}, BCE: {:.2f}, BE: {:.2f}], " \
+                          "Epoch {}-{}: {:.4f} "
+                logger.info(log_msg.format(
+                    reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
+                    bow_representation_loss, bow_entropy, current_epoch, batch_number, composite_loss))
+
                 all_style_embeddings.extend(style_embeddings)
                 all_content_embeddings.extend(content_embedding)
 
@@ -475,14 +478,12 @@ class AdversarialAutoencoder:
                 pickle.dump(all_style_embeddings, pickle_file)
             with open(global_config.all_content_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_content_embeddings, pickle_file)
-
-            log_msg = "[R: {:.2f}, ACE: {:.2f}, AE: {:.2f}, S: {:.2f}, BCE: {:.2f}, BE: {:.2f}], " \
-                      "Epoch {}: {:.4f} "
-            logger.info(log_msg.format(
-                reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
-                bow_representation_loss, bow_entropy, current_epoch, composite_loss))
+            with open(global_config.all_shuffled_labels_path, 'wb') as pickle_file:
+                pickle.dump(shuffled_one_hot_labels, pickle_file)
 
             if not current_epoch % global_config.validation_interval:
+
+                logger.info("Running Validation {}:".format(current_epoch // global_config.validation_interval))
 
                 glove_model = content_preservation.load_glove_model(options.validation_embeddings_file_path)
 

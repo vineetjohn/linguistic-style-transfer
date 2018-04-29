@@ -194,6 +194,8 @@ def get_average_label_embeddings(data_size, label_sequences, dump_embeddings):
         all_style_embeddings = pickle.load(pickle_file)
     with open(global_config.all_content_embeddings_path, 'rb') as pickle_file:
         all_content_embeddings = pickle.load(pickle_file)
+    with open(global_config.all_shuffled_labels_path, 'rb') as pickle_file:
+        all_one_hot_labels = pickle.load(pickle_file)
 
     style_embeddings = np.asarray(all_style_embeddings)
     content_embeddings = np.asarray(all_content_embeddings)
@@ -202,14 +204,14 @@ def get_average_label_embeddings(data_size, label_sequences, dump_embeddings):
     content_embedding_map = dict()
 
     for i in range(data_size - (data_size % model_config.batch_size)):
-        label = label_sequences[i]
+        label = all_one_hot_labels[i].tolist().index(1)
 
         if label not in style_embedding_map:
             style_embedding_map[label] = list()
-        style_embedding_map[label].append(style_embeddings[i])
-
         if label not in content_embedding_map:
             content_embedding_map[label] = list()
+
+        style_embedding_map[label].append(style_embeddings[i])
         content_embedding_map[label].append(content_embeddings[i])
 
     if dump_embeddings:

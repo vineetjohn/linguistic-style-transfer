@@ -12,7 +12,7 @@ logger = logging.getLogger(global_config.logger_name)
 
 
 def load_glove_model(glove_file):
-    logger.info("Loading Glove Model")
+    logger.debug("Loading Glove Model")
     model = dict()
     with open(glove_file) as f:
         for line in f:
@@ -20,7 +20,7 @@ def load_glove_model(glove_file):
             word = split_line[0]
             embedding = np.array([float(val) for val in split_line[1:]])
             model[word] = embedding
-        logger.info("Done. {} words loaded!".format(len(model)))
+        logger.debug("Done. {} words loaded!".format(len(model)))
     return model
 
 
