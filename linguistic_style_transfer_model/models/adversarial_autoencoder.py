@@ -497,7 +497,9 @@ class AdversarialAutoencoder:
                     for k in range(len(all_style_embeddings)):
                         if shuffled_one_hot_labels[k].tolist().index(1) == i:
                             label_embeddings.append(all_style_embeddings[k])
-                        else:
+
+                    for k in range(len(validation_sequences)):
+                        if validation_labels[k].tolist().index(1) != i:
                             validation_sequences_to_transfer.append(validation_sequences[k])
                             validation_labels_to_transfer.append(validation_labels[k])
                             validation_sequence_lengths_to_transfer.append(validation_sequence_lengths[k])
@@ -507,12 +509,12 @@ class AdversarialAutoencoder:
 
                     conditioning_embedding = np.tile(A=style_embedding, reps=(model_config.batch_size, 1))
 
-                    validation_batches = len(label_embeddings) // model_config.batch_size
+                    validation_batches = len(validation_sequences_to_transfer) // model_config.batch_size
                     validation_generated_sequences = list()
                     validation_generated_sequence_lengths = list()
                     for batch_number in range(validation_batches):
                         (start_index, end_index) = self.get_batch_indices(
-                            offset=0, batch_number=batch_number, data_limit=len(label_embeddings))
+                            offset=0, batch_number=batch_number, data_limit=len(validation_sequences_to_transfer))
 
                         [validation_generated_sequences_batch, validation_sequence_lengths_batch] = \
                             self.run_batch(
@@ -548,11 +550,11 @@ class AdversarialAutoencoder:
                         for sentence in generated_sentences:
                             output_file.write(sentence + "\n")
 
-                    # one_hot_label = np.zeros(shape=self.num_labels, dtype=np.int32)
-                    # one_hot_label[i] = 1
+                    [style_transfer_score, confusion_matrix] = style_transfer.get_style_transfer_score(
+                        options.classifier_checkpoint_dir, output_file_path, i)
+                    logger.info("style_transfer_score: {}".format(style_transfer_score))
+                    logger.info("confusion_matrix: {}".format(confusion_matrix))
 
-                    style_transfer.get_style_transfer_score(
-                        options.classifier_checkpoint_dir, padded_sequences, i)
                     content_preservation_score = content_preservation.get_content_preservation_score(
                         validation_actual_word_lists, generated_word_lists, glove_model)
                     logger.info("content_preservation_score: {}".format(content_preservation_score))

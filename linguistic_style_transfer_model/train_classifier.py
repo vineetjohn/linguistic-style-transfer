@@ -1,6 +1,5 @@
 import argparse
 import datetime
-import logging
 import os
 import pickle
 import sys
@@ -23,8 +22,11 @@ def train_classifier_model(options):
     [word_index, _, x, _, _, text_tokenizer, _, _] = \
         data_processor.get_text_sequences(options['text_file_path'], options['vocab_size'])
 
+    with open(global_config.classifier_vocab_size_save_path, 'wb') as pickle_file:
+        pickle.dump(global_config.vocab_size, pickle_file)
+
     with open(global_config.classifier_text_tokenizer_path, 'wb') as pickle_file:
-        pickle.dump(word_index, pickle_file)
+        pickle.dump(text_tokenizer, pickle_file)
 
     x = np.asarray(x)
 
@@ -35,7 +37,7 @@ def train_classifier_model(options):
     y_shuffled = y[shuffle_indices]
 
     # Split train/test set
-    dev_sample_index = -1 * int(0.1 * float(len(y)))
+    dev_sample_index = -1 * int(0.01 * float(len(y)))
     x_train, x_dev = x_shuffled[:dev_sample_index], x_shuffled[dev_sample_index:]
     y_train, y_dev = y_shuffled[:dev_sample_index], y_shuffled[dev_sample_index:]
 

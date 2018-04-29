@@ -1,9 +1,11 @@
 import argparse
 import logging
+import pickle
 import sys
 
 import numpy as np
 import tensorflow as tf
+from sklearn import metrics
 
 from linguistic_style_transfer_model.config import global_config, model_config
 from linguistic_style_transfer_model.utils import data_processor
@@ -11,7 +13,23 @@ from linguistic_style_transfer_model.utils import data_processor
 logger = logging.getLogger(global_config.logger_name)
 
 
-def get_style_transfer_score(checkpoint_dir, text_sequences, label):
+def get_style_transfer_score(checkpoint_dir, text_sequences_file_path, label):
+    with open(global_config.classifier_vocab_save_path, 'rb') as pickle_file:
+        word_index = pickle.load(pickle_file)
+    with open(global_config.classifier_text_tokenizer_path, 'rb') as pickle_file:
+        text_tokenizer = pickle.load(pickle_file)
+    with open(global_config.classifier_vocab_size_save_path, 'rb') as pickle_file:
+        vocab_size = pickle.load(pickle_file)
+
+    with open(text_sequences_file_path) as text_file:
+        actual_sequences = text_tokenizer.texts_to_sequences(text_file)
+    trimmed_sequences = [
+        [x if x < vocab_size else word_index[global_config.unk_token] for x in sequence]
+        for sequence in actual_sequences]
+    text_sequences = tf.keras.preprocessing.sequence.pad_sequences(
+        trimmed_sequences, maxlen=global_config.max_sequence_length, padding='post',
+        truncating='post', value=word_index[global_config.eos_token])
+
     x_test = np.asarray(text_sequences)
     y_test = np.asarray([label] * len(text_sequences))
 
@@ -48,10 +66,13 @@ def get_style_transfer_score(checkpoint_dir, text_sequences, label):
     # Print accuracy if y_test is defined
     if y_test is not None:
         correct_predictions = float(sum(all_predictions == y_test))
-        logger.info("Total number of test examples: {}".format(len(y_test)))
-        logger.info("Accuracy: {:g}".format(correct_predictions / float(len(y_test))))
-        # logger.info("F1-Score: {:g}".format(f1_score(y_true=y_test, y_pred=all_predictions)))
-        # logger.info("Confusion matrix: {}".format(confusion_matrix(y_true=y_test, y_pred=all_predictions)))
+        accuracy = correct_predictions / float(len(y_test))
+        # f1_score = metrics.f1_score(y_true=y_test, y_pred=all_predictions)
+        confusion_matrix = metrics.confusion_matrix(y_true=y_test, y_pred=all_predictions)
+        return [accuracy, confusion_matrix]
+
+    logger.info("Nothing to evaluate")
+    return 0.0
 
 
 def main(argv):

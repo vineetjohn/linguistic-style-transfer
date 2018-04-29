@@ -41,5 +41,6 @@ bleu_score_weights = {
     4: (0.25, 0.25, 0.25, 0.25),
 }
 
+classifier_vocab_size_save_path = save_directory + "/classifier_vocab_size_save_path.pkl"
 classifier_vocab_save_path = save_directory + "/classifier_vocab.pkl"
 classifier_text_tokenizer_path = save_directory + "/classifier_text_tokenizer.pkl"
