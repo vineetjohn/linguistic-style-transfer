@@ -7,6 +7,7 @@ import tensorflow as tf
 from scipy.spatial.distance import cosine
 
 from linguistic_style_transfer_model.config import global_config
+from linguistic_style_transfer_model.utils import log_initializer
 
 logger = logging.getLogger(global_config.logger_name)
 
@@ -60,8 +61,7 @@ def run_content_preservation_evaluator(source_file, target_file, embeddings_file
     with open(source_file) as source_file, open(target_file) as target_file:
         for line_1, line_2 in zip(source_file, target_file):
             actual_word_lists.append(tf.keras.preprocessing.text.text_to_word_sequence(line_1))
-            actual_word_lists.append(tf.keras.preprocessing.text.text_to_word_sequence(line_2))
-    del glove_model
+            generated_word_lists.append(tf.keras.preprocessing.text.text_to_word_sequence(line_2))
 
     content_preservation_score = get_content_preservation_score(
         actual_word_lists, generated_word_lists, glove_model)
@@ -73,6 +73,9 @@ def main(argv):
     parser.add_argument("--embeddings-file-path", type=str, required=True)
     parser.add_argument("--source-file-path", type=str, required=True)
     parser.add_argument("--target-file-path", type=str, required=True)
+
+    global logger
+    logger = log_initializer.setup_custom_logger(global_config.logger_name, "DEBUG")
 
     options = vars(parser.parse_args(args=argv))
     run_content_preservation_evaluator(

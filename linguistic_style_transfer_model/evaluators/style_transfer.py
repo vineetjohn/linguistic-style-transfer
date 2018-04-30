@@ -8,12 +8,12 @@ import tensorflow as tf
 from sklearn import metrics
 
 from linguistic_style_transfer_model.config import global_config, model_config
-from linguistic_style_transfer_model.utils import data_processor
+from linguistic_style_transfer_model.utils import data_processor, log_initializer
 
 logger = logging.getLogger(global_config.logger_name)
 
 
-def get_style_transfer_score(checkpoint_dir, text_sequences_file_path, label):
+def get_style_transfer_score(checkpoint_dir, text_file_path, label):
     with open(global_config.classifier_vocab_save_path, 'rb') as pickle_file:
         word_index = pickle.load(pickle_file)
     with open(global_config.classifier_text_tokenizer_path, 'rb') as pickle_file:
@@ -21,7 +21,7 @@ def get_style_transfer_score(checkpoint_dir, text_sequences_file_path, label):
     with open(global_config.classifier_vocab_size_save_path, 'rb') as pickle_file:
         vocab_size = pickle.load(pickle_file)
 
-    with open(text_sequences_file_path) as text_file:
+    with open(text_file_path) as text_file:
         actual_sequences = text_tokenizer.texts_to_sequences(text_file)
     trimmed_sequences = [
         [x if x < vocab_size else word_index[global_config.unk_token] for x in sequence]
@@ -78,11 +78,19 @@ def get_style_transfer_score(checkpoint_dir, text_sequences_file_path, label):
 def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument("--checkpoint-dir", type=str, required=True)
-    args_namespace = parser.parse_args(argv[1:])
+    parser.add_argument("--text-file-path", type=str, required=True)
+    parser.add_argument("--label-index", type=int, required=True)
+    args_namespace = parser.parse_args(argv)
     command_line_args = vars(args_namespace)
-    checkpoint_dir = command_line_args['checkpoint_dir']
 
-    get_style_transfer_score(checkpoint_dir, None, None)
+    global logger
+    logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
+
+    [style_transfer_score, confusion_matrix] = \
+        get_style_transfer_score(command_line_args['checkpoint_dir'], command_line_args['text_file_path'],
+                                 command_line_args['label_index'])
+    logger.info("style_transfer_score: {}".format(style_transfer_score))
+    logger.info("confusion_matrix: {}".format(confusion_matrix))
 
 
 if __name__ == '__main__':
