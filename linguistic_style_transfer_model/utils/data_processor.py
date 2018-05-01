@@ -226,7 +226,7 @@ def get_average_label_embeddings(data_size, label_sequences, dump_embeddings):
 
     average_label_embeddings = dict()
     for label in style_embedding_map:
-        average_label_embeddings[label] = np.median(style_embedding_map[label], axis=0)
+        average_label_embeddings[label] = np.mean(style_embedding_map[label], axis=0)
 
     return average_label_embeddings
 

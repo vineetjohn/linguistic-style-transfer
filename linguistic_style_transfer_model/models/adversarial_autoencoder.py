@@ -506,7 +506,7 @@ class AdversarialAutoencoder:
                             validation_sequence_lengths_to_transfer.append(validation_sequence_lengths[k])
                             validation_bow_representations_to_transfer.append(validation_bow_representations[k])
 
-                    style_embedding = np.median(np.asarray(label_embeddings), axis=0)
+                    style_embedding = np.mean(np.asarray(label_embeddings), axis=0)
 
                     conditioning_embedding = np.tile(A=style_embedding, reps=(model_config.batch_size, 1))
 
