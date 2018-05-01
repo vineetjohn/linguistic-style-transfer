@@ -1,4 +1,5 @@
 import re
+from random import shuffle
 
 positive_reviews_file_path = "data/amazon-reviews/pos.txt"
 negative_reviews_file_path = "data/amazon-reviews/neg.txt"
@@ -42,10 +43,9 @@ with open(positive_reviews_file_path, 'r') as positive_reviews_file, \
     for positive_review, negative_review in zip(positive_reviews_file, negative_reviews_file):
         collected_positive_reviews.append(clean_text(positive_review))
         collected_negative_reviews.append(clean_text(negative_review))
-        count += 1
-        if count == total_reviews:
-            print("Collected {} reviews".format(count))
-            break
+
+shuffle(collected_positive_reviews)
+shuffle(collected_negative_reviews)
 
 
 def write_file(text_file_path, labels_file_path, positive_reviews, negative_reviews):
@@ -67,6 +67,7 @@ write_file(val_text_file_path, val_labels_file_path, collected_positive_reviews[
            collected_negative_reviews[train_size:train_size + val_size])
 print("Validation files saved")
 
-write_file(test_text_file_path, test_labels_file_path, collected_positive_reviews[train_size + val_size:],
-           collected_negative_reviews[train_size + val_size:])
+write_file(test_text_file_path, test_labels_file_path,
+           collected_positive_reviews[train_size + val_size:total_reviews],
+           collected_negative_reviews[train_size + val_size:total_reviews])
 print("Testing files saved")
