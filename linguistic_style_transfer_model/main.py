@@ -111,7 +111,7 @@ def main(argv):
     parser.add_argument("--validation-text-file-path", type=str, required=True)
     parser.add_argument("--validation-label-file-path", type=str, required=True)
     parser.add_argument("--validation-embeddings-file-path", type=str, required=True)
-    parser.add_argument("--evaluation-text-file_path", type=str, required=False)
+    parser.add_argument("--evaluation-text-file-path", type=str, required=False)
     parser.add_argument("--classifier-checkpoint-dir", type=str, required=False)
     parser.add_argument("--dump-embeddings", action="store_true", default=False)
     parser.add_argument("--vocab-size", type=int, default=1000)

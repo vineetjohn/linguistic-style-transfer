@@ -18,7 +18,7 @@ export TF_CPP_MIN_LOG_LEVEL=1 && \
 --validation-text-file-path ${VALIDATION_TEXT_FILE_PATH} \
 --validation-label-file-path ${VALIDATION_LABEL_FILE_PATH} \
 --validation-embeddings-file-path ${VALIDATION_WORD_EMBEDDINGS_PATH} \
---evaluation-text-file_path ${TEST_TEXT_FILE_PATH} \
+--evaluation-text-file-path ${TEST_TEXT_FILE_PATH} \
 --classifier-checkpoint-dir ${CHECKPOINT_DIR_PATH} \
 --use-pretrained-embeddings --train-model --generate-novel-text --dump-embeddings \
 --training-epochs ${NUM_EPOCHS} --vocab-size ${VOCAB_SIZE} --logging-level="DEBUG"
