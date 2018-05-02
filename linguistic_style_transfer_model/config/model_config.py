@@ -20,7 +20,6 @@ adversarial_discriminator_learning_rate = 0.0001
 # loss weights
 adversarial_discriminator_loss_weight = 1
 style_prediction_loss_weight = 1
-bow_prediction_loss_weight = 0.1
 
 # training iterations
 adversarial_discriminator_iterations = 3
@@ -28,9 +27,6 @@ autoencoder_iterations = 1
 
 # noise settings
 adversarial_discriminator_noise_stddev = 0.1
-
-# annealing
-autoencoder_annealment_min_epoch = 50
 
 # noise
 epsilon = 1e-8

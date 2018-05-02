@@ -17,7 +17,7 @@ logger = None
 
 def get_data(options):
     [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-     bow_representations, text_tokenizer, inverse_word_index, cleaned_word_index] = \
+     text_tokenizer, inverse_word_index] = \
         data_processor.get_text_sequences(options.text_file_path, options.vocab_size)
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     logger.debug("padded_sequences: {}".format(padded_sequences.shape))
@@ -27,8 +27,8 @@ def get_data(options):
     logger.debug("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
     return [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-            label_sequences, one_hot_labels, num_labels, bow_representations,
-            text_tokenizer, inverse_word_index, cleaned_word_index]
+            label_sequences, one_hot_labels, num_labels,
+            text_tokenizer, inverse_word_index]
 
 
 def flush_ground_truth_sentences(actual_sequences, start_index, final_index,
@@ -133,8 +133,8 @@ def main(argv):
     # Retrieve all data
     logger.info("Reading data ...")
     [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-     label_sequences, one_hot_labels, num_labels, bow_representations,
-     text_tokenizer, inverse_word_index, cleaned_word_index] = get_data(options)
+     label_sequences, one_hot_labels, num_labels,
+     text_tokenizer, inverse_word_index] = get_data(options)
     data_size = padded_sequences.shape[0]
 
     encoder_embedding_matrix, decoder_embedding_matrix = \
@@ -144,7 +144,7 @@ def main(argv):
     logger.info("Building model architecture ...")
     network = adversarial_autoencoder.AdversarialAutoencoder(
         padded_sequences, text_sequence_lengths, one_hot_labels, num_labels,
-        word_index, encoder_embedding_matrix, decoder_embedding_matrix, bow_representations)
+        word_index, encoder_embedding_matrix, decoder_embedding_matrix)
     network.build_model()
 
     # Train and save model
@@ -152,18 +152,15 @@ def main(argv):
         logger.info("Training model ...")
         sess = get_tensorflow_session()
 
-        [_, validation_actual_word_lists, validation_sequences, validation_sequence_lengths,
-         validation_bow_representations] = \
+        [_, validation_actual_word_lists, validation_sequences, validation_sequence_lengths] = \
             data_processor.get_test_sequences(
-                options.validation_text_file_path, word_index, text_tokenizer,
-                inverse_word_index, cleaned_word_index)
+                options.validation_text_file_path, word_index, text_tokenizer, inverse_word_index)
         [_, validation_labels] = \
             data_processor.get_test_labels(
                 options.validation_label_file_path)
 
         network.train(sess, data_size, validation_sequences, validation_sequence_lengths,
-                      validation_bow_representations, validation_labels, inverse_word_index,
-                      validation_actual_word_lists, options)
+                      validation_labels, inverse_word_index, validation_actual_word_lists, options)
         sess.close()
         logger.info("Training complete!")
 
@@ -206,10 +203,10 @@ def main(argv):
 
                 style_embedding = np.asarray(average_label_embeddings[i])
 
-                [actual_sequences, _, padded_sequences, text_sequence_lengths, _] = \
+                [actual_sequences, _, padded_sequences, text_sequence_lengths] = \
                     data_processor.get_test_sequences(
                         evaluation_text_file_path, word_index, text_tokenizer,
-                        inverse_word_index, cleaned_word_index)
+                        inverse_word_index)
 
                 sess = get_tensorflow_session()
                 generated_sequences, final_sequence_lengths = \

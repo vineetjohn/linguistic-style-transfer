@@ -19,7 +19,7 @@ def train_classifier_model(options):
     # Load data
     logger.info("Loading data...")
 
-    [word_index, _, x, _, _, text_tokenizer, _, _] = \
+    [word_index, _, x, _, text_tokenizer, _] = \
         data_processor.get_text_sequences(options['text_file_path'], options['vocab_size'])
 
     with open(global_config.classifier_vocab_size_save_path, 'wb') as pickle_file:

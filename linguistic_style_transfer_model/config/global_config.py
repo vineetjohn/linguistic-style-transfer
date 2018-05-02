@@ -2,7 +2,6 @@ logger_name = "linguistic_style_transfer"
 
 experiment_timestamp = None
 vocab_size = None
-bow_size = None
 training_epochs = None
 
 embedding_size = 300

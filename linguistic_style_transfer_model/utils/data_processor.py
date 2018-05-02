@@ -3,46 +3,11 @@ import pickle
 
 import numpy as np
 import tensorflow as tf
-from nltk.corpus import sentiwordnet as swn
-from nltk.corpus import stopwords
 
 from linguistic_style_transfer_model.config import global_config, model_config
 from linguistic_style_transfer_model.utils import tsne_interface
 
 logger = logging.getLogger(global_config.logger_name)
-
-
-def get_cleaned_word_index(word_index):
-    english_stopwords = set(stopwords.words('english'))
-
-    def is_sentiment_word(word_to_test):
-        synsetlist = list(swn.senti_synsets(word_to_test))
-        return not synsetlist or synsetlist[0].pos_score() != synsetlist[0].neg_score()
-
-    cleaned_word_index = dict()
-    index = 0
-    for word in word_index:
-        if word_index[word] > 2 and word not in english_stopwords and not is_sentiment_word(word):
-            cleaned_word_index[word] = index
-            index += 1
-
-    del english_stopwords
-
-    global_config.bow_size = len(cleaned_word_index)
-
-    return cleaned_word_index
-
-
-def get_bow_representation(index_sequence, cleaned_word_index, inverse_word_index):
-    bow_representation = np.zeros(shape=len(cleaned_word_index), dtype=np.int32)
-
-    for index in index_sequence:
-        if inverse_word_index[index] in cleaned_word_index:
-            bow_representation[cleaned_word_index[inverse_word_index[index]]] = 1
-
-    # bow_representation = np.divide(bow_representation, len(index_sequence))
-
-    return bow_representation
 
 
 def get_text_sequences(text_file_path, vocab_size):
@@ -71,10 +36,6 @@ def get_text_sequences(text_file_path, vocab_size):
         for sequence in actual_sequences]
     inverse_word_index = {v: k for k, v in word_index.items()}
 
-    cleaned_word_index = get_cleaned_word_index(word_index)
-    bow_representations = np.asarray([
-        get_bow_representation(x, cleaned_word_index, inverse_word_index) for x in trimmed_sequences])
-
     padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
         trimmed_sequences, maxlen=global_config.max_sequence_length, padding='post',
         truncating='post', value=word_index[global_config.eos_token])
@@ -84,10 +45,10 @@ def get_text_sequences(text_file_path, vocab_size):
          else x + 1 for x in text_sequence_lengths])  # x + 1 to accomodate a single EOS token
 
     return [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-            bow_representations, text_tokenizer, inverse_word_index, cleaned_word_index]
+            text_tokenizer, inverse_word_index]
 
 
-def get_test_sequences(text_file_path, word_index, text_tokenizer, inverse_word_index, cleaned_word_index):
+def get_test_sequences(text_file_path, word_index, text_tokenizer, inverse_word_index):
     with open(text_file_path) as text_file:
         actual_sequences = text_tokenizer.texts_to_sequences(text_file)
 
@@ -110,10 +71,7 @@ def get_test_sequences(text_file_path, word_index, text_tokenizer, inverse_word_
         [global_config.max_sequence_length if x >= global_config.max_sequence_length
          else x + 1 for x in text_sequence_lengths])  # x + 1 to accomodate a single EOS token
 
-    bow_representations = np.asarray([
-        get_bow_representation(x, cleaned_word_index, inverse_word_index) for x in trimmed_sequences])
-
-    return [actual_sequences, actual_word_lists, padded_sequences, text_sequence_lengths, bow_representations]
+    return [actual_sequences, actual_word_lists, padded_sequences, text_sequence_lengths]
 
 
 def get_labels(label_file_path):

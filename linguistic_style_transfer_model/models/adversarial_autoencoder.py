@@ -16,7 +16,7 @@ logger = logging.getLogger(global_config.logger_name)
 class AdversarialAutoencoder:
 
     def __init__(self, padded_sequences, text_sequence_lengths, one_hot_labels, num_labels,
-                 word_index, encoder_embedding_matrix, decoder_embedding_matrix, bow_representations):
+                 word_index, encoder_embedding_matrix, decoder_embedding_matrix):
         self.padded_sequences = padded_sequences
         self.text_sequence_lengths = text_sequence_lengths
         self.one_hot_labels = one_hot_labels
@@ -24,7 +24,6 @@ class AdversarialAutoencoder:
         self.word_index = word_index
         self.encoder_embedding_matrix = encoder_embedding_matrix
         self.decoder_embedding_matrix = decoder_embedding_matrix
-        self.bow_representations = bow_representations
 
     def get_sentence_embedding(self, encoder_embedded_sequence):
         scope_name = "sentence_embedding"
@@ -74,17 +73,13 @@ class AdversarialAutoencoder:
         noise = tf.random_normal(shape=tf.shape(input_layer), mean=0.0, stddev=std, dtype=tf.float32)
         return input_layer + noise
 
-    def get_style_label_and_bow_prediction(self, style_embedding):
+    def get_style_label_prediction(self, style_embedding):
 
         style_label_prediction = tf.layers.dense(
             inputs=style_embedding, units=self.num_labels,
             activation=tf.nn.softmax, name="style_label_prediction")
 
-        bow_prediction = tf.layers.dense(
-            inputs=style_embedding, units=global_config.bow_size,
-            activation=tf.nn.sigmoid, name="bow_prediction")
-
-        return [style_label_prediction, bow_prediction]
+        return style_label_prediction
 
     def get_adversarial_label_prediction(self, content_embedding):
 
@@ -147,17 +142,6 @@ class AdversarialAutoencoder:
         return [training_decoder_output.rnn_output, inference_decoder_output.sample_id,
                 final_sequence_lengths]
 
-    def get_reconstruction_weight(self, epoch):
-        min_epoch = tf.constant(value=model_config.autoencoder_annealment_min_epoch, dtype=tf.int32)
-        max_epoch = tf.constant(value=global_config.training_epochs, dtype=tf.int32)
-
-        reconstruction_weight = tf.divide(
-            x=tf.maximum(x=(epoch - min_epoch), y=tf.constant(0)),
-            y=max_epoch - min_epoch)
-        reconstruction_weight = tf.cast(reconstruction_weight, tf.float32)
-
-        return reconstruction_weight
-
     def build_model(self):
 
         # model inputs
@@ -170,11 +154,6 @@ class AdversarialAutoencoder:
             dtype=tf.float32, shape=[model_config.batch_size, self.num_labels],
             name="input_label")
         logger.debug("input_label: {}".format(self.input_label))
-
-        self.input_bow_representations = tf.placeholder(
-            dtype=tf.float32, shape=[model_config.batch_size, global_config.bow_size],
-            name="input_bow_representations")
-        logger.debug("input_bow_representations: {}".format(self.input_bow_representations))
 
         self.sequence_lengths = tf.placeholder(
             dtype=tf.int32, shape=[model_config.batch_size],
@@ -193,9 +172,6 @@ class AdversarialAutoencoder:
 
         self.epoch = tf.placeholder(dtype=tf.int32, shape=(), name="epoch")
         logger.debug("epoch: {}".format(self.epoch))
-
-        self.reconstruction_weight = self.get_reconstruction_weight(self.epoch)
-        logger.debug("reconstruction_weight: {}".format(self.reconstruction_weight))
 
         decoder_input = tf.concat(
             values=[
@@ -285,23 +261,13 @@ class AdversarialAutoencoder:
 
         # style prediction loss
         with tf.name_scope('style_prediction_loss'):
-            [style_label_prediction, bow_prediction] = \
-                self.get_style_label_and_bow_prediction(self.style_embedding)
+            style_label_prediction = \
+                self.get_style_label_prediction(self.style_embedding)
             logger.debug("style_label_prediction: {}".format(style_label_prediction))
-            logger.debug("bow_prediction: {}".format(bow_prediction))
 
             self.style_prediction_loss = tf.losses.softmax_cross_entropy(
                 onehot_labels=self.input_label, logits=style_label_prediction, label_smoothing=0.1)
             logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
-
-            self.bow_prediction_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_bow_representations, logits=bow_prediction, label_smoothing=0.1)
-            logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
-
-            self.bow_entropy = tf.reduce_mean(
-                input_tensor=tf.reduce_sum(
-                    input_tensor=-bow_prediction * tf.log(bow_prediction + model_config.epsilon), axis=1))
-            logger.debug("bow_entropy: {}".format(self.bow_entropy))
 
         # reconstruction loss
         with tf.name_scope('reconstruction_loss'):
@@ -331,7 +297,6 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
         tf.summary.scalar(tensor=self.style_prediction_loss, name="style_prediction_loss_summary")
         tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
-        tf.summary.scalar(tensor=self.bow_prediction_loss, name="bow_prediction_loss_summary")
 
     def get_batch_indices(self, offset, batch_number, data_limit):
 
@@ -342,7 +307,7 @@ class AdversarialAutoencoder:
         return start_index, end_index
 
     def run_batch(self, sess, start_index, end_index, fetches, padded_sequences,
-                  one_hot_labels, text_sequence_lengths, bow_representations,
+                  one_hot_labels, text_sequence_lengths,
                   conditioning_embedding, conditioned_generation_mode, current_epoch):
 
         if not conditioned_generation_mode:
@@ -356,7 +321,6 @@ class AdversarialAutoencoder:
                 self.input_sequence: padded_sequences[start_index: end_index],
                 self.input_label: one_hot_labels[start_index: end_index],
                 self.sequence_lengths: text_sequence_lengths[start_index: end_index],
-                self.input_bow_representations: bow_representations[start_index: end_index],
                 self.conditioned_generation_mode: conditioned_generation_mode,
                 self.conditioning_embedding: conditioning_embedding,
                 self.epoch: current_epoch
@@ -365,8 +329,7 @@ class AdversarialAutoencoder:
         return ops
 
     def train(self, sess, data_size, validation_sequences, validation_sequence_lengths,
-              validation_bow_representations, validation_labels, inverse_word_index,
-              validation_actual_word_lists, options):
+              validation_labels, inverse_word_index, validation_actual_word_lists, options):
 
         writer = tf.summary.FileWriter(
             logdir="/tmp/tensorflow_logs/" + dt.now().strftime("%Y%m%d-%H%M%S") + "/",
@@ -378,11 +341,10 @@ class AdversarialAutoencoder:
             self.reconstruction_loss \
             - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
             + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
-        # - (self.bow_prediction_loss * model_config.bow_prediction_loss_weight)
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
 
-        adversarial_variable_labels = ["adversarial_label_prediction", "bow_prediction"]
+        adversarial_variable_labels = ["adversarial_label_prediction"]
 
         # optimize adversarial classification
         adversarial_training_optimizer = tf.train.RMSPropOptimizer(
@@ -428,7 +390,6 @@ class AdversarialAutoencoder:
             shuffled_padded_sequences = self.padded_sequences[shuffle_indices]
             shuffled_one_hot_labels = self.one_hot_labels[shuffle_indices]
             shuffled_text_sequence_lengths = self.text_sequence_lengths[shuffle_indices]
-            shuffled_bow_representations = self.bow_representations[shuffle_indices]
 
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
@@ -441,27 +402,24 @@ class AdversarialAutoencoder:
                      self.adversarial_loss,
                      self.adversarial_entropy,
                      self.style_prediction_loss,
-                     self.bow_prediction_loss,
-                     self.bow_entropy,
                      self.composite_loss,
                      self.style_embedding,
                      self.content_embedding,
                      self.all_summaries]
 
                 [_, _, reconstruction_loss, adversarial_loss, adversarial_entropy,
-                 style_loss, bow_representation_loss, bow_entropy, composite_loss,
+                 style_loss, composite_loss,
                  style_embeddings, content_embedding, all_summaries] = \
                     self.run_batch(
                         sess, start_index, end_index, fetches,
                         shuffled_padded_sequences, shuffled_one_hot_labels,
-                        shuffled_text_sequence_lengths, shuffled_bow_representations,
-                        None, False, current_epoch)
+                        shuffled_text_sequence_lengths, None, False, current_epoch)
 
-                log_msg = "[R: {:.2f}, ACE: {:.2f}, AE: {:.2f}, S: {:.2f}, BCE: {:.2f}, BE: {:.2f}], " \
+                log_msg = "[R: {:.2f}, ACE: {:.2f}, AE: {:.2f}, S: {:.2f}], " \
                           "Epoch {}-{}: {:.4f} "
                 logger.info(log_msg.format(
                     reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
-                    bow_representation_loss, bow_entropy, current_epoch, batch_number, composite_loss))
+                    current_epoch, batch_number, composite_loss))
 
                 all_style_embeddings.extend(style_embeddings)
                 all_content_embeddings.extend(content_embedding)
@@ -489,7 +447,6 @@ class AdversarialAutoencoder:
                     validation_sequences_to_transfer = list()
                     validation_labels_to_transfer = list()
                     validation_sequence_lengths_to_transfer = list()
-                    validation_bow_representations_to_transfer = list()
 
                     for k in range(len(all_style_embeddings)):
                         if shuffled_one_hot_labels[k].tolist().index(1) == i:
@@ -500,7 +457,6 @@ class AdversarialAutoencoder:
                             validation_sequences_to_transfer.append(validation_sequences[k])
                             validation_labels_to_transfer.append(validation_labels[k])
                             validation_sequence_lengths_to_transfer.append(validation_sequence_lengths[k])
-                            validation_bow_representations_to_transfer.append(validation_bow_representations[k])
 
                     style_embedding = np.mean(np.asarray(label_embeddings), axis=0)
 
@@ -509,9 +465,10 @@ class AdversarialAutoencoder:
                     validation_batches = len(validation_sequences_to_transfer) // model_config.batch_size
                     validation_generated_sequences = list()
                     validation_generated_sequence_lengths = list()
-                    for batch_number in range(validation_batches):
+                    for val_batch_number in range(validation_batches):
                         (start_index, end_index) = self.get_batch_indices(
-                            offset=0, batch_number=batch_number, data_limit=len(validation_sequences_to_transfer))
+                            offset=0, batch_number=val_batch_number,
+                            data_limit=len(validation_sequences_to_transfer))
 
                         [validation_generated_sequences_batch, validation_sequence_lengths_batch] = \
                             self.run_batch(
@@ -519,7 +476,6 @@ class AdversarialAutoencoder:
                                 [self.inference_output, self.final_sequence_lengths],
                                 validation_sequences_to_transfer, validation_labels_to_transfer,
                                 validation_sequence_lengths_to_transfer,
-                                validation_bow_representations_to_transfer,
                                 conditioning_embedding, True, current_epoch)
                         validation_generated_sequences.extend(validation_generated_sequences_batch)
                         validation_generated_sequence_lengths.extend(validation_sequence_lengths_batch)
@@ -576,7 +532,7 @@ class AdversarialAutoencoder:
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
                 self.padded_sequences, self.one_hot_labels, self.text_sequence_lengths,
-                self.bow_representations, None, False, 0)
+                None, False, 0)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
@@ -599,8 +555,6 @@ class AdversarialAutoencoder:
         # these won't be needed to generate new sentences, so just use random numbers
         one_hot_labels_placeholder = np.random.randint(
             low=0, high=1, size=(len(padded_sequences), num_labels)).astype(dtype=np.int32)
-        bow_representation_placeholder = np.random.randint(
-            low=0, high=1, size=(len(padded_sequences), global_config.bow_size)).astype(dtype=np.int32)
 
         end_index = None
         for batch_number in range(num_batches):
@@ -610,7 +564,7 @@ class AdversarialAutoencoder:
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
                 padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
-                bow_representation_placeholder, conditioning_embedding, True, 0)
+                conditioning_embedding, True, 0)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
