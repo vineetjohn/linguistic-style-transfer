@@ -90,16 +90,12 @@ class AdversarialAutoencoder:
 
         adversarial_label_mlp = tf.nn.dropout(
             x=tf.layers.dense(
-                inputs=self.gaussian_noise_layer(
-                    content_embedding, model_config.adversarial_discriminator_noise_stddev),
-                units=model_config.content_embedding_size,
+                inputs=content_embedding, units=model_config.content_embedding_size,
                 activation=tf.nn.leaky_relu, name="adversarial_label_prediction_dense"),
             keep_prob=model_config.fully_connected_keep_prob)
 
         adversarial_label_prediction = tf.layers.dense(
-            inputs=self.gaussian_noise_layer(
-                adversarial_label_mlp, model_config.adversarial_discriminator_noise_stddev),
-            units=self.num_labels,
+            inputs=adversarial_label_mlp, units=self.num_labels,
             activation=tf.nn.softmax, name="adversarial_label_prediction")
 
         return adversarial_label_prediction
@@ -470,9 +466,9 @@ class AdversarialAutoencoder:
                 all_style_embeddings.extend(style_embeddings)
                 all_content_embeddings.extend(content_embedding)
 
-            saver.save(sess=sess, save_path=global_config.model_save_path)
-            writer.add_summary(all_summaries, current_epoch)
-            writer.flush()
+                saver.save(sess=sess, save_path=global_config.model_save_path)
+                writer.add_summary(all_summaries, current_epoch)
+                writer.flush()
 
             with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)
