@@ -210,19 +210,12 @@ class AdversarialAutoencoder:
 
         sentence_embedding = self.get_sentence_embedding(encoder_embedded_sequence)
 
-        style_keep_probabilities = tf.random_uniform(
-            shape=[model_config.batch_size], maxval=1, dtype=tf.float32)
-        style_filter = style_keep_probabilities < model_config.style_embedding_keep_prob
-        logger.debug("style_filter: {}".format(style_filter))
-
         # style embedding
         self.style_embedding = self.get_style_embedding(sentence_embedding)
         final_style_embedding = tf.cond(
             pred=self.conditioned_generation_mode,
             true_fn=lambda: self.conditioning_embedding,
             false_fn=lambda: self.style_embedding)
-        # false_fn=lambda: tf.where(
-        #     condition=style_filter, x=self.style_embedding, y=tf.zeros_like(self.style_embedding)))
         logger.debug("style_embedding: {}".format(final_style_embedding))
 
         # content embedding
@@ -424,9 +417,10 @@ class AdversarialAutoencoder:
                 all_style_embeddings.extend(style_embeddings)
                 all_content_embeddings.extend(content_embedding)
 
-                saver.save(sess=sess, save_path=global_config.model_save_path)
-                writer.add_summary(all_summaries, current_epoch)
+                writer.add_summary(all_summaries)
                 writer.flush()
+
+            saver.save(sess=sess, save_path=global_config.model_save_path)
 
             with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(all_style_embeddings, pickle_file)

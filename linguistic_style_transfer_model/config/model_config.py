@@ -11,7 +11,6 @@ content_embedding_size = 512
 sequence_word_keep_prob = 0.6
 recurrent_state_keep_prob = 0.6
 fully_connected_keep_prob = 0.6
-style_embedding_keep_prob = 0.6
 
 # learning rates
 autoencoder_learning_rate = 0.0001
@@ -24,9 +23,6 @@ style_prediction_loss_weight = 1
 # training iterations
 adversarial_discriminator_iterations = 3
 autoencoder_iterations = 1
-
-# noise settings
-adversarial_discriminator_noise_stddev = 0.1
 
 # noise
 epsilon = 1e-8
