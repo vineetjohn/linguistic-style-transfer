@@ -65,14 +65,14 @@ def train_classifier_model(options):
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
 
         # Keep track of gradient values and sparsity (optional)
-        grad_summaries = []
-        for g, v in grads_and_vars:
-            if g is not None:
-                grad_hist_summary = tf.summary.histogram("{}/grad/hist".format(v.name), g)
-                sparsity_summary = tf.summary.scalar("{}/grad/sparsity".format(v.name), tf.nn.zero_fraction(g))
-                grad_summaries.append(grad_hist_summary)
-                grad_summaries.append(sparsity_summary)
-        grad_summaries_merged = tf.summary.merge(grad_summaries)
+        # grad_summaries = []
+        # for g, v in grads_and_vars:
+        #     if g is not None:
+        #         grad_hist_summary = tf.summary.histogram("{}/grad/hist".format(v.name), g)
+        #         sparsity_summary = tf.summary.scalar("{}/grad/sparsity".format(v.name), tf.nn.zero_fraction(g))
+        #         grad_summaries.append(grad_hist_summary)
+        #         grad_summaries.append(sparsity_summary)
+        # grad_summaries_merged = tf.summary.merge(grad_summaries)
 
         # Output directory for models and summaries
         timestamp = str(int(time.time()))
@@ -84,7 +84,8 @@ def train_classifier_model(options):
         acc_summary = tf.summary.scalar("accuracy", cnn.accuracy)
 
         # Train Summaries
-        train_summary_op = tf.summary.merge([loss_summary, acc_summary, grad_summaries_merged])
+        # train_summary_op = tf.summary.merge([loss_summary, acc_summary, grad_summaries_merged])
+        train_summary_op = tf.summary.merge([loss_summary, acc_summary])
         train_summary_dir = os.path.join(out_dir, "summaries", "train")
         train_summary_writer = tf.summary.FileWriter(train_summary_dir, sess.graph)
 
@@ -98,7 +99,7 @@ def train_classifier_model(options):
         checkpoint_prefix = os.path.join(checkpoint_dir, "model")
         if not os.path.exists(checkpoint_dir):
             os.makedirs(checkpoint_dir)
-        saver = tf.train.Saver(tf.global_variables(), max_to_keep=5)
+        saver = tf.train.Saver(tf.global_variables())
 
         # Write vocabulary
         with open(global_config.classifier_vocab_save_path, 'wb') as pickle_file:
