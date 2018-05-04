@@ -76,7 +76,7 @@ def train_classifier_model(options):
 
         # Output directory for models and summaries
         timestamp = str(int(time.time()))
-        out_dir = os.path.abspath(os.path.join(os.path.curdir, "runs", timestamp))
+        out_dir = os.path.abspath(os.path.join(global_config.save_directory, "classifier-run", timestamp))
         logger.info("Writing to {}\n".format(out_dir))
 
         # Summaries for loss and accuracy
