@@ -12,10 +12,16 @@ logger = logging.getLogger(global_config.logger_name)
 def generate_plot_coordinates(label_mapped_embeddings, coordinates_path):
     embeddings = list()
     markers = list()
+
     for label in label_mapped_embeddings:
         markers.append(len(embeddings))
-        for embedding in label_mapped_embeddings[label]:
+
+        style_embeddings = np.asarray(label_mapped_embeddings[label])
+        shuffle_indices = np.random.permutation(np.arange(len(style_embeddings)))
+        random_style_embeddings = style_embeddings[shuffle_indices]
+        for embedding in random_style_embeddings[:global_config.tsne_sample_limit]:
             embeddings.append(embedding)
+
     markers.append(len(embeddings))
     logger.debug("markers: {}".format(markers))
 

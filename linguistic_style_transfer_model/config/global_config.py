@@ -7,6 +7,7 @@ training_epochs = None
 embedding_size = 300
 max_sequence_length = 20
 validation_interval = 1
+tsne_sample_limit = 1000
 
 word_vector_path = "./word-embeddings/"
 
