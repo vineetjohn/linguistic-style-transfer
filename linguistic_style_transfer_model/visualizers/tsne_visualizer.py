@@ -1,6 +1,7 @@
 import argparse
 import pickle
 import sys
+import os
 
 import numpy as np
 from matplotlib import pyplot as plt
@@ -47,23 +48,31 @@ def plot_coordinates_with_custom_label(coordinates, labels, plot_path, fig_num):
 def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument("--label-file-path", type=str, required=False)
+    parser.add_argument("--saved-model-path", type=str)
 
     args = vars(parser.parse_args(args=argv))
 
     logger.info(args)
     if not args["label_file_path"]:
-        with open(global_config.index_to_label_dict_path, 'rb') as pickle_file:
+        with open(os.path.join(args["saved_model_path"],
+                               global_config.index_to_label_dict_file), 'rb') as pickle_file:
             label_names = pickle.load(pickle_file)
         logger.info("label_names: {}".format(label_names))
 
-        with open(global_config.style_coordinates_path, 'rb') as pickle_file:
+        with open(os.path.join(args["saved_model_path"],
+                               global_config.style_coordinates_file), 'rb') as pickle_file:
             (style_coordinates, markers) = pickle.load(pickle_file)
-            plot_coordinates(style_coordinates, global_config.style_embedding_plot_path,
+            plot_coordinates(style_coordinates,
+                             os.path.join(args["saved_model_path"],
+                                          global_config.style_embedding_plot_file),
                              markers, label_names, 0)
 
-        with open(global_config.content_coordinates_path, 'rb') as pickle_file:
+        with open(os.path.join(args["saved_model_path"],
+                               global_config.content_coordinates_file), 'rb') as pickle_file:
             (content_coordinates, markers) = pickle.load(pickle_file)
-            plot_coordinates(content_coordinates, global_config.content_embedding_plot_path,
+            plot_coordinates(content_coordinates,
+                             os.path.join(args["saved_model_path"],
+                                          global_config.content_embedding_plot_file),
                              markers, label_names, 1)
     else:
         labels = list()
@@ -74,12 +83,18 @@ def main(argv):
         with open(global_config.style_coordinates_path, 'rb') as pickle_file:
             (style_coordinates, markers) = pickle.load(pickle_file)
             plot_coordinates_with_custom_label(
-                style_coordinates, labels, global_config.style_embedding_custom_plot_path, 0)
+                style_coordinates, labels,
+                os.path.join(args["saved_model_path"],
+                             global_config.style_embedding_custom_plot_file),
+                0)
 
         with open(global_config.content_coordinates_path, 'rb') as pickle_file:
             (content_coordinates, markers) = pickle.load(pickle_file)
             plot_coordinates_with_custom_label(
-                content_coordinates, labels, global_config.content_embedding_custom_plot_path, 1)
+                content_coordinates, labels,
+                os.path.join(args["saved_model_path"],
+                             global_config.content_embedding_custom_plot_file),
+                1)
 
 
 if __name__ == "__main__":

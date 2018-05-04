@@ -2,6 +2,7 @@ import argparse
 import logging
 import pickle
 import sys
+import os
 
 import numpy as np
 import tensorflow as tf
@@ -13,12 +14,15 @@ from linguistic_style_transfer_model.utils import data_processor, log_initialize
 logger = logging.getLogger(global_config.logger_name)
 
 
-def get_style_transfer_score(checkpoint_dir, text_file_path, label):
-    with open(global_config.classifier_vocab_save_path, 'rb') as pickle_file:
+def get_style_transfer_score(classifier_saved_model_path, text_file_path, label):
+    with open(os.path.join(classifier_saved_model_path,
+                           global_config.vocab_save_file), 'rb') as pickle_file:
         word_index = pickle.load(pickle_file)
-    with open(global_config.classifier_text_tokenizer_path, 'rb') as pickle_file:
+    with open(os.path.join(classifier_saved_model_path,
+                           global_config.text_tokenizer_file), 'rb') as pickle_file:
         text_tokenizer = pickle.load(pickle_file)
-    with open(global_config.classifier_vocab_size_save_path, 'rb') as pickle_file:
+    with open(os.path.join(classifier_saved_model_path,
+                           global_config.vocab_size_save_file), 'rb') as pickle_file:
         vocab_size = pickle.load(pickle_file)
 
     with open(text_file_path) as text_file:
@@ -33,7 +37,8 @@ def get_style_transfer_score(checkpoint_dir, text_file_path, label):
     x_test = np.asarray(text_sequences)
     y_test = np.asarray([label] * len(text_sequences))
 
-    checkpoint_file = tf.train.latest_checkpoint(checkpoint_dir)
+    checkpoint_file = tf.train.latest_checkpoint(
+        os.path.join(classifier_saved_model_path, "checkpoints"))
     graph = tf.Graph()
     with graph.as_default():
         gpu_options = tf.GPUOptions(allow_growth=True)

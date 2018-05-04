@@ -3,7 +3,6 @@ import datetime
 import os
 import pickle
 import sys
-import time
 
 import numpy as np
 import tensorflow as tf
@@ -19,18 +18,19 @@ def train_classifier_model(options):
     # Load data
     logger.info("Loading data...")
 
-    [word_index, _, x, _, text_tokenizer, _] = \
-        data_processor.get_text_sequences(options['text_file_path'], options['vocab_size'])
+    [word_index, x, _, text_tokenizer, _] = \
+        data_processor.get_text_sequences(
+            options['text_file_path'], options['vocab_size'], global_config.classifier_vocab_size_save_path,
+            global_config.classifier_text_tokenizer_path, global_config.classifier_vocab_save_path)
 
     with open(global_config.classifier_vocab_size_save_path, 'wb') as pickle_file:
         pickle.dump(global_config.vocab_size, pickle_file)
-
     with open(global_config.classifier_text_tokenizer_path, 'wb') as pickle_file:
         pickle.dump(text_tokenizer, pickle_file)
 
     x = np.asarray(x)
 
-    [_, y, _] = data_processor.get_labels(options['label_file_path'])
+    [y, _] = data_processor.get_labels(options['label_file_path'], False)
 
     shuffle_indices = np.random.permutation(np.arange(len(y)))
     x_shuffled = x[shuffle_indices]
@@ -75,8 +75,7 @@ def train_classifier_model(options):
         # grad_summaries_merged = tf.summary.merge(grad_summaries)
 
         # Output directory for models and summaries
-        timestamp = str(int(time.time()))
-        out_dir = os.path.abspath(os.path.join(global_config.save_directory, "classifier-run", timestamp))
+        out_dir = global_config.classifier_save_directory
         logger.info("Writing to {}\n".format(out_dir))
 
         # Summaries for loss and accuracy
@@ -168,6 +167,8 @@ def main(argv):
     options = vars(parser.parse_args(args=argv))
     global logger
     logger = log_initializer.setup_custom_logger(global_config.logger_name, options['logging_level'])
+
+    os.makedirs(global_config.classifier_save_directory)
 
     train_classifier_model(options)
 

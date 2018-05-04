@@ -10,7 +10,7 @@ from linguistic_style_transfer_model.utils import tsne_interface
 logger = logging.getLogger(global_config.logger_name)
 
 
-def get_text_sequences(text_file_path, vocab_size):
+def get_text_sequences(text_file_path, vocab_size, vocab_size_save_path, text_tokenizer_path, vocab_save_path):
     word_index = global_config.predefined_word_index
     text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
 
@@ -44,8 +44,14 @@ def get_text_sequences(text_file_path, vocab_size):
         [global_config.max_sequence_length if x >= global_config.max_sequence_length
          else x + 1 for x in text_sequence_lengths])  # x + 1 to accomodate a single EOS token
 
-    return [word_index, actual_sequences, padded_sequences, text_sequence_lengths,
-            text_tokenizer, inverse_word_index]
+    with open(vocab_size_save_path, 'wb') as pickle_file:
+        pickle.dump(global_config.vocab_size, pickle_file)
+    with open(text_tokenizer_path, 'wb') as pickle_file:
+        pickle.dump(text_tokenizer, pickle_file)
+    with open(vocab_save_path, 'wb') as pickle_file:
+        pickle.dump(word_index, pickle_file)
+
+    return [word_index, padded_sequences, text_sequence_lengths, text_tokenizer, inverse_word_index]
 
 
 def get_test_sequences(text_file_path, word_index, text_tokenizer, inverse_word_index):
@@ -74,7 +80,7 @@ def get_test_sequences(text_file_path, word_index, text_tokenizer, inverse_word_
     return [actual_sequences, actual_word_lists, padded_sequences, text_sequence_lengths]
 
 
-def get_labels(label_file_path):
+def get_labels(label_file_path, store_labels):
     all_labels = list(open(label_file_path, "r").readlines())
     all_labels = [label.strip() for label in all_labels]
 
@@ -89,22 +95,20 @@ def get_labels(label_file_path):
         index_to_label_map[counter] = label
         counter += 1
 
-    with open(global_config.index_to_label_dict_path, 'wb') as pickle_file:
-        pickle.dump(index_to_label_map, pickle_file)
-    with open(global_config.label_to_index_dict_path, 'wb') as pickle_file:
-        pickle.dump(label_to_index_map, pickle_file)
+    if store_labels:
+        with open(global_config.index_to_label_dict_path, 'wb') as pickle_file:
+            pickle.dump(index_to_label_map, pickle_file)
+        with open(global_config.label_to_index_dict_path, 'wb') as pickle_file:
+            pickle.dump(label_to_index_map, pickle_file)
     logger.info("labels: {}".format(label_to_index_map))
 
     one_hot_labels = list()
-    label_sequences = list()
     for label in all_labels:
-        label_sequences.append(label_to_index_map[label])
-
         one_hot_label = np.zeros(shape=num_labels, dtype=np.int32)
         one_hot_label[label_to_index_map[label]] = 1
         one_hot_labels.append(one_hot_label)
 
-    return [label_sequences, np.asarray(one_hot_labels), num_labels]
+    return [np.asarray(one_hot_labels), num_labels]
 
 
 def get_test_labels(label_file_path):
@@ -147,7 +151,7 @@ def generate_sentence_from_logits(floating_index_sequence, inverse_word_index):
     return words
 
 
-def get_average_label_embeddings(data_size, label_sequences, dump_embeddings):
+def get_average_label_embeddings(data_size, dump_embeddings):
     with open(global_config.all_style_embeddings_path, 'rb') as pickle_file:
         all_style_embeddings = pickle.load(pickle_file)
     with open(global_config.all_content_embeddings_path, 'rb') as pickle_file:

@@ -13,7 +13,8 @@ class Options(SimpleNamespace):
     validation_text_file_path = None
     validation_label_file_path = None
     validation_embeddings_file_path = None
-    classifier_checkpoint_dir = None
+    saved_model_path = None
+    classifier_saved_model_path = None
     dump_embeddings = None
     evaluation_text_file_path = None
     use_pretrained_embeddings = None

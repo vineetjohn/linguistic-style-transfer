@@ -2,8 +2,8 @@
 logs/
 data/
 output/
-runs/
 saved-models/
+saved-models-classifier/
 word-embeddings/
 tests/
 .idea/
