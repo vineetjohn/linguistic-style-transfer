@@ -435,6 +435,8 @@ class AdversarialAutoencoder:
 
                 glove_model = content_preservation.load_glove_model(options.validation_embeddings_file_path)
 
+                validation_style_transfer_scores = list()
+                validation_content_preservation_scores = list()
                 for i in range(self.num_labels):
 
                     label_embeddings = list()
@@ -499,12 +501,20 @@ class AdversarialAutoencoder:
 
                     [style_transfer_score, confusion_matrix] = style_transfer.get_style_transfer_score(
                         options.classifier_checkpoint_dir, output_file_path, i)
-                    logger.info("style_transfer_score: {}".format(style_transfer_score))
-                    logger.info("confusion_matrix: {}".format(confusion_matrix))
+                    logger.debug("style_transfer_score: {}".format(style_transfer_score))
+                    logger.debug("confusion_matrix: {}".format(confusion_matrix))
 
                     content_preservation_score = content_preservation.get_content_preservation_score(
                         validation_actual_word_lists, generated_word_lists, glove_model)
-                    logger.info("content_preservation_score: {}".format(content_preservation_score))
+                    logger.debug("content_preservation_score: {}".format(content_preservation_score))
+
+                    validation_style_transfer_scores.append(style_transfer_score)
+                    validation_content_preservation_scores.append(content_preservation_score)
+
+                logger.info("Total Style Transfer: {}".format(
+                    np.mean(np.asarray(validation_style_transfer_scores))))
+                logger.info("Total Content Preservation: {}".format(
+                    np.mean(np.asarray(validation_content_preservation_scores))))
 
         writer.close()
 

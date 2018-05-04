@@ -49,7 +49,7 @@ def get_content_preservation_score(actual_word_lists, generated_word_lists, embe
             skip_count += 1
             logger.debug("Skipped lines: {} :-: {}".format(word_list_1, word_list_2))
 
-    logger.info("{} lines skipped due to errors".format(skip_count))
+    logger.debug("{} lines skipped due to errors".format(skip_count))
     mean_cosine_distance = np.mean(np.asarray(cosine_distances), axis=0)
 
     return mean_cosine_distance

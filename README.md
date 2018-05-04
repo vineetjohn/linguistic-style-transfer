@@ -9,7 +9,7 @@ Neural network model to disentangle and transfer linguistic style in text
 ```bash
 export CUDA_DEVICE_ORDER="PCI_BUS_ID" && export CUDA_VISIBLE_DEVICES="0" && \
 export TF_CPP_MIN_LOG_LEVEL=1 &&  \
-./train_cnn_classifier.sh \
+./run_classifier_training.sh \
 --text-file-path ${TRAINING_TEXT_FILE_PATH} \
 --label-file-path ${TRAINING_LABEL_FILE_PATH} \
 --training-epochs ${NUM_EPOCHS} --vocab-size ${VOCAB_SIZE}
