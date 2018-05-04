@@ -6,7 +6,7 @@ training_epochs = None
 
 embedding_size = 300
 max_sequence_length = 20
-validation_interval = 5
+validation_interval = 1
 
 word_vector_path = "./word-embeddings/"
 
