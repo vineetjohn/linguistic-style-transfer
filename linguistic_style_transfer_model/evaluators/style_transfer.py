@@ -1,8 +1,8 @@
 import argparse
 import logging
+import os
 import pickle
 import sys
-import os
 
 import numpy as np
 import tensorflow as tf
@@ -82,7 +82,7 @@ def get_style_transfer_score(classifier_saved_model_path, text_file_path, label)
 
 def main(argv):
     parser = argparse.ArgumentParser()
-    parser.add_argument("--checkpoint-dir", type=str, required=True)
+    parser.add_argument("--classifier-saved-model-path", type=str)
     parser.add_argument("--text-file-path", type=str, required=True)
     parser.add_argument("--label-index", type=int, required=True)
     args_namespace = parser.parse_args(argv)
@@ -92,7 +92,8 @@ def main(argv):
     logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 
     [style_transfer_score, confusion_matrix] = \
-        get_style_transfer_score(command_line_args['checkpoint_dir'], command_line_args['text_file_path'],
+        get_style_transfer_score(command_line_args['classifier_saved_model_path'],
+                                 command_line_args['text_file_path'],
                                  command_line_args['label_index'])
     logger.info("style_transfer_score: {}".format(style_transfer_score))
     logger.info("confusion_matrix: {}".format(confusion_matrix))
