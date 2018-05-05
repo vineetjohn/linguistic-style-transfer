@@ -270,10 +270,10 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.style_prediction_loss, name="style_prediction_loss_summary")
         tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
 
-    def get_batch_indices(self, offset, batch_number, data_limit):
+    def get_batch_indices(self, batch_number, data_limit):
 
-        start_index = offset + (batch_number * model_config.batch_size)
-        end_index = offset + ((batch_number + 1) * model_config.batch_size)
+        start_index = batch_number * model_config.batch_size
+        end_index = (batch_number + 1) * model_config.batch_size
         end_index = data_limit if end_index > data_limit else end_index
 
         return start_index, end_index
@@ -348,11 +348,9 @@ class AdversarialAutoencoder:
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
 
-        training_examples_size = data_size
-        num_batches = training_examples_size // model_config.batch_size
+        num_batches = data_size // model_config.batch_size
         logger.debug("Training - texts shape: {}; labels shape {}"
-                     .format(padded_sequences[:training_examples_size].shape,
-                             one_hot_labels[:training_examples_size].shape))
+                     .format(padded_sequences.shape, one_hot_labels.shape))
 
         for current_epoch in range(1, options.training_epochs + 1):
 
@@ -367,7 +365,7 @@ class AdversarialAutoencoder:
 
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
-                    offset=0, batch_number=batch_number, data_limit=data_size)
+                    batch_number=batch_number, data_limit=data_size)
 
                 fetches = \
                     [reconstruction_training_operation,
@@ -444,7 +442,7 @@ class AdversarialAutoencoder:
                     validation_generated_sequence_lengths = list()
                     for val_batch_number in range(validation_batches):
                         (start_index, end_index) = self.get_batch_indices(
-                            offset=0, batch_number=val_batch_number,
+                            batch_number=val_batch_number,
                             data_limit=len(validation_sequences_to_transfer))
 
                         [validation_generated_sequences_batch, validation_sequence_lengths_batch] = \
@@ -456,10 +454,6 @@ class AdversarialAutoencoder:
                                 conditioning_embedding, True, current_epoch)
                         validation_generated_sequences.extend(validation_generated_sequences_batch)
                         validation_generated_sequence_lengths.extend(validation_sequence_lengths_batch)
-
-                    padded_sequences = tf.keras.preprocessing.sequence.pad_sequences(
-                        validation_generated_sequences, maxlen=global_config.max_sequence_length, padding='post',
-                        truncating='post', value=word_index[global_config.eos_token])
 
                     trimmed_generated_sequences = \
                         [[index for index in sequence
@@ -519,7 +513,7 @@ class AdversarialAutoencoder:
         end_index = None
         for batch_number in range(num_batches):
             (start_index, end_index) = self.get_batch_indices(
-                offset=0, batch_number=batch_number, data_limit=len(padded_sequences))
+                batch_number=batch_number, data_limit=len(padded_sequences))
 
             generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
                 sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
