@@ -10,8 +10,6 @@ max_sequence_length = 20
 validation_interval = 1
 tsne_sample_limit = 1000
 
-word_vector_path = "./word-embeddings/"
-
 save_directory = "./saved-models/{}".format(experiment_timestamp)
 classifier_save_directory = "./saved-models-classifier/{}".format(experiment_timestamp)
 

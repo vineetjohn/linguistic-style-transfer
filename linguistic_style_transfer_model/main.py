@@ -79,7 +79,7 @@ def execute_post_inference_operations(actual_word_lists, generated_sequences, fi
             output_file.write(sentence + "\n")
 
 
-def get_word_embeddings(word_index, use_pretrained_embeddings, train_model):
+def get_word_embeddings(embedding_model_path, word_index):
     encoder_embedding_matrix = np.random.uniform(
         size=(global_config.vocab_size, global_config.embedding_size),
         low=-0.05, high=0.05).astype(dtype=np.float32)
@@ -90,12 +90,12 @@ def get_word_embeddings(word_index, use_pretrained_embeddings, train_model):
         low=-0.05, high=0.05).astype(dtype=np.float32)
     logger.debug("decoder_embedding_matrix: {}".format(decoder_embedding_matrix.shape))
 
-    if train_model and use_pretrained_embeddings:
+    if embedding_model_path:
         logger.info("Loading pretrained embeddings")
         encoder_embedding_matrix, decoder_embedding_matrix = \
             word_embedder.add_word_vectors_to_embeddings(
-                word_index, global_config.word_vector_path, encoder_embedding_matrix,
-                decoder_embedding_matrix)
+                word_index, encoder_embedding_matrix, decoder_embedding_matrix,
+                embedding_model_path)
 
     return encoder_embedding_matrix, decoder_embedding_matrix
 
@@ -105,13 +105,13 @@ def main(argv):
     parser.add_argument("--train-model", action="store_true", default=False)
     parser.add_argument("--infer-sequences", action="store_true", default=False)
     parser.add_argument("--generate-novel-text", action="store_true", default=False)
-    parser.add_argument("--use-pretrained-embeddings", action="store_true", default=False)
     parser.add_argument("--vocab-size", type=int, default=1000)
     parser.add_argument("--training-epochs", type=int, default=10)
     parser.add_argument("--text-file-path", type=str)
     parser.add_argument("--label-file-path", type=str)
     parser.add_argument("--validation-text-file-path", type=str)
     parser.add_argument("--validation-label-file-path", type=str)
+    parser.add_argument("--training-embeddings-file-path", type=str)
     parser.add_argument("--validation-embeddings-file-path", type=str)
     parser.add_argument("--dump-embeddings", action="store_true", default=False)
     parser.add_argument("--saved-model-path", type=str)
@@ -141,7 +141,7 @@ def main(argv):
         data_size = padded_sequences.shape[0]
 
         encoder_embedding_matrix, decoder_embedding_matrix = \
-            get_word_embeddings(word_index, options.use_pretrained_embeddings, options.train_model)
+            get_word_embeddings(options.training_embeddings_file_path, word_index)
 
         # Build model
         logger.info("Building model architecture ...")
@@ -197,8 +197,7 @@ def main(argv):
 
         logger.info("Building model architecture ...")
         network = adversarial_autoencoder.AdversarialAutoencoder()
-        encoder_embedding_matrix, decoder_embedding_matrix = \
-            get_word_embeddings(word_index, options.use_pretrained_embeddings, options.train_model)
+        encoder_embedding_matrix, decoder_embedding_matrix = get_word_embeddings(None, word_index)
         network.build_model(
             word_index, encoder_embedding_matrix, decoder_embedding_matrix, num_labels)
 
