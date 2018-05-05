@@ -18,7 +18,7 @@ def train_word2vec_model(text_file_path, model_file_path):
     # summarize the loaded model
     logger.info("Model Details: {}".format(model))
     # save model
-    model.save(model_file_path)
+    model.wv.save_word2vec_format(model_file_path, binary=True)
     logger.info("Model saved")
 
 
