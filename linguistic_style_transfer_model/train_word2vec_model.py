@@ -13,6 +13,7 @@ logger = None
 def train_word2vec_model(text_file_path, model_file_path):
     # define training data
     # train model
+    logger.info("Loading input file and training mode ...")
     model = Word2Vec(sentences=LineSentence(text_file_path), min_count=1, size=global_config.embedding_size)
     # summarize the loaded model
     logger.info("Model Details: {}".format(model))
