@@ -98,7 +98,7 @@ def train_classifier_model(options):
         checkpoint_prefix = os.path.join(checkpoint_dir, "model")
         if not os.path.exists(checkpoint_dir):
             os.makedirs(checkpoint_dir)
-        saver = tf.train.Saver(tf.global_variables())
+        saver = tf.train.Saver(var_list=tf.global_variables(), max_to_keep=1)
 
         # Write vocabulary
         with open(global_config.classifier_vocab_save_path, 'wb') as pickle_file:
