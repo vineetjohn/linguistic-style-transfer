@@ -61,7 +61,7 @@ export CUDA_VISIBLE_DEVICES="0" && \
 export TF_CPP_MIN_LOG_LEVEL=1 && \
 ./run_linguistic_style_transfer_model.sh \
 --evaluation-text-file-path ${TEST_TEXT_FILE_PATH} \
---saved-model-path ${SAVED_MODEL_PATH}
+--saved-model-path ${SAVED_MODEL_PATH} \
 --generate-novel-text \
 --logging-level="DEBUG"
 ```
