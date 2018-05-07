@@ -64,3 +64,6 @@ style_coordinates_file = "style_coordinates.pkl"
 content_coordinates_file = "content_coordinates.pkl"
 style_coordinates_path = save_directory + "/" + style_coordinates_file
 content_coordinates_path = save_directory + "/" + content_coordinates_file
+
+validation_scores_file = "validation_scores.txt"
+validation_scores_path = save_directory + "/" + validation_scores_file

@@ -1,3 +1,4 @@
+import json
 import logging
 import os
 import pickle
@@ -486,10 +487,19 @@ class AdversarialAutoencoder:
                     validation_style_transfer_scores.append(style_transfer_score)
                     validation_content_preservation_scores.append(content_preservation_score)
 
-                logger.info("Total Style Transfer: {}".format(
-                    np.mean(np.asarray(validation_style_transfer_scores))))
-                logger.info("Total Content Preservation: {}".format(
-                    np.mean(np.asarray(validation_content_preservation_scores))))
+                aggregate_style_transfer = np.mean(np.asarray(validation_style_transfer_scores))
+                logger.info("Aggregate Style Transfer: {}".format(aggregate_style_transfer))
+
+                aggregate_content_preservation = np.mean(np.asarray(validation_content_preservation_scores))
+                logger.info("Aggregate Content Preservation: {}".format(aggregate_content_preservation))
+
+                with open(global_config.validation_scores_path, 'a+') as validation_scores_file:
+                    validation_record = {
+                        "epoch": current_epoch,
+                        "style-transfer": aggregate_style_transfer,
+                        "content-preservation": aggregate_content_preservation
+                    }
+                    validation_scores_file.write(json.dumps(validation_record) + "\n")
 
         writer.close()
 
