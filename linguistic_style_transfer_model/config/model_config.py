@@ -13,8 +13,8 @@ recurrent_state_keep_prob = 0.8
 fully_connected_keep_prob = 0.8
 
 # learning rates
-autoencoder_learning_rate = 0.003
-adversarial_discriminator_learning_rate = 0.003
+autoencoder_learning_rate = 0.001
+adversarial_discriminator_learning_rate = 0.001
 
 # loss weights
 adversarial_discriminator_loss_weight = 0.3
