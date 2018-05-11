@@ -312,10 +312,10 @@ class AdversarialAutoencoder:
 
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
-        self.composite_loss = \
-            self.reconstruction_loss \
-            - (self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight) \
-            + (self.style_prediction_loss * model_config.style_prediction_loss_weight)
+        self.composite_loss = 0.0
+        self.composite_loss += self.reconstruction_loss
+        self.composite_loss -= self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight
+        self.composite_loss += self.style_prediction_loss * model_config.style_prediction_loss_weight
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
 
