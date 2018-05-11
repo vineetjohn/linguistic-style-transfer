@@ -67,3 +67,5 @@ content_coordinates_path = save_directory + "/" + content_coordinates_file
 
 validation_scores_file = "validation_scores.txt"
 validation_scores_path = save_directory + "/" + validation_scores_file
+
+sentiment_words_file_path = "data/opinion-lexicon/sentiment-words.txt"

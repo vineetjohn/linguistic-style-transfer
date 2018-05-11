@@ -4,12 +4,22 @@ import sys
 
 import numpy as np
 import tensorflow as tf
+from nltk.corpus import stopwords
 from scipy.spatial.distance import cosine
 
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.utils import log_initializer
 
 logger = logging.getLogger(global_config.logger_name)
+
+
+def clean_sentence(tokens, english_stopwords, sentiment_words):
+    cleaned_tokens = list()
+    for token in tokens:
+        if token not in sentiment_words:
+            cleaned_tokens.append(token)
+
+    return cleaned_tokens
 
 
 def load_glove_model(glove_file):
@@ -25,7 +35,8 @@ def load_glove_model(glove_file):
     return model
 
 
-def get_sentence_embedding(tokens, model):
+def get_sentence_embedding(tokens, model, english_stopwords, sentiment_words):
+    tokens = clean_sentence(tokens, english_stopwords, sentiment_words)
     embeddings = np.asarray([model[token] for token in tokens if token in model])
 
     min_embedding = np.min(embeddings, axis=0)
@@ -36,14 +47,25 @@ def get_sentence_embedding(tokens, model):
     return sentence_embedding
 
 
+def load_sentiment_words():
+    with open(file=global_config.sentiment_words_file_path,
+              mode='r', encoding='ISO-8859-1') as sentiment_words_file:
+        words = sentiment_words_file.readlines()
+    words = set(word.strip() for word in words)
+
+    return words
+
+
 def get_content_preservation_score(actual_word_lists, generated_word_lists, embedding_model):
+    english_stopwords = set(stopwords.words('english'))
+    sentiment_words = load_sentiment_words()
     cosine_distances = list()
     skip_count = 0
     for word_list_1, word_list_2 in zip(actual_word_lists, generated_word_lists):
         try:
             cosine_distance = 1 - cosine(
-                get_sentence_embedding(word_list_1, embedding_model),
-                get_sentence_embedding(word_list_2, embedding_model))
+                get_sentence_embedding(word_list_1, embedding_model, english_stopwords, sentiment_words),
+                get_sentence_embedding(word_list_2, embedding_model, english_stopwords, sentiment_words))
             cosine_distances.append(cosine_distance)
         except ValueError:
             skip_count += 1
@@ -51,6 +73,8 @@ def get_content_preservation_score(actual_word_lists, generated_word_lists, embe
 
     logger.debug("{} lines skipped due to errors".format(skip_count))
     mean_cosine_distance = np.mean(np.asarray(cosine_distances), axis=0)
+
+    del english_stopwords
 
     return mean_cosine_distance
 
