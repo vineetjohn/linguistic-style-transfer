@@ -2,18 +2,20 @@ from types import SimpleNamespace
 
 
 class Options(SimpleNamespace):
-    logging_level = None
-    train_model = None
-    generate_novel_text = None
-    vocab_size = None
-    training_epochs = None
-    text_file_path = None
-    label_file_path = None
-    validation_text_file_path = None
-    validation_label_file_path = None
-    training_embeddings_file_path = None
-    validation_embeddings_file_path = None
-    saved_model_path = None
-    classifier_saved_model_path = None
-    dump_embeddings = None
-    evaluation_text_file_path = None
+
+    def __init__(self):
+        self.logging_level = None
+        self.train_model = None
+        self.generate_novel_text = None
+        self.vocab_size = None
+        self.training_epochs = None
+        self.text_file_path = None
+        self.label_file_path = None
+        self.validation_text_file_path = None
+        self.validation_label_file_path = None
+        self.training_embeddings_file_path = None
+        self.validation_embeddings_file_path = None
+        self.saved_model_path = None
+        self.classifier_saved_model_path = None
+        self.dump_embeddings = None
+        self.evaluation_text_file_path = None
