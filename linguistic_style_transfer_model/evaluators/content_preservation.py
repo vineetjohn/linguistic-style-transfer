@@ -1,5 +1,6 @@
 import argparse
 import logging
+import statistics
 import sys
 
 import numpy as np
@@ -13,10 +14,10 @@ from linguistic_style_transfer_model.utils import log_initializer
 logger = logging.getLogger(global_config.logger_name)
 
 
-def clean_sentence(tokens, english_stopwords, sentiment_words):
+def remove_words(tokens, words_to_remove):
     cleaned_tokens = list()
     for token in tokens:
-        if token not in sentiment_words:
+        if token not in words_to_remove:
             cleaned_tokens.append(token)
 
     return cleaned_tokens
@@ -35,8 +36,7 @@ def load_glove_model(glove_file):
     return model
 
 
-def get_sentence_embedding(tokens, model, english_stopwords, sentiment_words):
-    tokens = clean_sentence(tokens, english_stopwords, sentiment_words)
+def get_sentence_embedding(tokens, model):
     embeddings = np.asarray([model[token] for token in tokens if token in model])
 
     min_embedding = np.min(embeddings, axis=0)
@@ -57,26 +57,49 @@ def load_sentiment_words():
 
 
 def get_content_preservation_score(actual_word_lists, generated_word_lists, embedding_model):
-    english_stopwords = set(stopwords.words('english'))
     sentiment_words = load_sentiment_words()
     cosine_distances = list()
     skip_count = 0
     for word_list_1, word_list_2 in zip(actual_word_lists, generated_word_lists):
         try:
+            word_list_1 = remove_words(word_list_1, sentiment_words)
+            word_list_2 = remove_words(word_list_2, sentiment_words)
             cosine_distance = 1 - cosine(
-                get_sentence_embedding(word_list_1, embedding_model, english_stopwords, sentiment_words),
-                get_sentence_embedding(word_list_2, embedding_model, english_stopwords, sentiment_words))
+                get_sentence_embedding(word_list_1, embedding_model),
+                get_sentence_embedding(word_list_2, embedding_model))
             cosine_distances.append(cosine_distance)
         except ValueError:
             skip_count += 1
             logger.debug("Skipped lines: {} :-: {}".format(word_list_1, word_list_2))
 
     logger.debug("{} lines skipped due to errors".format(skip_count))
-    mean_cosine_distance = np.mean(np.asarray(cosine_distances), axis=0)
+    mean_cosine_distance = statistics.mean(cosine_distances)
 
-    del english_stopwords
+    del sentiment_words
 
     return mean_cosine_distance
+
+
+def get_word_overlap_score(actual_word_lists, generated_word_lists):
+    english_stopwords = set(stopwords.words('english'))
+    sentiment_words = load_sentiment_words()
+
+    scores = list()
+    for word_list_1, word_list_2 in zip(actual_word_lists, generated_word_lists):
+        word_list_1 = remove_words(word_list_1, sentiment_words)
+        word_list_1 = remove_words(word_list_1, english_stopwords)
+        word_list_2 = remove_words(word_list_2, sentiment_words)
+        word_list_2 = remove_words(word_list_2, english_stopwords)
+        word_set_1, word_set_2 = set(word_list_1), set(word_list_2)
+        word_intersection = word_set_1 & word_set_2
+        word_union = word_set_1 | word_set_2
+        score = 0 if not len(word_union) else len(word_intersection) / len(word_union)
+        scores.append(score)
+
+    del english_stopwords
+    del sentiment_words
+
+    return statistics.mean(scores)
 
 
 def run_content_preservation_evaluator(source_file, target_file, embeddings_file):
@@ -89,7 +112,10 @@ def run_content_preservation_evaluator(source_file, target_file, embeddings_file
 
     content_preservation_score = get_content_preservation_score(
         actual_word_lists, generated_word_lists, glove_model)
+    word_overlap_score = get_word_overlap_score(
+        actual_word_lists, generated_word_lists)
     logger.info("Aggregate content preservation: {}".format(content_preservation_score))
+    logger.info("Aggregate word overlap: {}".format(word_overlap_score))
 
 
 def main(argv):

@@ -417,6 +417,7 @@ class AdversarialAutoencoder:
 
                 validation_style_transfer_scores = list()
                 validation_content_preservation_scores = list()
+                validation_word_overlap_scores = list()
                 for i in range(num_labels):
 
                     label_embeddings = list()
@@ -484,8 +485,13 @@ class AdversarialAutoencoder:
                         validation_actual_word_lists, generated_word_lists, glove_model)
                     logger.debug("content_preservation_score: {}".format(content_preservation_score))
 
+                    word_overlap_score = content_preservation.get_word_overlap_score(
+                        validation_actual_word_lists, generated_word_lists)
+                    logger.debug("word_overlap_score: {}".format(word_overlap_score))
+
                     validation_style_transfer_scores.append(style_transfer_score)
                     validation_content_preservation_scores.append(content_preservation_score)
+                    validation_word_overlap_scores.append(word_overlap_score)
 
                 aggregate_style_transfer = np.mean(np.asarray(validation_style_transfer_scores))
                 logger.info("Aggregate Style Transfer: {}".format(aggregate_style_transfer))
@@ -493,11 +499,15 @@ class AdversarialAutoencoder:
                 aggregate_content_preservation = np.mean(np.asarray(validation_content_preservation_scores))
                 logger.info("Aggregate Content Preservation: {}".format(aggregate_content_preservation))
 
+                aggregate_word_overlap = np.mean(np.asarray(validation_word_overlap_scores))
+                logger.info("Aggregate Word Overlap: {}".format(aggregate_word_overlap))
+
                 with open(global_config.validation_scores_path, 'a+') as validation_scores_file:
                     validation_record = {
                         "epoch": current_epoch,
                         "style-transfer": aggregate_style_transfer,
-                        "content-preservation": aggregate_content_preservation
+                        "content-preservation": aggregate_content_preservation,
+                        "word-overlap": aggregate_word_overlap
                     }
                     validation_scores_file.write(json.dumps(validation_record) + "\n")
 
