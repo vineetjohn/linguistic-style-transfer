@@ -101,26 +101,31 @@ def get_word_embeddings(embedding_model_path, word_index):
 
 
 def main(argv):
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--train-model", action="store_true", default=False)
-    parser.add_argument("--infer-sequences", action="store_true", default=False)
-    parser.add_argument("--generate-novel-text", action="store_true", default=False)
-    parser.add_argument("--vocab-size", type=int, default=1000)
-    parser.add_argument("--training-epochs", type=int, default=10)
-    parser.add_argument("--text-file-path", type=str)
-    parser.add_argument("--label-file-path", type=str)
-    parser.add_argument("--validation-text-file-path", type=str)
-    parser.add_argument("--validation-label-file-path", type=str)
-    parser.add_argument("--training-embeddings-file-path", type=str)
-    parser.add_argument("--validation-embeddings-file-path", type=str)
-    parser.add_argument("--dump-embeddings", action="store_true", default=False)
-    parser.add_argument("--saved-model-path", type=str)
-    parser.add_argument("--evaluation-text-file-path", type=str)
-    parser.add_argument("--classifier-saved-model-path", type=str)
-    parser.add_argument("--logging-level", type=str, default="INFO")
-
     options = Options()
-    parser.parse_args(args=argv, namespace=options)
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--logging-level", type=str, default="INFO")
+    run_mode = parser.add_mutually_exclusive_group(required=True)
+    run_mode.add_argument("--train-model", action="store_true", default=False)
+    run_mode.add_argument("--generate-novel-text", action="store_true", default=False)
+
+    parser.parse_known_args(args=argv, namespace=options)
+    if options.train_model:
+        parser.add_argument("--vocab-size", type=int, default=1000)
+        parser.add_argument("--training-epochs", type=int, default=10)
+        parser.add_argument("--text-file-path", type=str)
+        parser.add_argument("--label-file-path", type=str)
+        parser.add_argument("--validation-text-file-path", type=str)
+        parser.add_argument("--validation-label-file-path", type=str)
+        parser.add_argument("--training-embeddings-file-path", type=str)
+        parser.add_argument("--validation-embeddings-file-path", type=str)
+        parser.add_argument("--dump-embeddings", action="store_true", default=False)
+        parser.add_argument("--classifier-saved-model-path", type=str)
+    if options.generate_novel_text:
+        parser.add_argument("--saved-model-path", type=str)
+        parser.add_argument("--evaluation-text-file-path", type=str)
+
+    parser.parse_known_args(args=argv, namespace=options)
 
     global logger
     logger = log_initializer.setup_custom_logger(global_config.logger_name, options.logging_level)
