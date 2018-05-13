@@ -68,6 +68,24 @@ TF_CPP_MIN_LOG_LEVEL=1 \
 
 ---
 
+## Visualizations
+
+### Plot validation accuracy metrics
+
+```bash
+./run_validation_scores_visualization_generator.sh \
+--saved-model-path ${SAVED_MODEL_PATH}
+```
+
+### Plot T-SNE embedding spaces
+
+```bash
+./run_tsne_visualization_generator.sh \
+--saved-model-path ${SAVED_MODEL_PATH}
+```
+
+---
+
 ## Run evaluation metrics
 
 ### Style Transfer
