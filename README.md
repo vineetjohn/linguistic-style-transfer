@@ -7,7 +7,7 @@ Neural network model to disentangle and transfer linguistic style in text
 ## Run a corpus cleaner/adapter
 
 ```bash
-export PYTHONPATH=${PROJECT_DIR_PATH} && \
+PYTHONPATH=${PROJECT_DIR_PATH} \
 python linguistic_style_transfer_model/corpus_adapters/${CORPUS_ADAPTER_SCRIPT}.py
 ```
 
@@ -21,9 +21,9 @@ python linguistic_style_transfer_model/corpus_adapters/${CORPUS_ADAPTER_SCRIPT}.
 ## Train validation classifier
 
 ```bash
-export CUDA_DEVICE_ORDER="PCI_BUS_ID" && \
-export CUDA_VISIBLE_DEVICES="0" && \
-export TF_CPP_MIN_LOG_LEVEL=1 && \
+CUDA_DEVICE_ORDER="PCI_BUS_ID" \
+CUDA_VISIBLE_DEVICES="0" \
+TF_CPP_MIN_LOG_LEVEL=1 \
 ./run_classifier_training.sh \
 --text-file-path ${TRAINING_TEXT_FILE_PATH} \
 --label-file-path ${TRAINING_LABEL_FILE_PATH} \
@@ -35,9 +35,9 @@ export TF_CPP_MIN_LOG_LEVEL=1 && \
 ## Train style transfer model
 
 ```bash
-export CUDA_DEVICE_ORDER="PCI_BUS_ID" && \
-export CUDA_VISIBLE_DEVICES="0" && \
-export TF_CPP_MIN_LOG_LEVEL=1 && \
+CUDA_DEVICE_ORDER="PCI_BUS_ID" \
+CUDA_VISIBLE_DEVICES="0" \
+TF_CPP_MIN_LOG_LEVEL=1 \
 ./run_linguistic_style_transfer_model.sh \
 --train-model \
 --text-file-path ${TRAINING_TEXT_FILE_PATH} \
@@ -56,9 +56,9 @@ export TF_CPP_MIN_LOG_LEVEL=1 && \
 ## Evaluate style transfer model
 
 ```bash
-export CUDA_DEVICE_ORDER="PCI_BUS_ID" && \
-export CUDA_VISIBLE_DEVICES="0" && \
-export TF_CPP_MIN_LOG_LEVEL=1 && \
+CUDA_DEVICE_ORDER="PCI_BUS_ID" \
+CUDA_VISIBLE_DEVICES="0" \
+TF_CPP_MIN_LOG_LEVEL=1 \
 ./run_linguistic_style_transfer_model.sh \
 --generate-novel-text \
 --evaluation-text-file-path ${TEST_TEXT_FILE_PATH} \
@@ -73,6 +73,9 @@ export TF_CPP_MIN_LOG_LEVEL=1 && \
 ### Style Transfer
 
 ```bash
+CUDA_DEVICE_ORDER="PCI_BUS_ID" \
+CUDA_VISIBLE_DEVICES="0" \
+TF_CPP_MIN_LOG_LEVEL=1 \
 ./run_style_transfer_evaluator.sh \
 --classifier-saved-model-path ${CLASSIFIER_SAVED_MODEL_PATH} \
 --text-file-path ${TEST_TEXT_FILE_PATH} \
