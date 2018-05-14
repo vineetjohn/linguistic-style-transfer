@@ -171,12 +171,6 @@ def main(argv):
             options)
         sess.close()
 
-        average_label_embeddings = data_processor.get_average_label_embeddings(
-            data_size, options.dump_embeddings)
-
-        with open(global_config.average_label_embeddings_path, 'wb') as pickle_file:
-            pickle.dump(average_label_embeddings, pickle_file)
-
         logger.info("Training complete!")
 
     elif options.generate_novel_text:
@@ -193,9 +187,6 @@ def main(argv):
                                global_config.index_to_label_dict_file), 'rb') as pickle_file:
             index_to_label_map = pickle.load(pickle_file)
         with open(os.path.join(options.saved_model_path,
-                               global_config.average_label_embeddings_file), 'rb') as pickle_file:
-            average_label_embeddings = pickle.load(pickle_file)
-        with open(os.path.join(options.saved_model_path,
                                global_config.vocab_size_save_file), 'rb') as pickle_file:
             global_config.vocab_size = pickle.load(pickle_file)
 
@@ -207,13 +198,10 @@ def main(argv):
         network.build_model(
             word_index, encoder_embedding_matrix, decoder_embedding_matrix, num_labels)
 
-        logger.info("Training model ...")
         sess = get_tensorflow_session()
 
         for i in range(num_labels):
             logger.info("Style chosen: {}".format(i))
-
-            style_embedding = np.asarray(average_label_embeddings[i])
 
             inverse_word_index = {v: k for k, v in word_index.items()}
             [actual_sequences, _, padded_sequences, text_sequence_lengths] = \
@@ -223,8 +211,8 @@ def main(argv):
 
             generated_sequences, final_sequence_lengths = \
                 network.generate_novel_sentences(
-                    sess, padded_sequences, text_sequence_lengths, style_embedding, num_labels,
-                    os.path.join(options.saved_model_path, global_config.model_save_file))
+                    sess, padded_sequences, text_sequence_lengths, num_labels, i,
+                    options.saved_model_path)
 
             actual_word_lists = \
                 [data_processor.generate_words_from_indices(x, inverse_word_index)

@@ -4,8 +4,7 @@ import pickle
 import numpy as np
 import tensorflow as tf
 
-from linguistic_style_transfer_model.config import global_config, model_config
-from linguistic_style_transfer_model.utils import tsne_interface
+from linguistic_style_transfer_model.config import global_config
 
 logger = logging.getLogger(global_config.logger_name)
 
@@ -149,48 +148,6 @@ def generate_sentence_from_logits(floating_index_sequence, inverse_word_index):
     word_indices = [x for x in word_indices if x > 0]
     words = [inverse_word_index[x] for x in word_indices]
     return words
-
-
-def get_average_label_embeddings(data_size, dump_embeddings):
-    with open(global_config.all_style_embeddings_path, 'rb') as pickle_file:
-        all_style_embeddings = pickle.load(pickle_file)
-    with open(global_config.all_content_embeddings_path, 'rb') as pickle_file:
-        all_content_embeddings = pickle.load(pickle_file)
-    with open(global_config.all_shuffled_labels_path, 'rb') as pickle_file:
-        all_one_hot_labels = pickle.load(pickle_file)
-
-    style_embeddings = np.asarray(all_style_embeddings)
-    content_embeddings = np.asarray(all_content_embeddings)
-
-    style_embedding_map = dict()
-    content_embedding_map = dict()
-
-    for i in range(data_size - (data_size % model_config.batch_size)):
-        label = all_one_hot_labels[i].tolist().index(1)
-
-        if label not in style_embedding_map:
-            style_embedding_map[label] = list()
-        if label not in content_embedding_map:
-            content_embedding_map[label] = list()
-
-        style_embedding_map[label].append(style_embeddings[i])
-        content_embedding_map[label].append(content_embeddings[i])
-
-    if dump_embeddings:
-        tsne_interface.generate_plot_coordinates(
-            style_embedding_map, global_config.style_coordinates_path)
-        tsne_interface.generate_plot_coordinates(
-            content_embedding_map, global_config.content_coordinates_path)
-
-    with open(global_config.label_mapped_style_embeddings_path, 'wb') as pickle_file:
-        pickle.dump(style_embedding_map, pickle_file)
-    logger.debug("Pickled label mapped style embeddings")
-
-    average_label_embeddings = dict()
-    for label in style_embedding_map:
-        average_label_embeddings[label] = np.mean(style_embedding_map[label], axis=0)
-
-    return average_label_embeddings
 
 
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
