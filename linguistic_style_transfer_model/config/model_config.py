@@ -11,6 +11,7 @@ content_embedding_size = 128
 sequence_word_keep_prob = 0.8
 recurrent_state_keep_prob = 0.8
 fully_connected_keep_prob = 0.8
+style_embedding_keep_prob = 0.6
 
 # learning rates
 autoencoder_learning_rate = 0.001
