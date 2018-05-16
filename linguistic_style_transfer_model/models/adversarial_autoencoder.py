@@ -105,30 +105,31 @@ class AdversarialAutoencoder:
             training_decoder.initialize("training_decoder")
 
             training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                decoder=training_decoder, impute_finished=True,
+                decoder=training_decoder, impute_finished=False,
                 maximum_iterations=global_config.max_sequence_length,
                 scope="training_decoder")
 
-        with tf.name_scope('inference_decoder'):
-            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-                embedding=decoder_embeddings,
-                start_tokens=tf.fill(dims=[model_config.batch_size],
-                                     value=word_index[global_config.sos_token]),
-                end_token=word_index[global_config.eos_token])
-
-            inference_decoder = tf.contrib.seq2seq.BasicDecoder(
-                cell=decoder_cell, helper=greedy_embedding_helper,
-                initial_state=generative_embedding,
-                output_layer=projection_layer)
+        with tf.name_scope("inference_decoder"):
+            inference_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
+                cell=decoder_cell, embedding=decoder_embeddings,
+                start_tokens=tf.fill(
+                    dims=[model_config.batch_size],
+                    value=word_index[global_config.sos_token]),
+                end_token=word_index[global_config.eos_token],
+                initial_state=tf.contrib.seq2seq.tile_batch(
+                    t=generative_embedding, multiplier=model_config.beam_search_width),
+                beam_width=model_config.beam_search_width, output_layer=projection_layer,
+                length_penalty_weight=0.0)
             inference_decoder.initialize("inference_decoder")
 
             inference_decoder_output, _, final_sequence_lengths = tf.contrib.seq2seq.dynamic_decode(
-                decoder=inference_decoder, impute_finished=True,
+                decoder=inference_decoder, impute_finished=False,
                 maximum_iterations=global_config.max_sequence_length,
                 scope="inference_decoder")
 
-        return [training_decoder_output.rnn_output, inference_decoder_output.sample_id,
-                final_sequence_lengths]
+        return training_decoder_output.rnn_output, \
+               inference_decoder_output.predicted_ids[:, :, 0], \
+               final_sequence_lengths[:, 0]  # index 0 gets the best beam search outcome
 
     def build_model(self, word_index, encoder_embedding_matrix, decoder_embedding_matrix, num_labels):
 

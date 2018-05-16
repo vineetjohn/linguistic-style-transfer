@@ -27,3 +27,4 @@ autoencoder_iterations = 1
 
 # noise
 epsilon = 1e-8
+beam_search_width = 10
