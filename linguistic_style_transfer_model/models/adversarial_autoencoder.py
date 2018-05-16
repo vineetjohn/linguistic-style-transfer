@@ -238,9 +238,26 @@ class AdversarialAutoencoder:
                 self.get_style_label_prediction(self.style_embedding, num_labels)
             logger.debug("style_label_prediction: {}".format(style_label_prediction))
 
+            self.style_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
+                logits=style_label_prediction, name="style_label_prediction_hardmax")
+
             self.style_prediction_loss = tf.losses.softmax_cross_entropy(
                 onehot_labels=self.input_label, logits=style_label_prediction, label_smoothing=0.1)
             logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
+
+        with tf.name_scope('overall_prediction_loss'):
+            overall_label_prediction = tf.layers.dense(
+                inputs=tf.concat(values=[self.style_embedding, self.content_embedding], axis=1),
+                units=num_labels, activation=tf.nn.softmax,
+                name="overall_label_prediction")
+            logger.debug("overall_label_prediction: {}".format(overall_label_prediction))
+
+            self.overall_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
+                logits=overall_label_prediction, name="overall_label_prediction_hardmax")
+
+            self.overall_prediction_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_label, logits=overall_label_prediction, label_smoothing=0.1)
+            logger.debug("overall_prediction_loss: {}".format(self.overall_prediction_loss))
 
         # reconstruction loss
         with tf.name_scope('reconstruction_loss'):
@@ -320,6 +337,7 @@ class AdversarialAutoencoder:
         self.all_summaries = tf.summary.merge_all()
 
         adversarial_variable_labels = ["adversarial_label_prediction"]
+        overall_classification_labels = ["overall_label_prediction"]
 
         # optimize adversarial classification
         adversarial_training_optimizer = tf.train.RMSPropOptimizer(
@@ -333,6 +351,18 @@ class AdversarialAutoencoder:
             adversarial_training_operation = adversarial_training_optimizer.minimize(
                 loss=self.adversarial_loss,
                 var_list=adversarial_training_variables)
+
+        # optimize overall latent space classification
+        overall_classification_optimizer = tf.train.AdamOptimizer(
+            learning_rate=model_config.autoencoder_learning_rate)
+        overall_classification_training_variables = [
+            x for x in trainable_variables if any(
+                scope in x.name for scope in overall_classification_labels)]
+        logger.debug("overall_classification_training_variables: {}".format(
+            overall_classification_training_variables))
+        overall_classification_training_operation = overall_classification_optimizer.minimize(
+            loss=self.overall_prediction_loss,
+            var_list=overall_classification_training_variables)
 
         # optimize reconstruction
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
@@ -371,6 +401,7 @@ class AdversarialAutoencoder:
                 fetches = \
                     [reconstruction_training_operation,
                      adversarial_training_operation,
+                     overall_classification_training_operation,
                      self.reconstruction_loss,
                      self.adversarial_loss,
                      self.adversarial_entropy,
@@ -380,7 +411,7 @@ class AdversarialAutoencoder:
                      self.content_embedding,
                      self.all_summaries]
 
-                [_, _, reconstruction_loss, adversarial_loss, adversarial_entropy,
+                [_, _, _, reconstruction_loss, adversarial_loss, adversarial_entropy,
                  style_loss, composite_loss,
                  style_embeddings, content_embedding, all_summaries] = \
                     self.run_batch(
@@ -524,6 +555,8 @@ class AdversarialAutoencoder:
 
         generated_sequences = list()
         final_sequence_lengths = list()
+        overall_label_predictions = list()
+        style_label_predictions = list()
         num_batches = len(padded_sequences) // model_config.batch_size
 
         # these won't be needed to generate new sentences, so just use random numbers
@@ -535,12 +568,19 @@ class AdversarialAutoencoder:
             (start_index, end_index) = self.get_batch_indices(
                 batch_number=batch_number, data_limit=len(padded_sequences))
 
-            generated_sequences_batch, final_sequence_lengths_batch = self.run_batch(
-                sess, start_index, end_index, [self.inference_output, self.final_sequence_lengths],
-                padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
-                conditioning_embedding, True, 0)
+            generated_sequences_batch, final_sequence_lengths_batch, \
+            overall_label_predictions_batch, style_label_predictions_batch = \
+                self.run_batch(
+                    sess, start_index, end_index,
+                    [self.inference_output, self.final_sequence_lengths,
+                     self.overall_label_prediction_hardmax,
+                     self.style_label_prediction_hardmax],
+                    padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
+                    conditioning_embedding, True, 0)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
+            overall_label_predictions.extend(overall_label_predictions_batch)
+            style_label_predictions.extend(style_label_predictions_batch)
 
-        return generated_sequences, final_sequence_lengths
+        return generated_sequences, final_sequence_lengths, overall_label_predictions, style_label_predictions
