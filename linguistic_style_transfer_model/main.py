@@ -53,7 +53,8 @@ def flush_ground_truth_sentences(actual_sequences, start_index, final_index,
 
 def execute_post_inference_operations(
         actual_word_lists, generated_sequences, final_sequence_lengths, overall_label_predictions,
-        style_label_predictions, inverse_word_index, timestamped_file_suffix, mode):
+        style_label_predictions, adversarial_label_predictions, inverse_word_index,
+        timestamped_file_suffix, mode):
     logger.debug("Minimum generated sentence length: {}".format(min(final_sequence_lengths)))
 
     # first trims the generates sentences down to the length the decoder returns
@@ -80,16 +81,22 @@ def execute_post_inference_operations(
             output_file.write(sentence + "\n")
 
     # write label predictions to file
-    output_file_path = "output/{}-inference/overall_labels_prediction.txt".format(timestamped_file_suffix, mode)
+    output_file_path = "output/{}-inference/overall_labels_prediction.txt".format(timestamped_file_suffix)
     os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
     with open(output_file_path, 'w') as output_file:
         for one_hot_label in overall_label_predictions:
             output_file.write("{}\n".format(one_hot_label.tolist().index(1)))
 
-    output_file_path = "output/{}-inference/style_labels_prediction.txt".format(timestamped_file_suffix, mode)
+    output_file_path = "output/{}-inference/style_labels_prediction.txt".format(timestamped_file_suffix)
     os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
     with open(output_file_path, 'w') as output_file:
         for one_hot_label in style_label_predictions:
+            output_file.write("{}\n".format(one_hot_label.tolist().index(1)))
+
+    output_file_path = "output/{}-inference/adversarial_labels_prediction.txt".format(timestamped_file_suffix)
+    os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+    with open(output_file_path, 'w') as output_file:
+        for one_hot_label in adversarial_label_predictions:
             output_file.write("{}\n".format(one_hot_label.tolist().index(1)))
 
 
@@ -234,7 +241,8 @@ def main(argv):
                     options.evaluation_text_file_path, word_index, text_tokenizer,
                     inverse_word_index)
 
-            generated_sequences, final_sequence_lengths, overall_label_predictions, style_label_predictions = \
+            generated_sequences, final_sequence_lengths, overall_label_predictions, \
+            style_label_predictions, adversarial_label_predictions = \
                 network.generate_novel_sentences(
                     sess, padded_sequences, text_sequence_lengths, style_embedding, num_labels,
                     os.path.join(options.saved_model_path, global_config.model_save_file))
@@ -245,7 +253,7 @@ def main(argv):
 
             execute_post_inference_operations(
                 actual_word_lists, generated_sequences, final_sequence_lengths,
-                overall_label_predictions, style_label_predictions,
+                overall_label_predictions, style_label_predictions, adversarial_label_predictions,
                 inverse_word_index, global_config.experiment_timestamp,
                 "novel_sentences_{}".format(i))
 

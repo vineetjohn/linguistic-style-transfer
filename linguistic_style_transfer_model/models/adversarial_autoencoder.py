@@ -232,6 +232,9 @@ class AdversarialAutoencoder:
                 self.content_embedding, num_labels)
             logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
+            self.adversarial_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
+                logits=adversarial_label_prediction, name="adversarial_label_prediction_hardmax")
+
             self.adversarial_entropy = tf.reduce_mean(
                 input_tensor=tf.reduce_sum(
                     input_tensor=-adversarial_label_prediction *
@@ -567,6 +570,7 @@ class AdversarialAutoencoder:
         final_sequence_lengths = list()
         overall_label_predictions = list()
         style_label_predictions = list()
+        adversarial_label_predictions = list()
         num_batches = len(padded_sequences) // model_config.batch_size
 
         # these won't be needed to generate new sentences, so just use random numbers
@@ -579,12 +583,14 @@ class AdversarialAutoencoder:
                 batch_number=batch_number, data_limit=len(padded_sequences))
 
             generated_sequences_batch, final_sequence_lengths_batch, \
-            overall_label_predictions_batch, style_label_predictions_batch = \
+            overall_label_predictions_batch, style_label_predictions_batch, \
+            adversarial_label_predictions_batch = \
                 self.run_batch(
                     sess, start_index, end_index,
                     [self.inference_output, self.final_sequence_lengths,
                      self.overall_label_prediction_hardmax,
-                     self.style_label_prediction_hardmax],
+                     self.style_label_prediction_hardmax,
+                     self.adversarial_label_prediction_hardmax],
                     padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
                     conditioning_embedding, True, 0)
 
@@ -592,5 +598,7 @@ class AdversarialAutoencoder:
             final_sequence_lengths.extend(final_sequence_lengths_batch)
             overall_label_predictions.extend(overall_label_predictions_batch)
             style_label_predictions.extend(style_label_predictions_batch)
+            adversarial_label_predictions.extend(adversarial_label_predictions_batch)
 
-        return generated_sequences, final_sequence_lengths, overall_label_predictions, style_label_predictions
+        return generated_sequences, final_sequence_lengths, overall_label_predictions, \
+               style_label_predictions, adversarial_label_predictions
