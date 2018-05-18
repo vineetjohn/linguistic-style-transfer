@@ -1,7 +1,7 @@
 import argparse
+import os
 import pickle
 import sys
-import os
 
 import numpy as np
 from matplotlib import pyplot as plt
@@ -11,17 +11,15 @@ from linguistic_style_transfer_model.utils import log_initializer
 
 logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 colors = ['b', 'r', 'g', 'c', 'm', 'y', 'k']
+markers = ['x', 'o']
 
 
-def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
-    plt.figure(fig_num)
-    for i in range(len(markers) - 1):
-        plt.scatter(x=coordinates[markers[i]:markers[i + 1], 0],
-                    y=coordinates[markers[i]:markers[i + 1], 1],
-                    marker='x', c=colors[i], label=label_names[i], alpha=0.5)
-
-    plt.legend(loc='best')
-    plt.savefig(fname=plot_path, format="svg", dpi=1200)
+def plot_coordinates(coordinates, coord_markers, label_names, fig_num):
+    plt.subplot(120 + fig_num + 1)
+    for i in range(len(coord_markers) - 1):
+        plt.scatter(x=coordinates[coord_markers[i]:coord_markers[i + 1], 0],
+                    y=coordinates[coord_markers[i]:coord_markers[i + 1], 1],
+                    marker=markers[i], c=colors[i], label=label_names[i], alpha=0.33)
 
 
 def plot_coordinates_with_custom_label(coordinates, labels, plot_path, fig_num):
@@ -62,18 +60,18 @@ def main(argv):
         with open(os.path.join(args["saved_model_path"],
                                global_config.style_coordinates_file), 'rb') as pickle_file:
             (style_coordinates, markers) = pickle.load(pickle_file)
-            plot_coordinates(style_coordinates,
-                             os.path.join(args["saved_model_path"],
-                                          global_config.style_embedding_plot_file),
-                             markers, label_names, 0)
+            plot_coordinates(style_coordinates, markers, label_names, 0)
 
         with open(os.path.join(args["saved_model_path"],
                                global_config.content_coordinates_file), 'rb') as pickle_file:
             (content_coordinates, markers) = pickle.load(pickle_file)
-            plot_coordinates(content_coordinates,
-                             os.path.join(args["saved_model_path"],
-                                          global_config.content_embedding_plot_file),
-                             markers, label_names, 1)
+            plot_coordinates(content_coordinates, markers, label_names, 1)
+
+        plt.legend(loc='best')
+        plt.savefig(fname=os.path.join(args["saved_model_path"],
+                                       global_config.style_and_content_embedding_plot_file),
+                    format="svg", dpi=1200)
+
     else:
         labels = list()
         with open(file=args["label_file_path"], mode='r') as label_file:
