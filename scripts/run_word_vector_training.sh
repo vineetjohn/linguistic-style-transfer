@@ -2,7 +2,7 @@
 
 source $HOME/.pyenv/bin/activate
 
-PROJECT_DIR_PATH="$PWD/$(dirname $0)/"
+PROJECT_DIR_PATH="$PWD/$(dirname $0)/../"
 cd ${PROJECT_DIR_PATH}
 
 PYTHONPATH=${PROJECT_DIR_PATH} \
