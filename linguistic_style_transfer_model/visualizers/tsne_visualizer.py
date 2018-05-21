@@ -11,6 +11,7 @@ from linguistic_style_transfer_model.utils import log_initializer
 
 logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 colors = ['b', 'r', 'g', 'c', 'm', 'y', 'k']
+plot_markers = ['x', '+']
 
 
 def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
@@ -18,9 +19,9 @@ def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
     for i in range(len(markers) - 1):
         plt.scatter(x=coordinates[markers[i]:markers[i + 1], 0],
                     y=coordinates[markers[i]:markers[i + 1], 1],
-                    marker='x', c=colors[i], label=label_names[i], alpha=0.5)
+                    marker=plot_markers[i], c=colors[i], label=label_names[i], alpha=0.75)
 
-    plt.legend(loc='best')
+    plt.legend(loc='upper right', fontsize='x-large')
     plt.savefig(fname=plot_path, format="svg", dpi=1200)
 
 
