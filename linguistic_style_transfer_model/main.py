@@ -156,6 +156,7 @@ def main(argv):
         sys.exit(0)
 
     global_config.training_epochs = options.training_epochs
+    logger.info("experiment_timestamp: {}".format(global_config.experiment_timestamp))
 
     # Train and save model
     if options.train_model:
