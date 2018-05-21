@@ -18,7 +18,8 @@ all_content_embeddings_path = save_directory + "/all_content_embeddings.pkl"
 all_shuffled_labels_path = save_directory + "/all_shuffled_labels_path.pkl"
 label_mapped_style_embeddings_path = save_directory + "/label_mapped_style_embeddings.pkl"
 
-style_and_content_embedding_plot_file = "tsne_embeddings_plot_style_content.svg"
+style_embedding_plot_file = "tsne_embeddings_plot_style.svg"
+content_embedding_plot_file = "tsne_embeddings_plot_content.svg"
 style_embedding_custom_plot_file = "tsne_embeddings_custom_plot_style.svg"
 content_embedding_custom_plot_file = "tsne_embeddings_custom_plot_content.svg"
 
