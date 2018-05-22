@@ -60,7 +60,7 @@ def get_content_preservation_score(actual_word_lists, generated_word_lists, embe
     sentiment_words = load_sentiment_words()
     cosine_distances = list()
     skip_count = 0
-    for word_list_1, word_list_2 in zip(actual_word_lists, generated_word_lists):
+    for word_list_1, word_list_2 in zip(actual_word_lists[:len(generated_word_lists)], generated_word_lists):
         try:
             word_list_1 = remove_words(word_list_1, sentiment_words)
             word_list_2 = remove_words(word_list_2, sentiment_words)
