@@ -19,3 +19,4 @@ class Options(SimpleNamespace):
         self.classifier_saved_model_path = None
         self.dump_embeddings = None
         self.evaluation_text_file_path = None
+        self.evaluation_label_file_path = None

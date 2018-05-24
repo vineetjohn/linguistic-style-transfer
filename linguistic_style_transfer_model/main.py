@@ -1,9 +1,9 @@
-import argparse
-import os
-import pickle
 import sys
 
+import argparse
 import numpy as np
+import os
+import pickle
 import tensorflow as tf
 
 from linguistic_style_transfer_model.config import global_config
@@ -52,9 +52,8 @@ def flush_ground_truth_sentences(actual_sequences, start_index, final_index,
 
 
 def execute_post_inference_operations(
-        actual_word_lists, generated_sequences, final_sequence_lengths, overall_label_predictions,
-        style_label_predictions, adversarial_label_predictions, inverse_word_index,
-        timestamped_file_suffix, mode):
+        actual_word_lists, generated_sequences, final_sequence_lengths, inverse_word_index,
+        timestamped_file_suffix, label):
     logger.debug("Minimum generated sentence length: {}".format(min(final_sequence_lengths)))
 
     # first trims the generates sentences down to the length the decoder returns
@@ -72,32 +71,22 @@ def execute_post_inference_operations(
     bleu_scores = bleu_scorer.get_corpus_bleu_scores(
         [[x] for x in actual_word_lists], generated_word_lists)
     logger.info("bleu_scores: {}".format(bleu_scores))
-    generated_sentences = [" ".join(x) for x in generated_word_lists]
 
-    output_file_path = "output/{}-inference/generated_{}.txt".format(timestamped_file_suffix, mode)
+    generated_sentences = [" ".join(x) for x in generated_word_lists]
+    output_file_path = "output/{}-inference/generated_sentences_{}.txt".format(
+        timestamped_file_suffix, label)
     os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
     with open(output_file_path, 'w') as output_file:
         for sentence in generated_sentences:
             output_file.write(sentence + "\n")
 
-    # write label predictions to file
-    output_file_path = "output/{}-inference/overall_labels_prediction.txt".format(timestamped_file_suffix)
+    actual_sentences = [" ".join(x) for x in actual_word_lists]
+    output_file_path = "output/{}-inference/actual_sentences_{}.txt".format(
+        timestamped_file_suffix, label)
     os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
     with open(output_file_path, 'w') as output_file:
-        for one_hot_label in overall_label_predictions:
-            output_file.write("{}\n".format(one_hot_label.tolist().index(1)))
-
-    output_file_path = "output/{}-inference/style_labels_prediction.txt".format(timestamped_file_suffix)
-    os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
-    with open(output_file_path, 'w') as output_file:
-        for one_hot_label in style_label_predictions:
-            output_file.write("{}\n".format(one_hot_label.tolist().index(1)))
-
-    output_file_path = "output/{}-inference/adversarial_labels_prediction.txt".format(timestamped_file_suffix)
-    os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
-    with open(output_file_path, 'w') as output_file:
-        for one_hot_label in adversarial_label_predictions:
-            output_file.write("{}\n".format(one_hot_label.tolist().index(1)))
+        for sentence in actual_sentences:
+            output_file.write(sentence + "\n")
 
 
 def get_word_embeddings(embedding_model_path, word_index):
@@ -134,17 +123,18 @@ def main(argv):
     if options.train_model:
         parser.add_argument("--vocab-size", type=int, default=1000)
         parser.add_argument("--training-epochs", type=int, default=10)
-        parser.add_argument("--text-file-path", type=str)
-        parser.add_argument("--label-file-path", type=str)
-        parser.add_argument("--validation-text-file-path", type=str)
-        parser.add_argument("--validation-label-file-path", type=str)
+        parser.add_argument("--text-file-path", type=str, required=True)
+        parser.add_argument("--label-file-path", type=str, required=True)
+        parser.add_argument("--validation-text-file-path", type=str, required=True)
+        parser.add_argument("--validation-label-file-path", type=str, required=True)
         parser.add_argument("--training-embeddings-file-path", type=str)
-        parser.add_argument("--validation-embeddings-file-path", type=str)
+        parser.add_argument("--validation-embeddings-file-path", type=str, required=True)
         parser.add_argument("--dump-embeddings", action="store_true", default=False)
-        parser.add_argument("--classifier-saved-model-path", type=str)
+        parser.add_argument("--classifier-saved-model-path", type=str, required=True)
     if options.generate_novel_text:
-        parser.add_argument("--saved-model-path", type=str)
-        parser.add_argument("--evaluation-text-file-path", type=str)
+        parser.add_argument("--saved-model-path", type=str, required=True)
+        parser.add_argument("--evaluation-text-file-path", type=str, required=True)
+        parser.add_argument("--evaluation-label-file-path", type=str, required=True)
 
     parser.parse_known_args(args=argv, namespace=options)
 
@@ -184,7 +174,7 @@ def main(argv):
             data_processor.get_test_sequences(
                 options.validation_text_file_path, word_index, text_tokenizer, inverse_word_index)
         [_, validation_labels] = \
-            data_processor.get_test_labels(options.validation_label_file_path)
+            data_processor.get_test_labels(options.validation_label_file_path, global_config.save_directory)
 
         network.train(
             sess, data_size, padded_sequences, text_sequence_lengths, one_hot_labels, num_labels,
@@ -231,34 +221,71 @@ def main(argv):
 
         sess = get_tensorflow_session()
 
+        inverse_word_index = {v: k for k, v in word_index.items()}
+        [actual_sequences, _, padded_sequences, text_sequence_lengths] = \
+            data_processor.get_test_sequences(
+                options.evaluation_text_file_path, word_index, text_tokenizer,
+                inverse_word_index)
+        [label_sequences, _] = \
+            data_processor.get_test_labels(options.evaluation_label_file_path, options.saved_model_path)
+
         for i in range(num_labels):
             logger.info("Style chosen: {}".format(i))
 
+            filtered_actual_sequences = list()
+            filtered_padded_sequences = list()
+            filtered_text_sequence_lengths = list()
+            for k in range(len(actual_sequences)):
+                if label_sequences[k] != i:
+                    filtered_actual_sequences.append(actual_sequences[k])
+                    filtered_padded_sequences.append(padded_sequences[k])
+                    filtered_text_sequence_lengths.append(text_sequence_lengths[k])
+
             style_embedding = np.asarray(average_label_embeddings[i])
-
-            inverse_word_index = {v: k for k, v in word_index.items()}
-            [actual_sequences, _, padded_sequences, text_sequence_lengths] = \
-                data_processor.get_test_sequences(
-                    options.evaluation_text_file_path, word_index, text_tokenizer,
-                    inverse_word_index)
-
-            generated_sequences, final_sequence_lengths, overall_label_predictions, \
-            style_label_predictions, adversarial_label_predictions = \
+            [generated_sequences, final_sequence_lengths, _, _, _] = \
                 network.generate_novel_sentences(
-                    sess, padded_sequences, text_sequence_lengths, style_embedding, num_labels,
-                    os.path.join(options.saved_model_path, global_config.model_save_file))
+                    sess, filtered_padded_sequences, filtered_text_sequence_lengths, style_embedding,
+                    num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
 
             actual_word_lists = \
                 [data_processor.generate_words_from_indices(x, inverse_word_index)
-                 for x in actual_sequences]
+                 for x in filtered_actual_sequences]
 
             execute_post_inference_operations(
                 actual_word_lists, generated_sequences, final_sequence_lengths,
-                overall_label_predictions, style_label_predictions, adversarial_label_predictions,
-                inverse_word_index, global_config.experiment_timestamp,
-                "novel_sentences_{}".format(i))
+                inverse_word_index, global_config.experiment_timestamp, i)
 
             logger.info("Generation complete!")
+
+        _, _, overall_label_predictions, style_label_predictions, adversarial_label_predictions = \
+            network.generate_novel_sentences(
+                sess, padded_sequences, text_sequence_lengths, average_label_embeddings[0],
+                num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
+
+        # write label predictions to file
+        output_file_path = "output/{}-inference/overall_labels_prediction.txt".format(
+            global_config.experiment_timestamp)
+        os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+        with open(output_file_path, 'w') as output_file:
+            for one_hot_label in overall_label_predictions:
+                output_file.write("{}\n".format(one_hot_label.tolist().index(1)))
+
+        output_file_path = "output/{}-inference/style_labels_prediction.txt".format(
+            global_config.experiment_timestamp)
+        os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+        with open(output_file_path, 'w') as output_file:
+            for one_hot_label in style_label_predictions:
+                output_file.write("{}\n".format(one_hot_label.tolist().index(1)))
+
+        output_file_path = "output/{}-inference/adversarial_labels_prediction.txt".format(
+            global_config.experiment_timestamp)
+        os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+        with open(output_file_path, 'w') as output_file:
+            for one_hot_label in adversarial_label_predictions:
+                output_file.write("{}\n".format(one_hot_label.tolist().index(1)))
+
+        logger.info("Inference run complete")
+
         sess.close()
 
 

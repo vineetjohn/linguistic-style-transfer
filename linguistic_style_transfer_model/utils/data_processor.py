@@ -1,7 +1,7 @@
 import logging
-import pickle
-
 import numpy as np
+import os
+import pickle
 import tensorflow as tf
 
 from linguistic_style_transfer_model.config import global_config, model_config
@@ -111,11 +111,12 @@ def get_labels(label_file_path, store_labels):
     return [np.asarray(one_hot_labels), num_labels]
 
 
-def get_test_labels(label_file_path):
+def get_test_labels(label_file_path, model_save_directory):
     all_labels = list(open(label_file_path, "r").readlines())
     all_labels = [label.strip() for label in all_labels]
 
-    with open(global_config.label_to_index_dict_path, 'rb') as pickle_file:
+    with open(os.path.join(model_save_directory,
+                           global_config.label_to_index_dict_file), 'rb') as pickle_file:
         label_to_index_map = pickle.load(pickle_file)
 
     one_hot_labels = list()

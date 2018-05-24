@@ -1,9 +1,9 @@
-import argparse
-import logging
-import statistics
 import sys
 
+import argparse
+import logging
 import numpy as np
+import statistics
 import tensorflow as tf
 from nltk.corpus import stopwords
 from scipy.spatial.distance import cosine
@@ -102,10 +102,10 @@ def get_word_overlap_score(actual_word_lists, generated_word_lists):
     return statistics.mean(scores)
 
 
-def run_content_preservation_evaluator(source_file, target_file, embeddings_file):
+def run_content_preservation_evaluator(source_file_path, target_file_path, embeddings_file):
     glove_model = load_glove_model(embeddings_file)
     actual_word_lists, generated_word_lists = list(), list()
-    with open(source_file) as source_file, open(target_file) as target_file:
+    with open(source_file_path) as source_file, open(target_file_path) as target_file:
         for line_1, line_2 in zip(source_file, target_file):
             actual_word_lists.append(tf.keras.preprocessing.text.text_to_word_sequence(line_1))
             generated_word_lists.append(tf.keras.preprocessing.text.text_to_word_sequence(line_2))
