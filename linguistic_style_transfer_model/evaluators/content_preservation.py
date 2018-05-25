@@ -73,7 +73,7 @@ def get_content_preservation_score(actual_word_lists, generated_word_lists, embe
             logger.debug("Skipped lines: {} :-: {}".format(word_list_1, word_list_2))
 
     logger.debug("{} lines skipped due to errors".format(skip_count))
-    mean_cosine_distance = statistics.mean(cosine_distances)
+    mean_cosine_distance = statistics.mean(cosine_distances) if cosine_distances else 0
 
     del sentiment_words
 

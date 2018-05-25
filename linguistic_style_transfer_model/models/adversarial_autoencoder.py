@@ -1,9 +1,8 @@
 import json
 import logging
+import numpy as np
 import os
 import pickle
-
-import numpy as np
 import tensorflow as tf
 
 from linguistic_style_transfer_model.config import global_config, model_config
@@ -463,6 +462,8 @@ class AdversarialAutoencoder:
                 validation_content_preservation_scores = list()
                 validation_word_overlap_scores = list()
                 for i in range(num_labels):
+
+                    logger.info("validating label {}".format(i))
 
                     label_embeddings = list()
                     validation_sequences_to_transfer = list()
