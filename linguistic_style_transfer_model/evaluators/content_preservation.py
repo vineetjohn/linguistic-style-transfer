@@ -114,8 +114,8 @@ def run_content_preservation_evaluator(source_file_path, target_file_path, embed
         actual_word_lists, generated_word_lists, glove_model)
     word_overlap_score = get_word_overlap_score(
         actual_word_lists, generated_word_lists)
-    logger.info("Aggregate content preservation: {}".format(content_preservation_score))
-    logger.info("Aggregate word overlap: {}".format(word_overlap_score))
+
+    return [content_preservation_score, word_overlap_score]
 
 
 def main(argv):
@@ -128,8 +128,11 @@ def main(argv):
     logger = log_initializer.setup_custom_logger(global_config.logger_name, "DEBUG")
 
     options = vars(parser.parse_args(args=argv))
-    run_content_preservation_evaluator(
+    [content_preservation_score, word_overlap_score] = run_content_preservation_evaluator(
         options["source_file_path"], options["target_file_path"], options["embeddings_file_path"])
+
+    logger.info("Aggregate content preservation: {}".format(content_preservation_score))
+    logger.info("Aggregate word overlap: {}".format(word_overlap_score))
 
 
 if __name__ == "__main__":

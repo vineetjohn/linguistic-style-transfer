@@ -32,25 +32,6 @@ def get_data(options):
             text_tokenizer, inverse_word_index]
 
 
-def flush_ground_truth_sentences(actual_sequences, start_index, final_index,
-                                 inverse_word_index, timestamped_file_suffix):
-    actual_sequences = actual_sequences[start_index:final_index]
-
-    actual_word_lists = \
-        [data_processor.generate_words_from_indices(x, inverse_word_index)
-         for x in actual_sequences]
-
-    actual_sentences = [" ".join(x) for x in actual_word_lists]
-
-    output_file_path = "output/{}/actual_sentences.txt".format(timestamped_file_suffix)
-    os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
-    with open(output_file_path, 'w') as output_file:
-        for sentence in actual_sentences:
-            output_file.write(sentence + "\n")
-
-    return actual_word_lists
-
-
 def execute_post_inference_operations(
         actual_word_lists, generated_sequences, final_sequence_lengths, inverse_word_index,
         timestamped_file_suffix, label):

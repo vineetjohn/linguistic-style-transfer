@@ -1,10 +1,10 @@
-import argparse
-import logging
-import os
-import pickle
 import sys
 
+import argparse
+import logging
 import numpy as np
+import os
+import pickle
 import tensorflow as tf
 from sklearn import metrics
 
@@ -77,7 +77,7 @@ def get_style_transfer_score(classifier_saved_model_path, text_file_path, label)
         return [accuracy, confusion_matrix]
 
     logger.info("Nothing to evaluate")
-    return 0.0
+    return [0.0, None]
 
 
 def main(argv):
