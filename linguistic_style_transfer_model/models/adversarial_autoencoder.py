@@ -67,6 +67,14 @@ class AdversarialAutoencoder:
 
         return style_label_prediction
 
+    def get_bow_prediction(self, style_embedding):
+
+        bow_prediction = tf.layers.dense(
+            inputs=style_embedding, units=global_config.vocab_size,
+            activation=tf.nn.sigmoid, name="adversarial_bow_prediction")
+
+        return bow_prediction
+
     def get_adversarial_label_prediction(self, content_embedding, num_labels):
 
         adversarial_label_mlp = tf.nn.dropout(
@@ -148,6 +156,11 @@ class AdversarialAutoencoder:
         self.sequence_lengths = tf.placeholder(
             dtype=tf.int32, shape=[None], name="sequence_lengths")
         logger.debug("sequence_lengths: {}".format(self.sequence_lengths))
+
+        self.input_bow_representations = tf.placeholder(
+            dtype=tf.float32, shape=[None, global_config.vocab_size],
+            name="input_bow_representations")
+        logger.debug("input_bow_representations: {}".format(self.input_bow_representations))
 
         self.conditioned_generation_mode = tf.placeholder(dtype=tf.bool, name="conditioned_generation_mode")
         logger.debug("conditioned_generation_mode: {}".format(self.conditioned_generation_mode))
@@ -247,6 +260,16 @@ class AdversarialAutoencoder:
                 onehot_labels=self.input_label, logits=adversarial_label_prediction, label_smoothing=0.1)
             logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
 
+            bow_prediction = self.get_bow_prediction(self.style_embedding)
+            self.bow_prediction_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_bow_representations, logits=bow_prediction, label_smoothing=0.1)
+            logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
+
+            self.bow_entropy = tf.reduce_mean(
+                input_tensor=tf.reduce_sum(
+                    input_tensor=-bow_prediction * tf.log(bow_prediction + model_config.epsilon), axis=1))
+            logger.debug("bow_entropy: {}".format(self.bow_entropy))
+
         # style prediction loss
         with tf.name_scope('style_prediction_loss'):
             style_label_prediction = \
@@ -319,12 +342,16 @@ class AdversarialAutoencoder:
                 size=(end_index - start_index, model_config.style_embedding_size),
                 low=-0.05, high=0.05).astype(dtype=np.float32)
 
+        bow_representations = data_processor.get_bow_representations(
+            padded_sequences[start_index: end_index])
+
         ops = sess.run(
             fetches=fetches,
             feed_dict={
                 self.input_sequence: padded_sequences[start_index: end_index],
                 self.input_label: one_hot_labels[start_index: end_index],
                 self.sequence_lengths: text_sequence_lengths[start_index: end_index],
+                self.input_bow_representations: bow_representations,
                 self.conditioned_generation_mode: conditioned_generation_mode,
                 self.conditioning_embedding: conditioning_embedding,
                 self.epoch: current_epoch
@@ -346,11 +373,12 @@ class AdversarialAutoencoder:
         self.composite_loss = 0.0
         self.composite_loss += self.reconstruction_loss
         self.composite_loss -= self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight
+        self.composite_loss -= self.bow_entropy * model_config.adversarial_bow_loss_weight
         self.composite_loss += self.style_prediction_loss * model_config.style_prediction_loss_weight
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
 
-        adversarial_variable_labels = ["adversarial_label_prediction"]
+        adversarial_variable_labels = ["adversarial"]
         overall_classification_labels = ["overall_label_prediction"]
 
         # optimize adversarial classification
@@ -363,7 +391,7 @@ class AdversarialAutoencoder:
         adversarial_training_operation = None
         for i in range(model_config.adversarial_discriminator_iterations):
             adversarial_training_operation = adversarial_training_optimizer.minimize(
-                loss=self.adversarial_loss,
+                loss=self.adversarial_loss + self.bow_prediction_loss,
                 var_list=adversarial_training_variables)
 
         # optimize overall latent space classification
@@ -424,23 +452,26 @@ class AdversarialAutoencoder:
                      self.adversarial_loss,
                      self.adversarial_entropy,
                      self.style_prediction_loss,
+                     self.bow_prediction_loss,
+                     self.bow_entropy,
                      self.composite_loss,
                      self.style_embedding,
                      self.content_embedding,
                      self.all_summaries]
 
                 [_, _, _, reconstruction_loss, adversarial_loss, adversarial_entropy,
-                 style_loss, composite_loss,
+                 style_loss, bow_prediction_loss, bow_entropy, composite_loss,
                  style_embeddings, content_embedding, all_summaries] = \
                     self.run_batch(
                         sess, start_index, end_index, fetches,
                         shuffled_padded_sequences, shuffled_one_hot_labels,
                         shuffled_text_sequence_lengths, None, False, current_epoch)
 
-                log_msg = "[R: {:.2f}, ACE: {:.2f}, AE: {:.2f}, S: {:.2f}], Epoch {}-{}: {:.4f} "
+                log_msg = "[R: {:.2f}, ACE: {:.2f}, AE: {:.2f}, S: {:.2f}, BCE: {:.2f}, BE: {:.2f}], " \
+                          "Epoch {}-{}: {:.4f} "
                 logger.info(log_msg.format(
-                    reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss,
-                    current_epoch, batch_number, composite_loss))
+                    reconstruction_loss, adversarial_loss, adversarial_entropy, style_loss, bow_prediction_loss,
+                    bow_entropy, current_epoch, batch_number, composite_loss))
 
                 all_style_embeddings.extend(style_embeddings)
                 all_content_embeddings.extend(content_embedding)
