@@ -212,17 +212,3 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
             start_index = batch_num * batch_size
             end_index = min((batch_num + 1) * batch_size, data_size)
             yield shuffled_data[start_index:end_index]
-
-
-def get_bow_representations(text_sequences):
-    predefined_indices = set(global_config.predefined_word_index.values())
-
-    bow_representation = list()
-    for text_sequence in text_sequences:
-        sequence_bow_representation = np.zeros(shape=global_config.vocab_size, dtype=np.int32)
-        for index in text_sequence:
-            if index not in predefined_indices:
-                sequence_bow_representation[index] = 1
-        bow_representation.append(sequence_bow_representation)
-
-    return np.asarray(bow_representation)
