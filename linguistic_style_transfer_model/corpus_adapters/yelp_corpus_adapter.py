@@ -5,12 +5,12 @@ from linguistic_style_transfer_model.utils import log_initializer
 
 logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 
-dev_pos_reviews_file_path = "data/yelp/sentiment.dev.0"
-dev_neg_reviews_file_path = "data/yelp/sentiment.dev.1"
-test_pos_reviews_file_path = "data/yelp/sentiment.test.0"
-test_neg_reviews_file_path = "data/yelp/sentiment.test.1"
-train_pos_reviews_file_path = "data/yelp/sentiment.train.0"
-train_neg_reviews_file_path = "data/yelp/sentiment.train.1"
+dev_pos_reviews_file_path = "data/yelp/sentiment.dev.1"
+dev_neg_reviews_file_path = "data/yelp/sentiment.dev.0"
+test_pos_reviews_file_path = "data/yelp/sentiment.test.1"
+test_neg_reviews_file_path = "data/yelp/sentiment.test.0"
+train_pos_reviews_file_path = "data/yelp/sentiment.train.1"
+train_neg_reviews_file_path = "data/yelp/sentiment.train.0"
 
 train_text_file_path = "data/yelp/reviews-train.txt"
 train_labels_file_path = "data/yelp/sentiment-train.txt"

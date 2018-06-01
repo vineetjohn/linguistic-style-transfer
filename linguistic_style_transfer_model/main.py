@@ -236,7 +236,7 @@ def main(argv):
                 actual_word_lists, generated_sequences, final_sequence_lengths,
                 inverse_word_index, global_config.experiment_timestamp, i)
 
-            logger.info("Generation complete!")
+            logger.info("Generation complete for label {}".format(i))
 
         _, _, overall_label_predictions, style_label_predictions, adversarial_label_predictions = \
             network.generate_novel_sentences(
@@ -244,6 +244,7 @@ def main(argv):
                 num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
 
         # write label predictions to file
+        logger.info("Predicting labels from latent spaces ...")
         output_file_path = "output/{}-inference/overall_labels_prediction.txt".format(
             global_config.experiment_timestamp)
         os.makedirs(os.path.dirname(output_file_path), exist_ok=True)

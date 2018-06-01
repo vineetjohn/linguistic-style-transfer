@@ -19,7 +19,7 @@ adversarial_discriminator_learning_rate = 0.001
 
 # loss weights
 adversarial_discriminator_loss_weight = 0.3
-adversarial_bow_loss_weight = 0.001
+adversarial_bow_loss_weight = 0.0001
 style_prediction_loss_weight = 1
 
 # training iterations
