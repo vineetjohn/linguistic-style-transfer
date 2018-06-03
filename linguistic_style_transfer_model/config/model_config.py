@@ -20,7 +20,8 @@ adversarial_discriminator_learning_rate = 0.001
 # loss weights
 adversarial_discriminator_loss_weight = 0.3
 style_prediction_loss_weight = 1
-kl_loss_weight = 0.1
+style_kl_loss_weight = 0.003
+content_kl_loss_weight = 0.001
 
 # training iterations
 adversarial_discriminator_iterations = 1

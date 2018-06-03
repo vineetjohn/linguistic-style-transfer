@@ -143,7 +143,10 @@ class AdversarialAutoencoder:
                final_sequence_lengths[:, 0]  # index 0 gets the best beam search outcome
 
     def get_kl_loss(self, mu, log_sigma):
-        return -0.5 * tf.reduce_sum(1 + log_sigma - tf.square(mu) - tf.exp(log_sigma))
+        return tf.reduce_mean(
+            input_tensor=-0.5 * tf.reduce_sum(
+                input_tensor=1 + log_sigma - tf.square(mu) - tf.exp(log_sigma),
+                axis=1))
 
     def sample_prior(self, mu, log_sigma):
         epsilon = tf.random_normal(tf.shape(log_sigma), name="epsilon")
@@ -367,10 +370,14 @@ class AdversarialAutoencoder:
 
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
+
+        style_kl_weight = model_config.style_kl_loss_weight * tf.cast(self.epoch, tf.float32)
+        content_kl_weight = model_config.content_kl_loss_weight * tf.cast(self.epoch, tf.float32)
+
         self.composite_loss = 0.0
         self.composite_loss += self.reconstruction_loss
-        self.composite_loss += self.style_kl_loss * model_config.kl_loss_weight
-        self.composite_loss += self.content_kl_loss * model_config.kl_loss_weight
+        self.composite_loss += self.style_kl_loss * style_weight
+        self.composite_loss += self.content_kl_loss * content_kl_weight
         self.composite_loss -= self.adversarial_entropy * model_config.adversarial_discriminator_loss_weight
         self.composite_loss += self.style_prediction_loss * model_config.style_prediction_loss_weight
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
