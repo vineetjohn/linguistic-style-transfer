@@ -276,7 +276,7 @@ Ours - 20180522125734
     * transfer-strength: 0.6694461370064764
     * content-preservation: 0.9029985146333501
     * word-overlap: 0.11182601382709641
-* Ours (20180530182346-training, 20180531132104-inference), with BoW loss, lambda = 0.0001
+* Ours (20180530182346-training, 20180531132104-inference), with bow-weight = 0.0001
     * transfer-strength: 0.7008537516346147
     * content-preservation: 0.9029972591947888
     * word-overlap: 0.11600832457044769
@@ -285,7 +285,7 @@ Ours - 20180522125734
 
 ## Experiments on the Yelp Dataset
 
-* Ours (saved-models/20180601160201, output/20180602002719-inference), with BoW loss, lambda = 0.0001
+* Ours (saved-models/20180601160201, output/20180602002719-inference), with bow-weight = 0.0001
     * transfer-strength: 0.7134456560178669
     * content-preservation: 0.8881922801244286
     * word-overlap: 0.2644665557287217
@@ -297,13 +297,20 @@ Ours - 20180522125734
 ### Variational
 * Initial experiment: KL loss goes to zero and the decoder produces the same sentence always for weights = 1
 * Ours(saved-models/20180602210347, output/20180603140501-inference) 
-    * style_kl_loss_weight = 0.001, content_kl_loss_weight = 0.0003 (no batch normalization)
+    * style-kl-weight = 0.001, content-kl-weight = 0.0003 (no batch normalization)
     * transfer-strength: 0.9548472999287226
     * content-preservation: 0.7028374261746729
     * word-overlap: 0.03665597813113504
 * Ours(saved-models/20180603153059, output/20180603195302-inference)
-    * style_kl_loss_weight = 0.001, content_kl_loss_weight = 0.0003 (batch averaging)
+    * style-kl-weight = 0.001, content-kl-weight = 0.0003 (batch averaging)
     * linear annealing of the kl cost
     * transfer-strength: 0.8524437138203598
     * content-preservation: 0.8162486981419294
     * word-overlap: 0.12753015543208107
+* Ours(saved-models/20180603211107, output/20180604131432-inference)
+    * style-kl-weight = 0.001, content-kl-weight = 0.0003 (batch averaging)
+    * linear annealing of the kl cost
+    * bow-weight = 0.0001
+    * transfer-strength: 0.6604831808409459
+    * content-preservation: 0.8772995744729972
+    * word-overlap: 0.240308060149142
