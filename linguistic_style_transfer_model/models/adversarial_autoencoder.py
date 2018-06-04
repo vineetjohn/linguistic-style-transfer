@@ -411,7 +411,6 @@ class AdversarialAutoencoder:
         self.composite_loss += self.style_kl_loss
         self.composite_loss += self.content_kl_loss
         self.composite_loss -= self.adversarial_entropy
-        self.composite_loss -= self.bow_entropy
         self.composite_loss += self.style_prediction_loss
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss")
         self.all_summaries = tf.summary.merge_all()
@@ -429,7 +428,7 @@ class AdversarialAutoencoder:
         adversarial_training_operation = None
         for i in range(model_config.adversarial_discriminator_iterations):
             adversarial_training_operation = adversarial_training_optimizer.minimize(
-                loss=self.adversarial_loss + self.bow_prediction_loss,
+                loss=self.adversarial_loss,
                 var_list=adversarial_training_variables)
 
         # optimize overall latent space classification
@@ -492,8 +491,6 @@ class AdversarialAutoencoder:
                      self.adversarial_entropy,
                      self.style_kl_loss,
                      self.content_kl_loss,
-                     self.bow_prediction_loss,
-                     self.bow_entropy,
                      self.composite_loss,
                      self.style_embedding,
                      self.content_embedding,
@@ -504,7 +501,6 @@ class AdversarialAutoencoder:
                  style_loss,
                  adversarial_loss, adversarial_entropy,
                  style_kl_loss, content_kl_loss,
-                 bow_prediction_loss, bow_entropy,
                  composite_loss,
                  style_embeddings, content_embedding,
                  all_summaries] = \
@@ -517,14 +513,12 @@ class AdversarialAutoencoder:
                           "S: {:.2f}, " \
                           "ACE: {:.2f}, AE: {:.2f}, " \
                           "SKL: {:.2f}, CKL: {:.2f}, " \
-                          "BCE: {:.2f}, BE: {:.2f}], " \
                           "Epoch {}-{}: {:.4f} "
                 logger.info(log_msg.format(
                     reconstruction_loss,
                     style_loss,
                     adversarial_loss, adversarial_entropy,
                     style_kl_loss, content_kl_loss,
-                    bow_prediction_loss, bow_entropy,
                     current_epoch, batch_number, composite_loss))
 
                 all_style_embeddings.extend(style_embeddings)
