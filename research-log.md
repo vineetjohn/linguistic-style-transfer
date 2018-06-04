@@ -297,19 +297,17 @@ Ours - 20180522125734
 ### Variational
 * Initial experiment: KL loss goes to zero and the decoder produces the same sentence always for weights = 1
 * Ours(saved-models/20180602210347, output/20180603140501-inference) 
-    * style-kl-weight = 0.001, content-kl-weight = 0.0003 (no batch normalization)
+    * style-kl-weight = 0.001, content-kl-weight = 0.0003 (no batch normalization), no annealing
     * transfer-strength: 0.9548472999287226
     * content-preservation: 0.7028374261746729
     * word-overlap: 0.03665597813113504
 * Ours(saved-models/20180603153059, output/20180603195302-inference)
-    * style-kl-weight = 0.001, content-kl-weight = 0.0003 (batch averaging)
-    * linear annealing of the kl cost
+    * style-kl-weight = 0.003(?), content-kl-weight = 0.0001(?)
     * transfer-strength: 0.8524437138203598
     * content-preservation: 0.8162486981419294
     * word-overlap: 0.12753015543208107
 * Ours(saved-models/20180603211107, output/20180604131432-inference)
-    * style-kl-weight = 0.001, content-kl-weight = 0.0003 (batch averaging)
-    * linear annealing of the kl cost
+    * style-kl-weight = 0.003, content-kl-weight = 0.0001
     * bow-weight = 0.0001
     * transfer-strength: 0.6604831808409459
     * content-preservation: 0.8772995744729972

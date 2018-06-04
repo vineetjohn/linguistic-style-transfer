@@ -69,3 +69,4 @@ validation_scores_file = "validation_scores.txt"
 validation_scores_path = save_directory + "/" + validation_scores_file
 
 sentiment_words_file_path = "data/opinion-lexicon/sentiment-words.txt"
+model_config_file_path = save_directory + "/model_config.json"

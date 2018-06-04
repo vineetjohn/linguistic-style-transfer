@@ -1,12 +1,14 @@
 import sys
 
 import argparse
+import json
 import numpy as np
 import os
 import pickle
 import tensorflow as tf
 
 from linguistic_style_transfer_model.config import global_config
+from linguistic_style_transfer_model.config.model_config import mconf
 from linguistic_style_transfer_model.config.options import Options
 from linguistic_style_transfer_model.models import adversarial_autoencoder
 from linguistic_style_transfer_model.utils import bleu_scorer, \
@@ -132,6 +134,9 @@ def main(argv):
     # Train and save model
     if options.train_model:
         os.makedirs(global_config.save_directory)
+        with open(global_config.model_config_file_path, 'w') as model_config_file:
+            json.dump(mconf.__dict__, model_config_file)
+        logger.info("Saved model config to {}".format(global_config.model_config_file_path))
 
         # Retrieve all data
         logger.info("Reading data ...")

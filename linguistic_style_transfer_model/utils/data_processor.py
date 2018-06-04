@@ -4,7 +4,7 @@ import os
 import pickle
 import tensorflow as tf
 
-from linguistic_style_transfer_model.config import global_config, model_config
+from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.utils import tsne_interface
 
 logger = logging.getLogger(global_config.logger_name)
@@ -166,7 +166,7 @@ def get_average_label_embeddings(data_size, dump_embeddings):
     style_embedding_map = dict()
     content_embedding_map = dict()
 
-    for i in range(data_size - (data_size % model_config.batch_size)):
+    for i in range(data_size):
         label = all_one_hot_labels[i].tolist().index(1)
 
         if label not in style_embedding_map:

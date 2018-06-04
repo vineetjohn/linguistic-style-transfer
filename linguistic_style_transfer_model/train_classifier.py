@@ -1,13 +1,14 @@
-import argparse
-import datetime
-import os
-import pickle
 import sys
 
+import argparse
+import datetime
 import numpy as np
+import os
+import pickle
 import tensorflow as tf
 
-from linguistic_style_transfer_model.config import model_config, global_config
+from linguistic_style_transfer_model.config import global_config
+from linguistic_style_transfer_model.config.model_config import mconf
 from linguistic_style_transfer_model.models.text_classifier import TextCNN
 from linguistic_style_transfer_model.utils import data_processor, log_initializer
 
@@ -141,7 +142,7 @@ def train_classifier_model(options):
 
         # Generate batches
         batches = data_processor.batch_iter(
-            list(zip(x_train, y_train)), model_config.batch_size, options['training_epochs'])
+            list(zip(x_train, y_train)), mconf.batch_size, options['training_epochs'])
         # Training loop. For each batch...
         for batch in batches:
             x_batch, y_batch = zip(*batch)

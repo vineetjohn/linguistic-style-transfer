@@ -8,7 +8,8 @@ import pickle
 import tensorflow as tf
 from sklearn import metrics
 
-from linguistic_style_transfer_model.config import global_config, model_config
+from linguistic_style_transfer_model.config import global_config
+from linguistic_style_transfer_model.config.model_config import mconf
 from linguistic_style_transfer_model.utils import data_processor, log_initializer
 
 logger = logging.getLogger(global_config.logger_name)
@@ -59,7 +60,7 @@ def get_style_transfer_score(classifier_saved_model_path, text_file_path, label)
             predictions = graph.get_operation_by_name("output/predictions").outputs[0]
 
             # Generate batches for one epoch
-            batches = data_processor.batch_iter(list(x_test), model_config.batch_size, 1, shuffle=False)
+            batches = data_processor.batch_iter(list(x_test), mconf.batch_size, 1, shuffle=False)
 
             # Collect the predictions here
             all_predictions = []
