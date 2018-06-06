@@ -169,12 +169,6 @@ def main(argv):
             options)
         sess.close()
 
-        average_label_embeddings = data_processor.get_average_label_embeddings(
-            data_size, options.dump_embeddings)
-
-        with open(global_config.average_label_embeddings_path, 'wb') as pickle_file:
-            pickle.dump(average_label_embeddings, pickle_file)
-
         logger.info("Training complete!")
 
     elif options.generate_novel_text:
