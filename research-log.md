@@ -317,3 +317,8 @@ Ours - 20180522125734
     * transfer-strength: 0.855857539786401
     * content-preservation: 0.7331127601714138
     * word-overlap: 0.05694128424170028
+* ours(saved-models/20180606155548, output/20180606202403-inference) - reproduced results
+    * style-kl-weight = 0.003, content-kl-weight = 0.001
+    * transfer-strength: 0.8496587846325712
+    * content-preservation: 0.8112237595418104
+    * word-overlap: 0.12575912033747727
