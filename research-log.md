@@ -306,9 +306,14 @@ Ours - 20180522125734
     * transfer-strength: 0.8524437138203598
     * content-preservation: 0.8162486981419294
     * word-overlap: 0.12753015543208107
-* Ours(saved-models/20180603211107, output/20180604131432-inference)
+* ours(saved-models/20180603211107, output/20180604131432-inference)
     * style-kl-weight = 0.003, content-kl-weight = 0.0001
     * bow-weight = 0.0001
     * transfer-strength: 0.6604831808409459
     * content-preservation: 0.8772995744729972
     * word-overlap: 0.240308060149142
+* ours(saved-models/20180606023333, output/20180606114643-inference)
+    * style-kl-weight = 0.01, content-kl-weight = 0.003
+    * transfer-strength: 0.855857539786401
+    * content-preservation: 0.7331127601714138
+    * word-overlap: 0.05694128424170028
