@@ -114,7 +114,7 @@ TF_CPP_MIN_LOG_LEVEL=1 \
 ```bash
 ./scripts/run_classifier_prediction.sh \
 --gold-labels-file-path ${TEST_LABEL_FILE_PATH} \
---saved-model-path ${SAVED_MODEL_PATH}
+--saved-model-path ${SAVED_MODEL_PATH} \
 --predictions-file-path ${PREDICTIONS_LABEL_FILE_PATH}
 ```
 

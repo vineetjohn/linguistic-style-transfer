@@ -322,3 +322,19 @@ Ours - 20180522125734
     * transfer-strength: 0.8496587846325712
     * content-preservation: 0.8112237595418104
     * word-overlap: 0.12575912033747727
+* ours(saved-models/20180606205207, output/20180606233912-inference)
+    * train for 10 epochs instead of 20
+    * style-kl-weight = 0.003, content-kl-weight = 0.001
+    * transfer-strength: 0.8481986346613426
+    * content-preservation: 0.8391721624429678
+    * word-overlap: 0.1481110804744475 
+* ours(saved-models/20180607000832, output/20180607035323-inference)
+    * adv-weight = 1
+    * transfer-strength: 0.8796429158830301
+    * content-preservation: 0.8286750462137273
+    * word-overlap: 0.12753585854159227
+* ours(saved-models/20180607040853, output/20180607141814-inference)
+    * adv-weight = 1, bow-weight = 0.0001
+    * transfer-strength: 0.8907224746526186
+    * content-preservation: 0.8115592262496405
+    * word-overlap: 0.1151695298468528
