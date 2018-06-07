@@ -250,7 +250,10 @@ class AdversarialAutoencoder:
 
         # content embedding
         content_embedding_mu, content_embedding_sigma = self.get_content_embedding(sentence_embedding)
-        self.content_embedding = self.sample_prior(content_embedding_mu, content_embedding_sigma)
+        self.content_embedding = tf.cond(
+            pred=self.conditioned_generation_mode,
+            true_fn=lambda: content_embedding_mu,
+            false_fn=lambda: self.sample_prior(content_embedding_mu, content_embedding_sigma))
         self.content_kl_loss = self.get_kl_loss(content_embedding_mu, content_embedding_sigma) * \
                                mconf.content_kl_loss_weight * self.epoch
         logger.debug("content_embedding: {}".format(self.content_embedding))
