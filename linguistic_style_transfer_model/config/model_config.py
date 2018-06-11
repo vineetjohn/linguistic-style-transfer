@@ -23,12 +23,11 @@ class ModelConfig():
         self.adversarial_discriminator_loss_weight = 0.3
         self.adversarial_bow_loss_weight = 0.0001
         self.style_prediction_loss_weight = 1
-        self.style_kl_loss_weight = 0.003
-        self.content_kl_loss_weight = 0.001
 
         # training iterations
         self.adversarial_discriminator_iterations = 1
         self.autoencoder_iterations = 1
+        self.kl_anneal_iterations = 10000
 
         # noise
         self.epsilon = 1e-8
