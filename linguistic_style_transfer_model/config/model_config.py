@@ -27,7 +27,7 @@ class ModelConfig():
         # training iterations
         self.adversarial_discriminator_iterations = 1
         self.autoencoder_iterations = 1
-        self.kl_anneal_iterations = 10000
+        self.kl_anneal_iterations = 20000
 
         # noise
         self.epsilon = 1e-8

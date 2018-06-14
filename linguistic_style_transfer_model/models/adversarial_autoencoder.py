@@ -388,9 +388,7 @@ class AdversarialAutoencoder:
               validation_sequence_lengths, validation_labels, inverse_word_index, validation_actual_word_lists,
               options):
 
-        writer = tf.summary.FileWriter(
-            logdir="/tmp/tensorflow_logs/{}".format(global_config.experiment_timestamp),
-            graph=sess.graph)
+        writer = tf.summary.FileWriter(logdir=global_config.log_directory, graph=sess.graph)
 
         trainable_variables = tf.trainable_variables()
         logger.debug("trainable_variables: {}".format(trainable_variables))
