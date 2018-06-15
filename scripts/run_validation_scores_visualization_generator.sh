@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-source $HOME/.pyenv/bin/activate
-
 PROJECT_DIR_PATH="$PWD/$(dirname $0)/../"
 cd ${PROJECT_DIR_PATH}
 
