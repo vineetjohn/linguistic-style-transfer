@@ -28,6 +28,8 @@ class ModelConfig():
         self.adversarial_discriminator_iterations = 1
         self.autoencoder_iterations = 1
         self.kl_anneal_iterations = 20000
+        self.style_kl_lambda = 0.1
+        self.content_kl_lambda = 0.1
 
         # noise
         self.epsilon = 1e-8
