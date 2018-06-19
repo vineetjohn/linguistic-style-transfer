@@ -44,6 +44,9 @@ bleu_score_weights = {
 model_save_file = "linguistic_style_transfer_model.ckpt"
 model_save_path = save_directory + "/" + model_save_file
 
+model_config_file = "model_config.json"
+model_config_file_path = save_directory + "/" + model_config_file
+
 vocab_size_save_file = "vocab_size_save_path.pkl"
 vocab_save_file = "vocab.pkl"
 text_tokenizer_file = "text_tokenizer.pkl"
@@ -71,4 +74,3 @@ validation_scores_file = "validation_scores.txt"
 validation_scores_path = save_directory + "/" + validation_scores_file
 
 sentiment_words_file_path = "data/opinion-lexicon/sentiment-words.txt"
-model_config_file_path = save_directory + "/model_config.json"

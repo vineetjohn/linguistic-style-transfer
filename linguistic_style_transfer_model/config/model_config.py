@@ -33,5 +33,9 @@ class ModelConfig():
         self.epsilon = 1e-8
         self.beam_search_width = 10
 
+    def init_from_dict(self, previous_config):
+        for key in previous_config:
+            setattr(self, key, previous_config[key])
+
 
 mconf = ModelConfig()
