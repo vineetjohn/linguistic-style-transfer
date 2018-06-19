@@ -176,7 +176,7 @@ def main(argv):
         logger.info("Generating novel text ...")
 
         with open(os.path.join(options.saved_model_path,
-                               global_config.model_config_file), 'rb') as json_file:
+                               global_config.model_config_file), 'r') as json_file:
             model_config_dict = json.load(json_file)
             mconf.init_from_dict(model_config_dict)
             logger.info("Restored model config from saved JSON")
