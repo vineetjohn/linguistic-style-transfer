@@ -239,8 +239,8 @@ class AdversarialAutoencoder:
 
         # style embedding
         style_embedding_mu, style_embedding_sigma = self.get_style_embedding(sentence_embedding)
-        self.style_kl_loss = self.get_kl_loss(style_embedding_mu, style_embedding_sigma) * \
-                             self.style_kl_weight
+        unweighted_style_kl_loss = self.get_kl_loss(style_embedding_mu, style_embedding_sigma)
+        self.style_kl_loss = unweighted_style_kl_loss * self.style_kl_weight
         sampled_style_embedding = self.sample_prior(style_embedding_mu, style_embedding_sigma)
 
         # code snippet to enable style vector dropout - not in use
@@ -260,8 +260,8 @@ class AdversarialAutoencoder:
 
         # content embedding
         content_embedding_mu, content_embedding_sigma = self.get_content_embedding(sentence_embedding)
-        self.content_kl_loss = self.get_kl_loss(content_embedding_mu, content_embedding_sigma) * \
-                               self.content_kl_weight
+        unweighted_content_kl_loss = self.get_kl_loss(content_embedding_mu, content_embedding_sigma)
+        self.content_kl_loss = unweighted_content_kl_loss * self.content_kl_weight
         sampled_content_embedding = self.sample_prior(content_embedding_mu, content_embedding_sigma)
 
         self.content_embedding = tf.cond(
@@ -378,6 +378,8 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
         tf.summary.scalar(tensor=self.style_kl_loss, name="style_kl_loss_summary")
         tf.summary.scalar(tensor=self.content_kl_loss, name="content_kl_loss_summary")
+        tf.summary.scalar(tensor=unweighted_style_kl_loss, name="unweighted_style_kl_loss_summary")
+        tf.summary.scalar(tensor=unweighted_content_kl_loss, name="unweighted_content_kl_loss_summary")
 
     def get_batch_indices(self, batch_number, data_limit):
 
