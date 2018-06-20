@@ -612,8 +612,6 @@ class AdversarialAutoencoder:
                     if len(validation_sequences_to_transfer) % mconf.batch_size:
                         validation_batches += 1
 
-                    style_kl_weight = 0
-                    content_kl_weight = 0
                     validation_generated_sequences = list()
                     validation_generated_sequence_lengths = list()
                     for val_batch_number in range(validation_batches):
