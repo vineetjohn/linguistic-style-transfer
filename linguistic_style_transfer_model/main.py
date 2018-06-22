@@ -135,7 +135,7 @@ def main(argv):
     if options.train_model:
         os.makedirs(global_config.save_directory)
         with open(global_config.model_config_file_path, 'w') as model_config_file:
-            json.dump(mconf.__dict__, model_config_file)
+            json.dump(obj=mconf.__dict__, fp=model_config_file, indent=4)
         logger.info("Saved model config to {}".format(global_config.model_config_file_path))
 
         # Retrieve all data
