@@ -3,10 +3,10 @@ from datetime import datetime as dt
 logger_name = "linguistic_style_transfer"
 
 experiment_timestamp = dt.now().strftime("%Y%m%d%H%M%S")
-vocab_size = None
+vocab_size = None  # set by runtime param
 
 embedding_size = 300
-max_sequence_length = 20
+max_sequence_length = 15
 validation_interval = 1
 tsne_sample_limit = 1000
 
