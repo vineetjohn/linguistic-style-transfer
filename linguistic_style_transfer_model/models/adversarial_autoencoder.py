@@ -243,15 +243,6 @@ class AdversarialAutoencoder:
         self.style_kl_loss = unweighted_style_kl_loss * self.style_kl_weight
         sampled_style_embedding = self.sample_prior(style_embedding_mu, style_embedding_sigma)
 
-        # code snippet to enable style vector dropout - not in use
-        style_keep_probabilities = tf.random_uniform(shape=[batch_size], maxval=1, dtype=tf.float32)
-        style_filter = style_keep_probabilities < mconf.style_embedding_keep_prob
-        logger.debug("style_filter: {}".format(style_filter))
-        filtered_style_embedding = tf.where(
-            condition=style_filter, x=sampled_style_embedding,
-            y=tf.zeros_like(sampled_style_embedding))
-        logger.debug("filtered_style_embedding: {}".format(filtered_style_embedding))
-
         self.style_embedding = tf.cond(
             pred=self.conditioned_generation_mode,
             true_fn=lambda: self.conditioning_embedding,
@@ -307,17 +298,17 @@ class AdversarialAutoencoder:
                 onehot_labels=self.input_label, logits=adversarial_label_prediction, label_smoothing=0.1)
             logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
 
-            bow_prediction = self.get_bow_prediction(self.style_embedding)
-            self.bow_prediction_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_bow_representations, logits=bow_prediction, label_smoothing=0.1)
-            logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
-
-            self.bow_entropy = \
-                mconf.adversarial_bow_loss_weight * \
-                tf.reduce_mean(
-                    input_tensor=tf.reduce_sum(
-                        input_tensor=-bow_prediction * tf.log(bow_prediction + mconf.epsilon), axis=1))
-            logger.debug("bow_entropy: {}".format(self.bow_entropy))
+            # bow_prediction = self.get_bow_prediction(self.style_embedding)
+            # self.bow_prediction_loss = tf.losses.softmax_cross_entropy(
+            #     onehot_labels=self.input_bow_representations, logits=bow_prediction, label_smoothing=0.1)
+            # logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
+            #
+            # self.bow_entropy = \
+            #     mconf.adversarial_bow_loss_weight * \
+            #     tf.reduce_mean(
+            #         input_tensor=tf.reduce_sum(
+            #             input_tensor=-bow_prediction * tf.log(bow_prediction + mconf.epsilon), axis=1))
+            # logger.debug("bow_entropy: {}".format(self.bow_entropy))
 
         # style prediction loss
         with tf.name_scope('style_prediction_loss'):
@@ -452,11 +443,9 @@ class AdversarialAutoencoder:
             x for x in trainable_variables if any(
                 scope in x.name for scope in adversarial_variable_labels)]
         logger.debug("adversarial_training_optimizer.variables: {}".format(adversarial_training_variables))
-        adversarial_training_operation = None
-        for i in range(mconf.adversarial_discriminator_iterations):
-            adversarial_training_operation = adversarial_training_optimizer.minimize(
-                loss=self.adversarial_loss,
-                var_list=adversarial_training_variables)
+        adversarial_training_operation = adversarial_training_optimizer.minimize(
+            loss=self.adversarial_loss,
+            var_list=adversarial_training_variables)
 
         # optimize overall latent space classification
         overall_classification_optimizer = tf.train.AdamOptimizer(
@@ -477,10 +466,8 @@ class AdversarialAutoencoder:
             x for x in trainable_variables if all(
                 scope not in x.name for scope in adversarial_variable_labels)]
         logger.debug("reconstruction_training_optimizer.variables: {}".format(reconstruction_training_variables))
-        reconstruction_training_operation = None
-        for i in range(mconf.autoencoder_iterations):
-            reconstruction_training_operation = reconstruction_training_optimizer.minimize(
-                loss=self.composite_loss, var_list=reconstruction_training_variables)
+        reconstruction_training_operation = reconstruction_training_optimizer.minimize(
+            loss=self.composite_loss, var_list=reconstruction_training_variables)
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
