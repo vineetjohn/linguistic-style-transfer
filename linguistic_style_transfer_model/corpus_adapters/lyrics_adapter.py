@@ -14,7 +14,8 @@ test_text_file_path = "data/lyrics/lyrics-test.txt"
 test_labels_file_path = "data/lyrics/artist-test.txt"
 train_text_file_path = "data/lyrics/lyrics-train.txt"
 train_labels_file_path = "data/lyrics/artist-train.txt"
-
+all_text_file_path = "data/lyrics/lyrics-all.txt"
+all_labels_file_path = "data/lyrics/artist-all.txt"
 dev_proportion = 0.01
 test_proportion = 0.05
 
@@ -66,6 +67,11 @@ with open(test_text_file_path, 'w') as text_file, open(test_labels_file_path, 'w
 
 with open(train_text_file_path, 'w') as text_file, open(train_labels_file_path, 'w') as labels_file:
     for lyric, artist in train_set:
+        text_file.write("{}\n".format(lyric.strip()))
+        labels_file.write("{}\n".format(artist.strip()))
+
+with open(all_text_file_path, 'w') as text_file, open(all_labels_file_path, 'w') as labels_file:
+    for lyric, artist in all_lyrics_tuples:
         text_file.write("{}\n".format(lyric.strip()))
         labels_file.write("{}\n".format(artist.strip()))
 
