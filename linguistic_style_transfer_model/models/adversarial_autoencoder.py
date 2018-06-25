@@ -1,13 +1,15 @@
+import heapq
 import json
 import logging
 import numpy as np
 import os
 import pickle
 import tensorflow as tf
+from multiprocessing import Pool
 
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.config.model_config import mconf
-from linguistic_style_transfer_model.evaluators import content_preservation, style_transfer
+from linguistic_style_transfer_model.evaluators import content_preservation, style_transfer, cosine_similarity
 from linguistic_style_transfer_model.utils import data_processor
 
 logger = logging.getLogger(global_config.logger_name)
@@ -494,7 +496,6 @@ class AdversarialAutoencoder:
             for batch_number in range(num_batches):
                 (start_index, end_index) = self.get_batch_indices(
                     batch_number=batch_number, data_limit=data_size)
-
                 logger.debug("start_index: {}, end_index: {}".format(start_index, end_index))
 
                 if iteration < mconf.kl_anneal_iterations:
@@ -571,31 +572,69 @@ class AdversarialAutoencoder:
 
                 logger.info("Running Validation {}:".format(current_epoch // global_config.validation_interval))
 
+                label_style_embeddings = list()
+                label_content_embeddings = list()
+                all_validation_content_embeddings = list()
+                logger.info("First validation pass to get embeddings")
+                validation_batches = len(validation_sequences) // mconf.batch_size
+                if len(validation_sequences) % mconf.batch_size:
+                    validation_batches += 1
+
+                for val_batch_number in range(validation_batches):
+                    (start_index, end_index) = self.get_batch_indices(
+                        batch_number=val_batch_number,
+                        data_limit=len(validation_sequences))
+                    [validation_content_embeddings] = \
+                        self.run_batch(
+                            sess, start_index, end_index,
+                            [self.content_embedding],
+                            validation_sequences, validation_labels, validation_sequence_lengths,
+                            None, False, style_kl_weight, content_kl_weight, current_epoch)
+                    all_validation_content_embeddings.extend(validation_content_embeddings)
+
+                logger.info("Second validation passes to condition embeddings")
                 glove_model = content_preservation.load_glove_model(options.validation_embeddings_file_path)
+
+                logger.debug("validation_sequences: {}".format(len(validation_sequences)))
+                logger.debug("all_validation_content_embeddings: {}".format(len(all_validation_content_embeddings)))
 
                 validation_style_transfer_scores = list()
                 validation_content_preservation_scores = list()
                 validation_word_overlap_scores = list()
                 for i in range(num_labels):
-
                     logger.info("validating label {}".format(i))
 
-                    label_embeddings = list()
                     validation_sequences_to_transfer = list()
                     validation_labels_to_transfer = list()
                     validation_sequence_lengths_to_transfer = list()
 
-                    for k in range(len(all_style_embeddings)):
-                        if shuffled_one_hot_labels[k].tolist().index(1) == i:
-                            label_embeddings.append(all_style_embeddings[k])
+                    for k in range(data_size):
+                        if one_hot_labels[k].tolist().index(1) == i:
+                            label_style_embeddings.append(all_style_embeddings[k])
+                            label_content_embeddings.append(all_content_embeddings[k])
 
+                    conditioning_embedding = list()
                     for k in range(len(validation_sequences)):
                         if validation_labels[k].tolist().index(1) != i:
                             validation_sequences_to_transfer.append(validation_sequences[k])
                             validation_labels_to_transfer.append(validation_labels[k])
                             validation_sequence_lengths_to_transfer.append(validation_sequence_lengths[k])
 
-                    style_embedding = np.mean(np.asarray(label_embeddings), axis=0)
+                            actual_content_embedding = all_validation_content_embeddings[k]
+                            cosim_obj = cosine_similarity.CosineSimilarity(actual_content_embedding)
+                            best_style_embedding = None
+                            best_cosine_similarity = None
+
+                            with Pool(global_config.cpu_pool) as p:
+                                tuples = p.map(cosim_obj.get_similarity,
+                                               zip(label_style_embeddings, label_content_embeddings))
+                            for cosine_sim, style_emb in tuples:
+                                if not best_cosine_similarity or cosine_sim > best_cosine_similarity:
+                                    best_cosine_similarity = cosine_sim
+                                    best_style_embedding = style_emb
+                            conditioning_embedding.append(best_style_embedding)
+
+                    conditioning_embedding = np.asarray(conditioning_embedding)
 
                     validation_batches = len(validation_sequences_to_transfer) // mconf.batch_size
                     if len(validation_sequences_to_transfer) % mconf.batch_size:
@@ -608,16 +647,14 @@ class AdversarialAutoencoder:
                             batch_number=val_batch_number,
                             data_limit=len(validation_sequences_to_transfer))
 
-                        conditioning_embedding = np.tile(
-                            A=style_embedding, reps=(end_index - start_index, 1))
-
                         [validation_generated_sequences_batch, validation_sequence_lengths_batch] = \
                             self.run_batch(
                                 sess, start_index, end_index,
                                 [self.inference_output, self.final_sequence_lengths],
                                 validation_sequences_to_transfer, validation_labels_to_transfer,
                                 validation_sequence_lengths_to_transfer,
-                                conditioning_embedding, True, style_kl_weight, content_kl_weight,
+                                conditioning_embedding[start_index:end_index],
+                                True, style_kl_weight, content_kl_weight,
                                 current_epoch)
                         validation_generated_sequences.extend(validation_generated_sequences_batch)
                         validation_generated_sequence_lengths.extend(validation_sequence_lengths_batch)
@@ -679,11 +716,15 @@ class AdversarialAutoencoder:
         writer.close()
 
     def generate_novel_sentences(self, sess, padded_sequences, text_sequence_lengths, style_embedding,
-                                 num_labels, model_save_path):
+                                 num_labels, label, model_save_path):
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
-        saver.restore(sess=sess, save_path=model_save_path)
+        saver.restore(sess=sess, save_path=os.path.join(model_save_path, global_config.model_save_file))
+
+        style_kl_weight = 0
+        content_kl_weight = 0
+        current_epoch = 0
 
         data_size = len(padded_sequences)
         generated_sequences = list()
@@ -699,15 +740,57 @@ class AdversarialAutoencoder:
         one_hot_labels_placeholder = np.random.randint(
             low=0, high=1, size=(data_size, num_labels)).astype(dtype=np.int32)
 
-        end_index = None
-        style_kl_weight = 0
-        content_kl_weight = 0
-        current_epoch = 0
+        with open(os.path.join(model_save_path, global_config.all_style_embeddings_file), 'rb') as pickle_file:
+            all_style_embeddings = pickle.load(pickle_file)
+        with open(os.path.join(model_save_path, global_config.all_content_embeddings_file), 'rb') as pickle_file:
+            all_content_embeddings = pickle.load(pickle_file)
+        with open(os.path.join(model_save_path, global_config.all_shuffled_labels_file), 'rb') as pickle_file:
+            one_hot_labels = pickle.load(pickle_file)
+
+        logger.info("First test pass to get embeddings")
+        all_test_content_embeddings = list()
+        for batch_number in range(num_batches):
+            (start_index, end_index) = self.get_batch_indices(
+                batch_number=batch_number,
+                data_limit=len(padded_sequences))
+            [test_content_embeddings] = \
+                self.run_batch(
+                    sess, start_index, end_index,
+                    [self.content_embedding],
+                    padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
+                    None, False, style_kl_weight, content_kl_weight, current_epoch)
+            all_test_content_embeddings.extend(test_content_embeddings)
+
+        logger.info("Second test pass to condition embeddings")
+        label_style_embeddings = list()
+        label_content_embeddings = list()
+        for k in range(len(one_hot_labels)):
+            if one_hot_labels[k].tolist().index(1) == label:
+                label_style_embeddings.append(all_style_embeddings[k])
+                label_content_embeddings.append(all_content_embeddings[k])
+
+        conditioning_embedding = list()
+        for k in range(len(padded_sequences)):
+            logger.debug("Getting best embedding for sentence {}/{}".format(k, len(padded_sequences)))
+            actual_content_embedding = all_test_content_embeddings[k]
+            cosim_obj = cosine_similarity.CosineSimilarity(actual_content_embedding)
+            best_similar_style_embeddings = list()
+            with Pool(global_config.cpu_pool) as p:
+                tuples = p.map(cosim_obj.get_similarity,
+                               zip(label_style_embeddings, label_content_embeddings))
+            for index, (cossim, style_emb) in enumerate(tuples):
+                heapq.heappush(best_similar_style_embeddings, (cossim, index, style_emb))
+            nearest_style_embeddings = [style_emb for cossim, index, style_emb in
+                                        best_similar_style_embeddings[-global_config.neighbour_count:]]
+            conditioning_embedding.append(np.mean(a=nearest_style_embeddings, axis=0))
+
+        conditioning_embedding = np.asarray(conditioning_embedding)
+        logger.debug("conditioning_embedding: {}".format(conditioning_embedding.shape))
+
         for batch_number in range(num_batches):
             (start_index, end_index) = self.get_batch_indices(
                 batch_number=batch_number, data_limit=data_size)
-
-            conditioning_embedding = np.tile(A=style_embedding, reps=(end_index - start_index, 1))
+            logger.debug("start_index: {}, end_index: {}".format(start_index, end_index))
 
             generated_sequences_batch, final_sequence_lengths_batch, \
             overall_label_predictions_batch, style_label_predictions_batch, \
@@ -719,7 +802,8 @@ class AdversarialAutoencoder:
                      self.style_label_prediction_hardmax,
                      self.adversarial_label_prediction_hardmax],
                     padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
-                    conditioning_embedding, True, style_kl_weight, content_kl_weight, current_epoch)
+                    conditioning_embedding[start_index:end_index], True,
+                    style_kl_weight, content_kl_weight, current_epoch)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
