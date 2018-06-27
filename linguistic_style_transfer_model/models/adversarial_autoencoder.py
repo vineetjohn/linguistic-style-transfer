@@ -8,7 +8,7 @@ import tensorflow as tf
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.config.model_config import mconf
 from linguistic_style_transfer_model.evaluators import content_preservation, style_transfer
-from linguistic_style_transfer_model.utils import data_processor
+from linguistic_style_transfer_model.utils import data_processor, custom_decoder
 
 logger = logging.getLogger(global_config.logger_name)
 
@@ -116,43 +116,46 @@ class AdversarialAutoencoder:
 
         projection_layer = tf.layers.Dense(units=global_config.vocab_size, use_bias=False)
 
+        init_state = decoder_cell.zero_state(batch_size=batch_size, dtype=tf.float32)
+
         with tf.name_scope("training_decoder"):
             training_helper = tf.contrib.seq2seq.TrainingHelper(
                 inputs=embedded_sequence,
                 sequence_length=self.sequence_lengths)
 
-            training_decoder = tf.contrib.seq2seq.BasicDecoder(
+            training_decoder = custom_decoder.CustomBasicDecoder(
                 cell=decoder_cell, helper=training_helper,
-                initial_state=generative_embedding,
+                initial_state=init_state,
+                latent_vector=generative_embedding,
                 output_layer=projection_layer)
             training_decoder.initialize("training_decoder")
 
             training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
-                decoder=training_decoder, impute_finished=False,
+                decoder=training_decoder, impute_finished=True,
                 maximum_iterations=global_config.max_sequence_length,
                 scope="training_decoder")
 
-        with tf.name_scope("inference_decoder"):
-            inference_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
-                cell=decoder_cell, embedding=decoder_embeddings,
-                start_tokens=tf.fill(
-                    dims=[batch_size],
-                    value=word_index[global_config.sos_token]),
-                end_token=word_index[global_config.eos_token],
-                initial_state=tf.contrib.seq2seq.tile_batch(
-                    t=generative_embedding, multiplier=mconf.beam_search_width),
-                beam_width=mconf.beam_search_width, output_layer=projection_layer,
-                length_penalty_weight=0.0)
+        with tf.name_scope('inference_decoder'):
+            greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+                embedding=decoder_embeddings,
+                start_tokens=tf.fill(dims=[batch_size],
+                                     value=word_index[global_config.sos_token]),
+                end_token=word_index[global_config.eos_token])
+
+            inference_decoder = custom_decoder.CustomBasicDecoder(
+                cell=decoder_cell, helper=greedy_embedding_helper,
+                initial_state=init_state,
+                latent_vector=generative_embedding,
+                output_layer=projection_layer)
             inference_decoder.initialize("inference_decoder")
 
-            inference_decoder_output, _, final_sequence_lengths = tf.contrib.seq2seq.dynamic_decode(
-                decoder=inference_decoder, impute_finished=False,
-                maximum_iterations=global_config.max_sequence_length,
-                scope="inference_decoder")
+            inference_decoder_output, _, final_sequence_lengths = \
+                tf.contrib.seq2seq.dynamic_decode(
+                    decoder=inference_decoder, impute_finished=True,
+                    maximum_iterations=global_config.max_sequence_length,
+                    scope="inference_decoder")
 
-        return training_decoder_output.rnn_output, \
-               inference_decoder_output.predicted_ids[:, :, 0], \
-               final_sequence_lengths[:, 0]  # index 0 gets the best beam search outcome
+        return [training_decoder_output.rnn_output, inference_decoder_output.sample_id, final_sequence_lengths]
 
     def get_kl_loss(self, mu, log_sigma):
         return tf.reduce_mean(
