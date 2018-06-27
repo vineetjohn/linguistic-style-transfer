@@ -231,7 +231,7 @@ def main(argv):
             [generated_sequences, final_sequence_lengths, _, _, _] = \
                 network.generate_novel_sentences(
                     sess, filtered_padded_sequences, filtered_text_sequence_lengths, style_embedding,
-                    num_labels, i, options.saved_model_path)
+                    num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
 
             actual_word_lists = \
                 [data_processor.generate_words_from_indices(x, inverse_word_index)
@@ -247,7 +247,7 @@ def main(argv):
         _, _, overall_label_predictions, style_label_predictions, adversarial_label_predictions = \
             network.generate_novel_sentences(
                 sess, padded_sequences, text_sequence_lengths, average_label_embeddings[0],
-                num_labels, 0, options.saved_model_path)
+                num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
 
         # write label predictions to file
         output_file_path = "output/{}-inference/overall_labels_prediction.txt".format(

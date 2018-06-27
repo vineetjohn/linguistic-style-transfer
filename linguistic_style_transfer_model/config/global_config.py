@@ -15,12 +15,9 @@ classifier_save_directory = "./saved-models-classifier/{}".format(experiment_tim
 
 log_directory = "./tensorflow-logs/{}".format(experiment_timestamp)
 
-all_style_embeddings_file = "all_style_embeddings.pkl"
-all_style_embeddings_path = save_directory + "/" + all_style_embeddings_file
-all_content_embeddings_file = "all_content_embeddings.pkl"
-all_content_embeddings_path = save_directory + "/" + all_content_embeddings_file
-all_shuffled_labels_file = "all_shuffled_labels_path.pkl"
-all_shuffled_labels_path = save_directory + "/" + all_shuffled_labels_file
+all_style_embeddings_path = save_directory + "/all_style_embeddings.pkl"
+all_content_embeddings_path = save_directory + "/all_content_embeddings.pkl"
+all_shuffled_labels_path = save_directory + "/all_shuffled_labels_path.pkl"
 label_mapped_style_embeddings_path = save_directory + "/label_mapped_style_embeddings.pkl"
 
 style_embedding_plot_file = "tsne_embeddings_plot_style.svg"
@@ -77,6 +74,3 @@ validation_scores_file = "validation_scores.txt"
 validation_scores_path = save_directory + "/" + validation_scores_file
 
 sentiment_words_file_path = "data/opinion-lexicon/sentiment-words.txt"
-
-neighbour_count = 10
-cpu_pool = 4
