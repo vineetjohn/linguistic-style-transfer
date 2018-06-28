@@ -40,40 +40,26 @@ class AdversarialAutoencoder:
     def get_style_embedding(self, sentence_embedding):
 
         with tf.name_scope("style_embedding"):
-            style_embedding_mu = tf.nn.dropout(
+            style_embedding = tf.nn.dropout(
                 x=tf.layers.dense(
                     inputs=sentence_embedding,
                     units=mconf.style_embedding_size,
-                    activation=tf.nn.leaky_relu, name="style_embedding_mu"),
+                    activation=tf.nn.leaky_relu, name="style_embedding"),
                 keep_prob=self.fully_connected_keep_prob)
 
-            style_embedding_sigma = tf.nn.dropout(
-                x=tf.layers.dense(
-                    inputs=sentence_embedding,
-                    units=mconf.style_embedding_size,
-                    activation=tf.nn.leaky_relu, name="style_embedding_sigma"),
-                keep_prob=self.fully_connected_keep_prob)
-
-            return style_embedding_mu, style_embedding_sigma
+            return style_embedding
 
     def get_content_embedding(self, sentence_embedding):
 
         with tf.name_scope("content_embedding"):
-            content_embedding_mu = tf.nn.dropout(
+            content_embedding = tf.nn.dropout(
                 x=tf.layers.dense(
                     inputs=sentence_embedding,
                     units=mconf.content_embedding_size,
-                    activation=tf.nn.leaky_relu, name="content_embedding_mu"),
+                    activation=tf.nn.leaky_relu, name="content_embedding"),
                 keep_prob=self.fully_connected_keep_prob)
 
-            content_embedding_sigma = tf.nn.dropout(
-                x=tf.layers.dense(
-                    inputs=sentence_embedding,
-                    units=mconf.content_embedding_size,
-                    activation=tf.nn.leaky_relu, name="content_embedding_sigma"),
-                keep_prob=self.fully_connected_keep_prob)
-
-            return content_embedding_mu, content_embedding_sigma
+            return content_embedding
 
     def get_content_adversary_prediction(self, style_embedding):
 
@@ -157,12 +143,6 @@ class AdversarialAutoencoder:
 
         return [training_decoder_output.rnn_output, inference_decoder_output.sample_id, final_sequence_lengths]
 
-    def get_kl_loss(self, mu, log_sigma):
-        return tf.reduce_mean(
-            input_tensor=-0.5 * tf.reduce_sum(
-                input_tensor=1 + log_sigma - tf.square(mu) - tf.exp(log_sigma),
-                axis=1))
-
     def sample_prior(self, mu, log_sigma):
         epsilon = tf.random_normal(tf.shape(log_sigma), name="epsilon")
         return mu + epsilon * tf.exp(log_sigma)
@@ -220,12 +200,6 @@ class AdversarialAutoencoder:
         self.epoch = tf.placeholder(dtype=tf.float32, shape=(), name="epoch")
         logger.debug("epoch: {}".format(self.epoch))
 
-        self.style_kl_weight = tf.placeholder(dtype=tf.float32, shape=(), name="style_kl_weight")
-        logger.debug("style_kl_weight: {}".format(self.style_kl_weight))
-
-        self.content_kl_weight = tf.placeholder(dtype=tf.float32, shape=(), name="content_kl_weight")
-        logger.debug("content_kl_weight: {}".format(self.content_kl_weight))
-
         decoder_input = tf.concat(
             values=[tf.fill(dims=[batch_size, 1], value=word_index[global_config.sos_token]),
                     self.input_sequence], axis=1, name="decoder_input")
@@ -259,27 +233,15 @@ class AdversarialAutoencoder:
         sentence_embedding = self.get_sentence_embedding(encoder_embedded_sequence)
 
         # style embedding
-        style_embedding_mu, style_embedding_sigma = self.get_style_embedding(sentence_embedding)
-        unweighted_style_kl_loss = self.get_kl_loss(style_embedding_mu, style_embedding_sigma)
-        self.style_kl_loss = unweighted_style_kl_loss * self.style_kl_weight
-        sampled_style_embedding = self.sample_prior(style_embedding_mu, style_embedding_sigma)
-
+        inferred_style_embedding = self.get_style_embedding(sentence_embedding)
         self.style_embedding = tf.cond(
             pred=self.inference_mode,
             true_fn=lambda: self.conditioning_embedding,
-            false_fn=lambda: sampled_style_embedding)
+            false_fn=lambda: inferred_style_embedding)
         logger.debug("style_embedding: {}".format(self.style_embedding))
 
         # content embedding
-        content_embedding_mu, content_embedding_sigma = self.get_content_embedding(sentence_embedding)
-        unweighted_content_kl_loss = self.get_kl_loss(content_embedding_mu, content_embedding_sigma)
-        self.content_kl_loss = unweighted_content_kl_loss * self.content_kl_weight
-        sampled_content_embedding = self.sample_prior(content_embedding_mu, content_embedding_sigma)
-
-        self.content_embedding = tf.cond(
-            pred=self.inference_mode,
-            true_fn=lambda: content_embedding_mu,
-            false_fn=lambda: sampled_content_embedding)
+        self.content_embedding = self.get_content_embedding(sentence_embedding)
         logger.debug("content_embedding: {}".format(self.content_embedding))
 
         # concatenated generative embedding
@@ -301,7 +263,7 @@ class AdversarialAutoencoder:
         # adversarial loss
         with tf.name_scope('adversarial_objectives'):
             # style adversary
-            style_adversary_prediction = self.get_style_adversary_prediction(content_embedding_mu, num_labels)
+            style_adversary_prediction = self.get_style_adversary_prediction(self.content_embedding, num_labels)
             logger.debug("style_adversary_prediction: {}".format(style_adversary_prediction))
 
             self.quantized_style_adversary_prediction = tf.contrib.seq2seq.hardmax(
@@ -316,7 +278,7 @@ class AdversarialAutoencoder:
             logger.debug("style_adversary_loss: {}".format(self.style_adversary_loss))
 
             # content adversary
-            content_adversary_prediction = self.get_content_adversary_prediction(self.style_embedding)
+            content_adversary_prediction = self.get_content_adversary_prediction(inferred_style_embedding)
             logger.debug("content_adversary_prediction: {}".format(content_adversary_prediction))
 
             self.content_adversary_entropy = self.compute_batch_entropy(content_adversary_prediction)
@@ -332,7 +294,7 @@ class AdversarialAutoencoder:
             # style multitask
             style_multitask_prediction = tf.nn.dropout(
                 x=tf.layers.dense(
-                    inputs=style_embedding_mu, units=num_labels,
+                    inputs=inferred_style_embedding, units=num_labels,
                     activation=tf.nn.softmax, name="style_multitask_prediction"),
                 keep_prob=self.fully_connected_keep_prob)
             logger.debug("style_multitask_prediction: {}".format(style_multitask_prediction))
@@ -347,7 +309,7 @@ class AdversarialAutoencoder:
             # bow multitask
             content_multitask_prediction = tf.nn.dropout(
                 x=tf.layers.dense(
-                    inputs=content_embedding_mu, units=global_config.bow_size,
+                    inputs=self.content_embedding, units=global_config.bow_size,
                     activation=tf.nn.leaky_relu, name="content_multitask_prediction"),
                 keep_prob=self.fully_connected_keep_prob)
             logger.debug("content_multitask_prediction: {}".format(content_multitask_prediction))
@@ -362,7 +324,7 @@ class AdversarialAutoencoder:
         # used to prove disentanglement
         style_overall_prediction = tf.nn.dropout(
             x=tf.layers.dense(
-                inputs=tf.concat(values=[style_embedding_mu, content_embedding_mu], axis=1),
+                inputs=tf.concat(values=[inferred_style_embedding, self.content_embedding], axis=1),
                 units=num_labels, activation=tf.nn.softmax,
                 name="style_overall_prediction"),
             keep_prob=self.fully_connected_keep_prob)
@@ -405,10 +367,6 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.style_adversary_loss, name="style_adversary_loss_summary")
         tf.summary.scalar(tensor=self.content_adversary_loss, name="content_adversary_loss_summary")
         tf.summary.scalar(tensor=self.content_multitask_loss, name="content_multitask_loss_summary")
-        tf.summary.scalar(tensor=unweighted_style_kl_loss, name="unweighted_style_kl_loss_summary")
-        tf.summary.scalar(tensor=unweighted_content_kl_loss, name="unweighted_content_kl_loss_summary")
-        tf.summary.scalar(tensor=self.style_kl_loss, name="style_kl_loss_summary")
-        tf.summary.scalar(tensor=self.content_kl_loss, name="content_kl_loss_summary")
 
     def get_batch_indices(self, batch_number, data_limit):
 
@@ -419,8 +377,7 @@ class AdversarialAutoencoder:
 
     def run_batch(self, sess, start_index, end_index, fetches, padded_sequences,
                   one_hot_labels, text_sequence_lengths,
-                  conditioning_embedding, inference_mode,
-                  style_kl_weight, content_kl_weight, current_epoch):
+                  conditioning_embedding, inference_mode, current_epoch):
 
         if not inference_mode:
             conditioning_embedding = np.random.uniform(
@@ -439,18 +396,10 @@ class AdversarialAutoencoder:
                 self.input_bow_representations: bow_representations,
                 self.inference_mode: inference_mode,
                 self.conditioning_embedding: conditioning_embedding,
-                self.style_kl_weight: style_kl_weight,
-                self.content_kl_weight: content_kl_weight,
                 self.epoch: current_epoch
             })
 
         return ops
-
-    def get_annealed_weight(self, iteration, lambda_weight):
-        return (np.tanh(
-            (iteration - mconf.kl_anneal_iterations * 1.5) /
-            (mconf.kl_anneal_iterations / 3))
-                + 1) * lambda_weight
 
     def train(self, sess, data_size, padded_sequences, text_sequence_lengths, one_hot_labels, num_labels,
               word_index, encoder_embedding_matrix, decoder_embedding_matrix, validation_sequences,
@@ -468,8 +417,6 @@ class AdversarialAutoencoder:
         self.composite_loss += self.content_multitask_loss * mconf.content_multitask_loss_weight
         self.composite_loss -= self.style_adversary_entropy * mconf.style_adversary_loss_weight
         self.composite_loss -= self.content_adversary_entropy * mconf.content_adversary_loss_weight
-        self.composite_loss += self.style_kl_loss
-        self.composite_loss += self.content_kl_loss
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
@@ -533,7 +480,6 @@ class AdversarialAutoencoder:
                      .format(padded_sequences.shape, one_hot_labels.shape))
 
         iteration = 0
-        style_kl_weight, content_kl_weight = 0, 0
         for current_epoch in range(1, options.training_epochs + 1):
 
             all_style_embeddings = list()
@@ -549,10 +495,6 @@ class AdversarialAutoencoder:
                 (start_index, end_index) = self.get_batch_indices(
                     batch_number=batch_number, data_limit=data_size)
 
-                if iteration < mconf.kl_anneal_iterations:
-                    style_kl_weight = self.get_annealed_weight(iteration, mconf.style_kl_lambda)
-                    content_kl_weight = self.get_annealed_weight(iteration, mconf.content_kl_lambda)
-
                 fetches = \
                     [reconstruction_training_operation,
                      style_adversary_training_operation,
@@ -565,8 +507,6 @@ class AdversarialAutoencoder:
                      self.style_adversary_entropy,
                      self.content_adversary_loss,
                      self.content_adversary_entropy,
-                     self.style_kl_loss,
-                     self.content_kl_loss,
                      self.composite_loss,
                      self.style_embedding,
                      self.content_embedding,
@@ -577,28 +517,24 @@ class AdversarialAutoencoder:
                  style_multitask_loss, content_multitask_loss,
                  style_adversary_crossentropy, style_adversary_entropy,
                  content_adversary_crossentropy, content_adversary_entropy,
-                 style_kl_loss, content_kl_loss,
                  composite_loss,
                  style_embeddings, content_embedding,
                  all_summaries] = \
                     self.run_batch(
                         sess, start_index, end_index, fetches,
                         shuffled_padded_sequences, shuffled_one_hot_labels,
-                        shuffled_text_sequence_lengths, None, False,
-                        style_kl_weight, content_kl_weight, current_epoch)
+                        shuffled_text_sequence_lengths, None, False, current_epoch)
 
                 log_msg = "[R: {:.2f}, " \
                           "SMT: {:.2f}, CMT: {:.2f}, " \
                           "SCE: {:.2f}, SE: {:.2f}, " \
-                          "CCE: {:.2f}, CE: {:.2f}, " \
-                          "SKL: {:.2f}, CKL: {:.2f}] " \
+                          "CCE: {:.2f}, CE: {:.2f}] " \
                           "Epoch {}-{}: {:.4f}"
                 logger.info(log_msg.format(
                     reconstruction_loss,
                     style_multitask_loss, content_multitask_loss,
                     style_adversary_crossentropy, style_adversary_entropy,
                     content_adversary_crossentropy, content_adversary_entropy,
-                    style_kl_loss, content_kl_loss,
                     current_epoch, batch_number, composite_loss))
 
                 all_style_embeddings.extend(style_embeddings)
@@ -680,7 +616,7 @@ class AdversarialAutoencoder:
                         [self.inference_output, self.final_sequence_lengths],
                         validation_sequences_to_transfer, validation_labels_to_transfer,
                         validation_sequence_lengths_to_transfer,
-                        conditioning_embedding, True, 0, 0, current_epoch)
+                        conditioning_embedding, True, current_epoch)
                 validation_generated_sequences.extend(validation_generated_sequences_batch)
                 validation_generated_sequence_lengths.extend(validation_sequence_lengths_batch)
 
@@ -761,8 +697,6 @@ class AdversarialAutoencoder:
             low=0, high=1, size=(data_size, num_labels)).astype(dtype=np.int32)
 
         end_index = None
-        style_kl_weight = 0
-        content_kl_weight = 0
         current_epoch = 0
         for batch_number in range(num_batches):
             (start_index, end_index) = self.get_batch_indices(
@@ -781,7 +715,7 @@ class AdversarialAutoencoder:
                      self.quantized_style_adversary_prediction,
                      self.reconstruction_loss],
                     padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
-                    conditioning_embedding, True, style_kl_weight, content_kl_weight, current_epoch)
+                    conditioning_embedding, True, current_epoch)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)

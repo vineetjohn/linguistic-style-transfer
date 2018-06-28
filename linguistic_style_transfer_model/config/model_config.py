@@ -25,11 +25,6 @@ class ModelConfig():
         self.content_multitask_loss_weight = 3
         self.style_adversary_loss_weight = 1
         self.content_adversary_loss_weight = 0.03
-        self.style_kl_lambda = 0.03
-        self.content_kl_lambda = 0.03
-
-        # training iterations
-        self.kl_anneal_iterations = 20000
 
         # noise
         self.epsilon = 1e-8
