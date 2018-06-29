@@ -301,17 +301,17 @@ class AdversarialAutoencoder:
                 onehot_labels=self.input_label, logits=adversarial_label_prediction, label_smoothing=0.1)
             logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
 
-            # bow_prediction = self.get_bow_prediction(self.style_embedding)
-            # self.bow_prediction_loss = tf.losses.softmax_cross_entropy(
-            #     onehot_labels=self.input_bow_representations, logits=bow_prediction, label_smoothing=0.1)
-            # logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
-            #
-            # self.bow_entropy = \
-            #     mconf.adversarial_bow_loss_weight * \
-            #     tf.reduce_mean(
-            #         input_tensor=tf.reduce_sum(
-            #             input_tensor=-bow_prediction * tf.log(bow_prediction + mconf.epsilon), axis=1))
-            # logger.debug("bow_entropy: {}".format(self.bow_entropy))
+            bow_prediction = self.get_bow_prediction(self.style_embedding)
+            self.bow_prediction_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_bow_representations, logits=bow_prediction, label_smoothing=0.1)
+            logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
+
+            self.bow_entropy = \
+                mconf.adversarial_bow_loss_weight * \
+                tf.reduce_mean(
+                    input_tensor=tf.reduce_sum(
+                        input_tensor=-bow_prediction * tf.log(bow_prediction + mconf.epsilon), axis=1))
+            logger.debug("bow_entropy: {}".format(self.bow_entropy))
 
         # style prediction loss
         with tf.name_scope('style_prediction_loss'):
@@ -433,6 +433,7 @@ class AdversarialAutoencoder:
         self.composite_loss += self.content_kl_loss
         self.composite_loss -= self.adversarial_entropy
         self.composite_loss += self.style_prediction_loss
+        self.composite_loss -= self.bow_entropy
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
@@ -447,7 +448,7 @@ class AdversarialAutoencoder:
                 scope in x.name for scope in adversarial_variable_labels)]
         logger.debug("adversarial_training_optimizer.variables: {}".format(adversarial_training_variables))
         adversarial_training_operation = adversarial_training_optimizer.minimize(
-            loss=self.adversarial_loss,
+            loss=self.adversarial_loss + self.bow_prediction_loss,
             var_list=adversarial_training_variables)
 
         # optimize overall latent space classification
@@ -516,16 +517,18 @@ class AdversarialAutoencoder:
                      self.adversarial_entropy,
                      self.style_kl_loss,
                      self.content_kl_loss,
+                     self.bow_prediction_loss,
+                     self.bow_entropy,
                      self.composite_loss,
                      self.style_embedding,
                      self.content_embedding,
                      self.all_summaries]
 
                 [_, _, _,
-                 reconstruction_loss,
-                 style_loss,
+                 reconstruction_loss, style_loss,
                  adversarial_loss, adversarial_entropy,
                  style_kl_loss, content_kl_loss,
+                 bow_loss, bow_entropy,
                  composite_loss,
                  style_embeddings, content_embedding,
                  all_summaries] = \
@@ -539,12 +542,13 @@ class AdversarialAutoencoder:
                           "S: {:.2f}, " \
                           "ACE: {:.2f}, AE: {:.2f}, " \
                           "SKL: {:.2f}, CKL: {:.2f}], " \
+                          "BCE: {:.2f}, BE: {:.2f}, " \
                           "Epoch {}-{}: {:.4f} "
                 logger.info(log_msg.format(
-                    reconstruction_loss,
-                    style_loss,
+                    reconstruction_loss, style_loss,
                     adversarial_loss, adversarial_entropy,
                     style_kl_loss, content_kl_loss,
+                    bow_loss, bow_entropy,
                     current_epoch, batch_number, composite_loss))
 
                 all_style_embeddings.extend(style_embeddings)
