@@ -8,7 +8,7 @@ vocab_size = None  # set by runtime param
 embedding_size = 300
 max_sequence_length = 15
 validation_interval = 1
-tsne_sample_limit = 1000
+tsne_sample_limit = 100
 
 save_directory = "./saved-models/{}".format(experiment_timestamp)
 classifier_save_directory = "./saved-models-classifier/{}".format(experiment_timestamp)
@@ -20,8 +20,9 @@ all_content_embeddings_path = save_directory + "/all_content_embeddings.pkl"
 all_shuffled_labels_path = save_directory + "/all_shuffled_labels_path.pkl"
 label_mapped_style_embeddings_path = save_directory + "/label_mapped_style_embeddings.pkl"
 
-style_embedding_plot_file = "tsne_embeddings_plot_style.svg"
-content_embedding_plot_file = "tsne_embeddings_plot_content.svg"
+tsne_plot_folder = save_directory + "/tsne_plots/"
+style_embedding_plot_file = "tsne_embeddings_plot_style_{}.svg"
+content_embedding_plot_file = "tsne_embeddings_plot_content_{}.svg"
 style_embedding_custom_plot_file = "tsne_embeddings_custom_plot_style.svg"
 content_embedding_custom_plot_file = "tsne_embeddings_custom_plot_content.svg"
 

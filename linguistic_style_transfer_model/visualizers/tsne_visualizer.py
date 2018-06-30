@@ -1,15 +1,15 @@
-import argparse
-import os
-import pickle
 import sys
 
+import argparse
 import numpy as np
+import os
+import pickle
 from matplotlib import pyplot as plt
 
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.utils import log_initializer
 
-logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
+logger = None
 colors = ['b', 'r', 'g', 'c', 'm', 'y', 'k']
 plot_markers = ['x', '+']
 
@@ -51,9 +51,12 @@ def main(argv):
     parser.add_argument("--label-file-path", type=str, required=False)
     parser.add_argument("--saved-model-path", type=str)
 
-    args = vars(parser.parse_args(args=argv))
+    global logger
+    logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 
+    args = vars(parser.parse_args(args=argv))
     logger.info(args)
+
     if not args["label_file_path"]:
         with open(os.path.join(args["saved_model_path"],
                                global_config.index_to_label_dict_file), 'rb') as pickle_file:

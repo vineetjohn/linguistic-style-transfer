@@ -9,6 +9,9 @@ from linguistic_style_transfer_model.utils import tsne_interface
 
 logger = logging.getLogger(global_config.logger_name)
 
+label_to_index_map = dict()
+index_to_label_map = dict()
+
 
 def get_text_sequences(text_file_path, vocab_size, vocab_size_save_path, text_tokenizer_path, vocab_save_path):
     word_index = global_config.predefined_word_index
@@ -87,8 +90,6 @@ def get_labels(label_file_path, store_labels):
     labels = sorted(list(set(all_labels)))
     num_labels = len(labels)
 
-    label_to_index_map = dict()
-    index_to_label_map = dict()
     counter = 0
     for label in labels:
         label_to_index_map[label] = counter
@@ -152,7 +153,7 @@ def generate_sentence_from_logits(floating_index_sequence, inverse_word_index):
     return words
 
 
-def get_average_label_embeddings(data_size, dump_embeddings):
+def get_average_label_embeddings(data_size, dump_embeddings, epoch):
     with open(global_config.all_style_embeddings_path, 'rb') as pickle_file:
         all_style_embeddings = pickle.load(pickle_file)
     with open(global_config.all_content_embeddings_path, 'rb') as pickle_file:
@@ -178,10 +179,20 @@ def get_average_label_embeddings(data_size, dump_embeddings):
         content_embedding_map[label].append(content_embeddings[i])
 
     if dump_embeddings:
+        if not os.path.exists(global_config.tsne_plot_folder):
+            os.makedirs(global_config.tsne_plot_folder)
+
+        style_plot_path = global_config.tsne_plot_folder + \
+                          global_config.style_embedding_plot_file.format(epoch)
         tsne_interface.generate_plot_coordinates(
-            style_embedding_map, global_config.style_coordinates_path)
+            style_embedding_map, global_config.style_coordinates_path,
+            index_to_label_map, style_plot_path, len(index_to_label_map) * epoch + 0)
+
+        content_plot_path = global_config.tsne_plot_folder + \
+                            global_config.content_embedding_plot_file.format(epoch)
         tsne_interface.generate_plot_coordinates(
-            content_embedding_map, global_config.content_coordinates_path)
+            content_embedding_map, global_config.content_coordinates_path,
+            index_to_label_map, content_plot_path, len(index_to_label_map) * epoch + 1)
 
     with open(global_config.label_mapped_style_embeddings_path, 'wb') as pickle_file:
         pickle.dump(style_embedding_map, pickle_file)

@@ -568,7 +568,7 @@ class AdversarialAutoencoder:
                 pickle.dump(shuffled_one_hot_labels, pickle_file)
 
             average_label_embeddings = data_processor.get_average_label_embeddings(
-                data_size, options.dump_embeddings)
+                data_size, options.dump_embeddings, current_epoch)
 
             with open(global_config.average_label_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(average_label_embeddings, pickle_file)
