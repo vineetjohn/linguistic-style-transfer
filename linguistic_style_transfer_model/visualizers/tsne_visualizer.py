@@ -1,10 +1,10 @@
 import sys
 
 import argparse
+import matplotlib
 import numpy as np
 import os
 import pickle
-from matplotlib import pyplot as plt
 
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.utils import log_initializer
@@ -15,6 +15,8 @@ plot_markers = ['x', '+']
 
 
 def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
+    matplotlib.use('svg')
+    import matplotlib.pyplot as plt
     plt.figure(fig_num)
     for i in range(len(markers) - 1):
         plt.scatter(x=coordinates[markers[i]:markers[i + 1], 0],
@@ -26,6 +28,8 @@ def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
 
 
 def plot_coordinates_with_custom_label(coordinates, labels, plot_path, fig_num):
+    matplotlib.use('svg')
+    import matplotlib.pyplot as plt
     plt.figure(fig_num)
     current_color_index = 0
 
