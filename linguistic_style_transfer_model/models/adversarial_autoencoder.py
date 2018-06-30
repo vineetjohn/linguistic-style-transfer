@@ -538,12 +538,11 @@ class AdversarialAutoencoder:
                         shuffled_text_sequence_lengths, None, False,
                         style_kl_weight, content_kl_weight, current_epoch)
 
-                log_msg = "[R: {:.2f}, " \
-                          "S: {:.2f}, " \
+                log_msg = "[R: {:.2f}, S: {:.2f}, " \
                           "ACE: {:.2f}, AE: {:.2f}, " \
-                          "SKL: {:.2f}, CKL: {:.2f}], " \
-                          "BCE: {:.2f}, BE: {:.2f}, " \
-                          "Epoch {}-{}: {:.4f} "
+                          "SKL: {:.2f}, CKL: {:.2f}, " \
+                          "BCE: {:.2f}, BE: {:.2f}], " \
+                          "Epoch {}-{}: {:.4f}"
                 logger.info(log_msg.format(
                     reconstruction_loss, style_loss,
                     adversarial_loss, adversarial_entropy,
