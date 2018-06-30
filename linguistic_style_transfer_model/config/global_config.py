@@ -8,7 +8,7 @@ vocab_size = None  # set by runtime param
 embedding_size = 300
 max_sequence_length = 15
 validation_interval = 1
-tsne_sample_limit = 100
+tsne_sample_limit = 1000
 
 save_directory = "./saved-models/{}".format(experiment_timestamp)
 classifier_save_directory = "./saved-models-classifier/{}".format(experiment_timestamp)
