@@ -17,6 +17,7 @@ plot_markers = ['x', '+']
 def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
     matplotlib.use('svg')
     import matplotlib.pyplot as plt
+
     plt.figure(fig_num)
     for i in range(len(markers) - 1):
         plt.scatter(x=coordinates[markers[i]:markers[i + 1], 0],
@@ -24,7 +25,8 @@ def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
                     marker=plot_markers[i], c=colors[i], label=label_names[i], alpha=0.75)
 
     plt.legend(loc='upper right', fontsize='x-large')
-    plt.savefig(fname=plot_path, format="svg", dpi=1200)
+    plt.axis('off')
+    plt.savefig(fname=plot_path, format="svg", bbox_inches='tight', transparent=True)
 
 
 def plot_coordinates_with_custom_label(coordinates, labels, plot_path, fig_num):
