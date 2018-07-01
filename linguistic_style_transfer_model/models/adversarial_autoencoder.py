@@ -75,14 +75,6 @@ class AdversarialAutoencoder:
 
             return content_embedding_mu, content_embedding_sigma
 
-    def get_style_label_prediction(self, style_embedding, num_labels):
-
-        style_label_prediction = tf.layers.dense(
-            inputs=style_embedding, units=num_labels,
-            activation=tf.nn.softmax, name="style_label_prediction")
-
-        return style_label_prediction
-
     def get_adversarial_label_prediction(self, content_embedding, num_labels):
 
         adversarial_label_mlp = tf.nn.dropout(
@@ -290,8 +282,11 @@ class AdversarialAutoencoder:
 
         # style prediction loss
         with tf.name_scope('style_prediction_loss'):
-            style_label_prediction = \
-                self.get_style_label_prediction(self.style_embedding, num_labels)
+            style_label_prediction = tf.nn.dropout(
+                x=tf.layers.dense(
+                    inputs=self.style_embedding, units=num_labels,
+                    activation=tf.nn.softmax, name="style_label_prediction"),
+                keep_prob=mconf.fully_connected_keep_prob)
             logger.debug("style_label_prediction: {}".format(style_label_prediction))
 
             self.style_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
@@ -304,10 +299,12 @@ class AdversarialAutoencoder:
             logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
 
         with tf.name_scope('overall_prediction_loss'):
-            overall_label_prediction = tf.layers.dense(
-                inputs=tf.concat(values=[self.style_embedding, self.content_embedding], axis=1),
-                units=num_labels, activation=tf.nn.softmax,
-                name="overall_label_prediction")
+            overall_label_prediction = tf.nn.dropout(
+                x=tf.layers.dense(
+                    inputs=tf.concat(values=[self.style_embedding, self.content_embedding], axis=1),
+                    units=num_labels, activation=tf.nn.softmax,
+                    name="overall_label_prediction"),
+                keep_prob=mconf.fully_connected_keep_prob)
             logger.debug("overall_label_prediction: {}".format(overall_label_prediction))
 
             self.overall_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
@@ -438,7 +435,8 @@ class AdversarialAutoencoder:
             learning_rate=mconf.autoencoder_learning_rate)
         reconstruction_training_variables = [
             x for x in trainable_variables if all(
-                scope not in x.name for scope in adversarial_variable_labels)]
+                scope not in x.name for scope in
+                adversarial_variable_labels + overall_classification_labels)]
         logger.debug("reconstruction_training_optimizer.variables: {}".format(reconstruction_training_variables))
         reconstruction_training_operation = reconstruction_training_optimizer.minimize(
             loss=self.composite_loss, var_list=reconstruction_training_variables)
