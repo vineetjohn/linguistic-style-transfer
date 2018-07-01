@@ -22,7 +22,6 @@ class ModelConfig():
         # loss weights
         self.adversarial_discriminator_loss_weight = 0.3
         self.style_prediction_loss_weight = 1
-        self.adversarial_bow_loss_weight = 0.0001
 
         # training iterations
         self.kl_anneal_iterations = 20000
