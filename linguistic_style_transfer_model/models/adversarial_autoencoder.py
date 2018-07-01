@@ -507,7 +507,7 @@ class AdversarialAutoencoder:
 
                 log_msg = "[R: {:.2f}, S: {:.2f}, " \
                           "ACE: {:.2f}, AE: {:.2f}, " \
-                          "SKL: {:.2f}, CKL: {:.2f}, " \
+                          "SKL: {:.2f}, CKL: {:.2f}], " \
                           "Epoch {}-{}: {:.4f}"
                 logger.info(log_msg.format(
                     reconstruction_loss, style_loss,
