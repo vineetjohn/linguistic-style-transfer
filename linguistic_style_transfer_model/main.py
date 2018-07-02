@@ -228,10 +228,11 @@ def main(argv):
                     filtered_text_sequence_lengths.append(text_sequence_lengths[k])
 
             style_embedding = np.asarray(average_label_embeddings[i])
-            [generated_sequences, final_sequence_lengths, _, _, _] = \
+            [generated_sequences, final_sequence_lengths, _, _, _, cross_entropy_scores] = \
                 network.generate_novel_sentences(
                     sess, filtered_padded_sequences, filtered_text_sequence_lengths, style_embedding,
                     num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
+            logger.info("NLL: {}".format(-np.mean(a=cross_entropy_scores, axis=0)))
 
             actual_word_lists = \
                 [data_processor.generate_words_from_indices(x, inverse_word_index)
@@ -244,7 +245,7 @@ def main(argv):
             logger.info("Generation complete for label {}".format(i))
 
         logger.info("Predicting labels from latent spaces ...")
-        _, _, overall_label_predictions, style_label_predictions, adversarial_label_predictions = \
+        _, _, overall_label_predictions, style_label_predictions, adversarial_label_predictions, _ = \
             network.generate_novel_sentences(
                 sess, padded_sequences, text_sequence_lengths, average_label_embeddings[0],
                 num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))

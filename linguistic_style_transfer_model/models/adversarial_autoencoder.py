@@ -656,6 +656,7 @@ class AdversarialAutoencoder:
         overall_label_predictions = list()
         style_label_predictions = list()
         adversarial_label_predictions = list()
+        cross_entropy_scores = list()
         num_batches = data_size // mconf.batch_size
         if data_size % mconf.batch_size:
             num_batches += 1
@@ -676,13 +677,14 @@ class AdversarialAutoencoder:
 
             generated_sequences_batch, final_sequence_lengths_batch, \
             overall_label_predictions_batch, style_label_predictions_batch, \
-            adversarial_label_predictions_batch = \
+            adversarial_label_predictions_batch, cross_entropy_score = \
                 self.run_batch(
                     sess, start_index, end_index,
                     [self.inference_output, self.final_sequence_lengths,
                      self.overall_label_prediction_hardmax,
                      self.style_label_prediction_hardmax,
-                     self.adversarial_label_prediction_hardmax],
+                     self.adversarial_label_prediction_hardmax,
+                     self.reconstruction_loss],
                     padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
                     conditioning_embedding, True, style_kl_weight, content_kl_weight, current_epoch)
 
@@ -691,6 +693,7 @@ class AdversarialAutoencoder:
             overall_label_predictions.extend(overall_label_predictions_batch)
             style_label_predictions.extend(style_label_predictions_batch)
             adversarial_label_predictions.extend(adversarial_label_predictions_batch)
+            cross_entropy_scores.append(cross_entropy_score)
 
         return generated_sequences, final_sequence_lengths, overall_label_predictions, \
-               style_label_predictions, adversarial_label_predictions
+               style_label_predictions, adversarial_label_predictions, cross_entropy_scores
