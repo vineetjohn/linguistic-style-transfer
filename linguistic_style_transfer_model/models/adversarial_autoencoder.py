@@ -262,7 +262,7 @@ class AdversarialAutoencoder:
         # adversarial loss
         with tf.name_scope('adversarial_loss'):
             adversarial_label_prediction = self.get_adversarial_label_prediction(
-                self.content_embedding, num_labels)
+                content_embedding_mu, num_labels)
             logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
 
             self.adversarial_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
@@ -282,7 +282,7 @@ class AdversarialAutoencoder:
         with tf.name_scope('style_prediction_loss'):
             style_label_prediction = tf.nn.dropout(
                 x=tf.layers.dense(
-                    inputs=self.style_embedding, units=num_labels,
+                    inputs=style_embedding_mu, units=num_labels,
                     activation=tf.nn.softmax, name="style_label_prediction"),
                 keep_prob=mconf.fully_connected_keep_prob)
             logger.debug("style_label_prediction: {}".format(style_label_prediction))
@@ -297,7 +297,7 @@ class AdversarialAutoencoder:
         with tf.name_scope('overall_prediction_loss'):
             overall_label_prediction = tf.nn.dropout(
                 x=tf.layers.dense(
-                    inputs=tf.concat(values=[self.style_embedding, self.content_embedding], axis=1),
+                    inputs=tf.concat(values=[style_embedding_mu, content_embedding_mu], axis=1),
                     units=num_labels, activation=tf.nn.softmax,
                     name="overall_label_prediction"),
                 keep_prob=mconf.fully_connected_keep_prob)
