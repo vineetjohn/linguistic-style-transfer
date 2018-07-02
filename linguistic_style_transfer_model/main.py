@@ -215,6 +215,7 @@ def main(argv):
         [label_sequences, _] = \
             data_processor.get_test_labels(options.evaluation_label_file_path, options.saved_model_path)
 
+        total_nll = 0
         for i in range(num_labels):
             logger.info("Style chosen: {}".format(i))
 
@@ -232,7 +233,9 @@ def main(argv):
                 network.generate_novel_sentences(
                     sess, filtered_padded_sequences, filtered_text_sequence_lengths, style_embedding,
                     num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
-            logger.info("NLL: {}".format(-np.mean(a=cross_entropy_scores, axis=0)))
+            nll = -np.mean(a=cross_entropy_scores, axis=0)
+            total_nll += nll
+            logger.info("NLL: {}".format(nll))
 
             actual_word_lists = \
                 [data_processor.generate_words_from_indices(x, inverse_word_index)
@@ -243,6 +246,8 @@ def main(argv):
                 inverse_word_index, global_config.experiment_timestamp, i)
 
             logger.info("Generation complete for label {}".format(i))
+
+        logger.info("Mean NLL: {}".format(total_nll / num_labels))
 
         logger.info("Predicting labels from latent spaces ...")
         _, _, overall_label_predictions, style_label_predictions, adversarial_label_predictions, _ = \
