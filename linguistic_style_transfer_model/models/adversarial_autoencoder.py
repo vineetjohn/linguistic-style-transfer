@@ -268,12 +268,10 @@ class AdversarialAutoencoder:
             self.adversarial_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
                 logits=adversarial_label_prediction, name="adversarial_label_prediction_hardmax")
 
-            self.adversarial_entropy = \
-                mconf.adversarial_discriminator_loss_weight * \
-                tf.reduce_mean(
-                    input_tensor=tf.reduce_sum(
-                        input_tensor=-adversarial_label_prediction *
-                                     tf.log(adversarial_label_prediction + mconf.epsilon), axis=1))
+            self.adversarial_entropy = tf.reduce_mean(
+                input_tensor=tf.reduce_sum(
+                    input_tensor=-adversarial_label_prediction *
+                                 tf.log(adversarial_label_prediction + mconf.epsilon), axis=1))
             logger.debug("adversarial_entropy: {}".format(self.adversarial_entropy))
 
             self.adversarial_loss = tf.losses.softmax_cross_entropy(
@@ -292,10 +290,8 @@ class AdversarialAutoencoder:
             self.style_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
                 logits=style_label_prediction, name="style_label_prediction_hardmax")
 
-            self.style_prediction_loss = \
-                mconf.style_prediction_loss_weight * \
-                tf.losses.softmax_cross_entropy(
-                    onehot_labels=self.input_label, logits=style_label_prediction, label_smoothing=0.1)
+            self.style_prediction_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_label, logits=style_label_prediction, label_smoothing=0.1)
             logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
 
         with tf.name_scope('overall_prediction_loss'):
@@ -399,8 +395,8 @@ class AdversarialAutoencoder:
         self.composite_loss += self.reconstruction_loss
         self.composite_loss += self.style_kl_loss
         self.composite_loss += self.content_kl_loss
-        self.composite_loss -= self.adversarial_entropy
-        self.composite_loss += self.style_prediction_loss
+        self.composite_loss -= self.adversarial_entropy * mconf.adversarial_discriminator_loss_weight
+        self.composite_loss += self.style_prediction_loss * mconf.style_prediction_loss_weight
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
