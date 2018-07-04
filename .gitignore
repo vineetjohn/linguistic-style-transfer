@@ -7,6 +7,7 @@ saved-models-classifier/
 word-embeddings/
 tests/
 tensorflow-logs/
+language-models/
 .idea/
 
 # Byte-compiled / optimized / DLL files

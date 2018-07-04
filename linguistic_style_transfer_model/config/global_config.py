@@ -41,6 +41,7 @@ bleu_score_weights = {
     3: (0.34, 0.33, 0.33, 0.0),
     4: (0.25, 0.25, 0.25, 0.25),
 }
+language_model_order = 3
 
 model_save_file = "linguistic_style_transfer_model.ckpt"
 model_save_path = save_directory + "/" + model_save_file

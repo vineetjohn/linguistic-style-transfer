@@ -21,6 +21,7 @@ class Options(SimpleNamespace):
         self.training_path = None
         self.inference_path = None
         self.embeddings_path = None
+        self.language_model_path = None
 
 
 def main(argv):
@@ -30,6 +31,7 @@ def main(argv):
     parser.add_argument("--training-path", type=str, required=True)
     parser.add_argument("--inference-path", type=str, required=True)
     parser.add_argument("--embeddings-path", type=str, required=True)
+    parser.add_argument("--language-model-path", type=str, required=True)
     parser.parse_known_args(args=argv, namespace=options)
 
     global logger
@@ -43,6 +45,7 @@ def main(argv):
     style_transfer_scores = list()
     content_preservation_scores = list()
     word_overlap_scores = list()
+    nll_scores = list()
 
     for label_index in index_label_dict:
         actual_text_file_path = os.path.join(
@@ -55,17 +58,27 @@ def main(argv):
         [content_preservation_score, word_overlap_score] = \
             content_preservation.run_content_preservation_evaluator(
                 actual_text_file_path, generated_text_file_path, options.embeddings_path)
+        with open(options.language_model_path, 'rb') as language_model_file:
+            language_model = pickle.load(language_model_file)
+            log_probs = list()
+            with open(generated_text_file_path) as generated_text_file:
+                for sentence in generated_text_file:
+                    log_probs.append(language_model.score_sent(tuple(sentence.split())))
 
         style_transfer_scores.append(style_transfer_score)
         content_preservation_scores.append(content_preservation_score)
         word_overlap_scores.append(word_overlap_score)
+        nll_scores.append(statistics.mean(log_probs))
+
     logger.info("style_transfer_scores: {}".format(style_transfer_scores))
     logger.info("content_preservation_scores: {}".format(content_preservation_scores))
     logger.info("word_overlap_scores: {}".format(word_overlap_scores))
+    logger.info("nll_scores: {}".format(nll_scores))
 
     logger.info("transfer-strength: {}".format(statistics.mean(style_transfer_scores)))
     logger.info("content-preservation: {}".format(statistics.mean(content_preservation_scores)))
     logger.info("word-overlap: {}".format(statistics.mean(word_overlap_scores)))
+    logger.info("nll: {}".format(statistics.mean(nll_scores)))
 
 
 if __name__ == '__main__':
