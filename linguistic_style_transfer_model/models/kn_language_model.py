@@ -146,8 +146,6 @@ class KneserNeyLM:
         Params:
             sent [tuple->string] The words in the unpadded sentence.
         """
-        if not sent:
-            return 0
         padded = (
                 (self.start_pad_symbol,) * (self.highest_order - 1) + sent +
                 (self.end_pad_symbol,))
@@ -155,7 +153,7 @@ class KneserNeyLM:
         for i in range(len(sent) - self.highest_order + 1):
             ngram = sent[i:i + self.highest_order]
             sent_logprob += self.logprob(ngram)
-        return sent_logprob / len(sent)
+        return sent_logprob
 
     def generate_sentence(self, min_length=4):
         """
