@@ -1,3 +1,6 @@
+from linguistic_style_transfer_model.config import global_config
+
+
 class ModelConfig():
 
     def __init__(self):
@@ -7,7 +10,7 @@ class ModelConfig():
         # layer sizes
         self.encoder_rnn_size = 256
         self.decoder_rnn_size = 256
-        self.style_embedding_size = 8
+        self.style_embedding_size_per_label = 4
         self.content_embedding_size = 128
 
         # dropout
@@ -25,11 +28,12 @@ class ModelConfig():
         self.content_multitask_loss_weight = 3
         self.style_adversary_loss_weight = 1
         self.content_adversary_loss_weight = 0.03
-        self.style_kl_lambda = 0.03
-        self.content_kl_lambda = 0.03
+        self.style_wasserstein_weight = 1
+        self.content_wasserstein_weight = 1
 
-        # training iterations
-        self.kl_anneal_iterations = 20000
+        # kernel
+        self.mmd_kernel = global_config.MMDKernel.RBF
+        self.prior_mean_multiplier = 3
 
         # noise
         self.epsilon = 1e-8

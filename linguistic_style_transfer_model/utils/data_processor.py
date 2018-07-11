@@ -4,6 +4,7 @@ import numpy as np
 import os
 import pickle
 import tensorflow as tf
+from random import shuffle
 
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.utils import tsne_interface, lexicon_helper
@@ -263,3 +264,42 @@ def get_bow_representations(text_sequences):
         bow_representation.append(sequence_bow_representation)
 
     return np.asarray(bow_representation)
+
+
+def get_batch_indices(batch_number, data_limit, batch_size):
+    start_index = batch_number * batch_size
+    end_index = min((batch_number + 1) * batch_size, data_limit)
+
+    return start_index, end_index
+
+
+def get_label_homogenous_batches(batch_size, training_tuples):
+    homogenous_batches = list()  # List[int, tuple]
+
+    label_training_tuples = dict()
+    for one_hot_label, sequence, seq_length in training_tuples:
+        label = one_hot_label.tolist().index(1)
+        if label not in label_training_tuples:
+            label_training_tuples[label] = list()
+        label_training_tuples[label].append((one_hot_label, sequence, seq_length))
+
+    for label in label_training_tuples:
+        training_tuples = label_training_tuples[label]
+        shuffle(training_tuples)
+
+        size = len(training_tuples)
+        num_batches = size // batch_size
+        if size % batch_size:
+            num_batches += 1
+
+        for batch_number in range(num_batches):
+            (start_index, end_index) = get_batch_indices(
+                batch_number=batch_number, data_limit=size, batch_size=batch_size)
+            homogenous_batches.append((label, training_tuples[start_index:end_index]))
+
+        logger.info("{} samples and {} batches for label {}".format(
+            len(training_tuples), num_batches, label))
+
+    shuffle(homogenous_batches)
+
+    return homogenous_batches

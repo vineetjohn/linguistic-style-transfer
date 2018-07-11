@@ -228,7 +228,7 @@ def main(argv):
             style_embedding = np.asarray(average_label_embeddings[i])
             [generated_sequences, final_sequence_lengths, _, _, _, cross_entropy_scores] = \
                 network.generate_novel_sentences(
-                    sess, filtered_padded_sequences, filtered_text_sequence_lengths, style_embedding,
+                    sess, i, filtered_padded_sequences, filtered_text_sequence_lengths, style_embedding,
                     num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
             nll = -np.mean(a=cross_entropy_scores, axis=0)
             total_nll += nll
@@ -249,7 +249,7 @@ def main(argv):
         logger.info("Predicting labels from latent spaces ...")
         _, _, overall_label_predictions, style_label_predictions, adversarial_label_predictions, _ = \
             network.generate_novel_sentences(
-                sess, padded_sequences, text_sequence_lengths, average_label_embeddings[0],
+                sess, 0, padded_sequences, text_sequence_lengths, average_label_embeddings[0],
                 num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
 
         # write label predictions to file

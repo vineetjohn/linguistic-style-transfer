@@ -1,4 +1,11 @@
 from datetime import datetime as dt
+from enum import IntEnum
+
+
+class MMDKernel(IntEnum):
+    RBF = 1
+    IMQ = 2
+
 
 logger_name = "linguistic_style_transfer"
 
