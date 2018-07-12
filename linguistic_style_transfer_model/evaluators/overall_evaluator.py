@@ -60,7 +60,7 @@ def main(argv):
             content_preservation.run_content_preservation_evaluator(
                 actual_text_file_path, generated_text_file_path, options.embeddings_path)
         ll_score = language_model_evaluator.score_generated_sentences(
-            generated_text_file_path, options.language_model_path)
+            generated_text_file_path, options.language_model_path, True)
 
         style_transfer_scores.append(style_transfer_score)
         content_preservation_scores.append(content_preservation_score)
