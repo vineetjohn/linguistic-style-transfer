@@ -1,3 +1,4 @@
+import json
 import random
 import re
 
@@ -6,7 +7,8 @@ from linguistic_style_transfer_model.utils import log_initializer
 
 logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 
-raw_lyrics_file_path = "data/lyrics/artist-song-line.top30artists.txt"
+raw_lyrics_file_path = "data/lyrics/artist-song-line-selected10-dedup.txt"
+genre_mapping_file_path = "data/lyrics/artist-genres.json"
 
 val_text_file_path = "data/lyrics/lyrics-val.txt"
 val_artists_file_path = "data/lyrics/artist-val.txt"
@@ -29,15 +31,18 @@ test_proportion = 0.05
 
 
 def clean_text(string):
-    string = re.sub(r"\.", "", string)
-    string = re.sub(r"\\n", " ", string)
-    string = re.sub(r"\'m", " am", string)
-    string = re.sub(r"\'ve", " have", string)
-    string = re.sub(r"n\'t", " not", string)
-    string = re.sub(r"\'re", " are", string)
-    string = re.sub(r"\'d", " would", string)
-    string = re.sub(r"\'ll", " will", string)
-    string = re.sub(r'\d+', "number", string)
+    string = re.sub("\d+", "", string)
+
+    string = string.replace(".", "")
+    string = string.replace("(", "")
+    string = string.replace(")", "")
+    string = string.replace("'m", " am")
+    string = string.replace("'s", " is")
+    string = string.replace("'ve", " have")
+    string = string.replace("n't", " not")
+    string = string.replace("'re", " are")
+    string = string.replace("'d", " would")
+    string = string.replace("'ll", " will")
     string = string.replace("\r", " ")
     string = string.replace("\n", " ")
     string = string.strip().lower()
@@ -45,11 +50,22 @@ def clean_text(string):
     return string
 
 
+def clean_lyric(lyric):
+    lyric = clean_text(lyric)
+    split_lyric = lyric.split()
+    return lyric if len(split_lyric) > 5 else None
+
+
 all_lyrics_tuples = list()
 with open(raw_lyrics_file_path, 'r') as lyrics_file:
     for line in lyrics_file:
-        (lyric, artist, genre) = line.split(sep=",")
-        all_lyrics_tuples.append((lyric, artist, genre))
+        (lyric, artist, _) = line.split(sep=",")
+        lyric = clean_lyric(lyric)
+        if lyric:
+            all_lyrics_tuples.append((lyric.strip(), artist.strip()))
+
+with open(genre_mapping_file_path) as genre_mapping_file:
+    genre_map = json.load(genre_mapping_file)
 
 total_size = len(all_lyrics_tuples)
 val_size = int(dev_proportion * total_size)
@@ -66,33 +82,33 @@ train_set = all_lyrics_tuples[val_size + test_size:]
 with open(val_text_file_path, 'w') as text_file, \
         open(val_artists_file_path, 'w') as artists_file, \
         open(val_genres_file_path, 'w') as genres_file:
-    for lyric, artist, genre in val_set:
-        text_file.write("{}\n".format(lyric.strip()))
-        artists_file.write("{}\n".format(artist.strip()))
-        genres_file.write("{}\n".format(genre.strip()))
+    for lyric, artist in val_set:
+        text_file.write("{}\n".format(lyric))
+        artists_file.write("{}\n".format(artist))
+        genres_file.write("{}\n".format(genre_map[artist]))
 
 with open(test_text_file_path, 'w') as text_file, \
         open(test_artists_file_path, 'w') as artists_file, \
         open(test_genres_file_path, 'w') as genres_file:
-    for lyric, artist, genre in test_set:
-        text_file.write("{}\n".format(lyric.strip()))
-        artists_file.write("{}\n".format(artist.strip()))
-        genres_file.write("{}\n".format(genre.strip()))
+    for lyric, artist in test_set:
+        text_file.write("{}\n".format(lyric))
+        artists_file.write("{}\n".format(artist))
+        genres_file.write("{}\n".format(genre_map[artist]))
 
 with open(train_text_file_path, 'w') as text_file, \
         open(train_artists_file_path, 'w') as artists_file, \
         open(train_genres_file_path, 'w') as genres_file:
-    for lyric, artist, genre in train_set:
-        text_file.write("{}\n".format(lyric.strip()))
-        artists_file.write("{}\n".format(artist.strip()))
-        genres_file.write("{}\n".format(genre.strip()))
+    for lyric, artist in train_set:
+        text_file.write("{}\n".format(lyric))
+        artists_file.write("{}\n".format(artist))
+        genres_file.write("{}\n".format(genre_map[artist]))
 
 with open(all_text_file_path, 'w') as text_file, \
         open(all_artists_file_path, 'w') as artists_file, \
         open(all_genres_file_path, 'w') as genres_file:
-    for lyric, artist, genre in all_lyrics_tuples:
-        text_file.write("{}\n".format(lyric.strip()))
-        artists_file.write("{}\n".format(artist.strip()))
-        genres_file.write("{}\n".format(genre.strip()))
+    for lyric, artist in all_lyrics_tuples:
+        text_file.write("{}\n".format(lyric))
+        artists_file.write("{}\n".format(artist))
+        genres_file.write("{}\n".format(genre_map[artist]))
 
 logger.info("Processing complete")
