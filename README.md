@@ -4,21 +4,35 @@ Neural network model to disentangle and transfer linguistic style in text
 
 ---
 
-## Run a corpus cleaner/adapter
+## Prerequistites
+
+* Python >= 3.x
+
+### Install required Python packages
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Pretraining
+
+### Run a corpus cleaner/adapter
 
 ```bash
 PYTHONPATH=${PROJECT_DIR_PATH} \
 python linguistic_style_transfer_model/corpus_adapters/${CORPUS_ADAPTER_SCRIPT}.py
 ```
 
-## Train word embedding model
+### Train word embedding model
 ```bash
 ./scripts/run_word_vector_training.sh \
 --text-file-path ${TRAINING_TEXT_FILE_PATH} \
 --model-file-path ${WORD_EMBEDDINGS_PATH}
 ```
 
-## Train validation classifier
+### Train validation classifier
 
 ```bash
 CUDA_DEVICE_ORDER="PCI_BUS_ID" \
@@ -30,9 +44,18 @@ TF_CPP_MIN_LOG_LEVEL=1 \
 --training-epochs ${NUM_EPOCHS} --vocab-size ${VOCAB_SIZE}
 ```
 
+### Train Kneser-Ney Language Model
+```bash
+./scripts/run_language_model_training.sh \
+--text-file-path ${TRAINING_TEXT_FILE_PATH} \
+--model-save-path ${LANGUAGE_MODEL_PATH}
+```
+
 ---
 
-## Train style transfer model
+## Style Transfer Model Training
+
+### Train style transfer model
 
 ```bash
 CUDA_DEVICE_ORDER="PCI_BUS_ID" \
@@ -53,7 +76,7 @@ TF_CPP_MIN_LOG_LEVEL=1 \
 --logging-level="DEBUG"
 ```
 
-## Evaluate style transfer model
+### Infer style transferred sentences
 
 ```bash
 CUDA_DEVICE_ORDER="PCI_BUS_ID" \
@@ -118,3 +141,11 @@ TF_CPP_MIN_LOG_LEVEL=1 \
 --predictions-file-path ${PREDICTIONS_LABEL_FILE_PATH}
 ```
 
+### Language Fluency
+
+```bash
+./scripts/run_language_fluency_evaluator.sh \
+--use-kenlm \
+--language-model-path ${LANGUAGE_MODEL_PATH} \
+--generated-text-file-path ${GENERATED_TEXT_FILE_PATH}
+```
