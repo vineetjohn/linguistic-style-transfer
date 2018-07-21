@@ -22,7 +22,9 @@ def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
     for i in range(len(markers) - 1):
         plt.scatter(x=coordinates[markers[i]:markers[i + 1], 0],
                     y=coordinates[markers[i]:markers[i + 1], 1],
-                    marker=plot_markers[i], c=colors[i], label=label_names[i], alpha=0.75)
+                    marker=plot_markers[i % len(plot_markers)],
+                    c=colors[i % len(colors)],
+                    label=label_names[i], alpha=0.75)
 
     plt.legend(loc='upper right', fontsize='x-large')
     plt.axis('off')
