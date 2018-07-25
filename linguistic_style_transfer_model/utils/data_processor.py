@@ -1,3 +1,4 @@
+import json
 import logging
 import numpy as np
 import os
@@ -13,7 +14,7 @@ label_to_index_map = dict()
 index_to_label_map = dict()
 
 
-def get_text_sequences(text_file_path, vocab_size, vocab_size_save_path, text_tokenizer_path, vocab_save_path):
+def get_text_sequences(text_file_path, vocab_size, vocab_save_path):
     word_index = global_config.predefined_word_index
     text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
 
@@ -47,17 +48,13 @@ def get_text_sequences(text_file_path, vocab_size, vocab_size_save_path, text_to
         [global_config.max_sequence_length if x >= global_config.max_sequence_length
          else x + 1 for x in text_sequence_lengths])  # x + 1 to accomodate a single EOS token
 
-    with open(vocab_size_save_path, 'wb') as pickle_file:
-        pickle.dump(global_config.vocab_size, pickle_file)
-    with open(text_tokenizer_path, 'wb') as pickle_file:
-        pickle.dump(text_tokenizer, pickle_file)
-    with open(vocab_save_path, 'wb') as pickle_file:
-        pickle.dump(word_index, pickle_file)
+    with open(vocab_save_path, 'w') as json_file:
+        json.dump(word_index, json_file)
 
     return [word_index, padded_sequences, text_sequence_lengths, text_tokenizer, inverse_word_index]
 
 
-def get_test_sequences(text_file_path, word_index, text_tokenizer, inverse_word_index):
+def get_test_sequences(text_file_path, text_tokenizer, word_index, inverse_word_index):
     with open(text_file_path) as text_file:
         actual_sequences = text_tokenizer.texts_to_sequences(text_file)
 

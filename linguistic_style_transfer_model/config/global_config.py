@@ -49,15 +49,9 @@ model_save_path = save_directory + "/" + model_save_file
 model_config_file = "model_config.json"
 model_config_file_path = save_directory + "/" + model_config_file
 
-vocab_size_save_file = "vocab_size_save_path.pkl"
-vocab_save_file = "vocab.pkl"
-text_tokenizer_file = "text_tokenizer.pkl"
-vocab_size_save_path = save_directory + "/" + vocab_size_save_file
+vocab_save_file = "vocab.json"
 vocab_save_path = save_directory + "/" + vocab_save_file
-text_tokenizer_path = save_directory + "/" + text_tokenizer_file
-classifier_vocab_size_save_path = classifier_save_directory + "/" + vocab_size_save_file
 classifier_vocab_save_path = classifier_save_directory + "/" + vocab_save_file
-classifier_text_tokenizer_path = classifier_save_directory + "/" + text_tokenizer_file
 
 index_to_label_dict_file = "index_to_label_dict.pkl"
 label_to_index_dict_file = "label_to_index_dict.pkl"

@@ -21,8 +21,7 @@ def get_data(options):
     [word_index, padded_sequences, text_sequence_lengths,
      text_tokenizer, inverse_word_index] = \
         data_processor.get_text_sequences(
-            options.text_file_path, options.vocab_size, global_config.vocab_size_save_path,
-            global_config.text_tokenizer_path, global_config.vocab_save_path)
+            options.text_file_path, options.vocab_size, global_config.vocab_save_path)
     logger.debug("text_sequence_lengths: {}".format(text_sequence_lengths.shape))
     logger.debug("padded_sequences: {}".format(padded_sequences.shape))
 
@@ -158,7 +157,7 @@ def main(argv):
 
         [_, validation_actual_word_lists, validation_sequences, validation_sequence_lengths] = \
             data_processor.get_test_sequences(
-                options.validation_text_file_path, word_index, text_tokenizer, inverse_word_index)
+                options.validation_text_file_path, text_tokenizer, word_index, inverse_word_index)
         [_, validation_labels] = \
             data_processor.get_test_labels(options.validation_label_file_path, global_config.save_directory)
 
@@ -182,22 +181,20 @@ def main(argv):
             logger.info("Restored model config from saved JSON")
 
         with open(os.path.join(options.saved_model_path,
-                               global_config.vocab_save_file), 'rb') as pickle_file:
-            word_index = pickle.load(pickle_file)
-        with open(os.path.join(options.saved_model_path,
-                               global_config.text_tokenizer_file), 'rb') as pickle_file:
-            text_tokenizer = pickle.load(pickle_file)
+                               global_config.vocab_save_file), 'r') as json_file:
+            word_index = json.load(json_file)
         with open(os.path.join(options.saved_model_path,
                                global_config.index_to_label_dict_file), 'rb') as pickle_file:
             index_to_label_map = pickle.load(pickle_file)
         with open(os.path.join(options.saved_model_path,
                                global_config.average_label_embeddings_file), 'rb') as pickle_file:
             average_label_embeddings = pickle.load(pickle_file)
-        with open(os.path.join(options.saved_model_path,
-                               global_config.vocab_size_save_file), 'rb') as pickle_file:
-            global_config.vocab_size = pickle.load(pickle_file)
+
+        global_config.vocab_size = len(word_index)
 
         num_labels = len(index_to_label_map)
+        text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
+        text_tokenizer.word_index = word_index
 
         logger.info("Building model architecture ...")
         network = adversarial_autoencoder.AdversarialAutoencoder()
@@ -210,8 +207,7 @@ def main(argv):
         inverse_word_index = {v: k for k, v in word_index.items()}
         [actual_sequences, _, padded_sequences, text_sequence_lengths] = \
             data_processor.get_test_sequences(
-                options.evaluation_text_file_path, word_index, text_tokenizer,
-                inverse_word_index)
+                options.evaluation_text_file_path, text_tokenizer, word_index, inverse_word_index)
         [label_sequences, _] = \
             data_processor.get_test_labels(options.evaluation_label_file_path, options.saved_model_path)
 

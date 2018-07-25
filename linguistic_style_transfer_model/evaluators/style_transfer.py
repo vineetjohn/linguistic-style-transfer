@@ -1,10 +1,10 @@
 import sys
 
 import argparse
+import json
 import logging
 import numpy as np
 import os
-import pickle
 import tensorflow as tf
 from sklearn import metrics
 
@@ -17,14 +17,12 @@ logger = logging.getLogger(global_config.logger_name)
 
 def get_style_transfer_score(classifier_saved_model_path, text_file_path, label):
     with open(os.path.join(classifier_saved_model_path,
-                           global_config.vocab_save_file), 'rb') as pickle_file:
-        word_index = pickle.load(pickle_file)
-    with open(os.path.join(classifier_saved_model_path,
-                           global_config.text_tokenizer_file), 'rb') as pickle_file:
-        text_tokenizer = pickle.load(pickle_file)
-    with open(os.path.join(classifier_saved_model_path,
-                           global_config.vocab_size_save_file), 'rb') as pickle_file:
-        vocab_size = pickle.load(pickle_file)
+                           global_config.vocab_save_file), 'r') as json_file:
+        word_index = json.load(json_file)
+    vocab_size = len(word_index)
+
+    text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
+    text_tokenizer.word_index = word_index
 
     with open(text_file_path) as text_file:
         actual_sequences = text_tokenizer.texts_to_sequences(text_file)

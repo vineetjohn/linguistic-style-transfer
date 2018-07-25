@@ -2,9 +2,9 @@ import sys
 
 import argparse
 import datetime
+import json
 import numpy as np
 import os
-import pickle
 import tensorflow as tf
 
 from linguistic_style_transfer_model.config import global_config
@@ -19,15 +19,9 @@ def train_classifier_model(options):
     # Load data
     logger.info("Loading data...")
 
-    [word_index, x, _, text_tokenizer, _] = \
+    [word_index, x, _, _, _] = \
         data_processor.get_text_sequences(
-            options['text_file_path'], options['vocab_size'], global_config.classifier_vocab_size_save_path,
-            global_config.classifier_text_tokenizer_path, global_config.classifier_vocab_save_path)
-
-    with open(global_config.classifier_vocab_size_save_path, 'wb') as pickle_file:
-        pickle.dump(global_config.vocab_size, pickle_file)
-    with open(global_config.classifier_text_tokenizer_path, 'wb') as pickle_file:
-        pickle.dump(text_tokenizer, pickle_file)
+            options['text_file_path'], options['vocab_size'], global_config.classifier_vocab_save_path)
 
     x = np.asarray(x)
 
@@ -65,16 +59,6 @@ def train_classifier_model(options):
         grads_and_vars = optimizer.compute_gradients(cnn.loss)
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
 
-        # Keep track of gradient values and sparsity (optional)
-        # grad_summaries = []
-        # for g, v in grads_and_vars:
-        #     if g is not None:
-        #         grad_hist_summary = tf.summary.histogram("{}/grad/hist".format(v.name), g)
-        #         sparsity_summary = tf.summary.scalar("{}/grad/sparsity".format(v.name), tf.nn.zero_fraction(g))
-        #         grad_summaries.append(grad_hist_summary)
-        #         grad_summaries.append(sparsity_summary)
-        # grad_summaries_merged = tf.summary.merge(grad_summaries)
-
         # Output directory for models and summaries
         out_dir = global_config.classifier_save_directory
         logger.info("Writing to {}\n".format(out_dir))
@@ -102,8 +86,9 @@ def train_classifier_model(options):
         saver = tf.train.Saver(var_list=tf.global_variables(), max_to_keep=1)
 
         # Write vocabulary
-        with open(global_config.classifier_vocab_save_path, 'wb') as pickle_file:
-            pickle.dump(word_index, pickle_file)
+        with open(global_config.classifier_vocab_save_path, 'w') as json_file:
+            json.dump(word_index, json_file)
+            logger.info("Saved vocabulary")
 
         # Initialize all variables
         sess.run(tf.global_variables_initializer())
