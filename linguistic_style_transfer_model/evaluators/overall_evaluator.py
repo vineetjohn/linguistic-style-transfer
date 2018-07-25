@@ -1,9 +1,9 @@
 import sys
 
 import argparse
+import json
 import logging
 import os
-import pickle
 import statistics
 from types import SimpleNamespace
 
@@ -40,8 +40,8 @@ def main(argv):
     logger.info(options)
 
     index_label_file_path = os.path.join(options.training_path, global_config.index_to_label_dict_file)
-    with open(index_label_file_path, 'rb') as index_label_file:
-        index_label_dict = pickle.load(index_label_file)
+    with open(index_label_file_path, 'r') as index_label_file:
+        index_label_dict = json.load(index_label_file)
 
     style_transfer_scores = list()
     content_preservation_scores = list()

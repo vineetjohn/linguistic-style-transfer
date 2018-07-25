@@ -41,7 +41,6 @@ bleu_score_weights = {
     3: (0.34, 0.33, 0.33, 0.0),
     4: (0.25, 0.25, 0.25, 0.25),
 }
-language_model_order = 3
 
 model_save_file = "linguistic_style_transfer_model.ckpt"
 model_save_path = save_directory + "/" + model_save_file
@@ -53,8 +52,8 @@ vocab_save_file = "vocab.json"
 vocab_save_path = save_directory + "/" + vocab_save_file
 classifier_vocab_save_path = classifier_save_directory + "/" + vocab_save_file
 
-index_to_label_dict_file = "index_to_label_dict.pkl"
-label_to_index_dict_file = "label_to_index_dict.pkl"
+index_to_label_dict_file = "index_to_label_dict.json"
+label_to_index_dict_file = "label_to_index_dict.json"
 index_to_label_dict_path = save_directory + "/" + index_to_label_dict_file
 label_to_index_dict_path = save_directory + "/" + label_to_index_dict_file
 

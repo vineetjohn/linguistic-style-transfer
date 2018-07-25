@@ -94,10 +94,10 @@ def get_labels(label_file_path, store_labels):
         counter += 1
 
     if store_labels:
-        with open(global_config.index_to_label_dict_path, 'wb') as pickle_file:
-            pickle.dump(index_to_label_map, pickle_file)
-        with open(global_config.label_to_index_dict_path, 'wb') as pickle_file:
-            pickle.dump(label_to_index_map, pickle_file)
+        with open(global_config.index_to_label_dict_path, 'w') as file:
+            json.dump(index_to_label_map, file)
+        with open(global_config.label_to_index_dict_path, 'w') as file:
+            json.dump(label_to_index_map, file)
     logger.info("labels: {}".format(label_to_index_map))
 
     one_hot_labels = list()
@@ -114,8 +114,9 @@ def get_test_labels(label_file_path, model_save_directory):
     all_labels = [label.strip() for label in all_labels]
 
     with open(os.path.join(model_save_directory,
-                           global_config.label_to_index_dict_file), 'rb') as pickle_file:
-        label_to_index_map = pickle.load(pickle_file)
+                           global_config.label_to_index_dict_file), 'r') as json_file:
+        global label_to_index_map
+        label_to_index_map = json.load(json_file)
 
     one_hot_labels = list()
     label_sequences = list()
@@ -179,14 +180,16 @@ def get_average_label_embeddings(data_size, dump_embeddings, epoch):
         if not os.path.exists(global_config.tsne_plot_folder):
             os.makedirs(global_config.tsne_plot_folder)
 
-        style_plot_path = global_config.tsne_plot_folder + \
-                          global_config.style_embedding_plot_file.format(epoch)
+        style_plot_path = \
+            global_config.tsne_plot_folder + \
+            global_config.style_embedding_plot_file.format(epoch)
         tsne_interface.generate_plot_coordinates(
             style_embedding_map, global_config.style_coordinates_path,
             index_to_label_map, style_plot_path, len(index_to_label_map) * epoch + 0)
 
-        content_plot_path = global_config.tsne_plot_folder + \
-                            global_config.content_embedding_plot_file.format(epoch)
+        content_plot_path = \
+            global_config.tsne_plot_folder + \
+            global_config.content_embedding_plot_file.format(epoch)
         tsne_interface.generate_plot_coordinates(
             content_embedding_map, global_config.content_coordinates_path,
             index_to_label_map, content_plot_path, len(index_to_label_map) * epoch + 1)

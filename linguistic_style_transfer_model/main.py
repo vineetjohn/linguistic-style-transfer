@@ -184,8 +184,8 @@ def main(argv):
                                global_config.vocab_save_file), 'r') as json_file:
             word_index = json.load(json_file)
         with open(os.path.join(options.saved_model_path,
-                               global_config.index_to_label_dict_file), 'rb') as pickle_file:
-            index_to_label_map = pickle.load(pickle_file)
+                               global_config.index_to_label_dict_file), 'r') as json_file:
+            index_to_label_map = json.load(json_file)
         with open(os.path.join(options.saved_model_path,
                                global_config.average_label_embeddings_file), 'rb') as pickle_file:
             average_label_embeddings = pickle.load(pickle_file)

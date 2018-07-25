@@ -1,9 +1,9 @@
-import argparse
-import logging
-import os
-import pickle
 import sys
 
+import argparse
+import json
+import logging
+import os
 from sklearn import metrics
 
 from linguistic_style_transfer_model.config import global_config
@@ -13,9 +13,9 @@ logger = logging.getLogger(global_config.logger_name)
 
 
 def get_classification_accuracy(predictions_file_path, gold_labels_file_path, saved_model_path):
-    with open(os.path.join(
-            saved_model_path, global_config.label_to_index_dict_file), 'rb') as pickle_file:
-        label_to_index_map = pickle.load(pickle_file)
+    with open(os.path.join(saved_model_path,
+                           global_config.label_to_index_dict_file), 'r') as json_file:
+        label_to_index_map = json.load(json_file)
 
     gold_labels = list()
     prediction_labels = list()
