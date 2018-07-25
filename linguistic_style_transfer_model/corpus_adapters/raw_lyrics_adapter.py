@@ -1,6 +1,4 @@
 import csv
-import statistics
-import json
 import random
 import re
 
@@ -30,6 +28,21 @@ all_genres_file_path = "data/lyrics_raw/genre-all.txt"
 dev_proportion = 0.01
 test_proportion = 0.05
 
+whitelisted_artists = {
+    "Ella Fitzgerald",
+    "Dolly Parton",
+    "Rihanna",
+    "Tori Amos"
+}
+
+
+# whitelisted_artists = {
+#     "Pearl Jam",
+#     "LL Cool J",
+#     "Fleetwood Mac",
+#     "Grateful Dead"
+# }
+
 
 def clean_text(string):
     string = re.sub(r"\d+", "", string)
@@ -56,18 +69,19 @@ def get_stanzas_from_song(song_text):
     return song_text.split('\n\n')
 
 
-max_line_length = 20
+max_line_length = global_config.max_sequence_length
 all_lyrics_tuples = list()
 with open(raw_lyrics_file_path, 'r') as lyrics_file:
     next(lyrics_file)
     csv_lyrics_reader = csv.reader(lyrics_file, delimiter=',', quotechar='"')
     for data_instance in csv_lyrics_reader:
         artist, title, link, song_text = data_instance
+        if artist not in whitelisted_artists:
+            continue
         stanzas = get_stanzas_from_song(song_text)
         # print("stanzas", stanzas)
         for stanza in stanzas:
             lines = set([x.strip() for x in stanza.split('\n')])
-            cumulative_line_length = 0
             # print("lines", lines)
             current_lines = list()
             cumulative_line_length = 0
@@ -85,7 +99,6 @@ with open(raw_lyrics_file_path, 'r') as lyrics_file:
                 current_lines.append(line)
             if cumulative_line_length > 0:
                 all_lyrics_tuples.append((" ".join(current_lines), artist))
-
 
 # print(all_lyrics_tuples[:10])
 # exit()
