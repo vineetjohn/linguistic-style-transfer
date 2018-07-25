@@ -29,6 +29,7 @@ def plot_coordinates(coordinates, plot_path, markers, label_names, fig_num):
     plt.legend(loc='upper right', fontsize='x-large')
     plt.axis('off')
     plt.savefig(fname=plot_path, format="svg", bbox_inches='tight', transparent=True)
+    plt.close()
 
 
 def plot_coordinates_with_custom_label(coordinates, labels, plot_path, fig_num):

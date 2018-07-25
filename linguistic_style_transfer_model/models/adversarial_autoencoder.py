@@ -493,13 +493,9 @@ class AdversarialAutoencoder:
                 (start_index, end_index) = self.get_batch_indices(
                     batch_number=batch_number, data_limit=data_size)
 
-                logger.debug("start_index: {}, end_index: {}".format(start_index, end_index))
-
                 if iteration < mconf.kl_anneal_iterations:
                     style_kl_weight = self.get_annealed_weight(iteration, mconf.style_kl_lambda)
                     content_kl_weight = self.get_annealed_weight(iteration, mconf.content_kl_lambda)
-                logger.debug("style_kl_weight: {}".format(style_kl_weight))
-                logger.debug("content_kl_weight: {}".format(content_kl_weight))
 
                 fetches = \
                     [reconstruction_training_operation,
