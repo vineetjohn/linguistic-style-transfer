@@ -1,7 +1,6 @@
 import sys
 
 import argparse
-import pickle
 import statistics
 from types import SimpleNamespace
 
@@ -19,21 +18,14 @@ class Options(SimpleNamespace):
         self.use_kenlm = None
 
 
-def score_generated_sentences(generated_text_file_path, language_model_path, use_kenlm):
+def score_generated_sentences(generated_text_file_path, language_model_path):
     log_probs = list()
 
-    if use_kenlm:
-        import kenlm
-        model = kenlm.LanguageModel(language_model_path)
-        with open(generated_text_file_path) as generated_text_file:
-            for sentence in generated_text_file:
-                log_probs.append(model.score(sentence))
-    else:
-        with open(language_model_path, 'rb') as language_model_file:
-            language_model = pickle.load(language_model_file)
-            with open(generated_text_file_path) as generated_text_file:
-                for sentence in generated_text_file:
-                    log_probs.append(language_model.score_sent(tuple(sentence.split())))
+    import kenlm
+    model = kenlm.LanguageModel(language_model_path)
+    with open(generated_text_file_path) as generated_text_file:
+        for sentence in generated_text_file:
+            log_probs.append(model.score(sentence))
 
     return statistics.mean(log_probs)
 
@@ -51,7 +43,7 @@ def main(argv):
     logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 
     ll_score = score_generated_sentences(
-        options.generated_text_file_path, options.language_model_path, options.use_kenlm)
+        options.generated_text_file_path, options.language_model_path)
     logger.info("ll_score: {}".format(ll_score))
 
 

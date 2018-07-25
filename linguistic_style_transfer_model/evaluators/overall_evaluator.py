@@ -54,13 +54,13 @@ def main(argv):
         generated_text_file_path = os.path.join(
             options.inference_path, "generated_sentences_{}.txt".format(label_index))
 
-        [style_transfer_score, confusion_matrix] = style_transfer.get_style_transfer_score(
+        [style_transfer_score, _] = style_transfer.get_style_transfer_score(
             options.classifier_model_path, generated_text_file_path, label_index)
         [content_preservation_score, word_overlap_score] = \
             content_preservation.run_content_preservation_evaluator(
                 actual_text_file_path, generated_text_file_path, options.embeddings_path)
         ll_score = language_model_evaluator.score_generated_sentences(
-            generated_text_file_path, options.language_model_path, True)
+            generated_text_file_path, options.language_model_path)
 
         style_transfer_scores.append(style_transfer_score)
         content_preservation_scores.append(content_preservation_score)
