@@ -7,7 +7,7 @@ from linguistic_style_transfer_model.utils import log_initializer
 
 logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 
-raw_lyrics_file_path = "data/lyrics/artist-song-line-selected10-dedup.txt"
+raw_lyrics_file_path = "data/lyrics/artist-song-line.top30artists.txt"
 genre_mapping_file_path = "data/lyrics/artist-genres.json"
 
 val_text_file_path = "data/lyrics/lyrics-val.txt"
@@ -31,7 +31,7 @@ test_proportion = 0.05
 
 
 def clean_text(string):
-    string = re.sub("\d+", "", string)
+    string = re.sub(r"\d+", "", string)
 
     string = string.replace(".", "")
     string = string.replace("(", "")
