@@ -4,6 +4,10 @@ logger_name = "linguistic_style_transfer"
 
 experiment_timestamp = dt.now().strftime("%Y%m%d%H%M%S")
 vocab_size = None  # set by runtime param
+bow_size = None  # set by runtime params and exclusions
+
+filter_sentiment_words = True
+filter_stopwords = True
 
 embedding_size = 300
 max_sequence_length = 15

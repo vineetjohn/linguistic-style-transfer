@@ -6,12 +6,34 @@ import pickle
 import tensorflow as tf
 
 from linguistic_style_transfer_model.config import global_config
-from linguistic_style_transfer_model.utils import tsne_interface
+from linguistic_style_transfer_model.utils import tsne_interface, lexicon_helper
 
 logger = logging.getLogger(global_config.logger_name)
 
 label_to_index_map = dict()
 index_to_label_map = dict()
+bow_filtered_vocab_indices = dict()
+
+
+def populate_word_blacklist(word_index):
+    blacklisted_words = set()
+    blacklisted_words |= set(global_config.predefined_word_index.values())
+    if global_config.filter_sentiment_words:
+        blacklisted_words |= lexicon_helper.get_sentiment_words()
+    if global_config.filter_stopwords:
+        blacklisted_words |= lexicon_helper.get_stopwords()
+
+    global bow_filtered_vocab_indices
+    allowed_vocab = word_index.keys() - blacklisted_words
+    i = 0
+    for word in allowed_vocab:
+        vocab_index = word_index[word]
+        bow_filtered_vocab_indices[vocab_index] = i
+        i += 1
+
+    global_config.bow_size = len(allowed_vocab)
+    logger.info("Created word index blacklist for BoW")
+    logger.info("BoW size: {}".format(global_config.bow_size))
 
 
 def get_text_sequences(text_file_path, vocab_size, vocab_save_path):
@@ -26,6 +48,7 @@ def get_text_sequences(text_file_path, vocab_size, vocab_save_path):
     num_predefined_tokens = len(word_index)
     for index, word in enumerate(text_tokenizer.word_index):
         word_index[word] = index + num_predefined_tokens
+    populate_word_blacklist(word_index)
     text_tokenizer.word_index = word_index
 
     with open(text_file_path) as text_file:
@@ -55,6 +78,8 @@ def get_text_sequences(text_file_path, vocab_size, vocab_save_path):
 
 
 def get_test_sequences(text_file_path, text_tokenizer, word_index, inverse_word_index):
+    populate_word_blacklist(word_index)
+
     with open(text_file_path) as text_file:
         actual_sequences = text_tokenizer.texts_to_sequences(text_file)
 
@@ -226,14 +251,13 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
 
 
 def get_bow_representations(text_sequences):
-    predefined_indices = set(global_config.predefined_word_index.values())
-
     bow_representation = list()
     for text_sequence in text_sequences:
-        sequence_bow_representation = np.zeros(shape=global_config.vocab_size, dtype=np.int32)
+        sequence_bow_representation = np.zeros(shape=global_config.bow_size, dtype=np.int32)
         for index in text_sequence:
-            if index not in predefined_indices:
-                sequence_bow_representation[index] = 1
+            if index in bow_filtered_vocab_indices:
+                bow_index = bow_filtered_vocab_indices[index]
+                sequence_bow_representation[bow_index] = 1
         bow_representation.append(sequence_bow_representation)
 
     return np.asarray(bow_representation)

@@ -78,7 +78,7 @@ class AdversarialAutoencoder:
     def get_bow_prediction(self, style_embedding):
 
         bow_prediction = tf.layers.dense(
-            inputs=style_embedding, units=global_config.vocab_size,
+            inputs=style_embedding, units=global_config.bow_size,
             activation=tf.nn.sigmoid, name="adversarial_bow_prediction")
 
         return bow_prediction
@@ -179,7 +179,7 @@ class AdversarialAutoencoder:
         logger.debug("sequence_lengths: {}".format(self.sequence_lengths))
 
         self.input_bow_representations = tf.placeholder(
-            dtype=tf.float32, shape=[None, global_config.vocab_size],
+            dtype=tf.float32, shape=[None, global_config.bow_size],
             name="input_bow_representations")
         logger.debug("input_bow_representations: {}".format(self.input_bow_representations))
 

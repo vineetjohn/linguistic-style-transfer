@@ -195,6 +195,13 @@ def main(argv):
         num_labels = len(index_to_label_map)
         text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
         text_tokenizer.word_index = word_index
+        
+        inverse_word_index = {v: k for k, v in word_index.items()}
+        [actual_sequences, _, padded_sequences, text_sequence_lengths] = \
+            data_processor.get_test_sequences(
+                options.evaluation_text_file_path, text_tokenizer, word_index, inverse_word_index)
+        [label_sequences, _] = \
+            data_processor.get_test_labels(options.evaluation_label_file_path, options.saved_model_path)
 
         logger.info("Building model architecture ...")
         network = adversarial_autoencoder.AdversarialAutoencoder()
@@ -203,13 +210,6 @@ def main(argv):
             word_index, encoder_embedding_matrix, decoder_embedding_matrix, num_labels)
 
         sess = get_tensorflow_session()
-
-        inverse_word_index = {v: k for k, v in word_index.items()}
-        [actual_sequences, _, padded_sequences, text_sequence_lengths] = \
-            data_processor.get_test_sequences(
-                options.evaluation_text_file_path, text_tokenizer, word_index, inverse_word_index)
-        [label_sequences, _] = \
-            data_processor.get_test_labels(options.evaluation_label_file_path, options.saved_model_path)
 
         total_nll = 0
         for i in range(num_labels):

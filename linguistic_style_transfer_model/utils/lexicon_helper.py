@@ -28,8 +28,8 @@ def get_stopwords():
     sklearn_stopwords = stop_words.ENGLISH_STOP_WORDS
 
     all_stopwords = set()
-    all_stopwords = all_stopwords.union(spacy_stopwords)
-    all_stopwords = all_stopwords.union(nltk_stopwords)
-    all_stopwords = all_stopwords.union(sklearn_stopwords)
+    all_stopwords |= spacy_stopwords
+    all_stopwords |= nltk_stopwords
+    all_stopwords |= sklearn_stopwords
 
     return all_stopwords
