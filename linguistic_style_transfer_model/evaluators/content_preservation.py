@@ -5,22 +5,12 @@ import logging
 import numpy as np
 import statistics
 import tensorflow as tf
-from nltk.corpus import stopwords
 from scipy.spatial.distance import cosine
 
 from linguistic_style_transfer_model.config import global_config
-from linguistic_style_transfer_model.utils import log_initializer
+from linguistic_style_transfer_model.utils import log_initializer, lexicon_helper
 
 logger = logging.getLogger(global_config.logger_name)
-
-
-def remove_words(tokens, words_to_remove):
-    cleaned_tokens = list()
-    for token in tokens:
-        if token not in words_to_remove:
-            cleaned_tokens.append(token)
-
-    return cleaned_tokens
 
 
 def load_glove_model(glove_file):
@@ -47,23 +37,14 @@ def get_sentence_embedding(tokens, model):
     return sentence_embedding
 
 
-def load_sentiment_words():
-    with open(file=global_config.sentiment_words_file_path,
-              mode='r', encoding='ISO-8859-1') as sentiment_words_file:
-        words = sentiment_words_file.readlines()
-    words = set(word.strip() for word in words)
-
-    return words
-
-
 def get_content_preservation_score(actual_word_lists, generated_word_lists, embedding_model):
-    sentiment_words = load_sentiment_words()
+    sentiment_words = lexicon_helper.get_sentiment_words()
     cosine_distances = list()
     skip_count = 0
     for word_list_1, word_list_2 in zip(actual_word_lists[:len(generated_word_lists)], generated_word_lists):
         try:
-            word_list_1 = remove_words(word_list_1, sentiment_words)
-            word_list_2 = remove_words(word_list_2, sentiment_words)
+            word_list_1 = lexicon_helper.remove_words(word_list_1, sentiment_words)
+            word_list_2 = lexicon_helper.remove_words(word_list_2, sentiment_words)
             cosine_distance = 1 - cosine(
                 get_sentence_embedding(word_list_1, embedding_model),
                 get_sentence_embedding(word_list_2, embedding_model))
@@ -81,15 +62,15 @@ def get_content_preservation_score(actual_word_lists, generated_word_lists, embe
 
 
 def get_word_overlap_score(actual_word_lists, generated_word_lists):
-    english_stopwords = set(stopwords.words('english'))
-    sentiment_words = load_sentiment_words()
+    english_stopwords = lexicon_helper.get_stopwords()
+    sentiment_words = lexicon_helper.get_sentiment_words()
 
     scores = list()
     for word_list_1, word_list_2 in zip(actual_word_lists, generated_word_lists):
-        word_list_1 = remove_words(word_list_1, sentiment_words)
-        word_list_1 = remove_words(word_list_1, english_stopwords)
-        word_list_2 = remove_words(word_list_2, sentiment_words)
-        word_list_2 = remove_words(word_list_2, english_stopwords)
+        word_list_1 = lexicon_helper.remove_words(word_list_1, sentiment_words)
+        word_list_1 = lexicon_helper.remove_words(word_list_1, english_stopwords)
+        word_list_2 = lexicon_helper.remove_words(word_list_2, sentiment_words)
+        word_list_2 = lexicon_helper.remove_words(word_list_2, english_stopwords)
         word_set_1, word_set_2 = set(word_list_1), set(word_list_2)
         word_intersection = word_set_1 & word_set_2
         word_union = word_set_1 | word_set_2
