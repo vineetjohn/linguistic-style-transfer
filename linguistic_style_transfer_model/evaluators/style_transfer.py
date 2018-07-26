@@ -34,7 +34,7 @@ def get_style_transfer_score(classifier_saved_model_path, text_file_path, label)
         truncating='post', value=word_index[global_config.eos_token])
 
     x_test = np.asarray(text_sequences)
-    y_test = np.asarray([label] * len(text_sequences))
+    y_test = np.asarray([int(label)] * len(text_sequences))
 
     checkpoint_file = tf.train.latest_checkpoint(
         os.path.join(classifier_saved_model_path, "checkpoints"))
