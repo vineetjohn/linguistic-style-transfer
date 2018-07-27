@@ -253,11 +253,12 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
 def get_bow_representations(text_sequences):
     bow_representation = list()
     for text_sequence in text_sequences:
-        sequence_bow_representation = np.zeros(shape=global_config.bow_size, dtype=np.int32)
+        sequence_bow_representation = np.zeros(shape=global_config.bow_size, dtype=np.float32)
         for index in text_sequence:
             if index in bow_filtered_vocab_indices:
                 bow_index = bow_filtered_vocab_indices[index]
-                sequence_bow_representation[bow_index] = 1
+                sequence_bow_representation[bow_index] += 1
+        sequence_bow_representation /= np.max([np.sum(sequence_bow_representation), 1])
         bow_representation.append(sequence_bow_representation)
 
     return np.asarray(bow_representation)
