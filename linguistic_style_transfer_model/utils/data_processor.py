@@ -78,7 +78,8 @@ def get_text_sequences(text_file_path, vocab_size, vocab_save_path):
 
 
 def get_test_sequences(text_file_path, text_tokenizer, word_index, inverse_word_index):
-    populate_word_blacklist(word_index)
+    if not bow_filtered_vocab_indices:
+        populate_word_blacklist(word_index)
 
     with open(text_file_path) as text_file:
         actual_sequences = text_tokenizer.texts_to_sequences(text_file)
