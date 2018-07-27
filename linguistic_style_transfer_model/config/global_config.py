@@ -19,8 +19,8 @@ classifier_save_directory = "./saved-models-classifier/{}".format(experiment_tim
 
 log_directory = "./tensorflow-logs/{}".format(experiment_timestamp)
 
-all_style_embeddings_path = save_directory + "/all_style_embeddings.pkl"
-all_content_embeddings_path = save_directory + "/all_content_embeddings.pkl"
+all_style_embeddings_path = save_directory + "/all_style_embeddings.npy"
+all_content_embeddings_path = save_directory + "/all_content_embeddings.npy"
 all_shuffled_labels_path = save_directory + "/all_shuffled_labels_path.pkl"
 label_mapped_style_embeddings_path = save_directory + "/label_mapped_style_embeddings.pkl"
 

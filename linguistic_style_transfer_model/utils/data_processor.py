@@ -178,15 +178,10 @@ def generate_sentence_from_logits(floating_index_sequence, inverse_word_index):
 
 
 def get_average_label_embeddings(data_size, dump_embeddings, epoch):
-    with open(global_config.all_style_embeddings_path, 'rb') as pickle_file:
-        all_style_embeddings = pickle.load(pickle_file)
-    with open(global_config.all_content_embeddings_path, 'rb') as pickle_file:
-        all_content_embeddings = pickle.load(pickle_file)
+    style_embeddings = np.load(file=global_config.all_style_embeddings_path)
+    content_embeddings = np.load(file=global_config.all_content_embeddings_path)
     with open(global_config.all_shuffled_labels_path, 'rb') as pickle_file:
         all_one_hot_labels = pickle.load(pickle_file)
-
-    style_embeddings = np.asarray(all_style_embeddings)
-    content_embeddings = np.asarray(all_content_embeddings)
 
     style_embedding_map = dict()
     content_embedding_map = dict()

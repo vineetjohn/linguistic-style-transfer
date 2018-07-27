@@ -567,16 +567,13 @@ class AdversarialAutoencoder:
 
             saver.save(sess=sess, save_path=global_config.model_save_path)
 
-            with open(global_config.all_style_embeddings_path, 'wb') as pickle_file:
-                pickle.dump(all_style_embeddings, pickle_file)
-            with open(global_config.all_content_embeddings_path, 'wb') as pickle_file:
-                pickle.dump(all_content_embeddings, pickle_file)
+            np.save(file=global_config.all_style_embeddings_path, arr=np.asarray(all_style_embeddings))
+            np.save(file=global_config.all_content_embeddings_path, arr=all_content_embeddings)
             with open(global_config.all_shuffled_labels_path, 'wb') as pickle_file:
                 pickle.dump(shuffled_one_hot_labels, pickle_file)
 
             average_label_embeddings = data_processor.get_average_label_embeddings(
                 data_size, options.dump_embeddings, current_epoch)
-
             with open(global_config.average_label_embeddings_path, 'wb') as pickle_file:
                 pickle.dump(average_label_embeddings, pickle_file)
 
