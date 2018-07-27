@@ -79,7 +79,7 @@ class AdversarialAutoencoder:
 
         bow_prediction = tf.layers.dense(
             inputs=style_embedding, units=global_config.bow_size,
-            activation=tf.nn.sigmoid, name="adversarial_bow_prediction")
+            activation=tf.nn.softmax, name="adversarial_bow_prediction")
 
         return bow_prediction
 
@@ -430,21 +430,35 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
-        adversarial_variable_labels = ["adversarial"]
-        overall_classification_labels = ["overall_label_prediction"]
+        style_adversary_variable_labels = ["adversarial_label"]
+        content_adversary_variable_labels = ["adversarial_bow"]
 
         # optimize adversarial classification
-        adversarial_training_optimizer = tf.train.RMSPropOptimizer(
-            learning_rate=mconf.adversarial_discriminator_learning_rate)
-        adversarial_training_variables = [
+        # style
+        style_adversary_training_optimizer = tf.train.AdamOptimizer(
+            learning_rate=mconf.style_adversary_learning_rate)
+        style_adversary_training_variables = [
             x for x in trainable_variables if any(
-                scope in x.name for scope in adversarial_variable_labels)]
-        logger.debug("adversarial_training_optimizer.variables: {}".format(adversarial_training_variables))
-        adversarial_training_operation = adversarial_training_optimizer.minimize(
-            loss=self.adversarial_loss + self.bow_prediction_loss,
-            var_list=adversarial_training_variables)
+                scope in x.name for scope in style_adversary_variable_labels)]
+        logger.debug("style_adversary_training_optimizer.variables: {}".format(
+            style_adversary_training_variables))
+        style_adversary_training_operation = style_adversary_training_optimizer.minimize(
+            loss=self.adversarial_loss,
+            var_list=style_adversary_training_variables)
+        # content
+        content_adversary_training_optimizer = tf.train.AdamOptimizer(
+            learning_rate=mconf.content_adversary_learning_rate)
+        content_adversary_training_variables = [
+            x for x in trainable_variables if any(
+                scope in x.name for scope in content_adversary_variable_labels)]
+        logger.debug("content_adversary_training_optimizer.variables: {}".format(
+            content_adversary_training_variables))
+        content_adversary_training_operation = content_adversary_training_optimizer.minimize(
+            loss=self.bow_prediction_loss,
+            var_list=content_adversary_training_variables)
 
         # optimize overall latent space classification
+        overall_classification_labels = ["overall_label_prediction"]
         overall_classification_optimizer = tf.train.AdamOptimizer(
             learning_rate=mconf.autoencoder_learning_rate)
         overall_classification_training_variables = [
@@ -462,7 +476,9 @@ class AdversarialAutoencoder:
         reconstruction_training_variables = [
             x for x in trainable_variables if all(
                 scope not in x.name for scope in
-                adversarial_variable_labels + overall_classification_labels)]
+                (style_adversary_variable_labels +
+                 content_adversary_variable_labels +
+                 overall_classification_labels))]
         logger.debug("reconstruction_training_optimizer.variables: {}".format(reconstruction_training_variables))
         reconstruction_training_operation = reconstruction_training_optimizer.minimize(
             loss=self.composite_loss, var_list=reconstruction_training_variables)
@@ -499,7 +515,8 @@ class AdversarialAutoencoder:
 
                 fetches = \
                     [reconstruction_training_operation,
-                     adversarial_training_operation,
+                     style_adversary_training_operation,
+                     content_adversary_training_operation,
                      overall_classification_training_operation,
                      self.reconstruction_loss,
                      self.style_prediction_loss,
@@ -514,7 +531,7 @@ class AdversarialAutoencoder:
                      self.content_embedding,
                      self.all_summaries]
 
-                [_, _, _,
+                [_, _, _, _,
                  reconstruction_loss, style_loss,
                  adversarial_loss, adversarial_entropy,
                  style_kl_loss, content_kl_loss,

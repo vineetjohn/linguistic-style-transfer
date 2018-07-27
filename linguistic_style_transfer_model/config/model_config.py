@@ -17,7 +17,8 @@ class ModelConfig():
 
         # learning rates
         self.autoencoder_learning_rate = 0.001
-        self.adversarial_discriminator_learning_rate = 0.001
+        self.style_adversary_learning_rate = 0.001
+        self.content_adversary_learning_rate = 0.001
 
         # loss weights
         self.adversarial_discriminator_loss_weight = 0.3
