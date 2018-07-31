@@ -5,15 +5,6 @@ from spacy.lang.en.stop_words import STOP_WORDS as spacy_stopwords
 from linguistic_style_transfer_model.config import global_config
 
 
-def remove_words(tokens, words_to_remove):
-    cleaned_tokens = list()
-    for token in tokens:
-        if token not in words_to_remove:
-            cleaned_tokens.append(token)
-
-    return cleaned_tokens
-
-
 def get_sentiment_words():
     with open(file=global_config.sentiment_words_file_path,
               mode='r', encoding='ISO-8859-1') as sentiment_words_file:

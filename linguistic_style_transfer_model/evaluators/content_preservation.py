@@ -41,17 +41,21 @@ def get_content_preservation_score(actual_word_lists, generated_word_lists, embe
     sentiment_words = lexicon_helper.get_sentiment_words()
     cosine_distances = list()
     skip_count = 0
-    for word_list_1, word_list_2 in zip(actual_word_lists[:len(generated_word_lists)], generated_word_lists):
+    for word_list_1, word_list_2 in zip(actual_word_lists, generated_word_lists):
+        cosine_similarity = 0
+        words_1 = set(word_list_1)
+        words_2 = set(word_list_2)
+
+        words_1 -= sentiment_words
+        words_2 -= sentiment_words
         try:
-            word_list_1 = lexicon_helper.remove_words(word_list_1, sentiment_words)
-            word_list_2 = lexicon_helper.remove_words(word_list_2, sentiment_words)
-            cosine_distance = 1 - cosine(
-                get_sentence_embedding(word_list_1, embedding_model),
-                get_sentence_embedding(word_list_2, embedding_model))
-            cosine_distances.append(cosine_distance)
+            cosine_similarity = 1 - cosine(
+                get_sentence_embedding(words_1, embedding_model),
+                get_sentence_embedding(words_2, embedding_model))
         except ValueError:
             skip_count += 1
             logger.debug("Skipped lines: {} :-: {}".format(word_list_1, word_list_2))
+        cosine_distances.append(cosine_similarity)
 
     logger.debug("{} lines skipped due to errors".format(skip_count))
     mean_cosine_distance = statistics.mean(cosine_distances) if cosine_distances else 0
@@ -67,20 +71,27 @@ def get_word_overlap_score(actual_word_lists, generated_word_lists):
 
     scores = list()
     for word_list_1, word_list_2 in zip(actual_word_lists, generated_word_lists):
-        word_list_1 = lexicon_helper.remove_words(word_list_1, sentiment_words)
-        word_list_1 = lexicon_helper.remove_words(word_list_1, english_stopwords)
-        word_list_2 = lexicon_helper.remove_words(word_list_2, sentiment_words)
-        word_list_2 = lexicon_helper.remove_words(word_list_2, english_stopwords)
-        word_set_1, word_set_2 = set(word_list_1), set(word_list_2)
-        word_intersection = word_set_1 & word_set_2
-        word_union = word_set_1 | word_set_2
-        score = 0 if not len(word_union) else len(word_intersection) / len(word_union)
+        score = 0
+        words_1 = set(word_list_1)
+        words_2 = set(word_list_2)
+
+        words_1 -= sentiment_words
+        words_1 -= english_stopwords
+        words_2 -= sentiment_words
+        words_2 -= english_stopwords
+
+        word_intersection = words_1 & words_2
+        word_union = words_1 | words_2
+        if word_union:
+            score = len(word_intersection) / len(word_union)
         scores.append(score)
+
+    word_overlap_score = statistics.mean(scores) if scores else 0
 
     del english_stopwords
     del sentiment_words
 
-    return statistics.mean(scores)
+    return word_overlap_score
 
 
 def run_content_preservation_evaluator(source_file_path, target_file_path, embeddings_file):
