@@ -435,7 +435,7 @@ class AdversarialAutoencoder:
 
         # optimize adversarial classification
         # style
-        style_adversary_training_optimizer = tf.train.AdamOptimizer(
+        style_adversary_training_optimizer = tf.train.RMSPropOptimizer(
             learning_rate=mconf.style_adversary_learning_rate)
         style_adversary_training_variables = [
             x for x in trainable_variables if any(
@@ -446,7 +446,7 @@ class AdversarialAutoencoder:
             loss=self.adversarial_loss,
             var_list=style_adversary_training_variables)
         # content
-        content_adversary_training_optimizer = tf.train.AdamOptimizer(
+        content_adversary_training_optimizer = tf.train.RMSPropOptimizer(
             learning_rate=mconf.content_adversary_learning_rate)
         content_adversary_training_variables = [
             x for x in trainable_variables if any(
@@ -459,7 +459,7 @@ class AdversarialAutoencoder:
 
         # optimize overall latent space classification
         overall_classification_labels = ["overall_label_prediction"]
-        overall_classification_optimizer = tf.train.AdamOptimizer(
+        overall_classification_optimizer = tf.train.RMSPropOptimizer(
             learning_rate=mconf.autoencoder_learning_rate)
         overall_classification_training_variables = [
             x for x in trainable_variables if any(
