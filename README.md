@@ -21,8 +21,8 @@ pip install -r requirements.txt
 ### Run a corpus cleaner/adapter
 
 ```bash
-PYTHONPATH=${PROJECT_DIR_PATH} \
-python linguistic_style_transfer_model/corpus_adapters/${CORPUS_ADAPTER_SCRIPT}.py
+./scripts/run_corpus_adapter.sh \
+linguistic_style_transfer_model/corpus_adapters/${CORPUS_ADAPTER_SCRIPT}
 ```
 
 ### Train word embedding model
