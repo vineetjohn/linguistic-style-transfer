@@ -21,7 +21,8 @@ def get_style_transfer_score(classifier_saved_model_path, text_file_path, label)
         word_index = json.load(json_file)
     vocab_size = len(word_index)
 
-    text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
+    text_tokenizer = tf.keras.preprocessing.text.Tokenizer(
+        num_words=global_config.vocab_size, filters=global_config.tokenizer_filters)
     text_tokenizer.word_index = word_index
 
     with open(text_file_path) as text_file:

@@ -193,9 +193,10 @@ def main(argv):
         global_config.vocab_size = len(word_index)
 
         num_labels = len(index_to_label_map)
-        text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
+        text_tokenizer = tf.keras.preprocessing.text.Tokenizer(
+            num_words=global_config.vocab_size, filters=global_config.tokenizer_filters)
         text_tokenizer.word_index = word_index
-        
+
         inverse_word_index = {v: k for k, v in word_index.items()}
         [actual_sequences, _, padded_sequences, text_sequence_lengths] = \
             data_processor.get_test_sequences(

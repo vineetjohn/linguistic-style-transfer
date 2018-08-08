@@ -38,6 +38,7 @@ predefined_word_index = {
     sos_token: 1,
     eos_token: 2,
 }
+tokenizer_filters = '!"#$%&()*+,-./:;=?@[\\]^_`{|}~\t\n'
 
 bleu_score_weights = {
     1: (1.0, 0.0, 0.0, 0.0),

@@ -38,7 +38,8 @@ def populate_word_blacklist(word_index):
 
 def get_text_sequences(text_file_path, vocab_size, vocab_save_path):
     word_index = global_config.predefined_word_index
-    text_tokenizer = tf.keras.preprocessing.text.Tokenizer()
+    text_tokenizer = tf.keras.preprocessing.text.Tokenizer(
+        num_words=global_config.vocab_size, filters=global_config.tokenizer_filters)
 
     with open(text_file_path) as text_file:
         text_tokenizer.fit_on_texts(text_file)
@@ -47,7 +48,11 @@ def get_text_sequences(text_file_path, vocab_size, vocab_save_path):
 
     num_predefined_tokens = len(word_index)
     for index, word in enumerate(text_tokenizer.word_index):
-        word_index[word] = index + num_predefined_tokens
+        new_index = index + num_predefined_tokens
+        if new_index == vocab_size:
+            break
+        word_index[word] = new_index
+
     populate_word_blacklist(word_index)
     text_tokenizer.word_index = word_index
 
@@ -57,7 +62,7 @@ def get_text_sequences(text_file_path, vocab_size, vocab_save_path):
     text_sequence_lengths = np.asarray(
         a=[len(x) for x in actual_sequences], dtype=np.int32)
 
-    global_config.vocab_size = vocab_size if len(word_index) > vocab_size else len(word_index)
+    global_config.vocab_size = len(word_index)
     trimmed_sequences = [
         [x if x < vocab_size else word_index[global_config.unk_token] for x in sequence]
         for sequence in actual_sequences]
