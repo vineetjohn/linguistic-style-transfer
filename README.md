@@ -6,13 +6,15 @@ Neural network model to disentangle and transfer linguistic style in text
 
 ## Prerequistites
 
-* Python >= 3.x
-
-### Install required Python packages
-
-```bash
-pip install -r requirements.txt
-```
+* python3
+* tensorflow
+* numpy
+* scipy
+* nltk
+* spacy
+* gensim
+* kenlm
+* matplotlib
 
 ---
 
