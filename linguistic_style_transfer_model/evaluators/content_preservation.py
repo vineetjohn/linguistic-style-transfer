@@ -52,10 +52,10 @@ def get_content_preservation_score(actual_word_lists, generated_word_lists, embe
             cosine_similarity = 1 - cosine(
                 get_sentence_embedding(words_1, embedding_model),
                 get_sentence_embedding(words_2, embedding_model))
+            cosine_distances.append(cosine_similarity)
         except ValueError:
             skip_count += 1
             logger.debug("Skipped lines: {} :-: {}".format(word_list_1, word_list_2))
-        cosine_distances.append(cosine_similarity)
 
     logger.debug("{} lines skipped due to errors".format(skip_count))
     mean_cosine_distance = statistics.mean(cosine_distances) if cosine_distances else 0
@@ -84,7 +84,7 @@ def get_word_overlap_score(actual_word_lists, generated_word_lists):
         word_union = words_1 | words_2
         if word_union:
             score = len(word_intersection) / len(word_union)
-        scores.append(score)
+            scores.append(score)
 
     word_overlap_score = statistics.mean(scores) if scores else 0
 
