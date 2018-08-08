@@ -114,8 +114,8 @@ def main():
                 qfile = qftrain
                 tfile = tftrain
 
-            qfile.write("{}\n".format(question))
-            tfile.write("{}\n".format(topic))
+            qfile.write("{}".format(question))
+            tfile.write("{}".format(topic))
 
     logger.info("Finished data preprocessing")
 
