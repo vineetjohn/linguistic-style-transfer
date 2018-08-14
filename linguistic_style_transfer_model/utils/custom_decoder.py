@@ -1,6 +1,5 @@
 import collections
 import tensorflow as tf
-from tensorflow.contrib.seq2seq.python.ops import decoder
 from tensorflow.contrib.seq2seq.python.ops import helper as helper_py
 from tensorflow.python.framework import dtypes
 from tensorflow.python.framework import ops
@@ -29,14 +28,15 @@ class CustomBasicDecoder(tf.contrib.seq2seq.BasicDecoder):
           helper: A `Helper` instance.
           initial_state: A (possibly nested tuple of...) tensors and TensorArrays.
             The initial state of the RNNCell.
+          latent_vector: A hidden state intended to be concatenated with the
+            hidden state at every time-step of decoding
           output_layer: (Optional) An instance of `tf.layers.Layer`, i.e.,
             `tf.layers.Dense`.  Optional layer to apply to the RNN output prior
             to storing the result or sampling.
         Raises:
           TypeError: if `cell`, `helper` or `output_layer` have an incorrect type.
         """
-        if not rnn_cell_impl._like_rnncell(cell):  # pylint: disable=protected-access
-            raise TypeError("cell must be an RNNCell, received: %s" % type(cell))
+        rnn_cell_impl.assert_like_rnncell("cell must be an RNNCell, received: %s" % type(cell), cell)
         if not isinstance(helper, helper_py.Helper):
             raise TypeError("helper must be a Helper, received: %s" % type(helper))
         if output_layer is not None and not isinstance(output_layer, layers_base.Layer):

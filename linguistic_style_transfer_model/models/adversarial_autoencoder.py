@@ -355,7 +355,6 @@ class AdversarialAutoencoder:
                 dtype=tf.float32)
 
             # Focal loss computation
-
             log_pt = tf.contrib.seq2seq.sequence_loss(
                 logits=training_output, targets=target_sequence, weights=output_sequence_mask,
                 average_across_timesteps=False, average_across_batch=False)
