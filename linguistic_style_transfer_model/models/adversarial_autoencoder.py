@@ -354,9 +354,15 @@ class AdversarialAutoencoder:
                 maxlen=batch_maxlen,
                 dtype=tf.float32)
 
-            self.reconstruction_loss = tf.contrib.seq2seq.sequence_loss(
-                logits=training_output, targets=target_sequence,
-                weights=output_sequence_mask)
+            # Focal loss computation
+
+            log_pt = tf.contrib.seq2seq.sequence_loss(
+                logits=training_output, targets=target_sequence, weights=output_sequence_mask,
+                average_across_timesteps=False, average_across_batch=False)
+            pt = tf.exp(-log_pt)
+            fce_loss = mconf.focal_alpha * tf.pow(1 - pt, mconf.focal_gamma) * log_pt
+            fce_batch_loss = tf.reduce_mean(fce_loss, 1)
+            self.reconstruction_loss = tf.reduce_mean(fce_batch_loss)
             logger.debug("reconstruction_loss: {}".format(self.reconstruction_loss))
 
         # tensorboard logging variable summaries
