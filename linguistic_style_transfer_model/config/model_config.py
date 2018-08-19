@@ -33,10 +33,6 @@ class ModelConfig():
         # noise
         self.epsilon = 1e-8
 
-        # focal loss
-        self.focal_gamma = 2
-        self.focal_alpha = 0.25
-
     def init_from_dict(self, previous_config):
         for key in previous_config:
             setattr(self, key, previous_config[key])
