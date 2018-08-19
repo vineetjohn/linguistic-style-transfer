@@ -578,115 +578,121 @@ class AdversarialAutoencoder:
                 pickle.dump(average_label_embeddings, pickle_file)
 
             if not current_epoch % global_config.validation_interval:
-
-                logger.info("Running Validation {}:".format(current_epoch // global_config.validation_interval))
-
-                glove_model = content_preservation.load_glove_model(options.validation_embeddings_file_path)
-
-                validation_style_transfer_scores = list()
-                validation_content_preservation_scores = list()
-                validation_word_overlap_scores = list()
-                for i in range(num_labels):
-
-                    logger.info("validating label {}".format(i))
-
-                    label_embeddings = list()
-                    validation_sequences_to_transfer = list()
-                    validation_labels_to_transfer = list()
-                    validation_sequence_lengths_to_transfer = list()
-
-                    for k in range(len(all_style_embeddings)):
-                        if shuffled_one_hot_labels[k].tolist().index(1) == i:
-                            label_embeddings.append(all_style_embeddings[k])
-
-                    for k in range(len(validation_sequences)):
-                        if validation_labels[k].tolist().index(1) != i:
-                            validation_sequences_to_transfer.append(validation_sequences[k])
-                            validation_labels_to_transfer.append(validation_labels[k])
-                            validation_sequence_lengths_to_transfer.append(validation_sequence_lengths[k])
-
-                    style_embedding = np.mean(np.asarray(label_embeddings), axis=0)
-
-                    validation_batches = len(validation_sequences_to_transfer) // mconf.batch_size
-                    if len(validation_sequences_to_transfer) % mconf.batch_size:
-                        validation_batches += 1
-
-                    validation_generated_sequences = list()
-                    validation_generated_sequence_lengths = list()
-                    for val_batch_number in range(validation_batches):
-                        (start_index, end_index) = self.get_batch_indices(
-                            batch_number=val_batch_number,
-                            data_limit=len(validation_sequences_to_transfer))
-
-                        conditioning_embedding = np.tile(
-                            A=style_embedding, reps=(end_index - start_index, 1))
-
-                        [validation_generated_sequences_batch, validation_sequence_lengths_batch] = \
-                            self.run_batch(
-                                sess, start_index, end_index,
-                                [self.inference_output, self.final_sequence_lengths],
-                                validation_sequences_to_transfer, validation_labels_to_transfer,
-                                validation_sequence_lengths_to_transfer,
-                                conditioning_embedding, True, style_kl_weight, content_kl_weight,
-                                current_epoch)
-                        validation_generated_sequences.extend(validation_generated_sequences_batch)
-                        validation_generated_sequence_lengths.extend(validation_sequence_lengths_batch)
-
-                    trimmed_generated_sequences = \
-                        [[index for index in sequence
-                          if index != global_config.predefined_word_index[global_config.eos_token]]
-                         for sequence in [x[:(y - 1)] for (x, y) in zip(
-                            validation_generated_sequences, validation_generated_sequence_lengths)]]
-
-                    generated_word_lists = \
-                        [data_processor.generate_words_from_indices(x, inverse_word_index)
-                         for x in trimmed_generated_sequences]
-
-                    generated_sentences = [" ".join(x) for x in generated_word_lists]
-
-                    output_file_path = "output/{}-training/validation_sentences_{}.txt".format(
-                        global_config.experiment_timestamp, i)
-                    os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
-                    with open(output_file_path, 'w') as output_file:
-                        for sentence in generated_sentences:
-                            output_file.write(sentence + "\n")
-
-                    [style_transfer_score, confusion_matrix] = style_transfer.get_style_transfer_score(
-                        options.classifier_saved_model_path, output_file_path, i)
-                    logger.debug("style_transfer_score: {}".format(style_transfer_score))
-                    logger.debug("confusion_matrix:\n{}".format(confusion_matrix))
-
-                    content_preservation_score = content_preservation.get_content_preservation_score(
-                        validation_actual_word_lists, generated_word_lists, glove_model)
-                    logger.debug("content_preservation_score: {}".format(content_preservation_score))
-
-                    word_overlap_score = content_preservation.get_word_overlap_score(
-                        validation_actual_word_lists, generated_word_lists)
-                    logger.debug("word_overlap_score: {}".format(word_overlap_score))
-
-                    validation_style_transfer_scores.append(style_transfer_score)
-                    validation_content_preservation_scores.append(content_preservation_score)
-                    validation_word_overlap_scores.append(word_overlap_score)
-
-                aggregate_style_transfer = np.mean(np.asarray(validation_style_transfer_scores))
-                logger.info("Aggregate Style Transfer: {}".format(aggregate_style_transfer))
-
-                aggregate_content_preservation = np.mean(np.asarray(validation_content_preservation_scores))
-                logger.info("Aggregate Content Preservation: {}".format(aggregate_content_preservation))
-
-                aggregate_word_overlap = np.mean(np.asarray(validation_word_overlap_scores))
-                logger.info("Aggregate Word Overlap: {}".format(aggregate_word_overlap))
-
-                with open(global_config.validation_scores_path, 'a+') as validation_scores_file:
-                    validation_record = {
-                        "epoch": current_epoch,
-                        "style-transfer": aggregate_style_transfer,
-                        "content-preservation": aggregate_content_preservation,
-                        "word-overlap": aggregate_word_overlap
-                    }
-                    validation_scores_file.write(json.dumps(validation_record) + "\n")
+                self.run_validation(options, num_labels, validation_sequences, validation_sequence_lengths,
+                                    validation_labels, validation_actual_word_lists, all_style_embeddings,
+                                    shuffled_one_hot_labels, inverse_word_index, current_epoch, sess)
 
         writer.close()
+
+    def run_validation(self, options, num_labels, validation_sequences, validation_sequence_lengths,
+                       validation_labels, validation_actual_word_lists, all_style_embeddings,
+                       shuffled_one_hot_labels, inverse_word_index, current_epoch, sess):
+
+        logger.info("Running Validation {}:".format(current_epoch // global_config.validation_interval))
+
+        glove_model = content_preservation.load_glove_model(options.validation_embeddings_file_path)
+
+        validation_style_transfer_scores = list()
+        validation_content_preservation_scores = list()
+        validation_word_overlap_scores = list()
+        for i in range(num_labels):
+
+            logger.info("validating label {}".format(i))
+
+            label_embeddings = list()
+            validation_sequences_to_transfer = list()
+            validation_labels_to_transfer = list()
+            validation_sequence_lengths_to_transfer = list()
+
+            for k in range(len(all_style_embeddings)):
+                if shuffled_one_hot_labels[k].tolist().index(1) == i:
+                    label_embeddings.append(all_style_embeddings[k])
+
+            for k in range(len(validation_sequences)):
+                if validation_labels[k].tolist().index(1) != i:
+                    validation_sequences_to_transfer.append(validation_sequences[k])
+                    validation_labels_to_transfer.append(validation_labels[k])
+                    validation_sequence_lengths_to_transfer.append(validation_sequence_lengths[k])
+
+            style_embedding = np.mean(np.asarray(label_embeddings), axis=0)
+
+            validation_batches = len(validation_sequences_to_transfer) // mconf.batch_size
+            if len(validation_sequences_to_transfer) % mconf.batch_size:
+                validation_batches += 1
+
+            validation_generated_sequences = list()
+            validation_generated_sequence_lengths = list()
+            for val_batch_number in range(validation_batches):
+                (start_index, end_index) = self.get_batch_indices(
+                    batch_number=val_batch_number,
+                    data_limit=len(validation_sequences_to_transfer))
+
+                conditioning_embedding = np.tile(
+                    A=style_embedding, reps=(end_index - start_index, 1))
+
+                [validation_generated_sequences_batch, validation_sequence_lengths_batch] = \
+                    self.run_batch(
+                        sess, start_index, end_index,
+                        [self.inference_output, self.final_sequence_lengths],
+                        validation_sequences_to_transfer, validation_labels_to_transfer,
+                        validation_sequence_lengths_to_transfer,
+                        conditioning_embedding, True, 0, 0, current_epoch)
+                validation_generated_sequences.extend(validation_generated_sequences_batch)
+                validation_generated_sequence_lengths.extend(validation_sequence_lengths_batch)
+
+            trimmed_generated_sequences = \
+                [[index for index in sequence
+                  if index != global_config.predefined_word_index[global_config.eos_token]]
+                 for sequence in [x[:(y - 1)] for (x, y) in zip(
+                    validation_generated_sequences, validation_generated_sequence_lengths)]]
+
+            generated_word_lists = \
+                [data_processor.generate_words_from_indices(x, inverse_word_index)
+                 for x in trimmed_generated_sequences]
+
+            generated_sentences = [" ".join(x) for x in generated_word_lists]
+
+            output_file_path = "output/{}-training/validation_sentences_{}.txt".format(
+                global_config.experiment_timestamp, i)
+            os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+            with open(output_file_path, 'w') as output_file:
+                for sentence in generated_sentences:
+                    output_file.write(sentence + "\n")
+
+            [style_transfer_score, confusion_matrix] = style_transfer.get_style_transfer_score(
+                options.classifier_saved_model_path, output_file_path, i)
+            logger.debug("style_transfer_score: {}".format(style_transfer_score))
+            logger.debug("confusion_matrix:\n{}".format(confusion_matrix))
+
+            content_preservation_score = content_preservation.get_content_preservation_score(
+                validation_actual_word_lists, generated_word_lists, glove_model)
+            logger.debug("content_preservation_score: {}".format(content_preservation_score))
+
+            word_overlap_score = content_preservation.get_word_overlap_score(
+                validation_actual_word_lists, generated_word_lists)
+            logger.debug("word_overlap_score: {}".format(word_overlap_score))
+
+            validation_style_transfer_scores.append(style_transfer_score)
+            validation_content_preservation_scores.append(content_preservation_score)
+            validation_word_overlap_scores.append(word_overlap_score)
+
+        aggregate_style_transfer = np.mean(np.asarray(validation_style_transfer_scores))
+        logger.info("Aggregate Style Transfer: {}".format(aggregate_style_transfer))
+
+        aggregate_content_preservation = np.mean(np.asarray(validation_content_preservation_scores))
+        logger.info("Aggregate Content Preservation: {}".format(aggregate_content_preservation))
+
+        aggregate_word_overlap = np.mean(np.asarray(validation_word_overlap_scores))
+        logger.info("Aggregate Word Overlap: {}".format(aggregate_word_overlap))
+
+        with open(global_config.validation_scores_path, 'a+') as validation_scores_file:
+            validation_record = {
+                "epoch": current_epoch,
+                "style-transfer": aggregate_style_transfer,
+                "content-preservation": aggregate_content_preservation,
+                "word-overlap": aggregate_word_overlap
+            }
+            validation_scores_file.write(json.dumps(validation_record) + "\n")
 
     def generate_novel_sentences(self, sess, padded_sequences, text_sequence_lengths, style_embedding,
                                  num_labels, model_save_path):
