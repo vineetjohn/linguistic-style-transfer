@@ -21,14 +21,14 @@ class ModelConfig():
         self.content_adversary_learning_rate = 0.001
 
         # loss weights
-        self.adversarial_discriminator_loss_weight = 0.3
-        self.style_prediction_loss_weight = 1
-        self.adversarial_bow_loss_weight = 0.0001
+        self.style_multitask_loss_weight = 1
+        self.style_adversary_loss_weight = 0.3
+        self.content_adversary_loss_weight = 0.0001
+        self.style_kl_lambda = 0.03
+        self.content_kl_lambda = 0.03
 
         # training iterations
         self.kl_anneal_iterations = 20000
-        self.style_kl_lambda = 0.03
-        self.content_kl_lambda = 0.03
 
         # noise
         self.epsilon = 1e-8

@@ -75,27 +75,33 @@ class AdversarialAutoencoder:
 
             return content_embedding_mu, content_embedding_sigma
 
-    def get_bow_prediction(self, style_embedding):
+    def get_content_adversary_prediction(self, style_embedding):
 
-        bow_prediction = tf.layers.dense(
-            inputs=style_embedding, units=global_config.bow_size,
-            activation=tf.nn.softmax, name="adversarial_bow_prediction")
-
-        return bow_prediction
-
-    def get_adversarial_label_prediction(self, content_embedding, num_labels):
-
-        adversarial_label_mlp = tf.nn.dropout(
+        content_adversary_mlp = tf.nn.dropout(
             x=tf.layers.dense(
-                inputs=content_embedding, units=mconf.content_embedding_size,
-                activation=tf.nn.leaky_relu, name="adversarial_label_prediction_dense"),
+                inputs=style_embedding, units=mconf.style_embedding_size,
+                activation=tf.nn.leaky_relu, name="content_adversary_mlp"),
             keep_prob=mconf.fully_connected_keep_prob)
 
-        adversarial_label_prediction = tf.layers.dense(
-            inputs=adversarial_label_mlp, units=num_labels,
-            activation=tf.nn.softmax, name="adversarial_label_prediction")
+        content_adversary_prediction = tf.layers.dense(
+            inputs=content_adversary_mlp, units=global_config.bow_size,
+            activation=tf.nn.softmax, name="content_adversary_prediction")
 
-        return adversarial_label_prediction
+        return content_adversary_prediction
+
+    def get_style_adversary_prediction(self, content_embedding, num_labels):
+
+        style_adversary_mlp = tf.nn.dropout(
+            x=tf.layers.dense(
+                inputs=content_embedding, units=mconf.content_embedding_size,
+                activation=tf.nn.leaky_relu, name="style_adversary_mlp"),
+            keep_prob=mconf.fully_connected_keep_prob)
+
+        style_adversary_prediction = tf.layers.dense(
+            inputs=style_adversary_mlp, units=num_labels,
+            activation=tf.nn.softmax, name="style_adversary_prediction")
+
+        return style_adversary_prediction
 
     def generate_output_sequence(self, embedded_sequence, generative_embedding,
                                  decoder_embeddings, word_index, batch_size):
@@ -158,6 +164,9 @@ class AdversarialAutoencoder:
     def sample_prior(self, mu, log_sigma):
         epsilon = tf.random_normal(tf.shape(log_sigma), name="epsilon")
         return mu + epsilon * tf.exp(log_sigma)
+
+    def compute_batch_entropy(self, x):
+        return tf.reduce_mean(input_tensor=tf.reduce_sum(input_tensor=-x * tf.log(x + mconf.epsilon), axis=1))
 
     def build_model(self, word_index, encoder_embedding_matrix, decoder_embedding_matrix, num_labels):
 
@@ -273,67 +282,67 @@ class AdversarialAutoencoder:
             logger.debug("inference_output: {}".format(self.inference_output))
 
         # adversarial loss
-        with tf.name_scope('adversarial_loss'):
-            adversarial_label_prediction = self.get_adversarial_label_prediction(
-                content_embedding_mu, num_labels)
-            logger.debug("adversarial_label_prediction: {}".format(adversarial_label_prediction))
+        with tf.name_scope('adversarial_objectives'):
+            # style adversary
+            style_adversary_prediction = self.get_style_adversary_prediction(content_embedding_mu, num_labels)
+            logger.debug("style_adversary_prediction: {}".format(style_adversary_prediction))
 
-            self.adversarial_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
-                logits=adversarial_label_prediction, name="adversarial_label_prediction_hardmax")
+            self.quantized_style_adversary_prediction = tf.contrib.seq2seq.hardmax(
+                logits=style_adversary_prediction, name="quantized_style_adversary_prediction")
 
-            self.adversarial_entropy = tf.reduce_mean(
-                input_tensor=tf.reduce_sum(
-                    input_tensor=-adversarial_label_prediction *
-                                 tf.log(adversarial_label_prediction + mconf.epsilon), axis=1))
-            logger.debug("adversarial_entropy: {}".format(self.adversarial_entropy))
+            self.style_adversary_entropy = self.compute_batch_entropy(style_adversary_prediction)
+            logger.debug("style_adversary_entropy: {}".format(self.style_adversary_entropy))
 
-            self.adversarial_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_label, logits=adversarial_label_prediction, label_smoothing=0.1)
-            logger.debug("adversarial_loss: {}".format(self.adversarial_loss))
+            self.style_adversary_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_label, logits=style_adversary_prediction,
+                label_smoothing=0.1)
+            logger.debug("style_adversary_loss: {}".format(self.style_adversary_loss))
 
-            bow_prediction = self.get_bow_prediction(self.style_embedding)
-            self.bow_prediction_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_bow_representations, logits=bow_prediction, label_smoothing=0.1)
-            logger.debug("bow_prediction_loss: {}".format(self.bow_prediction_loss))
+            # content adversary
+            content_adversary_prediction = self.get_content_adversary_prediction(self.style_embedding)
+            logger.debug("content_adversary_prediction: {}".format(content_adversary_prediction))
 
-            self.bow_entropy = \
-                mconf.adversarial_bow_loss_weight * \
-                tf.reduce_mean(
-                    input_tensor=tf.reduce_sum(
-                        input_tensor=-bow_prediction * tf.log(bow_prediction + mconf.epsilon), axis=1))
-            logger.debug("bow_entropy: {}".format(self.bow_entropy))
+            self.content_adversary_entropy = self.compute_batch_entropy(content_adversary_prediction)
+            logger.debug("content_adversary_entropy: {}".format(self.content_adversary_entropy))
 
-        # style prediction loss
-        with tf.name_scope('style_prediction_loss'):
-            style_label_prediction = tf.nn.dropout(
+            self.content_adversary_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_bow_representations, logits=content_adversary_prediction,
+                label_smoothing=0.1)
+            logger.debug("content_adversary_loss: {}".format(self.content_adversary_loss))
+
+        # multi-task objectives
+        with tf.name_scope('multitask_objectives'):
+            style_multitask_prediction = tf.nn.dropout(
                 x=tf.layers.dense(
                     inputs=style_embedding_mu, units=num_labels,
-                    activation=tf.nn.softmax, name="style_label_prediction"),
+                    activation=tf.nn.softmax, name="style_multitask_prediction"),
                 keep_prob=mconf.fully_connected_keep_prob)
-            logger.debug("style_label_prediction: {}".format(style_label_prediction))
+            logger.debug("style_multitask_prediction: {}".format(style_multitask_prediction))
 
-            self.style_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
-                logits=style_label_prediction, name="style_label_prediction_hardmax")
+            self.quantized_style_multitask_prediction = tf.contrib.seq2seq.hardmax(
+                logits=style_multitask_prediction, name="quantized_style_multitask_prediction")
 
-            self.style_prediction_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_label, logits=style_label_prediction, label_smoothing=0.1)
-            logger.debug("style_prediction_loss: {}".format(self.style_prediction_loss))
+            self.style_multitask_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_label, logits=style_multitask_prediction, label_smoothing=0.1)
+            logger.debug("style_multitask_loss: {}".format(self.style_multitask_loss))
 
-        with tf.name_scope('overall_prediction_loss'):
-            overall_label_prediction = tf.nn.dropout(
-                x=tf.layers.dense(
-                    inputs=tf.concat(values=[style_embedding_mu, content_embedding_mu], axis=1),
-                    units=num_labels, activation=tf.nn.softmax,
-                    name="overall_label_prediction"),
-                keep_prob=mconf.fully_connected_keep_prob)
-            logger.debug("overall_label_prediction: {}".format(overall_label_prediction))
+        # overall latent space classifier
+        # not required for style transfer
+        # used to prove disentanglement
+        style_overall_prediction = tf.nn.dropout(
+            x=tf.layers.dense(
+                inputs=tf.concat(values=[style_embedding_mu, content_embedding_mu], axis=1),
+                units=num_labels, activation=tf.nn.softmax,
+                name="style_overall_prediction"),
+            keep_prob=mconf.fully_connected_keep_prob)
+        logger.debug("style_overall_prediction: {}".format(style_overall_prediction))
 
-            self.overall_label_prediction_hardmax = tf.contrib.seq2seq.hardmax(
-                logits=overall_label_prediction, name="overall_label_prediction_hardmax")
+        self.quantized_style_overall_prediction = tf.contrib.seq2seq.hardmax(
+            logits=style_overall_prediction, name="quantized_style_overall_prediction")
 
-            self.overall_prediction_loss = tf.losses.softmax_cross_entropy(
-                onehot_labels=self.input_label, logits=overall_label_prediction, label_smoothing=0.1)
-            logger.debug("overall_prediction_loss: {}".format(self.overall_prediction_loss))
+        self.style_overall_prediction_loss = tf.losses.softmax_cross_entropy(
+            onehot_labels=self.input_label, logits=style_overall_prediction, label_smoothing=0.1)
+        logger.debug("style_overall_prediction_loss: {}".format(self.style_overall_prediction_loss))
 
         # reconstruction loss
         with tf.name_scope('reconstruction_loss'):
@@ -341,7 +350,7 @@ class AdversarialAutoencoder:
             logger.debug("batch_maxlen: {}".format(batch_maxlen))
 
             # the training decoder only emits outputs equal in time-steps to the
-            # max time in the current batch
+            # max time-steps in the current batch
             target_sequence = tf.slice(
                 input_=self.input_sequence,
                 begin=[0, 0],
@@ -361,12 +370,13 @@ class AdversarialAutoencoder:
 
         # tensorboard logging variable summaries
         tf.summary.scalar(tensor=self.reconstruction_loss, name="reconstruction_loss_summary")
-        tf.summary.scalar(tensor=self.style_prediction_loss, name="style_prediction_loss_summary")
-        tf.summary.scalar(tensor=self.adversarial_loss, name="adversarial_loss_summary")
-        tf.summary.scalar(tensor=self.style_kl_loss, name="style_kl_loss_summary")
-        tf.summary.scalar(tensor=self.content_kl_loss, name="content_kl_loss_summary")
+        tf.summary.scalar(tensor=self.style_multitask_loss, name="style_multitask_loss_summary")
+        tf.summary.scalar(tensor=self.style_adversary_loss, name="style_adversary_loss_summary")
+        tf.summary.scalar(tensor=self.content_adversary_loss, name="content_adversary_loss_summary")
         tf.summary.scalar(tensor=unweighted_style_kl_loss, name="unweighted_style_kl_loss_summary")
         tf.summary.scalar(tensor=unweighted_content_kl_loss, name="unweighted_content_kl_loss_summary")
+        tf.summary.scalar(tensor=self.style_kl_loss, name="style_kl_loss_summary")
+        tf.summary.scalar(tensor=self.content_kl_loss, name="content_kl_loss_summary")
 
     def get_batch_indices(self, batch_number, data_limit):
 
@@ -422,18 +432,17 @@ class AdversarialAutoencoder:
 
         self.composite_loss = 0.0
         self.composite_loss += self.reconstruction_loss
+        self.composite_loss += self.style_multitask_loss * mconf.style_multitask_loss_weight
+        self.composite_loss -= self.style_adversary_entropy * mconf.style_adversary_loss_weight
+        self.composite_loss -= self.content_adversary_entropy * mconf.content_adversary_loss_weight
         self.composite_loss += self.style_kl_loss
         self.composite_loss += self.content_kl_loss
-        self.composite_loss -= self.adversarial_entropy * mconf.adversarial_discriminator_loss_weight
-        self.composite_loss += self.style_prediction_loss * mconf.style_prediction_loss_weight
-        self.composite_loss -= self.bow_entropy
         tf.summary.scalar(tensor=self.composite_loss, name="composite_loss_summary")
         self.all_summaries = tf.summary.merge_all()
 
-        style_adversary_variable_labels = ["adversarial_label"]
-        content_adversary_variable_labels = ["adversarial_bow"]
-
         # optimize adversarial classification
+        style_adversary_variable_labels = ["style_adversary"]
+        content_adversary_variable_labels = ["content_adversary"]
         # style
         style_adversary_training_optimizer = tf.train.RMSPropOptimizer(
             learning_rate=mconf.style_adversary_learning_rate)
@@ -443,7 +452,7 @@ class AdversarialAutoencoder:
         logger.debug("style_adversary_training_optimizer.variables: {}".format(
             style_adversary_training_variables))
         style_adversary_training_operation = style_adversary_training_optimizer.minimize(
-            loss=self.adversarial_loss,
+            loss=self.style_adversary_loss,
             var_list=style_adversary_training_variables)
         # content
         content_adversary_training_optimizer = tf.train.RMSPropOptimizer(
@@ -454,21 +463,19 @@ class AdversarialAutoencoder:
         logger.debug("content_adversary_training_optimizer.variables: {}".format(
             content_adversary_training_variables))
         content_adversary_training_operation = content_adversary_training_optimizer.minimize(
-            loss=self.bow_prediction_loss,
+            loss=self.content_adversary_loss,
             var_list=content_adversary_training_variables)
 
         # optimize overall latent space classification
-        overall_classification_labels = ["overall_label_prediction"]
-        overall_classification_optimizer = tf.train.RMSPropOptimizer(
+        style_overall_variable_labels = ["style_overall"]
+        style_overall_optimizer = tf.train.RMSPropOptimizer(
             learning_rate=mconf.autoencoder_learning_rate)
-        overall_classification_training_variables = [
-            x for x in trainable_variables if any(
-                scope in x.name for scope in overall_classification_labels)]
-        logger.debug("overall_classification_training_variables: {}".format(
-            overall_classification_training_variables))
-        overall_classification_training_operation = overall_classification_optimizer.minimize(
-            loss=self.overall_prediction_loss,
-            var_list=overall_classification_training_variables)
+        style_overall_training_variables = [
+            x for x in trainable_variables if any(scope in x.name for scope in style_overall_variable_labels)]
+        logger.debug("style_overall_training_variables: {}".format(style_overall_training_variables))
+        style_overall_training_operation = style_overall_optimizer.minimize(
+            loss=self.style_overall_prediction_loss,
+            var_list=style_overall_training_variables)
 
         # optimize reconstruction
         reconstruction_training_optimizer = tf.train.AdamOptimizer(
@@ -478,7 +485,7 @@ class AdversarialAutoencoder:
                 scope not in x.name for scope in
                 (style_adversary_variable_labels +
                  content_adversary_variable_labels +
-                 overall_classification_labels))]
+                 style_overall_variable_labels))]
         logger.debug("reconstruction_training_optimizer.variables: {}".format(reconstruction_training_variables))
         reconstruction_training_operation = reconstruction_training_optimizer.minimize(
             loss=self.composite_loss, var_list=reconstruction_training_variables)
@@ -517,15 +524,15 @@ class AdversarialAutoencoder:
                     [reconstruction_training_operation,
                      style_adversary_training_operation,
                      content_adversary_training_operation,
-                     overall_classification_training_operation,
+                     style_overall_training_operation,
                      self.reconstruction_loss,
-                     self.style_prediction_loss,
-                     self.adversarial_loss,
-                     self.adversarial_entropy,
+                     self.style_multitask_loss,
+                     self.style_adversary_loss,
+                     self.style_adversary_entropy,
+                     self.content_adversary_loss,
+                     self.content_adversary_entropy,
                      self.style_kl_loss,
                      self.content_kl_loss,
-                     self.bow_prediction_loss,
-                     self.bow_entropy,
                      self.composite_loss,
                      self.style_embedding,
                      self.content_embedding,
@@ -533,9 +540,9 @@ class AdversarialAutoencoder:
 
                 [_, _, _, _,
                  reconstruction_loss, style_loss,
-                 adversarial_loss, adversarial_entropy,
+                 style_adversary_crossentropy, style_adversary_entropy,
+                 content_adversary_crossentropy, content_adversary_entropy,
                  style_kl_loss, content_kl_loss,
-                 bow_loss, bow_entropy,
                  composite_loss,
                  style_embeddings, content_embedding,
                  all_summaries] = \
@@ -545,16 +552,18 @@ class AdversarialAutoencoder:
                         shuffled_text_sequence_lengths, None, False,
                         style_kl_weight, content_kl_weight, current_epoch)
 
-                log_msg = "[R: {:.2f}, S: {:.2f}, " \
-                          "ACE: {:.2f}, AE: {:.2f}, " \
-                          "SKL: {:.2f}, CKL: {:.2f}, " \
-                          "BCE: {:.2f}, BE: {:.2f}], " \
+                log_msg = "[R: {:.2f}, " \
+                          "SMT: {:.2f}, " \
+                          "SCE: {:.2f}, SE: {:.2f}, " \
+                          "CCE: {:.2f}, CE: {:.2f}, " \
+                          "SKL: {:.2f}, CKL: {:.2f}] " \
                           "Epoch {}-{}: {:.4f}"
                 logger.info(log_msg.format(
-                    reconstruction_loss, style_loss,
-                    adversarial_loss, adversarial_entropy,
+                    reconstruction_loss,
+                    style_loss,
+                    style_adversary_crossentropy, style_adversary_entropy,
+                    content_adversary_crossentropy, content_adversary_entropy,
                     style_kl_loss, content_kl_loss,
-                    bow_loss, bow_entropy,
                     current_epoch, batch_number, composite_loss))
 
                 all_style_embeddings.extend(style_embeddings)
@@ -732,9 +741,9 @@ class AdversarialAutoencoder:
                 self.run_batch(
                     sess, start_index, end_index,
                     [self.inference_output, self.final_sequence_lengths,
-                     self.overall_label_prediction_hardmax,
-                     self.style_label_prediction_hardmax,
-                     self.adversarial_label_prediction_hardmax,
+                     self.quantized_style_overall_prediction,
+                     self.quantized_style_multitask_prediction,
+                     self.quantized_style_adversary_prediction,
                      self.reconstruction_loss],
                     padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
                     conditioning_embedding, True, style_kl_weight, content_kl_weight, current_epoch)
