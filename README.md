@@ -22,6 +22,9 @@ Neural network model to disentangle and transfer linguistic style in text
 ## Notes
 
 * Ignore `CUDA_DEVICE_ORDER="PCI_BUS_ID"`, `CUDA_VISIBLE_DEVICES="0"` unless you're training with a GPU
+* Input data file format: 
+    * `${TEXT_FILE_PATH}` should have 1 sentence per line. 
+    * Similarly, `${LABEL_FILE_PATH}` should have 1 label per line.
 
 ---
 
