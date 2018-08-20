@@ -79,7 +79,7 @@ class AdversarialAutoencoder:
 
         content_adversary_mlp = tf.nn.dropout(
             x=tf.layers.dense(
-                inputs=style_embedding, units=mconf.style_embedding_size,
+                inputs=style_embedding, units=global_config.bow_size,
                 activation=tf.nn.leaky_relu, name="content_adversary_mlp"),
             keep_prob=mconf.fully_connected_keep_prob)
 
