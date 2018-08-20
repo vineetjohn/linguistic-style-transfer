@@ -4,42 +4,52 @@ annotation_config = {
     "nips-yelp-pos-to-neg": {
         "original": "/home/v2john/documents/style-transfer-models/nips/yelp/data/sentiment.test.1",
         "generated": "/home/v2john/documents/style-transfer-models/nips/yelp/sentiment.test.1.tsf",
-        "count": 50
+        "count": 20
     },
     "nips-yelp-neg-to-pos": {
         "original": "/home/v2john/documents/style-transfer-models/nips/yelp/data/sentiment.test.0",
         "generated": "/home/v2john/documents/style-transfer-models/nips/yelp/sentiment.test.0.tsf",
-        "count": 50
+        "count": 20
     },
     "aaai-yelp-pos-to-neg": {
         "original": "/home/v2john/documents/style-transfer-models/nips/yelp/data/sentiment.test.1",
         "generated": "/home/v2john/documents/style-transfer-models/aaai/yelp-test/fixed/style0.txt",
-        "count": 50
+        "count": 20
     },
     "aaai-yelp-neg-to-pos": {
         "original": "/home/v2john/documents/style-transfer-models/nips/yelp/data/sentiment.test.0",
         "generated": "/home/v2john/documents/style-transfer-models/aaai/yelp-test/fixed/style1.txt",
-        "count": 50
+        "count": 20
+    },
+    "iclr-yelp-pos-to-neg": {
+        "original": "/home/v2john/documents/style-transfer-models/iclr/stytra-yelp/26_output_decoder_1_from.txt",
+        "generated": "/home/v2john/documents/style-transfer-models/iclr/stytra-yelp/26_output_decoder_1_tran.txt",
+        "count": 20
+    },
+    "iclr-yelp-neg-to-pos": {
+        "original": "/home/v2john/documents/style-transfer-models/iclr/stytra-yelp/26_output_decoder_2_from.txt",
+        "generated": "/home/v2john/documents/style-transfer-models/iclr/stytra-yelp/26_output_decoder_2_tran.txt",
+        "count": 20
     },
     "dae-yelp-pos-to-neg": {
         "original": "/home/v2john/documents/style-transfer-models/output/20180629130342-inference/actual_sentences_0.txt",
         "generated": "/home/v2john/documents/style-transfer-models/output/20180629130342-inference/generated_sentences_0.txt",
-        "count": 50
+        "count": 20
     },
     "dae-yelp-neg-to-pos": {
         "original": "/home/v2john/documents/style-transfer-models/output/20180629130342-inference/actual_sentences_1.txt",
         "generated": "/home/v2john/documents/style-transfer-models/output/20180629130342-inference/generated_sentences_1.txt",
-        "count": 50
+        "count": 20
     },
     "vae-yelp-pos-to-neg": {
         "original": "/home/v2john/documents/style-transfer-models/output/20180702122511-inference/actual_sentences_0.txt",
         "generated": "/home/v2john/documents/style-transfer-models/output/20180702122511-inference/generated_sentences_0.txt",
-        "count": 50
+        "count": 20
     },
     "vae-yelp-neg-to-pos": {
         "original": "/home/v2john/documents/style-transfer-models/output/20180702122511-inference/actual_sentences_1.txt",
         "generated": "/home/v2john/documents/style-transfer-models/output/20180702122511-inference/generated_sentences_1.txt",
-        "count": 50
+        "count": 20
     },
     "nips-amazon-pos-to-neg": {
         "original": "/home/v2john/documents/style-transfer-models/nips/amazon/data/sentiment.test.1",
