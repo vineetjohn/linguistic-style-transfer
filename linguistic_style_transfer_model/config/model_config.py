@@ -22,6 +22,7 @@ class ModelConfig():
 
         # loss weights
         self.style_multitask_loss_weight = 1
+        self.content_multitask_loss_weight = 1
         self.style_adversary_loss_weight = 0.3
         self.content_adversary_loss_weight = 0.0001
         self.style_kl_lambda = 0.03

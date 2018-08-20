@@ -312,6 +312,7 @@ class AdversarialAutoencoder:
 
         # multi-task objectives
         with tf.name_scope('multitask_objectives'):
+            # style multitask
             style_multitask_prediction = tf.nn.dropout(
                 x=tf.layers.dense(
                     inputs=style_embedding_mu, units=num_labels,
@@ -325,6 +326,19 @@ class AdversarialAutoencoder:
             self.style_multitask_loss = tf.losses.softmax_cross_entropy(
                 onehot_labels=self.input_label, logits=style_multitask_prediction, label_smoothing=0.1)
             logger.debug("style_multitask_loss: {}".format(self.style_multitask_loss))
+
+            # bow multitask
+            content_multitask_prediction = tf.nn.dropout(
+                x=tf.layers.dense(
+                    inputs=content_embedding_mu, units=global_config.bow_size,
+                    activation=tf.nn.leaky_relu, name="content_multitask_prediction"),
+                keep_prob=mconf.fully_connected_keep_prob)
+            logger.debug("content_multitask_prediction: {}".format(content_multitask_prediction))
+
+            self.content_multitask_loss = tf.losses.softmax_cross_entropy(
+                onehot_labels=self.input_bow_representations, logits=content_multitask_prediction,
+                label_smoothing=0.1)
+            logger.debug("content_multitask_loss: {}".format(self.content_multitask_loss))
 
         # overall latent space classifier
         # not required for style transfer
@@ -373,6 +387,7 @@ class AdversarialAutoencoder:
         tf.summary.scalar(tensor=self.style_multitask_loss, name="style_multitask_loss_summary")
         tf.summary.scalar(tensor=self.style_adversary_loss, name="style_adversary_loss_summary")
         tf.summary.scalar(tensor=self.content_adversary_loss, name="content_adversary_loss_summary")
+        tf.summary.scalar(tensor=self.content_multitask_loss, name="content_multitask_loss_summary")
         tf.summary.scalar(tensor=unweighted_style_kl_loss, name="unweighted_style_kl_loss_summary")
         tf.summary.scalar(tensor=unweighted_content_kl_loss, name="unweighted_content_kl_loss_summary")
         tf.summary.scalar(tensor=self.style_kl_loss, name="style_kl_loss_summary")
@@ -433,6 +448,7 @@ class AdversarialAutoencoder:
         self.composite_loss = 0.0
         self.composite_loss += self.reconstruction_loss
         self.composite_loss += self.style_multitask_loss * mconf.style_multitask_loss_weight
+        self.composite_loss += self.content_multitask_loss * mconf.content_multitask_loss_weight
         self.composite_loss -= self.style_adversary_entropy * mconf.style_adversary_loss_weight
         self.composite_loss -= self.content_adversary_entropy * mconf.content_adversary_loss_weight
         self.composite_loss += self.style_kl_loss
@@ -527,6 +543,7 @@ class AdversarialAutoencoder:
                      style_overall_training_operation,
                      self.reconstruction_loss,
                      self.style_multitask_loss,
+                     self.content_multitask_loss,
                      self.style_adversary_loss,
                      self.style_adversary_entropy,
                      self.content_adversary_loss,
@@ -539,7 +556,8 @@ class AdversarialAutoencoder:
                      self.all_summaries]
 
                 [_, _, _, _,
-                 reconstruction_loss, style_loss,
+                 reconstruction_loss,
+                 style_multitask_loss, content_multitask_loss,
                  style_adversary_crossentropy, style_adversary_entropy,
                  content_adversary_crossentropy, content_adversary_entropy,
                  style_kl_loss, content_kl_loss,
@@ -553,14 +571,14 @@ class AdversarialAutoencoder:
                         style_kl_weight, content_kl_weight, current_epoch)
 
                 log_msg = "[R: {:.2f}, " \
-                          "SMT: {:.2f}, " \
+                          "SMT: {:.2f}, CMT: {:.2f}, " \
                           "SCE: {:.2f}, SE: {:.2f}, " \
                           "CCE: {:.2f}, CE: {:.2f}, " \
                           "SKL: {:.2f}, CKL: {:.2f}] " \
                           "Epoch {}-{}: {:.4f}"
                 logger.info(log_msg.format(
                     reconstruction_loss,
-                    style_loss,
+                    style_multitask_loss, content_multitask_loss,
                     style_adversary_crossentropy, style_adversary_entropy,
                     content_adversary_crossentropy, content_adversary_entropy,
                     style_kl_loss, content_kl_loss,
