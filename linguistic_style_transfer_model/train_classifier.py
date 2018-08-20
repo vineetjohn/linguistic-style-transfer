@@ -10,7 +10,7 @@ import tensorflow as tf
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.config.model_config import mconf
 from linguistic_style_transfer_model.models.text_classifier import TextCNN
-from linguistic_style_transfer_model.utils import data_processor, log_initializer
+from linguistic_style_transfer_model.utils import data_processor, log_initializer, tf_session_helper
 
 logger = None
 
@@ -42,7 +42,7 @@ def train_classifier_model(options):
     logger.info("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 
     # Training
-    sess = get_tensorflow_session()
+    sess = tf_session_helper.get_tensorflow_session()
     with sess.as_default():
         cnn = TextCNN(
             sequence_length=x_train.shape[1],
@@ -161,13 +161,6 @@ def main(argv):
     logger.info("Training Complete!")
 
 
-def get_tensorflow_session():
-    gpu_options = tf.GPUOptions(allow_growth=True)
-    config_proto = tf.ConfigProto(
-        log_device_placement=False, allow_soft_placement=True,
-        gpu_options=gpu_options)
-
-    return tf.Session(config=config_proto)
 
 
 if __name__ == "__main__":

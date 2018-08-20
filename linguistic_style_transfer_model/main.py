@@ -12,7 +12,7 @@ from linguistic_style_transfer_model.config.model_config import mconf
 from linguistic_style_transfer_model.config.options import Options
 from linguistic_style_transfer_model.models import adversarial_autoencoder
 from linguistic_style_transfer_model.utils import bleu_scorer, \
-    data_processor, log_initializer, word_embedder
+    data_processor, log_initializer, word_embedder, tf_session_helper
 
 logger = None
 
@@ -153,7 +153,7 @@ def main(argv):
             word_index, encoder_embedding_matrix, decoder_embedding_matrix, num_labels)
 
         logger.info("Training model ...")
-        sess = get_tensorflow_session()
+        sess = tf_session_helper.get_tensorflow_session()
 
         [_, validation_actual_word_lists, validation_sequences, validation_sequence_lengths] = \
             data_processor.get_test_sequences(
@@ -210,7 +210,7 @@ def main(argv):
         network.build_model(
             word_index, encoder_embedding_matrix, decoder_embedding_matrix, num_labels)
 
-        sess = get_tensorflow_session()
+        sess = tf_session_helper.get_tensorflow_session()
 
         total_nll = 0
         for i in range(num_labels):
@@ -277,15 +277,6 @@ def main(argv):
         logger.info("Inference run complete")
 
         sess.close()
-
-
-def get_tensorflow_session():
-    gpu_options = tf.GPUOptions(allow_growth=True)
-    config_proto = tf.ConfigProto(
-        log_device_placement=False, allow_soft_placement=True,
-        gpu_options=gpu_options)
-
-    return tf.Session(config=config_proto)
 
 
 if __name__ == "__main__":

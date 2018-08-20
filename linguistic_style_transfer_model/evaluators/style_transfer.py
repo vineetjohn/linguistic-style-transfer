@@ -10,7 +10,7 @@ from sklearn import metrics
 
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.config.model_config import mconf
-from linguistic_style_transfer_model.utils import data_processor, log_initializer
+from linguistic_style_transfer_model.utils import data_processor, log_initializer, tf_session_helper
 
 logger = logging.getLogger(global_config.logger_name)
 
@@ -41,10 +41,7 @@ def get_style_transfer_score(classifier_saved_model_path, text_file_path, label)
         os.path.join(classifier_saved_model_path, "checkpoints"))
     graph = tf.Graph()
     with graph.as_default():
-        gpu_options = tf.GPUOptions(allow_growth=True)
-        session_conf = tf.ConfigProto(
-            gpu_options=gpu_options, allow_soft_placement=True, log_device_placement=False)
-        sess = tf.Session(config=session_conf)
+        sess = tf_session_helper.get_tensorflow_session()
         with sess.as_default():
             # Load the saved meta graph and restore variables
             saver = tf.train.import_meta_graph("{}.meta".format(checkpoint_file))
