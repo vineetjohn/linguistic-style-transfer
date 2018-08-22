@@ -1,9 +1,11 @@
-from types import SimpleNamespace
+import argparse
+from typing import Any
 
 
-class Options(SimpleNamespace):
+class Options(argparse.Namespace):
 
-    def __init__(self):
+    def __init__(self, **kwargs: Any):
+        super().__init__(**kwargs)
         self.logging_level = None
         self.train_model = None
         self.generate_novel_text = None
