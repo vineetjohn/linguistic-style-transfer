@@ -192,8 +192,8 @@ class AdversarialAutoencoder:
             name="input_bow_representations")
         logger.debug("input_bow_representations: {}".format(self.input_bow_representations))
 
-        self.conditioned_generation_mode = tf.placeholder(dtype=tf.bool, name="conditioned_generation_mode")
-        logger.debug("conditioned_generation_mode: {}".format(self.conditioned_generation_mode))
+        self.inference_mode = tf.placeholder(dtype=tf.bool, name="inference_mode")
+        logger.debug("inference_mode: {}".format(self.inference_mode))
 
         self.conditioning_embedding = tf.placeholder(
             dtype=tf.float32, shape=[None, mconf.style_embedding_size],
@@ -248,7 +248,7 @@ class AdversarialAutoencoder:
         sampled_style_embedding = self.sample_prior(style_embedding_mu, style_embedding_sigma)
 
         self.style_embedding = tf.cond(
-            pred=self.conditioned_generation_mode,
+            pred=self.inference_mode,
             true_fn=lambda: self.conditioning_embedding,
             false_fn=lambda: sampled_style_embedding)
         logger.debug("style_embedding: {}".format(self.style_embedding))
@@ -260,7 +260,7 @@ class AdversarialAutoencoder:
         sampled_content_embedding = self.sample_prior(content_embedding_mu, content_embedding_sigma)
 
         self.content_embedding = tf.cond(
-            pred=self.conditioned_generation_mode,
+            pred=self.inference_mode,
             true_fn=lambda: content_embedding_mu,
             false_fn=lambda: sampled_content_embedding)
         logger.debug("content_embedding: {}".format(self.content_embedding))
@@ -402,10 +402,10 @@ class AdversarialAutoencoder:
 
     def run_batch(self, sess, start_index, end_index, fetches, padded_sequences,
                   one_hot_labels, text_sequence_lengths,
-                  conditioning_embedding, conditioned_generation_mode,
+                  conditioning_embedding, inference_mode,
                   style_kl_weight, content_kl_weight, current_epoch):
 
-        if not conditioned_generation_mode:
+        if not inference_mode:
             conditioning_embedding = np.random.uniform(
                 size=(end_index - start_index, mconf.style_embedding_size),
                 low=-0.05, high=0.05).astype(dtype=np.float32)
@@ -420,7 +420,7 @@ class AdversarialAutoencoder:
                 self.input_label: one_hot_labels[start_index: end_index],
                 self.sequence_lengths: text_sequence_lengths[start_index: end_index],
                 self.input_bow_representations: bow_representations,
-                self.conditioned_generation_mode: conditioned_generation_mode,
+                self.inference_mode: inference_mode,
                 self.conditioning_embedding: conditioning_embedding,
                 self.style_kl_weight: style_kl_weight,
                 self.content_kl_weight: content_kl_weight,
