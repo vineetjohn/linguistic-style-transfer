@@ -21,14 +21,14 @@ class AdversarialAutoencoder:
         with tf.name_scope(scope_name):
             encoder_cell_fw = tf.nn.rnn_cell.DropoutWrapper(
                 cell=tf.contrib.rnn.GRUCell(num_units=mconf.encoder_rnn_size),
-                input_keep_prob=mconf.recurrent_state_keep_prob,
-                output_keep_prob=mconf.recurrent_state_keep_prob,
-                state_keep_prob=mconf.recurrent_state_keep_prob)
+                input_keep_prob=self.recurrent_state_keep_prob,
+                output_keep_prob=self.recurrent_state_keep_prob,
+                state_keep_prob=self.recurrent_state_keep_prob)
             encoder_cell_bw = tf.nn.rnn_cell.DropoutWrapper(
                 cell=tf.contrib.rnn.GRUCell(num_units=mconf.encoder_rnn_size),
-                input_keep_prob=mconf.recurrent_state_keep_prob,
-                output_keep_prob=mconf.recurrent_state_keep_prob,
-                state_keep_prob=mconf.recurrent_state_keep_prob)
+                input_keep_prob=self.recurrent_state_keep_prob,
+                output_keep_prob=self.recurrent_state_keep_prob,
+                state_keep_prob=self.recurrent_state_keep_prob)
 
             _, encoder_states = tf.nn.bidirectional_dynamic_rnn(
                 cell_fw=encoder_cell_fw, cell_bw=encoder_cell_bw,
@@ -45,14 +45,14 @@ class AdversarialAutoencoder:
                     inputs=sentence_embedding,
                     units=mconf.style_embedding_size,
                     activation=tf.nn.leaky_relu, name="style_embedding_mu"),
-                keep_prob=mconf.fully_connected_keep_prob)
+                keep_prob=self.fully_connected_keep_prob)
 
             style_embedding_sigma = tf.nn.dropout(
                 x=tf.layers.dense(
                     inputs=sentence_embedding,
                     units=mconf.style_embedding_size,
                     activation=tf.nn.leaky_relu, name="style_embedding_sigma"),
-                keep_prob=mconf.fully_connected_keep_prob)
+                keep_prob=self.fully_connected_keep_prob)
 
             return style_embedding_mu, style_embedding_sigma
 
@@ -64,14 +64,14 @@ class AdversarialAutoencoder:
                     inputs=sentence_embedding,
                     units=mconf.content_embedding_size,
                     activation=tf.nn.leaky_relu, name="content_embedding_mu"),
-                keep_prob=mconf.fully_connected_keep_prob)
+                keep_prob=self.fully_connected_keep_prob)
 
             content_embedding_sigma = tf.nn.dropout(
                 x=tf.layers.dense(
                     inputs=sentence_embedding,
                     units=mconf.content_embedding_size,
                     activation=tf.nn.leaky_relu, name="content_embedding_sigma"),
-                keep_prob=mconf.fully_connected_keep_prob)
+                keep_prob=self.fully_connected_keep_prob)
 
             return content_embedding_mu, content_embedding_sigma
 
@@ -81,7 +81,7 @@ class AdversarialAutoencoder:
             x=tf.layers.dense(
                 inputs=style_embedding, units=global_config.bow_size,
                 activation=tf.nn.leaky_relu, name="content_adversary_mlp"),
-            keep_prob=mconf.fully_connected_keep_prob)
+            keep_prob=self.fully_connected_keep_prob)
 
         content_adversary_prediction = tf.layers.dense(
             inputs=content_adversary_mlp, units=global_config.bow_size,
@@ -95,7 +95,7 @@ class AdversarialAutoencoder:
             x=tf.layers.dense(
                 inputs=content_embedding, units=mconf.content_embedding_size,
                 activation=tf.nn.leaky_relu, name="style_adversary_mlp"),
-            keep_prob=mconf.fully_connected_keep_prob)
+            keep_prob=self.fully_connected_keep_prob)
 
         style_adversary_prediction = tf.layers.dense(
             inputs=style_adversary_mlp, units=num_labels,
@@ -108,9 +108,9 @@ class AdversarialAutoencoder:
 
         decoder_cell = tf.nn.rnn_cell.DropoutWrapper(
             cell=tf.contrib.rnn.GRUCell(num_units=mconf.decoder_rnn_size),
-            input_keep_prob=mconf.recurrent_state_keep_prob,
-            output_keep_prob=mconf.recurrent_state_keep_prob,
-            state_keep_prob=mconf.recurrent_state_keep_prob)
+            input_keep_prob=self.recurrent_state_keep_prob,
+            output_keep_prob=self.recurrent_state_keep_prob,
+            state_keep_prob=self.recurrent_state_keep_prob)
 
         projection_layer = tf.layers.Dense(units=global_config.vocab_size, use_bias=False)
 
@@ -195,6 +195,21 @@ class AdversarialAutoencoder:
         self.inference_mode = tf.placeholder(dtype=tf.bool, name="inference_mode")
         logger.debug("inference_mode: {}".format(self.inference_mode))
 
+        self.recurrent_state_keep_prob = tf.cond(
+            pred=self.inference_mode,
+            true_fn=lambda: 1.0,
+            false_fn=lambda: mconf.recurrent_state_keep_prob)
+
+        self.fully_connected_keep_prob = tf.cond(
+            pred=self.inference_mode,
+            true_fn=lambda: 1.0,
+            false_fn=lambda: mconf.fully_connected_keep_prob)
+
+        self.sequence_word_keep_prob = tf.cond(
+            pred=self.inference_mode,
+            true_fn=lambda: 1.0,
+            false_fn=lambda: mconf.sequence_word_keep_prob)
+
         self.conditioning_embedding = tf.placeholder(
             dtype=tf.float32, shape=[None, mconf.style_embedding_size],
             name="conditioning_embedding")
@@ -229,13 +244,13 @@ class AdversarialAutoencoder:
                 # embedded sequences
                 encoder_embedded_sequence = tf.nn.dropout(
                     x=tf.nn.embedding_lookup(params=encoder_embeddings, ids=self.input_sequence),
-                    keep_prob=mconf.sequence_word_keep_prob,
+                    keep_prob=self.sequence_word_keep_prob,
                     name="encoder_embedded_sequence")
                 logger.debug("encoder_embedded_sequence: {}".format(encoder_embedded_sequence))
 
                 decoder_embedded_sequence = tf.nn.dropout(
                     x=tf.nn.embedding_lookup(params=decoder_embeddings, ids=decoder_input),
-                    keep_prob=mconf.sequence_word_keep_prob,
+                    keep_prob=self.sequence_word_keep_prob,
                     name="decoder_embedded_sequence")
                 logger.debug("decoder_embedded_sequence: {}".format(decoder_embedded_sequence))
 
@@ -317,7 +332,7 @@ class AdversarialAutoencoder:
                 x=tf.layers.dense(
                     inputs=style_embedding_mu, units=num_labels,
                     activation=tf.nn.softmax, name="style_multitask_prediction"),
-                keep_prob=mconf.fully_connected_keep_prob)
+                keep_prob=self.fully_connected_keep_prob)
             logger.debug("style_multitask_prediction: {}".format(style_multitask_prediction))
 
             self.quantized_style_multitask_prediction = tf.contrib.seq2seq.hardmax(
@@ -332,7 +347,7 @@ class AdversarialAutoencoder:
                 x=tf.layers.dense(
                     inputs=content_embedding_mu, units=global_config.bow_size,
                     activation=tf.nn.leaky_relu, name="content_multitask_prediction"),
-                keep_prob=mconf.fully_connected_keep_prob)
+                keep_prob=self.fully_connected_keep_prob)
             logger.debug("content_multitask_prediction: {}".format(content_multitask_prediction))
 
             self.content_multitask_loss = tf.losses.softmax_cross_entropy(
@@ -348,7 +363,7 @@ class AdversarialAutoencoder:
                 inputs=tf.concat(values=[style_embedding_mu, content_embedding_mu], axis=1),
                 units=num_labels, activation=tf.nn.softmax,
                 name="style_overall_prediction"),
-            keep_prob=mconf.fully_connected_keep_prob)
+            keep_prob=self.fully_connected_keep_prob)
         logger.debug("style_overall_prediction: {}".format(style_overall_prediction))
 
         self.quantized_style_overall_prediction = tf.contrib.seq2seq.hardmax(
