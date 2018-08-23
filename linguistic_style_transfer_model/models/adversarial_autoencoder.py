@@ -116,7 +116,8 @@ class AdversarialAutoencoder:
 
         init_state = decoder_cell.zero_state(batch_size=batch_size, dtype=tf.float32)
 
-        with tf.name_scope("training_decoder"):
+        training_decoder_scope_name = "training_decoder"
+        with tf.name_scope(training_decoder_scope_name):
             training_helper = tf.contrib.seq2seq.TrainingHelper(
                 inputs=embedded_sequence,
                 sequence_length=self.sequence_lengths)
@@ -126,14 +127,15 @@ class AdversarialAutoencoder:
                 initial_state=init_state,
                 latent_vector=generative_embedding,
                 output_layer=projection_layer)
-            training_decoder.initialize("training_decoder")
+            training_decoder.initialize(training_decoder_scope_name)
 
             training_decoder_output, _, _ = tf.contrib.seq2seq.dynamic_decode(
                 decoder=training_decoder, impute_finished=True,
                 maximum_iterations=global_config.max_sequence_length,
-                scope="training_decoder")
+                scope=training_decoder_scope_name)
 
-        with tf.name_scope('inference_decoder'):
+        inference_decoder_scope_name = "inference_decoder"
+        with tf.name_scope(inference_decoder_scope_name):
             greedy_embedding_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
                 embedding=decoder_embeddings,
                 start_tokens=tf.fill(dims=[batch_size],
@@ -145,13 +147,13 @@ class AdversarialAutoencoder:
                 initial_state=init_state,
                 latent_vector=generative_embedding,
                 output_layer=projection_layer)
-            inference_decoder.initialize("inference_decoder")
+            inference_decoder.initialize(inference_decoder_scope_name)
 
             inference_decoder_output, _, final_sequence_lengths = \
                 tf.contrib.seq2seq.dynamic_decode(
                     decoder=inference_decoder, impute_finished=True,
                     maximum_iterations=global_config.max_sequence_length,
-                    scope="inference_decoder")
+                    scope=inference_decoder_scope_name)
 
         return [training_decoder_output.rnn_output, inference_decoder_output.sample_id, final_sequence_lengths]
 
