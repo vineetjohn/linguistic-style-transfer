@@ -7,7 +7,8 @@ Neural network model to disentangle and transfer linguistic style in text
 ## Prerequistites
 
 * [python3](https://www.python.org/downloads)
-* [tensorflow==1.xx](https://pypi.org/project/tensorflow/)
+* [pip](https://pip.pypa.io/en/stable/installing/)
+* [tensorflow1.x](https://pypi.org/project/tensorflow/)
 * [numpy](https://pypi.org/project/numpy/)
 * [scipy](https://pypi.org/project/scipy/)
 * [nltk](https://pypi.org/project/nltk/)
