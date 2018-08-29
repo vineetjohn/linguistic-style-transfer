@@ -21,8 +21,8 @@ class ModelConfig():
         self.content_adversary_learning_rate = 0.001
 
         # loss weights
-        self.style_multitask_loss_weight = 1
-        self.content_multitask_loss_weight = 1
+        self.style_multitask_loss_weight = 10
+        self.content_multitask_loss_weight = 3
         self.style_adversary_loss_weight = 1
         self.content_adversary_loss_weight = 0.03
         self.style_kl_lambda = 0.03
