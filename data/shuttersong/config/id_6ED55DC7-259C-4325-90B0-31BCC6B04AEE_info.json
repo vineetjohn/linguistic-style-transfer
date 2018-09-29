@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T10:41:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000217b7_fe3dea586882.ssng", 
+    "updated_at": "2015-08-04T10:41:45-04:00", 
+    "share_url": "https://a.sso.ng/1/fe3dea586882", 
+    "audio_url": "https://s01.sso.ng/1/0000000217b7_fe3dea586882.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000217b7_fe3dea586882_mr.jpg", 
+    "song_album": "In the Lonely Hour (Deluxe Version)", 
+    "user": {
+        "username": "chuchin112233", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b3c5a496-9ecf-4240-bb00-c6b94743df54"
+    }, 
+    "song_title": "Stay With Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000217b7_fe3dea586882_th.jpg", 
+    "song_artist": "Sam Smith", 
+    "favorite_count": 1, 
+    "uuid": "6ED55DC7-259C-4325-90B0-31BCC6B04AEE"
+}

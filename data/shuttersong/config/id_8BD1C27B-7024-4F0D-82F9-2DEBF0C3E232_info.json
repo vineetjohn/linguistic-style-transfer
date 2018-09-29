@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Babe", 
+    "created_at": "2016-06-20T17:01:49-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004596d_58bebc748057.ssng", 
+    "updated_at": "2016-06-21T14:12:58-04:00", 
+    "share_url": "https://a.sso.ng/1/58bebc748057", 
+    "audio_url": "https://s02.sso.ng/1/00000004596d_58bebc748057.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004596d_58bebc748057_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "thedopeyjai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Dopeyjai", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/333e45d3-13e0-4f79-a15e-4f5cf6d61a44.jpg", 
+        "id": "333e45d3-13e0-4f79-a15e-4f5cf6d61a44"
+    }, 
+    "song_title": "Ben E. King - Stand by me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004596d_58bebc748057_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "8BD1C27B-7024-4F0D-82F9-2DEBF0C3E232"
+}

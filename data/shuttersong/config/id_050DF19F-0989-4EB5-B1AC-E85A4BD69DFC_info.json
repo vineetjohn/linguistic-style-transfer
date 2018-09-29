@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-12T15:22:38-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea6a_d716ed32d286.ssng", 
+    "updated_at": "2016-02-12T22:30:21-05:00", 
+    "share_url": "https://a.sso.ng/1/d716ed32d286", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea6a_d716ed32d286.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea6a_d716ed32d286_mr.jpg", 
+    "song_album": "This F**kin Song - Single", 
+    "user": {
+        "username": "gina.janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce57dc3d-08d1-4494-af4a-c309a922ed35.jpg", 
+        "id": "ce57dc3d-08d1-4494-af4a-c309a922ed35"
+    }, 
+    "song_title": "This F**kin Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea6a_d716ed32d286_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "050DF19F-0989-4EB5-B1AC-E85A4BD69DFC"
+}

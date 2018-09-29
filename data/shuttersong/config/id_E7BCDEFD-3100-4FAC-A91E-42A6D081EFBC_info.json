@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-26T07:37:26-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043fea_3517cf1fcb34.ssng", 
+    "updated_at": "2016-05-27T11:25:30-04:00", 
+    "share_url": "https://a.sso.ng/1/3517cf1fcb34", 
+    "audio_url": "https://s02.sso.ng/1/000000043fea_3517cf1fcb34.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043fea_3517cf1fcb34_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Luli02", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6545bb8c-7f36-4145-9c07-99d2881e21c6"
+    }, 
+    "song_title": "Passenger - Let Her Go (Lyrics)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043fea_3517cf1fcb34_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "E7BCDEFD-3100-4FAC-A91E-42A6D081EFBC"
+}

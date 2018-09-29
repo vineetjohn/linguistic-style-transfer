@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "LA DEVOTEE", 
+    "created_at": "2015-12-17T20:59:33-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030166_e88c752cb2aa.ssng", 
+    "updated_at": "2016-01-03T20:42:27-05:00", 
+    "share_url": "https://a.sso.ng/1/e88c752cb2aa", 
+    "audio_url": "https://s01.sso.ng/1/000000030166_e88c752cb2aa.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030166_e88c752cb2aa_mr.jpg", 
+    "song_album": "Death Of A Bachelor", 
+    "user": {
+        "username": "martinaviera", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/578d5cf7-666f-4192-928e-ceeef26ce234.jpg", 
+        "id": "578d5cf7-666f-4192-928e-ceeef26ce234"
+    }, 
+    "song_title": "LA Devotee", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030166_e88c752cb2aa_th.jpg", 
+    "song_artist": "Panic! At the Disco", 
+    "favorite_count": 1, 
+    "uuid": "C59A0115-D84D-41F4-82B6-FFC9C135500C"
+}

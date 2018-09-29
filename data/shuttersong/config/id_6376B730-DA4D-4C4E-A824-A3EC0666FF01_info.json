@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "High on life", 
+    "created_at": "2015-10-07T16:51:31-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020119_8db0204680b6_1.ssng", 
+    "updated_at": "2015-12-30T14:24:57-05:00", 
+    "share_url": "https://a.sso.ng/1/8db0204680b6", 
+    "audio_url": "https://s01.sso.ng/1/000000020119_8db0204680b6_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020119_8db0204680b6_1_mr.jpg", 
+    "song_album": "All Star Smash Hits", 
+    "user": {
+        "username": "JakeBoys", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Jake Boys", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c271f3af-a64f-43ee-9111-3e3ca184d25f.jpg", 
+        "id": "c271f3af-a64f-43ee-9111-3e3ca184d25f"
+    }, 
+    "song_title": "All Star", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020119_8db0204680b6_1_th.jpg", 
+    "song_artist": "Smash Mouth", 
+    "favorite_count": 4, 
+    "uuid": "6376B730-DA4D-4C4E-A824-A3EC0666FF01"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2016-03-08T10:36:34-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eca1_421856a6b304.ssng", 
+    "updated_at": "2016-03-08T15:01:13-05:00", 
+    "share_url": "https://a.sso.ng/1/421856a6b304", 
+    "audio_url": "https://s02.sso.ng/1/00000003eca1_421856a6b304.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eca1_421856a6b304_mr.jpg", 
+    "song_album": "The Summer EP", 
+    "user": {
+        "username": "rudeyammouni", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7a461cb5-49a1-44ac-9983-4184fd276947.jpg", 
+        "id": "7a461cb5-49a1-44ac-9983-4184fd276947"
+    }, 
+    "song_title": "Never Shout Never - On the Brightside", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eca1_421856a6b304_th.jpg", 
+    "song_artist": "Never Shout Never", 
+    "favorite_count": 1, 
+    "uuid": "FE2F9876-AAC0-482B-8F15-C2FB46BB931B"
+}

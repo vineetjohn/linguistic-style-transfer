@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-02T23:16:29-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037e20_1da1211d8e65.ssng", 
+    "updated_at": "2016-01-03T01:19:19-05:00", 
+    "share_url": "https://a.sso.ng/1/1da1211d8e65", 
+    "audio_url": "https://s01.sso.ng/1/000000037e20_1da1211d8e65.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037e20_1da1211d8e65_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jimenanashely", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f2eb3d91-1e57-465a-946a-5e939c5e4f0d"
+    }, 
+    "song_title": "Major Lazer & DJ Snake Ft. J Balvin & Farruko - Lean On (feat. M\u00d8) (Video Oficial)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037e20_1da1211d8e65_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "BA7B74EF-A055-4801-8900-459A9FC5CF74"
+}

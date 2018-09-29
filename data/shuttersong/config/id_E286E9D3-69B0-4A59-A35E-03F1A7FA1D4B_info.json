@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:02:46-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000209c9_3a1cb0a0bbbf.ssng", 
+    "updated_at": "2015-08-03T23:02:46-04:00", 
+    "share_url": "https://a.sso.ng/1/3a1cb0a0bbbf", 
+    "audio_url": "https://s01.sso.ng/1/0000000209c9_3a1cb0a0bbbf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000209c9_3a1cb0a0bbbf_mr.jpg", 
+    "song_album": "Rumors - EP", 
+    "user": {
+        "username": "juliawarmus", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Julia Warmus", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1cab9637-b705-4bd9-a90f-c05fab5aa444"
+    }, 
+    "song_title": "Rumors", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000209c9_3a1cb0a0bbbf_th.jpg", 
+    "song_artist": "Jake Miller", 
+    "favorite_count": 1, 
+    "uuid": "E286E9D3-69B0-4A59-A35E-03F1A7FA1D4B"
+}

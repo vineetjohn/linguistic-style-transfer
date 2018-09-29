@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-16T17:42:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_01dad2e74649.ssng", 
+    "updated_at": "2016-06-17T19:57:39-04:00", 
+    "share_url": "https://a.sso.ng/1/01dad2e74649", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_01dad2e74649.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_01dad2e74649_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "Best Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_01dad2e74649_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 4, 
+    "uuid": "12DB79AB-75BB-44A7-AA7F-F1F60CA9A7EB"
+}

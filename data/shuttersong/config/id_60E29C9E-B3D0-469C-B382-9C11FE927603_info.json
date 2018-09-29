@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2016-01-09T23:11:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030a9d_7b2547762017.ssng", 
+    "updated_at": "2016-01-12T10:11:14-05:00", 
+    "share_url": "https://a.sso.ng/1/7b2547762017", 
+    "audio_url": "https://s01.sso.ng/1/000000030a9d_7b2547762017.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030a9d_7b2547762017_mr.jpg", 
+    "song_album": "Sorry (feat. J Balvin) [Latino Remix] - Single", 
+    "user": {
+        "username": "mariaasanchez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1da29d0c-25ef-420c-ae03-c8f574298faf.jpg", 
+        "id": "1da29d0c-25ef-420c-ae03-c8f574298faf"
+    }, 
+    "song_title": "Sorry (feat. J Balvin)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030a9d_7b2547762017_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 2, 
+    "uuid": "60E29C9E-B3D0-469C-B382-9C11FE927603"
+}

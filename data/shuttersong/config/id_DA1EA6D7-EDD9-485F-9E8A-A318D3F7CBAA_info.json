@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "This song gives me hope in life that I am worth living\u2764\ufe0f??", 
+    "created_at": "2015-08-04T15:13:35-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020d05_97299144b73a_1.ssng", 
+    "updated_at": "2015-08-04T15:14:31-04:00", 
+    "share_url": "https://a.sso.ng/1/97299144b73a", 
+    "audio_url": "https://s01.sso.ng/1/000000020d05_97299144b73a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020d05_97299144b73a_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "johnson.jack", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "29e74362-ffe4-462d-bb8c-1b410e485398"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020d05_97299144b73a_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "DA1EA6D7-EDD9-485F-9E8A-A318D3F7CBAA"
+}

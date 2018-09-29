@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-07-03T16:40:37-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d2bb_e67be8adcbe9.ssng", 
+    "updated_at": "2016-07-05T07:59:00-04:00", 
+    "share_url": "https://a.sso.ng/1/e67be8adcbe9", 
+    "audio_url": "https://s02.sso.ng/1/00000003d2bb_e67be8adcbe9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d2bb_e67be8adcbe9_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "zitih", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a58f0cba-9dff-4fee-a5a6-3da1466195bb"
+    }, 
+    "song_title": "Lana Del Rey - Young and Beautiful (from _The Great Gatsby_ Soundtrack)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d2bb_e67be8adcbe9_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "F9733DCF-093A-4C8E-8B32-5DA65B411E4F"
+}

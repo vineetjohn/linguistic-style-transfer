@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-04T22:05:33-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c23a_30558e54cbff.ssng", 
+    "updated_at": "2016-01-07T00:24:45-05:00", 
+    "share_url": "https://a.sso.ng/1/30558e54cbff", 
+    "audio_url": "https://s01.sso.ng/1/00000003c23a_30558e54cbff.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c23a_30558e54cbff_mr.jpg", 
+    "song_album": "Do It Again (feat. Chris Brown & Tyga) - Single", 
+    "user": {
+        "username": "jessica.huffman", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f8af4743-61a8-4b9f-89fa-5bf39bafa39d.jpg", 
+        "id": "f8af4743-61a8-4b9f-89fa-5bf39bafa39d"
+    }, 
+    "song_title": "Do It Again (feat. Chris Brown & Tyga)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c23a_30558e54cbff_th.jpg", 
+    "song_artist": "Pia Mia", 
+    "favorite_count": 2, 
+    "uuid": "A3F78E1D-B6B7-4442-B536-2A9E923370B5"
+}

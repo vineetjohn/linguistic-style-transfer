@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo  Youtube: Vale Jaramillo (valenantu@hotmail.com)", 
+    "created_at": "2015-12-20T17:49:04-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037f35_ebff6d4ccf32.ssng", 
+    "updated_at": "2015-12-20T18:05:42-05:00", 
+    "share_url": "https://a.sso.ng/1/ebff6d4ccf32", 
+    "audio_url": "https://s01.sso.ng/1/000000037f35_ebff6d4ccf32.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037f35_ebff6d4ccf32_mr.jpg", 
+    "song_album": "The Lumineers", 
+    "user": {
+        "username": "ValeJaramillo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7ef541d6-8a09-4e5e-a942-fa5c421168a0.jpg", 
+        "id": "7ef541d6-8a09-4e5e-a942-fa5c421168a0"
+    }, 
+    "song_title": "Ho Hey", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037f35_ebff6d4ccf32_th.jpg", 
+    "song_artist": "The Lumineers", 
+    "favorite_count": 1, 
+    "uuid": "B79A359B-5413-406C-9DAC-31BBA940FF28"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I miss Johnson. So close ", 
+    "created_at": "2015-08-04T05:01:41-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002094b_c821c32707f0_1.ssng", 
+    "updated_at": "2015-08-04T05:02:30-04:00", 
+    "share_url": "https://a.sso.ng/1/c821c32707f0", 
+    "audio_url": "https://s01.sso.ng/1/00000002094b_c821c32707f0_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002094b_c821c32707f0_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "itserica", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Erica", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2089d089-9eed-4bfc-ae61-3432dafb241b.jpg", 
+        "id": "2089d089-9eed-4bfc-ae61-3432dafb241b"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002094b_c821c32707f0_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "D01BEACC-6C6E-4275-9A3E-1B43CDA6CE79"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "work luke work\u26cf\u26cf\u26cf", 
+    "created_at": "2016-03-14T13:00:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f8d4_32c212747467.ssng", 
+    "updated_at": "2016-03-19T07:37:50-04:00", 
+    "share_url": "https://a.sso.ng/1/32c212747467", 
+    "audio_url": "https://s02.sso.ng/1/00000003f8d4_32c212747467.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f8d4_32c212747467_mr.jpg", 
+    "song_album": "She Bad (feat. Sj3) - Single", 
+    "user": {
+        "username": "beaudickful", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/97c6714b-64df-4eb7-821a-be1e56438a70.jpg", 
+        "id": "97c6714b-64df-4eb7-821a-be1e56438a70"
+    }, 
+    "song_title": "She Bad (feat. Sj3)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f8d4_32c212747467_th.jpg", 
+    "song_artist": "Cameron Dallas", 
+    "favorite_count": 2, 
+    "uuid": "524B14FA-465A-4F89-B4A1-467A3CD7515E"
+}

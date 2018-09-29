@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-16T14:17:07-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002ffac_48ddaf10b8fd.ssng", 
+    "updated_at": "2015-11-17T01:57:15-05:00", 
+    "share_url": "https://a.sso.ng/1/48ddaf10b8fd", 
+    "audio_url": "https://s01.sso.ng/1/00000002ffac_48ddaf10b8fd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002ffac_48ddaf10b8fd_mr.jpg", 
+    "song_album": "Portraits", 
+    "user": {
+        "username": "Alonsoxavi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "56b3b273-6482-4b86-934e-12dd5d1e98bb"
+    }, 
+    "song_title": "Elijah (The Forerunner)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002ffac_48ddaf10b8fd_th.jpg", 
+    "song_artist": "For Today", 
+    "favorite_count": 1, 
+    "uuid": "B1F748E4-A33C-4921-958E-3289965154C6"
+}

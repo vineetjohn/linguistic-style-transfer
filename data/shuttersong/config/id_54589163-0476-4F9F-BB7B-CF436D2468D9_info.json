@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??????????", 
+    "created_at": "2015-08-21T11:08:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029393_410bf209dd17_1.ssng", 
+    "updated_at": "2015-08-21T20:49:37-04:00", 
+    "share_url": "https://a.sso.ng/1/410bf209dd17", 
+    "audio_url": "https://s01.sso.ng/1/000000029393_410bf209dd17_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029393_410bf209dd17_1_mr.jpg", 
+    "song_album": "Don't Kill the Magic", 
+    "user": {
+        "username": "paolamatus", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/13817ed3-076c-4666-a720-9399f410db52.jpg", 
+        "id": "13817ed3-076c-4666-a720-9399f410db52"
+    }, 
+    "song_title": "Rude", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029393_410bf209dd17_1_th.jpg", 
+    "song_artist": "MAGIC!", 
+    "favorite_count": 2, 
+    "uuid": "54589163-0476-4F9F-BB7B-CF436D2468D9"
+}

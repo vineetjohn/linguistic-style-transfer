@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hot chocolate and chocolate biscuits for breakfast #chocolate", 
+    "created_at": "2015-08-03T06:18:12-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f449_214c9cf5b082_1.ssng", 
+    "updated_at": "2015-12-31T07:18:56-05:00", 
+    "share_url": "https://a.sso.ng/1/214c9cf5b082", 
+    "audio_url": "https://s01.sso.ng/1/00000001f449_214c9cf5b082_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f449_214c9cf5b082_1_mr.jpg", 
+    "song_album": "Chocolate", 
+    "user": {
+        "username": "KTrose", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Caitlin", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4b3b27a-e8ee-4bec-bb54-b00569986ac2.jpg", 
+        "id": "d4b3b27a-e8ee-4bec-bb54-b00569986ac2"
+    }, 
+    "song_title": "Chocolate", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f449_214c9cf5b082_1_th.jpg", 
+    "song_artist": "The 1975", 
+    "favorite_count": 4, 
+    "uuid": "A2C00E73-F49A-4C37-9B55-857F2E54FD43"
+}

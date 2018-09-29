@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "This is for Jack and Jack ", 
+    "created_at": "2015-08-04T15:58:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021a4e_94fdcbd35f25_1.ssng", 
+    "updated_at": "2015-08-04T15:59:13-04:00", 
+    "share_url": "https://a.sso.ng/1/94fdcbd35f25", 
+    "audio_url": "https://s01.sso.ng/1/000000021a4e_94fdcbd35f25_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021a4e_94fdcbd35f25_1_mr.jpg", 
+    "song_album": "Drag Me Down - Single", 
+    "user": {
+        "username": "AcidrapJohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "dom", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8d5c1bdc-b095-4047-a314-6d0297257b87.jpg", 
+        "id": "8d5c1bdc-b095-4047-a314-6d0297257b87"
+    }, 
+    "song_title": "Drag Me Down", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021a4e_94fdcbd35f25_1_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "550B8DE4-B61E-4CEC-8D4A-5185258EE0A7"
+}

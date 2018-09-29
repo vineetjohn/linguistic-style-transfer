@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-30T04:19:18-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b5db_b0bb5b3e4668.ssng", 
+    "updated_at": "2015-12-30T11:12:11-05:00", 
+    "share_url": "https://a.sso.ng/1/b0bb5b3e4668", 
+    "audio_url": "https://s01.sso.ng/1/00000003b5db_b0bb5b3e4668.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b5db_b0bb5b3e4668_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "wopaolahoho", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0aa3837a-6e2b-4e0d-95f5-51eb9e921414.jpg", 
+        "id": "0aa3837a-6e2b-4e0d-95f5-51eb9e921414"
+    }, 
+    "song_title": "Mrs. Cold", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b5db_b0bb5b3e4668_th.jpg", 
+    "song_artist": "Kings of Convenience", 
+    "favorite_count": 2, 
+    "uuid": "ABE0C2EA-942E-4B5E-8DB8-5E19D39F6744"
+}

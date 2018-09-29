@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-09T19:32:54-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003cb77_872d8eff7185.ssng", 
+    "updated_at": "2016-01-10T07:59:19-05:00", 
+    "share_url": "https://a.sso.ng/1/872d8eff7185", 
+    "audio_url": "https://s01.sso.ng/1/00000003cb77_872d8eff7185.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003cb77_872d8eff7185_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Aniilu_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e883204-a19b-4688-976a-30a511325270.jpg", 
+        "id": "2e883204-a19b-4688-976a-30a511325270"
+    }, 
+    "song_title": "troublemaker", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003cb77_872d8eff7185_th.jpg", 
+    "song_artist": "Olly Murs feat Flo Rida", 
+    "favorite_count": 1, 
+    "uuid": "E503C704-5899-461E-B5E8-93981B227570"
+}

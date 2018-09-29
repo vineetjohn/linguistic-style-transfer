@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-04-23T00:03:49-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041aee_9cdbd1e1fc09.ssng", 
+    "updated_at": "2016-04-24T05:08:59-04:00", 
+    "share_url": "https://a.sso.ng/1/9cdbd1e1fc09", 
+    "audio_url": "https://s02.sso.ng/1/000000041aee_9cdbd1e1fc09.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041aee_9cdbd1e1fc09_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ken21", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "28c70497-d09f-4f29-881f-14c8f84d77ca"
+    }, 
+    "song_title": "Charlie Puth - One Call Away [Official Video]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041aee_9cdbd1e1fc09_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "8EE433DE-D94D-4180-975C-6DBBAD587E45"
+}

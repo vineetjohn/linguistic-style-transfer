@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-06T10:22:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004494a_8b62501141b0.ssng", 
+    "updated_at": "2016-06-07T14:46:50-04:00", 
+    "share_url": "https://a.sso.ng/1/8b62501141b0", 
+    "audio_url": "https://s02.sso.ng/1/00000004494a_8b62501141b0.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004494a_8b62501141b0_mr.jpg", 
+    "song_album": "Walk The Moon - Shut Up And Dance", 
+    "user": {
+        "username": "CPVISHALNAIR", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c159d556-48d6-43d0-8631-a2b944d1bf24"
+    }, 
+    "song_title": "Walk The Moon - Shut Up And Dance - Walk The Moon - Shut Up And Dance", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004494a_8b62501141b0_th.jpg", 
+    "song_artist": "Walk The Moon - Shut Up And Dance - Walk The Moon - Shut Up And Dance", 
+    "favorite_count": 3, 
+    "uuid": "36900502-2FC3-47F8-8569-FBD73C2FE895"
+}

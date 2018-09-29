@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-18T12:45:07-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041692_e7305ee43672.ssng", 
+    "updated_at": "2016-04-19T13:53:47-04:00", 
+    "share_url": "https://a.sso.ng/1/e7305ee43672", 
+    "audio_url": "https://s02.sso.ng/1/000000041692_e7305ee43672.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041692_e7305ee43672_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "bmmb", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5714ffa8-1035-46a7-92ea-dffb98bc4ddf"
+    }, 
+    "song_title": "Waterbound", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041692_e7305ee43672_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "896BA638-1BEE-49A3-8DBF-1DA51D36EE4B"
+}

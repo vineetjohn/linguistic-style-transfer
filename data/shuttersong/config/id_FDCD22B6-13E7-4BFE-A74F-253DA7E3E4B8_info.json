@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "Date night", 
+    "created_at": "2016-02-12T01:37:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4b4_c252ba0a0f98.ssng", 
+    "updated_at": "2016-06-20T16:54:31-04:00", 
+    "share_url": "https://a.sso.ng/1/c252ba0a0f98", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4b4_c252ba0a0f98.m4a", 
+    "comment_count": 22, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4b4_c252ba0a0f98_mr.jpg", 
+    "song_album": "New Glow", 
+    "user": {
+        "username": "chelseyamaro", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7da84893-7f1f-4ca1-83d8-9d9a71644eb1.jpg", 
+        "id": "7da84893-7f1f-4ca1-83d8-9d9a71644eb1"
+    }, 
+    "song_title": "Can You Blame Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4b4_c252ba0a0f98_th.jpg", 
+    "song_artist": "Matt and Kim", 
+    "favorite_count": 150, 
+    "uuid": "FDCD22B6-13E7-4BFE-A74F-253DA7E3E4B8"
+}

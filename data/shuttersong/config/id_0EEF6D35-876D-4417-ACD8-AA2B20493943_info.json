@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#selfie #summer #snowcone", 
+    "created_at": "2015-08-04T10:43:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000217d0_fdad0c34ebd5_1.ssng", 
+    "updated_at": "2015-10-24T16:37:49-04:00", 
+    "share_url": "https://a.sso.ng/1/fdad0c34ebd5", 
+    "audio_url": "https://s01.sso.ng/1/0000000217d0_fdad0c34ebd5_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000217d0_fdad0c34ebd5_1_mr.jpg", 
+    "song_album": "Never Happy, Ever After", 
+    "user": {
+        "username": "graciejean.b", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/08735e1f-462e-426d-b909-4bcd5660c619.jpg", 
+        "id": "08735e1f-462e-426d-b909-4bcd5660c619"
+    }, 
+    "song_title": "Dial Tones", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000217d0_fdad0c34ebd5_1_th.jpg", 
+    "song_artist": "As It Is", 
+    "favorite_count": 2, 
+    "uuid": "0EEF6D35-876D-4417-ACD8-AA2B20493943"
+}

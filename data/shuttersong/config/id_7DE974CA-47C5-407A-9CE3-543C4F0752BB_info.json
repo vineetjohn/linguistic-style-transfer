@@ -1,0 +1,27 @@
+{
+    "mood": "hungry", 
+    "caption": "Surfboard \ud83c\udfc4", 
+    "created_at": "2016-03-07T00:50:14-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4b8_4ba1726a1d72.ssng", 
+    "updated_at": "2016-05-06T01:47:31-04:00", 
+    "share_url": "https://a.sso.ng/1/4ba1726a1d72", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4b8_4ba1726a1d72.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4b8_4ba1726a1d72_mr.jpg", 
+    "song_album": "Greatest Hits!", 
+    "user": {
+        "username": "stephw7", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/784cca44-dc37-420a-a6fa-015612c14918.jpg", 
+        "id": "784cca44-dc37-420a-a6fa-015612c14918"
+    }, 
+    "song_title": "Boom, Boom, Boom, Boom!!", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4b8_4ba1726a1d72_th.jpg", 
+    "song_artist": "Vengaboys", 
+    "favorite_count": 1, 
+    "uuid": "7DE974CA-47C5-407A-9CE3-543C4F0752BB"
+}

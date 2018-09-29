@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-31T15:32:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029f09_8273cf3ffe94.ssng", 
+    "updated_at": "2015-08-31T23:26:19-04:00", 
+    "share_url": "https://a.sso.ng/1/8273cf3ffe94", 
+    "audio_url": "https://s01.sso.ng/1/000000029f09_8273cf3ffe94.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029f09_8273cf3ffe94_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "belieber_yesly", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8df42f63-2b2f-4a5c-ae39-ecca80fccd67.jpg", 
+        "id": "8df42f63-2b2f-4a5c-ae39-ecca80fccd67"
+    }, 
+    "song_title": "Justin Bieber   What Do You Mean (Lyric Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029f09_8273cf3ffe94_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "C61C4F4C-6032-4B39-9C09-5CAD5589F01E"
+}

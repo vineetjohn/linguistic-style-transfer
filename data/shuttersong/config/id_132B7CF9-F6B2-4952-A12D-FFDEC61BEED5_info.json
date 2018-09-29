@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2016-02-11T08:25:01-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e62d_ad983ede26d3.ssng", 
+    "updated_at": "2016-02-11T10:38:05-05:00", 
+    "share_url": "https://a.sso.ng/1/ad983ede26d3", 
+    "audio_url": "https://s02.sso.ng/1/00000003e62d_ad983ede26d3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e62d_ad983ede26d3_mr.jpg", 
+    "song_album": "Cry Baby", 
+    "user": {
+        "username": "grungemebrooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lara Sophie Brooks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/37aefa05-29c7-44ce-b6d9-d783a57e41ab.jpg", 
+        "id": "37aefa05-29c7-44ce-b6d9-d783a57e41ab"
+    }, 
+    "song_title": "Cry Baby", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e62d_ad983ede26d3_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 3, 
+    "uuid": "132B7CF9-F6B2-4952-A12D-FFDEC61BEED5"
+}

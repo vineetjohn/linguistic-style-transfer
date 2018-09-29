@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-31T21:46:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000034ba9_798378b67c17.ssng", 
+    "updated_at": "2016-01-02T19:10:18-05:00", 
+    "share_url": "https://a.sso.ng/1/798378b67c17", 
+    "audio_url": "https://s01.sso.ng/1/000000034ba9_798378b67c17.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000034ba9_798378b67c17_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "carloschmarin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Carlos E Chacon", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b9848fe5-7820-418e-a06a-0232a93d145e.jpg", 
+        "id": "b9848fe5-7820-418e-a06a-0232a93d145e"
+    }, 
+    "song_title": "Alive", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000034ba9_798378b67c17_th.jpg", 
+    "song_artist": "Sia", 
+    "favorite_count": 1, 
+    "uuid": "07762316-9E21-4BC4-A2A9-47AFB05E9E93"
+}

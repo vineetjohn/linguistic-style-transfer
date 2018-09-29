@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Stowe, Vermont, USA \ud83c\udf2c", 
+    "created_at": "2016-04-28T17:20:38-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042383_92be3e4f0c43.ssng", 
+    "updated_at": "2016-04-28T20:22:56-04:00", 
+    "share_url": "https://a.sso.ng/1/92be3e4f0c43", 
+    "audio_url": "https://s02.sso.ng/1/000000042383_92be3e4f0c43.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042383_92be3e4f0c43_mr.jpg", 
+    "song_album": "1989", 
+    "user": {
+        "username": "oliviaparsons", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Olivia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d21adb58-dc6a-4b67-ad0a-271338e0298e.jpg", 
+        "id": "d21adb58-dc6a-4b67-ad0a-271338e0298e"
+    }, 
+    "song_title": "Welcome To New York", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042383_92be3e4f0c43_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "A67847C7-04A6-4B92-B453-632DD69E8DA2"
+}

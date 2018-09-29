@@ -1,0 +1,27 @@
+{
+    "mood": "blank", 
+    "caption": "street art in the city", 
+    "created_at": "2016-04-30T16:22:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042523_348ee883673d.ssng", 
+    "updated_at": "2016-05-11T16:59:56-04:00", 
+    "share_url": "https://a.sso.ng/1/348ee883673d", 
+    "audio_url": "https://s02.sso.ng/1/000000042523_348ee883673d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042523_348ee883673d_mr.jpg", 
+    "song_album": "Does This Look Infected?", 
+    "user": {
+        "username": "tidalwave", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "emily", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b0010c9f-30dd-4249-948f-548ee88cd0ae.jpg", 
+        "id": "b0010c9f-30dd-4249-948f-548ee88cd0ae"
+    }, 
+    "song_title": "The Hell Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042523_348ee883673d_th.jpg", 
+    "song_artist": "Sum 41", 
+    "favorite_count": 3, 
+    "uuid": "73A8227F-9D55-4905-B1B8-B9FC54CAD53E"
+}

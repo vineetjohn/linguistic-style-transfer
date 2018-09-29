@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-16T01:35:12-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004547e_2851e55705c1.ssng", 
+    "updated_at": "2016-06-17T19:58:13-04:00", 
+    "share_url": "https://a.sso.ng/1/2851e55705c1", 
+    "audio_url": "https://s02.sso.ng/1/00000004547e_2851e55705c1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004547e_2851e55705c1_mr.jpg", 
+    "song_album": "Eye On It", 
+    "user": {
+        "username": "petrag", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "daa09582-38a4-4a9a-a89d-f8b6d1afa259"
+    }, 
+    "song_title": "Favorite Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004547e_2851e55705c1_th.jpg", 
+    "song_artist": "TobyMac Feat. Jamie Grace", 
+    "favorite_count": 1, 
+    "uuid": "6D7D070A-C597-4F6C-9025-235313C5EA02"
+}

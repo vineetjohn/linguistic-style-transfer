@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-02T04:55:53-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7f3_2c6dc308f38d.ssng", 
+    "updated_at": "2016-03-02T13:22:01-05:00", 
+    "share_url": "https://a.sso.ng/1/2c6dc308f38d", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7f3_2c6dc308f38d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7f3_2c6dc308f38d_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "cupcakenikkie13", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3af5cc0b-fd0e-4e0b-be97-ffc7ebcc0634.jpg", 
+        "id": "3af5cc0b-fd0e-4e0b-be97-ffc7ebcc0634"
+    }, 
+    "song_title": "Real Girls Eat Cake", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7f3_2c6dc308f38d_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 4, 
+    "uuid": "8A760D68-EBD3-4A92-B43E-84F0A99EED1F"
+}

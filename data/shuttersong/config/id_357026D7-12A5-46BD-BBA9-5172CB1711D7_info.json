@@ -1,0 +1,27 @@
+{
+    "mood": "blah", 
+    "caption": "", 
+    "created_at": "2016-02-20T01:19:11-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9ff_e0dd9ccd4092.ssng", 
+    "updated_at": "2016-05-06T12:28:35-04:00", 
+    "share_url": "https://a.sso.ng/1/e0dd9ccd4092", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9ff_e0dd9ccd4092.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9ff_e0dd9ccd4092_mr.jpg", 
+    "song_album": "When It's Dark Out", 
+    "user": {
+        "username": "JaiBearBrooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b0130a80-1d31-4bb9-94ff-18b8b22f7cd7.jpg", 
+        "id": "b0130a80-1d31-4bb9-94ff-18b8b22f7cd7"
+    }, 
+    "song_title": "Me, Myself & I", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9ff_e0dd9ccd4092_th.jpg", 
+    "song_artist": "G-Eazy x Bebe Rexha", 
+    "favorite_count": 4, 
+    "uuid": "357026D7-12A5-46BD-BBA9-5172CB1711D7"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-04-12T04:49:56-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_7df68020b05e.ssng", 
+    "updated_at": "2016-04-15T19:18:00-04:00", 
+    "share_url": "https://a.sso.ng/1/7df68020b05e", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_7df68020b05e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_7df68020b05e_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "Fais - Hey (Official Video) ft. Afrojack", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_7df68020b05e_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "1EEEFA6C-6D3C-47B1-B730-CD6DFBC97094"
+}

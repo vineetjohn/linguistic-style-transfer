@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "???", 
+    "created_at": "2015-12-22T20:38:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002c329_e7af320d1f60_1.ssng", 
+    "updated_at": "2016-01-05T01:37:08-05:00", 
+    "share_url": "https://a.sso.ng/1/e7af320d1f60", 
+    "audio_url": "https://s01.sso.ng/1/00000002c329_e7af320d1f60_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002c329_e7af320d1f60_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "bishuus", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a2ab7030-f733-402c-a294-2fe3876c4bac.jpg", 
+        "id": "a2ab7030-f733-402c-a294-2fe3876c4bac"
+    }, 
+    "song_title": "Mariah Carey - All I Want For Christmas Is You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002c329_e7af320d1f60_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 12, 
+    "uuid": "F37CEAFF-88C2-4375-B1B9-7E7BDB3B7F6D"
+}

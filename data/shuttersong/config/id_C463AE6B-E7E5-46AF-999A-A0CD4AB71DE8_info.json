@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I LOVE IT", 
+    "created_at": "2015-09-04T22:24:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d248_2dc80335b69e_1.ssng", 
+    "updated_at": "2015-09-05T22:46:35-04:00", 
+    "share_url": "https://a.sso.ng/1/2dc80335b69e", 
+    "audio_url": "https://s01.sso.ng/1/00000002d248_2dc80335b69e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d248_2dc80335b69e_1_mr.jpg", 
+    "song_album": "Stories", 
+    "user": {
+        "username": "LoX998", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lox", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8709ba32-f719-43b7-ae83-003526268d1f.jpg", 
+        "id": "8709ba32-f719-43b7-ae83-003526268d1f"
+    }, 
+    "song_title": "The Days", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d248_2dc80335b69e_1_th.jpg", 
+    "song_artist": "Avicii", 
+    "favorite_count": 2, 
+    "uuid": "C463AE6B-E7E5-46AF-999A-A0CD4AB71DE8"
+}

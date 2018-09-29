@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-08T22:44:44-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003ccf5_7adb3c6b7b2d.ssng", 
+    "updated_at": "2016-01-13T00:09:44-05:00", 
+    "share_url": "https://a.sso.ng/1/7adb3c6b7b2d", 
+    "audio_url": "https://s01.sso.ng/1/00000003ccf5_7adb3c6b7b2d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003ccf5_7adb3c6b7b2d_mr.jpg", 
+    "song_album": "Motion", 
+    "user": {
+        "username": "AniMoc26", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "ff93decd-a4bc-4e50-9958-8f95435d57ff"
+    }, 
+    "song_title": "Blame (feat. John Newman)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003ccf5_7adb3c6b7b2d_th.jpg", 
+    "song_artist": "Calvin Harris", 
+    "favorite_count": 3, 
+    "uuid": "2684BB35-E322-407B-BEFB-504453AEA7A4"
+}

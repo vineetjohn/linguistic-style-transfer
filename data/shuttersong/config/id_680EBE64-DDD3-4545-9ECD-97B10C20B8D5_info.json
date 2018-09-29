@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YouTube: Yoselin Murillo ?", 
+    "created_at": "2015-12-30T01:10:46-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b58f_1d76a4b4387a.ssng", 
+    "updated_at": "2015-12-30T01:14:26-05:00", 
+    "share_url": "https://a.sso.ng/1/1d76a4b4387a", 
+    "audio_url": "https://s01.sso.ng/1/00000003b58f_1d76a4b4387a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b58f_1d76a4b4387a_mr.jpg", 
+    "song_album": "It's Only Time", 
+    "user": {
+        "username": "YoselinMurillo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fc39e6f9-b4df-4d6e-a10e-92e7d3e50276.jpg", 
+        "id": "fc39e6f9-b4df-4d6e-a10e-92e7d3e50276"
+    }, 
+    "song_title": "I Know", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b58f_1d76a4b4387a_th.jpg", 
+    "song_artist": "Drake Bell", 
+    "favorite_count": 1, 
+    "uuid": "680EBE64-DDD3-4545-9ECD-97B10C20B8D5"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T19:56:50-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000266f3_7e78db47bf69.ssng", 
+    "updated_at": "2015-08-27T23:13:29-04:00", 
+    "share_url": "https://a.sso.ng/1/7e78db47bf69", 
+    "audio_url": "https://s01.sso.ng/1/0000000266f3_7e78db47bf69.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000266f3_7e78db47bf69_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "briamnazabala", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6bcd9251-9eb8-427e-8d4a-ef6ce7108434"
+    }, 
+    "song_title": "Spaceman (Original Mix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000266f3_7e78db47bf69_th.jpg", 
+    "song_artist": "Hardwell", 
+    "favorite_count": 1, 
+    "uuid": "9355DCBA-7400-4401-8046-EACE2D6E82CE"
+}

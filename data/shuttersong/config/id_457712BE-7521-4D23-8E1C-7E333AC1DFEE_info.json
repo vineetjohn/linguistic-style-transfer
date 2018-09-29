@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-04-17T11:03:30-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041887_51d588dc1620.ssng", 
+    "updated_at": "2016-04-19T10:50:54-04:00", 
+    "share_url": "https://a.sso.ng/1/51d588dc1620", 
+    "audio_url": "https://s02.sso.ng/1/000000041887_51d588dc1620.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041887_51d588dc1620_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "musicalphoto", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "06151d31-fe6c-41ea-bafd-06e93faa7a63"
+    }, 
+    "song_title": "Major Lazer - Light It Up (feat. Nyla & Fuse ODG) [Remix]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041887_51d588dc1620_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "457712BE-7521-4D23-8E1C-7E333AC1DFEE"
+}

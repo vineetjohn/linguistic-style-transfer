@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-19T20:50:32-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea6a_d30618b2fbbf.ssng", 
+    "updated_at": "2016-02-21T09:20:44-05:00", 
+    "share_url": "https://a.sso.ng/1/d30618b2fbbf", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea6a_d30618b2fbbf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea6a_d30618b2fbbf_mr.jpg", 
+    "song_album": "True Colors", 
+    "user": {
+        "username": "gina.janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce57dc3d-08d1-4494-af4a-c309a922ed35.jpg", 
+        "id": "ce57dc3d-08d1-4494-af4a-c309a922ed35"
+    }, 
+    "song_title": "I Want You to Know (feat. Selena Gomez)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea6a_d30618b2fbbf_th.jpg", 
+    "song_artist": "Zedd", 
+    "favorite_count": 3, 
+    "uuid": "5EC697A0-4E28-44DF-94DF-6589BFA27273"
+}

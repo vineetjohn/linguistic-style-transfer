@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Amsterdam", 
+    "created_at": "2015-11-08T04:54:52-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000020086_f63785fdcec1_1.ssng", 
+    "updated_at": "2015-12-28T05:04:20-05:00", 
+    "share_url": "https://a.sso.ng/1/f63785fdcec1", 
+    "audio_url": "https://s01.sso.ng/1/000000020086_f63785fdcec1_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020086_f63785fdcec1_1_mr.jpg", 
+    "song_album": "Chilled House Ibiza - Ministry of Sound", 
+    "user": {
+        "username": "iSamPatterson", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Sam Patterson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ab9951de-a1a3-483a-8f0f-f6daa12f219d.jpg", 
+        "id": "ab9951de-a1a3-483a-8f0f-f6daa12f219d"
+    }, 
+    "song_title": "Here (Great Skies Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020086_f63785fdcec1_1_th.jpg", 
+    "song_artist": "Syron", 
+    "favorite_count": 4, 
+    "uuid": "8EF2D82A-9335-40A1-AA88-70F7AF6E610B"
+}

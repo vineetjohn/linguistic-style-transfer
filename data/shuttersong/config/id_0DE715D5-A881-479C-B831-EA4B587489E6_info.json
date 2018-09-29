@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-10T14:30:18-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e476_380fbfae3e5a.ssng", 
+    "updated_at": "2016-02-10T14:38:42-05:00", 
+    "share_url": "https://a.sso.ng/1/380fbfae3e5a", 
+    "audio_url": "https://s02.sso.ng/1/00000003e476_380fbfae3e5a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e476_380fbfae3e5a_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Marialoveslukey", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Maria", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3f6ba543-259b-4a20-81c0-5e078e3c203d.jpg", 
+        "id": "3f6ba543-259b-4a20-81c0-5e078e3c203d"
+    }, 
+    "song_title": "Duke Dumont - Ocean Drive", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e476_380fbfae3e5a_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "0DE715D5-A881-479C-B831-EA4B587489E6"
+}

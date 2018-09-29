@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-15T00:53:12-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000001d8fb_7a0369da5071.ssng", 
+    "updated_at": "2015-12-15T21:41:16-05:00", 
+    "share_url": "https://a.sso.ng/1/7a0369da5071", 
+    "audio_url": "https://s01.sso.ng/1/00000001d8fb_7a0369da5071.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001d8fb_7a0369da5071_mr.jpg", 
+    "song_album": "SNBRN Remixes", 
+    "user": {
+        "username": "_milomania_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9f8f68e7-151f-4f67-baa0-1f5c6a182f76"
+    }, 
+    "song_title": "Jitter (SNBRN Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001d8fb_7a0369da5071_th.jpg", 
+    "song_artist": "Grace Mitchell", 
+    "favorite_count": 1, 
+    "uuid": "C88E052F-0603-4E11-885E-2FB7A29B6FA6"
+}

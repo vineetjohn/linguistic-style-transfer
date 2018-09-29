@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Good vibes \u270c", 
+    "created_at": "2016-01-13T18:00:08-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000031f82_7950c050a767.ssng", 
+    "updated_at": "2016-01-14T18:25:04-05:00", 
+    "share_url": "https://a.sso.ng/1/7950c050a767", 
+    "audio_url": "https://s02.sso.ng/1/000000031f82_7950c050a767.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000031f82_7950c050a767_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "elisancontreras", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d5d6b183-4243-48bb-9c40-ef42ded6d4d7.jpg", 
+        "id": "d5d6b183-4243-48bb-9c40-ef42ded6d4d7"
+    }, 
+    "song_title": "Zedd - Straight Into The Fire", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000031f82_7950c050a767_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "14D5AA9D-0816-4AAA-81E0-F33836465E31"
+}

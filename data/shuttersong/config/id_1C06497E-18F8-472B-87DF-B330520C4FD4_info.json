@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T20:07:03-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021b6b_07035f993f9d.ssng", 
+    "updated_at": "2015-08-04T20:07:03-04:00", 
+    "share_url": "https://a.sso.ng/1/07035f993f9d", 
+    "audio_url": "https://s01.sso.ng/1/000000021b6b_07035f993f9d.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021b6b_07035f993f9d_mr.jpg", 
+    "song_album": "Love in the Future (Deluxe Edition)", 
+    "user": {
+        "username": "whatever", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "afb176be-b5fc-40e9-8eca-c97722b37389"
+    }, 
+    "song_title": "All of Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021b6b_07035f993f9d_th.jpg", 
+    "song_artist": "John Legend", 
+    "favorite_count": 1, 
+    "uuid": "1C06497E-18F8-472B-87DF-B330520C4FD4"
+}

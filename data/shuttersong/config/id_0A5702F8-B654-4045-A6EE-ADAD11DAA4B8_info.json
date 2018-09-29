@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I don't wanna leave California :( ", 
+    "created_at": "2015-08-04T01:23:10-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002129e_15091135b20c_1.ssng", 
+    "updated_at": "2015-08-04T01:23:39-04:00", 
+    "share_url": "https://a.sso.ng/1/15091135b20c", 
+    "audio_url": "https://s01.sso.ng/1/00000002129e_15091135b20c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002129e_15091135b20c_1_mr.jpg", 
+    "song_album": "Calibraska", 
+    "user": {
+        "username": "anaisrimaud", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8368f0fd-f884-43e0-aac0-aa568d76a919.jpg", 
+        "id": "8368f0fd-f884-43e0-aac0-aa568d76a919"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002129e_15091135b20c_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "0A5702F8-B654-4045-A6EE-ADAD11DAA4B8"
+}

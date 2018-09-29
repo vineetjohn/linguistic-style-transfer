@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My little brother is out growing me??", 
+    "created_at": "2015-11-26T21:56:19-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030367_1aeaa943200f_1.ssng", 
+    "updated_at": "2015-11-28T12:03:11-05:00", 
+    "share_url": "https://a.sso.ng/1/1aeaa943200f", 
+    "audio_url": "https://s01.sso.ng/1/000000030367_1aeaa943200f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030367_1aeaa943200f_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "jillylol", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jillian ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dbfb576e-2729-4faa-8373-2b64fd634c6a.jpg", 
+        "id": "dbfb576e-2729-4faa-8373-2b64fd634c6a"
+    }, 
+    "song_title": "Problem (feat. Iggy Azalea)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030367_1aeaa943200f_1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 2, 
+    "uuid": "3DCD9AD8-4EA2-4172-AE8F-E73AC6A4C13D"
+}

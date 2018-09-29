@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "First one", 
+    "created_at": "2015-08-04T00:35:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020d66_10d116899257_1.ssng", 
+    "updated_at": "2015-08-04T00:36:08-04:00", 
+    "share_url": "https://a.sso.ng/1/10d116899257", 
+    "audio_url": "https://s01.sso.ng/1/000000020d66_10d116899257_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020d66_10d116899257_1_mr.jpg", 
+    "song_album": "Wonders of the Younger", 
+    "user": {
+        "username": "haleeey0419", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "962eeb9c-4216-4cee-8890-e939f694cecc"
+    }, 
+    "song_title": "Rhythm of Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020d66_10d116899257_1_th.jpg", 
+    "song_artist": "Plain White T's", 
+    "favorite_count": 1, 
+    "uuid": "EB62FC47-E25B-4593-8568-8ED51810B43B"
+}

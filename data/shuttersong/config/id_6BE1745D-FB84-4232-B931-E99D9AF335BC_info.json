@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-22T22:01:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a4b6_6799dc870f6a_1.ssng", 
+    "updated_at": "2015-08-23T03:02:07-04:00", 
+    "share_url": "https://a.sso.ng/1/6799dc870f6a", 
+    "audio_url": "https://s01.sso.ng/1/00000002a4b6_6799dc870f6a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a4b6_6799dc870f6a_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jfranciscabarros", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/44827422-2ed4-4ea3-8475-b668417c9cf8.jpg", 
+        "id": "44827422-2ed4-4ea3-8475-b668417c9cf8"
+    }, 
+    "song_title": "OMI - Cheerleader (Felix Jaehn Remix) [Official Video]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a4b6_6799dc870f6a_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "6BE1745D-FB84-4232-B931-E99D9AF335BC"
+}

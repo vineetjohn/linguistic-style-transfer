@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-05T09:46:37-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000202fa_591bbe0dcdca.ssng", 
+    "updated_at": "2015-09-10T05:05:21-04:00", 
+    "share_url": "https://a.sso.ng/1/591bbe0dcdca", 
+    "audio_url": "https://s01.sso.ng/1/0000000202fa_591bbe0dcdca.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000202fa_591bbe0dcdca_mr.jpg", 
+    "song_album": "German TOP100 Single Charts", 
+    "user": {
+        "username": "Saadet", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/12f3b46d-3f58-45a0-a56b-665eea5fa3d3.jpg", 
+        "id": "12f3b46d-3f58-45a0-a56b-665eea5fa3d3"
+    }, 
+    "song_title": "Young, Wild & Free", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000202fa_591bbe0dcdca_th.jpg", 
+    "song_artist": "Snoop Dogg & Wiz Khalifa", 
+    "favorite_count": 1, 
+    "uuid": "4CAF113B-118B-4192-A00C-FC5D33AFE321"
+}

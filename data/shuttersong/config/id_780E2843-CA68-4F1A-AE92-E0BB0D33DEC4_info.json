@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @MaitePlascencia", 
+    "created_at": "2015-12-26T17:15:37-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000039d82_dada142d8726.ssng", 
+    "updated_at": "2015-12-28T10:46:47-05:00", 
+    "share_url": "https://a.sso.ng/1/dada142d8726", 
+    "audio_url": "https://s01.sso.ng/1/000000039d82_dada142d8726.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000039d82_dada142d8726_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "maitosplas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e777011d-0d26-4291-bd46-33ca54bce770.jpg", 
+        "id": "e777011d-0d26-4291-bd46-33ca54bce770"
+    }, 
+    "song_title": "Bruno Mars - Treasure [Official Music Video]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000039d82_dada142d8726_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "780E2843-CA68-4F1A-AE92-E0BB0D33DEC4"
+}

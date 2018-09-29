@@ -1,0 +1,27 @@
+{
+    "mood": "numb", 
+    "caption": "", 
+    "created_at": "2016-03-06T14:36:18-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e851_fae3a64f9790.ssng", 
+    "updated_at": "2016-03-08T18:21:52-05:00", 
+    "share_url": "https://a.sso.ng/1/fae3a64f9790", 
+    "audio_url": "https://s02.sso.ng/1/00000003e851_fae3a64f9790.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e851_fae3a64f9790_mr.jpg", 
+    "song_album": "Neptones", 
+    "user": {
+        "username": "macirae01", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/41b45a5b-94c2-4667-8a17-4ff82ea60156.jpg", 
+        "id": "41b45a5b-94c2-4667-8a17-4ff82ea60156"
+    }, 
+    "song_title": "Fly Down", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e851_fae3a64f9790_th.jpg", 
+    "song_artist": "Stephen Swartz", 
+    "favorite_count": 1, 
+    "uuid": "39505308-FFF4-4A04-9C0F-DFE8C00DBE63"
+}

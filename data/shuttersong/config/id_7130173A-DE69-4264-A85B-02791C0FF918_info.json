@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T08:04:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000299b4_9bc70e0b5350.ssng", 
+    "updated_at": "2015-08-22T23:45:26-04:00", 
+    "share_url": "https://a.sso.ng/1/9bc70e0b5350", 
+    "audio_url": "https://s01.sso.ng/1/0000000299b4_9bc70e0b5350.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000299b4_9bc70e0b5350_mr.jpg", 
+    "song_album": "When the Sun Goes Down", 
+    "user": {
+        "username": "sandriii", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/11af8054-7142-433a-a0c1-6fac13751c12.jpg", 
+        "id": "11af8054-7142-433a-a0c1-6fac13751c12"
+    }, 
+    "song_title": "Hit the Lights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000299b4_9bc70e0b5350_th.jpg", 
+    "song_artist": "Selena Gomez & the Scene", 
+    "favorite_count": 1, 
+    "uuid": "7130173A-DE69-4264-A85B-02791C0FF918"
+}

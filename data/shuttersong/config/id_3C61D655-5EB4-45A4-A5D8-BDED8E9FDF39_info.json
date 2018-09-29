@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-13T13:31:07-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041428_c9f0a1a6552e.ssng", 
+    "updated_at": "2016-04-14T12:10:16-04:00", 
+    "share_url": "https://a.sso.ng/1/c9f0a1a6552e", 
+    "audio_url": "https://s02.sso.ng/1/000000041428_c9f0a1a6552e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041428_c9f0a1a6552e_mr.jpg", 
+    "song_album": "Cry Baby", 
+    "user": {
+        "username": "shihyi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5d6eeb30-6577-43a5-9eb2-62e75c1eec1a.jpg", 
+        "id": "5d6eeb30-6577-43a5-9eb2-62e75c1eec1a"
+    }, 
+    "song_title": "Teddy Bear", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041428_c9f0a1a6552e_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 4, 
+    "uuid": "3C61D655-5EB4-45A4-A5D8-BDED8E9FDF39"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-17T02:26:06-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040e79_79b9e9a6cb29.ssng", 
+    "updated_at": "2016-04-20T10:01:52-04:00", 
+    "share_url": "https://a.sso.ng/1/79b9e9a6cb29", 
+    "audio_url": "https://s02.sso.ng/1/000000040e79_79b9e9a6cb29.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040e79_79b9e9a6cb29_mr.jpg", 
+    "song_album": "Afterlife - Single", 
+    "user": {
+        "username": "pobaram", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6753911c-3f24-49bd-bdd8-fff9cf578b82.jpg", 
+        "id": "6753911c-3f24-49bd-bdd8-fff9cf578b82"
+    }, 
+    "song_title": "Afterlife", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040e79_79b9e9a6cb29_th.jpg", 
+    "song_artist": "XYL\u00d8", 
+    "favorite_count": 4, 
+    "uuid": "6099C9C5-E740-49B3-9763-A3F170B56279"
+}

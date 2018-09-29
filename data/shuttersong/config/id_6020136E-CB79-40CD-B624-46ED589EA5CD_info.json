@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:30:12-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e90_6e859db1c046.ssng", 
+    "updated_at": "2015-08-03T23:30:12-04:00", 
+    "share_url": "https://a.sso.ng/1/6e859db1c046", 
+    "audio_url": "https://s01.sso.ng/1/000000020e90_6e859db1c046.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e90_6e859db1c046_mr.jpg", 
+    "song_album": "x (Deluxe Edition)", 
+    "user": {
+        "username": "caniffswurld", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f5880f5c-0d15-4776-bb60-fe38ef9e298a.jpg", 
+        "id": "f5880f5c-0d15-4776-bb60-fe38ef9e298a"
+    }, 
+    "song_title": "Photograph", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e90_6e859db1c046_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 1, 
+    "uuid": "6020136E-CB79-40CD-B624-46ED589EA5CD"
+}

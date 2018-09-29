@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "\u26f2", 
+    "created_at": "2016-06-05T01:13:10-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044284_9086eaa3d91e.ssng", 
+    "updated_at": "2016-06-10T10:33:36-04:00", 
+    "share_url": "https://a.sso.ng/1/9086eaa3d91e", 
+    "audio_url": "https://s02.sso.ng/1/000000044284_9086eaa3d91e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044284_9086eaa3d91e_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "that_peruvian_chick_", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": "Gabriella Carbajal", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/694187b6-297d-4db5-8dd7-1e5df1a4aed6.jpg", 
+        "id": "694187b6-297d-4db5-8dd7-1e5df1a4aed6"
+    }, 
+    "song_title": "Mo Money Mo Problems", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044284_9086eaa3d91e_th.jpg", 
+    "song_artist": "The Notorious B.I.G.", 
+    "favorite_count": 2, 
+    "uuid": "833C84F3-5426-4107-A8F1-61797A9F3098"
+}

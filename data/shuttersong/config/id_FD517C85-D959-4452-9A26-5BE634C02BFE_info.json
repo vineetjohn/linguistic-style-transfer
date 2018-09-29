@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Honestly this is my favorite snapchat filter!", 
+    "created_at": "2016-05-11T07:13:51-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042acc_ed30c8bab8cd.ssng", 
+    "updated_at": "2016-05-16T05:24:43-04:00", 
+    "share_url": "https://a.sso.ng/1/ed30c8bab8cd", 
+    "audio_url": "https://s02.sso.ng/1/000000042acc_ed30c8bab8cd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042acc_ed30c8bab8cd_mr.jpg", 
+    "song_album": "Heart Made Up On You - EP", 
+    "user": {
+        "username": "brooks4life", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emily", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2cab1649-6a9a-4620-8793-52dbd2a944db.jpg", 
+        "id": "2cab1649-6a9a-4620-8793-52dbd2a944db"
+    }, 
+    "song_title": "Heart Made Up On You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042acc_ed30c8bab8cd_th.jpg", 
+    "song_artist": "R5", 
+    "favorite_count": 1, 
+    "uuid": "FD517C85-D959-4452-9A26-5BE634C02BFE"
+}

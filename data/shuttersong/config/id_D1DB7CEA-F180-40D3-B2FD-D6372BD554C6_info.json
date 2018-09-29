@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-30T09:46:04-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000307b5_24d80316455c.ssng", 
+    "updated_at": "2015-11-30T16:41:57-05:00", 
+    "share_url": "https://a.sso.ng/1/24d80316455c", 
+    "audio_url": "https://s01.sso.ng/1/0000000307b5_24d80316455c.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000307b5_24d80316455c_mr.jpg", 
+    "song_album": "Ginza Remix - Single", 
+    "user": {
+        "username": "miguel1238", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2413a081-1729-40fd-9cf4-c7ed29a254b5"
+    }, 
+    "song_title": "Ginza Remix (By Efe) (WWW.ELGENERO.COM)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000307b5_24d80316455c_th.jpg", 
+    "song_artist": "J Balvin Ft. Varios Artistas", 
+    "favorite_count": 1, 
+    "uuid": "D1DB7CEA-F180-40D3-B2FD-D6372BD554C6"
+}

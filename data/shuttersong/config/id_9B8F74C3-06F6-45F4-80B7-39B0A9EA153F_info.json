@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "The California music video was fantastic", 
+    "created_at": "2015-08-04T01:40:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000212b9_32f98166f8f3_1.ssng", 
+    "updated_at": "2015-08-04T01:41:01-04:00", 
+    "share_url": "https://a.sso.ng/1/32f98166f8f3", 
+    "audio_url": "https://s01.sso.ng/1/0000000212b9_32f98166f8f3_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000212b9_32f98166f8f3_1_mr.jpg", 
+    "song_album": "Talking Dreams", 
+    "user": {
+        "username": "envylorraine", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Envy Lorraine", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/094d1eb0-3cb0-425b-9d67-1973ee476c05.jpg", 
+        "id": "094d1eb0-3cb0-425b-9d67-1973ee476c05"
+    }, 
+    "song_title": "cool kids", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000212b9_32f98166f8f3_1_th.jpg", 
+    "song_artist": "Echosmith", 
+    "favorite_count": 1, 
+    "uuid": "9B8F74C3-06F6-45F4-80B7-39B0A9EA153F"
+}

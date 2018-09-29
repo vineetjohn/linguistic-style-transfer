@@ -1,0 +1,27 @@
+{
+    "mood": "depressed", 
+    "caption": "#GEazy", 
+    "created_at": "2016-02-14T16:24:28-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e902_46cf17bbd2cc.ssng", 
+    "updated_at": "2016-02-14T17:13:05-05:00", 
+    "share_url": "https://a.sso.ng/1/46cf17bbd2cc", 
+    "audio_url": "https://s02.sso.ng/1/00000003e902_46cf17bbd2cc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e902_46cf17bbd2cc_mr.jpg", 
+    "song_album": "When It's Dark Out", 
+    "user": {
+        "username": "brookebluesky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Brooke ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2c70a3fa-28a6-426e-964c-f4f21b04c775.jpg", 
+        "id": "2c70a3fa-28a6-426e-964c-f4f21b04c775"
+    }, 
+    "song_title": "Sad Boy", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e902_46cf17bbd2cc_th.jpg", 
+    "song_artist": "G-Eazy", 
+    "favorite_count": 3, 
+    "uuid": "E0C6CA1B-F099-45C2-9BA4-B8C607295D9F"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "need that lemonade", 
+    "created_at": "2016-04-27T20:02:55-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004218b_d1902f376e00.ssng", 
+    "updated_at": "2016-05-30T01:36:46-04:00", 
+    "share_url": "https://a.sso.ng/1/d1902f376e00", 
+    "audio_url": "https://s02.sso.ng/1/00000004218b_d1902f376e00.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004218b_d1902f376e00_mr.jpg", 
+    "song_album": "Lemonade", 
+    "user": {
+        "username": "nik.i.tahh", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3385c4b5-0aef-4135-b690-e0e21a05b15b.jpg", 
+        "id": "3385c4b5-0aef-4135-b690-e0e21a05b15b"
+    }, 
+    "song_title": "Sorry", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004218b_d1902f376e00_th.jpg", 
+    "song_artist": "Beyonc\u00e9", 
+    "favorite_count": 13, 
+    "uuid": "C71F10A1-3DAA-4619-B129-5CBFCE19DDEC"
+}

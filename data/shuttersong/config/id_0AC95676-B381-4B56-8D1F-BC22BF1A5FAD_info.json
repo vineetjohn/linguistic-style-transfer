@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "my favorite person", 
+    "created_at": "2016-06-20T16:54:52-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000458e3_fb59160359f7.ssng", 
+    "updated_at": "2016-06-20T17:29:11-04:00", 
+    "share_url": "https://a.sso.ng/1/fb59160359f7", 
+    "audio_url": "https://s02.sso.ng/1/0000000458e3_fb59160359f7.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000458e3_fb59160359f7_mr.jpg", 
+    "song_album": "Friend Zone (Single)", 
+    "user": {
+        "username": "adwhoreluke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a64e8a68-e466-448e-be9a-e6589587514f.jpg", 
+        "id": "a64e8a68-e466-448e-be9a-e6589587514f"
+    }, 
+    "song_title": "Friend Zone", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000458e3_fb59160359f7_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "0AC95676-B381-4B56-8D1F-BC22BF1A5FAD"
+}

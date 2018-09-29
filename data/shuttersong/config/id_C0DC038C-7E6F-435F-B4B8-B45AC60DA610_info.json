@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "The littlest things...", 
+    "created_at": "2016-04-26T20:32:05-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042221_0ae7dfc78d24.ssng", 
+    "updated_at": "2016-05-01T23:00:52-04:00", 
+    "share_url": "https://a.sso.ng/1/0ae7dfc78d24", 
+    "audio_url": "https://s02.sso.ng/1/000000042221_0ae7dfc78d24.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042221_0ae7dfc78d24_mr.jpg", 
+    "song_album": "Alright, Still", 
+    "user": {
+        "username": "addynene", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e7cb59fb-2f2a-4bf2-a50c-ecca03e9cfaa"
+    }, 
+    "song_title": "Littlest Things", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042221_0ae7dfc78d24_th.jpg", 
+    "song_artist": "Lily Allen", 
+    "favorite_count": 2, 
+    "uuid": "C0DC038C-7E6F-435F-B4B8-B45AC60DA610"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@JackandJackOfficial I love you guys so much.", 
+    "created_at": "2015-08-22T21:58:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022a25_f207394433d2_1.ssng", 
+    "updated_at": "2015-08-23T11:30:11-04:00", 
+    "share_url": "https://a.sso.ng/1/f207394433d2", 
+    "audio_url": "https://s01.sso.ng/1/000000022a25_f207394433d2_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022a25_f207394433d2_1_mr.jpg", 
+    "song_album": "Groove - Single", 
+    "user": {
+        "username": "Kelsey", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kelsey Johnson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dd81445b-a2cb-4033-8585-41a4a3ee709e.jpg", 
+        "id": "dd81445b-a2cb-4033-8585-41a4a3ee709e"
+    }, 
+    "song_title": "Groove", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022a25_f207394433d2_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "30B3A55B-F744-4855-A678-0D12EC10FFA0"
+}

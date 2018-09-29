@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Teach me how to swim, how to swim?", 
+    "created_at": "2015-08-04T17:50:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021afb_0d87c7ff21c8_1.ssng", 
+    "updated_at": "2015-08-04T17:52:23-04:00", 
+    "share_url": "https://a.sso.ng/1/0d87c7ff21c8", 
+    "audio_url": "https://s01.sso.ng/1/000000021afb_0d87c7ff21c8_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021afb_0d87c7ff21c8_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "bayles_01", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Baylee", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2f2e72a0-9b9a-4151-970f-193ef52eea7a.jpg", 
+        "id": "2f2e72a0-9b9a-4151-970f-193ef52eea7a"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021afb_0d87c7ff21c8_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "F31F77BF-D07F-4A1D-BDA1-5E28D327EDE2"
+}

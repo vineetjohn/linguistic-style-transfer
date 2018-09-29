@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo Shakira OC", 
+    "created_at": "2015-12-19T09:30:25-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000323c8_6d2a7621b57f.ssng", 
+    "updated_at": "2015-12-19T09:34:52-05:00", 
+    "share_url": "https://a.sso.ng/1/6d2a7621b57f", 
+    "audio_url": "https://s01.sso.ng/1/0000000323c8_6d2a7621b57f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000323c8_6d2a7621b57f_mr.jpg", 
+    "song_album": "Story of My Life", 
+    "user": {
+        "username": "shaky14i", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Shakira ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9df975a9-8ed1-48db-a373-521d29978bd2.jpg", 
+        "id": "9df975a9-8ed1-48db-a373-521d29978bd2"
+    }, 
+    "song_title": "Story of My Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000323c8_6d2a7621b57f_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "E5B76062-43A1-4F74-96CF-865C1FC223FD"
+}

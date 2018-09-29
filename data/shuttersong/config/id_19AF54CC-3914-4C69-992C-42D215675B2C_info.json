@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-12-21T18:04:27-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038087_f50a97f142dc.ssng", 
+    "updated_at": "2015-12-22T02:39:47-05:00", 
+    "share_url": "https://a.sso.ng/1/f50a97f142dc", 
+    "audio_url": "https://s01.sso.ng/1/000000038087_f50a97f142dc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038087_f50a97f142dc_mr.jpg", 
+    "song_album": "Wide Awake - Single", 
+    "user": {
+        "username": "Ginidama", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0dd36751-7aea-4022-8349-790c91c0c432.jpg", 
+        "id": "0dd36751-7aea-4022-8349-790c91c0c432"
+    }, 
+    "song_title": "Wide Awake", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038087_f50a97f142dc_th.jpg", 
+    "song_artist": "Katy Perry", 
+    "favorite_count": 1, 
+    "uuid": "19AF54CC-3914-4C69-992C-42D215675B2C"
+}

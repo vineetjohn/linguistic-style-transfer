@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @zamaraescobar", 
+    "created_at": "2015-12-19T02:52:24-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036b10_6872a04be8ae_1.ssng", 
+    "updated_at": "2015-12-19T03:49:37-05:00", 
+    "share_url": "https://a.sso.ng/1/6872a04be8ae", 
+    "audio_url": "https://s01.sso.ng/1/000000036b10_6872a04be8ae_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036b10_6872a04be8ae_1_mr.jpg", 
+    "song_album": "Pretty Boy, Dirty Boy", 
+    "user": {
+        "username": "Zamara", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/69d7aac1-c5ec-4294-a050-f6abdc041013.jpg", 
+        "id": "69d7aac1-c5ec-4294-a050-f6abdc041013"
+    }, 
+    "song_title": "El Tiki", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036b10_6872a04be8ae_1_th.jpg", 
+    "song_artist": "Maluma", 
+    "favorite_count": 1, 
+    "uuid": "5CEDE078-001B-4362-BA73-B288777CA92B"
+}

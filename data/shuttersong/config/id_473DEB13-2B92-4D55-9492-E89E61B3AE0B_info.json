@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Good picture fits with song", 
+    "created_at": "2016-06-05T16:39:40-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044a3a_ffa840ecc46f.ssng", 
+    "updated_at": "2016-06-10T10:32:38-04:00", 
+    "share_url": "https://a.sso.ng/1/ffa840ecc46f", 
+    "audio_url": "https://s02.sso.ng/1/000000044a3a_ffa840ecc46f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044a3a_ffa840ecc46f_mr.jpg", 
+    "song_album": "Faded - Single", 
+    "user": {
+        "username": "redpanda089", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2aeb3969-148f-4fb9-b373-9b57502e78a0"
+    }, 
+    "song_title": "Faded", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044a3a_ffa840ecc46f_th.jpg", 
+    "song_artist": "Alan Walker", 
+    "favorite_count": 2, 
+    "uuid": "473DEB13-2B92-4D55-9492-E89E61B3AE0B"
+}

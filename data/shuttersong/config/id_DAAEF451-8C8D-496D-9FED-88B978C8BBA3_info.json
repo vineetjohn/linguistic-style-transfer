@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-01T22:02:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bba4_82f180f1aaed.ssng", 
+    "updated_at": "2016-01-02T09:27:19-05:00", 
+    "share_url": "https://a.sso.ng/1/82f180f1aaed", 
+    "audio_url": "https://s01.sso.ng/1/00000003bba4_82f180f1aaed.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bba4_82f180f1aaed_mr.jpg", 
+    "song_album": "One Thing Remains", 
+    "user": {
+        "username": "some_strange_being", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f3e990f9-528a-4779-98de-e60defebf4a1"
+    }, 
+    "song_title": "It Only Hurts", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bba4_82f180f1aaed_th.jpg", 
+    "song_artist": "Default", 
+    "favorite_count": 1, 
+    "uuid": "DAAEF451-8C8D-496D-9FED-88B978C8BBA3"
+}

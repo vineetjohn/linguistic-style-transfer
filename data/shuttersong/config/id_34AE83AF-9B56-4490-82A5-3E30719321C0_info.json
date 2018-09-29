@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T15:21:13-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000026297_c0bc1a5d8c6c.ssng", 
+    "updated_at": "2015-08-21T16:07:24-04:00", 
+    "share_url": "https://a.sso.ng/1/c0bc1a5d8c6c", 
+    "audio_url": "https://s01.sso.ng/1/000000026297_c0bc1a5d8c6c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000026297_c0bc1a5d8c6c_mr.jpg", 
+    "song_album": "I am Sasha Fierce", 
+    "user": {
+        "username": "chiquisluna", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ac782a27-a386-486c-b3c1-38b9827cc555.jpg", 
+        "id": "ac782a27-a386-486c-b3c1-38b9827cc555"
+    }, 
+    "song_title": "Single Ladies", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000026297_c0bc1a5d8c6c_th.jpg", 
+    "song_artist": "Beyonce", 
+    "favorite_count": 1, 
+    "uuid": "34AE83AF-9B56-4490-82A5-3E30719321C0"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-24T13:32:39-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041dd6_381c99304ec8.ssng", 
+    "updated_at": "2016-04-25T04:01:31-04:00", 
+    "share_url": "https://a.sso.ng/1/381c99304ec8", 
+    "audio_url": "https://s02.sso.ng/1/000000041dd6_381c99304ec8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041dd6_381c99304ec8_mr.jpg", 
+    "song_album": "Trilogy", 
+    "user": {
+        "username": "Beanies.Eyeliner", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "41ff9747-19cc-48d5-a8a5-dd3d6db8a695"
+    }, 
+    "song_title": "D.D.", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041dd6_381c99304ec8_th.jpg", 
+    "song_artist": "The Weeknd", 
+    "favorite_count": 2, 
+    "uuid": "4CC04FF1-C2CB-4746-A1A5-0196B0BB883E"
+}

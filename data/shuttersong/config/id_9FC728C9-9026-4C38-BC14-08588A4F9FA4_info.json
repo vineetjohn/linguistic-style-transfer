@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "gilinsky and rupp?", 
+    "created_at": "2015-08-03T23:31:03-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020c95_172b7e254c8a_1.ssng", 
+    "updated_at": "2015-08-03T23:32:26-04:00", 
+    "share_url": "https://a.sso.ng/1/172b7e254c8a", 
+    "audio_url": "https://s01.sso.ng/1/000000020c95_172b7e254c8a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020c95_172b7e254c8a_1_mr.jpg", 
+    "song_album": "Hold Tight - Single", 
+    "user": {
+        "username": "sassywilks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "sassywilks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/05b565ed-8ee7-4d5a-a5f1-af89e090a534.jpg", 
+        "id": "05b565ed-8ee7-4d5a-a5f1-af89e090a534"
+    }, 
+    "song_title": "Hold Tight", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020c95_172b7e254c8a_1_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "9FC728C9-9026-4C38-BC14-08588A4F9FA4"
+}

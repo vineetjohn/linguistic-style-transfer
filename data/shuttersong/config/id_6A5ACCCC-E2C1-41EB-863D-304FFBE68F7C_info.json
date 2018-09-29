@@ -1,0 +1,27 @@
+{
+    "mood": "blij", 
+    "caption": "", 
+    "created_at": "2016-06-17T16:23:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003887f_ece644674516.ssng", 
+    "updated_at": "2016-06-18T04:16:20-04:00", 
+    "share_url": "https://a.sso.ng/1/ece644674516", 
+    "audio_url": "https://s02.sso.ng/1/00000003887f_ece644674516.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003887f_ece644674516_mr.jpg", 
+    "song_album": "To film", 
+    "user": {
+        "username": "MelissaSings", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1fa22a17-6266-4987-b8ea-1f724fefcb2a.jpg", 
+        "id": "1fa22a17-6266-4987-b8ea-1f724fefcb2a"
+    }, 
+    "song_title": "Alive (Sia) Cover", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003887f_ece644674516_th.jpg", 
+    "song_artist": "Melissa Sings", 
+    "favorite_count": 2, 
+    "uuid": "6A5ACCCC-E2C1-41EB-863D-304FFBE68F7C"
+}

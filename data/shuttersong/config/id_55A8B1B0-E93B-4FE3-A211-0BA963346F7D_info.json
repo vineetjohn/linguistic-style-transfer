@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u270c?\ufe0f", 
+    "created_at": "2016-02-09T18:24:59-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e562_f3888fcb5740.ssng", 
+    "updated_at": "2016-02-10T14:16:40-05:00", 
+    "share_url": "https://a.sso.ng/1/f3888fcb5740", 
+    "audio_url": "https://s02.sso.ng/1/00000003e562_f3888fcb5740.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e562_f3888fcb5740_mr.jpg", 
+    "song_album": "That's the Spirit", 
+    "user": {
+        "username": "Kimmieee95", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/232cdf86-8842-4b3d-a3bf-3642c5357ff7.jpg", 
+        "id": "232cdf86-8842-4b3d-a3bf-3642c5357ff7"
+    }, 
+    "song_title": "Avalanche", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e562_f3888fcb5740_th.jpg", 
+    "song_artist": "Bring Me the Horizon", 
+    "favorite_count": 1, 
+    "uuid": "55A8B1B0-E93B-4FE3-A211-0BA963346F7D"
+}

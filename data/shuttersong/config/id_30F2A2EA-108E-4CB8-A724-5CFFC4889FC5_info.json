@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Keep your eye out for our pick up saturday morning...", 
+    "created_at": "2016-06-16T14:36:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000454cd_a2038d014002.ssng", 
+    "updated_at": "2016-06-17T19:57:44-04:00", 
+    "share_url": "https://a.sso.ng/1/a2038d014002", 
+    "audio_url": "https://s02.sso.ng/1/0000000454cd_a2038d014002.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000454cd_a2038d014002_mr.jpg", 
+    "song_album": "Bob Dylan's Greatest Hits", 
+    "user": {
+        "username": "flynnboston", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b489d297-49a3-4396-a7dd-960ce74a04a6"
+    }, 
+    "song_title": "Blowin' In the Wind", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000454cd_a2038d014002_th.jpg", 
+    "song_artist": "Bob Dylan", 
+    "favorite_count": 3, 
+    "uuid": "30F2A2EA-108E-4CB8-A724-5CFFC4889FC5"
+}

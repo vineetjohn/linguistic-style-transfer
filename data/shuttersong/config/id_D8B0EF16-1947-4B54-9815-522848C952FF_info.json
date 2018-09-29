@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo youtube: battistacamila@gmail.com", 
+    "created_at": "2015-12-20T16:28:33-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037ea8_5d041ca190ed.ssng", 
+    "updated_at": "2015-12-20T16:29:23-05:00", 
+    "share_url": "https://a.sso.ng/1/5d041ca190ed", 
+    "audio_url": "https://s01.sso.ng/1/000000037ea8_5d041ca190ed.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037ea8_5d041ca190ed_mr.jpg", 
+    "song_album": "Ariana Grande", 
+    "user": {
+        "username": "Camiliss", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Camila B", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1c8df016-8e13-4a3e-bf0c-cecdabcd635c"
+    }, 
+    "song_title": "Last Christmas", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037ea8_5d041ca190ed_th.jpg", 
+    "song_artist": "Last Christmas - Single", 
+    "favorite_count": 1, 
+    "uuid": "D8B0EF16-1947-4B54-9815-522848C952FF"
+}

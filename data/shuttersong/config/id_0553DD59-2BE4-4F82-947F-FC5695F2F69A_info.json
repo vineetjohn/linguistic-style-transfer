@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-05T22:10:12-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b563_902a07c17542.ssng", 
+    "updated_at": "2015-09-06T03:25:59-04:00", 
+    "share_url": "https://a.sso.ng/1/902a07c17542", 
+    "audio_url": "https://s01.sso.ng/1/00000002b563_902a07c17542.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b563_902a07c17542_mr.jpg", 
+    "song_album": "The Heist (Deluxe Edition)", 
+    "user": {
+        "username": "Amalia1503", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f410ce4e-7284-4179-b834-ec26d4fd8066.jpg", 
+        "id": "f410ce4e-7284-4179-b834-ec26d4fd8066"
+    }, 
+    "song_title": "Can't Hold Us (feat. Ray Dalton)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b563_902a07c17542_th.jpg", 
+    "song_artist": "Macklemore & Ryan Lewis", 
+    "favorite_count": 1, 
+    "uuid": "0553DD59-2BE4-4F82-947F-FC5695F2F69A"
+}

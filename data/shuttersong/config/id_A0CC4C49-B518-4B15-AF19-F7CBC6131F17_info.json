@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Happy Halloween?", 
+    "created_at": "2015-10-29T11:20:53-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001d9a7_758d98ad52e9.ssng", 
+    "updated_at": "2016-03-07T23:51:12-05:00", 
+    "share_url": "https://a.sso.ng/1/758d98ad52e9", 
+    "audio_url": "https://s01.sso.ng/1/00000001d9a7_758d98ad52e9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001d9a7_758d98ad52e9_mr.jpg", 
+    "song_album": "The Very Best of The Doors", 
+    "user": {
+        "username": "trinityroseofficial", 
+        "verified": true, 
+        "username_color": "#F95E59", 
+        "full_name": "TRINITY", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7718b1f6-3ec2-4a0e-a30b-365e91d71fb3.jpg", 
+        "id": "7718b1f6-3ec2-4a0e-a30b-365e91d71fb3"
+    }, 
+    "song_title": "People Are Strange", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001d9a7_758d98ad52e9_th.jpg", 
+    "song_artist": "The Doors", 
+    "favorite_count": 6, 
+    "uuid": "A0CC4C49-B518-4B15-AF19-F7CBC6131F17"
+}

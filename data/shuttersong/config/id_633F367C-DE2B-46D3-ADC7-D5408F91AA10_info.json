@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "What am I doing ", 
+    "created_at": "2015-08-04T03:09:59-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000207d7_61ff1f12e22e_1.ssng", 
+    "updated_at": "2015-08-04T03:10:09-04:00", 
+    "share_url": "https://a.sso.ng/1/61ff1f12e22e", 
+    "audio_url": "https://s01.sso.ng/1/0000000207d7_61ff1f12e22e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000207d7_61ff1f12e22e_1_mr.jpg", 
+    "song_album": "Groove - Single", 
+    "user": {
+        "username": "miaxjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/22c582e5-59bd-4ae8-9b65-8f5bc4d615d9.jpg", 
+        "id": "22c582e5-59bd-4ae8-9b65-8f5bc4d615d9"
+    }, 
+    "song_title": "Groove", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000207d7_61ff1f12e22e_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "633F367C-DE2B-46D3-ADC7-D5408F91AA10"
+}

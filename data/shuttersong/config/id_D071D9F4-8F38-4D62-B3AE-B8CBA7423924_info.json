@@ -1,0 +1,27 @@
+{
+    "mood": "Blissful", 
+    "caption": "", 
+    "created_at": "2016-05-11T19:07:23-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040780_edc64df29c7c.ssng", 
+    "updated_at": "2016-06-03T13:28:39-04:00", 
+    "share_url": "https://a.sso.ng/1/edc64df29c7c", 
+    "audio_url": "https://s02.sso.ng/1/000000040780_edc64df29c7c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040780_edc64df29c7c_mr.jpg", 
+    "song_album": "Now That's What I Call Music! 92", 
+    "user": {
+        "username": "MajicBelle", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fe968456-3ae9-47f8-a689-227b50f8cd1e"
+    }, 
+    "song_title": "I Can't Feel My Face", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040780_edc64df29c7c_th.jpg", 
+    "song_artist": "The Weeknd", 
+    "favorite_count": 3, 
+    "uuid": "D071D9F4-8F38-4D62-B3AE-B8CBA7423924"
+}

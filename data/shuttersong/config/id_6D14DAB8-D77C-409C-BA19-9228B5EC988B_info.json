@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo mi canal de youtube es Xime duarth", 
+    "created_at": "2015-12-20T17:28:31-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037f53_e01c11cf1112.ssng", 
+    "updated_at": "2015-12-20T17:29:49-05:00", 
+    "share_url": "https://a.sso.ng/1/e01c11cf1112", 
+    "audio_url": "https://s01.sso.ng/1/000000037f53_e01c11cf1112.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037f53_e01c11cf1112_mr.jpg", 
+    "song_album": "5 Seconds Of Summer", 
+    "user": {
+        "username": "ximeduarth", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "01dc291b-6c6d-4d74-bbb8-160abea4970c"
+    }, 
+    "song_title": "Voodoo Doll", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037f53_e01c11cf1112_th.jpg", 
+    "song_artist": "5 Seconds Of Summer", 
+    "favorite_count": 1, 
+    "uuid": "6D14DAB8-D77C-409C-BA19-9228B5EC988B"
+}

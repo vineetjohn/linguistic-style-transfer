@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Road trip", 
+    "created_at": "2016-02-24T13:43:41-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003df5c_b9ff13985a51.ssng", 
+    "updated_at": "2016-06-22T16:00:56-04:00", 
+    "share_url": "https://a.sso.ng/1/b9ff13985a51", 
+    "audio_url": "https://s02.sso.ng/1/00000003df5c_b9ff13985a51.m4a", 
+    "comment_count": 118, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003df5c_b9ff13985a51_mr.jpg", 
+    "song_album": "Island In the Sun (Bonus Version)", 
+    "user": {
+        "username": "beaub", 
+        "verified": true, 
+        "username_color": "#28c4d8", 
+        "full_name": "Beau Brooks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ffa72c4a-099a-4eea-a890-7d7e14a60007.jpg", 
+        "id": "ffa72c4a-099a-4eea-a890-7d7e14a60007"
+    }, 
+    "song_title": "Do You Feel the Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003df5c_b9ff13985a51_th.jpg", 
+    "song_artist": "Shwayze & Cisco", 
+    "favorite_count": 418, 
+    "uuid": "8D922464-681B-455C-8171-E9E742C7B75F"
+}

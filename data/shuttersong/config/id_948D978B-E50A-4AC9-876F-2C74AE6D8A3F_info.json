@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Toronto", 
+    "created_at": "2016-02-24T14:13:20-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1f7_5299beae690f.ssng", 
+    "updated_at": "2016-03-24T05:12:04-04:00", 
+    "share_url": "https://a.sso.ng/1/5299beae690f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1f7_5299beae690f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1f7_5299beae690f_mr.jpg", 
+    "song_album": "Crazy For You", 
+    "user": {
+        "username": "christinatina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8ab492da-f066-48ca-a644-6a3a7d9136a3.jpg", 
+        "id": "8ab492da-f066-48ca-a644-6a3a7d9136a3"
+    }, 
+    "song_title": "Bratty B", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1f7_5299beae690f_th.jpg", 
+    "song_artist": "Best Coast", 
+    "favorite_count": 3, 
+    "uuid": "948D978B-E50A-4AC9-876F-2C74AE6D8A3F"
+}

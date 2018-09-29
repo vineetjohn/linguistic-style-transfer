@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-01T10:29:36-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000445db_611f0e0f448d.ssng", 
+    "updated_at": "2016-06-10T10:37:01-04:00", 
+    "share_url": "https://a.sso.ng/1/611f0e0f448d", 
+    "audio_url": "https://s02.sso.ng/1/0000000445db_611f0e0f448d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000445db_611f0e0f448d_mr.jpg", 
+    "song_album": "#HeadsUP", 
+    "user": {
+        "username": "turalyf", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "03460485-0060-4036-9690-56f857ca921a"
+    }, 
+    "song_title": "Runway Walk (feat. Brevi) [Bonus Track]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000445db_611f0e0f448d_th.jpg", 
+    "song_artist": "Demrick", 
+    "favorite_count": 4, 
+    "uuid": "6B4C8DFB-2444-46E9-BA5D-0C18CFEA6D12"
+}

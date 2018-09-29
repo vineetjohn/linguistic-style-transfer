@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-14T19:05:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004013e_11c779ac6b71.ssng", 
+    "updated_at": "2016-04-15T17:44:15-04:00", 
+    "share_url": "https://a.sso.ng/1/11c779ac6b71", 
+    "audio_url": "https://s02.sso.ng/1/00000004013e_11c779ac6b71.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004013e_11c779ac6b71_mr.jpg", 
+    "song_album": "Collide With the Sky", 
+    "user": {
+        "username": "sarahcalvert", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sarah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d843c873-aa47-4255-a232-2aeb8b6f34be.jpg", 
+        "id": "d843c873-aa47-4255-a232-2aeb8b6f34be"
+    }, 
+    "song_title": "King For A Day", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004013e_11c779ac6b71_th.jpg", 
+    "song_artist": "Pierce The Veil ft. Kellin Quinn", 
+    "favorite_count": 1, 
+    "uuid": "F8038F81-FC94-41C7-839A-9FC492E8BE91"
+}

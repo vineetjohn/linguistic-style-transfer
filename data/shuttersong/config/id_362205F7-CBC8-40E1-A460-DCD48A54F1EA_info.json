@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hows everyone doing??", 
+    "created_at": "2016-02-10T08:35:28-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e443_26818b268f3c.ssng", 
+    "updated_at": "2016-02-13T05:14:32-05:00", 
+    "share_url": "https://a.sso.ng/1/26818b268f3c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e443_26818b268f3c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e443_26818b268f3c_mr.jpg", 
+    "song_album": "PILLOWTALK - Single", 
+    "user": {
+        "username": "handsonmeluke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "jack", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/068d559b-a578-43c1-8149-56aed1519d98.jpg", 
+        "id": "068d559b-a578-43c1-8149-56aed1519d98"
+    }, 
+    "song_title": "PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e443_26818b268f3c_th.jpg", 
+    "song_artist": "ZAYN", 
+    "favorite_count": 3, 
+    "uuid": "362205F7-CBC8-40E1-A460-DCD48A54F1EA"
+}

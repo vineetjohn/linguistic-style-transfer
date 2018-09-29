@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-08T13:04:54-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000261fc_9bc1db4f40eb.ssng", 
+    "updated_at": "2016-05-08T23:44:00-04:00", 
+    "share_url": "https://a.sso.ng/1/9bc1db4f40eb", 
+    "audio_url": "https://s02.sso.ng/1/0000000261fc_9bc1db4f40eb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000261fc_9bc1db4f40eb_mr.jpg", 
+    "song_album": "Just the Way You Are - Single", 
+    "user": {
+        "username": "monni", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Monni", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/67af3281-63fc-4e83-b824-df8b42dc6a60.jpg", 
+        "id": "67af3281-63fc-4e83-b824-df8b42dc6a60"
+    }, 
+    "song_title": "Just the Way You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000261fc_9bc1db4f40eb_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 1, 
+    "uuid": "A0733C01-A911-4F7B-89B3-FF62E6165065"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-31T18:41:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002daae_a9ed05616d8f.ssng", 
+    "updated_at": "2015-09-02T01:52:36-04:00", 
+    "share_url": "https://a.sso.ng/1/a9ed05616d8f", 
+    "audio_url": "https://s01.sso.ng/1/00000002daae_a9ed05616d8f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002daae_a9ed05616d8f_mr.jpg", 
+    "song_album": "Something Real", 
+    "user": {
+        "username": "Giselgomezyv", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ec1e4c3a-8d91-4a1e-b354-01a22b5c5c1e.jpg", 
+        "id": "ec1e4c3a-8d91-4a1e-b354-01a22b5c5c1e"
+    }, 
+    "song_title": "Monster (DotEXE Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002daae_a9ed05616d8f_th.jpg", 
+    "song_artist": "Meg & Dia", 
+    "favorite_count": 1, 
+    "uuid": "64A60D64-BF64-4FFF-B133-406A9008241E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @DanielaGutierrez ?", 
+    "created_at": "2015-12-20T15:55:48-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000345e1_e9b6b7a14ed6.ssng", 
+    "updated_at": "2015-12-20T15:56:59-05:00", 
+    "share_url": "https://a.sso.ng/1/e9b6b7a14ed6", 
+    "audio_url": "https://s01.sso.ng/1/0000000345e1_e9b6b7a14ed6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000345e1_e9b6b7a14ed6_mr.jpg", 
+    "song_album": "Maroon 5", 
+    "user": {
+        "username": "danygu12", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e26422ef-7453-475e-aa4b-9fd97f92fceb.jpg", 
+        "id": "e26422ef-7453-475e-aa4b-9fd97f92fceb"
+    }, 
+    "song_title": "Maps", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000345e1_e9b6b7a14ed6_th.jpg", 
+    "song_artist": "Maps", 
+    "favorite_count": 1, 
+    "uuid": "AC0FCDEE-57B9-4403-975F-B6DF2D2C4092"
+}

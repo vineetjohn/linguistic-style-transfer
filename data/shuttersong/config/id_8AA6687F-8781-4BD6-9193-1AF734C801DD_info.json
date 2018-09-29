@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-03-28T11:43:11-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000039972_c505e207c2ef.ssng", 
+    "updated_at": "2016-04-01T03:54:20-04:00", 
+    "share_url": "https://a.sso.ng/1/c505e207c2ef", 
+    "audio_url": "https://s02.sso.ng/1/000000039972_c505e207c2ef.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000039972_c505e207c2ef_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "tim", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ab549f61-7c3b-482b-8b01-6b4d7c553029.jpg", 
+        "id": "ab549f61-7c3b-482b-8b01-6b4d7c553029"
+    }, 
+    "song_title": "Say So", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000039972_c505e207c2ef_th.jpg", 
+    "song_artist": "G-Eazy", 
+    "favorite_count": 2, 
+    "uuid": "8AA6687F-8781-4BD6-9193-1AF734C801DD"
+}

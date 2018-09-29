@@ -1,0 +1,27 @@
+{
+    "mood": "thankful", 
+    "caption": "never take anything for granted", 
+    "created_at": "2016-02-23T17:40:44-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f24f_2dd9b70f9f4d.ssng", 
+    "updated_at": "2016-02-27T06:23:27-05:00", 
+    "share_url": "https://a.sso.ng/1/2dd9b70f9f4d", 
+    "audio_url": "https://s02.sso.ng/1/00000003f24f_2dd9b70f9f4d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f24f_2dd9b70f9f4d_mr.jpg", 
+    "song_album": "Once in a While - Single", 
+    "user": {
+        "username": "katty511", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Kat Adams ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8c7bb89c-db50-434e-ac24-3a78dd501574.jpg", 
+        "id": "8c7bb89c-db50-434e-ac24-3a78dd501574"
+    }, 
+    "song_title": "Once in a While", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f24f_2dd9b70f9f4d_th.jpg", 
+    "song_artist": "Timeflies", 
+    "favorite_count": 3, 
+    "uuid": "DDBB47F4-7192-4196-AD06-767486505DA3"
+}

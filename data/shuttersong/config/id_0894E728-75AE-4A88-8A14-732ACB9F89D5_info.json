@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-29T23:46:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f5b6_fa7fffd93a2d.ssng", 
+    "updated_at": "2015-10-30T20:50:58-04:00", 
+    "share_url": "https://a.sso.ng/1/fa7fffd93a2d", 
+    "audio_url": "https://s01.sso.ng/1/00000002f5b6_fa7fffd93a2d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f5b6_fa7fffd93a2d_mr.jpg", 
+    "song_album": "Night Visions", 
+    "user": {
+        "username": "KindOfChristi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e057b5ac-553c-476f-b43e-8a65ecf897d4.jpg", 
+        "id": "e057b5ac-553c-476f-b43e-8a65ecf897d4"
+    }, 
+    "song_title": "Radioactive", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f5b6_fa7fffd93a2d_th.jpg", 
+    "song_artist": "Imagine Dragons", 
+    "favorite_count": 1, 
+    "uuid": "0894E728-75AE-4A88-8A14-732ACB9F89D5"
+}

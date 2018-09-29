@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-28T17:39:27-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003dcbb_9ff0aa43a115.ssng", 
+    "updated_at": "2016-01-30T00:15:21-05:00", 
+    "share_url": "https://a.sso.ng/1/9ff0aa43a115", 
+    "audio_url": "https://s02.sso.ng/1/00000003dcbb_9ff0aa43a115.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003dcbb_9ff0aa43a115_mr.jpg", 
+    "song_album": "Dual - EP", 
+    "user": {
+        "username": "skiesfalling", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f9b95c5c-9226-4afc-a7e3-f137b4ccd64e"
+    }, 
+    "song_title": "Eyes Wide", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003dcbb_9ff0aa43a115_th.jpg", 
+    "song_artist": "Meadowlark", 
+    "favorite_count": 1, 
+    "uuid": "FB5411EA-4528-43D2-984C-D84BC6DF293B"
+}

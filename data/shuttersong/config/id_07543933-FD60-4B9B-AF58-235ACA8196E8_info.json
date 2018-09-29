@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#Comida", 
+    "created_at": "2015-08-24T02:42:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000000e528_e8f1d22759ec.ssng", 
+    "updated_at": "2015-08-31T14:13:10-04:00", 
+    "share_url": "https://a.sso.ng/1/e8f1d22759ec", 
+    "audio_url": "https://s01.sso.ng/1/00000000e528_e8f1d22759ec.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000e528_e8f1d22759ec_mr.jpg", 
+    "song_album": "I Believe (feat. Michael Franti & Nahko) - Single", 
+    "user": {
+        "username": "diegodi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/271928ab-c7ea-4b3b-87c0-be7ea9383959.jpg", 
+        "id": "271928ab-c7ea-4b3b-87c0-be7ea9383959"
+    }, 
+    "song_title": "I Believe (feat. Michael Franti & Nahko)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000e528_e8f1d22759ec_th.jpg", 
+    "song_artist": "SOJA", 
+    "favorite_count": 2, 
+    "uuid": "07543933-FD60-4B9B-AF58-235ACA8196E8"
+}

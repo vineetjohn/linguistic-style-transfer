@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-03T15:51:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b563_b247de2d40ba.ssng", 
+    "updated_at": "2015-10-09T00:09:46-04:00", 
+    "share_url": "https://a.sso.ng/1/b247de2d40ba", 
+    "audio_url": "https://s01.sso.ng/1/00000002b563_b247de2d40ba.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b563_b247de2d40ba_mr.jpg", 
+    "song_album": "Viva la Vida or Death and All His Friends", 
+    "user": {
+        "username": "Amalia1503", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f410ce4e-7284-4179-b834-ec26d4fd8066.jpg", 
+        "id": "f410ce4e-7284-4179-b834-ec26d4fd8066"
+    }, 
+    "song_title": "Viva la Vida", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b563_b247de2d40ba_th.jpg", 
+    "song_artist": "Coldplay", 
+    "favorite_count": 1, 
+    "uuid": "0C6F33B0-6FC2-4747-A073-FCB1C1B5737F"
+}

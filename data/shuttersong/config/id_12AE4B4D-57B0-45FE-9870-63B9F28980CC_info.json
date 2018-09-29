@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-29T12:01:31-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044308_7cc43b716404.ssng", 
+    "updated_at": "2016-05-30T20:48:01-04:00", 
+    "share_url": "https://a.sso.ng/1/7cc43b716404", 
+    "audio_url": "https://s02.sso.ng/1/000000044308_7cc43b716404.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044308_7cc43b716404_mr.jpg", 
+    "song_album": "Viva La Vida Or Death And All His Friends", 
+    "user": {
+        "username": "daniellelarouxd", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "79719da6-68da-4389-ac56-814427aa3266"
+    }, 
+    "song_title": "Strawberry Swing", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044308_7cc43b716404_th.jpg", 
+    "song_artist": "Coldplay", 
+    "favorite_count": 2, 
+    "uuid": "12AE4B4D-57B0-45FE-9870-63B9F28980CC"
+}

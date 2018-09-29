@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-05T15:09:34-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003149c_15c4e59d1088.ssng", 
+    "updated_at": "2016-01-05T17:02:13-05:00", 
+    "share_url": "https://a.sso.ng/1/15c4e59d1088", 
+    "audio_url": "https://s01.sso.ng/1/00000003149c_15c4e59d1088.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003149c_15c4e59d1088_mr.jpg", 
+    "song_album": "Shawn Mendes", 
+    "user": {
+        "username": "Madeleine.C", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "21afe2e5-82fc-4662-84ac-dcf22251f7e2"
+    }, 
+    "song_title": "Something Big", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003149c_15c4e59d1088_th.jpg", 
+    "song_artist": "Something Big - Single", 
+    "favorite_count": 1, 
+    "uuid": "1AB34607-68C5-4ADC-BB96-D07341CEFFFF"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "bored", 
+    "caption": "I was bored so I thought I'd post?", 
+    "created_at": "2016-02-14T22:33:29-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e45b_0d46493519d9.ssng", 
+    "updated_at": "2016-02-18T05:32:42-05:00", 
+    "share_url": "https://a.sso.ng/1/0d46493519d9", 
+    "audio_url": "https://s02.sso.ng/1/00000003e45b_0d46493519d9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e45b_0d46493519d9_mr.jpg", 
+    "song_album": "Like That (feat. Skate) - Single", 
+    "user": {
+        "username": "KatieKat", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/db427aa2-3c1e-442a-ae6d-bbafb270443e.jpg", 
+        "id": "db427aa2-3c1e-442a-ae6d-bbafb270443e"
+    }, 
+    "song_title": "Like That (feat. Skate)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e45b_0d46493519d9_th.jpg", 
+    "song_artist": "Jack &amp; Jack", 
+    "favorite_count": 1, 
+    "uuid": "86023A83-2B9A-4BBC-8145-12FEF98742BA"
+}

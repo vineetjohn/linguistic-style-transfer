@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo Youtube: Oriannais", 
+    "created_at": "2016-01-01T05:18:12-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036238_c1ca1858349e.ssng", 
+    "updated_at": "2016-01-01T05:31:25-05:00", 
+    "share_url": "https://a.sso.ng/1/c1ca1858349e", 
+    "audio_url": "https://s01.sso.ng/1/000000036238_c1ca1858349e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036238_c1ca1858349e_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Oriannais", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7858277f-c4db-4422-a14c-40c272ea9a39.jpg", 
+        "id": "7858277f-c4db-4422-a14c-40c272ea9a39"
+    }, 
+    "song_title": "Let It Snow, Frank Sinatra-1", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036238_c1ca1858349e_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "8E7878F5-A821-4226-BAE0-042B713FC3EE"
+}

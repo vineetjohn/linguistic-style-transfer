@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-20T16:57:28-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fcab_edb38008a4ff.ssng", 
+    "updated_at": "2016-06-20T17:10:34-04:00", 
+    "share_url": "https://a.sso.ng/1/edb38008a4ff", 
+    "audio_url": "https://s02.sso.ng/1/00000003fcab_edb38008a4ff.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fcab_edb38008a4ff_mr.jpg", 
+    "song_album": "Journals", 
+    "user": {
+        "username": "illegal.luke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Megs", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/cbb48b16-9fa2-4d93-bce7-4353ca821844.jpg", 
+        "id": "cbb48b16-9fa2-4d93-bce7-4353ca821844"
+    }, 
+    "song_title": "Backpack (feat. Lil Wayne)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fcab_edb38008a4ff_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "E867BE16-DD20-466C-BE0E-47F50244AFDC"
+}

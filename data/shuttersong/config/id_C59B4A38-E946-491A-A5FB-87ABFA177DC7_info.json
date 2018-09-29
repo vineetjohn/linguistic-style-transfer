@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#we #will #remember #fire #and #gold #bea #miller", 
+    "created_at": "2015-11-12T00:14:36-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002fc4f_045032462279_1.ssng", 
+    "updated_at": "2015-11-12T07:07:08-05:00", 
+    "share_url": "https://a.sso.ng/1/045032462279", 
+    "audio_url": "https://s01.sso.ng/1/00000002fc4f_045032462279_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002fc4f_045032462279_1_mr.jpg", 
+    "song_album": "Young Blood (- EP)", 
+    "user": {
+        "username": "alex.elizebeth", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f0972d21-e99c-4736-ae82-dff1b0918f30.jpg", 
+        "id": "f0972d21-e99c-4736-ae82-dff1b0918f30"
+    }, 
+    "song_title": "Fire N Gold", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002fc4f_045032462279_1_th.jpg", 
+    "song_artist": "Bea Miller", 
+    "favorite_count": 1, 
+    "uuid": "C59B4A38-E946-491A-A5FB-87ABFA177DC7"
+}

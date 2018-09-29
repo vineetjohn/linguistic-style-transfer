@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "\ud83d\udc80\ud83d\udc80", 
+    "created_at": "2016-07-01T16:22:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044284_4aac21e66397.ssng", 
+    "updated_at": "2016-07-01T17:04:49-04:00", 
+    "share_url": "https://a.sso.ng/1/4aac21e66397", 
+    "audio_url": "https://s02.sso.ng/1/000000044284_4aac21e66397.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044284_4aac21e66397_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "that_peruvian_chick_", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": "Gabriella Carbajal", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/694187b6-297d-4db5-8dd7-1e5df1a4aed6.jpg", 
+        "id": "694187b6-297d-4db5-8dd7-1e5df1a4aed6"
+    }, 
+    "song_title": "Monster", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044284_4aac21e66397_th.jpg", 
+    "song_artist": "Kanye West ft. Jay-Z, Rick Ross, Bon Iver, and Nicki Minaj", 
+    "favorite_count": 1, 
+    "uuid": "BCE27B70-9DB6-4254-A211-D9ED2CE47AF8"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Sydney", 
+    "created_at": "2016-06-24T22:19:46-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1e1_93055ab09609.ssng", 
+    "updated_at": "2016-06-25T20:12:31-04:00", 
+    "share_url": "https://a.sso.ng/1/93055ab09609", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1e1_93055ab09609.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1e1_93055ab09609_mr.jpg", 
+    "song_album": "Do It Again (feat. Chris Brown & Tyga) - Single", 
+    "user": {
+        "username": "graceofficial27", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2d62df3d-5ead-4be7-90d8-1c83256bea6f.jpg", 
+        "id": "2d62df3d-5ead-4be7-90d8-1c83256bea6f"
+    }, 
+    "song_title": "Do It Again (feat. Chris Brown & Tyga)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1e1_93055ab09609_th.jpg", 
+    "song_artist": "Pia Mia", 
+    "favorite_count": 2, 
+    "uuid": "BE739B4E-A466-4F04-8B5A-B57350F06117"
+}

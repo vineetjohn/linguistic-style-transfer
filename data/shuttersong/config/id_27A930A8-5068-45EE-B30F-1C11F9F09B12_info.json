@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Glad they're having fun", 
+    "created_at": "2016-06-10T15:26:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3f2_1180be7994bd.ssng", 
+    "updated_at": "2016-06-11T10:02:49-04:00", 
+    "share_url": "https://a.sso.ng/1/1180be7994bd", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3f2_1180be7994bd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3f2_1180be7994bd_mr.jpg", 
+    "song_album": "Blue Neighbourhood (Deluxe)", 
+    "user": {
+        "username": "AvaSaldana96", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ayeee_Vahhh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c860f132-e54d-4498-99e1-bac87ee33c31.jpg", 
+        "id": "c860f132-e54d-4498-99e1-bac87ee33c31"
+    }, 
+    "song_title": "EASE", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3f2_1180be7994bd_th.jpg", 
+    "song_artist": "Troye Sivan ft. Broods", 
+    "favorite_count": 1, 
+    "uuid": "27A930A8-5068-45EE-B30F-1C11F9F09B12"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#weekend #santafe", 
+    "created_at": "2015-08-24T02:49:59-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002c16b_d88946e0e681_1.ssng", 
+    "updated_at": "2015-08-24T16:21:44-04:00", 
+    "share_url": "https://a.sso.ng/1/d88946e0e681", 
+    "audio_url": "https://s01.sso.ng/1/00000002c16b_d88946e0e681_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002c16b_d88946e0e681_1_mr.jpg", 
+    "song_album": "Loud", 
+    "user": {
+        "username": "kat_ferreira_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Katalina Ferreira", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9200cda9-ae7d-408a-901d-ed71a82eae11.jpg", 
+        "id": "9200cda9-ae7d-408a-901d-ed71a82eae11"
+    }, 
+    "song_title": "Cheers (Drink To That)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002c16b_d88946e0e681_1_th.jpg", 
+    "song_artist": "Rihanna", 
+    "favorite_count": 1, 
+    "uuid": "EE540A09-B2ED-4FC1-BB7A-3198E8546594"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-15T14:15:43-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041668_09c450c1bbd5.ssng", 
+    "updated_at": "2016-04-23T14:09:39-04:00", 
+    "share_url": "https://a.sso.ng/1/09c450c1bbd5", 
+    "audio_url": "https://s02.sso.ng/1/000000041668_09c450c1bbd5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041668_09c450c1bbd5_mr.jpg", 
+    "song_album": "Toy Story (An Original Walt Disney Records Soundtrack)", 
+    "user": {
+        "username": "truebagirl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a69f7725-60a7-402b-810d-c9af4073dbdb"
+    }, 
+    "song_title": "You've Got a Friend In Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041668_09c450c1bbd5_th.jpg", 
+    "song_artist": "Randy Newman", 
+    "favorite_count": 2, 
+    "uuid": "B29F8243-3FE0-49C1-9F12-09CD1C54D90D"
+}

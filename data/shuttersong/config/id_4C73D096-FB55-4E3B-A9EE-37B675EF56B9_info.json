@@ -1,0 +1,27 @@
+{
+    "mood": "frustrated", 
+    "caption": "My life", 
+    "created_at": "2016-02-21T23:56:29-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e348_9181ebaa113b.ssng", 
+    "updated_at": "2016-02-23T02:53:12-05:00", 
+    "share_url": "https://a.sso.ng/1/9181ebaa113b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e348_9181ebaa113b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e348_9181ebaa113b_mr.jpg", 
+    "song_album": "50 Cent", 
+    "user": {
+        "username": "JaisFifaTantrums", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Kirrilly", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6d466165-54d5-4f20-a839-034dc89896e9.jpg", 
+        "id": "6d466165-54d5-4f20-a839-034dc89896e9"
+    }, 
+    "song_title": "My Life (Full) feat. Eminem & Adam Levine", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e348_9181ebaa113b_th.jpg", 
+    "song_artist": "50 Cent", 
+    "favorite_count": 8, 
+    "uuid": "4C73D096-FB55-4E3B-A9EE-37B675EF56B9"
+}

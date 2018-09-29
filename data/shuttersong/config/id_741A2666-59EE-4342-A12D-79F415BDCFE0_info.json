@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-09T20:54:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020326_d649d1c01d38.ssng", 
+    "updated_at": "2015-08-09T23:11:29-04:00", 
+    "share_url": "https://a.sso.ng/1/d649d1c01d38", 
+    "audio_url": "https://s01.sso.ng/1/000000020326_d649d1c01d38.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020326_d649d1c01d38_mr.jpg", 
+    "song_album": "The Best of Nelly Furtado (Deluxe Version)", 
+    "user": {
+        "username": "emily96", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d2d43dfb-2d15-45b9-b01d-b3d96a8e33a5"
+    }, 
+    "song_title": "All Good Things (Come to an End)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020326_d649d1c01d38_th.jpg", 
+    "song_artist": "Nelly Furtado", 
+    "favorite_count": 1, 
+    "uuid": "741A2666-59EE-4342-A12D-79F415BDCFE0"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I don't really get this?", 
+    "created_at": "2015-08-04T05:18:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021531_948c80448cc7_1.ssng", 
+    "updated_at": "2015-08-04T05:18:44-04:00", 
+    "share_url": "https://a.sso.ng/1/948c80448cc7", 
+    "audio_url": "https://s01.sso.ng/1/000000021531_948c80448cc7_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021531_948c80448cc7_1_mr.jpg", 
+    "song_album": "Dangerous - Single", 
+    "user": {
+        "username": "chloebond6", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/add47d23-7824-48d8-87b8-288d24f57d8b.jpg", 
+        "id": "add47d23-7824-48d8-87b8-288d24f57d8b"
+    }, 
+    "song_title": "Dangerous", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021531_948c80448cc7_1_th.jpg", 
+    "song_artist": "The Vamps", 
+    "favorite_count": 1, 
+    "uuid": "759FC707-2854-47A0-A163-42C65C0778B7"
+}

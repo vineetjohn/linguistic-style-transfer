@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-07T08:48:48-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000031edf_f4f25a76566c.ssng", 
+    "updated_at": "2016-01-09T20:05:41-05:00", 
+    "share_url": "https://a.sso.ng/1/f4f25a76566c", 
+    "audio_url": "https://s01.sso.ng/1/000000031edf_f4f25a76566c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000031edf_f4f25a76566c_mr.jpg", 
+    "song_album": "Lo Mejor en 15 A\u00f1os", 
+    "user": {
+        "username": "Moises06", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Mois\u00e9s Vera", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2b09800c-e1f1-48a8-94f4-91ff96ffc95c.jpg", 
+        "id": "2b09800c-e1f1-48a8-94f4-91ff96ffc95c"
+    }, 
+    "song_title": "Amigo", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000031edf_f4f25a76566c_th.jpg", 
+    "song_artist": "Maracaibo 15", 
+    "favorite_count": 1, 
+    "uuid": "D179084C-2A89-428F-AEFC-EB787AD8884F"
+}

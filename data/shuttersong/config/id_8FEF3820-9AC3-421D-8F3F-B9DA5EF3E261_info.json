@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-17T18:08:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000238b7_5cbd9ecf1a32.ssng", 
+    "updated_at": "2015-08-17T20:13:14-04:00", 
+    "share_url": "https://a.sso.ng/1/5cbd9ecf1a32", 
+    "audio_url": "https://s01.sso.ng/1/0000000238b7_5cbd9ecf1a32.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000238b7_5cbd9ecf1a32_mr.jpg", 
+    "song_album": "Mind Over Matter", 
+    "user": {
+        "username": "Roberta99", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b90f739f-402b-4e02-9839-2d10841baeb7"
+    }, 
+    "song_title": "Mind Over Matter", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000238b7_5cbd9ecf1a32_th.jpg", 
+    "song_artist": "Young the Giant", 
+    "favorite_count": 1, 
+    "uuid": "8FEF3820-9AC3-421D-8F3F-B9DA5EF3E261"
+}

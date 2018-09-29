@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@brooksluke", 
+    "created_at": "2016-05-11T17:57:09-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ef93_7d6b843fa21c.ssng", 
+    "updated_at": "2016-05-19T05:07:10-04:00", 
+    "share_url": "https://a.sso.ng/1/7d6b843fa21c", 
+    "audio_url": "https://s02.sso.ng/1/00000003ef93_7d6b843fa21c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ef93_7d6b843fa21c_mr.jpg", 
+    "song_album": "Peace.Love.Truth. - EP", 
+    "user": {
+        "username": "janoslwt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a119a92f-f4a1-4dcb-8bf1-2a9e5ce3dabb.jpg", 
+        "id": "a119a92f-f4a1-4dcb-8bf1-2a9e5ce3dabb"
+    }, 
+    "song_title": "Cute", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ef93_7d6b843fa21c_th.jpg", 
+    "song_artist": "Stephen Jerzak", 
+    "favorite_count": 2, 
+    "uuid": "0A2CCA2B-E46B-42B7-8A33-76265F8145E5"
+}

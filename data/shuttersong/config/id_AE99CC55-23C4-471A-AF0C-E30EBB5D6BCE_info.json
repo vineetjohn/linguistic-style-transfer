@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-07T02:10:33-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042b59_9f422802ad7e.ssng", 
+    "updated_at": "2016-05-08T23:45:08-04:00", 
+    "share_url": "https://a.sso.ng/1/9f422802ad7e", 
+    "audio_url": "https://s02.sso.ng/1/000000042b59_9f422802ad7e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042b59_9f422802ad7e_mr.jpg", 
+    "song_album": "i hate u, i love u (feat. olivia o\u2019brien) - Single", 
+    "user": {
+        "username": "paigers4", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "62c9fb64-d116-4d1e-b0e9-c43691448952"
+    }, 
+    "song_title": "i hate u, i love u (feat. olivia o\u2019brien)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042b59_9f422802ad7e_th.jpg", 
+    "song_artist": "gnash", 
+    "favorite_count": 2, 
+    "uuid": "AE99CC55-23C4-471A-AF0C-E30EBB5D6BCE"
+}

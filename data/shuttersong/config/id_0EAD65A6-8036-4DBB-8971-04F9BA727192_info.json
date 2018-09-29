@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Get groovy baby. ", 
+    "created_at": "2015-08-04T15:58:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020f67_e632b687df84_1.ssng", 
+    "updated_at": "2015-08-04T15:59:09-04:00", 
+    "share_url": "https://a.sso.ng/1/e632b687df84", 
+    "audio_url": "https://s01.sso.ng/1/000000020f67_e632b687df84_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020f67_e632b687df84_1_mr.jpg", 
+    "song_album": "Groove - Single", 
+    "user": {
+        "username": "kristina_torbina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kristina", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fc647221-bd52-4c8a-af83-0589ac3de3e1.jpg", 
+        "id": "fc647221-bd52-4c8a-af83-0589ac3de3e1"
+    }, 
+    "song_title": "Groove", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020f67_e632b687df84_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 3, 
+    "uuid": "0EAD65A6-8036-4DBB-8971-04F9BA727192"
+}

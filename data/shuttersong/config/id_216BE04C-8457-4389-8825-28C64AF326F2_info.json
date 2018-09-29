@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I love meeting new friends #5sosinutah", 
+    "created_at": "2015-10-21T17:40:38-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002402c_69b0cb3caa12_1.ssng", 
+    "updated_at": "2015-12-31T06:59:24-05:00", 
+    "share_url": "https://a.sso.ng/1/69b0cb3caa12", 
+    "audio_url": "https://s01.sso.ng/1/00000002402c_69b0cb3caa12_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002402c_69b0cb3caa12_1_mr.jpg", 
+    "song_album": "Sounds Good Feels Good (Deluxe)", 
+    "user": {
+        "username": "NeedleMendes", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emily", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5ed4dc92-4df5-4ae4-98c6-01a473a2b2c7.jpg", 
+        "id": "5ed4dc92-4df5-4ae4-98c6-01a473a2b2c7"
+    }, 
+    "song_title": "Money", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002402c_69b0cb3caa12_1_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 4, 
+    "uuid": "216BE04C-8457-4389-8825-28C64AF326F2"
+}

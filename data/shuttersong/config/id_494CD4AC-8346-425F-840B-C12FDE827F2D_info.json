@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#beauValentine", 
+    "created_at": "2016-02-14T00:50:23-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e861_f248e9c15afa.ssng", 
+    "updated_at": "2016-02-14T10:40:19-05:00", 
+    "share_url": "https://a.sso.ng/1/f248e9c15afa", 
+    "audio_url": "https://s02.sso.ng/1/00000003e861_f248e9c15afa.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e861_f248e9c15afa_mr.jpg", 
+    "song_album": "Friend Zone - Single", 
+    "user": {
+        "username": "ilianajanoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "ddc47d4c-8d01-42e3-a861-fc88797e95a9"
+    }, 
+    "song_title": "Friend Zone", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e861_f248e9c15afa_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "494CD4AC-8346-425F-840B-C12FDE827F2D"
+}

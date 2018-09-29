@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "In honour of my ROWYSO concert ?", 
+    "created_at": "2015-08-04T19:28:41-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000205d1_42647fe21764_1.ssng", 
+    "updated_at": "2015-08-04T19:30:56-04:00", 
+    "share_url": "https://a.sso.ng/1/42647fe21764", 
+    "audio_url": "https://s01.sso.ng/1/0000000205d1_42647fe21764_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000205d1_42647fe21764_1_mr.jpg", 
+    "song_album": "Good Girls (EP)", 
+    "user": {
+        "username": "gilinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "mar", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d541f26a-95f9-452e-ba6c-f96f510eb340.jpg", 
+        "id": "d541f26a-95f9-452e-ba6c-f96f510eb340"
+    }, 
+    "song_title": "Long Way Home (Acoustic)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000205d1_42647fe21764_1_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 1, 
+    "uuid": "8E97352B-B2E9-45F9-95A0-0995858D5A51"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-27T19:21:59-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e224_07741f62d64b.ssng", 
+    "updated_at": "2016-03-24T22:57:46-04:00", 
+    "share_url": "https://a.sso.ng/1/07741f62d64b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e224_07741f62d64b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e224_07741f62d64b_mr.jpg", 
+    "song_album": "For Promotonal Use Only", 
+    "user": {
+        "username": "beausprincesaa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Princess", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/241fa9dc-2afc-4a07-8ea5-c6340e2c5ba0.jpg", 
+        "id": "241fa9dc-2afc-4a07-8ea5-c6340e2c5ba0"
+    }, 
+    "song_title": "Paranoid (Feat. B.o.B) (Dirty)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e224_07741f62d64b_th.jpg", 
+    "song_artist": "Ty Dolla $ign", 
+    "favorite_count": 2, 
+    "uuid": "1D87C06D-2C15-4A49-9AAB-E811B22F1F35"
+}

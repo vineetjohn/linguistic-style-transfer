@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "it's been 3 hours and I'm still trying to figure out how to work this app #firstshuttersong", 
+    "created_at": "2015-08-03T21:31:57-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000139b2_fb3f69b40716_1.ssng", 
+    "updated_at": "2015-10-24T15:53:13-04:00", 
+    "share_url": "https://a.sso.ng/1/fb3f69b40716", 
+    "audio_url": "https://s01.sso.ng/1/0000000139b2_fb3f69b40716_1.m4a", 
+    "comment_count": 5, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000139b2_fb3f69b40716_1_mr.jpg", 
+    "song_album": "Doing It Right - Single", 
+    "user": {
+        "username": "idkkstephanie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Stephanie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ab375e01-9fd3-4018-9c2a-349de4e247fb.jpg", 
+        "id": "ab375e01-9fd3-4018-9c2a-349de4e247fb"
+    }, 
+    "song_title": "Doing It Right", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000139b2_fb3f69b40716_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 4, 
+    "uuid": "25FB396D-A4D1-4A7E-A264-380DAA4623C6"
+}

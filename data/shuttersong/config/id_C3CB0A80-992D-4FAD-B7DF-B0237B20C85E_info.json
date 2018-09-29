@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2016-01-02T21:31:58-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003907b_7ce9c1721783.ssng", 
+    "updated_at": "2016-01-03T14:12:47-05:00", 
+    "share_url": "https://a.sso.ng/1/7ce9c1721783", 
+    "audio_url": "https://s01.sso.ng/1/00000003907b_7ce9c1721783.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003907b_7ce9c1721783_mr.jpg", 
+    "song_album": "Evanescence", 
+    "user": {
+        "username": "izatabardillo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fc3751a2-7c14-4141-842a-9b75de0285cc"
+    }, 
+    "song_title": "Angel of Mine", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003907b_7ce9c1721783_th.jpg", 
+    "song_artist": "The Opne Door", 
+    "favorite_count": 1, 
+    "uuid": "C3CB0A80-992D-4FAD-B7DF-B0237B20C85E"
+}

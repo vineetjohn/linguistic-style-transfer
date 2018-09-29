@@ -1,0 +1,27 @@
+{
+    "mood": "cheeky", 
+    "caption": "", 
+    "created_at": "2016-02-10T11:20:35-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e880_ea72c7ec939c.ssng", 
+    "updated_at": "2016-02-29T19:17:02-05:00", 
+    "share_url": "https://a.sso.ng/1/ea72c7ec939c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e880_ea72c7ec939c.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e880_ea72c7ec939c_mr.jpg", 
+    "song_album": "Timber (feat. Ke$ha) - Single", 
+    "user": {
+        "username": "beau_brooks_is_hot", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lillie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d07c1259-a769-416b-a13d-15cd646ce58c.jpg", 
+        "id": "d07c1259-a769-416b-a13d-15cd646ce58c"
+    }, 
+    "song_title": "Timber (feat. Ke$ha)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e880_ea72c7ec939c_th.jpg", 
+    "song_artist": "Pitbull", 
+    "favorite_count": 8, 
+    "uuid": "1FC236F6-4D50-4E1D-B62C-38FFC4251BF5"
+}

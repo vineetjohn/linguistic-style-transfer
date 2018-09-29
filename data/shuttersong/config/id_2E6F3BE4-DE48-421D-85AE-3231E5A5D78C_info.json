@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @FUNCHISWAG", 
+    "created_at": "2015-12-20T17:19:36-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037b15_c253a88c965b.ssng", 
+    "updated_at": "2015-12-20T17:28:27-05:00", 
+    "share_url": "https://a.sso.ng/1/c253a88c965b", 
+    "audio_url": "https://s01.sso.ng/1/000000037b15_c253a88c965b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037b15_c253a88c965b_mr.jpg", 
+    "song_album": "Reflection (Deluxe)", 
+    "user": {
+        "username": "richisantana", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/300268b3-04c4-44ee-8614-c541227ee867.jpg", 
+        "id": "300268b3-04c4-44ee-8614-c541227ee867"
+    }, 
+    "song_title": "Sledgehammer", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037b15_c253a88c965b_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 1, 
+    "uuid": "2E6F3BE4-DE48-421D-85AE-3231E5A5D78C"
+}

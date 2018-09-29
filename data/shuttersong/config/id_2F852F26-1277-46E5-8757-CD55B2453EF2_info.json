@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Top down and we PCH ? ", 
+    "created_at": "2015-08-15T19:54:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022955_d004fa12ab30_1.ssng", 
+    "updated_at": "2015-08-15T22:04:03-04:00", 
+    "share_url": "https://a.sso.ng/1/d004fa12ab30", 
+    "audio_url": "https://s01.sso.ng/1/000000022955_d004fa12ab30_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022955_d004fa12ab30_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "johnsonsflannel", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "diana", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/320946c9-d5f9-4c70-9d32-3142cb3e9801.jpg", 
+        "id": "320946c9-d5f9-4c70-9d32-3142cb3e9801"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022955_d004fa12ab30_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 3, 
+    "uuid": "2F852F26-1277-46E5-8757-CD55B2453EF2"
+}

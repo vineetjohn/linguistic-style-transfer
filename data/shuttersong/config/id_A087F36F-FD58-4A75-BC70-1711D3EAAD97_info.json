@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-11T21:42:11-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000212f5_4441f08073c5.ssng", 
+    "updated_at": "2016-05-12T04:19:06-04:00", 
+    "share_url": "https://a.sso.ng/1/4441f08073c5", 
+    "audio_url": "https://s02.sso.ng/1/0000000212f5_4441f08073c5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000212f5_4441f08073c5_mr.jpg", 
+    "song_album": "Not an Apology", 
+    "user": {
+        "username": "emzzee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e86d53ba-9cc3-4af2-a68a-837cafcbfdd0"
+    }, 
+    "song_title": "Fire N Gold", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000212f5_4441f08073c5_th.jpg", 
+    "song_artist": "Bea Miller", 
+    "favorite_count": 1, 
+    "uuid": "A087F36F-FD58-4A75-BC70-1711D3EAAD97"
+}

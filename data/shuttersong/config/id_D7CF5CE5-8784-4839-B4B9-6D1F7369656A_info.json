@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T00:14:55-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002079b_cca89e47390b.ssng", 
+    "updated_at": "2015-08-04T00:14:55-04:00", 
+    "share_url": "https://a.sso.ng/1/cca89e47390b", 
+    "audio_url": "https://s01.sso.ng/1/00000002079b_cca89e47390b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002079b_cca89e47390b_mr.jpg", 
+    "song_album": "Pretty Brown Eyes - Single", 
+    "user": {
+        "username": "mtvbrooke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "mtvbrooke", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5846be21-e3e4-4586-a9e0-a94b9b314158.jpg", 
+        "id": "5846be21-e3e4-4586-a9e0-a94b9b314158"
+    }, 
+    "song_title": "Pretty Brown Eyes", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002079b_cca89e47390b_th.jpg", 
+    "song_artist": "Cody Simpson", 
+    "favorite_count": 3, 
+    "uuid": "D7CF5CE5-8784-4839-B4B9-6D1F7369656A"
+}

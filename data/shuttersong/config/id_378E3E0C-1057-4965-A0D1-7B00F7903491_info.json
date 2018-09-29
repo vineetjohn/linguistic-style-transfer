@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Begging You", 
+    "created_at": "2015-08-27T14:44:02-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002cccb_4369bc6e1aaa_1.ssng", 
+    "updated_at": "2015-08-27T16:33:30-04:00", 
+    "share_url": "https://a.sso.ng/1/4369bc6e1aaa", 
+    "audio_url": "https://s01.sso.ng/1/00000002cccb_4369bc6e1aaa_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002cccb_4369bc6e1aaa_1_mr.jpg", 
+    "song_album": "TDP Exclusive Download", 
+    "user": {
+        "username": "Fabiolamata93", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/43d0396f-ddd8-4648-bffd-f423cadc4d90.jpg", 
+        "id": "43d0396f-ddd8-4648-bffd-f423cadc4d90"
+    }, 
+    "song_title": "Begging (Rami Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002cccb_4369bc6e1aaa_1_th.jpg", 
+    "song_artist": "Lions Head", 
+    "favorite_count": 1, 
+    "uuid": "378E3E0C-1057-4965-A0D1-7B00F7903491"
+}

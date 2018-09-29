@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "shawn\u2764\ufe0f\u2764\ufe0f", 
+    "created_at": "2015-08-03T23:06:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020abe_d158d1172d18_1.ssng", 
+    "updated_at": "2015-08-03T23:07:00-04:00", 
+    "share_url": "https://a.sso.ng/1/d158d1172d18", 
+    "audio_url": "https://s01.sso.ng/1/000000020abe_d158d1172d18_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020abe_d158d1172d18_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "maddycurt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/82c0cfe8-caef-4600-96bf-e2d061f74d14.jpg", 
+        "id": "82c0cfe8-caef-4600-96bf-e2d061f74d14"
+    }, 
+    "song_title": "This Is What It Takes", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020abe_d158d1172d18_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "F7604CB5-5B6E-4A8B-BC57-A5B9EF67457F"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-22T21:57:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b5fc_60e172e24c4f.ssng", 
+    "updated_at": "2015-08-23T10:12:37-04:00", 
+    "share_url": "https://a.sso.ng/1/60e172e24c4f", 
+    "audio_url": "https://s01.sso.ng/1/00000002b5fc_60e172e24c4f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b5fc_60e172e24c4f_mr.jpg", 
+    "song_album": "Red (Deluxe)", 
+    "user": {
+        "username": "PaulaBernal", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c8863da1-8353-479e-9f0a-ae97d881aace.jpg", 
+        "id": "c8863da1-8353-479e-9f0a-ae97d881aace"
+    }, 
+    "song_title": "22", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b5fc_60e172e24c4f_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "94F124BE-B120-4062-A0E0-443E0DEE9796"
+}

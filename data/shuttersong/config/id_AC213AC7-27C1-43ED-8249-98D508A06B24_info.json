@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-17T12:53:43-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000030e99_0ff52bba4b10.ssng", 
+    "updated_at": "2016-04-23T14:02:47-04:00", 
+    "share_url": "https://a.sso.ng/1/0ff52bba4b10", 
+    "audio_url": "https://s02.sso.ng/1/000000030e99_0ff52bba4b10.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030e99_0ff52bba4b10_mr.jpg", 
+    "song_album": "LOSE", 
+    "user": {
+        "username": "Nanihead", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3e1c698b-d1b8-4583-8501-9fc5d00b3723.jpg", 
+        "id": "3e1c698b-d1b8-4583-8501-9fc5d00b3723"
+    }, 
+    "song_title": "Jackson", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030e99_0ff52bba4b10_th.jpg", 
+    "song_artist": "Cymbals Eat Guitars", 
+    "favorite_count": 3, 
+    "uuid": "AC213AC7-27C1-43ED-8249-98D508A06B24"
+}

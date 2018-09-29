@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-12T04:49:59-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003d2bb_71a75c52d92c.ssng", 
+    "updated_at": "2016-01-13T11:27:35-05:00", 
+    "share_url": "https://a.sso.ng/1/71a75c52d92c", 
+    "audio_url": "https://s01.sso.ng/1/00000003d2bb_71a75c52d92c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003d2bb_71a75c52d92c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "zitih", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a58f0cba-9dff-4fee-a5a6-3da1466195bb"
+    }, 
+    "song_title": "UMSE - Life is too short (prod. Deckah)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003d2bb_71a75c52d92c_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "D3A7C288-5691-4397-8F99-4D8F83C8D6DC"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Alykanas, Zakynthos, Ionian Islands \ud83c\udf1e", 
+    "created_at": "2016-04-30T07:43:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042383_bcb59f903102.ssng", 
+    "updated_at": "2016-04-30T08:51:11-04:00", 
+    "share_url": "https://a.sso.ng/1/bcb59f903102", 
+    "audio_url": "https://s02.sso.ng/1/000000042383_bcb59f903102.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042383_bcb59f903102_mr.jpg", 
+    "song_album": "5 Seconds Of Summer [Deluxe Edition]", 
+    "user": {
+        "username": "oliviaparsons", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Olivia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d21adb58-dc6a-4b67-ad0a-271338e0298e.jpg", 
+        "id": "d21adb58-dc6a-4b67-ad0a-271338e0298e"
+    }, 
+    "song_title": "Amnesia", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042383_bcb59f903102_th.jpg", 
+    "song_artist": "5 Seconds Of Summer", 
+    "favorite_count": 1, 
+    "uuid": "2618A086-1FD7-44DC-B3B1-86EF96AC4D8B"
+}

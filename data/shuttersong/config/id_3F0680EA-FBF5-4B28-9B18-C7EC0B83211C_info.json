@@ -1,0 +1,27 @@
+{
+    "mood": "thankful", 
+    "caption": "", 
+    "created_at": "2016-06-29T17:14:01-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000461ba_3a7eeb7dbbb4.ssng", 
+    "updated_at": "2016-06-29T17:17:07-04:00", 
+    "share_url": "https://a.sso.ng/1/3a7eeb7dbbb4", 
+    "audio_url": "https://s02.sso.ng/1/0000000461ba_3a7eeb7dbbb4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000461ba_3a7eeb7dbbb4_mr.jpg", 
+    "song_album": "Revival", 
+    "user": {
+        "username": "tayahlynn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/38a99625-ec26-4423-b438-cd150825cb4c.jpg", 
+        "id": "38a99625-ec26-4423-b438-cd150825cb4c"
+    }, 
+    "song_title": "Perfect (Bonus Track)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000461ba_3a7eeb7dbbb4_th.jpg", 
+    "song_artist": "Selena Gomez", 
+    "favorite_count": 1, 
+    "uuid": "3F0680EA-FBF5-4B28-9B18-C7EC0B83211C"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T12:30:15-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036fd5_6aabbf15e54b.ssng", 
+    "updated_at": "2015-12-24T08:50:53-05:00", 
+    "share_url": "https://a.sso.ng/1/6aabbf15e54b", 
+    "audio_url": "https://s01.sso.ng/1/000000036fd5_6aabbf15e54b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036fd5_6aabbf15e54b_mr.jpg", 
+    "song_album": "Sia", 
+    "user": {
+        "username": "gianella17", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "353c5f26-5a33-4cf4-a110-e7a6d85e42be"
+    }, 
+    "song_title": "Chandelier", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036fd5_6aabbf15e54b_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "05CB6E35-E674-47B2-9746-E612D0D7D1ED"
+}

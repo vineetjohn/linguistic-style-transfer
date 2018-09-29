@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:46:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020fb5_a7651b7a41f9.ssng", 
+    "updated_at": "2015-08-03T23:46:06-04:00", 
+    "share_url": "https://a.sso.ng/1/a7651b7a41f9", 
+    "audio_url": "https://s01.sso.ng/1/000000020fb5_a7651b7a41f9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020fb5_a7651b7a41f9_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "dani_1215", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d382d524-6cf1-4d63-899d-5044a3e8f984.jpg", 
+        "id": "d382d524-6cf1-4d63-899d-5044a3e8f984"
+    }, 
+    "song_title": "HIT THE QUAN SONG - IHeart Memphis-  HIT THE QUAN DANCE - HIT DEM FOLKS", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020fb5_a7651b7a41f9_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "0A23C281-40A3-49E2-89A6-CA1508903CFD"
+}

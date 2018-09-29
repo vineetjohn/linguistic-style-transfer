@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My life ?", 
+    "created_at": "2015-10-05T13:24:26-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020010_3c6617a596cf_1.ssng", 
+    "updated_at": "2015-10-05T21:55:17-04:00", 
+    "share_url": "https://a.sso.ng/1/3c6617a596cf", 
+    "audio_url": "https://s01.sso.ng/1/000000020010_3c6617a596cf_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020010_3c6617a596cf_1_mr.jpg", 
+    "song_album": "Call It Whatever - Single", 
+    "user": {
+        "username": "DreamWithJacks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Cande", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/90d74c0b-d492-4447-9194-ae32de27181f.jpg", 
+        "id": "90d74c0b-d492-4447-9194-ae32de27181f"
+    }, 
+    "song_title": "Call It Whatever", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020010_3c6617a596cf_1_th.jpg", 
+    "song_artist": "Bella Thorne", 
+    "favorite_count": 1, 
+    "uuid": "FDC11D93-CF70-4D63-A9FA-2627317ED78D"
+}

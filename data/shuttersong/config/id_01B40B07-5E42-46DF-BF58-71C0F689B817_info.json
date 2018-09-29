@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack and Jack ?? ", 
+    "created_at": "2015-08-04T00:04:27-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002106a_586bcf32adb9_1.ssng", 
+    "updated_at": "2015-08-04T00:05:21-04:00", 
+    "share_url": "https://a.sso.ng/1/586bcf32adb9", 
+    "audio_url": "https://s01.sso.ng/1/00000002106a_586bcf32adb9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002106a_586bcf32adb9_1_mr.jpg", 
+    "song_album": "Wild Life - Single", 
+    "user": {
+        "username": "piper.westmoreland", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "JACK AND JACK", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/70ff6edc-3dac-4467-b257-3d0cb708357c.jpg", 
+        "id": "70ff6edc-3dac-4467-b257-3d0cb708357c"
+    }, 
+    "song_title": "Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002106a_586bcf32adb9_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "01B40B07-5E42-46DF-BF58-71C0F689B817"
+}

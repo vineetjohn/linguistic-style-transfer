@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T17:16:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000293f2_93a6853f92a1.ssng", 
+    "updated_at": "2015-08-22T11:04:10-04:00", 
+    "share_url": "https://a.sso.ng/1/93a6853f92a1", 
+    "audio_url": "https://s01.sso.ng/1/0000000293f2_93a6853f92a1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000293f2_93a6853f92a1_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "Marilu44", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e30398aa-9053-45e1-9bab-aa0f42c858d8.jpg", 
+        "id": "e30398aa-9053-45e1-9bab-aa0f42c858d8"
+    }, 
+    "song_title": "Song for Someone", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000293f2_93a6853f92a1_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 1, 
+    "uuid": "F31A601D-4859-4602-98F3-452F9436BE23"
+}

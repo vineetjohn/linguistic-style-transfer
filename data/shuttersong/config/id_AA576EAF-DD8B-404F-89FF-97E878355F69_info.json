@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-02T14:28:01-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001eb6a_dfe3ba1dbc71.ssng", 
+    "updated_at": "2015-09-02T21:02:30-04:00", 
+    "share_url": "https://a.sso.ng/1/dfe3ba1dbc71", 
+    "audio_url": "https://s01.sso.ng/1/00000001eb6a_dfe3ba1dbc71.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001eb6a_dfe3ba1dbc71_mr.jpg", 
+    "song_album": "My World 2.0 (Bonus Track Version)", 
+    "user": {
+        "username": "natalia_garcia1997", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2854faf3-4624-4975-94e7-651cac6ddbe3"
+    }, 
+    "song_title": "Baby", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001eb6a_dfe3ba1dbc71_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "AA576EAF-DD8B-404F-89FF-97E878355F69"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T06:32:12-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000215c8_1380b8af66e9.ssng", 
+    "updated_at": "2015-08-04T06:32:12-04:00", 
+    "share_url": "https://a.sso.ng/1/1380b8af66e9", 
+    "audio_url": "https://s01.sso.ng/1/0000000215c8_1380b8af66e9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000215c8_1380b8af66e9_mr.jpg", 
+    "song_album": "Skrillex and Diplo Present Jack \u00dc", 
+    "user": {
+        "username": "krisbdvsk", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "792aed98-902d-406d-85f8-89dfd245167d"
+    }, 
+    "song_title": "Where Are \u00dc Now (with Justin Bieber)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000215c8_1380b8af66e9_th.jpg", 
+    "song_artist": "Skrillex & Diplo", 
+    "favorite_count": 1, 
+    "uuid": "BE7725C5-1216-4DA1-B23E-E23A73732C68"
+}

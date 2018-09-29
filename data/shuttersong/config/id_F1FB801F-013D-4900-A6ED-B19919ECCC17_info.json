@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T05:41:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000206a6_e0337d034a45.ssng", 
+    "updated_at": "2015-08-04T05:41:04-04:00", 
+    "share_url": "https://a.sso.ng/1/e0337d034a45", 
+    "audio_url": "https://s01.sso.ng/1/0000000206a6_e0337d034a45.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000206a6_e0337d034a45_mr.jpg", 
+    "song_album": "5 Seconds of Summer", 
+    "user": {
+        "username": "ceazy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b2ed5fb0-576e-4987-84f8-3067345a4cc2.jpg", 
+        "id": "b2ed5fb0-576e-4987-84f8-3067345a4cc2"
+    }, 
+    "song_title": "Beside You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000206a6_e0337d034a45_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 1, 
+    "uuid": "F1FB801F-013D-4900-A6ED-B19919ECCC17"
+}

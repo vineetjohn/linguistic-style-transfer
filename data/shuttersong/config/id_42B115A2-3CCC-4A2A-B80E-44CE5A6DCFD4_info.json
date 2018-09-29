@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I'm doing a theme how exciting", 
+    "created_at": "2016-02-12T23:04:36-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e313_0ef24feda0e0.ssng", 
+    "updated_at": "2016-02-18T21:40:28-05:00", 
+    "share_url": "https://a.sso.ng/1/0ef24feda0e0", 
+    "audio_url": "https://s02.sso.ng/1/00000003e313_0ef24feda0e0.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e313_0ef24feda0e0_mr.jpg", 
+    "song_album": "Blue Neighbourhood (Deluxe)", 
+    "user": {
+        "username": "treasurejanos", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f914f34a-1636-49dc-833c-10562b40d8a1.jpg", 
+        "id": "f914f34a-1636-49dc-833c-10562b40d8a1"
+    }, 
+    "song_title": "COOL", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e313_0ef24feda0e0_th.jpg", 
+    "song_artist": "Troye Sivan", 
+    "favorite_count": 11, 
+    "uuid": "42B115A2-3CCC-4A2A-B80E-44CE5A6DCFD4"
+}

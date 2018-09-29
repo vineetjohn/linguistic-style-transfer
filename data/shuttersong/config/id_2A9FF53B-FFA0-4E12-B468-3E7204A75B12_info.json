@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": ":) @beaub", 
+    "created_at": "2016-02-10T01:06:21-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e83a_134f0e41e03f.ssng", 
+    "updated_at": "2016-02-10T05:09:18-05:00", 
+    "share_url": "https://a.sso.ng/1/134f0e41e03f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e83a_134f0e41e03f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e83a_134f0e41e03f_mr.jpg", 
+    "song_album": "Friend Zone - Single", 
+    "user": {
+        "username": "janosfromkmart", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "isabellugh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0656caf6-0819-4838-837c-0aea3b1d6942.jpg", 
+        "id": "0656caf6-0819-4838-837c-0aea3b1d6942"
+    }, 
+    "song_title": "Friend Zone", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e83a_134f0e41e03f_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 2, 
+    "uuid": "2A9FF53B-FFA0-4E12-B468-3E7204A75B12"
+}

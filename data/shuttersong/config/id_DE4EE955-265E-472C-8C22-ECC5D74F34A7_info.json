@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-11T16:12:42-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003d228_93e83dc4908d.ssng", 
+    "updated_at": "2016-01-12T19:06:57-05:00", 
+    "share_url": "https://a.sso.ng/1/93e83dc4908d", 
+    "audio_url": "https://s01.sso.ng/1/00000003d228_93e83dc4908d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003d228_93e83dc4908d_mr.jpg", 
+    "song_album": "The Definitive Collection", 
+    "user": {
+        "username": "helenprice73", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c419cdbf-0247-41e6-b74c-35bf26ecdfb1"
+    }, 
+    "song_title": "Ballerina Girl", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003d228_93e83dc4908d_th.jpg", 
+    "song_artist": "Lionel Richie", 
+    "favorite_count": 2, 
+    "uuid": "DE4EE955-265E-472C-8C22-ECC5D74F34A7"
+}

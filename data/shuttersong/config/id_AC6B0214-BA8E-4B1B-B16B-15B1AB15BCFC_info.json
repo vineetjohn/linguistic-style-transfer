@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T07:34:29-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000010505_83dbd469673c.ssng", 
+    "updated_at": "2015-08-04T07:34:29-04:00", 
+    "share_url": "https://a.sso.ng/1/83dbd469673c", 
+    "audio_url": "https://s01.sso.ng/1/000000010505_83dbd469673c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000010505_83dbd469673c_mr.jpg", 
+    "song_album": "Reflection Eternal - Train of Thought (Explicit Version)", 
+    "user": {
+        "username": "rashid", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "29d09967-186a-41d7-97e6-9ca1311b628e"
+    }, 
+    "song_title": "Memories Live", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000010505_83dbd469673c_th.jpg", 
+    "song_artist": "Reflection Eternal", 
+    "favorite_count": 1, 
+    "uuid": "AC6B0214-BA8E-4B1B-B16B-15B1AB15BCFC"
+}

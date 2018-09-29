@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-26T03:18:31-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a96e_254604b4bd45.ssng", 
+    "updated_at": "2015-12-28T23:39:26-05:00", 
+    "share_url": "https://a.sso.ng/1/254604b4bd45", 
+    "audio_url": "https://s01.sso.ng/1/00000002a96e_254604b4bd45.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a96e_254604b4bd45_mr.jpg", 
+    "song_album": "Unknown Album 2", 
+    "user": {
+        "username": "NYD_17", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3e466683-382e-4517-bb70-2b33c123a578.jpg", 
+        "id": "3e466683-382e-4517-bb70-2b33c123a578"
+    }, 
+    "song_title": "Bob Marley - Is this Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a96e_254604b4bd45_th.jpg", 
+    "song_artist": "Unknown Artist", 
+    "favorite_count": 1, 
+    "uuid": "DE58029A-0C2C-4FA5-98DA-F9289F9C79BC"
+}

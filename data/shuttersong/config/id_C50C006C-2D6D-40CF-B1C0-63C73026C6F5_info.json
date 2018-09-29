@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-04T16:53:37-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000033a02_f0b8e8e8a5d1.ssng", 
+    "updated_at": "2016-01-06T04:02:00-05:00", 
+    "share_url": "https://a.sso.ng/1/f0b8e8e8a5d1", 
+    "audio_url": "https://s01.sso.ng/1/000000033a02_f0b8e8e8a5d1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000033a02_f0b8e8e8a5d1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "karlazamora195", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6abf47e1-63b7-40c0-bf8a-1f1f7e08649b.jpg", 
+        "id": "6abf47e1-63b7-40c0-bf8a-1f1f7e08649b"
+    }, 
+    "song_title": "Nicki Minaj - The Night Is Still Young", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000033a02_f0b8e8e8a5d1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "C50C006C-2D6D-40CF-B1C0-63C73026C6F5"
+}

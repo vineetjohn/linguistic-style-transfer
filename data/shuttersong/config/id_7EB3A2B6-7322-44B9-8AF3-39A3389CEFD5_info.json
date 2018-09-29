@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T04:09:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a801_952edc913f2b.ssng", 
+    "updated_at": "2015-08-22T23:45:26-04:00", 
+    "share_url": "https://a.sso.ng/1/952edc913f2b", 
+    "audio_url": "https://s01.sso.ng/1/00000002a801_952edc913f2b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a801_952edc913f2b_mr.jpg", 
+    "song_album": "Time In a Bottle - Jim Croce's Greatest Love Songs", 
+    "user": {
+        "username": "watson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e559b345-3cfe-44fe-837c-21df375933aa"
+    }, 
+    "song_title": "Time In a Bottle", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a801_952edc913f2b_th.jpg", 
+    "song_artist": "Jim Croce", 
+    "favorite_count": 1, 
+    "uuid": "7EB3A2B6-7322-44B9-8AF3-39A3389CEFD5"
+}

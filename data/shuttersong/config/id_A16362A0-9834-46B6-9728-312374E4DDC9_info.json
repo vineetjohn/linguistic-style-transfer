@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "See you soon ?", 
+    "created_at": "2015-09-02T23:20:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002590e_4c4f8669e27e_1.ssng", 
+    "updated_at": "2015-10-03T21:53:48-04:00", 
+    "share_url": "https://a.sso.ng/1/4c4f8669e27e", 
+    "audio_url": "https://s01.sso.ng/1/00000002590e_4c4f8669e27e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002590e_4c4f8669e27e_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "monse_serratos12", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Monse Serratos ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/37ed1287-439c-4d8f-a790-6e4a3e831f09.jpg", 
+        "id": "37ed1287-439c-4d8f-a790-6e4a3e831f09"
+    }, 
+    "song_title": "5 Seconds of Summer   Amnesia (Lyric video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002590e_4c4f8669e27e_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "A16362A0-9834-46B6-9728-312374E4DDC9"
+}

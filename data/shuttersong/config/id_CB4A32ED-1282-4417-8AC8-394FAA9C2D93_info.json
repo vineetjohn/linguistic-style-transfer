@@ -1,0 +1,27 @@
+{
+    "mood": "blah", 
+    "caption": "@beaub hurry up and follow kjjanoskians on Twitter please", 
+    "created_at": "2016-03-25T23:31:55-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8d4_2be99869f07f.ssng", 
+    "updated_at": "2016-05-02T19:04:35-04:00", 
+    "share_url": "https://a.sso.ng/1/2be99869f07f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8d4_2be99869f07f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8d4_2be99869f07f_mr.jpg", 
+    "song_album": "All I Want 4 Christmas - Single", 
+    "user": {
+        "username": "kj_janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kj Yammouni", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e141d00-1b4d-4a7d-9169-6742873e1cf8.jpg", 
+        "id": "2e141d00-1b4d-4a7d-9169-6742873e1cf8"
+    }, 
+    "song_title": "All I Want 4 Christmas", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8d4_2be99869f07f_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "CB4A32ED-1282-4417-8AC8-394FAA9C2D93"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T00:09:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025d58_0fd58d345151.ssng", 
+    "updated_at": "2015-08-22T23:45:15-04:00", 
+    "share_url": "https://a.sso.ng/1/0fd58d345151", 
+    "audio_url": "https://s01.sso.ng/1/000000025d58_0fd58d345151.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025d58_0fd58d345151_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "naomircg", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a3bfa77d-5b27-4870-9e68-c2d548d94b1e.jpg", 
+        "id": "a3bfa77d-5b27-4870-9e68-c2d548d94b1e"
+    }, 
+    "song_title": "MACKLEMORE  RYAN LEWIS   CAN'T HOLD US FEAT RAY DALTON (OFFICIAL MUSIC VIDEO)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025d58_0fd58d345151_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "9BE4C7E4-BF75-4F0F-B045-4EA4751EC5D7"
+}

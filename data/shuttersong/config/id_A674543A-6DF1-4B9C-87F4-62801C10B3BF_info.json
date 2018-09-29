@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-07-03T07:19:00-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000046483_4134ff49bf59.ssng", 
+    "updated_at": "2016-07-05T04:48:23-04:00", 
+    "share_url": "https://a.sso.ng/1/4134ff49bf59", 
+    "audio_url": "https://s02.sso.ng/1/000000046483_4134ff49bf59.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000046483_4134ff49bf59_mr.jpg", 
+    "song_album": "Trapstep", 
+    "user": {
+        "username": "basscook", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6fb6e8b2-cfa0-4527-922e-58fdc9611134"
+    }, 
+    "song_title": "Bear Grillz & Getter - EDM (VIP)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000046483_4134ff49bf59_th.jpg", 
+    "song_artist": "Trapstep", 
+    "favorite_count": 2, 
+    "uuid": "A674543A-6DF1-4B9C-87F4-62801C10B3BF"
+}

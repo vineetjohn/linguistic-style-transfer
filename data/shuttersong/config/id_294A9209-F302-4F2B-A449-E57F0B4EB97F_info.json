@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:26:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020a14_576b037d5d84.ssng", 
+    "updated_at": "2015-08-03T23:26:06-04:00", 
+    "share_url": "https://a.sso.ng/1/576b037d5d84", 
+    "audio_url": "https://s01.sso.ng/1/000000020a14_576b037d5d84.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020a14_576b037d5d84_mr.jpg", 
+    "song_album": "Flights - Single", 
+    "user": {
+        "username": "kimmie321", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "cb419501-73a0-4802-a45d-4d6fafb6bcf3"
+    }, 
+    "song_title": "Flights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020a14_576b037d5d84_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "294A9209-F302-4F2B-A449-E57F0B4EB97F"
+}

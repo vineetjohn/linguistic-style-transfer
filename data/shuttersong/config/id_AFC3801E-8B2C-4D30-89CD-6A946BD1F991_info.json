@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-28T22:20:36-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002014e_2437cd840189.ssng", 
+    "updated_at": "2015-07-28T22:20:36-04:00", 
+    "share_url": "https://a.sso.ng/1/2437cd840189", 
+    "audio_url": "https://s01.sso.ng/1/00000002014e_2437cd840189.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002014e_2437cd840189_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "paris", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "ccd2ba54-d0cd-4d73-870b-b11ae25e1434"
+    }, 
+    "song_title": "Glass Animals - Gooey (official audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002014e_2437cd840189_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "AFC3801E-8B2C-4D30-89CD-6A946BD1F991"
+}

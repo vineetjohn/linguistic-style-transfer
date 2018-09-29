@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-15T20:23:41-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001e5d1_5420e66c803e.ssng", 
+    "updated_at": "2015-08-13T12:18:24-04:00", 
+    "share_url": "https://a.sso.ng/1/5420e66c803e", 
+    "audio_url": "https://s01.sso.ng/1/00000001e5d1_5420e66c803e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001e5d1_5420e66c803e_mr.jpg", 
+    "song_album": "Of Beauty and Rage", 
+    "user": {
+        "username": "nicoline", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d470bf64-9882-4dfc-8d89-f543c86578af.jpg", 
+        "id": "d470bf64-9882-4dfc-8d89-f543c86578af"
+    }, 
+    "song_title": "Falling Sky", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001e5d1_5420e66c803e_th.jpg", 
+    "song_artist": "Red", 
+    "favorite_count": 1, 
+    "uuid": "6F91BE88-A2A3-4220-861B-77B0B8E71BD4"
+}

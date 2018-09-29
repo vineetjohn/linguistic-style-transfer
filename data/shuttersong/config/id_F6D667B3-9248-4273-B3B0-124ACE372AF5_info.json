@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-02T02:28:32-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040783_f55d3350a916.ssng", 
+    "updated_at": "2016-04-02T14:27:49-04:00", 
+    "share_url": "https://a.sso.ng/1/f55d3350a916", 
+    "audio_url": "https://s02.sso.ng/1/000000040783_f55d3350a916.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040783_f55d3350a916_mr.jpg", 
+    "song_album": "Born to Die", 
+    "user": {
+        "username": "izzi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "bdbc1c6b-5690-4cd3-a23b-1a0b8eabbd70"
+    }, 
+    "song_title": "Diet Mountain Dew", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040783_f55d3350a916_th.jpg", 
+    "song_artist": "Lana Del Rey", 
+    "favorite_count": 1, 
+    "uuid": "F6D667B3-9248-4273-B3B0-124ACE372AF5"
+}

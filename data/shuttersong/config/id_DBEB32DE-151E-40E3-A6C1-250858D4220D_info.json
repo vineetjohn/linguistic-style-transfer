@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-09T14:12:22-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1b3_8c21bcb3e443.ssng", 
+    "updated_at": "2016-02-09T18:38:15-05:00", 
+    "share_url": "https://a.sso.ng/1/8c21bcb3e443", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1b3_8c21bcb3e443.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1b3_8c21bcb3e443_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "margaridamoura", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "63ccf0f9-ed94-4530-94d9-ead600841c2d"
+    }, 
+    "song_title": "A Sky Full Of Stars - Coldplay (Boyce Avenue acoustic cover) on iTunes &amp; Spotify", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1b3_8c21bcb3e443_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "DBEB32DE-151E-40E3-A6C1-250858D4220D"
+}

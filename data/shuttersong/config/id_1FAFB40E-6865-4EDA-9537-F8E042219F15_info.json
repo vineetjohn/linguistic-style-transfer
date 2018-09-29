@@ -1,0 +1,27 @@
+{
+    "mood": "Dorky", 
+    "caption": "", 
+    "created_at": "2016-03-07T06:15:29-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f1de_7dc522d651d8.ssng", 
+    "updated_at": "2016-05-05T10:11:42-04:00", 
+    "share_url": "https://a.sso.ng/1/7dc522d651d8", 
+    "audio_url": "https://s02.sso.ng/1/00000003f1de_7dc522d651d8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f1de_7dc522d651d8_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lilliel", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c6353282-d687-42ac-b1ef-b82fcfd4fc6e.jpg", 
+        "id": "c6353282-d687-42ac-b1ef-b82fcfd4fc6e"
+    }, 
+    "song_title": "A Drop In the Ocean", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f1de_7dc522d651d8_th.jpg", 
+    "song_artist": "Ron Pope", 
+    "favorite_count": 1, 
+    "uuid": "1FAFB40E-6865-4EDA-9537-F8E042219F15"
+}

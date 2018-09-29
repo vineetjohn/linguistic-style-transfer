@@ -1,0 +1,27 @@
+{
+    "mood": "sleepy", 
+    "caption": "Goodnight world Te Amo.", 
+    "created_at": "2016-04-13T00:17:26-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e73d_946e9d18cb4c.ssng", 
+    "updated_at": "2016-05-02T22:22:29-04:00", 
+    "share_url": "https://a.sso.ng/1/946e9d18cb4c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e73d_946e9d18cb4c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e73d_946e9d18cb4c_mr.jpg", 
+    "song_album": "Surfers Paradise", 
+    "user": {
+        "username": "Hi_xHaileex_Here", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c635e9f9-2d96-46e1-a082-a25f09efbee0.jpg", 
+        "id": "c635e9f9-2d96-46e1-a082-a25f09efbee0"
+    }, 
+    "song_title": "La Da Dee", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e73d_946e9d18cb4c_th.jpg", 
+    "song_artist": "Cody Simpson", 
+    "favorite_count": 5, 
+    "uuid": "AFDADCBE-9FBB-44B3-9850-3A3AF906DD96"
+}

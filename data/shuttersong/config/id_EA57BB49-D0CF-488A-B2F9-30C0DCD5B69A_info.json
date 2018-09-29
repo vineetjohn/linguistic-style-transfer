@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo mi nombre en YouTube es BeLu Bordoni", 
+    "created_at": "2015-12-18T13:52:12-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003170d_0894f1d1de93.ssng", 
+    "updated_at": "2015-12-26T13:38:50-05:00", 
+    "share_url": "https://a.sso.ng/1/0894f1d1de93", 
+    "audio_url": "https://s01.sso.ng/1/00000003170d_0894f1d1de93.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003170d_0894f1d1de93_mr.jpg", 
+    "song_album": "Love in the Future (Deluxe Edition)", 
+    "user": {
+        "username": "belubordoni", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce04f21f-33ca-450b-b1c0-009bd8dd7042.jpg", 
+        "id": "ce04f21f-33ca-450b-b1c0-009bd8dd7042"
+    }, 
+    "song_title": "All Of Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003170d_0894f1d1de93_th.jpg", 
+    "song_artist": "John Legend", 
+    "favorite_count": 1, 
+    "uuid": "EA57BB49-D0CF-488A-B2F9-30C0DCD5B69A"
+}

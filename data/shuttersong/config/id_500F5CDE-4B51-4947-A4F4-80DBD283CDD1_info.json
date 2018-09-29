@@ -1,0 +1,27 @@
+{
+    "mood": "cheeky", 
+    "caption": "", 
+    "created_at": "2016-02-12T15:29:12-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea4c_13eda37f8153.ssng", 
+    "updated_at": "2016-02-12T16:12:40-05:00", 
+    "share_url": "https://a.sso.ng/1/13eda37f8153", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea4c_13eda37f8153.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea4c_13eda37f8153_mr.jpg", 
+    "song_album": "Blurryface", 
+    "user": {
+        "username": "_lukesbigbanana", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a7bcd892-ec46-4707-8ed1-1ea61455b5c1.jpg", 
+        "id": "a7bcd892-ec46-4707-8ed1-1ea61455b5c1"
+    }, 
+    "song_title": "Doubt", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea4c_13eda37f8153_th.jpg", 
+    "song_artist": "twenty one pilots", 
+    "favorite_count": 1, 
+    "uuid": "500F5CDE-4B51-4947-A4F4-80DBD283CDD1"
+}

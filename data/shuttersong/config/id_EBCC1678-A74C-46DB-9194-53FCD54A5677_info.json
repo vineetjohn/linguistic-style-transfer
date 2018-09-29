@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Cutieeee @beaub", 
+    "created_at": "2016-02-13T18:22:08-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ec47_717afc2fbce2.ssng", 
+    "updated_at": "2016-02-14T00:34:21-05:00", 
+    "share_url": "https://a.sso.ng/1/717afc2fbce2", 
+    "audio_url": "https://s02.sso.ng/1/00000003ec47_717afc2fbce2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ec47_717afc2fbce2_mr.jpg", 
+    "song_album": "Good Girls (EP)", 
+    "user": {
+        "username": "DarrinJanoskian", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9d2cb15d-919d-4ff3-8004-992aa96c749c.jpg", 
+        "id": "9d2cb15d-919d-4ff3-8004-992aa96c749c"
+    }, 
+    "song_title": "Long Way Home (Acoustic)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ec47_717afc2fbce2_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 4, 
+    "uuid": "EBCC1678-A74C-46DB-9194-53FCD54A5677"
+}

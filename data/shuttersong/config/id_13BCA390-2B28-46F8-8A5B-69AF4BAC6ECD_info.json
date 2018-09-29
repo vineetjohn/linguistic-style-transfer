@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?outside", 
+    "created_at": "2015-12-17T22:27:01-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003264e_21644a55f870.ssng", 
+    "updated_at": "2015-12-18T10:57:43-05:00", 
+    "share_url": "https://a.sso.ng/1/21644a55f870", 
+    "audio_url": "https://s01.sso.ng/1/00000003264e_21644a55f870.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003264e_21644a55f870_mr.jpg", 
+    "song_album": "Calvin Harris Ft. Ellie Goulding", 
+    "user": {
+        "username": "marialuz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5686f528-f682-4d99-ab73-4f608eea3a00"
+    }, 
+    "song_title": "Outside", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003264e_21644a55f870_th.jpg", 
+    "song_artist": "UrbanMusicHQ.se", 
+    "favorite_count": 1, 
+    "uuid": "13BCA390-2B28-46F8-8A5B-69AF4BAC6ECD"
+}

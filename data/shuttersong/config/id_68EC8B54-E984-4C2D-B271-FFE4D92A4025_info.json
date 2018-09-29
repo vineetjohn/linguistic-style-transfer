@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YouTube : @LePixie", 
+    "created_at": "2015-12-26T23:27:02-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000366b6_6fccce28216e.ssng", 
+    "updated_at": "2015-12-26T23:30:54-05:00", 
+    "share_url": "https://a.sso.ng/1/6fccce28216e", 
+    "audio_url": "https://s01.sso.ng/1/0000000366b6_6fccce28216e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000366b6_6fccce28216e_mr.jpg", 
+    "song_album": "Birdy", 
+    "user": {
+        "username": "TamaraSnch", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fa3f26c1-56f2-429c-8cba-94928ebfdf7a.jpg", 
+        "id": "fa3f26c1-56f2-429c-8cba-94928ebfdf7a"
+    }, 
+    "song_title": "Wings", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000366b6_6fccce28216e_th.jpg", 
+    "song_artist": "Fire Within", 
+    "favorite_count": 1, 
+    "uuid": "68EC8B54-E984-4C2D-B271-FFE4D92A4025"
+}

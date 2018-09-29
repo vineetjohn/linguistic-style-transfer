@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo / Youtube: Rosdelia Guerra", 
+    "created_at": "2015-12-19T15:33:09-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003548c_033591473cc9.ssng", 
+    "updated_at": "2015-12-19T19:12:21-05:00", 
+    "share_url": "https://a.sso.ng/1/033591473cc9", 
+    "audio_url": "https://s01.sso.ng/1/00000003548c_033591473cc9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003548c_033591473cc9_mr.jpg", 
+    "song_album": null, 
+    "user": {
+        "username": "Rosdelia", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/27ddf992-7f29-4ac4-84d1-b10fb6219fde.jpg", 
+        "id": "27ddf992-7f29-4ac4-84d1-b10fb6219fde"
+    }, 
+    "song_title": "Jingle bells (Campanas de Navidad)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003548c_033591473cc9_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "A1412454-D582-4DD7-8FB1-C6D9EE989BD0"
+}

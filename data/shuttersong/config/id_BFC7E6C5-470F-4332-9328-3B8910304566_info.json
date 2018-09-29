@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T10:29:09-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000034413_3d6dfad2fd36.ssng", 
+    "updated_at": "2015-12-24T09:22:17-05:00", 
+    "share_url": "https://a.sso.ng/1/3d6dfad2fd36", 
+    "audio_url": "https://s01.sso.ng/1/000000034413_3d6dfad2fd36.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000034413_3d6dfad2fd36_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "valeduquee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fc427dd4-3df5-4664-b2e1-72221d3b5764"
+    }, 
+    "song_title": "Alesso - Cool ft. Roy English", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000034413_3d6dfad2fd36_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "BFC7E6C5-470F-4332-9328-3B8910304566"
+}

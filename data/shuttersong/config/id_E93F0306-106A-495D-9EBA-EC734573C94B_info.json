@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo yt: Val", 
+    "created_at": "2015-12-25T20:17:50-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000039ace_430f0b9e21b6.ssng", 
+    "updated_at": "2015-12-25T21:42:25-05:00", 
+    "share_url": "https://a.sso.ng/1/430f0b9e21b6", 
+    "audio_url": "https://s01.sso.ng/1/000000039ace_430f0b9e21b6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000039ace_430f0b9e21b6_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "Val99", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Valentina", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ef55cb26-8d49-4884-80c6-ad2e253aef0e.jpg", 
+        "id": "ef55cb26-8d49-4884-80c6-ad2e253aef0e"
+    }, 
+    "song_title": "The Miracle (Of Joey Ramone)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000039ace_430f0b9e21b6_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 1, 
+    "uuid": "E93F0306-106A-495D-9EBA-EC734573C94B"
+}

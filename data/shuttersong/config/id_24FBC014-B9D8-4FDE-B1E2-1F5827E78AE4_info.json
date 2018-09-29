@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-23T07:15:30-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e0ff_ccd7f2377654.ssng", 
+    "updated_at": "2015-10-25T19:10:18-04:00", 
+    "share_url": "https://a.sso.ng/1/ccd7f2377654", 
+    "audio_url": "https://s01.sso.ng/1/00000002e0ff_ccd7f2377654.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e0ff_ccd7f2377654_mr.jpg", 
+    "song_album": "JE Heartbreak", 
+    "user": {
+        "username": "sweetpassion5", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b2825eeb-a6a2-42f7-90b4-0fcf6153a4f1.jpg", 
+        "id": "b2825eeb-a6a2-42f7-90b4-0fcf6153a4f1"
+    }, 
+    "song_title": "Let's Get Married (Remix Run DMC)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e0ff_ccd7f2377654_th.jpg", 
+    "song_artist": "Jagged Edge", 
+    "favorite_count": 1, 
+    "uuid": "24FBC014-B9D8-4FDE-B1E2-1F5827E78AE4"
+}

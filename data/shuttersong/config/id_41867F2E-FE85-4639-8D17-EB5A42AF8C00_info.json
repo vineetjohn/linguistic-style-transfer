@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-03T21:09:17-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042880_a51e0be24d44.ssng", 
+    "updated_at": "2016-05-04T05:43:11-04:00", 
+    "share_url": "https://a.sso.ng/1/a51e0be24d44", 
+    "audio_url": "https://s02.sso.ng/1/000000042880_a51e0be24d44.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042880_a51e0be24d44_mr.jpg", 
+    "song_album": "Reflection (Deluxe)", 
+    "user": {
+        "username": "kpistol4", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f96e2e3d-d3bd-46c0-aefc-5c2a6b6ab9c3"
+    }, 
+    "song_title": "BO$$", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042880_a51e0be24d44_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 1, 
+    "uuid": "41867F2E-FE85-4639-8D17-EB5A42AF8C00"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\ude0a", 
+    "created_at": "2016-06-30T11:22:27-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042f05_8fb487fe510b.ssng", 
+    "updated_at": "2016-07-06T10:03:32-04:00", 
+    "share_url": "https://a.sso.ng/1/8fb487fe510b", 
+    "audio_url": "https://s02.sso.ng/1/000000042f05_8fb487fe510b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042f05_8fb487fe510b_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "alizaofficial", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/234c50c7-95eb-457d-8717-879d8dad0822.jpg", 
+        "id": "234c50c7-95eb-457d-8717-879d8dad0822"
+    }, 
+    "song_title": "The Chainsmokers - Don't Let Me Down (Audio) ft. Daya", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042f05_8fb487fe510b_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 7, 
+    "uuid": "C62E2BF2-FD64-42C1-9577-8C19F9B18DAC"
+}

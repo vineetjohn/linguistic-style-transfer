@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Lost frequencies ?", 
+    "created_at": "2015-10-21T16:33:55-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f2e6_1e0fe1988d94_1.ssng", 
+    "updated_at": "2015-10-24T10:49:16-04:00", 
+    "share_url": "https://a.sso.ng/1/1e0fe1988d94", 
+    "audio_url": "https://s01.sso.ng/1/00000002f2e6_1e0fe1988d94_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f2e6_1e0fe1988d94_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "andrea_19", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "ecb103c7-280d-4800-97ae-b4d1b4a2aa30"
+    }, 
+    "song_title": "Lost Frequencies - Are You With Me (Michael Prado Edit)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f2e6_1e0fe1988d94_1_th.jpg", 
+    "song_artist": "MICHAEL PRADO", 
+    "favorite_count": 1, 
+    "uuid": "5544C502-E601-4660-B2EA-9C68DF85427C"
+}

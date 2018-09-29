@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-21T15:29:16-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000431e4_87345fc20d6e.ssng", 
+    "updated_at": "2016-05-24T01:37:55-04:00", 
+    "share_url": "https://a.sso.ng/1/87345fc20d6e", 
+    "audio_url": "https://s02.sso.ng/1/0000000431e4_87345fc20d6e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000431e4_87345fc20d6e_mr.jpg", 
+    "song_album": "Free the Universe (Extended Version)", 
+    "user": {
+        "username": "jdimuccio", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9589ea5f-3f32-451b-a1f8-03bf99c1d30e"
+    }, 
+    "song_title": "Bubble Butt (feat. Bruno Mars, Tyga & Mystic)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000431e4_87345fc20d6e_th.jpg", 
+    "song_artist": "Major Lazer", 
+    "favorite_count": 2, 
+    "uuid": "AC592631-E397-4CB4-A71A-C3C49F0268AD"
+}

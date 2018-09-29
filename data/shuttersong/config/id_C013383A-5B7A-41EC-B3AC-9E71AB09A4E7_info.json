@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-09T09:54:55-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002ed07_e0a8b88a94b8.ssng", 
+    "updated_at": "2015-10-10T12:56:53-04:00", 
+    "share_url": "https://a.sso.ng/1/e0a8b88a94b8", 
+    "audio_url": "https://s01.sso.ng/1/00000002ed07_e0a8b88a94b8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002ed07_e0a8b88a94b8_mr.jpg", 
+    "song_album": "Doo-Wops & Hooligans (Deluxe Version)", 
+    "user": {
+        "username": "luckyone", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "40f78b54-450e-4bab-adb3-261a04d795c0"
+    }, 
+    "song_title": "The Lazy Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002ed07_e0a8b88a94b8_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 1, 
+    "uuid": "C013383A-5B7A-41EC-B3AC-9E71AB09A4E7"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-23T22:48:32-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000374f5_264515df70b4.ssng", 
+    "updated_at": "2015-12-31T10:42:14-05:00", 
+    "share_url": "https://a.sso.ng/1/264515df70b4", 
+    "audio_url": "https://s01.sso.ng/1/0000000374f5_264515df70b4.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000374f5_264515df70b4_mr.jpg", 
+    "song_album": "Demi Lovato", 
+    "user": {
+        "username": "fabilizurbina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Fabiola Liz Urbina", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1ddd702c-d7ee-45d6-ab95-6746e5dc6b46.jpg", 
+        "id": "1ddd702c-d7ee-45d6-ab95-6746e5dc6b46"
+    }, 
+    "song_title": "Nightingale", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000374f5_264515df70b4_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "B2B253E3-36FF-47BE-AAB1-AE8E2FCB11FD"
+}

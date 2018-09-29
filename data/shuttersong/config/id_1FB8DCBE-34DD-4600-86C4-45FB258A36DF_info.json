@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "Hanging with my homie!", 
+    "created_at": "2016-03-30T10:45:46-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000002fce5_2b1ac0be081b.ssng", 
+    "updated_at": "2016-04-30T09:23:22-04:00", 
+    "share_url": "https://a.sso.ng/1/2b1ac0be081b", 
+    "audio_url": "https://s02.sso.ng/1/00000002fce5_2b1ac0be081b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002fce5_2b1ac0be081b_mr.jpg", 
+    "song_album": "Eyes Wide Open", 
+    "user": {
+        "username": "ShannonSweeney", 
+        "verified": true, 
+        "username_color": "", 
+        "full_name": "shannon", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bcb9bad4-7a7f-4fae-991e-e44b9e145fc0.jpg", 
+        "id": "bcb9bad4-7a7f-4fae-991e-e44b9e145fc0"
+    }, 
+    "song_title": "White Flag", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002fce5_2b1ac0be081b_th.jpg", 
+    "song_artist": "Sabrina Carpenter", 
+    "favorite_count": 4, 
+    "uuid": "1FB8DCBE-34DD-4600-86C4-45FB258A36DF"
+}

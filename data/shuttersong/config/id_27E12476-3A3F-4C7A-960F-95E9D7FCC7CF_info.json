@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "friends", 
+    "created_at": "2015-08-21T10:52:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000028543_19330f9dc3d7_1.ssng", 
+    "updated_at": "2015-08-22T23:38:47-04:00", 
+    "share_url": "https://a.sso.ng/1/19330f9dc3d7", 
+    "audio_url": "https://s01.sso.ng/1/000000028543_19330f9dc3d7_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000028543_19330f9dc3d7_1_mr.jpg", 
+    "song_album": "That's Falling in Love (from \"Talking Angela\") - Single", 
+    "user": {
+        "username": "SusyKry", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a1e13e04-aaa9-437d-a548-b0c105ab631f.jpg", 
+        "id": "a1e13e04-aaa9-437d-a548-b0c105ab631f"
+    }, 
+    "song_title": "That's Falling in Love (from \"Talking Angela\")", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000028543_19330f9dc3d7_1_th.jpg", 
+    "song_artist": "Chelsea Ward", 
+    "favorite_count": 2, 
+    "uuid": "27E12476-3A3F-4C7A-960F-95E9D7FCC7CF"
+}

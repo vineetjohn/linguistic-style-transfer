@@ -1,0 +1,27 @@
+{
+    "mood": "cheerful", 
+    "caption": "Green Day Mood ??", 
+    "created_at": "2016-02-11T22:25:10-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e416_1c492d3bf245.ssng", 
+    "updated_at": "2016-02-13T00:30:01-05:00", 
+    "share_url": "https://a.sso.ng/1/1c492d3bf245", 
+    "audio_url": "https://s02.sso.ng/1/00000003e416_1c492d3bf245.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e416_1c492d3bf245_mr.jpg", 
+    "song_album": "21st Century Breakdown (Deluxe Version)", 
+    "user": {
+        "username": "LukesPimp", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e608c89b-6d7e-4c87-873c-d2a963c3d2d9.jpg", 
+        "id": "e608c89b-6d7e-4c87-873c-d2a963c3d2d9"
+    }, 
+    "song_title": "21 Guns", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e416_1c492d3bf245_th.jpg", 
+    "song_artist": "Green Day", 
+    "favorite_count": 4, 
+    "uuid": "6C0C7804-058E-4EF4-8E16-4B43E178EA1A"
+}

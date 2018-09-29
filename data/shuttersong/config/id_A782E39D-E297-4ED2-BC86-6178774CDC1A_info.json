@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "California ?", 
+    "created_at": "2015-08-03T23:28:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e45_d0b6e69c6bbb_1.ssng", 
+    "updated_at": "2015-08-19T00:37:41-04:00", 
+    "share_url": "https://a.sso.ng/1/d0b6e69c6bbb", 
+    "audio_url": "https://s01.sso.ng/1/000000020e45_d0b6e69c6bbb_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e45_d0b6e69c6bbb_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "hailey_gione", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Hailey Gione", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ed29f455-87b5-492e-a4e6-10bf8bf583cc.jpg", 
+        "id": "ed29f455-87b5-492e-a4e6-10bf8bf583cc"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e45_d0b6e69c6bbb_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "A782E39D-E297-4ED2-BC86-6178774CDC1A"
+}

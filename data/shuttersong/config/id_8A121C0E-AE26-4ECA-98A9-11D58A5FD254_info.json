@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-18T11:18:08-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d2e7_f4d55df23c74.ssng", 
+    "updated_at": "2015-09-20T11:24:26-04:00", 
+    "share_url": "https://a.sso.ng/1/f4d55df23c74", 
+    "audio_url": "https://s01.sso.ng/1/00000002d2e7_f4d55df23c74.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d2e7_f4d55df23c74_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "laila05", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b1908443-cfca-4ed9-aa87-e6aca1860642"
+    }, 
+    "song_title": "Espejismos ( letra)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d2e7_f4d55df23c74_th.jpg", 
+    "song_artist": "Porta", 
+    "favorite_count": 1, 
+    "uuid": "8A121C0E-AE26-4ECA-98A9-11D58A5FD254"
+}

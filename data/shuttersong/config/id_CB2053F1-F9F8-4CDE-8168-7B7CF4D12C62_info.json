@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-23T15:09:26-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037ac2_3550b39a6a22.ssng", 
+    "updated_at": "2015-12-27T11:03:04-05:00", 
+    "share_url": "https://a.sso.ng/1/3550b39a6a22", 
+    "audio_url": "https://s01.sso.ng/1/000000037ac2_3550b39a6a22.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037ac2_3550b39a6a22_mr.jpg", 
+    "song_album": "E\u2022MO\u2022TION (Deluxe)", 
+    "user": {
+        "username": "paulandc", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4b7e5b7a-2b3a-4576-9993-8b9a42ae76f4.jpg", 
+        "id": "4b7e5b7a-2b3a-4576-9993-8b9a42ae76f4"
+    }, 
+    "song_title": "Black Heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037ac2_3550b39a6a22_th.jpg", 
+    "song_artist": "Carly Rae Jepsen", 
+    "favorite_count": 1, 
+    "uuid": "CB2053F1-F9F8-4CDE-8168-7B7CF4D12C62"
+}

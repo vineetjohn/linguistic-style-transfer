@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-29T14:32:39-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003df5c_f1dcb36a4371.ssng", 
+    "updated_at": "2016-07-03T00:22:02-04:00", 
+    "share_url": "https://a.sso.ng/1/f1dcb36a4371", 
+    "audio_url": "https://s02.sso.ng/1/00000003df5c_f1dcb36a4371.m4a", 
+    "comment_count": 34, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003df5c_f1dcb36a4371_mr.jpg", 
+    "song_album": "Teenage Desperate - Single", 
+    "user": {
+        "username": "beaub", 
+        "verified": true, 
+        "username_color": "#28c4d8", 
+        "full_name": "Beau Brooks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ffa72c4a-099a-4eea-a890-7d7e14a60007.jpg", 
+        "id": "ffa72c4a-099a-4eea-a890-7d7e14a60007"
+    }, 
+    "song_title": "Teenage Desperate", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003df5c_f1dcb36a4371_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 115, 
+    "uuid": "A9CCB71D-7D59-4F40-BFFD-2621192A1754"
+}

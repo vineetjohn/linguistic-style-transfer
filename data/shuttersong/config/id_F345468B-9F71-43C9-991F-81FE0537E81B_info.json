@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-20T11:05:30-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036b4e_cf53d3277b98.ssng", 
+    "updated_at": "2015-12-25T19:53:23-05:00", 
+    "share_url": "https://a.sso.ng/1/cf53d3277b98", 
+    "audio_url": "https://s01.sso.ng/1/000000036b4e_cf53d3277b98.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036b4e_cf53d3277b98_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "TatianitAmore", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/eb06e70f-1b3f-476f-8eaf-96bc79718aba.jpg", 
+        "id": "eb06e70f-1b3f-476f-8eaf-96bc79718aba"
+    }, 
+    "song_title": "Aunque Me Cueste La Vida - Celia Cruz", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036b4e_cf53d3277b98_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "F345468B-9F71-43C9-991F-81FE0537E81B"
+}

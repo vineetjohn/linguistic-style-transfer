@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Happy Valentine's Day ??", 
+    "created_at": "2016-02-14T13:02:15-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea06_2dfd3dd98904.ssng", 
+    "updated_at": "2016-02-14T15:51:36-05:00", 
+    "share_url": "https://a.sso.ng/1/2dfd3dd98904", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea06_2dfd3dd98904.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea06_2dfd3dd98904_mr.jpg", 
+    "song_album": "PILLOWTALK - Single", 
+    "user": {
+        "username": "grace.30", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8f290863-914e-482a-a3e8-77cb89ddb8ab.jpg", 
+        "id": "8f290863-914e-482a-a3e8-77cb89ddb8ab"
+    }, 
+    "song_title": "PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea06_2dfd3dd98904_th.jpg", 
+    "song_artist": "ZAYN", 
+    "favorite_count": 1, 
+    "uuid": "B3CDD884-242D-4E79-BB28-CD24EBE97D7A"
+}

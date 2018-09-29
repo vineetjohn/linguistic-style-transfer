@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "California JACK AND JACK \u2764\ufe0f\u2764\ufe0f", 
+    "created_at": "2015-08-12T18:22:13-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002399b_57ac722a21f2_2.ssng", 
+    "updated_at": "2015-08-12T23:21:04-04:00", 
+    "share_url": "https://a.sso.ng/1/57ac722a21f2", 
+    "audio_url": "https://s01.sso.ng/1/00000002399b_57ac722a21f2_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002399b_57ac722a21f2_2_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "LauraBonci", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Laura Bonci", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f0ad4048-3352-48c5-8adc-921826c5afb8.jpg", 
+        "id": "f0ad4048-3352-48c5-8adc-921826c5afb8"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002399b_57ac722a21f2_2_th.jpg", 
+    "song_artist": "Jack and Jack", 
+    "favorite_count": 1, 
+    "uuid": "DB3FE5C7-9BCE-4203-858D-73EFB4DBC056"
+}

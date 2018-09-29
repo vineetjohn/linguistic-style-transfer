@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T20:13:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002689f_97ca74b92fdb.ssng", 
+    "updated_at": "2015-08-20T23:15:40-04:00", 
+    "share_url": "https://a.sso.ng/1/97ca74b92fdb", 
+    "audio_url": "https://s01.sso.ng/1/00000002689f_97ca74b92fdb.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002689f_97ca74b92fdb_mr.jpg", 
+    "song_album": "Sound of a Woman", 
+    "user": {
+        "username": "sofi_zubiria", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "76b892e5-b549-4748-bf2b-893c45131eca"
+    }, 
+    "song_title": "Hideaway", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002689f_97ca74b92fdb_th.jpg", 
+    "song_artist": "Kiesza", 
+    "favorite_count": 4, 
+    "uuid": "BB1D3CCD-6D6C-4582-A9C3-E7B400C788D2"
+}

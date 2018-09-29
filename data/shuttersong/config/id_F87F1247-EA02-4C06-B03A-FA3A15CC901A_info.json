@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Stiches from Shawn Mendes", 
+    "created_at": "2015-08-04T15:56:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021a42_cb73eb70fb2f_1.ssng", 
+    "updated_at": "2015-08-04T15:56:50-04:00", 
+    "share_url": "https://a.sso.ng/1/cb73eb70fb2f", 
+    "audio_url": "https://s01.sso.ng/1/000000021a42_cb73eb70fb2f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021a42_cb73eb70fb2f_1_mr.jpg", 
+    "song_album": "Handwritten", 
+    "user": {
+        "username": "Lay_D", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "59ae3641-779d-45d4-b775-64cbc9cb2141"
+    }, 
+    "song_title": "Stitches", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021a42_cb73eb70fb2f_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "F87F1247-EA02-4C06-B03A-FA3A15CC901A"
+}

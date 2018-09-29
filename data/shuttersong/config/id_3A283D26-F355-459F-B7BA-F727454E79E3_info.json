@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Omg?", 
+    "created_at": "2015-08-04T09:46:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002174c_e255483b7c0c_1.ssng", 
+    "updated_at": "2015-08-04T09:47:27-04:00", 
+    "share_url": "https://a.sso.ng/1/e255483b7c0c", 
+    "audio_url": "https://s01.sso.ng/1/00000002174c_e255483b7c0c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002174c_e255483b7c0c_1_mr.jpg", 
+    "song_album": "Bitch Better Have My Money - Single", 
+    "user": {
+        "username": "lilywilliams225", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7980332e-b004-45a9-a6b9-abf9b4f1f6e3"
+    }, 
+    "song_title": "Bitch Better Have My Money", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002174c_e255483b7c0c_1_th.jpg", 
+    "song_artist": "Rihanna", 
+    "favorite_count": 1, 
+    "uuid": "3A283D26-F355-459F-B7BA-F727454E79E3"
+}

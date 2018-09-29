@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#MmmYeah", 
+    "created_at": "2015-08-09T22:03:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022ed3_47b997380ede_2.ssng", 
+    "updated_at": "2015-08-09T23:26:19-04:00", 
+    "share_url": "https://a.sso.ng/1/47b997380ede", 
+    "audio_url": "https://s01.sso.ng/1/000000022ed3_47b997380ede_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022ed3_47b997380ede_2_mr.jpg", 
+    "song_album": "Mmm Yeah (feat. Pitbull) - Single", 
+    "user": {
+        "username": "Aloha_Faith4", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/356aef7f-de01-4941-b388-115c364cac04.jpg", 
+        "id": "356aef7f-de01-4941-b388-115c364cac04"
+    }, 
+    "song_title": "Mmm Yeah (feat. Pitbull)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022ed3_47b997380ede_2_th.jpg", 
+    "song_artist": "Austin Mahone", 
+    "favorite_count": 1, 
+    "uuid": "0716DB6C-B2D5-4DF4-9F56-A75B133DB2F2"
+}

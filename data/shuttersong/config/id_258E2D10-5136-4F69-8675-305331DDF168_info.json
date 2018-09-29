@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-05T01:01:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021bad_c31213e9b568.ssng", 
+    "updated_at": "2015-08-05T01:01:47-04:00", 
+    "share_url": "https://a.sso.ng/1/c31213e9b568", 
+    "audio_url": "https://s01.sso.ng/1/000000021bad_c31213e9b568.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021bad_c31213e9b568_mr.jpg", 
+    "song_album": "Paradise (Never Change) - Single", 
+    "user": {
+        "username": "xxo_mikayla_oxx", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Mikayla Withrow", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/11377653-0614-4c1a-aa62-71d7a305a9b9.jpg", 
+        "id": "11377653-0614-4c1a-aa62-71d7a305a9b9"
+    }, 
+    "song_title": "Paradise (Never Change)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021bad_c31213e9b568_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "258E2D10-5136-4F69-8675-305331DDF168"
+}

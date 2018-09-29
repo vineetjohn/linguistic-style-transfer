@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-21T19:18:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004306d_0063742e2a52.ssng", 
+    "updated_at": "2016-06-23T03:29:24-04:00", 
+    "share_url": "https://a.sso.ng/1/0063742e2a52", 
+    "audio_url": "https://s02.sso.ng/1/00000004306d_0063742e2a52.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004306d_0063742e2a52_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "chenipe", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jenifer", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7c4bce1e-8dd4-4066-b49e-14ecf716c349.jpg", 
+        "id": "7c4bce1e-8dd4-4066-b49e-14ecf716c349"
+    }, 
+    "song_title": "I Don't Fuck With You (Explicit) - Big Sean", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004306d_0063742e2a52_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "963B5F7B-1442-4934-B1F8-9518C827DF81"
+}

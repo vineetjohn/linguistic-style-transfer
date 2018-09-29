@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo Azul Haure", 
+    "created_at": "2015-12-19T22:00:02-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000338cb_b98df7be74b3.ssng", 
+    "updated_at": "2015-12-19T22:24:36-05:00", 
+    "share_url": "https://a.sso.ng/1/b98df7be74b3", 
+    "audio_url": "https://s01.sso.ng/1/0000000338cb_b98df7be74b3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000338cb_b98df7be74b3_mr.jpg", 
+    "song_album": "Last Christmas - Single", 
+    "user": {
+        "username": "AzulHaure", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4630af72-8ea2-4d43-ad9b-bd08d8aa78a8"
+    }, 
+    "song_title": "Last Christmas", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000338cb_b98df7be74b3_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "40D393CA-B37B-4634-8F15-5468440D2434"
+}

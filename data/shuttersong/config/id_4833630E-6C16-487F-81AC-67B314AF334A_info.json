@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "feliz navidad", 
+    "created_at": "2015-12-22T20:11:41-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038eef_9dbe1e0b500f.ssng", 
+    "updated_at": "2015-12-23T17:36:48-05:00", 
+    "share_url": "https://a.sso.ng/1/9dbe1e0b500f", 
+    "audio_url": "https://s01.sso.ng/1/000000038eef_9dbe1e0b500f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038eef_9dbe1e0b500f_mr.jpg", 
+    "song_album": "Samsung", 
+    "user": {
+        "username": "jimena09", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/165996f7-0da4-4be0-aa40-eb2e9deb4255.jpg", 
+        "id": "165996f7-0da4-4be0-aa40-eb2e9deb4255"
+    }, 
+    "song_title": "Over the Horizon", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038eef_9dbe1e0b500f_th.jpg", 
+    "song_artist": "Brand Music", 
+    "favorite_count": 1, 
+    "uuid": "4833630E-6C16-487F-81AC-67B314AF334A"
+}

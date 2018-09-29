@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-24T18:59:46-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002010f_627abe49c97a.ssng", 
+    "updated_at": "2015-09-24T21:16:25-04:00", 
+    "share_url": "https://a.sso.ng/1/627abe49c97a", 
+    "audio_url": "https://s01.sso.ng/1/00000002010f_627abe49c97a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002010f_627abe49c97a_mr.jpg", 
+    "song_album": "Honeymoon", 
+    "user": {
+        "username": "kybedini", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "144851c3-467e-4fdb-9d84-15a6359caa11"
+    }, 
+    "song_title": "Music To Watch Boys To", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002010f_627abe49c97a_th.jpg", 
+    "song_artist": "Lana Del Rey", 
+    "favorite_count": 1, 
+    "uuid": "92B3D6B3-64F9-40A0-9F0F-009F79A75D6B"
+}

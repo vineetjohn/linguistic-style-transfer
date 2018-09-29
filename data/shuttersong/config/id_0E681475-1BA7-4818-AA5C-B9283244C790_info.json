@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2016-01-14T17:44:50-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003acdc_a23d99994f98.ssng", 
+    "updated_at": "2016-01-15T03:43:29-05:00", 
+    "share_url": "https://a.sso.ng/1/a23d99994f98", 
+    "audio_url": "https://s02.sso.ng/1/00000003acdc_a23d99994f98.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003acdc_a23d99994f98_mr.jpg", 
+    "song_album": "Whatever People Say I Am, That's What I'm Not", 
+    "user": {
+        "username": "vmceccato", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Victor Ceccato", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2aa15f01-57b0-4822-8154-e03352952c10.jpg", 
+        "id": "2aa15f01-57b0-4822-8154-e03352952c10"
+    }, 
+    "song_title": "When The Sun Goes Down", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003acdc_a23d99994f98_th.jpg", 
+    "song_artist": "Arctic Monkeys", 
+    "favorite_count": 1, 
+    "uuid": "0E681475-1BA7-4818-AA5C-B9283244C790"
+}

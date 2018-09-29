@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T15:58:36-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003713c_e3a81fdcbdf1.ssng", 
+    "updated_at": "2015-12-21T07:08:33-05:00", 
+    "share_url": "https://a.sso.ng/1/e3a81fdcbdf1", 
+    "audio_url": "https://s01.sso.ng/1/00000003713c_e3a81fdcbdf1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003713c_e3a81fdcbdf1_mr.jpg", 
+    "song_album": "G I R L", 
+    "user": {
+        "username": "james.samarra1", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/67ac8d03-67e6-4e73-8530-dca4e99d31ca.jpg", 
+        "id": "67ac8d03-67e6-4e73-8530-dca4e99d31ca"
+    }, 
+    "song_title": "Come Get It Bae", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003713c_e3a81fdcbdf1_th.jpg", 
+    "song_artist": "Pharrell Williams feat Miley Cyrus", 
+    "favorite_count": 2, 
+    "uuid": "64B5454A-0823-4BE1-A03D-8CF2F7440B3D"
+}

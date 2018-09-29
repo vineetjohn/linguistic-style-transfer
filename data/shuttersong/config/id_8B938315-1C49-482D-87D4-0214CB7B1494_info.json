@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "MY BABY @beaub", 
+    "created_at": "2016-03-11T02:25:05-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5bc_850101b7830b.ssng", 
+    "updated_at": "2016-05-11T18:05:52-04:00", 
+    "share_url": "https://a.sso.ng/1/850101b7830b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5bc_850101b7830b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5bc_850101b7830b_mr.jpg", 
+    "song_album": "This F**kin Song - Single", 
+    "user": {
+        "username": "sassaylube.", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "t a y l a h ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b1510817-de16-431a-917e-400dca39e5bd.jpg", 
+        "id": "b1510817-de16-431a-917e-400dca39e5bd"
+    }, 
+    "song_title": "This F**kin Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5bc_850101b7830b_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 4, 
+    "uuid": "8B938315-1C49-482D-87D4-0214CB7B1494"
+}

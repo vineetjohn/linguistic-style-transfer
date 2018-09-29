@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#MarialeRegalaUnIphone", 
+    "created_at": "2015-12-30T20:42:28-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000033ae3_2ba94f87e983.ssng", 
+    "updated_at": "2016-01-03T10:58:34-05:00", 
+    "share_url": "https://a.sso.ng/1/2ba94f87e983", 
+    "audio_url": "https://s01.sso.ng/1/000000033ae3_2ba94f87e983.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000033ae3_2ba94f87e983_mr.jpg", 
+    "song_album": "Black Magic - Single", 
+    "user": {
+        "username": "CinthiaJimenez14", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6e4820f5-31e6-4200-a896-6c86ba51ffbd"
+    }, 
+    "song_title": "Black Magic", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000033ae3_2ba94f87e983_th.jpg", 
+    "song_artist": "Little Mix", 
+    "favorite_count": 2, 
+    "uuid": "BF18A39F-6221-496B-A01C-A686D520B9E6"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-28T16:08:50-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003dbd3_fb3b29b344c8.ssng", 
+    "updated_at": "2016-02-01T05:06:32-05:00", 
+    "share_url": "https://a.sso.ng/1/fb3b29b344c8", 
+    "audio_url": "https://s02.sso.ng/1/00000003dbd3_fb3b29b344c8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003dbd3_fb3b29b344c8_mr.jpg", 
+    "song_album": "It's About Us", 
+    "user": {
+        "username": "lissy0916", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b289896e-f02e-4d32-8f24-5142b378b21e"
+    }, 
+    "song_title": "Little Do You Know", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003dbd3_fb3b29b344c8_th.jpg", 
+    "song_artist": "Alex &amp; Sierra", 
+    "favorite_count": 3, 
+    "uuid": "381D25E3-B58E-44B9-A4C0-210F0D2098B9"
+}

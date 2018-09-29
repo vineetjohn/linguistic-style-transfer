@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T08:11:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021686_2c716df4e2d5.ssng", 
+    "updated_at": "2015-08-04T08:11:21-04:00", 
+    "share_url": "https://a.sso.ng/1/2c716df4e2d5", 
+    "audio_url": "https://s01.sso.ng/1/000000021686_2c716df4e2d5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021686_2c716df4e2d5_mr.jpg", 
+    "song_album": "Settle (Deluxe Version)", 
+    "user": {
+        "username": "sam.ebrens_55", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "76da6789-17d0-4771-9a52-dca04cf40bab"
+    }, 
+    "song_title": "Latch (feat. Sam Smith)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021686_2c716df4e2d5_th.jpg", 
+    "song_artist": "Disclosure", 
+    "favorite_count": 1, 
+    "uuid": "3AFC188E-2F76-48F3-B5B5-FC93EF06E0BA"
+}

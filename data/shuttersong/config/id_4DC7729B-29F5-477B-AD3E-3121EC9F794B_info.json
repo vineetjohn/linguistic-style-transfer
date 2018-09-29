@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#contest ? ", 
+    "created_at": "2015-08-05T18:04:58-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021b20_c713136ad300_1.ssng", 
+    "updated_at": "2015-08-05T19:04:49-04:00", 
+    "share_url": "https://a.sso.ng/1/c713136ad300", 
+    "audio_url": "https://s01.sso.ng/1/000000021b20_c713136ad300_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021b20_c713136ad300_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lillianchara", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/32c27b33-3a69-4a8e-b55d-a5035c18cccd.jpg", 
+        "id": "32c27b33-3a69-4a8e-b55d-a5035c18cccd"
+    }, 
+    "song_title": "Groove", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021b20_c713136ad300_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "4DC7729B-29F5-477B-AD3E-3121EC9F794B"
+}

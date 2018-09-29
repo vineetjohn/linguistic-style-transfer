@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-26T08:46:51-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f48d_088422ac01c9.ssng", 
+    "updated_at": "2016-02-26T09:19:18-05:00", 
+    "share_url": "https://a.sso.ng/1/088422ac01c9", 
+    "audio_url": "https://s02.sso.ng/1/00000003f48d_088422ac01c9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f48d_088422ac01c9_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mafer150107", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8d0d1d50-59dc-4e56-a05d-1e4e59f59f16.jpg", 
+        "id": "8d0d1d50-59dc-4e56-a05d-1e4e59f59f16"
+    }, 
+    "song_title": "What Do You Mean - Justin Beiber Pratamaditya Remake", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f48d_088422ac01c9_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "C8CD5D67-2CE2-4615-B84D-AD2CA4F33F50"
+}

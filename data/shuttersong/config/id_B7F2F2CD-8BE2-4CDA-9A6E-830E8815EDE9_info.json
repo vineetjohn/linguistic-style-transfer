@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T11:56:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021872_d927ba33327e.ssng", 
+    "updated_at": "2015-08-04T11:56:18-04:00", 
+    "share_url": "https://a.sso.ng/1/d927ba33327e", 
+    "audio_url": "https://s01.sso.ng/1/000000021872_d927ba33327e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021872_d927ba33327e_mr.jpg", 
+    "song_album": "Rumors - EP", 
+    "user": {
+        "username": "nayeli101", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/074f6fa9-19b9-4ccc-99bd-678abf9adb0c.jpg", 
+        "id": "074f6fa9-19b9-4ccc-99bd-678abf9adb0c"
+    }, 
+    "song_title": "Shake It", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021872_d927ba33327e_th.jpg", 
+    "song_artist": "Jake Miller", 
+    "favorite_count": 1, 
+    "uuid": "B7F2F2CD-8BE2-4CDA-9A6E-830E8815EDE9"
+}

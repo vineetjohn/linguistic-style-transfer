@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "One wish?", 
+    "created_at": "2015-08-21T16:39:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000267b0_02f9f19f9acb_1.ssng", 
+    "updated_at": "2015-08-21T16:52:46-04:00", 
+    "share_url": "https://a.sso.ng/1/02f9f19f9acb", 
+    "audio_url": "https://s01.sso.ng/1/0000000267b0_02f9f19f9acb_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000267b0_02f9f19f9acb_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "paoaalfaro", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Paola Alfaro", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/27803ec8-f9e2-4952-a01c-eb33d97a6ec3.jpg", 
+        "id": "27803ec8-f9e2-4952-a01c-eb33d97a6ec3"
+    }, 
+    "song_title": "Fifth Harmony   One Wish (Lyrics)[1]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000267b0_02f9f19f9acb_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "9751AC30-882B-492D-96BA-DF4C1102B6BE"
+}

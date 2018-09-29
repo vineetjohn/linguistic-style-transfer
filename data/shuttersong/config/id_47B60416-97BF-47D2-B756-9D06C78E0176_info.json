@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-02T13:58:56-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024278_4fc4a3e3f318.ssng", 
+    "updated_at": "2015-09-02T17:19:49-04:00", 
+    "share_url": "https://a.sso.ng/1/4fc4a3e3f318", 
+    "audio_url": "https://s01.sso.ng/1/000000024278_4fc4a3e3f318.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024278_4fc4a3e3f318_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "soularak", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a417f1a3-05ef-44d0-ad5c-43a19434c4ab"
+    }, 
+    "song_title": "Mambo Jambo ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024278_4fc4a3e3f318_th.jpg", 
+    "song_artist": "Max Graef & Muff Deep", 
+    "favorite_count": 1, 
+    "uuid": "47B60416-97BF-47D2-B756-9D06C78E0176"
+}

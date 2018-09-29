@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "slimy snail in a tin can ?", 
+    "created_at": "2016-02-14T10:32:19-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e6ba_7e776f041246.ssng", 
+    "updated_at": "2016-02-14T14:03:19-05:00", 
+    "share_url": "https://a.sso.ng/1/7e776f041246", 
+    "audio_url": "https://s02.sso.ng/1/00000003e6ba_7e776f041246.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e6ba_7e776f041246_mr.jpg", 
+    "song_album": "FOUR (The Ultimate Edition)", 
+    "user": {
+        "username": "nochilljano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Alyssa", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/65cf1249-9f40-4dd1-8e2a-7369ff3cf671.jpg", 
+        "id": "65cf1249-9f40-4dd1-8e2a-7369ff3cf671"
+    }, 
+    "song_title": "Act My Age", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e6ba_7e776f041246_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 10, 
+    "uuid": "84F4A85A-7134-4292-BB88-ED70AEF5B370"
+}

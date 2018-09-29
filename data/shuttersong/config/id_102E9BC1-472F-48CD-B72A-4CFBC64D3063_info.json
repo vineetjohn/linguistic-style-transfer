@@ -1,0 +1,27 @@
+{
+    "mood": "cheeky", 
+    "caption": "I was feeling myself today \ud83d\udc81\ud83c\udffb", 
+    "created_at": "2016-04-27T17:13:57-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040002_3dd0234e86f6.ssng", 
+    "updated_at": "2016-04-29T17:58:45-04:00", 
+    "share_url": "https://a.sso.ng/1/3dd0234e86f6", 
+    "audio_url": "https://s02.sso.ng/1/000000040002_3dd0234e86f6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040002_3dd0234e86f6_mr.jpg", 
+    "song_album": "Dangerous Woman", 
+    "user": {
+        "username": "NamelessBecca", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Becca", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/232fd55a-3cfd-47e2-83b0-a28e3d6b8002.jpg", 
+        "id": "232fd55a-3cfd-47e2-83b0-a28e3d6b8002"
+    }, 
+    "song_title": "Dangerous Woman", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040002_3dd0234e86f6_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 3, 
+    "uuid": "102E9BC1-472F-48CD-B72A-4CFBC64D3063"
+}

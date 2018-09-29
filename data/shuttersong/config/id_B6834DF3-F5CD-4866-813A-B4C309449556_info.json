@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack and Jack are my loves", 
+    "created_at": "2015-08-04T09:51:01-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020737_0abc234e17ba_1.ssng", 
+    "updated_at": "2015-08-04T09:51:35-04:00", 
+    "share_url": "https://a.sso.ng/1/0abc234e17ba", 
+    "audio_url": "https://s01.sso.ng/1/000000020737_0abc234e17ba_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020737_0abc234e17ba_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "MorghanWilk", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Morghan", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/cf1f1c56-a4d8-43cd-88d3-bba5e1fd86f2.jpg", 
+        "id": "cf1f1c56-a4d8-43cd-88d3-bba5e1fd86f2"
+    }, 
+    "song_title": "Wrong One", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020737_0abc234e17ba_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "B6834DF3-F5CD-4866-813A-B4C309449556"
+}

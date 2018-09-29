@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "bored bored bored ", 
+    "created_at": "2015-08-17T17:05:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022bb8_83efb279ce7f_1.ssng", 
+    "updated_at": "2015-08-17T23:11:45-04:00", 
+    "share_url": "https://a.sso.ng/1/83efb279ce7f", 
+    "audio_url": "https://s01.sso.ng/1/000000022bb8_83efb279ce7f_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022bb8_83efb279ce7f_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "isabellathomas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fc5e7c83-f4d5-404a-b69c-1ded3ad23548.jpg", 
+        "id": "fc5e7c83-f4d5-404a-b69c-1ded3ad23548"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022bb8_83efb279ce7f_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "5434CBE0-A450-4962-AF75-BDC15A3B88EE"
+}

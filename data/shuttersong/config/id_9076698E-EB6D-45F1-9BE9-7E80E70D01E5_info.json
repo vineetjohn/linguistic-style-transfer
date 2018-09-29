@@ -1,0 +1,27 @@
+{
+    "mood": "\u0443\u0442\u043e\u043c\u043b\u0451\u043d\u043d\u043e\u0435", 
+    "caption": "", 
+    "created_at": "2016-03-15T15:11:42-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fc47_906a7863ae11.ssng", 
+    "updated_at": "2016-03-17T05:24:36-04:00", 
+    "share_url": "https://a.sso.ng/1/906a7863ae11", 
+    "audio_url": "https://s02.sso.ng/1/00000003fc47_906a7863ae11.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fc47_906a7863ae11_mr.jpg", 
+    "song_album": "Coolest And Sexiest Songbook Of Eighties", 
+    "user": {
+        "username": "dwewrdt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "de476ae5-7c6a-45a9-96fb-4d3a3b887e3f"
+    }, 
+    "song_title": "Smells Like Teen Spirit", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fc47_906a7863ae11_th.jpg", 
+    "song_artist": "Ituana", 
+    "favorite_count": 1, 
+    "uuid": "9076698E-EB6D-45F1-9BE9-7E80E70D01E5"
+}

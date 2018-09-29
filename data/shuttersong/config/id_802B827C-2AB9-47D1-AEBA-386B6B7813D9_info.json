@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "https://youtu.be/vRI7gtOrGfk", 
+    "created_at": "2016-01-02T14:47:20-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037a6c_894f154f7c6d.ssng", 
+    "updated_at": "2016-01-03T14:03:19-05:00", 
+    "share_url": "https://a.sso.ng/1/894f154f7c6d", 
+    "audio_url": "https://s01.sso.ng/1/000000037a6c_894f154f7c6d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037a6c_894f154f7c6d_mr.jpg", 
+    "song_album": "Days Are Gone", 
+    "user": {
+        "username": "nabilasaat", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/320196e8-d4e0-4384-a92a-3f0abfd5843b.jpg", 
+        "id": "320196e8-d4e0-4384-a92a-3f0abfd5843b"
+    }, 
+    "song_title": "The Wire", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037a6c_894f154f7c6d_th.jpg", 
+    "song_artist": "HAIM", 
+    "favorite_count": 2, 
+    "uuid": "802B827C-2AB9-47D1-AEBA-386B6B7813D9"
+}

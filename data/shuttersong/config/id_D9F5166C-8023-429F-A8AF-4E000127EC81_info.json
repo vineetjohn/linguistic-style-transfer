@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-29T23:36:44-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002509f_cab46e42144d.ssng", 
+    "updated_at": "2015-12-01T12:22:19-05:00", 
+    "share_url": "https://a.sso.ng/1/cab46e42144d", 
+    "audio_url": "https://s01.sso.ng/1/00000002509f_cab46e42144d.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002509f_cab46e42144d_mr.jpg", 
+    "song_album": "Made In The A.M. (Deluxe Edition)", 
+    "user": {
+        "username": "DiannePerez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/427ed648-356d-43d6-923a-8a2710912254.jpg", 
+        "id": "427ed648-356d-43d6-923a-8a2710912254"
+    }, 
+    "song_title": "A.M.", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002509f_cab46e42144d_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "D9F5166C-8023-429F-A8AF-4E000127EC81"
+}

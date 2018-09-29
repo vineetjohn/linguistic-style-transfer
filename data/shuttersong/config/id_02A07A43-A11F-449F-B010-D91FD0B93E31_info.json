@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\ude00", 
+    "created_at": "2016-04-21T20:10:47-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e27f_c88d8337d1c8.ssng", 
+    "updated_at": "2016-05-03T02:46:18-04:00", 
+    "share_url": "https://a.sso.ng/1/c88d8337d1c8", 
+    "audio_url": "https://s02.sso.ng/1/00000003e27f_c88d8337d1c8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e27f_c88d8337d1c8_mr.jpg", 
+    "song_album": "Dazed and Confused - EP", 
+    "user": {
+        "username": "brittanydunaway", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Brittany Dunaway", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8b834ab6-9c86-461d-b229-8c7879a0d9bf.jpg", 
+        "id": "8b834ab6-9c86-461d-b229-8c7879a0d9bf"
+    }, 
+    "song_title": "Dazed and Confused (feat. Travie McCoy)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e27f_c88d8337d1c8_th.jpg", 
+    "song_artist": "Jake Miller", 
+    "favorite_count": 3, 
+    "uuid": "02A07A43-A11F-449F-B010-D91FD0B93E31"
+}

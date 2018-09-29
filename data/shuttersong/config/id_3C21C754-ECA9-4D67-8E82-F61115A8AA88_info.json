@@ -1,0 +1,27 @@
+{
+    "mood": "excited", 
+    "caption": "Can't wait for the Grammys tonight", 
+    "created_at": "2016-02-15T17:31:38-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e39d_e1c08e3a9375.ssng", 
+    "updated_at": "2016-02-16T14:37:28-05:00", 
+    "share_url": "https://a.sso.ng/1/e1c08e3a9375", 
+    "audio_url": "https://s02.sso.ng/1/00000003e39d_e1c08e3a9375.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e39d_e1c08e3a9375_mr.jpg", 
+    "song_album": "Skrillex and Diplo Present Jack \u00dc", 
+    "user": {
+        "username": "Meaghanicole", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e36e2630-9a1c-493f-a41e-f6af4f79364a.jpg", 
+        "id": "e36e2630-9a1c-493f-a41e-f6af4f79364a"
+    }, 
+    "song_title": "Where Are \u00dc Now (with Justin Bieber)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e39d_e1c08e3a9375_th.jpg", 
+    "song_artist": "Skrillex &amp; Diplo", 
+    "favorite_count": 5, 
+    "uuid": "3C21C754-ECA9-4D67-8E82-F61115A8AA88"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-11T14:55:07-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eae8_d89c601c3535.ssng", 
+    "updated_at": "2016-02-11T15:03:05-05:00", 
+    "share_url": "https://a.sso.ng/1/d89c601c3535", 
+    "audio_url": "https://s02.sso.ng/1/00000003eae8_d89c601c3535.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eae8_d89c601c3535_mr.jpg", 
+    "song_album": "All My Friends (feat. Tinashe &amp; Chance The Rapper) - Single", 
+    "user": {
+        "username": "hannabutera", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "275c555b-7eeb-40ed-bd9e-8b683ae9ca63"
+    }, 
+    "song_title": "All My Friends (feat. Tinashe &amp; Chance The Rapper)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eae8_d89c601c3535_th.jpg", 
+    "song_artist": "Snakehips", 
+    "favorite_count": 1, 
+    "uuid": "CA0495DF-2B7C-481D-852F-4C1D9B432A1D"
+}

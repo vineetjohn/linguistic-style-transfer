@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??????", 
+    "created_at": "2016-02-02T17:56:36-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000026aea_aaffba31b923.ssng", 
+    "updated_at": "2016-02-10T01:04:36-05:00", 
+    "share_url": "https://a.sso.ng/1/aaffba31b923", 
+    "audio_url": "https://s02.sso.ng/1/000000026aea_aaffba31b923.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000026aea_aaffba31b923_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "SayYay", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Rimvydas", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7f083457-a53c-41b9-aa09-4bb83e3dc346.jpg", 
+        "id": "7f083457-a53c-41b9-aa09-4bb83e3dc346"
+    }, 
+    "song_title": "Hands To Myself Selena Gomez", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000026aea_aaffba31b923_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "09599C98-F089-464C-BC2B-049EFF2686B9"
+}

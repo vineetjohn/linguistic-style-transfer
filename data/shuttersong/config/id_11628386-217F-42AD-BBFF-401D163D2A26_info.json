@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-17T20:42:31-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5d1_b52cda67af7b.ssng", 
+    "updated_at": "2016-06-14T11:19:17-04:00", 
+    "share_url": "https://a.sso.ng/1/b52cda67af7b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5d1_b52cda67af7b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5d1_b52cda67af7b_mr.jpg", 
+    "song_album": "Overexposed", 
+    "user": {
+        "username": "itsyammounibitch", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Amanda Leis-Miguel ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2aace85d-3b49-48aa-9813-13289294d780.jpg", 
+        "id": "2aace85d-3b49-48aa-9813-13289294d780"
+    }, 
+    "song_title": "Leaving California", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5d1_b52cda67af7b_th.jpg", 
+    "song_artist": "Maroon 5", 
+    "favorite_count": 11, 
+    "uuid": "11628386-217F-42AD-BBFF-401D163D2A26"
+}

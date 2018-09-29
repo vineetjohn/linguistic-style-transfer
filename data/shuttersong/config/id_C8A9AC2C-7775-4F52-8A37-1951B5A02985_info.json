@@ -1,0 +1,27 @@
+{
+    "mood": "bored", 
+    "caption": "does jai have shutter song???", 
+    "created_at": "2016-02-09T19:58:12-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e219_4c064238cf34.ssng", 
+    "updated_at": "2016-02-13T23:32:08-05:00", 
+    "share_url": "https://a.sso.ng/1/4c064238cf34", 
+    "audio_url": "https://s02.sso.ng/1/00000003e219_4c064238cf34.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e219_4c064238cf34_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "brooksbb", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "raychel bullock", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/839f85ba-0d9d-438c-a439-3fec54ff138a.jpg", 
+        "id": "839f85ba-0d9d-438c-a439-3fec54ff138a"
+    }, 
+    "song_title": "Adore (Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e219_4c064238cf34_th.jpg", 
+    "song_artist": "Cashmere Cat ft. Ariana Grande", 
+    "favorite_count": 2, 
+    "uuid": "C8A9AC2C-7775-4F52-8A37-1951B5A02985"
+}

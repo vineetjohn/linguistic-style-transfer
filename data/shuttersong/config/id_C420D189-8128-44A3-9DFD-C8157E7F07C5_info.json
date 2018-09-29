@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-14T23:20:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000030a87_7c350ae05d26.ssng", 
+    "updated_at": "2016-05-15T07:34:15-04:00", 
+    "share_url": "https://a.sso.ng/1/7c350ae05d26", 
+    "audio_url": "https://s02.sso.ng/1/000000030a87_7c350ae05d26.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030a87_7c350ae05d26_mr.jpg", 
+    "song_album": "The Best of the Monkees", 
+    "user": {
+        "username": "GiGiM19", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/953a8817-1c42-458d-8631-7e82984af4f4.jpg", 
+        "id": "953a8817-1c42-458d-8631-7e82984af4f4"
+    }, 
+    "song_title": "Daydream Believer", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030a87_7c350ae05d26_th.jpg", 
+    "song_artist": "The Monkees", 
+    "favorite_count": 1, 
+    "uuid": "C420D189-8128-44A3-9DFD-C8157E7F07C5"
+}

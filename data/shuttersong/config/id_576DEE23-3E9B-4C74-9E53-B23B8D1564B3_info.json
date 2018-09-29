@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "babes ??", 
+    "created_at": "2015-08-06T01:11:16-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000226bf_d01b1ef98cd5_1.ssng", 
+    "updated_at": "2015-08-06T01:11:37-04:00", 
+    "share_url": "https://a.sso.ng/1/d01b1ef98cd5", 
+    "audio_url": "https://s01.sso.ng/1/0000000226bf_d01b1ef98cd5_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000226bf_d01b1ef98cd5_1_mr.jpg", 
+    "song_album": "Journals", 
+    "user": {
+        "username": "alanamanrique", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6e53ba3a-2fb5-473f-9a3d-e0ae23addb52.jpg", 
+        "id": "6e53ba3a-2fb5-473f-9a3d-e0ae23addb52"
+    }, 
+    "song_title": "All That Matters", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000226bf_d01b1ef98cd5_1_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "576DEE23-3E9B-4C74-9E53-B23B8D1564B3"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-13T20:23:11-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003414e_dd99418ef1d5.ssng", 
+    "updated_at": "2016-01-14T18:25:19-05:00", 
+    "share_url": "https://a.sso.ng/1/dd99418ef1d5", 
+    "audio_url": "https://s02.sso.ng/1/00000003414e_dd99418ef1d5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003414e_dd99418ef1d5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ValeryBezzle", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Valeria Bernal Mendoza", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1878560e-af4f-43fb-ae3d-d7c7155ae2e4.jpg", 
+        "id": "1878560e-af4f-43fb-ae3d-d7c7155ae2e4"
+    }, 
+    "song_title": "Pills N Potions", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003414e_dd99418ef1d5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "F166D89F-1069-4B03-A819-2D0CB69FDC57"
+}

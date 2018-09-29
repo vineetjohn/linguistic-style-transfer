@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-12T17:23:46-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002369e_b3013afe34bc.ssng", 
+    "updated_at": "2015-08-18T23:41:02-04:00", 
+    "share_url": "https://a.sso.ng/1/b3013afe34bc", 
+    "audio_url": "https://s01.sso.ng/1/00000002369e_b3013afe34bc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002369e_b3013afe34bc_mr.jpg", 
+    "song_album": "Aye Ma - Single", 
+    "user": {
+        "username": "wilk.101.", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a58f8d89-9961-440f-98f2-645a383baefd.jpg", 
+        "id": "a58f8d89-9961-440f-98f2-645a383baefd"
+    }, 
+    "song_title": "Aye Ma", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002369e_b3013afe34bc_th.jpg", 
+    "song_artist": "Sammy Wilk", 
+    "favorite_count": 2, 
+    "uuid": "D63FAD01-FAB1-40F0-BF89-E7DCB151E299"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-29T11:57:50-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d47a_4b1b84f9e8fb.ssng", 
+    "updated_at": "2016-04-26T20:25:55-04:00", 
+    "share_url": "https://a.sso.ng/1/4b1b84f9e8fb", 
+    "audio_url": "https://s01.sso.ng/1/00000002d47a_4b1b84f9e8fb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d47a_4b1b84f9e8fb_mr.jpg", 
+    "song_album": "Jar of Hearts - Single", 
+    "user": {
+        "username": "Derlucha", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b583b70f-a600-4ae9-8981-2a1c46c9c78a.jpg", 
+        "id": "b583b70f-a600-4ae9-8981-2a1c46c9c78a"
+    }, 
+    "song_title": "Jar of Hearts", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d47a_4b1b84f9e8fb_th.jpg", 
+    "song_artist": "Christina Perri", 
+    "favorite_count": 1, 
+    "uuid": "434C6C86-45BA-481F-8F26-7E78E21B09D3"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-06T03:00:45-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003edc5_3fdb202448c8.ssng", 
+    "updated_at": "2016-05-04T17:20:43-04:00", 
+    "share_url": "https://a.sso.ng/1/3fdb202448c8", 
+    "audio_url": "https://s02.sso.ng/1/00000003edc5_3fdb202448c8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003edc5_3fdb202448c8_mr.jpg", 
+    "song_album": "40 Seasons (The Best Of Skid Row)", 
+    "user": {
+        "username": "ramlan", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "dab60e1b-4af2-494e-8b0a-45c1678d3f96"
+    }, 
+    "song_title": "12 My Enemy (Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003edc5_3fdb202448c8_th.jpg", 
+    "song_artist": "Skid Row", 
+    "favorite_count": 1, 
+    "uuid": "3B833859-B59F-4375-A3E6-010A00A08E56"
+}

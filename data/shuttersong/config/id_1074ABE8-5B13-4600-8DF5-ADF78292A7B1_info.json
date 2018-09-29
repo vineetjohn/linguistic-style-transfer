@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Bae's??", 
+    "created_at": "2015-08-04T10:34:50-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002178a_cde6d769f9c9_1.ssng", 
+    "updated_at": "2015-08-04T10:36:04-04:00", 
+    "share_url": "https://a.sso.ng/1/cde6d769f9c9", 
+    "audio_url": "https://s01.sso.ng/1/00000002178a_cde6d769f9c9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002178a_cde6d769f9c9_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "brittni_jonea", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Brittni", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ac857973-314c-4628-b560-f2696a466bb4.jpg", 
+        "id": "ac857973-314c-4628-b560-f2696a466bb4"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002178a_cde6d769f9c9_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "1074ABE8-5B13-4600-8DF5-ADF78292A7B1"
+}

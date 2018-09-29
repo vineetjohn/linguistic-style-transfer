@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "my bae", 
+    "created_at": "2016-02-14T17:25:02-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecbc_dbe13a10c1e7.ssng", 
+    "updated_at": "2016-02-15T16:48:21-05:00", 
+    "share_url": "https://a.sso.ng/1/dbe13a10c1e7", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecbc_dbe13a10c1e7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecbc_dbe13a10c1e7_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lickjanosface", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": "noe", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d563402d-1a72-47ff-bec6-8e8ef1f7d8dd.jpg", 
+        "id": "d563402d-1a72-47ff-bec6-8e8ef1f7d8dd"
+    }, 
+    "song_title": "MAGIC! - Rude", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecbc_dbe13a10c1e7_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 10, 
+    "uuid": "EED946DF-44CC-4941-B7D8-A97518D8414C"
+}

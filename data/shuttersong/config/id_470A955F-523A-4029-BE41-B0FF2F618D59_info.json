@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-23T18:33:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004346c_a0ea73086479.ssng", 
+    "updated_at": "2016-05-24T09:56:15-04:00", 
+    "share_url": "https://a.sso.ng/1/a0ea73086479", 
+    "audio_url": "https://s02.sso.ng/1/00000004346c_a0ea73086479.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004346c_a0ea73086479_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "kenza", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/71cee1ab-e45c-4fbe-85a8-3c4730eff341.jpg", 
+        "id": "71cee1ab-e45c-4fbe-85a8-3c4730eff341"
+    }, 
+    "song_title": "Bruno Mars Talking to the moon - 128K MP3", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004346c_a0ea73086479_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "470A955F-523A-4029-BE41-B0FF2F618D59"
+}

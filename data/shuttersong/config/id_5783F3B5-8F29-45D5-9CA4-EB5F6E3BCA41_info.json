@@ -1,0 +1,27 @@
+{
+    "mood": "alegre", 
+    "caption": "#SantaSorteo ????????", 
+    "created_at": "2015-12-21T18:09:12-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038032_26a68fe34335_1.ssng", 
+    "updated_at": "2015-12-22T02:39:42-05:00", 
+    "share_url": "https://a.sso.ng/1/26a68fe34335", 
+    "audio_url": "https://s01.sso.ng/1/000000038032_26a68fe34335_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038032_26a68fe34335_1_mr.jpg", 
+    "song_album": "Night Visions", 
+    "user": {
+        "username": "roquita", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/65813ea0-aa25-43bf-a529-838499a8960d.jpg", 
+        "id": "65813ea0-aa25-43bf-a529-838499a8960d"
+    }, 
+    "song_title": "Radioactive", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038032_26a68fe34335_1_th.jpg", 
+    "song_artist": "Imagine Dragons", 
+    "favorite_count": 1, 
+    "uuid": "5783F3B5-8F29-45D5-9CA4-EB5F6E3BCA41"
+}

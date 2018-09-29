@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T05:44:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002156c_96fa01881c60.ssng", 
+    "updated_at": "2015-08-04T05:44:42-04:00", 
+    "share_url": "https://a.sso.ng/1/96fa01881c60", 
+    "audio_url": "https://s01.sso.ng/1/00000002156c_96fa01881c60.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002156c_96fa01881c60_mr.jpg", 
+    "song_album": "Don't Stop - Single", 
+    "user": {
+        "username": "maybeline22", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a44854e6-0f5e-43fd-804a-c1b5760e074b.jpg", 
+        "id": "a44854e6-0f5e-43fd-804a-c1b5760e074b"
+    }, 
+    "song_title": "Don't Stop", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002156c_96fa01881c60_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 1, 
+    "uuid": "68A8C801-25BC-4EBA-A4A6-22BA966C72BC"
+}

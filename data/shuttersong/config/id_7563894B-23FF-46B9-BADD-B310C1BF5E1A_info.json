@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "How do I use this app", 
+    "created_at": "2016-02-12T14:32:07-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecf0_37784536ece6.ssng", 
+    "updated_at": "2016-02-12T16:13:08-05:00", 
+    "share_url": "https://a.sso.ng/1/37784536ece6", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecf0_37784536ece6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecf0_37784536ece6_mr.jpg", 
+    "song_album": "Friend Zone - Single", 
+    "user": {
+        "username": "drunkstralia", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2c545e9f-fcc5-444b-bd46-fb3c0fe65c53.jpg", 
+        "id": "2c545e9f-fcc5-444b-bd46-fb3c0fe65c53"
+    }, 
+    "song_title": "Friend Zone", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecf0_37784536ece6_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 2, 
+    "uuid": "7563894B-23FF-46B9-BADD-B310C1BF5E1A"
+}

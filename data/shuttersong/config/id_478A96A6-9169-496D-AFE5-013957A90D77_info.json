@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Let's go exploring\u2764\ufe0f", 
+    "created_at": "2015-08-04T00:24:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021105_cf224bd24ea4_1.ssng", 
+    "updated_at": "2015-08-04T00:25:47-04:00", 
+    "share_url": "https://a.sso.ng/1/cf224bd24ea4", 
+    "audio_url": "https://s01.sso.ng/1/000000021105_cf224bd24ea4_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021105_cf224bd24ea4_1_mr.jpg", 
+    "song_album": "Run Away - Single", 
+    "user": {
+        "username": "jjfelixxx", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jeanette", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d6c6f97f-b0be-455f-90e8-11b29a1746ee.jpg", 
+        "id": "d6c6f97f-b0be-455f-90e8-11b29a1746ee"
+    }, 
+    "song_title": "Run Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021105_cf224bd24ea4_1_th.jpg", 
+    "song_artist": "Megan & Liz", 
+    "favorite_count": 2, 
+    "uuid": "478A96A6-9169-496D-AFE5-013957A90D77"
+}

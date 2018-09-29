@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2716\ufe0fproblem\u2716\ufe0f", 
+    "created_at": "2015-09-05T01:57:34-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b960_c781ee65b5f9_1.ssng", 
+    "updated_at": "2015-09-06T14:03:49-04:00", 
+    "share_url": "https://a.sso.ng/1/c781ee65b5f9", 
+    "audio_url": "https://s01.sso.ng/1/00000002b960_c781ee65b5f9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b960_c781ee65b5f9_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "paobelieve", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3449a7ab-87ae-4e5d-9728-32124242e7e4.jpg", 
+        "id": "3449a7ab-87ae-4e5d-9728-32124242e7e4"
+    }, 
+    "song_title": "Problem (feat. Iggy Azalea)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b960_c781ee65b5f9_1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "A96CC399-06A9-4655-BA8E-45B74BADB00B"
+}

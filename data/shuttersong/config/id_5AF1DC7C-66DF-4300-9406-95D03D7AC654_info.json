@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-17T15:56:41-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000031212_a6eb7d4faa71.ssng", 
+    "updated_at": "2015-12-18T18:37:37-05:00", 
+    "share_url": "https://a.sso.ng/1/a6eb7d4faa71", 
+    "audio_url": "https://s01.sso.ng/1/000000031212_a6eb7d4faa71.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000031212_a6eb7d4faa71_mr.jpg", 
+    "song_album": "Bring Me the Horizon", 
+    "user": {
+        "username": "xomisssel", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "46ff5fc0-e540-4efb-ac8f-b5e8cae57395"
+    }, 
+    "song_title": "Avalanche", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000031212_a6eb7d4faa71_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 18, 
+    "uuid": "5AF1DC7C-66DF-4300-9406-95D03D7AC654"
+}

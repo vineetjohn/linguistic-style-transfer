@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Enjoy this awkward selfie ?", 
+    "created_at": "2016-02-10T15:33:34-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9be_2f3539334987.ssng", 
+    "updated_at": "2016-02-10T19:15:31-05:00", 
+    "share_url": "https://a.sso.ng/1/2f3539334987", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9be_2f3539334987.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9be_2f3539334987_mr.jpg", 
+    "song_album": "All My Friends (feat. Tinashe &amp; Chance The Rapper) - Single", 
+    "user": {
+        "username": "ayyylukeyyy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jess Bichan", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/74f46d94-0b1a-4bda-93af-4c07c880389d.jpg", 
+        "id": "74f46d94-0b1a-4bda-93af-4c07c880389d"
+    }, 
+    "song_title": "All My Friends (feat. Tinashe &amp; Chance The Rapper)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9be_2f3539334987_th.jpg", 
+    "song_artist": "Snakehips", 
+    "favorite_count": 3, 
+    "uuid": "0227E466-F08F-47CB-8B7A-2BB531685586"
+}

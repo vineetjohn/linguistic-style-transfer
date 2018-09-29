@@ -1,0 +1,27 @@
+{
+    "mood": "weird", 
+    "caption": "baby r u home", 
+    "created_at": "2016-02-10T05:26:44-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e87e_532fe18571cc.ssng", 
+    "updated_at": "2016-02-11T20:36:30-05:00", 
+    "share_url": "https://a.sso.ng/1/532fe18571cc", 
+    "audio_url": "https://s02.sso.ng/1/00000003e87e_532fe18571cc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e87e_532fe18571cc_mr.jpg", 
+    "song_album": "Teenage Desperate - Single", 
+    "user": {
+        "username": "lukesemojis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "kaitie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5297fe01-7a33-412c-8ba4-ded111d32674.jpg", 
+        "id": "5297fe01-7a33-412c-8ba4-ded111d32674"
+    }, 
+    "song_title": "Teenage Desperate", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e87e_532fe18571cc_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 8, 
+    "uuid": "57DCDD8A-4627-4C83-8821-98F147A0C157"
+}

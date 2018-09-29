@@ -1,0 +1,27 @@
+{
+    "mood": "alone", 
+    "caption": "", 
+    "created_at": "2016-02-14T19:10:00-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e35c_374c9b49f7e9.ssng", 
+    "updated_at": "2016-02-15T15:26:45-05:00", 
+    "share_url": "https://a.sso.ng/1/374c9b49f7e9", 
+    "audio_url": "https://s02.sso.ng/1/00000003e35c_374c9b49f7e9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e35c_374c9b49f7e9_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "desirabeau", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "kate", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8051d81d-f819-4640-bafb-d957cda1258a.jpg", 
+        "id": "8051d81d-f819-4640-bafb-d957cda1258a"
+    }, 
+    "song_title": "Teenage Crime (Thomas Jack Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e35c_374c9b49f7e9_th.jpg", 
+    "song_artist": "Adrian Lux", 
+    "favorite_count": 2, 
+    "uuid": "D574C460-6C1B-4341-949B-6F9723F8C6B4"
+}

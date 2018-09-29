@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "feelin like a legend :p", 
+    "created_at": "2016-02-13T23:03:50-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ee34_65bc3c3acae3.ssng", 
+    "updated_at": "2016-02-15T20:42:04-05:00", 
+    "share_url": "https://a.sso.ng/1/65bc3c3acae3", 
+    "audio_url": "https://s02.sso.ng/1/00000003ee34_65bc3c3acae3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ee34_65bc3c3acae3_mr.jpg", 
+    "song_album": "If You're Reading This It's Too Late", 
+    "user": {
+        "username": "nowaybri", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "bri", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2818440c-4efc-472b-8732-3f6cf1f8f9c5.jpg", 
+        "id": "2818440c-4efc-472b-8732-3f6cf1f8f9c5"
+    }, 
+    "song_title": "Legend", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ee34_65bc3c3acae3_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 3, 
+    "uuid": "790EE249-8670-4F9A-A408-3649F938F14C"
+}

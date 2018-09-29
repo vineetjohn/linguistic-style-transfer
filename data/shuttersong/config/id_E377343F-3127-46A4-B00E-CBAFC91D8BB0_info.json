@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "stupendo!", 
+    "created_at": "2016-06-17T07:53:17-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045556_48e3dcb5abc4.ssng", 
+    "updated_at": "2016-06-22T06:50:00-04:00", 
+    "share_url": "https://a.sso.ng/1/48e3dcb5abc4", 
+    "audio_url": "https://s02.sso.ng/1/000000045556_48e3dcb5abc4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045556_48e3dcb5abc4_mr.jpg", 
+    "song_album": "Paint the Sky With Stars - The Best of Enya", 
+    "user": {
+        "username": "fabigor54", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b6ef48db-2ca4-44e3-9f89-3f19e454b1d7"
+    }, 
+    "song_title": "Caribbean Blue", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045556_48e3dcb5abc4_th.jpg", 
+    "song_artist": "Enya", 
+    "favorite_count": 2, 
+    "uuid": "E377343F-3127-46A4-B00E-CBAFC91D8BB0"
+}

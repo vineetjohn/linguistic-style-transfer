@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T09:15:41-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000285a4_f696c0e11775.ssng", 
+    "updated_at": "2015-08-21T10:34:43-04:00", 
+    "share_url": "https://a.sso.ng/1/f696c0e11775", 
+    "audio_url": "https://s01.sso.ng/1/0000000285a4_f696c0e11775.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000285a4_f696c0e11775_mr.jpg", 
+    "song_album": "SEX AND LOVE", 
+    "user": {
+        "username": "andreatame", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "dcc38e7e-9e38-4709-975f-ef4e0892ef61"
+    }, 
+    "song_title": "Bailando (Spanish Version) [feat. Descemer Bueno & Gente de Zona]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000285a4_f696c0e11775_th.jpg", 
+    "song_artist": "Enrique Iglesias", 
+    "favorite_count": 1, 
+    "uuid": "D1AFC354-900E-405A-89F9-07D17B47D337"
+}

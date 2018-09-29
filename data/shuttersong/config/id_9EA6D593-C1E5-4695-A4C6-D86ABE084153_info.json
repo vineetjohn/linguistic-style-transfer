@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T21:53:28-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000376b1_3efac0c5e47d.ssng", 
+    "updated_at": "2015-12-19T22:02:14-05:00", 
+    "share_url": "https://a.sso.ng/1/3efac0c5e47d", 
+    "audio_url": "https://s01.sso.ng/1/0000000376b1_3efac0c5e47d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000376b1_3efac0c5e47d_mr.jpg", 
+    "song_album": "Pitbull", 
+    "user": {
+        "username": "martivenan", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/078a4c6f-c507-49aa-b1d7-08a123e13891.jpg", 
+        "id": "078a4c6f-c507-49aa-b1d7-08a123e13891"
+    }, 
+    "song_title": "Bon Bon", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000376b1_3efac0c5e47d_th.jpg", 
+    "song_artist": "I Am Armando (Armando Reloaded)", 
+    "favorite_count": 1, 
+    "uuid": "9EA6D593-C1E5-4695-A4C6-D86ABE084153"
+}

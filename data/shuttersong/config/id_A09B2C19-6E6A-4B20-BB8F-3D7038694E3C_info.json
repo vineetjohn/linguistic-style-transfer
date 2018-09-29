@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#marialeregalauniphone", 
+    "created_at": "2016-01-12T15:20:53-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000345d0_73a88eafe8e6.ssng", 
+    "updated_at": "2016-01-12T15:32:03-05:00", 
+    "share_url": "https://a.sso.ng/1/73a88eafe8e6", 
+    "audio_url": "https://s01.sso.ng/1/0000000345d0_73a88eafe8e6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000345d0_73a88eafe8e6_mr.jpg", 
+    "song_album": "Green Day", 
+    "user": {
+        "username": "Ariana_candela_L", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b7a1adc1-b9b6-4a88-9c25-67f2abef47d7"
+    }, 
+    "song_title": "21 Guns", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000345d0_73a88eafe8e6_th.jpg", 
+    "song_artist": "21st Century Breakdown", 
+    "favorite_count": 1, 
+    "uuid": "A09B2C19-6E6A-4B20-BB8F-3D7038694E3C"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#shawnmendes", 
+    "created_at": "2015-08-06T19:21:01-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000229c8_e9e59a45e1b2.ssng", 
+    "updated_at": "2015-10-24T21:45:27-04:00", 
+    "share_url": "https://a.sso.ng/1/e9e59a45e1b2", 
+    "audio_url": "https://s01.sso.ng/1/0000000229c8_e9e59a45e1b2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000229c8_e9e59a45e1b2_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "charlottewhite0905", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Charlotte", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "bc1d9098-51ae-4ab9-8fa7-326ea5d708c5"
+    }, 
+    "song_title": "Aftertaste", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000229c8_e9e59a45e1b2_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "37A14548-84ED-4575-BEAA-3CC5051D9049"
+}

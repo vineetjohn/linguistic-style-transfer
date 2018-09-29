@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-13T22:20:45-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ed42_7abaaf3bd42c.ssng", 
+    "updated_at": "2016-02-18T20:26:42-05:00", 
+    "share_url": "https://a.sso.ng/1/7abaaf3bd42c", 
+    "audio_url": "https://s02.sso.ng/1/00000003ed42_7abaaf3bd42c.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ed42_7abaaf3bd42c_mr.jpg", 
+    "song_album": "Sounds Good Feels Good (Deluxe)", 
+    "user": {
+        "username": "AbbeyHemmo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/739b6548-a167-43aa-a432-68dd8967966a.jpg", 
+        "id": "739b6548-a167-43aa-a432-68dd8967966a"
+    }, 
+    "song_title": "Fly Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ed42_7abaaf3bd42c_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 2, 
+    "uuid": "18F747C0-1ADC-4B0E-8F40-47D43F46C1DB"
+}

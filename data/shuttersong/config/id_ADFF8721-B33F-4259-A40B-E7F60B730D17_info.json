@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "? ", 
+    "created_at": "2015-08-16T16:05:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022b94_fe0a7b0d94af_1.ssng", 
+    "updated_at": "2015-08-16T17:14:01-04:00", 
+    "share_url": "https://a.sso.ng/1/fe0a7b0d94af", 
+    "audio_url": "https://s01.sso.ng/1/000000022b94_fe0a7b0d94af_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022b94_fe0a7b0d94af_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "monicataylor", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/89bdd6ec-7d72-42e6-9e27-29441eddfecc.jpg", 
+        "id": "89bdd6ec-7d72-42e6-9e27-29441eddfecc"
+    }, 
+    "song_title": "Imagination", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022b94_fe0a7b0d94af_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "ADFF8721-B33F-4259-A40B-E7F60B730D17"
+}

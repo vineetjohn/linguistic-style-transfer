@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-04T17:27:42-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004218b_4bb87f16a53c.ssng", 
+    "updated_at": "2016-05-30T01:36:39-04:00", 
+    "share_url": "https://a.sso.ng/1/4bb87f16a53c", 
+    "audio_url": "https://s02.sso.ng/1/00000004218b_4bb87f16a53c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004218b_4bb87f16a53c_mr.jpg", 
+    "song_album": "Songs to Break Up To", 
+    "user": {
+        "username": "nik.i.tahh", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3385c4b5-0aef-4135-b690-e0e21a05b15b.jpg", 
+        "id": "3385c4b5-0aef-4135-b690-e0e21a05b15b"
+    }, 
+    "song_title": "I Miss You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004218b_4bb87f16a53c_th.jpg", 
+    "song_artist": "Ta-ku", 
+    "favorite_count": 10, 
+    "uuid": "8CF6209C-C419-4391-8DB4-6C12D5A8EF25"
+}

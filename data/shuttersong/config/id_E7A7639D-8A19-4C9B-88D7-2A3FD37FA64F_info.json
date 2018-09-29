@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-20T17:37:28-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045a07_26b85074945a.ssng", 
+    "updated_at": "2016-06-20T18:43:02-04:00", 
+    "share_url": "https://a.sso.ng/1/26b85074945a", 
+    "audio_url": "https://s02.sso.ng/1/000000045a07_26b85074945a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045a07_26b85074945a_mr.jpg", 
+    "song_album": "Young Love (Single)", 
+    "user": {
+        "username": "brooksjano1", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c79dbd14-d182-48dd-bbd7-7233d56a0232"
+    }, 
+    "song_title": "Young Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045a07_26b85074945a_th.jpg", 
+    "song_artist": "The Tide", 
+    "favorite_count": 1, 
+    "uuid": "E7A7639D-8A19-4C9B-88D7-2A3FD37FA64F"
+}

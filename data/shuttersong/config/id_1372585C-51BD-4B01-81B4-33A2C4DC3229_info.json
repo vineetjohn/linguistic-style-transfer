@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-24T19:30:35-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045cc7_7ee57160b052.ssng", 
+    "updated_at": "2016-06-26T03:58:56-04:00", 
+    "share_url": "https://a.sso.ng/1/7ee57160b052", 
+    "audio_url": "https://s02.sso.ng/1/000000045cc7_7ee57160b052.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045cc7_7ee57160b052_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Sabinoork", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "107ca691-1ba7-4cf9-8ef8-0956055570d8"
+    }, 
+    "song_title": "The Wanted - Chasing The Sun", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045cc7_7ee57160b052_th.jpg", 
+    "song_artist": "The Wanted", 
+    "favorite_count": 2, 
+    "uuid": "1372585C-51BD-4B01-81B4-33A2C4DC3229"
+}

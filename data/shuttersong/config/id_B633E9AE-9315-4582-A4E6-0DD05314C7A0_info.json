@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo Atala Bermudez ???", 
+    "created_at": "2015-12-22T11:40:04-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036912_1fe7c38d1cd9_1.ssng", 
+    "updated_at": "2015-12-22T13:06:00-05:00", 
+    "share_url": "https://a.sso.ng/1/1fe7c38d1cd9", 
+    "audio_url": "https://s01.sso.ng/1/000000036912_1fe7c38d1cd9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036912_1fe7c38d1cd9_1_mr.jpg", 
+    "song_album": "The New Classic", 
+    "user": {
+        "username": "Atalabermudez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a9e527f2-5d3e-4e60-b907-916c3aa27a64.jpg", 
+        "id": "a9e527f2-5d3e-4e60-b907-916c3aa27a64"
+    }, 
+    "song_title": "Black Widow ft. Rita Ora", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036912_1fe7c38d1cd9_1_th.jpg", 
+    "song_artist": "Iggy Azalea", 
+    "favorite_count": 2, 
+    "uuid": "B633E9AE-9315-4582-A4E6-0DD05314C7A0"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-01T08:20:37-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f276_cb890891cf5e.ssng", 
+    "updated_at": "2016-03-01T08:48:52-05:00", 
+    "share_url": "https://a.sso.ng/1/cb890891cf5e", 
+    "audio_url": "https://s02.sso.ng/1/00000003f276_cb890891cf5e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f276_cb890891cf5e_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "sid444", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9150ad49-0e9a-4445-9ac6-f14f1ede1890"
+    }, 
+    "song_title": "Molly Feat. Wiz Khalifa & Mally Mall", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f276_cb890891cf5e_th.jpg", 
+    "song_artist": "Tyga", 
+    "favorite_count": 1, 
+    "uuid": "3A85A7F2-814E-4681-A7C6-2A5E418DCECE"
+}

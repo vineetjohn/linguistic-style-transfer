@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-03T19:13:06-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003149c_2629d97447b6.ssng", 
+    "updated_at": "2016-01-04T23:00:43-05:00", 
+    "share_url": "https://a.sso.ng/1/2629d97447b6", 
+    "audio_url": "https://s01.sso.ng/1/00000003149c_2629d97447b6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003149c_2629d97447b6_mr.jpg", 
+    "song_album": "Taylor Swift", 
+    "user": {
+        "username": "Madeleine.C", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "21afe2e5-82fc-4662-84ac-dcf22251f7e2"
+    }, 
+    "song_title": "Style", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003149c_2629d97447b6_th.jpg", 
+    "song_artist": "1989 (Deluxe)", 
+    "favorite_count": 1, 
+    "uuid": "4085502C-85D6-4313-B8CD-42952575E678"
+}

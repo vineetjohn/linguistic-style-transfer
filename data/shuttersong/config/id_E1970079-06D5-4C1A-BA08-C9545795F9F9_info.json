@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hay", 
+    "created_at": "2015-11-14T06:52:42-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002fd5d_c5e607d03a37_1.ssng", 
+    "updated_at": "2015-12-24T22:25:24-05:00", 
+    "share_url": "https://a.sso.ng/1/c5e607d03a37", 
+    "audio_url": "https://s01.sso.ng/1/00000002fd5d_c5e607d03a37_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002fd5d_c5e607d03a37_1_mr.jpg", 
+    "song_album": "Salute", 
+    "user": {
+        "username": "funfun", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emily ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0ed38ad8-3766-490b-b648-1422d6bd29aa.jpg", 
+        "id": "0ed38ad8-3766-490b-b648-1422d6bd29aa"
+    }, 
+    "song_title": "Competition", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002fd5d_c5e607d03a37_1_th.jpg", 
+    "song_artist": "Little Mix", 
+    "favorite_count": 1, 
+    "uuid": "E1970079-06D5-4C1A-BA08-C9545795F9F9"
+}

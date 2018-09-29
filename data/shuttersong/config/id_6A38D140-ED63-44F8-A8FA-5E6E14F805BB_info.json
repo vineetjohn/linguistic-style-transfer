@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-02T10:22:12-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bb27_e80f1247e97b.ssng", 
+    "updated_at": "2016-01-02T18:23:43-05:00", 
+    "share_url": "https://a.sso.ng/1/e80f1247e97b", 
+    "audio_url": "https://s01.sso.ng/1/00000003bb27_e80f1247e97b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bb27_e80f1247e97b_mr.jpg", 
+    "song_album": "Icona Pop", 
+    "user": {
+        "username": "isidorisis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9bf481fa-b7e3-45a7-ba07-b2d2f379e59e"
+    }, 
+    "song_title": "Emergency", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bb27_e80f1247e97b_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "6A38D140-ED63-44F8-A8FA-5E6E14F805BB"
+}

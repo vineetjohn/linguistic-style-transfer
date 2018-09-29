@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-17T13:23:03-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000418d5_990560bf8102.ssng", 
+    "updated_at": "2016-04-19T10:50:20-04:00", 
+    "share_url": "https://a.sso.ng/1/990560bf8102", 
+    "audio_url": "https://s02.sso.ng/1/0000000418d5_990560bf8102.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000418d5_990560bf8102_mr.jpg", 
+    "song_album": "Bad Guys", 
+    "user": {
+        "username": "d3mxns", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5a87042f-8f1a-46ca-a751-e684988cdd84"
+    }, 
+    "song_title": "No Problems (Jadakiss)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000418d5_990560bf8102_th.jpg", 
+    "song_artist": "D-BLOCK", 
+    "favorite_count": 2, 
+    "uuid": "6FD72D41-3872-4D09-A70A-2E15EB852254"
+}

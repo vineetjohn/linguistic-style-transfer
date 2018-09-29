@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-16T21:48:51-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f581_a2147d69bed6.ssng", 
+    "updated_at": "2016-04-08T16:40:35-04:00", 
+    "share_url": "https://a.sso.ng/1/a2147d69bed6", 
+    "audio_url": "https://s01.sso.ng/1/00000001f581_a2147d69bed6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f581_a2147d69bed6_mr.jpg", 
+    "song_album": "25", 
+    "user": {
+        "username": "KakeZAZ", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d6c338ae-0c59-4572-bf66-d41bd8d27e01.jpg", 
+        "id": "d6c338ae-0c59-4572-bf66-d41bd8d27e01"
+    }, 
+    "song_title": "Send My Love (To Your New Lover)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f581_a2147d69bed6_th.jpg", 
+    "song_artist": "Adele", 
+    "favorite_count": 1, 
+    "uuid": "E8CA9D25-DEBF-4B94-8A2A-6EBCBF345523"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "my daddy loml plus my favorite song", 
+    "created_at": "2016-06-22T11:21:53-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ec93_16350b3ef2bf.ssng", 
+    "updated_at": "2016-06-24T16:48:32-04:00", 
+    "share_url": "https://a.sso.ng/1/16350b3ef2bf", 
+    "audio_url": "https://s02.sso.ng/1/00000003ec93_16350b3ef2bf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ec93_16350b3ef2bf_mr.jpg", 
+    "song_album": "Little Bit - Single", 
+    "user": {
+        "username": "brnooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "nat", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7d6b4dea-0961-4b37-b928-e1bc0f3d141e.jpg", 
+        "id": "7d6b4dea-0961-4b37-b928-e1bc0f3d141e"
+    }, 
+    "song_title": "Little Bit", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ec93_16350b3ef2bf_th.jpg", 
+    "song_artist": "Skate", 
+    "favorite_count": 1, 
+    "uuid": "93746475-BF17-4EAB-8F45-DA0D1EDE2631"
+}

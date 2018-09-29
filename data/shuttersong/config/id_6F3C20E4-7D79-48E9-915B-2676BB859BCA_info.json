@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T19:03:24-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025b4e_d31c9ec79132.ssng", 
+    "updated_at": "2015-12-31T17:51:41-05:00", 
+    "share_url": "https://a.sso.ng/1/d31c9ec79132", 
+    "audio_url": "https://s01.sso.ng/1/000000025b4e_d31c9ec79132.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025b4e_d31c9ec79132_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "abicaceres840", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Abii", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a4c8fc67-1eff-407d-93e6-b6275828b7d3.jpg", 
+        "id": "a4c8fc67-1eff-407d-93e6-b6275828b7d3"
+    }, 
+    "song_title": "Lean on major lazer", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025b4e_d31c9ec79132_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "6F3C20E4-7D79-48E9-915B-2676BB859BCA"
+}

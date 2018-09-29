@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-02T00:12:44-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000426af_3b167f75d2e7.ssng", 
+    "updated_at": "2016-05-02T19:00:13-04:00", 
+    "share_url": "https://a.sso.ng/1/3b167f75d2e7", 
+    "audio_url": "https://s02.sso.ng/1/0000000426af_3b167f75d2e7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000426af_3b167f75d2e7_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "kendrachp.Z", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kendra Chavarr\u00eda Porras ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9ba7a6c3-64e4-407f-91a5-c2629b5a7b04.jpg", 
+        "id": "9ba7a6c3-64e4-407f-91a5-c2629b5a7b04"
+    }, 
+    "song_title": "Sofia Carson - Love Is the Name (Official Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000426af_3b167f75d2e7_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "75C24E64-124E-4020-82C5-7039DBEDEB32"
+}

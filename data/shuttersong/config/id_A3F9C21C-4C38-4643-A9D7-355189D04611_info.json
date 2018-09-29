@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T09:02:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021440_1f6837eaddef.ssng", 
+    "updated_at": "2015-08-04T09:02:09-04:00", 
+    "share_url": "https://a.sso.ng/1/1f6837eaddef", 
+    "audio_url": "https://s01.sso.ng/1/000000021440_1f6837eaddef.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021440_1f6837eaddef_mr.jpg", 
+    "song_album": "All the Little Lights (Deluxe Edition)", 
+    "user": {
+        "username": "Shanshe", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7a339a81-bad9-434b-9a80-90fa7d9c44fa"
+    }, 
+    "song_title": "Let Her Go", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021440_1f6837eaddef_th.jpg", 
+    "song_artist": "Passenger", 
+    "favorite_count": 1, 
+    "uuid": "A3F9C21C-4C38-4643-A9D7-355189D04611"
+}

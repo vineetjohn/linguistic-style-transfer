@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-13T23:18:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e027_0a05ccb83e19.ssng", 
+    "updated_at": "2016-03-18T19:31:50-04:00", 
+    "share_url": "https://a.sso.ng/1/0a05ccb83e19", 
+    "audio_url": "https://s02.sso.ng/1/00000003e027_0a05ccb83e19.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e027_0a05ccb83e19_mr.jpg", 
+    "song_album": "BADLANDS (Deluxe)", 
+    "user": {
+        "username": "sp", 
+        "verified": true, 
+        "username_color": "", 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/15a2ad9f-dd3b-4ae5-b232-a9fa599472c8.jpg", 
+        "id": "15a2ad9f-dd3b-4ae5-b232-a9fa599472c8"
+    }, 
+    "song_title": "Gasoline", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e027_0a05ccb83e19_th.jpg", 
+    "song_artist": "Halsey", 
+    "favorite_count": 1, 
+    "uuid": "3E6D7FAC-38F6-44BC-85BF-F97A8F43534C"
+}

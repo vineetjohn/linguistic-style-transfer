@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "this app is so ded remind me why I got it", 
+    "created_at": "2016-03-31T13:09:01-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fff9_5c8c60e50d12.ssng", 
+    "updated_at": "2016-04-01T06:40:56-04:00", 
+    "share_url": "https://a.sso.ng/1/5c8c60e50d12", 
+    "audio_url": "https://s02.sso.ng/1/00000003fff9_5c8c60e50d12.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fff9_5c8c60e50d12_mr.jpg", 
+    "song_album": "Take Off Your Pants and Jacket", 
+    "user": {
+        "username": "gummibeau", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f1fcbd05-18e6-46a3-ac6b-98d90f203637.jpg", 
+        "id": "f1fcbd05-18e6-46a3-ac6b-98d90f203637"
+    }, 
+    "song_title": "Online Songs", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fff9_5c8c60e50d12_th.jpg", 
+    "song_artist": "Blink-182", 
+    "favorite_count": 1, 
+    "uuid": "9BAA8BF7-4086-495F-A954-23A456643087"
+}

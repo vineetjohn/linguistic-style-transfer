@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Champ de Mars?", 
+    "created_at": "2015-08-21T11:06:02-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000028ffa_3d5c60455ee1_1.ssng", 
+    "updated_at": "2015-08-21T21:25:26-04:00", 
+    "share_url": "https://a.sso.ng/1/3d5c60455ee1", 
+    "audio_url": "https://s01.sso.ng/1/000000028ffa_3d5c60455ee1_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000028ffa_3d5c60455ee1_1_mr.jpg", 
+    "song_album": "Gossamer", 
+    "user": {
+        "username": "Msiit", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Miriam", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/17232c9a-abdc-44de-ab36-e7efcb0e6ccb.jpg", 
+        "id": "17232c9a-abdc-44de-ab36-e7efcb0e6ccb"
+    }, 
+    "song_title": "American Blood", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000028ffa_3d5c60455ee1_1_th.jpg", 
+    "song_artist": "Passion Pit", 
+    "favorite_count": 3, 
+    "uuid": "C28E2772-BA05-4867-8F67-AD7DC12D8FA0"
+}

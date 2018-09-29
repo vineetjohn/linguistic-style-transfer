@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "INSOMNIA", 
+    "created_at": "2016-05-01T15:25:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000001f6db_a5efdf375cd9.ssng", 
+    "updated_at": "2016-05-02T00:26:01-04:00", 
+    "share_url": "https://a.sso.ng/1/a5efdf375cd9", 
+    "audio_url": "https://s02.sso.ng/1/00000001f6db_a5efdf375cd9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001f6db_a5efdf375cd9_mr.jpg", 
+    "song_album": "Insomnia", 
+    "user": {
+        "username": "musicftsoul", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/efb1f38f-b079-4d07-ac34-e2b8f9404bbb.jpg", 
+        "id": "efb1f38f-b079-4d07-ac34-e2b8f9404bbb"
+    }, 
+    "song_title": "INSOMNIA", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001f6db_a5efdf375cd9_th.jpg", 
+    "song_artist": "Audien ft. Parson James", 
+    "favorite_count": 2, 
+    "uuid": "B0BC20D0-D657-4C46-8FB5-6B60D7C84A98"
+}

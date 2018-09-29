@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "No control ?", 
+    "created_at": "2016-02-04T17:04:59-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000038c54_c1e8c5c6c56e.ssng", 
+    "updated_at": "2016-02-05T21:21:30-05:00", 
+    "share_url": "https://a.sso.ng/1/c1e8c5c6c56e", 
+    "audio_url": "https://s02.sso.ng/1/000000038c54_c1e8c5c6c56e.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000038c54_c1e8c5c6c56e_mr.jpg", 
+    "song_album": "Four", 
+    "user": {
+        "username": "ElianaParamo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7d95f5e3-a546-41af-810d-134a87b08abd"
+    }, 
+    "song_title": "No Control", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000038c54_c1e8c5c6c56e_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "2D057FB4-877B-4F60-A281-C141C5C3F08D"
+}

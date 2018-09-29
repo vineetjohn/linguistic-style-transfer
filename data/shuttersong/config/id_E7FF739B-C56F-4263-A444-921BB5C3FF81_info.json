@@ -1,0 +1,27 @@
+{
+    "mood": "afortunado", 
+    "caption": "", 
+    "created_at": "2016-03-17T12:44:10-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f077_40e38fd3af8c.ssng", 
+    "updated_at": "2016-03-18T11:25:58-04:00", 
+    "share_url": "https://a.sso.ng/1/40e38fd3af8c", 
+    "audio_url": "https://s02.sso.ng/1/00000003f077_40e38fd3af8c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f077_40e38fd3af8c_mr.jpg", 
+    "song_album": "The Best Of", 
+    "user": {
+        "username": "hectorcito", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "820b0db6-18a2-485c-96fd-cb4d03431414"
+    }, 
+    "song_title": "Girls and Boys", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f077_40e38fd3af8c_th.jpg", 
+    "song_artist": "Blur", 
+    "favorite_count": 1, 
+    "uuid": "E7FF739B-C56F-4263-A444-921BB5C3FF81"
+}

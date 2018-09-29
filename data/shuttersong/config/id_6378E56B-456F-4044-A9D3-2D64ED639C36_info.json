@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My beautiful new home #bleedgreen ?", 
+    "created_at": "2015-09-17T13:17:01-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000000045_95ba1799597f_1.ssng", 
+    "updated_at": "2015-09-21T21:12:26-04:00", 
+    "share_url": "https://a.sso.ng/1/95ba1799597f", 
+    "audio_url": "https://s01.sso.ng/1/000000000045_95ba1799597f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000045_95ba1799597f_1_mr.jpg", 
+    "song_album": "For Emma, Forever Ago", 
+    "user": {
+        "username": "go", 
+        "verified": true, 
+        "username_color": "#f2766a", 
+        "full_name": "Georgina Oxford", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09b3db81-d909-45ee-b737-9c9283d5caeb.jpg", 
+        "id": "09b3db81-d909-45ee-b737-9c9283d5caeb"
+    }, 
+    "song_title": "Skinny Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000045_95ba1799597f_1_th.jpg", 
+    "song_artist": "Bon Iver", 
+    "favorite_count": 16, 
+    "uuid": "6378E56B-456F-4044-A9D3-2D64ED639C36"
+}

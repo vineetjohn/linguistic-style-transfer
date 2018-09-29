@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-30T14:35:23-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003db0b_7e7a6dfb569f.ssng", 
+    "updated_at": "2016-02-01T12:30:57-05:00", 
+    "share_url": "https://a.sso.ng/1/7e7a6dfb569f", 
+    "audio_url": "https://s02.sso.ng/1/00000003db0b_7e7a6dfb569f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003db0b_7e7a6dfb569f_mr.jpg", 
+    "song_album": "JEKYLL + HYDE", 
+    "user": {
+        "username": "thelasthoodless", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d677f614-8002-4546-8997-5587dffb8c38"
+    }, 
+    "song_title": "Heavy Is the Head (feat. Chris Cornell)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003db0b_7e7a6dfb569f_th.jpg", 
+    "song_artist": "Zac Brown Band", 
+    "favorite_count": 1, 
+    "uuid": "20F13CA9-C2DB-445A-B895-A16397B02357"
+}

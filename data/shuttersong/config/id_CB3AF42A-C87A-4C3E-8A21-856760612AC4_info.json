@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-25T23:56:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002cb4e_8952ea68b435.ssng", 
+    "updated_at": "2015-08-26T14:08:28-04:00", 
+    "share_url": "https://a.sso.ng/1/8952ea68b435", 
+    "audio_url": "https://s01.sso.ng/1/00000002cb4e_8952ea68b435.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002cb4e_8952ea68b435_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Manuel_Nieto", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Antony", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d14862a4-4f9f-4603-ace1-2622cef42397.jpg", 
+        "id": "d14862a4-4f9f-4603-ace1-2622cef42397"
+    }, 
+    "song_title": "INNA - Bop Bop (feat. Eric Turner) Official Video", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002cb4e_8952ea68b435_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "CB3AF42A-C87A-4C3E-8A21-856760612AC4"
+}

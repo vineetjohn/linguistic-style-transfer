@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-29T09:08:55-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a36c_e88ac53990a9.ssng", 
+    "updated_at": "2015-08-30T17:47:49-04:00", 
+    "share_url": "https://a.sso.ng/1/e88ac53990a9", 
+    "audio_url": "https://s01.sso.ng/1/00000002a36c_e88ac53990a9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a36c_e88ac53990a9_mr.jpg", 
+    "song_album": "Take Me Home", 
+    "user": {
+        "username": "livmbg", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9805fd3e-ec34-45ee-aee0-7a2f1b70e9e8.jpg", 
+        "id": "9805fd3e-ec34-45ee-aee0-7a2f1b70e9e8"
+    }, 
+    "song_title": "Live While We're Young", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a36c_e88ac53990a9_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 2, 
+    "uuid": "0A6D1B16-7F34-42A6-A115-C695E4065B2F"
+}

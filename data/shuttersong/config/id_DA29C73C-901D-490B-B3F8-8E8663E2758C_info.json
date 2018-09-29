@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Aaron Carpenter \u263a\ufe0f", 
+    "created_at": "2015-08-04T14:18:24-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020ddd_3c71f48abe9c_1.ssng", 
+    "updated_at": "2015-08-04T14:18:46-04:00", 
+    "share_url": "https://a.sso.ng/1/3c71f48abe9c", 
+    "audio_url": "https://s01.sso.ng/1/000000020ddd_3c71f48abe9c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020ddd_3c71f48abe9c_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "Kamelia08", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/979d0e1e-df5d-438d-9a04-4f5111546e9a.jpg", 
+        "id": "979d0e1e-df5d-438d-9a04-4f5111546e9a"
+    }, 
+    "song_title": "Stitches", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020ddd_3c71f48abe9c_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 2, 
+    "uuid": "DA29C73C-901D-490B-B3F8-8E8663E2758C"
+}

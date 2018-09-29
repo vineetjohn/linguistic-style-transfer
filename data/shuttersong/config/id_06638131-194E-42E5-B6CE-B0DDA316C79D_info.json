@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-25T12:53:29-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea6a_40cfbbf99901.ssng", 
+    "updated_at": "2016-02-25T15:38:18-05:00", 
+    "share_url": "https://a.sso.ng/1/40cfbbf99901", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea6a_40cfbbf99901.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea6a_40cfbbf99901_mr.jpg", 
+    "song_album": "Globalization", 
+    "user": {
+        "username": "gina.janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce57dc3d-08d1-4494-af4a-c309a922ed35.jpg", 
+        "id": "ce57dc3d-08d1-4494-af4a-c309a922ed35"
+    }, 
+    "song_title": "Time of Our Lives", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea6a_40cfbbf99901_th.jpg", 
+    "song_artist": "Pitbull & Ne-Yo", 
+    "favorite_count": 1, 
+    "uuid": "06638131-194E-42E5-B6CE-B0DDA316C79D"
+}

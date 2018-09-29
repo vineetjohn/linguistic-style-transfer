@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T12:06:31-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036f48_f5b9dc98a2d4.ssng", 
+    "updated_at": "2015-12-22T10:46:41-05:00", 
+    "share_url": "https://a.sso.ng/1/f5b9dc98a2d4", 
+    "audio_url": "https://s01.sso.ng/1/000000036f48_f5b9dc98a2d4.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036f48_f5b9dc98a2d4_mr.jpg", 
+    "song_album": "Yours Truly", 
+    "user": {
+        "username": "17_sara", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/928278c4-9e05-49e2-bc33-e37e7d49cc20.jpg", 
+        "id": "928278c4-9e05-49e2-bc33-e37e7d49cc20"
+    }, 
+    "song_title": "Popular Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036f48_f5b9dc98a2d4_th.jpg", 
+    "song_artist": "MIKA & Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "91A6246F-DE15-475A-8F84-8726A582E8EA"
+}

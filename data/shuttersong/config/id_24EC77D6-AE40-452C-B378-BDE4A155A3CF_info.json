@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Focus on the bubblegum", 
+    "created_at": "2015-12-13T14:15:41-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002fc4f_d84a49ef6ec2_1.ssng", 
+    "updated_at": "2015-12-13T18:27:21-05:00", 
+    "share_url": "https://a.sso.ng/1/d84a49ef6ec2", 
+    "audio_url": "https://s01.sso.ng/1/00000002fc4f_d84a49ef6ec2_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002fc4f_d84a49ef6ec2_1_mr.jpg", 
+    "song_album": "Focus", 
+    "user": {
+        "username": "alex.elizebeth", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f0972d21-e99c-4736-ae82-dff1b0918f30.jpg", 
+        "id": "f0972d21-e99c-4736-ae82-dff1b0918f30"
+    }, 
+    "song_title": "Focus", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002fc4f_d84a49ef6ec2_1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "24EC77D6-AE40-452C-B378-BDE4A155A3CF"
+}

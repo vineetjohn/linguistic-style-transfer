@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "best friends ?", 
+    "created_at": "2015-08-04T00:42:37-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000210df_f86ea29be241_1.ssng", 
+    "updated_at": "2015-08-04T00:42:56-04:00", 
+    "share_url": "https://a.sso.ng/1/f86ea29be241", 
+    "audio_url": "https://s01.sso.ng/1/0000000210df_f86ea29be241_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000210df_f86ea29be241_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "wendyxdallas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/34d43642-da9b-476f-b981-4cc33321c7b9.jpg", 
+        "id": "34d43642-da9b-476f-b981-4cc33321c7b9"
+    }, 
+    "song_title": "Life of the Party", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000210df_f86ea29be241_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "E01CE165-4922-48C6-8E4B-8CFBEAD5C83F"
+}

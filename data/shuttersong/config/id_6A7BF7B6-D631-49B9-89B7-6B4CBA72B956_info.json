@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack and Jack\u2764\ufe0f", 
+    "created_at": "2015-08-04T11:44:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002184f_6d9669339dde_1.ssng", 
+    "updated_at": "2015-08-04T11:45:26-04:00", 
+    "share_url": "https://a.sso.ng/1/6d9669339dde", 
+    "audio_url": "https://s01.sso.ng/1/00000002184f_6d9669339dde_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002184f_6d9669339dde_1_mr.jpg", 
+    "song_album": "Like That (feat. Skate) - Single", 
+    "user": {
+        "username": "staystrong1104", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/80c77090-c5fe-4986-a104-ac5ec81befd8.jpg", 
+        "id": "80c77090-c5fe-4986-a104-ac5ec81befd8"
+    }, 
+    "song_title": "Like That (feat. Skate)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002184f_6d9669339dde_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "6A7BF7B6-D631-49B9-89B7-6B4CBA72B956"
+}

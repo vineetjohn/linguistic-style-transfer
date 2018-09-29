@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "???", 
+    "created_at": "2015-10-08T19:44:16-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025943_41951298cb81_1.ssng", 
+    "updated_at": "2015-10-09T21:46:10-04:00", 
+    "share_url": "https://a.sso.ng/1/41951298cb81", 
+    "audio_url": "https://s01.sso.ng/1/000000025943_41951298cb81_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025943_41951298cb81_1_mr.jpg", 
+    "song_album": "Cake By The Ocean", 
+    "user": {
+        "username": "itsangieglz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/30a31a53-f2ac-4864-965f-3c52e7f439d9.jpg", 
+        "id": "30a31a53-f2ac-4864-965f-3c52e7f439d9"
+    }, 
+    "song_title": "Cake By The Ocean", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025943_41951298cb81_1_th.jpg", 
+    "song_artist": "DNCE", 
+    "favorite_count": 1, 
+    "uuid": "F8BFA5C1-ADAE-4E31-9465-5D5BF29D31F9"
+}

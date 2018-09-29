@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "New shoes", 
+    "created_at": "2016-04-04T16:51:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040a95_50a3f9091b6f.ssng", 
+    "updated_at": "2016-04-06T11:10:30-04:00", 
+    "share_url": "https://a.sso.ng/1/50a3f9091b6f", 
+    "audio_url": "https://s02.sso.ng/1/000000040a95_50a3f9091b6f.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040a95_50a3f9091b6f_mr.jpg", 
+    "song_album": "Now That's What I Call a Song", 
+    "user": {
+        "username": "princess181", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a7993298-3655-4fbf-82f4-ba0e8a1865ea"
+    }, 
+    "song_title": "How Long Will I Love You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040a95_50a3f9091b6f_th.jpg", 
+    "song_artist": "Ellie Goulding", 
+    "favorite_count": 3, 
+    "uuid": "2CA6017D-880C-45F1-85A3-03EB4A669E88"
+}

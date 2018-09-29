@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "enjoy the silence", 
+    "created_at": "2016-02-22T11:34:39-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8dd_c085aa4f0fca.ssng", 
+    "updated_at": "2016-02-22T14:07:33-05:00", 
+    "share_url": "https://a.sso.ng/1/c085aa4f0fca", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8dd_c085aa4f0fca.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8dd_c085aa4f0fca_mr.jpg", 
+    "song_album": "The Final Countdown", 
+    "user": {
+        "username": "MartinaTabone", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/992f1db6-5d3f-4452-89f5-c22be7bc12e0.jpg", 
+        "id": "992f1db6-5d3f-4452-89f5-c22be7bc12e0"
+    }, 
+    "song_title": "The Final Countdown", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8dd_c085aa4f0fca_th.jpg", 
+    "song_artist": "Europe", 
+    "favorite_count": 1, 
+    "uuid": "6AA4D2B7-BE8D-4D48-B9E1-D95E62B98430"
+}

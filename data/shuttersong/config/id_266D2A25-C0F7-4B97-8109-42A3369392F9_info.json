@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#JackandJack #contest", 
+    "created_at": "2015-08-04T21:54:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020580_c8db4091b7ed_1.ssng", 
+    "updated_at": "2015-08-04T21:54:43-04:00", 
+    "share_url": "https://a.sso.ng/1/c8db4091b7ed", 
+    "audio_url": "https://s01.sso.ng/1/000000020580_c8db4091b7ed_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020580_c8db4091b7ed_1_mr.jpg", 
+    "song_album": "Cold Hearted - Single", 
+    "user": {
+        "username": "sam_prado7", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sam", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7bf90544-3373-433f-b6e8-3a0b341d28f3.jpg", 
+        "id": "7bf90544-3373-433f-b6e8-3a0b341d28f3"
+    }, 
+    "song_title": "Cold Hearted", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020580_c8db4091b7ed_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "266D2A25-C0F7-4B97-8109-42A3369392F9"
+}

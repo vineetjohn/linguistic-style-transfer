@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-04T17:22:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002dedb_eb2235d95fa9.ssng", 
+    "updated_at": "2015-09-05T09:55:56-04:00", 
+    "share_url": "https://a.sso.ng/1/eb2235d95fa9", 
+    "audio_url": "https://s01.sso.ng/1/00000002dedb_eb2235d95fa9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002dedb_eb2235d95fa9_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "andreaavpp", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8ab17ab7-6f63-48af-a804-1be678908a7a"
+    }, 
+    "song_title": "Baby I", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002dedb_eb2235d95fa9_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "C6162DCF-6C08-4CDB-ABDD-6284616FD9E7"
+}

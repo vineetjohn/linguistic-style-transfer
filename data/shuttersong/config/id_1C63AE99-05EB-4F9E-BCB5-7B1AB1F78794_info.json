@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?Dancing in the Mirror?", 
+    "created_at": "2015-08-22T01:27:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a6fc_8820d4abdc61_1.ssng", 
+    "updated_at": "2015-08-22T23:45:20-04:00", 
+    "share_url": "https://a.sso.ng/1/8820d4abdc61", 
+    "audio_url": "https://s01.sso.ng/1/00000002a6fc_8820d4abdc61_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a6fc_8820d4abdc61_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Moreesalvatto", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/95dd02d4-077f-44d3-bf67-6bdb22c1781f.jpg", 
+        "id": "95dd02d4-077f-44d3-bf67-6bdb22c1781f"
+    }, 
+    "song_title": "Becky G - Shower (Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a6fc_8820d4abdc61_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "1C63AE99-05EB-4F9E-BCB5-7B1AB1F78794"
+}

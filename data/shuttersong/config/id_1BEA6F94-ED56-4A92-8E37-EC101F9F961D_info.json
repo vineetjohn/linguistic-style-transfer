@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "#jaibrooks #janoskians", 
+    "created_at": "2016-02-10T23:04:54-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e6bb_942481410908.ssng", 
+    "updated_at": "2016-02-13T05:17:58-05:00", 
+    "share_url": "https://a.sso.ng/1/942481410908", 
+    "audio_url": "https://s02.sso.ng/1/00000003e6bb_942481410908.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e6bb_942481410908_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lonelyjai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c296f885-8ed8-4de3-9155-352e25b7bfd3.jpg", 
+        "id": "c296f885-8ed8-4de3-9155-352e25b7bfd3"
+    }, 
+    "song_title": "Banana Pancakes", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e6bb_942481410908_th.jpg", 
+    "song_artist": "Jack Johnson", 
+    "favorite_count": 4, 
+    "uuid": "1BEA6F94-ED56-4A92-8E37-EC101F9F961D"
+}

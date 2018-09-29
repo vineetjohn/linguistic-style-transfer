@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-23T10:22:53-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045cbb_b66ee5c3eef4.ssng", 
+    "updated_at": "2016-06-24T16:44:01-04:00", 
+    "share_url": "https://a.sso.ng/1/b66ee5c3eef4", 
+    "audio_url": "https://s02.sso.ng/1/000000045cbb_b66ee5c3eef4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045cbb_b66ee5c3eef4_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "patsyberenice", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "21cd23ed-810b-4247-927d-ea263abaac12"
+    }, 
+    "song_title": "Lana Del Rey vs Cedric Gervais - Young & Beautiful (Remix) [Official Music Video]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045cbb_b66ee5c3eef4_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "F1105A5B-B630-4DBF-AED9-0F94DD48AADA"
+}

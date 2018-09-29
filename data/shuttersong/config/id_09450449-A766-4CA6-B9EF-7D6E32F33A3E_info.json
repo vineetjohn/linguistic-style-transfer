@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "ONLY FOOLS", 
+    "created_at": "2015-09-12T06:50:34-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002dd65_4d707c6897e8_1.ssng", 
+    "updated_at": "2015-09-15T02:57:39-04:00", 
+    "share_url": "https://a.sso.ng/1/4d707c6897e8", 
+    "audio_url": "https://s01.sso.ng/1/00000002dd65_4d707c6897e8_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002dd65_4d707c6897e8_1_mr.jpg", 
+    "song_album": "WILD - EP", 
+    "user": {
+        "username": "jannelwn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "janne", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9fbb1bfa-5236-41e2-b4e1-65235ece4fed.jpg", 
+        "id": "9fbb1bfa-5236-41e2-b4e1-65235ece4fed"
+    }, 
+    "song_title": "FOOLS", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002dd65_4d707c6897e8_1_th.jpg", 
+    "song_artist": "Troye Sivan", 
+    "favorite_count": 1, 
+    "uuid": "09450449-A766-4CA6-B9EF-7D6E32F33A3E"
+}

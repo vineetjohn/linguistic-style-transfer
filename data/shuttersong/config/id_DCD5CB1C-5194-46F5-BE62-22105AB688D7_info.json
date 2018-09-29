@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-31T23:14:00-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000032142_7071de2b45df.ssng", 
+    "updated_at": "2016-01-03T14:14:45-05:00", 
+    "share_url": "https://a.sso.ng/1/7071de2b45df", 
+    "audio_url": "https://s01.sso.ng/1/000000032142_7071de2b45df.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000032142_7071de2b45df_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "AnzonyD", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3585c33b-a875-4905-81e8-0aeddc52cd9f.jpg", 
+        "id": "3585c33b-a875-4905-81e8-0aeddc52cd9f"
+    }, 
+    "song_title": "Nobody To Love ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000032142_7071de2b45df_th.jpg", 
+    "song_artist": "Sigma", 
+    "favorite_count": 1, 
+    "uuid": "DCD5CB1C-5194-46F5-BE62-22105AB688D7"
+}

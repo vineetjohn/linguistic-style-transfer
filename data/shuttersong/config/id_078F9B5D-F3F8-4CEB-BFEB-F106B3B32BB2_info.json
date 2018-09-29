@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-24T01:46:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f39e_209b066a5781.ssng", 
+    "updated_at": "2015-10-25T19:10:23-04:00", 
+    "share_url": "https://a.sso.ng/1/209b066a5781", 
+    "audio_url": "https://s01.sso.ng/1/00000002f39e_209b066a5781.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f39e_209b066a5781_mr.jpg", 
+    "song_album": "Alina Baraz & Galimatias", 
+    "user": {
+        "username": "kiara_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a3b7d24d-9999-457c-89b3-599a4f9f9d8e"
+    }, 
+    "song_title": "Pretty Thoughts", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f39e_209b066a5781_th.jpg", 
+    "song_artist": "Alina Baraz & Galimatias", 
+    "favorite_count": 1, 
+    "uuid": "078F9B5D-F3F8-4CEB-BFEB-F106B3B32BB2"
+}

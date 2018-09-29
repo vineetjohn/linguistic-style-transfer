@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T21:15:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a358_3df27bc7b5df.ssng", 
+    "updated_at": "2015-08-22T11:45:35-04:00", 
+    "share_url": "https://a.sso.ng/1/3df27bc7b5df", 
+    "audio_url": "https://s01.sso.ng/1/00000002a358_3df27bc7b5df.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a358_3df27bc7b5df_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Alejaswaggy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "74917164-650f-4790-9de1-d8a45183a30f"
+    }, 
+    "song_title": "Demi Lovato-Really Dont Care", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a358_3df27bc7b5df_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "2A743731-F9F2-4A08-BE9A-4987F51D8252"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-03T06:13:29-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000447cd_2b4f13a0b641.ssng", 
+    "updated_at": "2016-06-05T10:12:44-04:00", 
+    "share_url": "https://a.sso.ng/1/2b4f13a0b641", 
+    "audio_url": "https://s02.sso.ng/1/0000000447cd_2b4f13a0b641.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000447cd_2b4f13a0b641_mr.jpg", 
+    "song_album": "TMRW - EP", 
+    "user": {
+        "username": "Msk", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "37bc36bb-1b93-4b1b-97d1-dc5ece2683b5"
+    }, 
+    "song_title": "Lot to Learn", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000447cd_2b4f13a0b641_th.jpg", 
+    "song_artist": "Luke Christopher", 
+    "favorite_count": 1, 
+    "uuid": "6B3A457E-EF12-4684-81DA-A63B3AEEBB80"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\"Urbanizado\"?\u2764\ufe0f", 
+    "created_at": "2016-01-02T19:56:05-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003160f_fc5b4855b407.ssng", 
+    "updated_at": "2016-01-02T20:25:50-05:00", 
+    "share_url": "https://a.sso.ng/1/fc5b4855b407", 
+    "audio_url": "https://s01.sso.ng/1/00000003160f_fc5b4855b407.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003160f_fc5b4855b407_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "isa_saenzc16m", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e956c4f2-f334-4342-9c1a-66d35418f64d.jpg", 
+        "id": "e956c4f2-f334-4342-9c1a-66d35418f64d"
+    }, 
+    "song_title": "California (There Is No End to Love)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003160f_fc5b4855b407_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 1, 
+    "uuid": "1474F237-B3C5-4353-9F6C-6313EE6473D7"
+}

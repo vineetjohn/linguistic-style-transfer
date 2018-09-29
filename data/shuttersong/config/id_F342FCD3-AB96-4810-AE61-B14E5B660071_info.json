@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Cam is B\u00e6", 
+    "created_at": "2015-08-03T23:08:52-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020a3c_6f514a66808b_1.ssng", 
+    "updated_at": "2015-08-03T23:10:08-04:00", 
+    "share_url": "https://a.sso.ng/1/6f514a66808b", 
+    "audio_url": "https://s01.sso.ng/1/000000020a3c_6f514a66808b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020a3c_6f514a66808b_1_mr.jpg", 
+    "song_album": "Louder (Deluxe)", 
+    "user": {
+        "username": "haleyjean", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Haley Phillips", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0953c4ff-df5f-483c-9e42-26f15fa580fa.jpg", 
+        "id": "0953c4ff-df5f-483c-9e42-26f15fa580fa"
+    }, 
+    "song_title": "Pass Me By", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020a3c_6f514a66808b_1_th.jpg", 
+    "song_artist": "R5", 
+    "favorite_count": 1, 
+    "uuid": "F342FCD3-AB96-4810-AE61-B14E5B660071"
+}

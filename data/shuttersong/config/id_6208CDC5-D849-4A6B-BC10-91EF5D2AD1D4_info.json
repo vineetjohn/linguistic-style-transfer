@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Sitting on the dock of the Bay", 
+    "created_at": "2016-05-15T20:46:55-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000030a87_6ca29b87a989.ssng", 
+    "updated_at": "2016-07-02T20:17:52-04:00", 
+    "share_url": "https://a.sso.ng/1/6ca29b87a989", 
+    "audio_url": "https://s02.sso.ng/1/000000030a87_6ca29b87a989.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030a87_6ca29b87a989_mr.jpg", 
+    "song_album": "50 Best of Oldies", 
+    "user": {
+        "username": "GiGiM19", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/953a8817-1c42-458d-8631-7e82984af4f4.jpg", 
+        "id": "953a8817-1c42-458d-8631-7e82984af4f4"
+    }, 
+    "song_title": "(Sittin' On) The Dock of the Bay", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030a87_6ca29b87a989_th.jpg", 
+    "song_artist": "The Soul Shouters", 
+    "favorite_count": 1, 
+    "uuid": "6208CDC5-D849-4A6B-BC10-91EF5D2AD1D4"
+}

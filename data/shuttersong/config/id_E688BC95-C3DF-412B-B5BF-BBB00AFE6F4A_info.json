@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "This is my bae?", 
+    "created_at": "2016-02-16T04:47:57-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f004_223c8a7e50ce.ssng", 
+    "updated_at": "2016-02-18T03:11:31-05:00", 
+    "share_url": "https://a.sso.ng/1/223c8a7e50ce", 
+    "audio_url": "https://s02.sso.ng/1/00000003f004_223c8a7e50ce.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f004_223c8a7e50ce_mr.jpg", 
+    "song_album": "All I Want 4 Christmas - Single", 
+    "user": {
+        "username": "emiliepontus", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ba161f91-5f57-4a8a-ad4a-15f2761f2887.jpg", 
+        "id": "ba161f91-5f57-4a8a-ad4a-15f2761f2887"
+    }, 
+    "song_title": "All I Want 4 Christmas", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f004_223c8a7e50ce_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "E688BC95-C3DF-412B-B5BF-BBB00AFE6F4A"
+}

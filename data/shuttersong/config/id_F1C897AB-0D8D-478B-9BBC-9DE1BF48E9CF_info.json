@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-05T17:21:31-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e0ff_b54d213984f3.ssng", 
+    "updated_at": "2015-11-30T06:56:39-05:00", 
+    "share_url": "https://a.sso.ng/1/b54d213984f3", 
+    "audio_url": "https://s01.sso.ng/1/00000002e0ff_b54d213984f3.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e0ff_b54d213984f3_mr.jpg", 
+    "song_album": "Rated Next", 
+    "user": {
+        "username": "sweetpassion5", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b2825eeb-a6a2-42f7-90b4-0fcf6153a4f1.jpg", 
+        "id": "b2825eeb-a6a2-42f7-90b4-0fcf6153a4f1"
+    }, 
+    "song_title": "Do You Think About Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e0ff_b54d213984f3_th.jpg", 
+    "song_artist": "Next", 
+    "favorite_count": 1, 
+    "uuid": "F1C897AB-0D8D-478B-9BBC-9DE1BF48E9CF"
+}

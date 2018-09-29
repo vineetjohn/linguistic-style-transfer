@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-31T18:47:08-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003156d_5d29b8df980b.ssng", 
+    "updated_at": "2016-01-01T12:00:18-05:00", 
+    "share_url": "https://a.sso.ng/1/5d29b8df980b", 
+    "audio_url": "https://s01.sso.ng/1/00000003156d_5d29b8df980b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003156d_5d29b8df980b_mr.jpg", 
+    "song_album": "This Is War", 
+    "user": {
+        "username": "andreasr09", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "16b50401-6455-45a5-a0a4-6c01a9aeece6"
+    }, 
+    "song_title": "Kings and Queens", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003156d_5d29b8df980b_th.jpg", 
+    "song_artist": "30 Seconds to Mars", 
+    "favorite_count": 1, 
+    "uuid": "A0E0B417-98DC-4DF6-A872-7B5B40C79E6D"
+}

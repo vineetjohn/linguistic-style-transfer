@@ -1,0 +1,27 @@
+{
+    "mood": "crazy", 
+    "caption": "Yeahhhhh its today !!!!!!!", 
+    "created_at": "2016-05-16T07:13:16-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f2c1_db3f8c024acb.ssng", 
+    "updated_at": "2016-05-23T20:39:49-04:00", 
+    "share_url": "https://a.sso.ng/1/db3f8c024acb", 
+    "audio_url": "https://s02.sso.ng/1/00000003f2c1_db3f8c024acb.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f2c1_db3f8c024acb_mr.jpg", 
+    "song_album": "Swag It Out - Single", 
+    "user": {
+        "username": "JellyBelly", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "\u00c9lo\u00efse Perron", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/125107c8-aa2f-42f4-8594-5292366e35ee.jpg", 
+        "id": "125107c8-aa2f-42f4-8594-5292366e35ee"
+    }, 
+    "song_title": "Swag It Out", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f2c1_db3f8c024acb_th.jpg", 
+    "song_artist": "Zendaya", 
+    "favorite_count": 7, 
+    "uuid": "B56DA600-810F-4E11-8C0E-3EA62E420AAA"
+}

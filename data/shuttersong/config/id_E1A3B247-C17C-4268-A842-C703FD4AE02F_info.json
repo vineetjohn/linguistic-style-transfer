@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I love Beau so so so much", 
+    "created_at": "2016-06-24T23:43:09-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045af6_4d1652465cf5.ssng", 
+    "updated_at": "2016-06-25T20:12:26-04:00", 
+    "share_url": "https://a.sso.ng/1/4d1652465cf5", 
+    "audio_url": "https://s02.sso.ng/1/000000045af6_4d1652465cf5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045af6_4d1652465cf5_mr.jpg", 
+    "song_album": "Views", 
+    "user": {
+        "username": "_BeauJanoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Savannah", 
+        "public_shuttersong": false, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d675f450-a4d5-418f-bf98-d9a3394612d5.jpg", 
+        "id": "d675f450-a4d5-418f-bf98-d9a3394612d5"
+    }, 
+    "song_title": "One Dance (feat. Wizkid & Kyla)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045af6_4d1652465cf5_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 2, 
+    "uuid": "E1A3B247-C17C-4268-A842-C703FD4AE02F"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-11T18:03:27-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030e58_db5ef92540b9.ssng", 
+    "updated_at": "2015-12-11T19:57:52-05:00", 
+    "share_url": "https://a.sso.ng/1/db5ef92540b9", 
+    "audio_url": "https://s01.sso.ng/1/000000030e58_db5ef92540b9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030e58_db5ef92540b9_mr.jpg", 
+    "song_album": "The Lumineers", 
+    "user": {
+        "username": "giumik", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5688b882-ce3a-40b7-abd1-5738096419da"
+    }, 
+    "song_title": "Ho Hey", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030e58_db5ef92540b9_th.jpg", 
+    "song_artist": "The Lumineers", 
+    "favorite_count": 1, 
+    "uuid": "F3C49C33-0616-43EA-9E42-9154BB75D524"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Un muack?", 
+    "created_at": "2015-08-22T02:43:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a798_e4cb0b976be9.ssng", 
+    "updated_at": "2015-08-22T23:45:32-04:00", 
+    "share_url": "https://a.sso.ng/1/e4cb0b976be9", 
+    "audio_url": "https://s01.sso.ng/1/00000002a798_e4cb0b976be9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a798_e4cb0b976be9_mr.jpg", 
+    "song_album": "Bang Bang-single", 
+    "user": {
+        "username": "dayiiabreu", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2abdfe4a-bf33-4737-ad53-bc72641d1fa6.jpg", 
+        "id": "2abdfe4a-bf33-4737-ad53-bc72641d1fa6"
+    }, 
+    "song_title": "bang bang", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a798_e4cb0b976be9_th.jpg", 
+    "song_artist": "Jessie J/Ariana Grande/Nicki Minaj", 
+    "favorite_count": 1, 
+    "uuid": "A4C5ADAF-AE7B-4D2C-827C-9FCC48509C42"
+}

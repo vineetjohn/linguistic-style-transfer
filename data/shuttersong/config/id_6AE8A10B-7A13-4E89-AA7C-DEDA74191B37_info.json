@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#selfie", 
+    "created_at": "2015-08-07T12:31:57-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022bb1_bb682d662b28.ssng", 
+    "updated_at": "2015-10-24T22:18:21-04:00", 
+    "share_url": "https://a.sso.ng/1/bb682d662b28", 
+    "audio_url": "https://s01.sso.ng/1/000000022bb1_bb682d662b28.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022bb1_bb682d662b28_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lincii5", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lina Lincii", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/cbd07c14-541e-4132-8afe-85ff1ea711c5.jpg", 
+        "id": "cbd07c14-541e-4132-8afe-85ff1ea711c5"
+    }, 
+    "song_title": "Faul & Wad Ad vs Pnau- Changes", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022bb1_bb682d662b28_th.jpg", 
+    "song_artist": "Faul & Wad Ad vs Pnau", 
+    "favorite_count": 1, 
+    "uuid": "6AE8A10B-7A13-4E89-AA7C-DEDA74191B37"
+}

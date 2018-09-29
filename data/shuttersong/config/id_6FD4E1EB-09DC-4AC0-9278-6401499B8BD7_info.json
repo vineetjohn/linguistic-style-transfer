@@ -1,0 +1,27 @@
+{
+    "mood": "Bored", 
+    "caption": "Hello it's me", 
+    "created_at": "2016-05-11T15:09:09-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e38e_f94d0f4d34a1.ssng", 
+    "updated_at": "2016-05-16T05:25:14-04:00", 
+    "share_url": "https://a.sso.ng/1/f94d0f4d34a1", 
+    "audio_url": "https://s02.sso.ng/1/00000003e38e_f94d0f4d34a1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e38e_f94d0f4d34a1_mr.jpg", 
+    "song_album": "MegaHits 2016 - Die Zweite [Explicit]", 
+    "user": {
+        "username": "Nadine1905", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2dc7ccda-27a3-448b-9410-fa2eafdf2cd4.jpg", 
+        "id": "2dc7ccda-27a3-448b-9410-fa2eafdf2cd4"
+    }, 
+    "song_title": "Booty Bounce", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e38e_f94d0f4d34a1_th.jpg", 
+    "song_artist": "Taio Cruz and Tujamo", 
+    "favorite_count": 1, 
+    "uuid": "6FD4E1EB-09DC-4AC0-9278-6401499B8BD7"
+}

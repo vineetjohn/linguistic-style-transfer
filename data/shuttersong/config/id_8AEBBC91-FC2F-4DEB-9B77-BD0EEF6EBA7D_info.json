@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Love all these boys!", 
+    "created_at": "2015-08-24T20:48:55-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020d67_34d5f2f37864_1.ssng", 
+    "updated_at": "2015-08-25T12:27:19-04:00", 
+    "share_url": "https://a.sso.ng/1/34d5f2f37864", 
+    "audio_url": "https://s01.sso.ng/1/000000020d67_34d5f2f37864_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020d67_34d5f2f37864_1_mr.jpg", 
+    "song_album": "Like That (feat. Skate) - Single", 
+    "user": {
+        "username": "Maddie51802", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7031aecf-a2cd-4f14-bb93-f0162ca0e282"
+    }, 
+    "song_title": "Like That (feat. Skate)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020d67_34d5f2f37864_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "8AEBBC91-FC2F-4DEB-9B77-BD0EEF6EBA7D"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-14T00:10:13-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043348_254ab5a444a3.ssng", 
+    "updated_at": "2016-05-15T07:35:16-04:00", 
+    "share_url": "https://a.sso.ng/1/254ab5a444a3", 
+    "audio_url": "https://s02.sso.ng/1/000000043348_254ab5a444a3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043348_254ab5a444a3_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "roseyfairie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c74c3540-2b97-4f6c-8edb-3b82793bffb8.jpg", 
+        "id": "c74c3540-2b97-4f6c-8edb-3b82793bffb8"
+    }, 
+    "song_title": "Credit", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043348_254ab5a444a3_th.jpg", 
+    "song_artist": "Steven Universe OST", 
+    "favorite_count": 1, 
+    "uuid": "70541E44-14E9-445F-A050-6BA16D0F8929"
+}

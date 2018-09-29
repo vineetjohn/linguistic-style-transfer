@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo Maryant Quintero", 
+    "created_at": "2015-12-29T16:59:18-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000324ec_4f30e40272b4.ssng", 
+    "updated_at": "2015-12-29T17:07:26-05:00", 
+    "share_url": "https://a.sso.ng/1/4f30e40272b4", 
+    "audio_url": "https://s01.sso.ng/1/0000000324ec_4f30e40272b4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000324ec_4f30e40272b4_mr.jpg", 
+    "song_album": "Some Type of Love - EP", 
+    "user": {
+        "username": "maryantquintero", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Maryant Quintero", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3a5a1a1b-0d11-49c3-9225-e77970af4118.jpg", 
+        "id": "3a5a1a1b-0d11-49c3-9225-e77970af4118"
+    }, 
+    "song_title": "Some Type of Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000324ec_4f30e40272b4_th.jpg", 
+    "song_artist": "Charlie Puth", 
+    "favorite_count": 1, 
+    "uuid": "8F4B89FC-5D93-488B-B00B-251E4F0673EE"
+}

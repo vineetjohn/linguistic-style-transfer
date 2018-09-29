@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-27T19:02:07-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e958_d3a97d137ef1.ssng", 
+    "updated_at": "2016-03-05T08:30:49-05:00", 
+    "share_url": "https://a.sso.ng/1/d3a97d137ef1", 
+    "audio_url": "https://s02.sso.ng/1/00000003e958_d3a97d137ef1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e958_d3a97d137ef1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "nefelibr", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "nefelibrks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/42fcf621-5e76-420a-bd52-900ea3426a35.jpg", 
+        "id": "42fcf621-5e76-420a-bd52-900ea3426a35"
+    }, 
+    "song_title": "The Fray - You Found Me (with lyrics) HQ", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e958_d3a97d137ef1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 6, 
+    "uuid": "5EB21D86-842E-4C8D-93C1-E40299A6E71A"
+}

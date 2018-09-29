@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "So excited", 
+    "created_at": "2016-04-02T17:08:57-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000407d4_00a89f3283ef.ssng", 
+    "updated_at": "2016-04-03T21:59:17-04:00", 
+    "share_url": "https://a.sso.ng/1/00a89f3283ef", 
+    "audio_url": "https://s02.sso.ng/1/0000000407d4_00a89f3283ef.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000407d4_00a89f3283ef_mr.jpg", 
+    "song_album": "The Lateness of the Hour", 
+    "user": {
+        "username": "volleyballstar12321", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/722f47d5-2771-4c29-ae44-e560819ec80d.jpg", 
+        "id": "722f47d5-2771-4c29-ae44-e560819ec80d"
+    }, 
+    "song_title": "Too Close", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000407d4_00a89f3283ef_th.jpg", 
+    "song_artist": "Alex Clare", 
+    "favorite_count": 2, 
+    "uuid": "D29F142A-AF8C-4FBF-9D1E-3CBC88D4C5B0"
+}

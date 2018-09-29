@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-08-23T19:04:46-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002bfe2_92a7df9ed7fd_1.ssng", 
+    "updated_at": "2015-09-05T16:56:12-04:00", 
+    "share_url": "https://a.sso.ng/1/92a7df9ed7fd", 
+    "audio_url": "https://s01.sso.ng/1/00000002bfe2_92a7df9ed7fd_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002bfe2_92a7df9ed7fd_1_mr.jpg", 
+    "song_album": "Oh, What a Life", 
+    "user": {
+        "username": "Nereyda", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a03bd20d-4886-4b75-9bfc-bdba722046f3.jpg", 
+        "id": "a03bd20d-4886-4b75-9bfc-bdba722046f3"
+    }, 
+    "song_title": "Best Day of My Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002bfe2_92a7df9ed7fd_1_th.jpg", 
+    "song_artist": "American Authors", 
+    "favorite_count": 2, 
+    "uuid": "E86BF547-D3A5-48F1-98A0-302C8FD86F88"
+}

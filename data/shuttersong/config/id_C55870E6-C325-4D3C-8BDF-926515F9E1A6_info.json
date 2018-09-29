@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Lalalalala", 
+    "created_at": "2015-12-13T21:36:39-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000000008_cccbd2555f92.ssng", 
+    "updated_at": "2015-12-18T03:31:17-05:00", 
+    "share_url": "https://a.sso.ng/1/cccbd2555f92", 
+    "audio_url": "https://s01.sso.ng/1/000000000008_cccbd2555f92.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000008_cccbd2555f92_mr.jpg", 
+    "song_album": "Alive [5th Mini Album]", 
+    "user": {
+        "username": "suryany", 
+        "verified": false, 
+        "username_color": "#8CD600", 
+        "full_name": "Suryany Puspita", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/01f074ec-e106-4cf4-92d9-7d216d2b22ac.jpg", 
+        "id": "01f074ec-e106-4cf4-92d9-7d216d2b22ac"
+    }, 
+    "song_title": "BLUE", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000008_cccbd2555f92_th.jpg", 
+    "song_artist": "Big Bang", 
+    "favorite_count": 1, 
+    "uuid": "C55870E6-C325-4D3C-8BDF-926515F9E1A6"
+}

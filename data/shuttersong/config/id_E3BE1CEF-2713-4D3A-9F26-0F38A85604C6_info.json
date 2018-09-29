@@ -1,0 +1,27 @@
+{
+    "mood": "accepted", 
+    "caption": "I'm always Friendzoned", 
+    "created_at": "2016-03-19T17:41:49-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e656_e562adcefffb.ssng", 
+    "updated_at": "2016-03-20T00:13:11-04:00", 
+    "share_url": "https://a.sso.ng/1/e562adcefffb", 
+    "audio_url": "https://s02.sso.ng/1/00000003e656_e562adcefffb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e656_e562adcefffb_mr.jpg", 
+    "song_album": "Friend Zone - Single", 
+    "user": {
+        "username": "DestineyMae", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b8d1148c-617a-4c7e-98f4-77c3c957cb01.jpg", 
+        "id": "b8d1148c-617a-4c7e-98f4-77c3c957cb01"
+    }, 
+    "song_title": "Friend Zone", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e656_e562adcefffb_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "E3BE1CEF-2713-4D3A-9F26-0F38A85604C6"
+}

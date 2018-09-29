@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#MarialeRegalaUniPhone", 
+    "created_at": "2016-01-12T07:11:18-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000375a1_d8cd13cb423a.ssng", 
+    "updated_at": "2016-01-13T11:27:48-05:00", 
+    "share_url": "https://a.sso.ng/1/d8cd13cb423a", 
+    "audio_url": "https://s01.sso.ng/1/0000000375a1_d8cd13cb423a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000375a1_d8cd13cb423a_mr.jpg", 
+    "song_album": "Dearly Departed (feat. Esm\u00e9 Patterson) - Single", 
+    "user": {
+        "username": "alefrias", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0a16466c-0e40-4dd8-b291-7dc0861fc5c3"
+    }, 
+    "song_title": "Dearly Departed (feat. Esm\u00e9 Patterson)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000375a1_d8cd13cb423a_th.jpg", 
+    "song_artist": "Shakey Graves", 
+    "favorite_count": 1, 
+    "uuid": "3DBDC3E3-6D1B-4D2F-8AC7-7900B395012F"
+}

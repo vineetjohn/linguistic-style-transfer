@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "sam and skate killin it ", 
+    "created_at": "2015-08-04T00:15:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000210b6_46bdf71793c8_1.ssng", 
+    "updated_at": "2015-08-10T10:14:57-04:00", 
+    "share_url": "https://a.sso.ng/1/46bdf71793c8", 
+    "audio_url": "https://s01.sso.ng/1/0000000210b6_46bdf71793c8_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000210b6_46bdf71793c8_1_mr.jpg", 
+    "song_album": "Signs (feat. Ty Alaxandar) - Single", 
+    "user": {
+        "username": "mirkendall", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Miranda Kendall", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d1f004c7-2203-4da5-a2bf-a8c1af2e8cc9.jpg", 
+        "id": "d1f004c7-2203-4da5-a2bf-a8c1af2e8cc9"
+    }, 
+    "song_title": "Signs (feat. Ty Alaxandar)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000210b6_46bdf71793c8_1_th.jpg", 
+    "song_artist": "Sammy Wilk & Skate", 
+    "favorite_count": 2, 
+    "uuid": "45A3D87E-A178-4A5D-8013-0D17BFC0CAC8"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-17T02:00:57-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d825_cc02a52087fa.ssng", 
+    "updated_at": "2016-01-20T03:27:31-05:00", 
+    "share_url": "https://a.sso.ng/1/cc02a52087fa", 
+    "audio_url": "https://s02.sso.ng/1/00000003d825_cc02a52087fa.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d825_cc02a52087fa_mr.jpg", 
+    "song_album": "Is There Anybody Out There?", 
+    "user": {
+        "username": "lulu_8976", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "120e498f-89c5-4a7f-9099-7540947ebfa4"
+    }, 
+    "song_title": "Say Something", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d825_cc02a52087fa_th.jpg", 
+    "song_artist": "A Great Big World &amp; Christina Aguilera", 
+    "favorite_count": 1, 
+    "uuid": "F7471DA4-BBC3-49B0-9711-74AA99791647"
+}

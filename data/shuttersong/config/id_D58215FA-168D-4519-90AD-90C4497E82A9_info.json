@@ -1,0 +1,27 @@
+{
+    "mood": "majestic", 
+    "caption": "\u2728", 
+    "created_at": "2016-02-16T20:42:39-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e484_b2d6f00c7175.ssng", 
+    "updated_at": "2016-02-21T10:27:21-05:00", 
+    "share_url": "https://a.sso.ng/1/b2d6f00c7175", 
+    "audio_url": "https://s02.sso.ng/1/00000003e484_b2d6f00c7175.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e484_b2d6f00c7175_mr.jpg", 
+    "song_album": "Pills N Potions - Single", 
+    "user": {
+        "username": "brooksbeau", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Breanna", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9f2c5a4c-1558-4366-8034-b1ae6583483f.jpg", 
+        "id": "9f2c5a4c-1558-4366-8034-b1ae6583483f"
+    }, 
+    "song_title": "Pills N Potions", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e484_b2d6f00c7175_th.jpg", 
+    "song_artist": "Nicki Minaj", 
+    "favorite_count": 9, 
+    "uuid": "D58215FA-168D-4519-90AD-90C4497E82A9"
+}

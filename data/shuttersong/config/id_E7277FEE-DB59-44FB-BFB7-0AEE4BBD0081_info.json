@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-21T10:20:45-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5d1_d44b56e20519.ssng", 
+    "updated_at": "2016-06-14T11:19:06-04:00", 
+    "share_url": "https://a.sso.ng/1/d44b56e20519", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5d1_d44b56e20519.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5d1_d44b56e20519_mr.jpg", 
+    "song_album": "Confetti - Single", 
+    "user": {
+        "username": "itsyammounibitch", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Amanda Leis-Miguel ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2aace85d-3b49-48aa-9813-13289294d780.jpg", 
+        "id": "2aace85d-3b49-48aa-9813-13289294d780"
+    }, 
+    "song_title": "Nobody Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5d1_d44b56e20519_th.jpg", 
+    "song_artist": "Tori Kelly", 
+    "favorite_count": 9, 
+    "uuid": "E7277FEE-DB59-44FB-BFB7-0AEE4BBD0081"
+}

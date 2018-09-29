@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "I am an albatroz", 
+    "created_at": "2016-04-13T10:17:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000411d9_663d408bdd65.ssng", 
+    "updated_at": "2016-04-14T12:10:23-04:00", 
+    "share_url": "https://a.sso.ng/1/663d408bdd65", 
+    "audio_url": "https://s02.sso.ng/1/0000000411d9_663d408bdd65.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000411d9_663d408bdd65_mr.jpg", 
+    "song_album": "8.77MB", 
+    "user": {
+        "username": "allys0523", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emjel Shih", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7052d108-47a2-4af0-90d4-3765225623ba.jpg", 
+        "id": "7052d108-47a2-4af0-90d4-3765225623ba"
+    }, 
+    "song_title": "I Am An Albatroz", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000411d9_663d408bdd65_th.jpg", 
+    "song_artist": "Aron Chupa", 
+    "favorite_count": 7, 
+    "uuid": "1B7FE4DF-8D13-49E7-8A7F-1D4F986709D4"
+}

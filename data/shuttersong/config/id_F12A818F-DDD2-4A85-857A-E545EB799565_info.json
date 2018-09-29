@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T11:00:03-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029354_8949c5214045.ssng", 
+    "updated_at": "2015-08-22T23:38:46-04:00", 
+    "share_url": "https://a.sso.ng/1/8949c5214045", 
+    "audio_url": "https://s01.sso.ng/1/000000029354_8949c5214045.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029354_8949c5214045_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "gloriafdz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gloria", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/00e7c961-014a-4a81-bfda-3683e2ccaebb.jpg", 
+        "id": "00e7c961-014a-4a81-bfda-3683e2ccaebb"
+    }, 
+    "song_title": "proleter - april showers", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029354_8949c5214045_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 5, 
+    "uuid": "F12A818F-DDD2-4A85-857A-E545EB799565"
+}

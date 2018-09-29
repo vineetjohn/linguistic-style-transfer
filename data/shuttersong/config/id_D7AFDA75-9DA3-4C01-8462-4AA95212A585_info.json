@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#HappyHolidaysShuttersong", 
+    "created_at": "2015-12-17T23:38:07-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f57c_ccfa118aa10b_1.ssng", 
+    "updated_at": "2015-12-18T21:56:33-05:00", 
+    "share_url": "https://a.sso.ng/1/ccfa118aa10b", 
+    "audio_url": "https://s01.sso.ng/1/00000001f57c_ccfa118aa10b_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f57c_ccfa118aa10b_1_mr.jpg", 
+    "song_album": "Something About December - Single", 
+    "user": {
+        "username": "ShaneGalloOfficial", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Shane", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5e82b07c-47ae-4cdd-8269-374f74e3446e.jpg", 
+        "id": "5e82b07c-47ae-4cdd-8269-374f74e3446e"
+    }, 
+    "song_title": "Something About December", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f57c_ccfa118aa10b_1_th.jpg", 
+    "song_artist": "Christina Perri", 
+    "favorite_count": 3, 
+    "uuid": "D7AFDA75-9DA3-4C01-8462-4AA95212A585"
+}

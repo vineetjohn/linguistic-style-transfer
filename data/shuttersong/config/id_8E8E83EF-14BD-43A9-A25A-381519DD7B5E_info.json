@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T22:40:34-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021bd1_bca86ad653e5.ssng", 
+    "updated_at": "2015-08-04T22:40:34-04:00", 
+    "share_url": "https://a.sso.ng/1/bca86ad653e5", 
+    "audio_url": "https://s01.sso.ng/1/000000021bd1_bca86ad653e5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021bd1_bca86ad653e5_mr.jpg", 
+    "song_album": "PcRockers.com", 
+    "user": {
+        "username": "doby", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5b46bfb8-f15c-41e1-a81a-84403d025d8c"
+    }, 
+    "song_title": "Freak No More  (Prod By Honorable C Note)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021bd1_bca86ad653e5_th.jpg", 
+    "song_artist": "Migos", 
+    "favorite_count": 1, 
+    "uuid": "8E8E83EF-14BD-43A9-A25A-381519DD7B5E"
+}

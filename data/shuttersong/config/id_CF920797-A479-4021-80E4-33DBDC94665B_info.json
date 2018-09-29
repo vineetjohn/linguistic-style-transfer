@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-06T04:14:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022766_7fb61d028a6f.ssng", 
+    "updated_at": "2015-08-06T04:14:17-04:00", 
+    "share_url": "https://a.sso.ng/1/7fb61d028a6f", 
+    "audio_url": "https://s01.sso.ng/1/000000022766_7fb61d028a6f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022766_7fb61d028a6f_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Mikyl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8f16892f-faa7-45ba-a9ff-f200ba3b70f7"
+    }, 
+    "song_title": "comedown..bush 1994", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022766_7fb61d028a6f_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "CF920797-A479-4021-80E4-33DBDC94665B"
+}

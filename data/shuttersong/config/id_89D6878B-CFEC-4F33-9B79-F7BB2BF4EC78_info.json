@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-08-22T15:48:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002af79_a27f156bde2b_1.ssng", 
+    "updated_at": "2015-08-22T21:58:50-04:00", 
+    "share_url": "https://a.sso.ng/1/a27f156bde2b", 
+    "audio_url": "https://s01.sso.ng/1/00000002af79_a27f156bde2b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002af79_a27f156bde2b_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "danielaramirez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/59043d22-a2e3-4561-b604-54e43fae7f87.jpg", 
+        "id": "59043d22-a2e3-4561-b604-54e43fae7f87"
+    }, 
+    "song_title": "Ellie Goulding   Hanging On (NO TINIE TEMPAH!!) Lyrics", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002af79_a27f156bde2b_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "89D6878B-CFEC-4F33-9B79-F7BB2BF4EC78"
+}

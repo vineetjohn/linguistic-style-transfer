@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Wavves 2016", 
+    "created_at": "2016-02-24T16:52:59-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1f7_53b2a9f64348.ssng", 
+    "updated_at": "2016-03-24T05:12:00-04:00", 
+    "share_url": "https://a.sso.ng/1/53b2a9f64348", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1f7_53b2a9f64348.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1f7_53b2a9f64348_mr.jpg", 
+    "song_album": "Life Sux - EP", 
+    "user": {
+        "username": "christinatina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8ab492da-f066-48ca-a644-6a3a7d9136a3.jpg", 
+        "id": "8ab492da-f066-48ca-a644-6a3a7d9136a3"
+    }, 
+    "song_title": "I Wanna Meet Dave Grohl", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1f7_53b2a9f64348_th.jpg", 
+    "song_artist": "Wavves", 
+    "favorite_count": 3, 
+    "uuid": "3E209E44-ED4A-4F4B-8484-A5308B5B29C0"
+}

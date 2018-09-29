@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-22T06:29:46-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045bfb_82e5bbc7d085.ssng", 
+    "updated_at": "2016-06-24T16:48:45-04:00", 
+    "share_url": "https://a.sso.ng/1/82e5bbc7d085", 
+    "audio_url": "https://s02.sso.ng/1/000000045bfb_82e5bbc7d085.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045bfb_82e5bbc7d085_mr.jpg", 
+    "song_album": "Audio Fashion", 
+    "user": {
+        "username": "kjt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d8962705-eabc-4c37-993d-a4a2774b023e"
+    }, 
+    "song_title": "Mami Loca", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045bfb_82e5bbc7d085_th.jpg", 
+    "song_artist": "JIN AKANISHI", 
+    "favorite_count": 2, 
+    "uuid": "42DBCE86-9207-4749-8B9B-B4B559E6F0C1"
+}

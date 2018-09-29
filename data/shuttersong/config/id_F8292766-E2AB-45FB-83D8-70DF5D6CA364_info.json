@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Idk man this is a pretty cool app just wanted to say hello...?", 
+    "created_at": "2015-08-03T23:05:20-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000209bc_0c6d8131cf1d_1.ssng", 
+    "updated_at": "2015-08-03T23:07:20-04:00", 
+    "share_url": "https://a.sso.ng/1/0c6d8131cf1d", 
+    "audio_url": "https://s01.sso.ng/1/0000000209bc_0c6d8131cf1d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000209bc_0c6d8131cf1d_1_mr.jpg", 
+    "song_album": "VHS", 
+    "user": {
+        "username": "jessicx15", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d5492623-3406-414d-ac41-693acae4ce5a.jpg", 
+        "id": "d5492623-3406-414d-ac41-693acae4ce5a"
+    }, 
+    "song_title": "Renegades", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000209bc_0c6d8131cf1d_1_th.jpg", 
+    "song_artist": "X Ambassadors", 
+    "favorite_count": 1, 
+    "uuid": "F8292766-E2AB-45FB-83D8-70DF5D6CA364"
+}

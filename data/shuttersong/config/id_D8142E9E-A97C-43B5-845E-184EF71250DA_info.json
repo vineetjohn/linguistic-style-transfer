@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YT: Rosa Telleria", 
+    "created_at": "2015-12-21T21:25:06-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037ebc_102a79af8604.ssng", 
+    "updated_at": "2015-12-25T22:44:59-05:00", 
+    "share_url": "https://a.sso.ng/1/102a79af8604", 
+    "audio_url": "https://s01.sso.ng/1/000000037ebc_102a79af8604.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037ebc_102a79af8604_mr.jpg", 
+    "song_album": "Jason Mraz", 
+    "user": {
+        "username": "RosaTell", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Rosa Fernanda Telleria Garcia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d1dcf098-9f39-4f36-89b0-c1a8e5fbd87b.jpg", 
+        "id": "d1dcf098-9f39-4f36-89b0-c1a8e5fbd87b"
+    }, 
+    "song_title": "I Am Yours", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037ebc_102a79af8604_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "D8142E9E-A97C-43B5-845E-184EF71250DA"
+}

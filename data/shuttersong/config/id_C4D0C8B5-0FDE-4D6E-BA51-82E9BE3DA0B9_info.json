@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-02T20:32:13-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bc8c_9e056cafddab.ssng", 
+    "updated_at": "2016-01-02T21:17:01-05:00", 
+    "share_url": "https://a.sso.ng/1/9e056cafddab", 
+    "audio_url": "https://s01.sso.ng/1/00000003bc8c_9e056cafddab.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bc8c_9e056cafddab_mr.jpg", 
+    "song_album": "Presents: Shock Value", 
+    "user": {
+        "username": "fer_sanchez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2325bd26-e910-40b7-b4a9-89338cea1ea2"
+    }, 
+    "song_title": "Apologize (Feat. One Republic)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bc8c_9e056cafddab_th.jpg", 
+    "song_artist": "Timbaland", 
+    "favorite_count": 1, 
+    "uuid": "C4D0C8B5-0FDE-4D6E-BA51-82E9BE3DA0B9"
+}

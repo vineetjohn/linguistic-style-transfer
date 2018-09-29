@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-18T19:58:25-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f15b_173945254ec4.ssng", 
+    "updated_at": "2016-02-19T12:16:34-05:00", 
+    "share_url": "https://a.sso.ng/1/173945254ec4", 
+    "audio_url": "https://s02.sso.ng/1/00000003f15b_173945254ec4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f15b_173945254ec4_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "sflemingo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "50071f21-d9d5-40f5-9d81-de463cee3a1d"
+    }, 
+    "song_title": "Boardwalks", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f15b_173945254ec4_th.jpg", 
+    "song_artist": "Little May", 
+    "favorite_count": 1, 
+    "uuid": "7A5890DC-8584-441C-A2BA-7A4A96B45584"
+}

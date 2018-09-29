@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2016-03-09T02:19:02-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f9cc_5b315eb05639.ssng", 
+    "updated_at": "2016-03-09T22:09:08-05:00", 
+    "share_url": "https://a.sso.ng/1/5b315eb05639", 
+    "audio_url": "https://s02.sso.ng/1/00000003f9cc_5b315eb05639.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f9cc_5b315eb05639_mr.jpg", 
+    "song_album": "Waylon & Willie", 
+    "user": {
+        "username": "RiversMommy15", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/185a9e3d-fe08-4a8b-9f27-8bbc5171b250.jpg", 
+        "id": "185a9e3d-fe08-4a8b-9f27-8bbc5171b250"
+    }, 
+    "song_title": "Mammas Don't Let Your Babies Grow Up To Be Cowboys", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f9cc_5b315eb05639_th.jpg", 
+    "song_artist": "Waylon Jennings", 
+    "favorite_count": 1, 
+    "uuid": "722F1F92-D9EE-45DE-823E-51286A7F0074"
+}

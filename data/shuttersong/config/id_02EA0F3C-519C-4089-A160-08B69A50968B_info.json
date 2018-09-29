@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2764\ufe0f", 
+    "created_at": "2015-08-04T14:20:35-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e9b_35411e4ba0fb_1.ssng", 
+    "updated_at": "2015-08-04T14:20:53-04:00", 
+    "share_url": "https://a.sso.ng/1/35411e4ba0fb", 
+    "audio_url": "https://s01.sso.ng/1/000000020e9b_35411e4ba0fb_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e9b_35411e4ba0fb_1_mr.jpg", 
+    "song_album": "Can\u2019t Feel My Face - Single", 
+    "user": {
+        "username": "alyssaxoxo02", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5ccb3991-75fd-42b4-9c64-fa3ce3629a8d.jpg", 
+        "id": "5ccb3991-75fd-42b4-9c64-fa3ce3629a8d"
+    }, 
+    "song_title": "Can't Feel My Face", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e9b_35411e4ba0fb_1_th.jpg", 
+    "song_artist": "The Weeknd", 
+    "favorite_count": 1, 
+    "uuid": "02EA0F3C-519C-4089-A160-08B69A50968B"
+}

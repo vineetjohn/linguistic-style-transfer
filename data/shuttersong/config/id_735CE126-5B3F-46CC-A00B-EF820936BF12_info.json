@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-17T10:04:24-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045568_48006a6a244f.ssng", 
+    "updated_at": "2016-06-17T19:57:15-04:00", 
+    "share_url": "https://a.sso.ng/1/48006a6a244f", 
+    "audio_url": "https://s02.sso.ng/1/000000045568_48006a6a244f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045568_48006a6a244f_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "amilcarperez_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1b66ef17-2a71-45df-9718-4e9e087115ac"
+    }, 
+    "song_title": "Kygo - Firestone (Official Audio) ft. Conrad Sewell", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045568_48006a6a244f_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "735CE126-5B3F-46CC-A00B-EF820936BF12"
+}

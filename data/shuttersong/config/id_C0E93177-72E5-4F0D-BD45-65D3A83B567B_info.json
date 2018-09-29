@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "its not what I'm used to", 
+    "created_at": "2016-06-06T12:35:54-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044734_7eea8dc33667.ssng", 
+    "updated_at": "2016-06-06T18:28:09-04:00", 
+    "share_url": "https://a.sso.ng/1/7eea8dc33667", 
+    "audio_url": "https://s02.sso.ng/1/000000044734_7eea8dc33667.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044734_7eea8dc33667_mr.jpg", 
+    "song_album": "I Kissed a Girl - Single", 
+    "user": {
+        "username": "kylebediniii", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a9d86574-fb0b-473c-acc0-91ddaebb8566"
+    }, 
+    "song_title": "I Kissed a Girl", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044734_7eea8dc33667_th.jpg", 
+    "song_artist": "Katy Perry", 
+    "favorite_count": 2, 
+    "uuid": "C0E93177-72E5-4F0D-BD45-65D3A83B567B"
+}

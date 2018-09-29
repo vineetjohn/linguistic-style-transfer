@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Italian coast", 
+    "created_at": "2015-09-14T04:06:16-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f449_b0700ac7402f_1.ssng", 
+    "updated_at": "2015-12-31T07:21:40-05:00", 
+    "share_url": "https://a.sso.ng/1/b0700ac7402f", 
+    "audio_url": "https://s01.sso.ng/1/00000001f449_b0700ac7402f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f449_b0700ac7402f_1_mr.jpg", 
+    "song_album": "Total Life Forever", 
+    "user": {
+        "username": "KTrose", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Caitlin", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4b3b27a-e8ee-4bec-bb54-b00569986ac2.jpg", 
+        "id": "d4b3b27a-e8ee-4bec-bb54-b00569986ac2"
+    }, 
+    "song_title": "Spanish Sahara", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f449_b0700ac7402f_1_th.jpg", 
+    "song_artist": "Foals", 
+    "favorite_count": 7, 
+    "uuid": "DCB62D83-8BDB-4920-A014-3594EFA8AD83"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "my actual fave", 
+    "created_at": "2016-02-21T17:31:02-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecbc_9b42f2eb386c.ssng", 
+    "updated_at": "2016-02-22T17:26:18-05:00", 
+    "share_url": "https://a.sso.ng/1/9b42f2eb386c", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecbc_9b42f2eb386c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecbc_9b42f2eb386c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lickjanosface", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": "noe", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d563402d-1a72-47ff-bec6-8e8ef1f7d8dd.jpg", 
+        "id": "d563402d-1a72-47ff-bec6-8e8ef1f7d8dd"
+    }, 
+    "song_title": "Justin Bieber - I'll Show You 1", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecbc_9b42f2eb386c_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 10, 
+    "uuid": "71AB830B-E98F-482B-A623-090FAEC5C0B3"
+}

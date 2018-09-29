@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-18T17:22:44-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000219da_6b87de9ebd39.ssng", 
+    "updated_at": "2015-08-20T18:39:45-04:00", 
+    "share_url": "https://a.sso.ng/1/6b87de9ebd39", 
+    "audio_url": "https://s01.sso.ng/1/0000000219da_6b87de9ebd39.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000219da_6b87de9ebd39_mr.jpg", 
+    "song_album": "BEYONC\u00c9", 
+    "user": {
+        "username": "brie.luciano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4e4ae252-bd7f-41b3-a054-1836a883616d.jpg", 
+        "id": "4e4ae252-bd7f-41b3-a054-1836a883616d"
+    }, 
+    "song_title": "Partition", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000219da_6b87de9ebd39_th.jpg", 
+    "song_artist": "Beyonc\u00e9", 
+    "favorite_count": 2, 
+    "uuid": "D4B0301F-7DC0-4089-B836-81E04969260B"
+}

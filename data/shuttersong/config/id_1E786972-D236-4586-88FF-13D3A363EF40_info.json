@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Shawn ?", 
+    "created_at": "2015-08-04T22:11:36-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e2b_fb0d63844f4a_1.ssng", 
+    "updated_at": "2015-08-04T22:11:58-04:00", 
+    "share_url": "https://a.sso.ng/1/fb0d63844f4a", 
+    "audio_url": "https://s01.sso.ng/1/000000020e2b_fb0d63844f4a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e2b_fb0d63844f4a_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "ashleycastro", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ashley Castro", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bf9b237d-fa5f-427e-bf12-bf418a235a00.jpg", 
+        "id": "bf9b237d-fa5f-427e-bf12-bf418a235a00"
+    }, 
+    "song_title": "Stitches", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e2b_fb0d63844f4a_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "1E786972-D236-4586-88FF-13D3A363EF40"
+}

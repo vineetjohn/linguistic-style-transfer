@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-16T22:58:57-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020a00_f855031dae5b.ssng", 
+    "updated_at": "2015-12-22T20:45:12-05:00", 
+    "share_url": "https://a.sso.ng/1/f855031dae5b", 
+    "audio_url": "https://s01.sso.ng/1/000000020a00_f855031dae5b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020a00_f855031dae5b_mr.jpg", 
+    "song_album": "Groove - Single", 
+    "user": {
+        "username": "trendygilinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jill", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/409a35b8-f3a5-419c-bbec-2f805c26bfa6.jpg", 
+        "id": "409a35b8-f3a5-419c-bbec-2f805c26bfa6"
+    }, 
+    "song_title": "Groove", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020a00_f855031dae5b_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 4, 
+    "uuid": "3C25DA96-C1E4-493D-87C7-0596D644D398"
+}

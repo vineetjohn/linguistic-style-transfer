@@ -1,0 +1,27 @@
+{
+    "mood": "cheeky", 
+    "caption": "This fucked me up so bad", 
+    "created_at": "2016-03-12T08:40:16-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e348_81746e379217.ssng", 
+    "updated_at": "2016-03-19T11:25:40-04:00", 
+    "share_url": "https://a.sso.ng/1/81746e379217", 
+    "audio_url": "https://s02.sso.ng/1/00000003e348_81746e379217.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e348_81746e379217_mr.jpg", 
+    "song_album": "Little Mix", 
+    "user": {
+        "username": "JaisFifaTantrums", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Kirrilly", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6d466165-54d5-4f20-a839-034dc89896e9.jpg", 
+        "id": "6d466165-54d5-4f20-a839-034dc89896e9"
+    }, 
+    "song_title": "DNA", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e348_81746e379217_th.jpg", 
+    "song_artist": "Little Mix", 
+    "favorite_count": 9, 
+    "uuid": "8A2B93EE-F1D5-4604-8198-0B46361C0ECD"
+}

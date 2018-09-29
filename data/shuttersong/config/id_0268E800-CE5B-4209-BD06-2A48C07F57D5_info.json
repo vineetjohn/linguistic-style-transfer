@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "New pen??", 
+    "created_at": "2015-08-04T13:15:03-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000206aa_40cd1ff2c061_1.ssng", 
+    "updated_at": "2015-08-04T13:15:49-04:00", 
+    "share_url": "https://a.sso.ng/1/40cd1ff2c061", 
+    "audio_url": "https://s01.sso.ng/1/0000000206aa_40cd1ff2c061_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000206aa_40cd1ff2c061_1_mr.jpg", 
+    "song_album": "Kiss Me Quick - Single", 
+    "user": {
+        "username": "danniexwilk", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "952b1b02-435f-4690-9ead-74f967b789a3"
+    }, 
+    "song_title": "Kiss Me Quick", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000206aa_40cd1ff2c061_1_th.jpg", 
+    "song_artist": "Nathan Sykes", 
+    "favorite_count": 1, 
+    "uuid": "0268E800-CE5B-4209-BD06-2A48C07F57D5"
+}

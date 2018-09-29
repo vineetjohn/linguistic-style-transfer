@@ -1,0 +1,27 @@
+{
+    "mood": "Crushed", 
+    "caption": "", 
+    "created_at": "2016-06-29T12:47:43-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000413e9_02ab9d6b60b4.ssng", 
+    "updated_at": "2016-06-30T01:33:00-04:00", 
+    "share_url": "https://a.sso.ng/1/02ab9d6b60b4", 
+    "audio_url": "https://s02.sso.ng/1/0000000413e9_02ab9d6b60b4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000413e9_02ab9d6b60b4_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "heyuliaa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/422d0fbc-c9bc-4a96-b62c-7e2e8cf76b66.jpg", 
+        "id": "422d0fbc-c9bc-4a96-b62c-7e2e8cf76b66"
+    }, 
+    "song_title": "paper hearts", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000413e9_02ab9d6b60b4_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "FC061F62-4579-4555-856B-520CC6B4BEE4"
+}

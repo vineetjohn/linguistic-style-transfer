@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?????", 
+    "created_at": "2015-08-22T00:16:54-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029a1f_53e6c10278bb_1.ssng", 
+    "updated_at": "2015-08-22T23:45:21-04:00", 
+    "share_url": "https://a.sso.ng/1/53e6c10278bb", 
+    "audio_url": "https://s01.sso.ng/1/000000029a1f_53e6c10278bb_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029a1f_53e6c10278bb_1_mr.jpg", 
+    "song_album": "Title", 
+    "user": {
+        "username": "Beree", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/10c6e5db-5e54-4383-96d2-5a9eaf4ba68c.jpg", 
+        "id": "10c6e5db-5e54-4383-96d2-5a9eaf4ba68c"
+    }, 
+    "song_title": "Like I'm Gonna Lose You   ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029a1f_53e6c10278bb_1_th.jpg", 
+    "song_artist": "Meghan Trainor", 
+    "favorite_count": 1, 
+    "uuid": "C5F5BBCF-4A97-436F-9729-C6ED0F0411B2"
+}

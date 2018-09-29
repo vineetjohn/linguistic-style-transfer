@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-23T00:39:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b7dd_51674cb791a5.ssng", 
+    "updated_at": "2015-08-23T12:29:03-04:00", 
+    "share_url": "https://a.sso.ng/1/51674cb791a5", 
+    "audio_url": "https://s01.sso.ng/1/00000002b7dd_51674cb791a5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b7dd_51674cb791a5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mapaularincon17", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1af9cbbe-17e2-41c2-a8b8-aedc399adc44.jpg", 
+        "id": "1af9cbbe-17e2-41c2-a8b8-aedc399adc44"
+    }, 
+    "song_title": "Ellie Goulding - Love Me Like You Do", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b7dd_51674cb791a5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "B9478B79-344C-425D-B8BE-80EB64E8E9D8"
+}

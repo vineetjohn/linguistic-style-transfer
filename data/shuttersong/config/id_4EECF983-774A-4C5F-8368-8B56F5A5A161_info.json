@@ -1,0 +1,27 @@
+{
+    "mood": "moe", 
+    "caption": "who's the smartest? ?", 
+    "created_at": "2016-02-12T05:27:32-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8ac_c33f8d514684.ssng", 
+    "updated_at": "2016-02-13T09:28:44-05:00", 
+    "share_url": "https://a.sso.ng/1/c33f8d514684", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8ac_c33f8d514684.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8ac_c33f8d514684_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "beersjai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "kim", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dad4f7f2-4c9c-4b9f-9ac1-1dedc71f7555.jpg", 
+        "id": "dad4f7f2-4c9c-4b9f-9ac1-1dedc71f7555"
+    }, 
+    "song_title": "Janoskians - Rock Opera", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8ac_c33f8d514684_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 8, 
+    "uuid": "4EECF983-774A-4C5F-8368-8B56F5A5A161"
+}

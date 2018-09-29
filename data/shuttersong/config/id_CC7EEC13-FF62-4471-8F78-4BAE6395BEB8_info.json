@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@beaub please follow me", 
+    "created_at": "2016-02-24T22:42:21-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ebd1_988168dcf91d.ssng", 
+    "updated_at": "2016-02-28T02:39:44-05:00", 
+    "share_url": "https://a.sso.ng/1/988168dcf91d", 
+    "audio_url": "https://s02.sso.ng/1/00000003ebd1_988168dcf91d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ebd1_988168dcf91d_mr.jpg", 
+    "song_album": "Cool for the Summer - Single", 
+    "user": {
+        "username": "jaibrookslover95", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9eda92a0-5f3a-4b0d-a1dc-91c101d415bd.jpg", 
+        "id": "9eda92a0-5f3a-4b0d-a1dc-91c101d415bd"
+    }, 
+    "song_title": "Cool for the Summer", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ebd1_988168dcf91d_th.jpg", 
+    "song_artist": "Demi Lovato", 
+    "favorite_count": 7, 
+    "uuid": "CC7EEC13-FF62-4471-8F78-4BAE6395BEB8"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I miss this ...", 
+    "created_at": "2015-08-06T02:20:29-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000226fd_be36edf4d2e8_1.ssng", 
+    "updated_at": "2015-08-06T02:21:11-04:00", 
+    "share_url": "https://a.sso.ng/1/be36edf4d2e8", 
+    "audio_url": "https://s01.sso.ng/1/0000000226fd_be36edf4d2e8_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000226fd_be36edf4d2e8_1_mr.jpg", 
+    "song_album": "It Girl - Single", 
+    "user": {
+        "username": "mustbemagcon", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ash", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a52c6f66-84a0-4c0f-a5bf-9c6ce0cfb971.jpg", 
+        "id": "a52c6f66-84a0-4c0f-a5bf-9c6ce0cfb971"
+    }, 
+    "song_title": "It Girl", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000226fd_be36edf4d2e8_1_th.jpg", 
+    "song_artist": "Jason Derulo", 
+    "favorite_count": 1, 
+    "uuid": "96AE5A1A-AA62-4BA0-8F5D-26655500FD8F"
+}

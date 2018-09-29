@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-12T04:03:16-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ec43_8ebb63ee08f8.ssng", 
+    "updated_at": "2016-02-12T07:23:53-05:00", 
+    "share_url": "https://a.sso.ng/1/8ebb63ee08f8", 
+    "audio_url": "https://s02.sso.ng/1/00000003ec43_8ebb63ee08f8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ec43_8ebb63ee08f8_mr.jpg", 
+    "song_album": "All I Want 4 Christmas - Single", 
+    "user": {
+        "username": "Sammyx", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dbd85b61-bbba-4116-a4a2-6480ecd1bda9.jpg", 
+        "id": "dbd85b61-bbba-4116-a4a2-6480ecd1bda9"
+    }, 
+    "song_title": "All I Want 4 Christmas", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ec43_8ebb63ee08f8_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "6046F789-26DC-4023-A262-85658B791228"
+}

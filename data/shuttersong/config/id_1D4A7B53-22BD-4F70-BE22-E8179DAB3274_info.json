@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-10T15:13:50-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000001da9c_f9a8ad0b28b8.ssng", 
+    "updated_at": "2016-06-11T15:07:03-04:00", 
+    "share_url": "https://a.sso.ng/1/f9a8ad0b28b8", 
+    "audio_url": "https://s02.sso.ng/1/00000001da9c_f9a8ad0b28b8.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001da9c_f9a8ad0b28b8_mr.jpg", 
+    "song_album": "The Getaway", 
+    "user": {
+        "username": "llvvzz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "llvvzz", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e84c33b0-63e4-460a-8280-b3b1a4be6570.jpg", 
+        "id": "e84c33b0-63e4-460a-8280-b3b1a4be6570"
+    }, 
+    "song_title": "Dark Necessities", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001da9c_f9a8ad0b28b8_th.jpg", 
+    "song_artist": "Red Hot Chili Peppers", 
+    "favorite_count": 3, 
+    "uuid": "1D4A7B53-22BD-4F70-BE22-E8179DAB3274"
+}

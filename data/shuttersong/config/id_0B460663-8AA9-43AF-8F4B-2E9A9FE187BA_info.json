@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "@brooksluke", 
+    "created_at": "2016-05-27T23:34:06-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5d1_f3756af7c033.ssng", 
+    "updated_at": "2016-06-14T11:18:58-04:00", 
+    "share_url": "https://a.sso.ng/1/f3756af7c033", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5d1_f3756af7c033.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5d1_f3756af7c033_mr.jpg", 
+    "song_album": "Don't Stop - EP", 
+    "user": {
+        "username": "itsyammounibitch", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Amanda Leis-Miguel ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2aace85d-3b49-48aa-9813-13289294d780.jpg", 
+        "id": "2aace85d-3b49-48aa-9813-13289294d780"
+    }, 
+    "song_title": "Vapor", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5d1_f3756af7c033_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 11, 
+    "uuid": "0B460663-8AA9-43AF-8F4B-2E9A9FE187BA"
+}

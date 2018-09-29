@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "life.", 
+    "created_at": "2016-02-10T04:47:03-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e885_d3553d96f80b.ssng", 
+    "updated_at": "2016-02-10T06:05:22-05:00", 
+    "share_url": "https://a.sso.ng/1/d3553d96f80b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e885_d3553d96f80b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e885_d3553d96f80b_mr.jpg", 
+    "song_album": "My Girl - Single", 
+    "user": {
+        "username": "hannahhe", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Hannah ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4663e96-52e9-4ed3-b94e-004373b70235.jpg", 
+        "id": "f4663e96-52e9-4ed3-b94e-004373b70235"
+    }, 
+    "song_title": "My Girl", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e885_d3553d96f80b_th.jpg", 
+    "song_artist": "The Fooo Conspiracy", 
+    "favorite_count": 1, 
+    "uuid": "BC66FD05-AEC4-4DA9-81C1-43338F3BC046"
+}

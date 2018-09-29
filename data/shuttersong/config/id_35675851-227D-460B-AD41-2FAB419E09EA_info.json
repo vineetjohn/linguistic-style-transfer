@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "We fuck for life", 
+    "created_at": "2016-03-02T13:17:30-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea6a_31d91c912614.ssng", 
+    "updated_at": "2016-03-05T20:54:21-05:00", 
+    "share_url": "https://a.sso.ng/1/31d91c912614", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea6a_31d91c912614.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea6a_31d91c912614_mr.jpg", 
+    "song_album": "Queen of the Clouds (Deluxe)", 
+    "user": {
+        "username": "gina.janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce57dc3d-08d1-4494-af4a-c309a922ed35.jpg", 
+        "id": "ce57dc3d-08d1-4494-af4a-c309a922ed35"
+    }, 
+    "song_title": "Talking Body", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea6a_31d91c912614_th.jpg", 
+    "song_artist": "Tove Lo", 
+    "favorite_count": 2, 
+    "uuid": "35675851-227D-460B-AD41-2FAB419E09EA"
+}

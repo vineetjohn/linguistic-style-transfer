@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-10T12:59:43-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000275ce_5b82273517d1.ssng", 
+    "updated_at": "2016-04-11T11:54:57-04:00", 
+    "share_url": "https://a.sso.ng/1/5b82273517d1", 
+    "audio_url": "https://s02.sso.ng/1/0000000275ce_5b82273517d1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000275ce_5b82273517d1_mr.jpg", 
+    "song_album": "Yin", 
+    "user": {
+        "username": "PapiPeanut", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c1ceb68d-49f2-42c3-a32c-5e973c455a95"
+    }, 
+    "song_title": "Yin", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000275ce_5b82273517d1_th.jpg", 
+    "song_artist": "Seers ft. J.K. The Reaper", 
+    "favorite_count": 2, 
+    "uuid": "444E1DB6-7C2B-4F97-A062-B612F11B439E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-10T01:58:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000001a18f_6c3407d96417.ssng", 
+    "updated_at": "2016-05-11T01:06:42-04:00", 
+    "share_url": "https://a.sso.ng/1/6c3407d96417", 
+    "audio_url": "https://s02.sso.ng/1/00000001a18f_6c3407d96417.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001a18f_6c3407d96417_mr.jpg", 
+    "song_album": "When It's Dark Out", 
+    "user": {
+        "username": "aczerkasij", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "824340c2-6be8-48c1-bc85-befc5841c02e"
+    }, 
+    "song_title": "Random", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001a18f_6c3407d96417_th.jpg", 
+    "song_artist": "G-Eazy", 
+    "favorite_count": 3, 
+    "uuid": "FC3D9214-9007-4BCC-9AFC-3948845EE166"
+}

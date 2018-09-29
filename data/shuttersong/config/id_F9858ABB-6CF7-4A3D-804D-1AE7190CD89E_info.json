@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I still have PCD from july ?", 
+    "created_at": "2015-09-02T22:21:02-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020c39_2d3bfff3f1f4_1.ssng", 
+    "updated_at": "2015-12-31T07:03:02-05:00", 
+    "share_url": "https://a.sso.ng/1/2d3bfff3f1f4", 
+    "audio_url": "https://s01.sso.ng/1/000000020c39_2d3bfff3f1f4_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020c39_2d3bfff3f1f4_1_mr.jpg", 
+    "song_album": "A Piece of Me - EP", 
+    "user": {
+        "username": "KenzieS", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Kenzie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0143701c-03a1-476e-b2cc-761410bcb8d2.jpg", 
+        "id": "0143701c-03a1-476e-b2cc-761410bcb8d2"
+    }, 
+    "song_title": "Let's Be Birds", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020c39_2d3bfff3f1f4_1_th.jpg", 
+    "song_artist": "Jacob Whitesides", 
+    "favorite_count": 4, 
+    "uuid": "F9858ABB-6CF7-4A3D-804D-1AE7190CD89E"
+}

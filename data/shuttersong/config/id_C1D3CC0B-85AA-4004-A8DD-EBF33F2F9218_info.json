@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T08:01:24-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021657_10b5dfbf5503.ssng", 
+    "updated_at": "2015-08-04T08:01:24-04:00", 
+    "share_url": "https://a.sso.ng/1/10b5dfbf5503", 
+    "audio_url": "https://s01.sso.ng/1/000000021657_10b5dfbf5503.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021657_10b5dfbf5503_mr.jpg", 
+    "song_album": "Groove - Single", 
+    "user": {
+        "username": "liza_hamidi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Liza ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9ff826ac-e963-4e99-8652-a52c8e7ae368.jpg", 
+        "id": "9ff826ac-e963-4e99-8652-a52c8e7ae368"
+    }, 
+    "song_title": "Groove", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021657_10b5dfbf5503_th.jpg", 
+    "song_artist": "Jack and Jack", 
+    "favorite_count": 1, 
+    "uuid": "C1D3CC0B-85AA-4004-A8DD-EBF33F2F9218"
+}

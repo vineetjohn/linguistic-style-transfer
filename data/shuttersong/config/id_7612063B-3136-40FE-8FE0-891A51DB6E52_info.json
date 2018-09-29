@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack and Jack are baees a'f", 
+    "created_at": "2015-08-10T11:18:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022f7d_76c3803f8d3a_1.ssng", 
+    "updated_at": "2015-08-10T14:23:11-04:00", 
+    "share_url": "https://a.sso.ng/1/76c3803f8d3a", 
+    "audio_url": "https://s01.sso.ng/1/000000022f7d_76c3803f8d3a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022f7d_76c3803f8d3a_1_mr.jpg", 
+    "song_album": "Doing It Right - Single", 
+    "user": {
+        "username": "gaabrielaaa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gaby Johnson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ceaa5cc3-84e9-43da-8527-a2d7eae3d1ee.jpg", 
+        "id": "ceaa5cc3-84e9-43da-8527-a2d7eae3d1ee"
+    }, 
+    "song_title": "Doing It Right", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022f7d_76c3803f8d3a_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "7612063B-3136-40FE-8FE0-891A51DB6E52"
+}

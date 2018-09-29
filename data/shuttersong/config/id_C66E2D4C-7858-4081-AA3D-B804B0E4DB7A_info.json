@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Disney Land, Paris, France \u2728", 
+    "created_at": "2016-04-28T17:24:17-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042383_82557e7c1984.ssng", 
+    "updated_at": "2016-05-01T22:57:07-04:00", 
+    "share_url": "https://a.sso.ng/1/82557e7c1984", 
+    "audio_url": "https://s02.sso.ng/1/000000042383_82557e7c1984.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042383_82557e7c1984_mr.jpg", 
+    "song_album": "Made In The A.M. (Deluxe Edition)", 
+    "user": {
+        "username": "oliviaparsons", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Olivia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d21adb58-dc6a-4b67-ad0a-271338e0298e.jpg", 
+        "id": "d21adb58-dc6a-4b67-ad0a-271338e0298e"
+    }, 
+    "song_title": "Olivia", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042383_82557e7c1984_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 2, 
+    "uuid": "C66E2D4C-7858-4081-AA3D-B804B0E4DB7A"
+}

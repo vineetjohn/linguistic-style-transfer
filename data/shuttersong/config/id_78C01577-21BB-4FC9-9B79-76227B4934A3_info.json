@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T21:03:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027000_750ed364182e.ssng", 
+    "updated_at": "2015-08-20T21:43:23-04:00", 
+    "share_url": "https://a.sso.ng/1/750ed364182e", 
+    "audio_url": "https://s01.sso.ng/1/000000027000_750ed364182e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027000_750ed364182e_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "MoniCarvallo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7bfb04a7-de8f-41d2-ae93-b8abb99d3cfe"
+    }, 
+    "song_title": "The Miracle (Of Joey Ramone)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027000_750ed364182e_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 1, 
+    "uuid": "78C01577-21BB-4FC9-9B79-76227B4934A3"
+}

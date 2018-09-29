@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Holaaaa", 
+    "created_at": "2015-08-22T08:38:29-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a8fb_cc4a69ad7a19_1.ssng", 
+    "updated_at": "2015-08-22T15:48:17-04:00", 
+    "share_url": "https://a.sso.ng/1/cc4a69ad7a19", 
+    "audio_url": "https://s01.sso.ng/1/00000002a8fb_cc4a69ad7a19_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a8fb_cc4a69ad7a19_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "LuzMarcela01", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/145c59f6-75d1-478a-bfff-106db61ba0e9.jpg", 
+        "id": "145c59f6-75d1-478a-bfff-106db61ba0e9"
+    }, 
+    "song_title": "Kygo feat. Conrad - Firestone (Cover Art)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a8fb_cc4a69ad7a19_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "3BC5E7D5-B49A-4CC2-B5A7-C29BE5B605E0"
+}

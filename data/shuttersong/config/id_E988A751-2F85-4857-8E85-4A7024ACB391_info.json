@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:08:58-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020af2_926f1c3d81af.ssng", 
+    "updated_at": "2015-08-03T23:08:58-04:00", 
+    "share_url": "https://a.sso.ng/1/926f1c3d81af", 
+    "audio_url": "https://s01.sso.ng/1/000000020af2_926f1c3d81af.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020af2_926f1c3d81af_mr.jpg", 
+    "song_album": "Believe (Deluxe Edition)", 
+    "user": {
+        "username": "bri.grieshaber", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "34f78811-145f-4013-ab22-f48fecc9516e"
+    }, 
+    "song_title": "Out of Town Girl", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020af2_926f1c3d81af_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "E988A751-2F85-4857-8E85-4A7024ACB391"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-17T23:42:59-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020a00_cc2bedd066cf.ssng", 
+    "updated_at": "2015-08-18T08:28:09-04:00", 
+    "share_url": "https://a.sso.ng/1/cc2bedd066cf", 
+    "audio_url": "https://s01.sso.ng/1/000000020a00_cc2bedd066cf.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020a00_cc2bedd066cf_mr.jpg", 
+    "song_album": "Wild Life - Single", 
+    "user": {
+        "username": "trendygilinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jill", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/409a35b8-f3a5-419c-bbec-2f805c26bfa6.jpg", 
+        "id": "409a35b8-f3a5-419c-bbec-2f805c26bfa6"
+    }, 
+    "song_title": "Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020a00_cc2bedd066cf_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "31EEDD92-F959-4258-ACAD-06E23A643CF9"
+}

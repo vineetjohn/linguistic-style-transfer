@@ -1,0 +1,27 @@
+{
+    "mood": "bored", 
+    "caption": "", 
+    "created_at": "2016-02-10T18:46:05-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e362_9ed1767fa673.ssng", 
+    "updated_at": "2016-02-10T19:24:51-05:00", 
+    "share_url": "https://a.sso.ng/1/9ed1767fa673", 
+    "audio_url": "https://s02.sso.ng/1/00000003e362_9ed1767fa673.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e362_9ed1767fa673_mr.jpg", 
+    "song_album": "Channel ORANGE", 
+    "user": {
+        "username": "morris_s02", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2169f4ea-97a2-4745-8d93-ba1af84113c0.jpg", 
+        "id": "2169f4ea-97a2-4745-8d93-ba1af84113c0"
+    }, 
+    "song_title": "Thinkin Bout You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e362_9ed1767fa673_th.jpg", 
+    "song_artist": "Frank Ocean", 
+    "favorite_count": 1, 
+    "uuid": "1B61E190-3DCB-46FC-B520-DBA25C67ABDA"
+}

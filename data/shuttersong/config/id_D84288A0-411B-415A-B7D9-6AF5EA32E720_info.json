@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-21T22:11:04-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000000119_60de4656cf2f.ssng", 
+    "updated_at": "2015-12-22T22:32:17-05:00", 
+    "share_url": "https://a.sso.ng/1/60de4656cf2f", 
+    "audio_url": "https://s01.sso.ng/1/000000000119_60de4656cf2f.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000119_60de4656cf2f_mr.jpg", 
+    "song_album": "Justin Bieber", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "Mistletoe", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000119_60de4656cf2f_th.jpg", 
+    "song_artist": "Under The Mistletoe", 
+    "favorite_count": 1, 
+    "uuid": "D84288A0-411B-415A-B7D9-6AF5EA32E720"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I'm so happy Jai signed my top", 
+    "created_at": "2016-05-12T10:55:02-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042ff5_69b452f3ac86.ssng", 
+    "updated_at": "2016-06-03T13:28:06-04:00", 
+    "share_url": "https://a.sso.ng/1/69b452f3ac86", 
+    "audio_url": "https://s02.sso.ng/1/000000042ff5_69b452f3ac86.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042ff5_69b452f3ac86_mr.jpg", 
+    "song_album": "This F**kin Song - Single", 
+    "user": {
+        "username": "rhian_janoskian", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f9051d71-957e-4767-8c86-d37b45034d14.jpg", 
+        "id": "f9051d71-957e-4767-8c86-d37b45034d14"
+    }, 
+    "song_title": "This F**kin Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042ff5_69b452f3ac86_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "D7EF5291-B106-4372-8FA6-2683DEED53F5"
+}

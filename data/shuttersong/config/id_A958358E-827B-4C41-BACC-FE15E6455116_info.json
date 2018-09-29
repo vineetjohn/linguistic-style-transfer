@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "king\u2764\ufe0f", 
+    "created_at": "2016-05-19T04:06:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004308d_09979cc2f508.ssng", 
+    "updated_at": "2016-05-31T19:29:38-04:00", 
+    "share_url": "https://a.sso.ng/1/09979cc2f508", 
+    "audio_url": "https://s02.sso.ng/1/00000004308d_09979cc2f508.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004308d_09979cc2f508_mr.jpg", 
+    "song_album": "Majid Jordan", 
+    "user": {
+        "username": "amiraxjanos", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "its lit", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/34f86003-ed7d-4142-8869-9ef4494731f4.jpg", 
+        "id": "34f86003-ed7d-4142-8869-9ef4494731f4"
+    }, 
+    "song_title": "King City", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004308d_09979cc2f508_th.jpg", 
+    "song_artist": "Majid Jordan", 
+    "favorite_count": 5, 
+    "uuid": "A958358E-827B-4C41-BACC-FE15E6455116"
+}

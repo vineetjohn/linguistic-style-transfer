@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-29T16:42:06-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044275_eee28c7edfa5.ssng", 
+    "updated_at": "2016-05-30T00:24:04-04:00", 
+    "share_url": "https://a.sso.ng/1/eee28c7edfa5", 
+    "audio_url": "https://s02.sso.ng/1/000000044275_eee28c7edfa5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044275_eee28c7edfa5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "whocaressaudios", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "843f572b-7e2d-4472-aa58-4bc6ef6a4281"
+    }, 
+    "song_title": "Headlights (feat. Nate Ruess)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044275_eee28c7edfa5_th.jpg", 
+    "song_artist": "Eminem", 
+    "favorite_count": 1, 
+    "uuid": "5FFAFC01-E5B1-4A94-BC58-C576F101B708"
+}

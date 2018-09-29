@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-18T13:21:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024cf2_d78377db363a.ssng", 
+    "updated_at": "2015-08-18T15:34:56-04:00", 
+    "share_url": "https://a.sso.ng/1/d78377db363a", 
+    "audio_url": "https://s01.sso.ng/1/000000024cf2_d78377db363a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024cf2_d78377db363a_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "aaron1234", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "537068df-00d0-463d-82bf-a36e3b4e7967"
+    }, 
+    "song_title": "In Love With a Boy - Kaya Stewart (Charley Noble Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024cf2_d78377db363a_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "C110E762-AE6E-41F9-A63F-5979BFF56D7B"
+}

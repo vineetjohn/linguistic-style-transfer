@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-09T11:58:25-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040ff0_39a63dd2e1a8.ssng", 
+    "updated_at": "2016-04-11T11:55:44-04:00", 
+    "share_url": "https://a.sso.ng/1/39a63dd2e1a8", 
+    "audio_url": "https://s02.sso.ng/1/000000040ff0_39a63dd2e1a8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040ff0_39a63dd2e1a8_mr.jpg", 
+    "song_album": "Elephunk (UK Version)", 
+    "user": {
+        "username": "kellyhale", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d3c836eb-8533-456e-afdd-a47198db0933.jpg", 
+        "id": "d3c836eb-8533-456e-afdd-a47198db0933"
+    }, 
+    "song_title": "Where Is the Love?", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040ff0_39a63dd2e1a8_th.jpg", 
+    "song_artist": "The Black Eyed Peas", 
+    "favorite_count": 3, 
+    "uuid": "32419C41-59A0-4958-B8E3-96215C3FB7AC"
+}

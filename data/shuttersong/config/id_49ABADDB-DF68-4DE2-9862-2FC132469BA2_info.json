@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?????????", 
+    "created_at": "2016-02-09T22:01:47-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e713_605574b39c45.ssng", 
+    "updated_at": "2016-02-10T00:01:57-05:00", 
+    "share_url": "https://a.sso.ng/1/605574b39c45", 
+    "audio_url": "https://s02.sso.ng/1/00000003e713_605574b39c45.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e713_605574b39c45_mr.jpg", 
+    "song_album": "Hollow - Single", 
+    "user": {
+        "username": "LauraNikkiZ", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/32336501-91ab-4afc-a9bd-8cc5fb16eaa2.jpg", 
+        "id": "32336501-91ab-4afc-a9bd-8cc5fb16eaa2"
+    }, 
+    "song_title": "Hollow", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e713_605574b39c45_th.jpg", 
+    "song_artist": "Tori Kelly", 
+    "favorite_count": 1, 
+    "uuid": "49ABADDB-DF68-4DE2-9862-2FC132469BA2"
+}

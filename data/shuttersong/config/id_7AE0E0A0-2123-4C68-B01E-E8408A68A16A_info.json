@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-15T16:58:20-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000244ae_418d841d842c.ssng", 
+    "updated_at": "2015-08-15T17:04:03-04:00", 
+    "share_url": "https://a.sso.ng/1/418d841d842c", 
+    "audio_url": "https://s01.sso.ng/1/0000000244ae_418d841d842c.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000244ae_418d841d842c_mr.jpg", 
+    "song_album": "Paradise (Never Change) - Single", 
+    "user": {
+        "username": "tbhqxynh", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e8baeda-f983-4927-b202-ad650577c530.jpg", 
+        "id": "2e8baeda-f983-4927-b202-ad650577c530"
+    }, 
+    "song_title": "Paradise (Never Change)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000244ae_418d841d842c_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "7AE0E0A0-2123-4C68-B01E-E8408A68A16A"
+}

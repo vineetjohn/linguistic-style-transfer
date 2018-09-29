@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-07T17:30:23-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e027_a3e89f1d3177.ssng", 
+    "updated_at": "2016-05-12T07:01:57-04:00", 
+    "share_url": "https://a.sso.ng/1/a3e89f1d3177", 
+    "audio_url": "https://s02.sso.ng/1/00000003e027_a3e89f1d3177.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e027_a3e89f1d3177_mr.jpg", 
+    "song_album": "It Is.", 
+    "user": {
+        "username": "sp", 
+        "verified": true, 
+        "username_color": "", 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/15a2ad9f-dd3b-4ae5-b232-a9fa599472c8.jpg", 
+        "id": "15a2ad9f-dd3b-4ae5-b232-a9fa599472c8"
+    }, 
+    "song_title": "Power", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e027_a3e89f1d3177_th.jpg", 
+    "song_artist": "JMSN", 
+    "favorite_count": 3, 
+    "uuid": "FF851476-2F94-4908-8ED0-F25A1F9528BA"
+}

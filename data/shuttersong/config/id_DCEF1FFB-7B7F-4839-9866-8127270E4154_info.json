@@ -1,0 +1,27 @@
+{
+    "mood": "Entspannt", 
+    "caption": "", 
+    "created_at": "2016-05-31T03:01:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044440_3a4c946d7507.ssng", 
+    "updated_at": "2016-06-05T10:21:46-04:00", 
+    "share_url": "https://a.sso.ng/1/3a4c946d7507", 
+    "audio_url": "https://s02.sso.ng/1/000000044440_3a4c946d7507.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044440_3a4c946d7507_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "klecks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7c73fef8-e0e9-47be-95a6-e59169a949d3.jpg", 
+        "id": "7c73fef8-e0e9-47be-95a6-e59169a949d3"
+    }, 
+    "song_title": "Everything Flows", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044440_3a4c946d7507_th.jpg", 
+    "song_artist": "Left Boy", 
+    "favorite_count": 4, 
+    "uuid": "DCEF1FFB-7B7F-4839-9866-8127270E4154"
+}

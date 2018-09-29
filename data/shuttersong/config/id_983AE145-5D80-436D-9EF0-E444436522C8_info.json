@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-26T10:39:35-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000002fe7f_a06e71d3f262.ssng", 
+    "updated_at": "2016-05-27T09:39:04-04:00", 
+    "share_url": "https://a.sso.ng/1/a06e71d3f262", 
+    "audio_url": "https://s02.sso.ng/1/00000002fe7f_a06e71d3f262.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002fe7f_a06e71d3f262_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "pri_brand", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9d43054b-db89-4cca-bf9b-ab1f013a47ce"
+    }, 
+    "song_title": "budapest-clip[Shared MP3]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002fe7f_a06e71d3f262_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "983AE145-5D80-436D-9EF0-E444436522C8"
+}

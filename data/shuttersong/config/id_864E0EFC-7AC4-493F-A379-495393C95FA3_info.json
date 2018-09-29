@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Check out my YouTube channel ~ It's holly x", 
+    "created_at": "2015-11-14T17:44:23-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002fd61_2f0a73e93b28_1.ssng", 
+    "updated_at": "2015-11-18T14:37:39-05:00", 
+    "share_url": "https://a.sso.ng/1/2f0a73e93b28", 
+    "audio_url": "https://s01.sso.ng/1/00000002fd61_2f0a73e93b28_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002fd61_2f0a73e93b28_1_mr.jpg", 
+    "song_album": "Don't Wait - Single", 
+    "user": {
+        "username": "Hollydooley123", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b274a304-743a-4324-99be-0674d235ab05.jpg", 
+        "id": "b274a304-743a-4324-99be-0674d235ab05"
+    }, 
+    "song_title": "Don't Wait", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002fd61_2f0a73e93b28_1_th.jpg", 
+    "song_artist": "Joey Graceffa", 
+    "favorite_count": 1, 
+    "uuid": "864E0EFC-7AC4-493F-A379-495393C95FA3"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "determined", 
+    "caption": "????", 
+    "created_at": "2016-01-11T01:23:45-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b4f6_542ad6fd2810.ssng", 
+    "updated_at": "2016-01-14T10:36:45-05:00", 
+    "share_url": "https://a.sso.ng/1/542ad6fd2810", 
+    "audio_url": "https://s01.sso.ng/1/00000003b4f6_542ad6fd2810.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b4f6_542ad6fd2810_mr.jpg", 
+    "song_album": "2015 Warped Tour Compilation", 
+    "user": {
+        "username": "HaileyArias", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "HaileyBoo", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bf1a0721-77ab-4435-91c9-741304519666.jpg", 
+        "id": "bf1a0721-77ab-4435-91c9-741304519666"
+    }, 
+    "song_title": "Cheap Shots &amp; Setbacks", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b4f6_542ad6fd2810_th.jpg", 
+    "song_artist": "As It Is", 
+    "favorite_count": 5, 
+    "uuid": "6509266F-494E-4F8A-9CBF-A400A2C7E55A"
+}

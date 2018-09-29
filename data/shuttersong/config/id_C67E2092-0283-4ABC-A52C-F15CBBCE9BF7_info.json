@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-23T14:18:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021824_7703994cc66f.ssng", 
+    "updated_at": "2015-09-23T14:23:19-04:00", 
+    "share_url": "https://a.sso.ng/1/7703994cc66f", 
+    "audio_url": "https://s01.sso.ng/1/000000021824_7703994cc66f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021824_7703994cc66f_mr.jpg", 
+    "song_album": "Nothing Was the Same", 
+    "user": {
+        "username": "DaphneGile", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Daphne", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bbbecd09-6f8e-4117-b449-145428dbaf7b.jpg", 
+        "id": "bbbecd09-6f8e-4117-b449-145428dbaf7b"
+    }, 
+    "song_title": "All Me (feat. 2 Chainz & Big Sean)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021824_7703994cc66f_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 1, 
+    "uuid": "C67E2092-0283-4ABC-A52C-F15CBBCE9BF7"
+}

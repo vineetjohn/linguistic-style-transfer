@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-20T17:07:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000306ba_19a6156d0cdc.ssng", 
+    "updated_at": "2016-03-21T23:05:46-04:00", 
+    "share_url": "https://a.sso.ng/1/19a6156d0cdc", 
+    "audio_url": "https://s02.sso.ng/1/0000000306ba_19a6156d0cdc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000306ba_19a6156d0cdc_mr.jpg", 
+    "song_album": "3", 
+    "user": {
+        "username": "fracap", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d5cb3175-d883-4e5c-bb2c-3cfcdfe32497"
+    }, 
+    "song_title": "Road to Nowhere", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000306ba_19a6156d0cdc_th.jpg", 
+    "song_artist": "Nouvelle Vague", 
+    "favorite_count": 2, 
+    "uuid": "21DEFF06-AAAF-4FA1-A58A-E579D65E7783"
+}

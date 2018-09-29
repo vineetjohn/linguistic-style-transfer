@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I don't even know", 
+    "created_at": "2016-02-10T06:43:15-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e362_5f20d59fc54b.ssng", 
+    "updated_at": "2016-02-10T14:20:06-05:00", 
+    "share_url": "https://a.sso.ng/1/5f20d59fc54b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e362_5f20d59fc54b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e362_5f20d59fc54b_mr.jpg", 
+    "song_album": "Family Guy: Live In Vegas (Soundtrack from the TV Show)", 
+    "user": {
+        "username": "morris_s02", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2169f4ea-97a2-4745-8d93-ba1af84113c0.jpg", 
+        "id": "2169f4ea-97a2-4745-8d93-ba1af84113c0"
+    }, 
+    "song_title": "All Cartoons Are Fuckin' Dicks", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e362_5f20d59fc54b_th.jpg", 
+    "song_artist": "PETER, Brian, Stewie, Chris &amp; Jason Alexander", 
+    "favorite_count": 1, 
+    "uuid": "BA9F943C-42CA-4862-AA0D-FB5B805469E4"
+}

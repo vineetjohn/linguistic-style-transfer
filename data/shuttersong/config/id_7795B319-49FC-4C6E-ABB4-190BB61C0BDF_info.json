@@ -1,0 +1,27 @@
+{
+    "mood": "geeky", 
+    "caption": "??", 
+    "created_at": "2016-03-04T21:33:23-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e348_f2802c8c6115.ssng", 
+    "updated_at": "2016-03-07T13:38:54-05:00", 
+    "share_url": "https://a.sso.ng/1/f2802c8c6115", 
+    "audio_url": "https://s02.sso.ng/1/00000003e348_f2802c8c6115.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e348_f2802c8c6115_mr.jpg", 
+    "song_album": "Nelly", 
+    "user": {
+        "username": "JaisFifaTantrums", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Kirrilly", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6d466165-54d5-4f20-a839-034dc89896e9.jpg", 
+        "id": "6d466165-54d5-4f20-a839-034dc89896e9"
+    }, 
+    "song_title": "Hey Porsche", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e348_f2802c8c6115_th.jpg", 
+    "song_artist": "Nelly", 
+    "favorite_count": 11, 
+    "uuid": "7795B319-49FC-4C6E-ABB4-190BB61C0BDF"
+}

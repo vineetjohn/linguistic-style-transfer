@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2016-02-10T19:06:29-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e822_2065b29956c6.ssng", 
+    "updated_at": "2016-04-30T08:59:12-04:00", 
+    "share_url": "https://a.sso.ng/1/2065b29956c6", 
+    "audio_url": "https://s02.sso.ng/1/00000003e822_2065b29956c6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e822_2065b29956c6_mr.jpg", 
+    "song_album": "Blurryface", 
+    "user": {
+        "username": "Vvitchout", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0ec3bc87-cbe7-46db-9bc9-a1abba69d1a7.jpg", 
+        "id": "0ec3bc87-cbe7-46db-9bc9-a1abba69d1a7"
+    }, 
+    "song_title": "Stressed Out", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e822_2065b29956c6_th.jpg", 
+    "song_artist": "twenty one pilots", 
+    "favorite_count": 2, 
+    "uuid": "C8DEB435-2DEF-4194-9DAC-328193283BD0"
+}

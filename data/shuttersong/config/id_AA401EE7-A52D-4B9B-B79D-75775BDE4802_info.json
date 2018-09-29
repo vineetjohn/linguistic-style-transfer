@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "", 
+    "created_at": "2016-05-01T10:15:11-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e53b_fd039e5d8fe5.ssng", 
+    "updated_at": "2016-05-01T19:22:36-04:00", 
+    "share_url": "https://a.sso.ng/1/fd039e5d8fe5", 
+    "audio_url": "https://s02.sso.ng/1/00000003e53b_fd039e5d8fe5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e53b_fd039e5d8fe5_mr.jpg", 
+    "song_album": "Love What You Have - Single", 
+    "user": {
+        "username": "jade567", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/48284c8e-1a61-4155-8895-6346d67244e3.jpg", 
+        "id": "48284c8e-1a61-4155-8895-6346d67244e3"
+    }, 
+    "song_title": "Love What You Have", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e53b_fd039e5d8fe5_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "AA401EE7-A52D-4B9B-B79D-75775BDE4802"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo vane yes yes", 
+    "created_at": "2015-12-19T18:01:26-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003722c_b78c0cce1291_2.ssng", 
+    "updated_at": "2015-12-19T18:06:42-05:00", 
+    "share_url": "https://a.sso.ng/1/b78c0cce1291", 
+    "audio_url": "https://s01.sso.ng/1/00000003722c_b78c0cce1291_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003722c_b78c0cce1291_2_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "vaneska", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5612d11c-ea56-4159-983e-75bc3638e964.jpg", 
+        "id": "5612d11c-ea56-4159-983e-75bc3638e964"
+    }, 
+    "song_title": "Imagine Dragons - Radioactive", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003722c_b78c0cce1291_2_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "05E17953-770B-4F51-9C8A-94C1D21AC7D5"
+}

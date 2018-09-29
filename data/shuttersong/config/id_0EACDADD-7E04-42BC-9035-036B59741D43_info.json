@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-20T18:10:05-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045a18_ebb57a2ca430.ssng", 
+    "updated_at": "2016-06-20T18:20:48-04:00", 
+    "share_url": "https://a.sso.ng/1/ebb57a2ca430", 
+    "audio_url": "https://s02.sso.ng/1/000000045a18_ebb57a2ca430.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045a18_ebb57a2ca430_mr.jpg", 
+    "song_album": "Now That's What I Call Music 89", 
+    "user": {
+        "username": "ajajiaBnS", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "ajla ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2c47fdd5-532d-4dac-acb5-0f63ac8245b4"
+    }, 
+    "song_title": "Don't Tell' Em (feat. YG)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045a18_ebb57a2ca430_th.jpg", 
+    "song_artist": "Jeremih", 
+    "favorite_count": 2, 
+    "uuid": "0EACDADD-7E04-42BC-9035-036B59741D43"
+}

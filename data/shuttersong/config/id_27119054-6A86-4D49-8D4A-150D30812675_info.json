@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Two is better than one", 
+    "created_at": "2016-04-06T00:22:37-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040bfd_544367482510.ssng", 
+    "updated_at": "2016-04-08T10:52:15-04:00", 
+    "share_url": "https://a.sso.ng/1/544367482510", 
+    "audio_url": "https://s02.sso.ng/1/000000040bfd_544367482510.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040bfd_544367482510_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "peyi.31", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1170ce23-5d56-4e21-870f-c9b9efd07222"
+    }, 
+    "song_title": "Iris (Hold Me Close)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040bfd_544367482510_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 3, 
+    "uuid": "27119054-6A86-4D49-8D4A-150D30812675"
+}

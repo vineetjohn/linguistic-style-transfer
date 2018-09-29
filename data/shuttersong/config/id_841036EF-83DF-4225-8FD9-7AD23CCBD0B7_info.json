@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-26T12:54:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000421ba_ca69e68d3e84.ssng", 
+    "updated_at": "2016-04-27T23:06:35-04:00", 
+    "share_url": "https://a.sso.ng/1/ca69e68d3e84", 
+    "audio_url": "https://s02.sso.ng/1/0000000421ba_ca69e68d3e84.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000421ba_ca69e68d3e84_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "diymusic", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f1159abb-bd9c-4163-999a-fa62db960408"
+    }, 
+    "song_title": "D!Y - I Need Ya", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000421ba_ca69e68d3e84_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "841036EF-83DF-4225-8FD9-7AD23CCBD0B7"
+}

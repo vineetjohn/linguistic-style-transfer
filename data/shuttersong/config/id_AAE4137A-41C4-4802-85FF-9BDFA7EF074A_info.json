@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T19:33:40-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000254ed_90a7c7751be9.ssng", 
+    "updated_at": "2015-08-20T22:56:59-04:00", 
+    "share_url": "https://a.sso.ng/1/90a7c7751be9", 
+    "audio_url": "https://s01.sso.ng/1/0000000254ed_90a7c7751be9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000254ed_90a7c7751be9_mr.jpg", 
+    "song_album": "1989", 
+    "user": {
+        "username": "jimenagutierrez27", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jimena", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b110211a-aabc-434a-8477-7b975a1f8a05.jpg", 
+        "id": "b110211a-aabc-434a-8477-7b975a1f8a05"
+    }, 
+    "song_title": "Shake It Off ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000254ed_90a7c7751be9_th.jpg", 
+    "song_artist": "Taylor Swift ", 
+    "favorite_count": 1, 
+    "uuid": "AAE4137A-41C4-4802-85FF-9BDFA7EF074A"
+}

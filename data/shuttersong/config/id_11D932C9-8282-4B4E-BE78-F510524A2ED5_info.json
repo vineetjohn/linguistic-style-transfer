@@ -1,0 +1,27 @@
+{
+    "mood": "blissful", 
+    "caption": "Escape from the city and follow the sun", 
+    "created_at": "2016-04-11T06:48:23-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fdd9_809bb6340eae.ssng", 
+    "updated_at": "2016-06-15T10:07:50-04:00", 
+    "share_url": "https://a.sso.ng/1/809bb6340eae", 
+    "audio_url": "https://s02.sso.ng/1/00000003fdd9_809bb6340eae.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fdd9_809bb6340eae_mr.jpg", 
+    "song_album": "Four", 
+    "user": {
+        "username": "iamnamelessel", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Elora", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/cc66886e-9a4d-4afb-835e-41eba6e99b9a.jpg", 
+        "id": "cc66886e-9a4d-4afb-835e-41eba6e99b9a"
+    }, 
+    "song_title": "Ready to Run", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fdd9_809bb6340eae_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 9, 
+    "uuid": "11D932C9-8282-4B4E-BE78-F510524A2ED5"
+}

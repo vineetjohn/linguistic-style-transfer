@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-31T20:41:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000211ac_d73238fa6c8d.ssng", 
+    "updated_at": "2015-12-23T11:25:38-05:00", 
+    "share_url": "https://a.sso.ng/1/d73238fa6c8d", 
+    "audio_url": "https://s01.sso.ng/1/0000000211ac_d73238fa6c8d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000211ac_d73238fa6c8d_mr.jpg", 
+    "song_album": "The Letter ", 
+    "user": {
+        "username": "ADC", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/56185101-bcb5-4d99-8971-a91e14488587.jpg", 
+        "id": "56185101-bcb5-4d99-8971-a91e14488587"
+    }, 
+    "song_title": "The Letter ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000211ac_d73238fa6c8d_th.jpg", 
+    "song_artist": "Kehlani ", 
+    "favorite_count": 1, 
+    "uuid": "99FE816E-7152-4255-A1DA-E12BC398AF73"
+}

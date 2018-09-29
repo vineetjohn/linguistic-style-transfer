@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-01T21:53:14-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003ba11_562d9e79c6a3.ssng", 
+    "updated_at": "2016-01-01T23:10:46-05:00", 
+    "share_url": "https://a.sso.ng/1/562d9e79c6a3", 
+    "audio_url": "https://s01.sso.ng/1/00000003ba11_562d9e79c6a3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003ba11_562d9e79c6a3_mr.jpg", 
+    "song_album": "Hailee Steinfeld", 
+    "user": {
+        "username": "luz_elenav", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/138dd229-7463-4dd3-9fb0-511d82eb40ed.jpg", 
+        "id": "138dd229-7463-4dd3-9fb0-511d82eb40ed"
+    }, 
+    "song_title": "Love Myself", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003ba11_562d9e79c6a3_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "92897BBB-E5D8-472A-994D-59B43663E7DE"
+}

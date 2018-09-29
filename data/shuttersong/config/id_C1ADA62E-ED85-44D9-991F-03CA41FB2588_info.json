@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-15T22:03:30-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024675_852cd7a3054b.ssng", 
+    "updated_at": "2015-08-18T10:24:37-04:00", 
+    "share_url": "https://a.sso.ng/1/852cd7a3054b", 
+    "audio_url": "https://s01.sso.ng/1/000000024675_852cd7a3054b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024675_852cd7a3054b_mr.jpg", 
+    "song_album": "5 Seconds of Summer (Bonus Track Version)", 
+    "user": {
+        "username": "jade_22", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3dc67c02-2800-4a73-bbd4-adaaefa60e11"
+    }, 
+    "song_title": "Good Girls", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024675_852cd7a3054b_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 1, 
+    "uuid": "C1ADA62E-ED85-44D9-991F-03CA41FB2588"
+}

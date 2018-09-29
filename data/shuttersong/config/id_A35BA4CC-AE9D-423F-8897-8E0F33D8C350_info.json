@@ -1,0 +1,27 @@
+{
+    "mood": "satisfied", 
+    "caption": "If you have crazy friends you have everything", 
+    "created_at": "2016-06-29T16:16:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f723_f99d76837ed3.ssng", 
+    "updated_at": "2016-06-29T17:54:01-04:00", 
+    "share_url": "https://a.sso.ng/1/f99d76837ed3", 
+    "audio_url": "https://s02.sso.ng/1/00000003f723_f99d76837ed3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f723_f99d76837ed3_mr.jpg", 
+    "song_album": "Best Friends", 
+    "user": {
+        "username": "directioner_janoskianator", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": "Alex", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b13fd423-a01f-4381-b3ec-848f1590059b.jpg", 
+        "id": "b13fd423-a01f-4381-b3ec-848f1590059b"
+    }, 
+    "song_title": "Best Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f723_f99d76837ed3_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "A35BA4CC-AE9D-423F-8897-8E0F33D8C350"
+}

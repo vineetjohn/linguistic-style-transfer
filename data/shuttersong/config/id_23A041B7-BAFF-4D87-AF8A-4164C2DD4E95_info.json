@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "No place i rather be ??", 
+    "created_at": "2016-01-05T18:09:53-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c34b_03c1b6c1dfcd.ssng", 
+    "updated_at": "2016-01-05T19:17:03-05:00", 
+    "share_url": "https://a.sso.ng/1/03c1b6c1dfcd", 
+    "audio_url": "https://s01.sso.ng/1/00000003c34b_03c1b6c1dfcd.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c34b_03c1b6c1dfcd_mr.jpg", 
+    "song_album": "Pentatonix", 
+    "user": {
+        "username": "nicoleortega34", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6b42dfca-5ed6-4488-a64d-17096d52320f.jpg", 
+        "id": "6b42dfca-5ed6-4488-a64d-17096d52320f"
+    }, 
+    "song_title": "Rather Be", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c34b_03c1b6c1dfcd_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "23A041B7-BAFF-4D87-AF8A-4164C2DD4E95"
+}

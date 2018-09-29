@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "? DJ YAMMOUNI", 
+    "created_at": "2016-03-04T18:53:48-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e724_4309ee0c2be9.ssng", 
+    "updated_at": "2016-03-05T14:17:15-05:00", 
+    "share_url": "https://a.sso.ng/1/4309ee0c2be9", 
+    "audio_url": "https://s02.sso.ng/1/00000003e724_4309ee0c2be9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e724_4309ee0c2be9_mr.jpg", 
+    "song_album": "More Than Just A Dream", 
+    "user": {
+        "username": "ageofteens", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "alexia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/658bd815-d8a9-42c7-b166-bf96697c0cd6.jpg", 
+        "id": "658bd815-d8a9-42c7-b166-bf96697c0cd6"
+    }, 
+    "song_title": "Out of My League", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e724_4309ee0c2be9_th.jpg", 
+    "song_artist": "Fitz and The Tantrums", 
+    "favorite_count": 6, 
+    "uuid": "3B01AAF6-6C6F-4981-AC61-8F0069393C8C"
+}

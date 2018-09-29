@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-14T00:12:24-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000000d041_4cbf60059143.ssng", 
+    "updated_at": "2015-12-31T06:40:56-05:00", 
+    "share_url": "https://a.sso.ng/1/4cbf60059143", 
+    "audio_url": "https://s01.sso.ng/1/00000000d041_4cbf60059143.m4a", 
+    "comment_count": 4, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000d041_4cbf60059143_mr.jpg", 
+    "song_album": "1", 
+    "user": {
+        "username": "jenniferRjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8e0cbe15-24d7-4bb9-b698-5baa585f9a65.jpg", 
+        "id": "8e0cbe15-24d7-4bb9-b698-5baa585f9a65"
+    }, 
+    "song_title": "I Feel Fine", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000d041_4cbf60059143_th.jpg", 
+    "song_artist": "The Beatles", 
+    "favorite_count": 41, 
+    "uuid": "7931E3FF-C7FE-40A7-BF41-1415D6D319F0"
+}

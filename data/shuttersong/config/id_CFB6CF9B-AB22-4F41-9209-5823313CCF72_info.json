@@ -1,0 +1,27 @@
+{
+    "mood": "pleased", 
+    "caption": "Our dog's starting to look like daddy.  Amazing!", 
+    "created_at": "2016-06-10T11:51:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003aa14_c565903e31e5.ssng", 
+    "updated_at": "2016-06-19T03:39:59-04:00", 
+    "share_url": "https://a.sso.ng/1/c565903e31e5", 
+    "audio_url": "https://s02.sso.ng/1/00000003aa14_c565903e31e5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003aa14_c565903e31e5_mr.jpg", 
+    "song_album": "Lemonade", 
+    "user": {
+        "username": "Brati", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/47c7fee3-9373-4592-8a62-6cd3deed5c76.jpg", 
+        "id": "47c7fee3-9373-4592-8a62-6cd3deed5c76"
+    }, 
+    "song_title": "Daddy Lessons", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003aa14_c565903e31e5_th.jpg", 
+    "song_artist": "Beyonc\u00e9", 
+    "favorite_count": 5, 
+    "uuid": "CFB6CF9B-AB22-4F41-9209-5823313CCF72"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-09-14T00:39:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e494_65dfc93fe6dc_1.ssng", 
+    "updated_at": "2016-05-28T07:53:07-04:00", 
+    "share_url": "https://a.sso.ng/1/65dfc93fe6dc", 
+    "audio_url": "https://s01.sso.ng/1/00000002e494_65dfc93fe6dc_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e494_65dfc93fe6dc_1_mr.jpg", 
+    "song_album": "(What's the Story) Morning Glory", 
+    "user": {
+        "username": "ericabrown", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9f1fbe7d-1634-47e7-8be4-c00e445405f5.jpg", 
+        "id": "9f1fbe7d-1634-47e7-8be4-c00e445405f5"
+    }, 
+    "song_title": "Wonderwall", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e494_65dfc93fe6dc_1_th.jpg", 
+    "song_artist": "Oasis", 
+    "favorite_count": 1, 
+    "uuid": "6EE4288E-EC6B-4847-B06D-97D6D78C2485"
+}

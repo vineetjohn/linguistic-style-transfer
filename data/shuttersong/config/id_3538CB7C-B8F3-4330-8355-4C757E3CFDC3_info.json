@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-08T16:40:44-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e89c_26442c267a45.ssng", 
+    "updated_at": "2016-05-11T19:59:17-04:00", 
+    "share_url": "https://a.sso.ng/1/26442c267a45", 
+    "audio_url": "https://s02.sso.ng/1/00000003e89c_26442c267a45.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e89c_26442c267a45_mr.jpg", 
+    "song_album": "American Beauty / American Psycho", 
+    "user": {
+        "username": "vanessajano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Vanessa", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b9d5c0cf-2480-4642-b965-875f6f2cf0cf.jpg", 
+        "id": "b9d5c0cf-2480-4642-b965-875f6f2cf0cf"
+    }, 
+    "song_title": "Irresistible", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e89c_26442c267a45_th.jpg", 
+    "song_artist": "Fall Out Boy", 
+    "favorite_count": 2, 
+    "uuid": "3538CB7C-B8F3-4330-8355-4C757E3CFDC3"
+}

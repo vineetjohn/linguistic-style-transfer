@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Rainy day", 
+    "created_at": "2015-11-30T13:25:38-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000307cf_e8660c5bc323_1.ssng", 
+    "updated_at": "2015-12-02T00:50:47-05:00", 
+    "share_url": "https://a.sso.ng/1/e8660c5bc323", 
+    "audio_url": "https://s01.sso.ng/1/0000000307cf_e8660c5bc323_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000307cf_e8660c5bc323_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jland97", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/25f9b0c0-2cb8-44a2-9a76-d20a071d3655.jpg", 
+        "id": "25f9b0c0-2cb8-44a2-9a76-d20a071d3655"
+    }, 
+    "song_title": "Rainy Day", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000307cf_e8660c5bc323_1_th.jpg", 
+    "song_artist": "Jesse James", 
+    "favorite_count": 3, 
+    "uuid": "E89960DC-3D7E-43D6-A4CD-E51FEE7CF207"
+}

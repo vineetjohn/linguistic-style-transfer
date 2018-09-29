@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-13T13:27:54-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042fc1_31cfa1b93fa6.ssng", 
+    "updated_at": "2016-05-13T20:07:22-04:00", 
+    "share_url": "https://a.sso.ng/1/31cfa1b93fa6", 
+    "audio_url": "https://s02.sso.ng/1/000000042fc1_31cfa1b93fa6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042fc1_31cfa1b93fa6_mr.jpg", 
+    "song_album": "WWW.iM1MUSIC.NET", 
+    "user": {
+        "username": "Leii", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6d84cb4c-fa9c-4132-9251-3a71fd710e5e"
+    }, 
+    "song_title": "Autumn Leaves", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042fc1_31cfa1b93fa6_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 1, 
+    "uuid": "B0518761-E520-4DE5-9239-F8C5B6A1D11B"
+}

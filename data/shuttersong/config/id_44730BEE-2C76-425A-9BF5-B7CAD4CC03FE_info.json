@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-06T17:25:06-05:00", 
+    "file_url": "https://s02.sso.ng/1/0000000303a9_735e5b60eee9.ssng", 
+    "updated_at": "2016-03-06T17:30:18-05:00", 
+    "share_url": "https://a.sso.ng/1/735e5b60eee9", 
+    "audio_url": "https://s02.sso.ng/1/0000000303a9_735e5b60eee9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000303a9_735e5b60eee9_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "bbbbb5", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4d81de5e-8eaf-4d0f-9fa3-62dc07990b76"
+    }, 
+    "song_title": "take a bow", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000303a9_735e5b60eee9_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "44730BEE-2C76-425A-9BF5-B7CAD4CC03FE"
+}

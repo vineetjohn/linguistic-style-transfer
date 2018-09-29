@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-17T02:10:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024bb3_25b2f795995b.ssng", 
+    "updated_at": "2015-08-17T12:48:03-04:00", 
+    "share_url": "https://a.sso.ng/1/25b2f795995b", 
+    "audio_url": "https://s01.sso.ng/1/000000024bb3_25b2f795995b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024bb3_25b2f795995b_mr.jpg", 
+    "song_album": "Greatest Hits", 
+    "user": {
+        "username": "leyneaxo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "665fa93d-633f-4ba3-825d-129d4ea4693b"
+    }, 
+    "song_title": "Gypsy", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024bb3_25b2f795995b_th.jpg", 
+    "song_artist": "Fleetwood Mac", 
+    "favorite_count": 1, 
+    "uuid": "90201635-E051-44B4-BED6-F9890BA9DFC5"
+}

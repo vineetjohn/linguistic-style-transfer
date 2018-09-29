@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T22:20:31-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037710_c726e79681f8_1.ssng", 
+    "updated_at": "2015-12-19T22:23:24-05:00", 
+    "share_url": "https://a.sso.ng/1/c726e79681f8", 
+    "audio_url": "https://s01.sso.ng/1/000000037710_c726e79681f8_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037710_c726e79681f8_1_mr.jpg", 
+    "song_album": "TheRainbowBass.com", 
+    "user": {
+        "username": "paoladlt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Paola ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3deb66e7-c99a-498d-a74b-09096f05e5dc.jpg", 
+        "id": "3deb66e7-c99a-498d-a74b-09096f05e5dc"
+    }, 
+    "song_title": "Young and Beautiful", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037710_c726e79681f8_1_th.jpg", 
+    "song_artist": "Lana Del Rey", 
+    "favorite_count": 1, 
+    "uuid": "374B52FE-B00B-4361-A8FB-94ECF6BEE14F"
+}

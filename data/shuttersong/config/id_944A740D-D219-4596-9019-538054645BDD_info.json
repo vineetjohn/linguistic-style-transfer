@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Cute:)", 
+    "created_at": "2015-08-05T13:43:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000204e1_71af2e589aab_1.ssng", 
+    "updated_at": "2015-08-14T15:12:05-04:00", 
+    "share_url": "https://a.sso.ng/1/71af2e589aab", 
+    "audio_url": "https://s01.sso.ng/1/0000000204e1_71af2e589aab_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000204e1_71af2e589aab_1_mr.jpg", 
+    "song_album": "Any Kind of Guy - Single", 
+    "user": {
+        "username": "davidgilinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5ede00f1-2d51-467c-9586-b6ce11e99efe.jpg", 
+        "id": "5ede00f1-2d51-467c-9586-b6ce11e99efe"
+    }, 
+    "song_title": "Any Kind of Guy", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000204e1_71af2e589aab_1_th.jpg", 
+    "song_artist": "Big Time Rush", 
+    "favorite_count": 2, 
+    "uuid": "944A740D-D219-4596-9019-538054645BDD"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo ?", 
+    "created_at": "2015-12-19T16:13:46-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000362a3_b2a812df46d2_2.ssng", 
+    "updated_at": "2015-12-19T16:59:34-05:00", 
+    "share_url": "https://a.sso.ng/1/b2a812df46d2", 
+    "audio_url": "https://s01.sso.ng/1/0000000362a3_b2a812df46d2_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000362a3_b2a812df46d2_2_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "hasselcano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ac41e3ae-6932-486d-b448-19ed6f45944e.jpg", 
+        "id": "ac41e3ae-6932-486d-b448-19ed6f45944e"
+    }, 
+    "song_title": "American Girl ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000362a3_b2a812df46d2_2_th.jpg", 
+    "song_artist": "Bonnie McKee", 
+    "favorite_count": 1, 
+    "uuid": "5F27F08A-4A35-4255-A9F3-05CC48965B15"
+}

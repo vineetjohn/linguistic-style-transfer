@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-15T01:54:47-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000417f4_1ca0f00d776d.ssng", 
+    "updated_at": "2016-06-16T03:41:10-04:00", 
+    "share_url": "https://a.sso.ng/1/1ca0f00d776d", 
+    "audio_url": "https://s02.sso.ng/1/0000000417f4_1ca0f00d776d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000417f4_1ca0f00d776d_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mickothesicko", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "dfdcc7ec-ec32-430f-a2d7-422b5ca05c60"
+    }, 
+    "song_title": "Rihanna - Kiss It Better (Kaytranada Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000417f4_1ca0f00d776d_th.jpg", 
+    "song_artist": "Mallow Beats", 
+    "favorite_count": 2, 
+    "uuid": "A00EAA5F-EA78-41B9-B103-3B2BD2AADC1B"
+}

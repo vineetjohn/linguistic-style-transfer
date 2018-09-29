@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Deep derp derp", 
+    "created_at": "2016-03-15T22:12:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e526_631deda7a1bc.ssng", 
+    "updated_at": "2016-03-16T21:32:16-04:00", 
+    "share_url": "https://a.sso.ng/1/631deda7a1bc", 
+    "audio_url": "https://s02.sso.ng/1/00000003e526_631deda7a1bc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e526_631deda7a1bc_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "ILY.Baniel", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bea17150-ad65-4fd3-89fd-4412b4df502c.jpg", 
+        "id": "bea17150-ad65-4fd3-89fd-4412b4df502c"
+    }, 
+    "song_title": "MoodSwings", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e526_631deda7a1bc_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "D20C1C12-7877-4345-8AC9-BEEED4DD5748"
+}

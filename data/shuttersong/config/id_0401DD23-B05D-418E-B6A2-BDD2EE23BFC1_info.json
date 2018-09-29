@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Love you @beaub", 
+    "created_at": "2016-02-10T16:39:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e31c_f7f912395a09.ssng", 
+    "updated_at": "2016-02-29T16:15:30-05:00", 
+    "share_url": "https://a.sso.ng/1/f7f912395a09", 
+    "audio_url": "https://s02.sso.ng/1/00000003e31c_f7f912395a09.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e31c_f7f912395a09_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "Lukesanalblunt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e27f4ae5-d21c-4940-b77f-f7ccf0ecceaf.jpg", 
+        "id": "e27f4ae5-d21c-4940-b77f-f7ccf0ecceaf"
+    }, 
+    "song_title": "I'll Show You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e31c_f7f912395a09_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 4, 
+    "uuid": "0401DD23-B05D-418E-B6A2-BDD2EE23BFC1"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T21:07:27-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027105_77bf5b5bca25.ssng", 
+    "updated_at": "2015-08-20T21:14:22-04:00", 
+    "share_url": "https://a.sso.ng/1/77bf5b5bca25", 
+    "audio_url": "https://s01.sso.ng/1/000000027105_77bf5b5bca25.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027105_77bf5b5bca25_mr.jpg", 
+    "song_album": "Old Demos", 
+    "user": {
+        "username": "alvaradoerika83", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0f4a6106-1a00-4eee-be85-0193941714f5.jpg", 
+        "id": "0f4a6106-1a00-4eee-be85-0193941714f5"
+    }, 
+    "song_title": " I Wouldn't Mind", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027105_77bf5b5bca25_th.jpg", 
+    "song_artist": "He Is We", 
+    "favorite_count": 1, 
+    "uuid": "78991681-C6AF-49F1-9054-11D643267C37"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-26T06:02:52-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e98d_20bc3ab73232.ssng", 
+    "updated_at": "2015-12-27T03:29:27-05:00", 
+    "share_url": "https://a.sso.ng/1/20bc3ab73232", 
+    "audio_url": "https://s01.sso.ng/1/00000002e98d_20bc3ab73232.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e98d_20bc3ab73232_mr.jpg", 
+    "song_album": "vk.com/rara_avis_club", 
+    "user": {
+        "username": "zali", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e95c6147-411c-4a7f-aa8a-dfcf04669173.jpg", 
+        "id": "e95c6147-411c-4a7f-aa8a-dfcf04669173"
+    }, 
+    "song_title": "Like I Love You (The Equalizers Remix) RA", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e98d_20bc3ab73232_th.jpg", 
+    "song_artist": "Justin Timberlake", 
+    "favorite_count": 1, 
+    "uuid": "2E4CEBE0-4FC8-4285-99B0-037C8E9DD655"
+}

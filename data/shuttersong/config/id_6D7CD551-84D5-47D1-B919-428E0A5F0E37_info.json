@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-20T15:14:01-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036e18_09ef8d9dac83.ssng", 
+    "updated_at": "2015-12-28T14:56:22-05:00", 
+    "share_url": "https://a.sso.ng/1/09ef8d9dac83", 
+    "audio_url": "https://s01.sso.ng/1/000000036e18_09ef8d9dac83.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036e18_09ef8d9dac83_mr.jpg", 
+    "song_album": "Under The Mistletoe", 
+    "user": {
+        "username": "ValentinaFarreras", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9010f41e-bb1f-48a2-b4b0-987c0e65b994.jpg", 
+        "id": "9010f41e-bb1f-48a2-b4b0-987c0e65b994"
+    }, 
+    "song_title": "Fa La La", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036e18_09ef8d9dac83_th.jpg", 
+    "song_artist": "Justin Bieber Feat. Boyz II Men", 
+    "favorite_count": 1, 
+    "uuid": "6D7CD551-84D5-47D1-B919-428E0A5F0E37"
+}

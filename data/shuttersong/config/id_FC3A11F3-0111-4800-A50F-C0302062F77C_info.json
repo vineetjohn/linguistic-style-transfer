@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-26T18:40:52-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004346c_d855d4bcf3cf.ssng", 
+    "updated_at": "2016-05-28T19:26:12-04:00", 
+    "share_url": "https://a.sso.ng/1/d855d4bcf3cf", 
+    "audio_url": "https://s02.sso.ng/1/00000004346c_d855d4bcf3cf.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004346c_d855d4bcf3cf_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "kenza", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/71cee1ab-e45c-4fbe-85a8-3c4730eff341.jpg", 
+        "id": "71cee1ab-e45c-4fbe-85a8-3c4730eff341"
+    }, 
+    "song_title": "2 Poor Kids- Ruth B - 128K M4A", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004346c_d855d4bcf3cf_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "FC3A11F3-0111-4800-A50F-C0302062F77C"
+}

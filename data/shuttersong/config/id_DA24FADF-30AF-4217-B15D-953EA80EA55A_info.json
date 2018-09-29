@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Double the trouble", 
+    "created_at": "2015-09-12T10:19:27-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020d82_bc1ff5c4fa7e_1.ssng", 
+    "updated_at": "2015-10-10T11:02:00-04:00", 
+    "share_url": "https://a.sso.ng/1/bc1ff5c4fa7e", 
+    "audio_url": "https://s01.sso.ng/1/000000020d82_bc1ff5c4fa7e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020d82_bc1ff5c4fa7e_1_mr.jpg", 
+    "song_album": "Doubt Your Doubts - Single", 
+    "user": {
+        "username": "gabbiegilinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gabbie ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fca534d1-57e5-4f1e-8bfe-6d515fdedec0.jpg", 
+        "id": "fca534d1-57e5-4f1e-8bfe-6d515fdedec0"
+    }, 
+    "song_title": "Doubt Your Doubts", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020d82_bc1ff5c4fa7e_1_th.jpg", 
+    "song_artist": "Brent Rivera", 
+    "favorite_count": 3, 
+    "uuid": "DA24FADF-30AF-4217-B15D-953EA80EA55A"
+}

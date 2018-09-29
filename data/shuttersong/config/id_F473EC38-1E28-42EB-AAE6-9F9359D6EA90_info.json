@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YouTube: Kike Armijo", 
+    "created_at": "2015-12-29T12:43:10-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000026df9_69bfe9b93ed4.ssng", 
+    "updated_at": "2015-12-29T13:08:55-05:00", 
+    "share_url": "https://a.sso.ng/1/69bfe9b93ed4", 
+    "audio_url": "https://s01.sso.ng/1/000000026df9_69bfe9b93ed4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000026df9_69bfe9b93ed4_mr.jpg", 
+    "song_album": "Canciones De Navidad", 
+    "user": {
+        "username": "KikeArmijo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kike Armijo", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/83cb1e60-a0b7-4b74-96dc-a6c17dd8a7ae.jpg", 
+        "id": "83cb1e60-a0b7-4b74-96dc-a6c17dd8a7ae"
+    }, 
+    "song_title": "Jingle Bells-Disney", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000026df9_69bfe9b93ed4_th.jpg", 
+    "song_artist": "Various Artists", 
+    "favorite_count": 1, 
+    "uuid": "F473EC38-1E28-42EB-AAE6-9F9359D6EA90"
+}

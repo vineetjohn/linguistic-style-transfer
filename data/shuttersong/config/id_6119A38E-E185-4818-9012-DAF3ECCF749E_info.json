@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Zirkus", 
+    "created_at": "2016-04-02T10:03:40-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ed0a_0e8e77178a1d.ssng", 
+    "updated_at": "2016-04-02T14:27:38-04:00", 
+    "share_url": "https://a.sso.ng/1/0e8e77178a1d", 
+    "audio_url": "https://s02.sso.ng/1/00000003ed0a_0e8e77178a1d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ed0a_0e8e77178a1d_mr.jpg", 
+    "song_album": "The Platinum Collection (Greatest Hits I, II & III) [Remastered]", 
+    "user": {
+        "username": "kljhjhhhccvvvbbb", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f07d6f57-981a-4858-9bb7-16a326430afe"
+    }, 
+    "song_title": "A Kind of Magic", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ed0a_0e8e77178a1d_th.jpg", 
+    "song_artist": "Queen", 
+    "favorite_count": 1, 
+    "uuid": "6119A38E-E185-4818-9012-DAF3ECCF749E"
+}

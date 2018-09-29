@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#RussianGirl ?", 
+    "created_at": "2015-08-20T21:26:24-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001354b_d6fadcb626e5_1.ssng", 
+    "updated_at": "2016-04-09T00:22:07-04:00", 
+    "share_url": "https://a.sso.ng/1/d6fadcb626e5", 
+    "audio_url": "https://s01.sso.ng/1/00000001354b_d6fadcb626e5_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001354b_d6fadcb626e5_1_mr.jpg", 
+    "song_album": "DeepCentral", 
+    "user": {
+        "username": "EvaVeytia", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/861123f3-3b57-4778-93b8-39187f3bca23.jpg", 
+        "id": "861123f3-3b57-4778-93b8-39187f3bca23"
+    }, 
+    "song_title": "Russian Girl", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001354b_d6fadcb626e5_1_th.jpg", 
+    "song_artist": "DEEPCENTRAL", 
+    "favorite_count": 1, 
+    "uuid": "6D49FA11-EB1F-44A2-BD48-3450990488DD"
+}

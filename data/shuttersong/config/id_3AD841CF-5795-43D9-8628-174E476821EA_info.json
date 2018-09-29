@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack J Is Such A Cutie ??", 
+    "created_at": "2015-08-18T22:05:37-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024d42_ed96de61e14f_1.ssng", 
+    "updated_at": "2015-08-19T09:10:17-04:00", 
+    "share_url": "https://a.sso.ng/1/ed96de61e14f", 
+    "audio_url": "https://s01.sso.ng/1/000000024d42_ed96de61e14f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024d42_ed96de61e14f_1_mr.jpg", 
+    "song_album": "1989", 
+    "user": {
+        "username": "emma_arias222", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/20905cb2-b2b5-4bac-9b49-c87a3e0b0c1c.jpg", 
+        "id": "20905cb2-b2b5-4bac-9b49-c87a3e0b0c1c"
+    }, 
+    "song_title": "Wildest Dreams", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024d42_ed96de61e14f_1_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "3AD841CF-5795-43D9-8628-174E476821EA"
+}

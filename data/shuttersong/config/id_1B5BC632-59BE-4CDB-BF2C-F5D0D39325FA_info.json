@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Aftertaste by Shawn Mendes aka loml ?", 
+    "created_at": "2015-08-19T19:51:55-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000023f41_b62e4384da7d_1.ssng", 
+    "updated_at": "2015-08-20T20:55:13-04:00", 
+    "share_url": "https://a.sso.ng/1/b62e4384da7d", 
+    "audio_url": "https://s01.sso.ng/1/000000023f41_b62e4384da7d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000023f41_b62e4384da7d_1_mr.jpg", 
+    "song_album": "Handwritten", 
+    "user": {
+        "username": "jas.minee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jasmine", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/80b49c82-0965-4225-a0e1-451b9b1d9e35.jpg", 
+        "id": "80b49c82-0965-4225-a0e1-451b9b1d9e35"
+    }, 
+    "song_title": "Aftertaste", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000023f41_b62e4384da7d_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 2, 
+    "uuid": "1B5BC632-59BE-4CDB-BF2C-F5D0D39325FA"
+}

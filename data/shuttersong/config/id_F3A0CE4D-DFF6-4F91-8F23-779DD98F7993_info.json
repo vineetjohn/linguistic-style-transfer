@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Like one in a millon ?", 
+    "created_at": "2015-09-09T22:56:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000028b64_5e2f6402b497_1.ssng", 
+    "updated_at": "2015-09-09T23:32:19-04:00", 
+    "share_url": "https://a.sso.ng/1/5e2f6402b497", 
+    "audio_url": "https://s01.sso.ng/1/000000028b64_5e2f6402b497_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000028b64_5e2f6402b497_1_mr.jpg", 
+    "song_album": "The Samples", 
+    "user": {
+        "username": "SaraCampillo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8c214359-c6da-4091-a77f-f13d61d83ff1.jpg", 
+        "id": "8c214359-c6da-4091-a77f-f13d61d83ff1"
+    }, 
+    "song_title": "Could It Be Another Change", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000028b64_5e2f6402b497_1_th.jpg", 
+    "song_artist": "The Samples", 
+    "favorite_count": 1, 
+    "uuid": "F3A0CE4D-DFF6-4F91-8F23-779DD98F7993"
+}

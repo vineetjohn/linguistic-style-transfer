@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T20:31:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021b73_89fdf3da2446.ssng", 
+    "updated_at": "2015-08-04T20:31:15-04:00", 
+    "share_url": "https://a.sso.ng/1/89fdf3da2446", 
+    "audio_url": "https://s01.sso.ng/1/000000021b73_89fdf3da2446.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021b73_89fdf3da2446_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "fangirl2002", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "13d5ca1d-a47a-4152-aa19-77cfdf0499f5"
+    }, 
+    "song_title": "Life of the Party (Acoustic)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021b73_89fdf3da2446_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "7AF3AA91-A77F-43A8-AB2C-F2E8FDFBA100"
+}

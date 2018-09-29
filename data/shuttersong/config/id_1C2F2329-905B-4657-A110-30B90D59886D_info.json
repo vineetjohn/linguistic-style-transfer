@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I love cam", 
+    "created_at": "2015-08-04T16:07:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020df4_06bbc931b1ad_1.ssng", 
+    "updated_at": "2015-08-04T16:09:26-04:00", 
+    "share_url": "https://a.sso.ng/1/06bbc931b1ad", 
+    "audio_url": "https://s01.sso.ng/1/000000020df4_06bbc931b1ad_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020df4_06bbc931b1ad_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "trinity_dallas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f80316b8-c4e3-44a4-ad93-d5f242e70609"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020df4_06bbc931b1ad_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "1C2F2329-905B-4657-A110-30B90D59886D"
+}

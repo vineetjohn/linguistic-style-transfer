@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-15T19:38:06-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000030a87_2b822a8df738.ssng", 
+    "updated_at": "2016-05-16T09:25:05-04:00", 
+    "share_url": "https://a.sso.ng/1/2b822a8df738", 
+    "audio_url": "https://s02.sso.ng/1/000000030a87_2b822a8df738.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030a87_2b822a8df738_mr.jpg", 
+    "song_album": "You Get What You Give (Deluxe Version)", 
+    "user": {
+        "username": "GiGiM19", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/953a8817-1c42-458d-8631-7e82984af4f4.jpg", 
+        "id": "953a8817-1c42-458d-8631-7e82984af4f4"
+    }, 
+    "song_title": "Knee Deep (feat. Jimmy Buffett)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030a87_2b822a8df738_th.jpg", 
+    "song_artist": "Zac Brown Band", 
+    "favorite_count": 2, 
+    "uuid": "849F0A66-FA54-472B-8D9E-C0AAD77E865E"
+}

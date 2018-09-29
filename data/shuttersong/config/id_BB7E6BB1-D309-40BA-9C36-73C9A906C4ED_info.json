@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "What's upppppp", 
+    "created_at": "2016-02-10T21:26:06-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000000e744_da179b46b3de.ssng", 
+    "updated_at": "2016-02-12T00:25:11-05:00", 
+    "share_url": "https://a.sso.ng/1/da179b46b3de", 
+    "audio_url": "https://s02.sso.ng/1/00000000e744_da179b46b3de.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000000e744_da179b46b3de_mr.jpg", 
+    "song_album": "People Keep Talking", 
+    "user": {
+        "username": "lukeysnosedot", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/01075518-0526-43a9-8ce6-5ac33d7a412c.jpg", 
+        "id": "01075518-0526-43a9-8ce6-5ac33d7a412c"
+    }, 
+    "song_title": "All About It (feat. Ed Sheeran)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000000e744_da179b46b3de_th.jpg", 
+    "song_artist": "Hoodie Allen", 
+    "favorite_count": 8, 
+    "uuid": "BB7E6BB1-D309-40BA-9C36-73C9A906C4ED"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Maths!!! \u2764\ufe0f", 
+    "created_at": "2015-11-25T15:10:28-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f382_2e6dc08bccf9_1.ssng", 
+    "updated_at": "2015-12-30T14:13:38-05:00", 
+    "share_url": "https://a.sso.ng/1/2e6dc08bccf9", 
+    "audio_url": "https://s01.sso.ng/1/00000001f382_2e6dc08bccf9_1.m4a", 
+    "comment_count": 61, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f382_2e6dc08bccf9_1_mr.jpg", 
+    "song_album": "Fancy", 
+    "user": {
+        "username": "sapphire", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Sapphire", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/322041a2-32f5-4184-b5bb-c38c16a3d6ab.jpg", 
+        "id": "322041a2-32f5-4184-b5bb-c38c16a3d6ab"
+    }, 
+    "song_title": "Fancy", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f382_2e6dc08bccf9_1_th.jpg", 
+    "song_artist": "Sapphire", 
+    "favorite_count": 53, 
+    "uuid": "6D2E4B2D-9DBD-4665-9B80-8129A24A31CE"
+}

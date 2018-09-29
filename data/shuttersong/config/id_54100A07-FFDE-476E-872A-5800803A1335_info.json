@@ -1,0 +1,27 @@
+{
+    "mood": "Relajado", 
+    "caption": "", 
+    "created_at": "2016-06-25T09:23:17-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045e0e_340542591ba5.ssng", 
+    "updated_at": "2016-06-27T07:50:52-04:00", 
+    "share_url": "https://a.sso.ng/1/340542591ba5", 
+    "audio_url": "https://s02.sso.ng/1/000000045e0e_340542591ba5.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045e0e_340542591ba5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "topi_sofi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "ed349a25-d616-4150-960f-780838539bb5"
+    }, 
+    "song_title": "Fifth Harmony - Work from Home ft. Ty Dolla $ign", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045e0e_340542591ba5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 5, 
+    "uuid": "54100A07-FFDE-476E-872A-5800803A1335"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-04T09:51:41-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000424f4_895c14a593bb.ssng", 
+    "updated_at": "2016-05-06T20:19:49-04:00", 
+    "share_url": "https://a.sso.ng/1/895c14a593bb", 
+    "audio_url": "https://s02.sso.ng/1/0000000424f4_895c14a593bb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000424f4_895c14a593bb_mr.jpg", 
+    "song_album": "Under Rug Swept", 
+    "user": {
+        "username": "jjlazia", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0e6d463e-9c65-4440-90d5-ce7af508dc39"
+    }, 
+    "song_title": "Hands Clean", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000424f4_895c14a593bb_th.jpg", 
+    "song_artist": "Alanis Morissette", 
+    "favorite_count": 2, 
+    "uuid": "D17CB3C1-5F58-46DC-8210-9CD5A94ADCD0"
+}

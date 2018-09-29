@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "You got me screaming ma-ma-maaaaaa-mama-ma ?", 
+    "created_at": "2016-02-06T15:19:21-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003bdfc_ebe7f4657b57.ssng", 
+    "updated_at": "2016-02-10T06:06:16-05:00", 
+    "share_url": "https://a.sso.ng/1/ebe7f4657b57", 
+    "audio_url": "https://s02.sso.ng/1/00000003bdfc_ebe7f4657b57.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003bdfc_ebe7f4657b57_mr.jpg", 
+    "song_album": "Adore (feat. Ariana Grande) - Single", 
+    "user": {
+        "username": "LeslieAislim", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3ac23100-cf8f-4881-9b3c-06e6546ccb1f"
+    }, 
+    "song_title": "Adore (feat. Ariana Grande)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003bdfc_ebe7f4657b57_th.jpg", 
+    "song_artist": "Cashmere Cat", 
+    "favorite_count": 10, 
+    "uuid": "D85B3660-D47A-4C6E-8A2D-CE5B86AC0F7C"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-20T17:07:56-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043a41_55380c3dd565.ssng", 
+    "updated_at": "2016-05-24T01:38:41-04:00", 
+    "share_url": "https://a.sso.ng/1/55380c3dd565", 
+    "audio_url": "https://s02.sso.ng/1/000000043a41_55380c3dd565.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043a41_55380c3dd565_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "nene_genial", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/31c2cf7a-7402-4d94-af00-eab3b8efcc3f.jpg", 
+        "id": "31c2cf7a-7402-4d94-af00-eab3b8efcc3f"
+    }, 
+    "song_title": "American Woman - The Guess Who", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043a41_55380c3dd565_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "69C3F7C6-1A61-40D6-973D-AC3E5A06C293"
+}

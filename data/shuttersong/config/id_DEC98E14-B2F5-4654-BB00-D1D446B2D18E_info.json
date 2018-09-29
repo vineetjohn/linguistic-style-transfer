@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-10T07:43:30-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e736_4686de47db65.ssng", 
+    "updated_at": "2016-02-10T13:54:07-05:00", 
+    "share_url": "https://a.sso.ng/1/4686de47db65", 
+    "audio_url": "https://s02.sso.ng/1/00000003e736_4686de47db65.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e736_4686de47db65_mr.jpg", 
+    "song_album": "Blurryface", 
+    "user": {
+        "username": "laurendecamp", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e0639298-a17f-4094-89d2-d8e3862abab4.jpg", 
+        "id": "e0639298-a17f-4094-89d2-d8e3862abab4"
+    }, 
+    "song_title": "We Don't Believe What's On TV", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e736_4686de47db65_th.jpg", 
+    "song_artist": "twenty one pilots", 
+    "favorite_count": 2, 
+    "uuid": "DEC98E14-B2F5-4654-BB00-D1D446B2D18E"
+}

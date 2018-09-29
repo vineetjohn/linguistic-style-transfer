@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "I wish", 
+    "created_at": "2016-02-28T19:33:33-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9e9_279b0d204d7c.ssng", 
+    "updated_at": "2016-03-26T21:43:26-04:00", 
+    "share_url": "https://a.sso.ng/1/279b0d204d7c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9e9_279b0d204d7c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9e9_279b0d204d7c_mr.jpg", 
+    "song_album": "Emblem3 Ft Jack & Jack - Single", 
+    "user": {
+        "username": "EmmaLee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Janoskianator  ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/524e13a7-79a2-4608-8646-5152576da1fe.jpg", 
+        "id": "524e13a7-79a2-4608-8646-5152576da1fe"
+    }, 
+    "song_title": "Bucket List (Ft. Jack & Jack)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9e9_279b0d204d7c_th.jpg", 
+    "song_artist": "Jack & Jack ft. Emblem3", 
+    "favorite_count": 3, 
+    "uuid": "0B9546E6-41E5-4FF9-864B-A7A47E3B90CC"
+}

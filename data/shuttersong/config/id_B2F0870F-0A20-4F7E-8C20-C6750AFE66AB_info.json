@@ -1,0 +1,27 @@
+{
+    "mood": "cheerful", 
+    "caption": "???", 
+    "created_at": "2016-02-13T14:01:05-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eca1_9e35bc5df7e2.ssng", 
+    "updated_at": "2016-02-13T15:20:28-05:00", 
+    "share_url": "https://a.sso.ng/1/9e35bc5df7e2", 
+    "audio_url": "https://s02.sso.ng/1/00000003eca1_9e35bc5df7e2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eca1_9e35bc5df7e2_mr.jpg", 
+    "song_album": "Hot Fuss", 
+    "user": {
+        "username": "rudeyammouni", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7a461cb5-49a1-44ac-9983-4184fd276947.jpg", 
+        "id": "7a461cb5-49a1-44ac-9983-4184fd276947"
+    }, 
+    "song_title": "The Killers - Somebody Told Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eca1_9e35bc5df7e2_th.jpg", 
+    "song_artist": "The Killers", 
+    "favorite_count": 1, 
+    "uuid": "B2F0870F-0A20-4F7E-8C20-C6750AFE66AB"
+}

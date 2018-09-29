@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "'King and I 4 days'", 
+    "created_at": "2016-01-22T11:52:34-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003da0e_4404e94b9b17.ssng", 
+    "updated_at": "2016-01-23T15:00:15-05:00", 
+    "share_url": "https://a.sso.ng/1/4404e94b9b17", 
+    "audio_url": "https://s02.sso.ng/1/00000003da0e_4404e94b9b17.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003da0e_4404e94b9b17_mr.jpg", 
+    "song_album": "Marbella Sessions 2015 - Ministry of Sound", 
+    "user": {
+        "username": "benjib123", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c5421ea6-75a0-4181-9f91-3a352d1fd74d"
+    }, 
+    "song_title": "You &amp; Me (feat. Eliza Doolittle)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003da0e_4404e94b9b17_th.jpg", 
+    "song_artist": "Disclosure", 
+    "favorite_count": 1, 
+    "uuid": "A70A70E0-8A41-492D-B48C-DF61E2A05F28"
+}

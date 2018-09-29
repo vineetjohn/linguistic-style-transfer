@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Why?", 
+    "created_at": "2016-06-20T16:47:16-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e359_62b4925fc88e.ssng", 
+    "updated_at": "2016-06-21T16:32:04-04:00", 
+    "share_url": "https://a.sso.ng/1/62b4925fc88e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e359_62b4925fc88e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e359_62b4925fc88e_mr.jpg", 
+    "song_album": "Daughtry", 
+    "user": {
+        "username": "woahshalni", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Shalni", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a1734907-5cee-4007-8d01-c9a542a3f864.jpg", 
+        "id": "a1734907-5cee-4007-8d01-c9a542a3f864"
+    }, 
+    "song_title": "Home", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e359_62b4925fc88e_th.jpg", 
+    "song_artist": "Daughtry", 
+    "favorite_count": 1, 
+    "uuid": "000A2084-EB79-4153-AF05-A3DCC5649789"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I don't get how this works but hi", 
+    "created_at": "2016-02-12T01:18:57-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e981_93b38ee2161c.ssng", 
+    "updated_at": "2016-02-12T03:36:32-05:00", 
+    "share_url": "https://a.sso.ng/1/93b38ee2161c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e981_93b38ee2161c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e981_93b38ee2161c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "tequilaforjames", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c51af503-4120-4fc4-b947-7f0d9bfe3788.jpg", 
+        "id": "c51af503-4120-4fc4-b947-7f0d9bfe3788"
+    }, 
+    "song_title": "PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e981_93b38ee2161c_th.jpg", 
+    "song_artist": "ZAYN", 
+    "favorite_count": 4, 
+    "uuid": "6BC003F9-2D94-48C4-A5C9-815ACF765EDF"
+}

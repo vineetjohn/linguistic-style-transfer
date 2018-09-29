@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-21T11:01:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000000dfd1_aea21e4ced58_1.ssng", 
+    "updated_at": "2015-08-21T17:27:34-04:00", 
+    "share_url": "https://a.sso.ng/1/aea21e4ced58", 
+    "audio_url": "https://s01.sso.ng/1/00000000dfd1_aea21e4ced58_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000dfd1_aea21e4ced58_1_mr.jpg", 
+    "song_album": "50 Shades of Grey", 
+    "user": {
+        "username": "mc_giron", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/afa29185-954a-4586-9543-3febd6aec24b.jpg", 
+        "id": "afa29185-954a-4586-9543-3febd6aec24b"
+    }, 
+    "song_title": "Love Me Like You Do", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000dfd1_aea21e4ced58_1_th.jpg", 
+    "song_artist": "Ellie Goulding ", 
+    "favorite_count": 2, 
+    "uuid": "58275E1B-7200-42EF-A2C9-5FCC21977507"
+}

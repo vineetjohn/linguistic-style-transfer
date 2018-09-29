@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hola", 
+    "created_at": "2016-02-20T22:17:31-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f238_b32e3b9affda.ssng", 
+    "updated_at": "2016-02-26T18:25:17-05:00", 
+    "share_url": "https://a.sso.ng/1/b32e3b9affda", 
+    "audio_url": "https://s02.sso.ng/1/00000003f238_b32e3b9affda.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f238_b32e3b9affda_mr.jpg", 
+    "song_album": "Call Me Maybe - Single", 
+    "user": {
+        "username": "pupy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a2d3ad2b-3c0d-4e57-bc98-4a2ab5a3f885.jpg", 
+        "id": "a2d3ad2b-3c0d-4e57-bc98-4a2ab5a3f885"
+    }, 
+    "song_title": "Call Me Maybe", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f238_b32e3b9affda_th.jpg", 
+    "song_artist": "Carly Rae Jepsen", 
+    "favorite_count": 1, 
+    "uuid": "B8F008DB-6AA3-4196-B5D8-FE8E5A73729B"
+}

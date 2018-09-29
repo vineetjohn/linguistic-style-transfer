@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "YouTube: Anel Valdez #SantaSorteo", 
+    "created_at": "2015-12-19T17:42:40-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000373bd_cd65ecaf7fcf_1.ssng", 
+    "updated_at": "2015-12-19T17:44:19-05:00", 
+    "share_url": "https://a.sso.ng/1/cd65ecaf7fcf", 
+    "audio_url": "https://s01.sso.ng/1/0000000373bd_cd65ecaf7fcf_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000373bd_cd65ecaf7fcf_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "anelvaldez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fac33563-f76b-4050-936b-98e95d2fa67b.jpg", 
+        "id": "fac33563-f76b-4050-936b-98e95d2fa67b"
+    }, 
+    "song_title": "Armin van Buuren - This Is What It Feels Like (feat. Trevor Guthrie) (ON SCREEN LYRICS)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000373bd_cd65ecaf7fcf_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "AFE6FB2C-CAD7-4378-94FF-C0DA292B1C21"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Reading is one of the things that I love ???", 
+    "created_at": "2015-08-23T15:30:36-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000261d5_1e36e51ae0bb_1.ssng", 
+    "updated_at": "2015-08-24T23:40:26-04:00", 
+    "share_url": "https://a.sso.ng/1/1e36e51ae0bb", 
+    "audio_url": "https://s01.sso.ng/1/0000000261d5_1e36e51ae0bb_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000261d5_1e36e51ae0bb_1_mr.jpg", 
+    "song_album": "Trials Of Van Occupanther", 
+    "user": {
+        "username": "Danielafs1010", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Daniela Fuenmayor ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b229d938-cdad-44e3-ac41-b568e2bb4158.jpg", 
+        "id": "b229d938-cdad-44e3-ac41-b568e2bb4158"
+    }, 
+    "song_title": "Young Bride", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000261d5_1e36e51ae0bb_1_th.jpg", 
+    "song_artist": "Midlake", 
+    "favorite_count": 3, 
+    "uuid": "4B6CFD1B-4B0C-4A37-A858-C25262A64750"
+}

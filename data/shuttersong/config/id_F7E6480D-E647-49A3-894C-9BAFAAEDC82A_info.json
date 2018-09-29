@@ -1,0 +1,27 @@
+{
+    "mood": "bitchy", 
+    "caption": "@beaub is a sexy slug", 
+    "created_at": "2016-02-18T11:27:33-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e880_b3e3ae65736a.ssng", 
+    "updated_at": "2016-03-02T15:15:35-05:00", 
+    "share_url": "https://a.sso.ng/1/b3e3ae65736a", 
+    "audio_url": "https://s02.sso.ng/1/00000003e880_b3e3ae65736a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e880_b3e3ae65736a_mr.jpg", 
+    "song_album": "Nirvana", 
+    "user": {
+        "username": "beau_brooks_is_hot", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lillie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d07c1259-a769-416b-a13d-15cd646ce58c.jpg", 
+        "id": "d07c1259-a769-416b-a13d-15cd646ce58c"
+    }, 
+    "song_title": "The Man Who Sold the World (Live)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e880_b3e3ae65736a_th.jpg", 
+    "song_artist": "Nirvana", 
+    "favorite_count": 5, 
+    "uuid": "F7E6480D-E647-49A3-894C-9BAFAAEDC82A"
+}

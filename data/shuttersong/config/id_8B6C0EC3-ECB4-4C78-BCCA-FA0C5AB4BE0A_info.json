@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@beaub @", 
+    "created_at": "2016-05-31T19:12:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e284_5aca3b84317b.ssng", 
+    "updated_at": "2016-06-05T10:20:31-04:00", 
+    "share_url": "https://a.sso.ng/1/5aca3b84317b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e284_5aca3b84317b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e284_5aca3b84317b_mr.jpg", 
+    "song_album": "By the Way", 
+    "user": {
+        "username": "Subway4Jai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Rosie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2a131d7b-817e-4bf7-b848-5e450c921627"
+    }, 
+    "song_title": "By the Way", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e284_5aca3b84317b_th.jpg", 
+    "song_artist": "Red Hot Chili Peppers", 
+    "favorite_count": 4, 
+    "uuid": "8B6C0EC3-ECB4-4C78-BCCA-FA0C5AB4BE0A"
+}

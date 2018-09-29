@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-15T00:16:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001a94a_2e5e845badfc.ssng", 
+    "updated_at": "2015-08-15T00:53:12-04:00", 
+    "share_url": "https://a.sso.ng/1/2e5e845badfc", 
+    "audio_url": "https://s01.sso.ng/1/00000001a94a_2e5e845badfc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001a94a_2e5e845badfc_mr.jpg", 
+    "song_album": "Black Veil Brides", 
+    "user": {
+        "username": "firelight.vanish.sv", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9bdc4680-e04d-4464-a8cf-aacdf01ac336"
+    }, 
+    "song_title": "Faithless", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001a94a_2e5e845badfc_th.jpg", 
+    "song_artist": "Black Veil Brides", 
+    "favorite_count": 1, 
+    "uuid": "C8325399-69CB-4D0F-BB6D-FDD6632B2DE1"
+}

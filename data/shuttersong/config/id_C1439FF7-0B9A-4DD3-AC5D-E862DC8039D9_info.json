@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "there's no place I couldn't be", 
+    "created_at": "2016-01-12T13:00:42-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c939_cefa64d603bb.ssng", 
+    "updated_at": "2016-01-12T17:12:22-05:00", 
+    "share_url": "https://a.sso.ng/1/cefa64d603bb", 
+    "audio_url": "https://s01.sso.ng/1/00000003c939_cefa64d603bb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c939_cefa64d603bb_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Crbl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "eb5b9bcb-e3b4-42a9-8faa-025af0ffcc98"
+    }, 
+    "song_title": "Rather Be - Clean Bandit feat Jess Glynne Lyrics", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c939_cefa64d603bb_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "C1439FF7-0B9A-4DD3-AC5D-E862DC8039D9"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "eres mi dulcecito beb\u00e9 ?\u2693", 
+    "created_at": "2015-12-20T02:42:00-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b30a_06fe31fac69f.ssng", 
+    "updated_at": "2015-12-23T19:47:27-05:00", 
+    "share_url": "https://a.sso.ng/1/06fe31fac69f", 
+    "audio_url": "https://s01.sso.ng/1/00000002b30a_06fe31fac69f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b30a_06fe31fac69f_mr.jpg", 
+    "song_album": "Maroon 5", 
+    "user": {
+        "username": "PaulaGarcia_07", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/11e14f3c-0347-42ff-9ac7-16c4f9863988.jpg", 
+        "id": "11e14f3c-0347-42ff-9ac7-16c4f9863988"
+    }, 
+    "song_title": "Sugar", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b30a_06fe31fac69f_th.jpg", 
+    "song_artist": "V (Deluxe Version)", 
+    "favorite_count": 1, 
+    "uuid": "9AECF03B-66DA-4AEE-AE75-D80E912031F7"
+}

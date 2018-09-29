@@ -1,0 +1,27 @@
+{
+    "mood": "alone", 
+    "caption": "He's my best friend ??", 
+    "created_at": "2016-02-16T08:29:03-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e64b_5d85b33eee68.ssng", 
+    "updated_at": "2016-02-16T18:44:00-05:00", 
+    "share_url": "https://a.sso.ng/1/5d85b33eee68", 
+    "audio_url": "https://s02.sso.ng/1/00000003e64b_5d85b33eee68.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e64b_5d85b33eee68_mr.jpg", 
+    "song_album": "American Candy", 
+    "user": {
+        "username": "FatLuka", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Mollie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3c5466f8-cac4-4469-9c85-676df17b3e19.jpg", 
+        "id": "3c5466f8-cac4-4469-9c85-676df17b3e19"
+    }, 
+    "song_title": "Another Night on Mars", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e64b_5d85b33eee68_th.jpg", 
+    "song_artist": "The Maine", 
+    "favorite_count": 5, 
+    "uuid": "FC44AA38-6F9F-4FD5-A79E-7DE19EC085FA"
+}

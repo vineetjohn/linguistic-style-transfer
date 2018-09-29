@@ -1,0 +1,27 @@
+{
+    "mood": "excited", 
+    "caption": "CAN'T WAIT TO SEE THE MOVIE!!", 
+    "created_at": "2016-02-13T10:51:49-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4ad_7f404e52cb2e.ssng", 
+    "updated_at": "2016-05-29T12:55:16-04:00", 
+    "share_url": "https://a.sso.ng/1/7f404e52cb2e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4ad_7f404e52cb2e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4ad_7f404e52cb2e_mr.jpg", 
+    "song_album": "Greatest Hits", 
+    "user": {
+        "username": "qcgirl", 
+        "verified": false, 
+        "username_color": "#084e8c", 
+        "full_name": "M.L.B", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6f63a04c-a3c3-42be-bd2c-77611c4cecff.jpg", 
+        "id": "6f63a04c-a3c3-42be-bd2c-77611c4cecff"
+    }, 
+    "song_title": "Give It Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4ad_7f404e52cb2e_th.jpg", 
+    "song_artist": "Red Hot Chili Peppers", 
+    "favorite_count": 37, 
+    "uuid": "9BE66CE7-DC86-4067-83B7-409454BD8271"
+}

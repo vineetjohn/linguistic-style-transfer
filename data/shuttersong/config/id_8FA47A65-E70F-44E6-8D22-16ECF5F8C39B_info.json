@@ -1,0 +1,27 @@
+{
+    "mood": "content", 
+    "caption": "French toast with real maple syrup. Breakfast perfection", 
+    "created_at": "2016-06-25T18:06:16-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000000002b_6c58b8865c04.ssng", 
+    "updated_at": "2016-07-02T12:45:41-04:00", 
+    "share_url": "https://a.sso.ng/1/6c58b8865c04", 
+    "audio_url": "https://s02.sso.ng/1/00000000002b_6c58b8865c04.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000000002b_6c58b8865c04_mr.jpg", 
+    "song_album": "Reflection (Deluxe)", 
+    "user": {
+        "username": "w", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "William", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0cae3ea0-2922-4a36-9a55-3fc5387033e5.jpg", 
+        "id": "0cae3ea0-2922-4a36-9a55-3fc5387033e5"
+    }, 
+    "song_title": "Worth It (feat. Kid Ink)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000000002b_6c58b8865c04_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 30, 
+    "uuid": "8FA47A65-E70F-44E6-8D22-16ECF5F8C39B"
+}

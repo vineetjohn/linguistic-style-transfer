@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "De cabeza es mejor! #santasorteo Atala Bermudez", 
+    "created_at": "2015-12-19T19:11:11-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036912_6c067e356732.ssng", 
+    "updated_at": "2015-12-20T15:58:35-05:00", 
+    "share_url": "https://a.sso.ng/1/6c067e356732", 
+    "audio_url": "https://s01.sso.ng/1/000000036912_6c067e356732.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036912_6c067e356732_mr.jpg", 
+    "song_album": "Becky G", 
+    "user": {
+        "username": "Atalabermudez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a9e527f2-5d3e-4e60-b907-916c3aa27a64.jpg", 
+        "id": "a9e527f2-5d3e-4e60-b907-916c3aa27a64"
+    }, 
+    "song_title": "Shower", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036912_6c067e356732_th.jpg", 
+    "song_artist": "Becky G", 
+    "favorite_count": 1, 
+    "uuid": "285B01AA-6DF6-4738-BE67-4CD62C15F487"
+}

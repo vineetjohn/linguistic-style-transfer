@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T02:43:27-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000213a4_cd22517ddb83.ssng", 
+    "updated_at": "2015-08-04T02:43:27-04:00", 
+    "share_url": "https://a.sso.ng/1/cd22517ddb83", 
+    "audio_url": "https://s01.sso.ng/1/0000000213a4_cd22517ddb83.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000213a4_cd22517ddb83_mr.jpg", 
+    "song_album": "A Rush of Blood To the Head", 
+    "user": {
+        "username": "JoelyChavez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1dc44e2a-08e0-4005-a752-6ab7d773fcad.jpg", 
+        "id": "1dc44e2a-08e0-4005-a752-6ab7d773fcad"
+    }, 
+    "song_title": "The Scientist", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000213a4_cd22517ddb83_th.jpg", 
+    "song_artist": "Coldplay", 
+    "favorite_count": 1, 
+    "uuid": "7830D350-EA34-4499-BE0F-5BEA0D9574BB"
+}

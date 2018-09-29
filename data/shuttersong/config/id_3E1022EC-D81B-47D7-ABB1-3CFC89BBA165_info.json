@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo ??", 
+    "created_at": "2015-12-29T01:02:56-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003ade3_69cfcc0cd558.ssng", 
+    "updated_at": "2015-12-29T01:12:01-05:00", 
+    "share_url": "https://a.sso.ng/1/69cfcc0cd558", 
+    "audio_url": "https://s01.sso.ng/1/00000003ade3_69cfcc0cd558.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003ade3_69cfcc0cd558_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "nogueramary_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1c4e61e1-b488-4218-b993-9b281dd01d53.jpg", 
+        "id": "1c4e61e1-b488-4218-b993-9b281dd01d53"
+    }, 
+    "song_title": "Adele - Rolling In The Deep", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003ade3_69cfcc0cd558_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "3E1022EC-D81B-47D7-ABB1-3CFC89BBA165"
+}

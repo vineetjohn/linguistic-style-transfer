@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "???", 
+    "created_at": "2015-08-20T19:01:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025424_48bb59849ec5.ssng", 
+    "updated_at": "2015-08-21T01:41:07-04:00", 
+    "share_url": "https://a.sso.ng/1/48bb59849ec5", 
+    "audio_url": "https://s01.sso.ng/1/000000025424_48bb59849ec5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025424_48bb59849ec5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Sandra24592", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Selene", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/136ba56c-c276-493d-b715-5ff91ba6289e.jpg", 
+        "id": "136ba56c-c276-493d-b715-5ff91ba6289e"
+    }, 
+    "song_title": "Katy Perry - Teenage Dream", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025424_48bb59849ec5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "FE7C986F-4F46-4D71-967A-536FFC369234"
+}

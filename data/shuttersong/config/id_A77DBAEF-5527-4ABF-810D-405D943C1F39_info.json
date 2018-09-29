@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-19T11:08:31-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045730_3806d2de1acc.ssng", 
+    "updated_at": "2016-06-20T04:29:27-04:00", 
+    "share_url": "https://a.sso.ng/1/3806d2de1acc", 
+    "audio_url": "https://s02.sso.ng/1/000000045730_3806d2de1acc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045730_3806d2de1acc_mr.jpg", 
+    "song_album": "Bomb In a Birdcage (Bonus Track Version)", 
+    "user": {
+        "username": "meadowsong13", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "505c03e4-8f73-4219-8770-3568a45cc910"
+    }, 
+    "song_title": "Blow Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045730_3806d2de1acc_th.jpg", 
+    "song_artist": "A Fine Frenzy", 
+    "favorite_count": 3, 
+    "uuid": "A77DBAEF-5527-4ABF-810D-405D943C1F39"
+}

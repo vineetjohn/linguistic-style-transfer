@@ -1,0 +1,27 @@
+{
+    "mood": "peaceful", 
+    "caption": "", 
+    "created_at": "2016-06-14T10:51:31-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045100_a30d69e0bd0e.ssng", 
+    "updated_at": "2016-06-15T14:08:34-04:00", 
+    "share_url": "https://a.sso.ng/1/a30d69e0bd0e", 
+    "audio_url": "https://s02.sso.ng/1/000000045100_a30d69e0bd0e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045100_a30d69e0bd0e_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "kaylaabowden", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fec0f877-8e61-429a-92f0-dcd1591d844f.jpg", 
+        "id": "fec0f877-8e61-429a-92f0-dcd1591d844f"
+    }, 
+    "song_title": "5sos - disconnected", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045100_a30d69e0bd0e_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "F1B2A829-F384-4FA1-A6BD-528021D0203A"
+}

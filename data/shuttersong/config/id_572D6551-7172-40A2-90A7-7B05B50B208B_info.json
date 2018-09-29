@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-23T17:09:02-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e0ff_bbcee7f3d450.ssng", 
+    "updated_at": "2015-11-30T06:55:17-05:00", 
+    "share_url": "https://a.sso.ng/1/bbcee7f3d450", 
+    "audio_url": "https://s01.sso.ng/1/00000002e0ff_bbcee7f3d450.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e0ff_bbcee7f3d450_mr.jpg", 
+    "song_album": "Life of the Infamous: The Best of Mobb Deep", 
+    "user": {
+        "username": "sweetpassion5", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b2825eeb-a6a2-42f7-90b4-0fcf6153a4f1.jpg", 
+        "id": "b2825eeb-a6a2-42f7-90b4-0fcf6153a4f1"
+    }, 
+    "song_title": "Got It Twisted", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e0ff_bbcee7f3d450_th.jpg", 
+    "song_artist": "Mobb Deep", 
+    "favorite_count": 1, 
+    "uuid": "572D6551-7172-40A2-90A7-7B05B50B208B"
+}

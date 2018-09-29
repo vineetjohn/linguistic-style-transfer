@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:26:36-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e52_45743facc3ca.ssng", 
+    "updated_at": "2015-08-03T23:26:36-04:00", 
+    "share_url": "https://a.sso.ng/1/45743facc3ca", 
+    "audio_url": "https://s01.sso.ng/1/000000020e52_45743facc3ca.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e52_45743facc3ca_mr.jpg", 
+    "song_album": "FOUR (Deluxe Version)", 
+    "user": {
+        "username": "TheAshleyDuranza", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d0b11b7e-3ec5-43a4-a010-09d19ec5f177.jpg", 
+        "id": "d0b11b7e-3ec5-43a4-a010-09d19ec5f177"
+    }, 
+    "song_title": "Act My Age (WwW.BaniCrazy.NeT)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e52_45743facc3ca_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "0C89B440-E460-4E5D-9030-FD3E2F0A6A85"
+}

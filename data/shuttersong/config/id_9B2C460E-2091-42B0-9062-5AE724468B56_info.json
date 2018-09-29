@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\udc95\ud83d\ude0d", 
+    "created_at": "2016-06-20T11:07:12-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3f2_eb123446dd5c.ssng", 
+    "updated_at": "2016-06-20T19:39:56-04:00", 
+    "share_url": "https://a.sso.ng/1/eb123446dd5c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3f2_eb123446dd5c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3f2_eb123446dd5c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "AvaSaldana96", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ayeee_Vahhh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c860f132-e54d-4498-99e1-bac87ee33c31.jpg", 
+        "id": "c860f132-e54d-4498-99e1-bac87ee33c31"
+    }, 
+    "song_title": "Wait On Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3f2_eb123446dd5c_th.jpg", 
+    "song_artist": "Rixton", 
+    "favorite_count": 5, 
+    "uuid": "9B2C460E-2091-42B0-9062-5AE724468B56"
+}

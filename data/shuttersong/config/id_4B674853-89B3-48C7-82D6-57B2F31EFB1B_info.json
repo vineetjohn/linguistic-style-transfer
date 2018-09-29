@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:03:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020a92_3f876d8b1bd3.ssng", 
+    "updated_at": "2015-08-03T23:03:39-04:00", 
+    "share_url": "https://a.sso.ng/1/3f876d8b1bd3", 
+    "audio_url": "https://s01.sso.ng/1/000000020a92_3f876d8b1bd3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020a92_3f876d8b1bd3_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "funnygirl1236", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "31d6dd19-7b47-4f80-8b77-fffc9ae6cdab"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020a92_3f876d8b1bd3_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "4B674853-89B3-48C7-82D6-57B2F31EFB1B"
+}

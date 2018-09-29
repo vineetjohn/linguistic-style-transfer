@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-06T08:27:25-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000016f20_2b4d95acfd35.ssng", 
+    "updated_at": "2016-05-10T19:54:34-04:00", 
+    "share_url": "https://a.sso.ng/1/2b4d95acfd35", 
+    "audio_url": "https://s02.sso.ng/1/000000016f20_2b4d95acfd35.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000016f20_2b4d95acfd35_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "blackeyedali", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f25f408d-dd68-4dc1-9b8f-be04b520765d.jpg", 
+        "id": "f25f408d-dd68-4dc1-9b8f-be04b520765d"
+    }, 
+    "song_title": "Neptune", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000016f20_2b4d95acfd35_th.jpg", 
+    "song_artist": "Lemonade", 
+    "favorite_count": 1, 
+    "uuid": "74693E53-238C-41B8-A706-0FAAD8C878D7"
+}

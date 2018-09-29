@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-29T23:46:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000461f5_5fa1efa4227d.ssng", 
+    "updated_at": "2016-06-30T00:38:57-04:00", 
+    "share_url": "https://a.sso.ng/1/5fa1efa4227d", 
+    "audio_url": "https://s02.sso.ng/1/0000000461f5_5fa1efa4227d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000461f5_5fa1efa4227d_mr.jpg", 
+    "song_album": "Shaft (Music from the Soundtrack) [Remastered] {Bonus Track Version}", 
+    "user": {
+        "username": "Bfrausto", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "00ab7ed3-88d3-424f-9dbe-2057b130ff19"
+    }, 
+    "song_title": "Theme from Shaft", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000461f5_5fa1efa4227d_th.jpg", 
+    "song_artist": "Isaac Hayes", 
+    "favorite_count": 1, 
+    "uuid": "9F71F761-4AEF-4814-B078-27D4D3AD9FE4"
+}

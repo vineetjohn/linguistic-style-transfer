@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-01T15:04:02-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000016799_3101de502c44.ssng", 
+    "updated_at": "2016-01-02T09:33:03-05:00", 
+    "share_url": "https://a.sso.ng/1/3101de502c44", 
+    "audio_url": "https://s01.sso.ng/1/000000016799_3101de502c44.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000016799_3101de502c44_mr.jpg", 
+    "song_album": "Back 2 Life", 
+    "user": {
+        "username": "tigerluva2", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9e3ec3fe-3247-4497-8a5b-c9f062ba0530"
+    }, 
+    "song_title": "Back 2 Life (Live It Up) [feat. T.I.]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000016799_3101de502c44_th.jpg", 
+    "song_artist": "Sean Kingston", 
+    "favorite_count": 1, 
+    "uuid": "29D6BF05-53AB-4F72-BB2D-C1CBAD72D4CE"
+}

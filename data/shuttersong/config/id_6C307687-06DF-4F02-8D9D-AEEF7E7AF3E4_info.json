@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-10T18:56:59-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e395_5b13d6bc48e5.ssng", 
+    "updated_at": "2016-02-13T22:39:41-05:00", 
+    "share_url": "https://a.sso.ng/1/5b13d6bc48e5", 
+    "audio_url": "https://s02.sso.ng/1/00000003e395_5b13d6bc48e5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e395_5b13d6bc48e5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "BeauIsUglyCarrot", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5ce98c5f-7ed3-4549-9c8e-fd83d2496f88.jpg", 
+        "id": "5ce98c5f-7ed3-4549-9c8e-fd83d2496f88"
+    }, 
+    "song_title": "Fifth Harmony - Reflection (Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e395_5b13d6bc48e5_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 1, 
+    "uuid": "6C307687-06DF-4F02-8D9D-AEEF7E7AF3E4"
+}

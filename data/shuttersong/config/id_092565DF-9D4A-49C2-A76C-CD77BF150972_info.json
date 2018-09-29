@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Minecraft Monalisa", 
+    "created_at": "2015-08-29T14:28:58-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d509_7af9a231adc2_1.ssng", 
+    "updated_at": "2015-08-30T05:30:37-04:00", 
+    "share_url": "https://a.sso.ng/1/7af9a231adc2", 
+    "audio_url": "https://s01.sso.ng/1/00000002d509_7af9a231adc2_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d509_7af9a231adc2_1_mr.jpg", 
+    "song_album": "Hello My Name Is...", 
+    "user": {
+        "username": "Bakerboyt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a812afd2-fbd4-4983-853e-8f55f72f3975"
+    }, 
+    "song_title": "Rocks At My Window", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d509_7af9a231adc2_1_th.jpg", 
+    "song_artist": "Bridgit Mendler", 
+    "favorite_count": 1, 
+    "uuid": "092565DF-9D4A-49C2-A76C-CD77BF150972"
+}

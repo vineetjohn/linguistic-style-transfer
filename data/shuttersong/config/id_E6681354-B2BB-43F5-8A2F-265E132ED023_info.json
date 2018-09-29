@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Far alone ", 
+    "created_at": "2015-08-04T09:16:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000216fd_96bc24dbd359_1.ssng", 
+    "updated_at": "2015-08-04T09:16:36-04:00", 
+    "share_url": "https://a.sso.ng/1/96bc24dbd359", 
+    "audio_url": "https://s01.sso.ng/1/0000000216fd_96bc24dbd359_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000216fd_96bc24dbd359_1_mr.jpg", 
+    "song_album": "These Things Happen", 
+    "user": {
+        "username": "2turntdallas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bcda341a-ca18-41ef-9c0e-2fa5920fe99b.jpg", 
+        "id": "bcda341a-ca18-41ef-9c0e-2fa5920fe99b"
+    }, 
+    "song_title": "Far Alone (feat. E-40 & Jay Ant)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000216fd_96bc24dbd359_1_th.jpg", 
+    "song_artist": "G-Eazy", 
+    "favorite_count": 1, 
+    "uuid": "E6681354-B2BB-43F5-8A2F-265E132ED023"
+}

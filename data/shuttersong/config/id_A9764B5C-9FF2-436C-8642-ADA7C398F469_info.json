@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\ude4f\ud83c\udffb\u263a\ufe0f\ud83d\ude09", 
+    "created_at": "2016-04-12T07:50:01-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f9b1_8f0b3e4d7ad8.ssng", 
+    "updated_at": "2016-05-21T20:17:23-04:00", 
+    "share_url": "https://a.sso.ng/1/8f0b3e4d7ad8", 
+    "audio_url": "https://s02.sso.ng/1/00000003f9b1_8f0b3e4d7ad8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f9b1_8f0b3e4d7ad8_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Sarenas19", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6fb3f2e9-096d-4491-b8aa-d6e2c07360ad.jpg", 
+        "id": "6fb3f2e9-096d-4491-b8aa-d6e2c07360ad"
+    }, 
+    "song_title": "Adele - Hello", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f9b1_8f0b3e4d7ad8_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "A9764B5C-9FF2-436C-8642-ADA7C398F469"
+}

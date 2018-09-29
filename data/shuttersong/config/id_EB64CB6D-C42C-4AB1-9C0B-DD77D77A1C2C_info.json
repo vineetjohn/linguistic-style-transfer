@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Rapping on point babe ", 
+    "created_at": "2015-08-06T00:31:00-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022677_c1a66b3167b1_1.ssng", 
+    "updated_at": "2015-08-06T00:31:26-04:00", 
+    "share_url": "https://a.sso.ng/1/c1a66b3167b1", 
+    "audio_url": "https://s01.sso.ng/1/000000022677_c1a66b3167b1_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022677_c1a66b3167b1_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "logicaljohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bab5993f-de8d-4316-8933-37190904a506.jpg", 
+        "id": "bab5993f-de8d-4316-8933-37190904a506"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022677_c1a66b3167b1_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "EB64CB6D-C42C-4AB1-9C0B-DD77D77A1C2C"
+}

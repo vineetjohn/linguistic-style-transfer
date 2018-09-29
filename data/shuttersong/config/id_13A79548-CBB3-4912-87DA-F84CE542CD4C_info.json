@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "sweet misery ?", 
+    "created_at": "2016-02-26T22:55:47-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5d1_597ec57b9ef3.ssng", 
+    "updated_at": "2016-06-14T11:29:16-04:00", 
+    "share_url": "https://a.sso.ng/1/597ec57b9ef3", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5d1_597ec57b9ef3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5d1_597ec57b9ef3_mr.jpg", 
+    "song_album": "Better Than I Know Myself (Single)", 
+    "user": {
+        "username": "itsyammounibitch", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Amanda Leis-Miguel ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2aace85d-3b49-48aa-9813-13289294d780.jpg", 
+        "id": "2aace85d-3b49-48aa-9813-13289294d780"
+    }, 
+    "song_title": "Cryin'", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5d1_597ec57b9ef3_th.jpg", 
+    "song_artist": "Adam Lambert", 
+    "favorite_count": 12, 
+    "uuid": "13A79548-CBB3-4912-87DA-F84CE542CD4C"
+}

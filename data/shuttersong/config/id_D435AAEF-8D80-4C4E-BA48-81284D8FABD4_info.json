@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-25T18:41:53-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e22b_a1844583e44a.ssng", 
+    "updated_at": "2016-06-01T06:18:37-04:00", 
+    "share_url": "https://a.sso.ng/1/a1844583e44a", 
+    "audio_url": "https://s02.sso.ng/1/00000003e22b_a1844583e44a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e22b_a1844583e44a_mr.jpg", 
+    "song_album": "Astoria", 
+    "user": {
+        "username": "JennEagleson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jenn Eagleson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/660d2639-b007-4ce7-ba3e-116f35013ee1.jpg", 
+        "id": "660d2639-b007-4ce7-ba3e-116f35013ee1"
+    }, 
+    "song_title": "End of an Era", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e22b_a1844583e44a_th.jpg", 
+    "song_artist": "Marianas Trench", 
+    "favorite_count": 4, 
+    "uuid": "D435AAEF-8D80-4C4E-BA48-81284D8FABD4"
+}

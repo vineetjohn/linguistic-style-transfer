@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-25T12:25:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002c909_88aee1d30615.ssng", 
+    "updated_at": "2015-08-29T08:08:30-04:00", 
+    "share_url": "https://a.sso.ng/1/88aee1d30615", 
+    "audio_url": "https://s01.sso.ng/1/00000002c909_88aee1d30615.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002c909_88aee1d30615_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "emyloveslifestyle", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lifestyleemy", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/42431e1c-1bc9-455d-9de1-ffb467beab87.jpg", 
+        "id": "42431e1c-1bc9-455d-9de1-ffb467beab87"
+    }, 
+    "song_title": "One Last Time", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002c909_88aee1d30615_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 2, 
+    "uuid": "7C9F8CFD-0996-4E10-9F8D-09ACF91BA63C"
+}

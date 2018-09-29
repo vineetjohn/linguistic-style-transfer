@@ -1,0 +1,27 @@
+{
+    "mood": "Calm", 
+    "caption": "", 
+    "created_at": "2016-02-14T10:57:56-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e910_2fe2327f7f84.ssng", 
+    "updated_at": "2016-02-14T11:38:46-05:00", 
+    "share_url": "https://a.sso.ng/1/2fe2327f7f84", 
+    "audio_url": "https://s02.sso.ng/1/00000003e910_2fe2327f7f84.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e910_2fe2327f7f84_mr.jpg", 
+    "song_album": "XX", 
+    "user": {
+        "username": "janos", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/25de931e-86a3-48e6-af7b-944b3a4fc6f4.jpg", 
+        "id": "25de931e-86a3-48e6-af7b-944b3a4fc6f4"
+    }, 
+    "song_title": "Intro", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e910_2fe2327f7f84_th.jpg", 
+    "song_artist": "The XX", 
+    "favorite_count": 2, 
+    "uuid": "5F0F3456-7897-4A15-BADB-510F5F0611A5"
+}

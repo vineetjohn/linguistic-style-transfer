@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-19T07:29:09-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d8fc_8c95501635c4.ssng", 
+    "updated_at": "2016-01-20T03:27:01-05:00", 
+    "share_url": "https://a.sso.ng/1/8c95501635c4", 
+    "audio_url": "https://s02.sso.ng/1/00000003d8fc_8c95501635c4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d8fc_8c95501635c4_mr.jpg", 
+    "song_album": "100% Hits 2015, Vol. 2", 
+    "user": {
+        "username": "millythemermaid", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9901e9c6-469c-4c97-b7eb-3d21482e0584.jpg", 
+        "id": "9901e9c6-469c-4c97-b7eb-3d21482e0584"
+    }, 
+    "song_title": "Ghost Town", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d8fc_8c95501635c4_th.jpg", 
+    "song_artist": "Adam Lambert", 
+    "favorite_count": 1, 
+    "uuid": "8E739193-09C6-449E-93B5-73588D3A58D1"
+}

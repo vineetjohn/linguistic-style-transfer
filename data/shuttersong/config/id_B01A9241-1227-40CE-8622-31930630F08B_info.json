@@ -1,0 +1,27 @@
+{
+    "mood": "Cheerful", 
+    "caption": "", 
+    "created_at": "2016-02-13T08:33:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e933_d9f16f9dea30.ssng", 
+    "updated_at": "2016-02-13T15:21:40-05:00", 
+    "share_url": "https://a.sso.ng/1/d9f16f9dea30", 
+    "audio_url": "https://s02.sso.ng/1/00000003e933_d9f16f9dea30.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e933_d9f16f9dea30_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "plummyluke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b04ce8fd-5494-4dd5-8348-7677e1b82ec1.jpg", 
+        "id": "b04ce8fd-5494-4dd5-8348-7677e1b82ec1"
+    }, 
+    "song_title": "The Janoskians - Real Girls Eat Cake (Explicit)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e933_d9f16f9dea30_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "B01A9241-1227-40CE-8622-31930630F08B"
+}

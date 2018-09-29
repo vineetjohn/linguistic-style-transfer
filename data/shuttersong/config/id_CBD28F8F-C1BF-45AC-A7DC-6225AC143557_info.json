@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?\u2764\ufe0f @brooksluke", 
+    "created_at": "2016-02-20T09:36:56-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e263_ecebb7a88670.ssng", 
+    "updated_at": "2016-06-17T16:08:26-04:00", 
+    "share_url": "https://a.sso.ng/1/ecebb7a88670", 
+    "audio_url": "https://s02.sso.ng/1/00000003e263_ecebb7a88670.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e263_ecebb7a88670_mr.jpg", 
+    "song_album": "X", 
+    "user": {
+        "username": "Lukewantsvodka", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": "Tina ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2a5714a8-3332-4ef2-91a4-f188f6b5db92.jpg", 
+        "id": "2a5714a8-3332-4ef2-91a4-f188f6b5db92"
+    }, 
+    "song_title": "One", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e263_ecebb7a88670_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 9, 
+    "uuid": "CBD28F8F-C1BF-45AC-A7DC-6225AC143557"
+}

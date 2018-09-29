@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-10T00:00:37-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042ec6_f2f1ae8cd220.ssng", 
+    "updated_at": "2016-05-11T01:05:10-04:00", 
+    "share_url": "https://a.sso.ng/1/f2f1ae8cd220", 
+    "audio_url": "https://s02.sso.ng/1/000000042ec6_f2f1ae8cd220.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042ec6_f2f1ae8cd220_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "marijoorozco", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "410b19d3-075b-4066-aa28-28ea99fb7cbb"
+    }, 
+    "song_title": "disclosure - you & me (flume remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042ec6_f2f1ae8cd220_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "11469B17-1BD2-4084-8931-FF24095F15C3"
+}

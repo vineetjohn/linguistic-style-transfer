@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-22T12:51:08-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037d7a_1c75997adf5d.ssng", 
+    "updated_at": "2015-12-22T12:56:29-05:00", 
+    "share_url": "https://a.sso.ng/1/1c75997adf5d", 
+    "audio_url": "https://s01.sso.ng/1/000000037d7a_1c75997adf5d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037d7a_1c75997adf5d_mr.jpg", 
+    "song_album": "Selena Gomez", 
+    "user": {
+        "username": "seresrubio", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/343de2a8-a839-4428-ad55-4d0aa1795c4d.jpg", 
+        "id": "343de2a8-a839-4428-ad55-4d0aa1795c4d"
+    }, 
+    "song_title": "B.E.A.T.", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037d7a_1c75997adf5d_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "5DCF0D39-A7BE-435F-911D-79FCA541C896"
+}

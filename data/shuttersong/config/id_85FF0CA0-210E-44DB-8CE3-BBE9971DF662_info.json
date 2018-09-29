@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "West coast???", 
+    "created_at": "2015-09-03T22:06:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002add7_c1deca276330_1.ssng", 
+    "updated_at": "2015-09-04T11:45:45-04:00", 
+    "share_url": "https://a.sso.ng/1/c1deca276330", 
+    "audio_url": "https://s01.sso.ng/1/00000002add7_c1deca276330_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002add7_c1deca276330_1_mr.jpg", 
+    "song_album": "Ultraviolence", 
+    "user": {
+        "username": "HenryCalderon", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Henry Calderon", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5d7fd62-0db7-40b6-b790-485a12c80f73.jpg", 
+        "id": "e5d7fd62-0db7-40b6-b790-485a12c80f73"
+    }, 
+    "song_title": "West Coast", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002add7_c1deca276330_1_th.jpg", 
+    "song_artist": "Lana Del Rey", 
+    "favorite_count": 1, 
+    "uuid": "85FF0CA0-210E-44DB-8CE3-BBE9971DF662"
+}

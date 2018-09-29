@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-07T23:02:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044c74_3dfbb26160aa.ssng", 
+    "updated_at": "2016-06-14T11:44:49-04:00", 
+    "share_url": "https://a.sso.ng/1/3dfbb26160aa", 
+    "audio_url": "https://s02.sso.ng/1/000000044c74_3dfbb26160aa.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044c74_3dfbb26160aa_mr.jpg", 
+    "song_album": "The Eminem Show", 
+    "user": {
+        "username": "lynch2708", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "71c38c23-b197-4527-a354-d5bb8472cfc3"
+    }, 
+    "song_title": "Without Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044c74_3dfbb26160aa_th.jpg", 
+    "song_artist": "Eminem", 
+    "favorite_count": 4, 
+    "uuid": "6CDFAA28-00EC-4B6F-951F-8B731405C9D6"
+}

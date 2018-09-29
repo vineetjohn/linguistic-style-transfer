@@ -1,0 +1,27 @@
+{
+    "mood": "alone", 
+    "caption": "", 
+    "created_at": "2016-03-25T03:25:26-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fbd1_d704f8e4b037.ssng", 
+    "updated_at": "2016-03-30T03:20:01-04:00", 
+    "share_url": "https://a.sso.ng/1/d704f8e4b037", 
+    "audio_url": "https://s02.sso.ng/1/00000003fbd1_d704f8e4b037.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fbd1_d704f8e4b037_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ayurikkkaaa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "258eac39-7dba-4838-9e4d-f7609fc32a07"
+    }, 
+    "song_title": "G-Eazy Me, Myself & I - Lyrics [HD]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fbd1_d704f8e4b037_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "F7045C12-F600-4751-9D19-0AD546C40FC4"
+}

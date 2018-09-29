@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-11T18:09:41-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041257_e3a13e5affa4.ssng", 
+    "updated_at": "2016-04-12T16:04:49-04:00", 
+    "share_url": "https://a.sso.ng/1/e3a13e5affa4", 
+    "audio_url": "https://s02.sso.ng/1/000000041257_e3a13e5affa4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041257_e3a13e5affa4_mr.jpg", 
+    "song_album": "25", 
+    "user": {
+        "username": "Simplymecrissy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "74aad51f-a180-4296-bec7-1ce402d17abb"
+    }, 
+    "song_title": "Hello", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041257_e3a13e5affa4_th.jpg", 
+    "song_artist": "Adele", 
+    "favorite_count": 2, 
+    "uuid": "51A6A1FC-4F7C-482C-B696-3E468846F3BC"
+}

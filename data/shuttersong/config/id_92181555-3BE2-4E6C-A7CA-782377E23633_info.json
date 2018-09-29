@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo nombre de usuario en Youtube es FUNCHISWAG!!", 
+    "created_at": "2015-12-21T21:57:44-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037b15_4d258af0ec60_1.ssng", 
+    "updated_at": "2015-12-21T22:08:14-05:00", 
+    "share_url": "https://a.sso.ng/1/4d258af0ec60", 
+    "audio_url": "https://s01.sso.ng/1/000000037b15_4d258af0ec60_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037b15_4d258af0ec60_1_mr.jpg", 
+    "song_album": "Demi", 
+    "user": {
+        "username": "richisantana", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/300268b3-04c4-44ee-8614-c541227ee867.jpg", 
+        "id": "300268b3-04c4-44ee-8614-c541227ee867"
+    }, 
+    "song_title": "Neon Lights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037b15_4d258af0ec60_1_th.jpg", 
+    "song_artist": "Demi Lovato", 
+    "favorite_count": 1, 
+    "uuid": "92181555-3BE2-4E6C-A7CA-782377E23633"
+}

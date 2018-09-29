@@ -1,0 +1,27 @@
+{
+    "mood": "blah", 
+    "caption": "?", 
+    "created_at": "2016-02-23T19:17:02-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9be_9614feaadfa1.ssng", 
+    "updated_at": "2016-02-28T02:40:02-05:00", 
+    "share_url": "https://a.sso.ng/1/9614feaadfa1", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9be_9614feaadfa1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9be_9614feaadfa1_mr.jpg", 
+    "song_album": "Channel ORANGE", 
+    "user": {
+        "username": "ayyylukeyyy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jess Bichan", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/74f46d94-0b1a-4bda-93af-4c07c880389d.jpg", 
+        "id": "74f46d94-0b1a-4bda-93af-4c07c880389d"
+    }, 
+    "song_title": "Lost", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9be_9614feaadfa1_th.jpg", 
+    "song_artist": "Frank Ocean", 
+    "favorite_count": 5, 
+    "uuid": "47D93FAD-F2F2-407C-9F70-F3DB3049FDC6"
+}

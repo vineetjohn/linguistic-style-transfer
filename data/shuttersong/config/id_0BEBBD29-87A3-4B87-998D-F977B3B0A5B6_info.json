@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "One less problem without ya! ?", 
+    "created_at": "2015-08-22T21:56:48-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b640_d3f73f09b90b_1.ssng", 
+    "updated_at": "2015-08-23T05:23:10-04:00", 
+    "share_url": "https://a.sso.ng/1/d3f73f09b90b", 
+    "audio_url": "https://s01.sso.ng/1/00000002b640_d3f73f09b90b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b640_d3f73f09b90b_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "BrianPudding", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/44a095f5-afe2-4f9e-82a0-5eedf9481810.jpg", 
+        "id": "44a095f5-afe2-4f9e-82a0-5eedf9481810"
+    }, 
+    "song_title": "Problem (feat. Iggy Azalea)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b640_d3f73f09b90b_1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 2, 
+    "uuid": "0BEBBD29-87A3-4B87-998D-F977B3B0A5B6"
+}

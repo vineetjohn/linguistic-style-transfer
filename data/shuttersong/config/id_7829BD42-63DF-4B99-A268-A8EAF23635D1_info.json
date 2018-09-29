@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "this app is shit", 
+    "created_at": "2016-02-27T17:45:33-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1f2_c55896f9498b.ssng", 
+    "updated_at": "2016-06-20T18:20:06-04:00", 
+    "share_url": "https://a.sso.ng/1/c55896f9498b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1f2_c55896f9498b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1f2_c55896f9498b_mr.jpg", 
+    "song_album": "PILLOWTALK - Single", 
+    "user": {
+        "username": "vomitingbrooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "demi", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b5d5481e-1137-4d12-b193-76c50d1ded3c.jpg", 
+        "id": "b5d5481e-1137-4d12-b193-76c50d1ded3c"
+    }, 
+    "song_title": "PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1f2_c55896f9498b_th.jpg", 
+    "song_artist": "ZAYN", 
+    "favorite_count": 6, 
+    "uuid": "7829BD42-63DF-4B99-A268-A8EAF23635D1"
+}

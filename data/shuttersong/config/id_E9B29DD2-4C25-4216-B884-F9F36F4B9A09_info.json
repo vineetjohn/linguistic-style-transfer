@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Where are U now", 
+    "created_at": "2015-08-04T19:55:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000214cc_ac10aeb6fac6_1.ssng", 
+    "updated_at": "2016-05-26T04:46:43-04:00", 
+    "share_url": "https://a.sso.ng/1/ac10aeb6fac6", 
+    "audio_url": "https://s01.sso.ng/1/0000000214cc_ac10aeb6fac6_1.m4a", 
+    "comment_count": 9, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000214cc_ac10aeb6fac6_1_mr.jpg", 
+    "song_album": "Skrillex & Diplo Present Jack U", 
+    "user": {
+        "username": "Gerrix", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "German Petkevich", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f59c1828-d1ab-496d-ae48-28fd72d84ccc.jpg", 
+        "id": "f59c1828-d1ab-496d-ae48-28fd72d84ccc"
+    }, 
+    "song_title": "Where Are U Now (feat. Justin Bieber)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000214cc_ac10aeb6fac6_1_th.jpg", 
+    "song_artist": "Jack U", 
+    "favorite_count": 41, 
+    "uuid": "E9B29DD2-4C25-4216-B884-F9F36F4B9A09"
+}

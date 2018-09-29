@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-21T17:50:11-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041d4f_c4a8f6890ae5.ssng", 
+    "updated_at": "2016-04-23T13:40:58-04:00", 
+    "share_url": "https://a.sso.ng/1/c4a8f6890ae5", 
+    "audio_url": "https://s02.sso.ng/1/000000041d4f_c4a8f6890ae5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041d4f_c4a8f6890ae5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "reishanavya", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fc521663-4948-4430-8298-c8608a84d8a8"
+    }, 
+    "song_title": "somewhere over the rainbow", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041d4f_c4a8f6890ae5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "AB38A7FB-BB59-4974-94A6-7858B627FFCF"
+}

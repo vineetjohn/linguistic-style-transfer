@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-18T14:32:31-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f134_7de5fdf8e2fd.ssng", 
+    "updated_at": "2016-05-08T12:08:59-04:00", 
+    "share_url": "https://a.sso.ng/1/7de5fdf8e2fd", 
+    "audio_url": "https://s02.sso.ng/1/00000003f134_7de5fdf8e2fd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f134_7de5fdf8e2fd_mr.jpg", 
+    "song_album": "Nine Track Mind", 
+    "user": {
+        "username": "bing26", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b2c40c5b-a209-466c-b7fa-31227ac83109"
+    }, 
+    "song_title": "One Call Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f134_7de5fdf8e2fd_th.jpg", 
+    "song_artist": "Charlie Puth", 
+    "favorite_count": 1, 
+    "uuid": "471772F4-7ED7-4B56-B203-9E866D629602"
+}

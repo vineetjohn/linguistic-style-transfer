@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T07:20:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000205d5_dfbca4165a04.ssng", 
+    "updated_at": "2015-08-04T07:20:25-04:00", 
+    "share_url": "https://a.sso.ng/1/dfbca4165a04", 
+    "audio_url": "https://s01.sso.ng/1/0000000205d5_dfbca4165a04.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000205d5_dfbca4165a04_mr.jpg", 
+    "song_album": "Black Star Elephant", 
+    "user": {
+        "username": "cheleniak", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a490faa8-adfd-4633-94ec-aea8b2672759"
+    }, 
+    "song_title": "Am I Wrong", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000205d5_dfbca4165a04_th.jpg", 
+    "song_artist": "Nico & Vinz", 
+    "favorite_count": 1, 
+    "uuid": "1001ACD4-26DA-4E9C-B6B7-AFE920BEFFB3"
+}

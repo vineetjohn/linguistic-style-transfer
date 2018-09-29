@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T01:33:26-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000219da_fd0825a24a40.ssng", 
+    "updated_at": "2015-08-20T18:34:24-04:00", 
+    "share_url": "https://a.sso.ng/1/fd0825a24a40", 
+    "audio_url": "https://s01.sso.ng/1/0000000219da_fd0825a24a40.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000219da_fd0825a24a40_mr.jpg", 
+    "song_album": "My Beautiful Dark Twisted Fantasy", 
+    "user": {
+        "username": "brie.luciano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4e4ae252-bd7f-41b3-a054-1836a883616d.jpg", 
+        "id": "4e4ae252-bd7f-41b3-a054-1836a883616d"
+    }, 
+    "song_title": "All of the Lights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000219da_fd0825a24a40_th.jpg", 
+    "song_artist": "Kanye West", 
+    "favorite_count": 1, 
+    "uuid": "3B411F2A-17DF-4AC7-B30D-6497CE53F474"
+}

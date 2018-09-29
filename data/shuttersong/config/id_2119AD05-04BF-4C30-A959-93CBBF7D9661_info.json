@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T16:23:41-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a6a2_c764779646d3.ssng", 
+    "updated_at": "2015-08-31T22:49:24-04:00", 
+    "share_url": "https://a.sso.ng/1/c764779646d3", 
+    "audio_url": "https://s01.sso.ng/1/00000002a6a2_c764779646d3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a6a2_c764779646d3_mr.jpg", 
+    "song_album": "A hundred million suns", 
+    "user": {
+        "username": "GreciaAylin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a30668f7-2a50-4b22-b1b9-756ed65c193d.jpg", 
+        "id": "a30668f7-2a50-4b22-b1b9-756ed65c193d"
+    }, 
+    "song_title": "Crack the shutters", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a6a2_c764779646d3_th.jpg", 
+    "song_artist": "Snow Patrol", 
+    "favorite_count": 1, 
+    "uuid": "2119AD05-04BF-4C30-A959-93CBBF7D9661"
+}

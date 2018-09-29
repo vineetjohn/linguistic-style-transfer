@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#MARIALEREGALAUNIPHONE", 
+    "created_at": "2016-01-06T16:29:05-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c699_6a5c9ee88977.ssng", 
+    "updated_at": "2016-01-08T17:31:46-05:00", 
+    "share_url": "https://a.sso.ng/1/6a5c9ee88977", 
+    "audio_url": "https://s01.sso.ng/1/00000003c699_6a5c9ee88977.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c699_6a5c9ee88977_mr.jpg", 
+    "song_album": "One Way or Another (Teenage Kicks) - Single", 
+    "user": {
+        "username": "ximena2016", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "31e6f23a-aaee-4797-b808-b741590a1a21"
+    }, 
+    "song_title": "One Way or Another (Teenage Kicks)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c699_6a5c9ee88977_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 2, 
+    "uuid": "8D67A194-3FDF-4AAE-ABDF-47FB4A1F7842"
+}

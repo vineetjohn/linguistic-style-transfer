@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I'm in love with this goof\u2764\ufe0f", 
+    "created_at": "2015-10-04T11:08:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002175a_750621f65172.ssng", 
+    "updated_at": "2015-10-07T03:05:43-04:00", 
+    "share_url": "https://a.sso.ng/1/750621f65172", 
+    "audio_url": "https://s01.sso.ng/1/00000002175a_750621f65172.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002175a_750621f65172_mr.jpg", 
+    "song_album": "Groove - Single", 
+    "user": {
+        "username": "Gabbb193", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Johnson's Glasses", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/992bc256-9242-4581-8e78-2d905a5bac91.jpg", 
+        "id": "992bc256-9242-4581-8e78-2d905a5bac91"
+    }, 
+    "song_title": "Groove", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002175a_750621f65172_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "EDD44A1D-0D6C-4B8B-8EA6-E900FDB046A5"
+}

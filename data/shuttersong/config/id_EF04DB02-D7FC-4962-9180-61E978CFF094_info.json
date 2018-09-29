@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T19:33:46-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000026229_9823e7d18119.ssng", 
+    "updated_at": "2015-08-21T08:07:28-04:00", 
+    "share_url": "https://a.sso.ng/1/9823e7d18119", 
+    "audio_url": "https://s01.sso.ng/1/000000026229_9823e7d18119.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000026229_9823e7d18119_mr.jpg", 
+    "song_album": "11:11 - Single", 
+    "user": {
+        "username": "roselyn_14", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "46a9efa2-9d8a-489e-8b73-91625bef5175"
+    }, 
+    "song_title": "11:11", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000026229_9823e7d18119_th.jpg", 
+    "song_artist": "Austin Mahone", 
+    "favorite_count": 1, 
+    "uuid": "EF04DB02-D7FC-4962-9180-61E978CFF094"
+}

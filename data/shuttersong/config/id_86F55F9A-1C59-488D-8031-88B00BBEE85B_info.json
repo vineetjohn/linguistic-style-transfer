@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-29T13:52:47-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f57c_9180f9e8e183.ssng", 
+    "updated_at": "2016-01-04T02:03:32-05:00", 
+    "share_url": "https://a.sso.ng/1/9180f9e8e183", 
+    "audio_url": "https://s01.sso.ng/1/00000001f57c_9180f9e8e183.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f57c_9180f9e8e183_mr.jpg", 
+    "song_album": "Reba Duets", 
+    "user": {
+        "username": "ShaneGalloOfficial", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Shane", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5e82b07c-47ae-4cdd-8269-374f74e3446e.jpg", 
+        "id": "5e82b07c-47ae-4cdd-8269-374f74e3446e"
+    }, 
+    "song_title": "Does The Wind Still Blow In Oklahoma?", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f57c_9180f9e8e183_th.jpg", 
+    "song_artist": "Reba McEntire & Ronnie Dunn", 
+    "favorite_count": 3, 
+    "uuid": "86F55F9A-1C59-488D-8031-88B00BBEE85B"
+}

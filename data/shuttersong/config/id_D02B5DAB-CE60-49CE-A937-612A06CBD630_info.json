@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Museo Guggenheim ?", 
+    "created_at": "2015-09-02T12:10:36-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025e7e_0a83bc17f67e_1.ssng", 
+    "updated_at": "2015-09-02T14:53:33-04:00", 
+    "share_url": "https://a.sso.ng/1/0a83bc17f67e", 
+    "audio_url": "https://s01.sso.ng/1/000000025e7e_0a83bc17f67e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025e7e_0a83bc17f67e_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "alanis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/829a24e4-7fca-46b6-86fc-456bed470b8b.jpg", 
+        "id": "829a24e4-7fca-46b6-86fc-456bed470b8b"
+    }, 
+    "song_title": "Nota De Amor   Wisin Ft Carlos Vives y Daddy Yankee (LETRA)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025e7e_0a83bc17f67e_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "D02B5DAB-CE60-49CE-A937-612A06CBD630"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "that's just how we livin #friends #jackandjack #jackjohnson #jackgilinksy", 
+    "created_at": "2015-08-05T15:05:36-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021f5d_9ec4eb3f28fc_1.ssng", 
+    "updated_at": "2015-10-24T17:15:21-04:00", 
+    "share_url": "https://a.sso.ng/1/9ec4eb3f28fc", 
+    "audio_url": "https://s01.sso.ng/1/000000021f5d_9ec4eb3f28fc_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021f5d_9ec4eb3f28fc_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "halfmoonjulia", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "julia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fa3a0692-c699-450c-bea2-4e99c08e2d68.jpg", 
+        "id": "fa3a0692-c699-450c-bea2-4e99c08e2d68"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021f5d_9ec4eb3f28fc_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "0FCBCADC-DF81-44B8-A742-4107D8B9C9DD"
+}

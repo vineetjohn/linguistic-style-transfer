@@ -1,0 +1,27 @@
+{
+    "mood": "alone", 
+    "caption": "I see things clearly now", 
+    "created_at": "2016-03-15T21:19:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003b09b_1ebb466fff70.ssng", 
+    "updated_at": "2016-04-10T20:49:34-04:00", 
+    "share_url": "https://a.sso.ng/1/1ebb466fff70", 
+    "audio_url": "https://s02.sso.ng/1/00000003b09b_1ebb466fff70.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003b09b_1ebb466fff70_mr.jpg", 
+    "song_album": "Halfway - Single", 
+    "user": {
+        "username": "LailaJ", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c268d123-5136-4c09-8169-317147867329"
+    }, 
+    "song_title": "Halfway", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003b09b_1ebb466fff70_th.jpg", 
+    "song_artist": "S-8ighty", 
+    "favorite_count": 1, 
+    "uuid": "2BAC40DE-209A-46AA-AACA-CA723A96AA51"
+}

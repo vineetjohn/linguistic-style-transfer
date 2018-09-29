@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Bargain from Barneys Warehouse. Paul Smith scarf for $45. Bright colors for winter days.", 
+    "created_at": "2015-11-22T22:59:59-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000000002b_35024e1f62e4_1.ssng", 
+    "updated_at": "2016-01-01T02:48:01-05:00", 
+    "share_url": "https://a.sso.ng/1/35024e1f62e4", 
+    "audio_url": "https://s01.sso.ng/1/00000000002b_35024e1f62e4_1.m4a", 
+    "comment_count": 3, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000002b_35024e1f62e4_1_mr.jpg", 
+    "song_album": "Reflection (Deluxe)", 
+    "user": {
+        "username": "w", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "William", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0cae3ea0-2922-4a36-9a55-3fc5387033e5.jpg", 
+        "id": "0cae3ea0-2922-4a36-9a55-3fc5387033e5"
+    }, 
+    "song_title": "Worth It (feat. Kid Ink)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000002b_35024e1f62e4_1_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 20, 
+    "uuid": "6CDC7B7F-6700-4376-BE89-BBF2C9A0A543"
+}

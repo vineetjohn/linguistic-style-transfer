@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hear the sound of the music ?", 
+    "created_at": "2015-08-21T11:24:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025ca1_f8007d1b708e_1.ssng", 
+    "updated_at": "2015-08-21T22:02:47-04:00", 
+    "share_url": "https://a.sso.ng/1/f8007d1b708e", 
+    "audio_url": "https://s01.sso.ng/1/000000025ca1_f8007d1b708e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025ca1_f8007d1b708e_1_mr.jpg", 
+    "song_album": "Green Day", 
+    "user": {
+        "username": "Aliidogs", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8da79277-3729-427f-a7ce-80ef8c37160f"
+    }, 
+    "song_title": "Holiday", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025ca1_f8007d1b708e_1_th.jpg", 
+    "song_artist": "Green Day", 
+    "favorite_count": 2, 
+    "uuid": "E8DC773C-0D96-4F54-B314-0BC9F9730962"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "Dark", 
+    "caption": "", 
+    "created_at": "2016-02-12T05:34:21-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ec5d_1f9f8c1ff102.ssng", 
+    "updated_at": "2016-02-12T07:53:04-05:00", 
+    "share_url": "https://a.sso.ng/1/1f9f8c1ff102", 
+    "audio_url": "https://s02.sso.ng/1/00000003ec5d_1f9f8c1ff102.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ec5d_1f9f8c1ff102_mr.jpg", 
+    "song_album": "11.50MB", 
+    "user": {
+        "username": "jan0skyans", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/194dd54c-852c-43a1-a623-5a53ae981578.jpg", 
+        "id": "194dd54c-852c-43a1-a623-5a53ae981578"
+    }, 
+    "song_title": "Smells Like Teen Spirit", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ec5d_1f9f8c1ff102_th.jpg", 
+    "song_artist": "Nirvana", 
+    "favorite_count": 1, 
+    "uuid": "89F56C24-1F16-49C1-AC10-7EF5448D3F54"
+}

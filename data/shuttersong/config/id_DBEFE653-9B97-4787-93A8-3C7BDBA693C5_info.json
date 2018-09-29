@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YouTube: Eliana Valdez", 
+    "created_at": "2015-12-26T01:42:30-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000039394_f2ea29ca1772.ssng", 
+    "updated_at": "2015-12-26T02:00:27-05:00", 
+    "share_url": "https://a.sso.ng/1/f2ea29ca1772", 
+    "audio_url": "https://s01.sso.ng/1/000000039394_f2ea29ca1772.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000039394_f2ea29ca1772_mr.jpg", 
+    "song_album": "OneRepublic", 
+    "user": {
+        "username": "elianavaldezv", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1406cf51-278d-4884-af6f-2b2868e828f0.jpg", 
+        "id": "1406cf51-278d-4884-af6f-2b2868e828f0"
+    }, 
+    "song_title": "Counting Stars", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000039394_f2ea29ca1772_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "DBEFE653-9B97-4787-93A8-3C7BDBA693C5"
+}

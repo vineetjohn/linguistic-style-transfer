@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My hair journey phase 1", 
+    "created_at": "2015-08-04T12:51:44-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000218ef_d391932094fc_1.ssng", 
+    "updated_at": "2015-08-04T12:53:30-04:00", 
+    "share_url": "https://a.sso.ng/1/d391932094fc", 
+    "audio_url": "https://s01.sso.ng/1/0000000218ef_d391932094fc_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000218ef_d391932094fc_1_mr.jpg", 
+    "song_album": "Late Registration", 
+    "user": {
+        "username": "ldwaggoner", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fd324ced-ef9f-444b-8b3d-d37598f75c06"
+    }, 
+    "song_title": "Gold Digger", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000218ef_d391932094fc_1_th.jpg", 
+    "song_artist": "Kanye West", 
+    "favorite_count": 1, 
+    "uuid": "80A353A5-7EB1-4A15-9589-81BE73263EAD"
+}

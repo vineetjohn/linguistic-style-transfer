@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Testing my first Shuttersong", 
+    "created_at": "2016-04-15T00:36:30-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000415c6_ee97aaeafedf.ssng", 
+    "updated_at": "2016-04-15T01:01:48-04:00", 
+    "share_url": "https://a.sso.ng/1/ee97aaeafedf", 
+    "audio_url": "https://s02.sso.ng/1/0000000415c6_ee97aaeafedf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000415c6_ee97aaeafedf_mr.jpg", 
+    "song_album": "Matters to Me", 
+    "user": {
+        "username": "RusselWong607", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/773b4c13-83d0-4936-beb7-550f2cc41f6e.jpg", 
+        "id": "773b4c13-83d0-4936-beb7-550f2cc41f6e"
+    }, 
+    "song_title": "Dream Out Loud", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000415c6_ee97aaeafedf_th.jpg", 
+    "song_artist": "Connie Talbot", 
+    "favorite_count": 1, 
+    "uuid": "DE75E662-F6F7-4ABA-95B9-0CACE413FD33"
+}

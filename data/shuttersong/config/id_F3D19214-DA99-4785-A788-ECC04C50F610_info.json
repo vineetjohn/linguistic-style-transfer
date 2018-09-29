@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo @IvisAlePerezAguilar", 
+    "created_at": "2015-12-31T10:53:46-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037d7e_2336df533292.ssng", 
+    "updated_at": "2015-12-31T11:16:14-05:00", 
+    "share_url": "https://a.sso.ng/1/2336df533292", 
+    "audio_url": "https://s01.sso.ng/1/000000037d7e_2336df533292.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037d7e_2336df533292_mr.jpg", 
+    "song_album": "Timbiriche", 
+    "user": {
+        "username": "ivis23", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/41201baf-0f77-4e8d-9b2c-8122bd6c5d15.jpg", 
+        "id": "41201baf-0f77-4e8d-9b2c-8122bd6c5d15"
+    }, 
+    "song_title": "Mama", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037d7e_2336df533292_th.jpg", 
+    "song_artist": "LA BANDA TIMBIRICHE", 
+    "favorite_count": 1, 
+    "uuid": "F3D19214-DA99-4785-A788-ECC04C50F610"
+}

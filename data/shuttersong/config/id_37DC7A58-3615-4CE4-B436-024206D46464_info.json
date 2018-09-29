@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#?", 
+    "created_at": "2016-02-12T18:02:56-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea6a_17f70e6d0332.ssng", 
+    "updated_at": "2016-02-12T22:29:30-05:00", 
+    "share_url": "https://a.sso.ng/1/17f70e6d0332", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea6a_17f70e6d0332.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea6a_17f70e6d0332_mr.jpg", 
+    "song_album": "V (Deluxe Version)", 
+    "user": {
+        "username": "gina.janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce57dc3d-08d1-4494-af4a-c309a922ed35.jpg", 
+        "id": "ce57dc3d-08d1-4494-af4a-c309a922ed35"
+    }, 
+    "song_title": "Maps", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea6a_17f70e6d0332_th.jpg", 
+    "song_artist": "Maroon 5", 
+    "favorite_count": 2, 
+    "uuid": "37DC7A58-3615-4CE4-B436-024206D46464"
+}

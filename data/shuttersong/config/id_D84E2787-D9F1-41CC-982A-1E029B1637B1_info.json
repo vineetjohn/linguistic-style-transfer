@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "What do we do now?", 
+    "created_at": "2015-08-04T09:24:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000216fd_5341ddbc4959_1.ssng", 
+    "updated_at": "2015-08-04T09:26:06-04:00", 
+    "share_url": "https://a.sso.ng/1/5341ddbc4959", 
+    "audio_url": "https://s01.sso.ng/1/0000000216fd_5341ddbc4959_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000216fd_5341ddbc4959_1_mr.jpg", 
+    "song_album": "Distance - Single", 
+    "user": {
+        "username": "2turntdallas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bcda341a-ca18-41ef-9c0e-2fa5920fe99b.jpg", 
+        "id": "bcda341a-ca18-41ef-9c0e-2fa5920fe99b"
+    }, 
+    "song_title": "Distance", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000216fd_5341ddbc4959_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "D84E2787-D9F1-41CC-982A-1E029B1637B1"
+}

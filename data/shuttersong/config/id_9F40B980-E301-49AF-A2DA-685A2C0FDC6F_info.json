@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-26T10:57:09-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045f1f_928a2c8b22ea.ssng", 
+    "updated_at": "2016-06-27T03:53:34-04:00", 
+    "share_url": "https://a.sso.ng/1/928a2c8b22ea", 
+    "audio_url": "https://s02.sso.ng/1/000000045f1f_928a2c8b22ea.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045f1f_928a2c8b22ea_mr.jpg", 
+    "song_album": "[ AlegeMuzica.Info ]", 
+    "user": {
+        "username": "fabiiaaa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f9cd5785-e7b2-4fb4-82aa-9b092de3b7a0"
+    }, 
+    "song_title": "Carla's Dreams - Aripile ( Alin Dragan Remix )", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045f1f_928a2c8b22ea_th.jpg", 
+    "song_artist": "[ AlegeMuzica.Info ]", 
+    "favorite_count": 1, 
+    "uuid": "9F40B980-E301-49AF-A2DA-685A2C0FDC6F"
+}

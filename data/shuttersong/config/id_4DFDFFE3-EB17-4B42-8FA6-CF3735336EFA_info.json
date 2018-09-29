@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T18:57:50-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002506e_9d2fa84ac391.ssng", 
+    "updated_at": "2015-08-21T00:57:35-04:00", 
+    "share_url": "https://a.sso.ng/1/9d2fa84ac391", 
+    "audio_url": "https://s01.sso.ng/1/00000002506e_9d2fa84ac391.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002506e_9d2fa84ac391_mr.jpg", 
+    "song_album": "Legend (Remastered) [Bonus Tracks]", 
+    "user": {
+        "username": "barbaralara", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7a9789d5-b035-417b-ae96-cec3b87e4da6.jpg", 
+        "id": "7a9789d5-b035-417b-ae96-cec3b87e4da6"
+    }, 
+    "song_title": "Could You Be Loved", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002506e_9d2fa84ac391_th.jpg", 
+    "song_artist": "Bob Marley & The Wailers", 
+    "favorite_count": 3, 
+    "uuid": "4DFDFFE3-EB17-4B42-8FA6-CF3735336EFA"
+}

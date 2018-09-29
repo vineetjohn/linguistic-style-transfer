@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @gabygonzalez", 
+    "created_at": "2016-01-02T23:23:25-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000034255_8e374e60cadb.ssng", 
+    "updated_at": "2016-01-03T00:22:46-05:00", 
+    "share_url": "https://a.sso.ng/1/8e374e60cadb", 
+    "audio_url": "https://s01.sso.ng/1/000000034255_8e374e60cadb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000034255_8e374e60cadb_mr.jpg", 
+    "song_album": "1989 (Deluxe)", 
+    "user": {
+        "username": "gabygonzalez13_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gaby Gonzalez", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5806c213-1c37-4692-949b-3c9f5233d192.jpg", 
+        "id": "5806c213-1c37-4692-949b-3c9f5233d192"
+    }, 
+    "song_title": "New Romance", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000034255_8e374e60cadb_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "9122CB49-988C-4140-8197-A9924BE73A5F"
+}

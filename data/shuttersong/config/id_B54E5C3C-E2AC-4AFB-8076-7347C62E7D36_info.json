@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#jackandjack #jackjohnson", 
+    "created_at": "2015-08-04T19:49:20-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021b5b_1780d724c74f.ssng", 
+    "updated_at": "2015-10-24T17:00:49-04:00", 
+    "share_url": "https://a.sso.ng/1/1780d724c74f", 
+    "audio_url": "https://s01.sso.ng/1/000000021b5b_1780d724c74f.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021b5b_1780d724c74f_mr.jpg", 
+    "song_album": "Cold Hearted - Single", 
+    "user": {
+        "username": "cutiejohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/832f3984-944d-491f-8b73-c9f6377df728.jpg", 
+        "id": "832f3984-944d-491f-8b73-c9f6377df728"
+    }, 
+    "song_title": "Cold Hearted", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021b5b_1780d724c74f_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 5, 
+    "uuid": "B54E5C3C-E2AC-4AFB-8076-7347C62E7D36"
+}

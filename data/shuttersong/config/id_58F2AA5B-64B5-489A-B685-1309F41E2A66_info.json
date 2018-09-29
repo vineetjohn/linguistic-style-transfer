@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "hey #camerondallas", 
+    "created_at": "2016-02-19T11:34:56-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eca0_586596b72a00.ssng", 
+    "updated_at": "2016-02-19T18:57:27-05:00", 
+    "share_url": "https://a.sso.ng/1/586596b72a00", 
+    "audio_url": "https://s02.sso.ng/1/00000003eca0_586596b72a00.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eca0_586596b72a00_mr.jpg", 
+    "song_album": "Blue Neighbourhood - Musicfire.in", 
+    "user": {
+        "username": "mays", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/52f92a56-f83c-49cf-bb43-af3232c0ed39.jpg", 
+        "id": "52f92a56-f83c-49cf-bb43-af3232c0ed39"
+    }, 
+    "song_title": "Fools - Musicfire.in", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eca0_586596b72a00_th.jpg", 
+    "song_artist": "Troye Sivan/Musicfire.in", 
+    "favorite_count": 1, 
+    "uuid": "58F2AA5B-64B5-489A-B685-1309F41E2A66"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?\u2764\ufe0f", 
+    "created_at": "2015-08-04T23:28:08-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021789_aad46b3cd03a_1.ssng", 
+    "updated_at": "2015-12-31T06:43:09-05:00", 
+    "share_url": "https://a.sso.ng/1/aad46b3cd03a", 
+    "audio_url": "https://s01.sso.ng/1/000000021789_aad46b3cd03a_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021789_aad46b3cd03a_1_mr.jpg", 
+    "song_album": "Believe", 
+    "user": {
+        "username": "MaddyCapetillo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c3426554-72d7-4bf8-a708-1c919933e8da.jpg", 
+        "id": "c3426554-72d7-4bf8-a708-1c919933e8da"
+    }, 
+    "song_title": "Beauty And A Beat", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021789_aad46b3cd03a_1_th.jpg", 
+    "song_artist": "Justin Bieber Feat. Nicki Minaj", 
+    "favorite_count": 11, 
+    "uuid": "BAA54861-57E0-45BE-B11C-F8865B55363F"
+}

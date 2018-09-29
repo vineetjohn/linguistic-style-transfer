@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Happy Monday!!!?", 
+    "created_at": "2015-08-17T13:48:14-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002430e_1c36d355ecb2_1.ssng", 
+    "updated_at": "2015-08-17T15:48:32-04:00", 
+    "share_url": "https://a.sso.ng/1/1c36d355ecb2", 
+    "audio_url": "https://s01.sso.ng/1/00000002430e_1c36d355ecb2_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002430e_1c36d355ecb2_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "Julie._", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Julie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f5d17284-e49b-41cc-8632-a6471deb282a.jpg", 
+        "id": "f5d17284-e49b-41cc-8632-a6471deb282a"
+    }, 
+    "song_title": "Something Big", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002430e_1c36d355ecb2_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "65BFF639-AF11-447C-B84C-5052F42E4298"
+}

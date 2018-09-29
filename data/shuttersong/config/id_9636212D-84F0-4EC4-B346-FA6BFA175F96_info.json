@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-13T23:56:24-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043340_d20a5dbe118b.ssng", 
+    "updated_at": "2016-05-19T18:00:09-04:00", 
+    "share_url": "https://a.sso.ng/1/d20a5dbe118b", 
+    "audio_url": "https://s02.sso.ng/1/000000043340_d20a5dbe118b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043340_d20a5dbe118b_mr.jpg", 
+    "song_album": "A Moon Shaped Pool", 
+    "user": {
+        "username": "zsww685", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8f4af7d7-7047-4fff-9d81-c08851c5e660"
+    }, 
+    "song_title": "Burn the Witch", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043340_d20a5dbe118b_th.jpg", 
+    "song_artist": "Radiohead", 
+    "favorite_count": 2, 
+    "uuid": "9636212D-84F0-4EC4-B346-FA6BFA175F96"
+}

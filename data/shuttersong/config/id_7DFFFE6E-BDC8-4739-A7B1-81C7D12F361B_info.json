@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "One week and lets go to the ocean!!!", 
+    "created_at": "2015-08-21T10:56:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029354_38f84c679c3f_1.ssng", 
+    "updated_at": "2015-08-22T23:38:46-04:00", 
+    "share_url": "https://a.sso.ng/1/38f84c679c3f", 
+    "audio_url": "https://s01.sso.ng/1/000000029354_38f84c679c3f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029354_38f84c679c3f_1_mr.jpg", 
+    "song_album": "summer", 
+    "user": {
+        "username": "gloriafdz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gloria", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/00e7c961-014a-4a81-bfda-3683e2ccaebb.jpg", 
+        "id": "00e7c961-014a-4a81-bfda-3683e2ccaebb"
+    }, 
+    "song_title": "summer", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029354_38f84c679c3f_1_th.jpg", 
+    "song_artist": "Calvin Harris", 
+    "favorite_count": 5, 
+    "uuid": "7DFFFE6E-BDC8-4739-A7B1-81C7D12F361B"
+}

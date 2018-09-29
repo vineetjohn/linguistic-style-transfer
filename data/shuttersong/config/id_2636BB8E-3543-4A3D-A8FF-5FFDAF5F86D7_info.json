@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@brooksluke", 
+    "created_at": "2016-02-13T21:43:35-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e82c_bd4bf17f378a.ssng", 
+    "updated_at": "2016-02-14T18:40:07-05:00", 
+    "share_url": "https://a.sso.ng/1/bd4bf17f378a", 
+    "audio_url": "https://s02.sso.ng/1/00000003e82c_bd4bf17f378a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e82c_bd4bf17f378a_mr.jpg", 
+    "song_album": "SremmLife", 
+    "user": {
+        "username": "lukespindick", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/28c78f9a-2c2e-4cbd-ab8f-a80cbd725372.jpg", 
+        "id": "28c78f9a-2c2e-4cbd-ab8f-a80cbd725372"
+    }, 
+    "song_title": "Come Get Her", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e82c_bd4bf17f378a_th.jpg", 
+    "song_artist": "Rae Sremmurd", 
+    "favorite_count": 3, 
+    "uuid": "2636BB8E-3543-4A3D-A8FF-5FFDAF5F86D7"
+}

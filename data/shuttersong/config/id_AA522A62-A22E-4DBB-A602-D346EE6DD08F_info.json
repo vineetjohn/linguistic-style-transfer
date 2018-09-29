@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I love you @beaub", 
+    "created_at": "2016-06-20T16:27:33-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3f2_8eeb6084824f.ssng", 
+    "updated_at": "2016-06-20T23:12:22-04:00", 
+    "share_url": "https://a.sso.ng/1/8eeb6084824f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3f2_8eeb6084824f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3f2_8eeb6084824f_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "AvaSaldana96", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ayeee_Vahhh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c860f132-e54d-4498-99e1-bac87ee33c31.jpg", 
+        "id": "c860f132-e54d-4498-99e1-bac87ee33c31"
+    }, 
+    "song_title": "Best Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3f2_8eeb6084824f_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "AA522A62-A22E-4DBB-A602-D346EE6DD08F"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "bored", 
+    "caption": "Won't you stay till the AM", 
+    "created_at": "2016-05-23T12:12:55-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ee7f_0288e22ab7b7.ssng", 
+    "updated_at": "2016-05-24T01:36:26-04:00", 
+    "share_url": "https://a.sso.ng/1/0288e22ab7b7", 
+    "audio_url": "https://s02.sso.ng/1/00000003ee7f_0288e22ab7b7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ee7f_0288e22ab7b7_mr.jpg", 
+    "song_album": "Made In The A.M. [Deluxe Edition]", 
+    "user": {
+        "username": "sam_ara", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Samara", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/103b1c49-03eb-499f-9580-88ce7e15d89c.jpg", 
+        "id": "103b1c49-03eb-499f-9580-88ce7e15d89c"
+    }, 
+    "song_title": "A.M.", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ee7f_0288e22ab7b7_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 2, 
+    "uuid": "2F4DBF5B-D95D-43AC-B9F1-DC2222E86BB5"
+}

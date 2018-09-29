@@ -1,0 +1,27 @@
+{
+    "mood": "lonely", 
+    "caption": "", 
+    "created_at": "2016-04-10T03:57:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040ee5_c74e4e917f1a.ssng", 
+    "updated_at": "2016-04-23T14:37:15-04:00", 
+    "share_url": "https://a.sso.ng/1/c74e4e917f1a", 
+    "audio_url": "https://s02.sso.ng/1/000000040ee5_c74e4e917f1a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040ee5_c74e4e917f1a_mr.jpg", 
+    "song_album": "I like it when you sleep, for you are so beautiful yet so unaware of it", 
+    "user": {
+        "username": "lavlexi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "lexi", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/14a4407c-a22b-4db8-b1bb-64cbad12508c.jpg", 
+        "id": "14a4407c-a22b-4db8-b1bb-64cbad12508c"
+    }, 
+    "song_title": "Somebody Else", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040ee5_c74e4e917f1a_th.jpg", 
+    "song_artist": "The 1975", 
+    "favorite_count": 3, 
+    "uuid": "84B73AE6-28DB-4F68-A4CF-260B77892DF8"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2728", 
+    "created_at": "2016-01-10T11:11:58-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b3d8_104aa8a80ca1.ssng", 
+    "updated_at": "2016-01-20T16:35:52-05:00", 
+    "share_url": "https://a.sso.ng/1/104aa8a80ca1", 
+    "audio_url": "https://s01.sso.ng/1/00000003b3d8_104aa8a80ca1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b3d8_104aa8a80ca1_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "saracantuc", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a89e3533-a869-47bd-ad4e-5459094fbcce.jpg", 
+        "id": "a89e3533-a869-47bd-ad4e-5459094fbcce"
+    }, 
+    "song_title": "Sorry", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b3d8_104aa8a80ca1_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "2FC8F291-E247-4F83-B75F-F68FF3D3C855"
+}

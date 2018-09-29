@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T09:43:52-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002915c_4bd74cccf004.ssng", 
+    "updated_at": "2015-08-22T11:36:16-04:00", 
+    "share_url": "https://a.sso.ng/1/4bd74cccf004", 
+    "audio_url": "https://s01.sso.ng/1/00000002915c_4bd74cccf004.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002915c_4bd74cccf004_mr.jpg", 
+    "song_album": "1989", 
+    "user": {
+        "username": "XimenaMerideth", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7a5d5f3b-18ca-45b4-9bf6-5ee8cbeb7e74.jpg", 
+        "id": "7a5d5f3b-18ca-45b4-9bf6-5ee8cbeb7e74"
+    }, 
+    "song_title": "Shake It Off", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002915c_4bd74cccf004_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "3A81FDF3-E13C-40A3-B608-3C5875DC6C78"
+}

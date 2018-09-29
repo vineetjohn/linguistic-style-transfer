@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-02T15:22:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bbb3_1f3df941b6ac.ssng", 
+    "updated_at": "2016-01-02T20:03:30-05:00", 
+    "share_url": "https://a.sso.ng/1/1f3df941b6ac", 
+    "audio_url": "https://s01.sso.ng/1/00000003bbb3_1f3df941b6ac.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bbb3_1f3df941b6ac_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Trafal.guy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c8f64495-e495-45ac-a36f-12217be9adee.jpg", 
+        "id": "c8f64495-e495-45ac-a36f-12217be9adee"
+    }, 
+    "song_title": "Melanie Martinez - Pity Party (KXA Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bbb3_1f3df941b6ac_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "59A4957B-D358-4178-AC65-32989EB34BA7"
+}

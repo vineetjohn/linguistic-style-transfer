@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-05T14:36:24-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000002f573_0e66472bd1e5.ssng", 
+    "updated_at": "2016-06-06T16:34:15-04:00", 
+    "share_url": "https://a.sso.ng/1/0e66472bd1e5", 
+    "audio_url": "https://s02.sso.ng/1/00000002f573_0e66472bd1e5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002f573_0e66472bd1e5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Charry42", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/04add63c-b74d-4ea0-a322-01ec4de08f01.jpg", 
+        "id": "04add63c-b74d-4ea0-a322-01ec4de08f01"
+    }, 
+    "song_title": "Into You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002f573_0e66472bd1e5_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "52B01902-CAA2-4CF3-8B5F-32FF086B7DEA"
+}

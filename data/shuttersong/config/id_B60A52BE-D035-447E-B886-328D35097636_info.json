@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-30T08:42:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004013e_44433320ff17.ssng", 
+    "updated_at": "2016-04-30T21:42:38-04:00", 
+    "share_url": "https://a.sso.ng/1/44433320ff17", 
+    "audio_url": "https://s02.sso.ng/1/00000004013e_44433320ff17.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004013e_44433320ff17_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "sarahcalvert", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sarah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d843c873-aa47-4255-a232-2aeb8b6f34be.jpg", 
+        "id": "d843c873-aa47-4255-a232-2aeb8b6f34be"
+    }, 
+    "song_title": "All The Small Things", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004013e_44433320ff17_th.jpg", 
+    "song_artist": "Blink 182", 
+    "favorite_count": 3, 
+    "uuid": "B60A52BE-D035-447E-B886-328D35097636"
+}

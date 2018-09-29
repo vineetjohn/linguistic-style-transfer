@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Competed the colour run today", 
+    "created_at": "2016-06-12T16:55:25-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e359_3d0e69a76981.ssng", 
+    "updated_at": "2016-06-14T08:07:45-04:00", 
+    "share_url": "https://a.sso.ng/1/3d0e69a76981", 
+    "audio_url": "https://s02.sso.ng/1/00000003e359_3d0e69a76981.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e359_3d0e69a76981_mr.jpg", 
+    "song_album": "Good Girl Gone Bad [UK]", 
+    "user": {
+        "username": "woahshalni", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Shalni", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a1734907-5cee-4007-8d01-c9a542a3f864.jpg", 
+        "id": "a1734907-5cee-4007-8d01-c9a542a3f864"
+    }, 
+    "song_title": "Shut Up And Drive", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e359_3d0e69a76981_th.jpg", 
+    "song_artist": "Rihanna", 
+    "favorite_count": 1, 
+    "uuid": "0A326860-42DB-46C8-8482-C66DFBFD07CA"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Love my little sister\u2764\ufe0f", 
+    "created_at": "2015-08-12T17:27:24-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000023809_07f93bb155bd_1.ssng", 
+    "updated_at": "2015-08-14T09:44:08-04:00", 
+    "share_url": "https://a.sso.ng/1/07f93bb155bd", 
+    "audio_url": "https://s01.sso.ng/1/000000023809_07f93bb155bd_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000023809_07f93bb155bd_1_mr.jpg", 
+    "song_album": "Living Room", 
+    "user": {
+        "username": "fiercetin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kirstin Pace", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/39fcb97e-a053-4694-a339-78abd9388835.jpg", 
+        "id": "39fcb97e-a053-4694-a339-78abd9388835"
+    }, 
+    "song_title": "I'm Ready", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000023809_07f93bb155bd_1_th.jpg", 
+    "song_artist": "AJR", 
+    "favorite_count": 1, 
+    "uuid": "B20AC5C8-8B40-46AD-ACF7-5EA10CB00234"
+}

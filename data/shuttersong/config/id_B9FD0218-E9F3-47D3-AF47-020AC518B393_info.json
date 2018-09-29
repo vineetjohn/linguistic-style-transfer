@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-14T14:58:16-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000310c0_1744950786ee.ssng", 
+    "updated_at": "2015-12-18T14:17:57-05:00", 
+    "share_url": "https://a.sso.ng/1/1744950786ee", 
+    "audio_url": "https://s01.sso.ng/1/0000000310c0_1744950786ee.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000310c0_1744950786ee_mr.jpg", 
+    "song_album": "What Do You Mean? - Single", 
+    "user": {
+        "username": "idkmichelle", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "29f7fcb0-b672-4287-aafe-e313fb24c220"
+    }, 
+    "song_title": "What Do You Mean?", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000310c0_1744950786ee_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "B9FD0218-E9F3-47D3-AF47-020AC518B393"
+}

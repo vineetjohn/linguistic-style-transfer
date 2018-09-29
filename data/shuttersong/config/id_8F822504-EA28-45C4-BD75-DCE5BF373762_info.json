@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-25T20:57:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002caae_bb0c5d01bc49.ssng", 
+    "updated_at": "2015-08-25T23:31:20-04:00", 
+    "share_url": "https://a.sso.ng/1/bb0c5d01bc49", 
+    "audio_url": "https://s01.sso.ng/1/00000002caae_bb0c5d01bc49.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002caae_bb0c5d01bc49_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "stephyb", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3e539a79-20c9-4eb7-ab6c-b07cb00617b0.jpg", 
+        "id": "3e539a79-20c9-4eb7-ab6c-b07cb00617b0"
+    }, 
+    "song_title": "Sleep Like a Baby Tonight", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002caae_bb0c5d01bc49_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 2, 
+    "uuid": "8F822504-EA28-45C4-BD75-DCE5BF373762"
+}

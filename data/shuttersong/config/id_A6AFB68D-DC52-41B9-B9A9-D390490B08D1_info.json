@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YouTube: Kike Armijo", 
+    "created_at": "2015-12-29T12:35:39-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000026df9_9b15474b0810.ssng", 
+    "updated_at": "2015-12-29T13:09:31-05:00", 
+    "share_url": "https://a.sso.ng/1/9b15474b0810", 
+    "audio_url": "https://s01.sso.ng/1/000000026df9_9b15474b0810.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000026df9_9b15474b0810_mr.jpg", 
+    "song_album": "Under The Mistletoe", 
+    "user": {
+        "username": "KikeArmijo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kike Armijo", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/83cb1e60-a0b7-4b74-96dc-a6c17dd8a7ae.jpg", 
+        "id": "83cb1e60-a0b7-4b74-96dc-a6c17dd8a7ae"
+    }, 
+    "song_title": "All I Want For Christmas Is You (ft. Mariah Carey)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000026df9_9b15474b0810_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "A6AFB68D-DC52-41B9-B9A9-D390490B08D1"
+}

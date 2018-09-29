@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "GO BUY CALIBRASKA ON ITUNES!", 
+    "created_at": "2015-08-03T23:05:38-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020725_5f54b7ff54c9_1.ssng", 
+    "updated_at": "2015-08-03T23:06:48-04:00", 
+    "share_url": "https://a.sso.ng/1/5f54b7ff54c9", 
+    "audio_url": "https://s01.sso.ng/1/000000020725_5f54b7ff54c9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020725_5f54b7ff54c9_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "dahlia.litt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "01d4d390-b11f-45e5-a151-93e5ce74268b"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020725_5f54b7ff54c9_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "92C6B195-8526-44F3-9F00-5E1B0D23C9B8"
+}

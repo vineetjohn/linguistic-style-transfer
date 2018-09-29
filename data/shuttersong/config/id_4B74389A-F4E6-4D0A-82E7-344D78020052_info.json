@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-03-14T11:15:54-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fbdf_ffc899feee25.ssng", 
+    "updated_at": "2016-05-07T10:55:07-04:00", 
+    "share_url": "https://a.sso.ng/1/ffc899feee25", 
+    "audio_url": "https://s02.sso.ng/1/00000003fbdf_ffc899feee25.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fbdf_ffc899feee25_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "nprakasita", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d3e12ae4-9219-4d61-b31c-b98745afe6e8.jpg", 
+        "id": "d3e12ae4-9219-4d61-b31c-b98745afe6e8"
+    }, 
+    "song_title": "habits-of-my-heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fbdf_ffc899feee25_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "4B74389A-F4E6-4D0A-82E7-344D78020052"
+}

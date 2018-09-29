@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#selfie", 
+    "created_at": "2015-08-08T09:21:54-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022d3b_36f1e3652e1e.ssng", 
+    "updated_at": "2015-10-24T22:32:28-04:00", 
+    "share_url": "https://a.sso.ng/1/36f1e3652e1e", 
+    "audio_url": "https://s01.sso.ng/1/000000022d3b_36f1e3652e1e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022d3b_36f1e3652e1e_mr.jpg", 
+    "song_album": "Euphoria (Deluxe Edition)", 
+    "user": {
+        "username": "tigerlilly0509", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e442fd42-887a-4379-b7fd-618832b4abcf.jpg", 
+        "id": "e442fd42-887a-4379-b7fd-618832b4abcf"
+    }, 
+    "song_title": "I Like It (feat. Pitbull)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022d3b_36f1e3652e1e_th.jpg", 
+    "song_artist": "Enrique Iglesias", 
+    "favorite_count": 1, 
+    "uuid": "256F6107-EDA8-4B58-9665-4120AFBD3A9E"
+}

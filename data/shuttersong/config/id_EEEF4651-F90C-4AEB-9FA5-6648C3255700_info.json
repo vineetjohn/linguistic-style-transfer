@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T02:19:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002136d_1b0daf3a2ba3.ssng", 
+    "updated_at": "2015-08-04T02:19:39-04:00", 
+    "share_url": "https://a.sso.ng/1/1b0daf3a2ba3", 
+    "audio_url": "https://s01.sso.ng/1/00000002136d_1b0daf3a2ba3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002136d_1b0daf3a2ba3_mr.jpg", 
+    "song_album": "Kicker", 
+    "user": {
+        "username": "Annaswanson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "40d59252-2aee-4de7-8fb2-6b56e2d1e456"
+    }, 
+    "song_title": "Ace of Hearts", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002136d_1b0daf3a2ba3_th.jpg", 
+    "song_artist": "Zella Day", 
+    "favorite_count": 1, 
+    "uuid": "EEEF4651-F90C-4AEB-9FA5-6648C3255700"
+}

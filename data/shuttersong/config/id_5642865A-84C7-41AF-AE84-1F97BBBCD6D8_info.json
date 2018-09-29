@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Throwback to my flight when I got this awesome picture over Boston", 
+    "created_at": "2015-08-04T03:39:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000213a1_05e1e59ce401_1.ssng", 
+    "updated_at": "2015-08-04T03:40:35-04:00", 
+    "share_url": "https://a.sso.ng/1/05e1e59ce401", 
+    "audio_url": "https://s01.sso.ng/1/0000000213a1_05e1e59ce401_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000213a1_05e1e59ce401_1_mr.jpg", 
+    "song_album": "Flights - Single", 
+    "user": {
+        "username": "juliegarrett", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Julie Garrett", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7331fd99-1ace-44ec-ab90-5dc09bd7a82b.jpg", 
+        "id": "7331fd99-1ace-44ec-ab90-5dc09bd7a82b"
+    }, 
+    "song_title": "Flights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000213a1_05e1e59ce401_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "5642865A-84C7-41AF-AE84-1F97BBBCD6D8"
+}

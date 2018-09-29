@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "LOVE MY LANE", 
+    "created_at": "2016-06-20T18:32:28-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3f2_a47a7d02f790.ssng", 
+    "updated_at": "2016-06-23T14:14:00-04:00", 
+    "share_url": "https://a.sso.ng/1/a47a7d02f790", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3f2_a47a7d02f790.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3f2_a47a7d02f790_mr.jpg", 
+    "song_album": "Take Me Home", 
+    "user": {
+        "username": "AvaSaldana96", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ayeee_Vahhh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c860f132-e54d-4498-99e1-bac87ee33c31.jpg", 
+        "id": "c860f132-e54d-4498-99e1-bac87ee33c31"
+    }, 
+    "song_title": "I Would", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3f2_a47a7d02f790_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 7, 
+    "uuid": "B42ED401-891A-4E0C-9F4F-3ABD9724B233"
+}

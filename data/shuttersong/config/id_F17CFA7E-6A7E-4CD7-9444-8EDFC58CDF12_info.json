@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??Bang bang??", 
+    "created_at": "2015-08-21T11:15:26-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000293e0_847216660f5b_1.ssng", 
+    "updated_at": "2015-08-22T03:41:39-04:00", 
+    "share_url": "https://a.sso.ng/1/847216660f5b", 
+    "audio_url": "https://s01.sso.ng/1/0000000293e0_847216660f5b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000293e0_847216660f5b_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "emily_wong97", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09ab62f2-80cf-4d13-b020-f98946ac7ebd.jpg", 
+        "id": "09ab62f2-80cf-4d13-b020-f98946ac7ebd"
+    }, 
+    "song_title": "Bang Bang", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000293e0_847216660f5b_1_th.jpg", 
+    "song_artist": "Jessie J, Ariana Grande & Nicki Minaj", 
+    "favorite_count": 1, 
+    "uuid": "F17CFA7E-6A7E-4CD7-9444-8EDFC58CDF12"
+}

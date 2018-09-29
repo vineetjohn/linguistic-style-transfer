@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-13T14:38:36-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000432dd_efb144e80ee3.ssng", 
+    "updated_at": "2016-05-13T20:07:19-04:00", 
+    "share_url": "https://a.sso.ng/1/efb144e80ee3", 
+    "audio_url": "https://s02.sso.ng/1/0000000432dd_efb144e80ee3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000432dd_efb144e80ee3_mr.jpg", 
+    "song_album": "18 Candles: The Early Years", 
+    "user": {
+        "username": "haleymarie0512", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0648ec83-6eee-49f9-a314-d661e483ee0b"
+    }, 
+    "song_title": "Call It Karma (Acoustic)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000432dd_efb144e80ee3_th.jpg", 
+    "song_artist": "Silverstein", 
+    "favorite_count": 1, 
+    "uuid": "A62712D1-8874-4149-A4C3-7B3C483082B1"
+}

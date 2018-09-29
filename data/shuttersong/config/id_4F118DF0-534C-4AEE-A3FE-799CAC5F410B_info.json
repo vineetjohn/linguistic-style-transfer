@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-31T14:00:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024017_0aaff1af0e90.ssng", 
+    "updated_at": "2015-08-31T21:34:00-04:00", 
+    "share_url": "https://a.sso.ng/1/0aaff1af0e90", 
+    "audio_url": "https://s01.sso.ng/1/000000024017_0aaff1af0e90.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024017_0aaff1af0e90_mr.jpg", 
+    "song_album": "Chase Dreams", 
+    "user": {
+        "username": "XxVictoriaxX", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a53be5b8-e78f-4c6f-8917-77cf1826f6d2.jpg", 
+        "id": "a53be5b8-e78f-4c6f-8917-77cf1826f6d2"
+    }, 
+    "song_title": "Do My Step (feat. P-Lo & Iamsu!)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024017_0aaff1af0e90_th.jpg", 
+    "song_artist": "Kalin and Myles", 
+    "favorite_count": 1, 
+    "uuid": "4F118DF0-534C-4AEE-A3FE-799CAC5F410B"
+}

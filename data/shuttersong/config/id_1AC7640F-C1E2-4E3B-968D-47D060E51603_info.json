@@ -1,0 +1,27 @@
+{
+    "mood": "annoyed", 
+    "caption": "im thinking its time to make some big changes", 
+    "created_at": "2016-04-28T18:58:06-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f24f_8dd93f62c266.ssng", 
+    "updated_at": "2016-04-30T21:42:54-04:00", 
+    "share_url": "https://a.sso.ng/1/8dd93f62c266", 
+    "audio_url": "https://s02.sso.ng/1/00000003f24f_8dd93f62c266.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f24f_8dd93f62c266_mr.jpg", 
+    "song_album": "American Hi-Fi", 
+    "user": {
+        "username": "katty511", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Kat Adams ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8c7bb89c-db50-434e-ac24-3a78dd501574.jpg", 
+        "id": "8c7bb89c-db50-434e-ac24-3a78dd501574"
+    }, 
+    "song_title": "Flavor of the Weak", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f24f_8dd93f62c266_th.jpg", 
+    "song_artist": "American Hi-Fi", 
+    "favorite_count": 4, 
+    "uuid": "1AC7640F-C1E2-4E3B-968D-47D060E51603"
+}

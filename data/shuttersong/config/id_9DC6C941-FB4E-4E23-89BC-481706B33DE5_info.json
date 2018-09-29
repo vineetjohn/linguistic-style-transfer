@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2728??????", 
+    "created_at": "2015-08-26T22:32:55-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000212ea_a7b4fb1a0014_1.ssng", 
+    "updated_at": "2015-08-27T02:12:58-04:00", 
+    "share_url": "https://a.sso.ng/1/a7b4fb1a0014", 
+    "audio_url": "https://s01.sso.ng/1/0000000212ea_a7b4fb1a0014_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000212ea_a7b4fb1a0014_1_mr.jpg", 
+    "song_album": "AM", 
+    "user": {
+        "username": "JackJsBoner", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/16e66a20-70b5-4ec1-aa8d-846ed228bad1.jpg", 
+        "id": "16e66a20-70b5-4ec1-aa8d-846ed228bad1"
+    }, 
+    "song_title": "Do I Wanna Know?", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000212ea_a7b4fb1a0014_1_th.jpg", 
+    "song_artist": "Arctic Monkeys", 
+    "favorite_count": 1, 
+    "uuid": "9DC6C941-FB4E-4E23-89BC-481706B33DE5"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-09T23:02:48-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000000e1cd_fd629db7c790.ssng", 
+    "updated_at": "2015-08-10T02:06:20-04:00", 
+    "share_url": "https://a.sso.ng/1/fd629db7c790", 
+    "audio_url": "https://s01.sso.ng/1/00000000e1cd_fd629db7c790.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000e1cd_fd629db7c790_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "monmon", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "eae8ab6a-4a6c-4344-9a9b-f19580801e4d"
+    }, 
+    "song_title": "Hold my hand", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000e1cd_fd629db7c790_th.jpg", 
+    "song_artist": "Jess Glynne", 
+    "favorite_count": 3, 
+    "uuid": "9D13F685-60DB-41E1-8314-ED557A6EE876"
+}

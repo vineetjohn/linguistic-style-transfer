@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-02T21:27:30-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003db0b_15b56138ac66.ssng", 
+    "updated_at": "2016-02-04T21:38:54-05:00", 
+    "share_url": "https://a.sso.ng/1/15b56138ac66", 
+    "audio_url": "https://s02.sso.ng/1/00000003db0b_15b56138ac66.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003db0b_15b56138ac66_mr.jpg", 
+    "song_album": "Fallen", 
+    "user": {
+        "username": "thelasthoodless", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d677f614-8002-4546-8997-5587dffb8c38"
+    }, 
+    "song_title": "Going Under", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003db0b_15b56138ac66_th.jpg", 
+    "song_artist": "Evanescence", 
+    "favorite_count": 2, 
+    "uuid": "FDCEDDC3-2EC9-484F-B465-2E11540BEB3E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hehe new vid I loved it?", 
+    "created_at": "2016-02-27T23:38:41-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e832_0e9e3cea5b87.ssng", 
+    "updated_at": "2016-03-01T03:42:13-05:00", 
+    "share_url": "https://a.sso.ng/1/0e9e3cea5b87", 
+    "audio_url": "https://s02.sso.ng/1/00000003e832_0e9e3cea5b87.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e832_0e9e3cea5b87_mr.jpg", 
+    "song_album": "All I Want 4 Christmas - Single", 
+    "user": {
+        "username": "Skipping_jai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Janoskians", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/17c0a951-8e47-40ae-bc15-9c3d03e7390e.jpg", 
+        "id": "17c0a951-8e47-40ae-bc15-9c3d03e7390e"
+    }, 
+    "song_title": "All I Want 4 Christmas", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e832_0e9e3cea5b87_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "6F4AC964-D3F5-49EB-AC66-2EC092E0DC74"
+}

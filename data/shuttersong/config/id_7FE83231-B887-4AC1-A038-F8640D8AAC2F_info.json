@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-03-28T06:28:06-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000039972_c2e6b55f0534.ssng", 
+    "updated_at": "2016-03-28T07:59:39-04:00", 
+    "share_url": "https://a.sso.ng/1/c2e6b55f0534", 
+    "audio_url": "https://s02.sso.ng/1/000000039972_c2e6b55f0534.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000039972_c2e6b55f0534_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "tim", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ab549f61-7c3b-482b-8b01-6b4d7c553029.jpg", 
+        "id": "ab549f61-7c3b-482b-8b01-6b4d7c553029"
+    }, 
+    "song_title": "BOOMIN", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000039972_c2e6b55f0534_th.jpg", 
+    "song_artist": "BLVC SVND X OSHI", 
+    "favorite_count": 1, 
+    "uuid": "7FE83231-B887-4AC1-A038-F8640D8AAC2F"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "????", 
+    "created_at": "2016-02-25T15:26:55-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e6ba_e28038baf887.ssng", 
+    "updated_at": "2016-02-28T04:11:22-05:00", 
+    "share_url": "https://a.sso.ng/1/e28038baf887", 
+    "audio_url": "https://s02.sso.ng/1/00000003e6ba_e28038baf887.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e6ba_e28038baf887_mr.jpg", 
+    "song_album": "This F**kin Song - Single", 
+    "user": {
+        "username": "nochilljano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Alyssa", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/65cf1249-9f40-4dd1-8e2a-7369ff3cf671.jpg", 
+        "id": "65cf1249-9f40-4dd1-8e2a-7369ff3cf671"
+    }, 
+    "song_title": "This F**kin Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e6ba_e28038baf887_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 7, 
+    "uuid": "4CFDCB0B-115E-4295-B868-D671F256F719"
+}

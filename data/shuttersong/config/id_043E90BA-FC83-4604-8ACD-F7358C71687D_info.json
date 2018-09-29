@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My first thing", 
+    "created_at": "2016-02-09T16:42:38-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e27a_30b669ec9eb7.ssng", 
+    "updated_at": "2016-02-09T23:05:22-05:00", 
+    "share_url": "https://a.sso.ng/1/30b669ec9eb7", 
+    "audio_url": "https://s02.sso.ng/1/00000003e27a_30b669ec9eb7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e27a_30b669ec9eb7_mr.jpg", 
+    "song_album": "PILLOWTALK - Single", 
+    "user": {
+        "username": "doritodrauhl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5506b648-a135-4e4d-8f60-e5c3acf6a7f0.jpg", 
+        "id": "5506b648-a135-4e4d-8f60-e5c3acf6a7f0"
+    }, 
+    "song_title": "PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e27a_30b669ec9eb7_th.jpg", 
+    "song_artist": "ZAYN", 
+    "favorite_count": 1, 
+    "uuid": "043E90BA-FC83-4604-8ACD-F7358C71687D"
+}

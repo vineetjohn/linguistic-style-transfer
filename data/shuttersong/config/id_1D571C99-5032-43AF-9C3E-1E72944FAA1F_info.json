@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @MaitePlascencia", 
+    "created_at": "2015-12-27T20:34:54-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000039d82_ec74756943e2.ssng", 
+    "updated_at": "2015-12-28T10:46:08-05:00", 
+    "share_url": "https://a.sso.ng/1/ec74756943e2", 
+    "audio_url": "https://s01.sso.ng/1/000000039d82_ec74756943e2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000039d82_ec74756943e2_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "maitosplas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e777011d-0d26-4291-bd46-33ca54bce770.jpg", 
+        "id": "e777011d-0d26-4291-bd46-33ca54bce770"
+    }, 
+    "song_title": "Adele - Hello", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000039d82_ec74756943e2_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "1D571C99-5032-43AF-9C3E-1E72944FAA1F"
+}

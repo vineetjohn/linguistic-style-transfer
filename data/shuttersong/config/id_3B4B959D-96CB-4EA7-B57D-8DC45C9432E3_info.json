@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-01T23:17:15-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bbb0_882ec4e00377.ssng", 
+    "updated_at": "2016-01-01T23:46:57-05:00", 
+    "share_url": "https://a.sso.ng/1/882ec4e00377", 
+    "audio_url": "https://s01.sso.ng/1/00000003bbb0_882ec4e00377.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bbb0_882ec4e00377_mr.jpg", 
+    "song_album": "One Direction", 
+    "user": {
+        "username": "Karyssa_Uribe", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f3f9ea41-3b9c-4cf8-abce-877d23497fb0"
+    }, 
+    "song_title": "Clouds", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bbb0_882ec4e00377_th.jpg", 
+    "song_artist": "Four", 
+    "favorite_count": 2, 
+    "uuid": "3B4B959D-96CB-4EA7-B57D-8DC45C9432E3"
+}

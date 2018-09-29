@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "hi", 
+    "created_at": "2016-01-16T17:25:38-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d7e3_6f610d0c3a3f.ssng", 
+    "updated_at": "2016-01-22T05:34:22-05:00", 
+    "share_url": "https://a.sso.ng/1/6f610d0c3a3f", 
+    "audio_url": "https://s02.sso.ng/1/00000003d7e3_6f610d0c3a3f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d7e3_6f610d0c3a3f_mr.jpg", 
+    "song_album": "BADLANDS (Deluxe)", 
+    "user": {
+        "username": "limitlesslucaya", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1eb9e1ee-359f-4139-b64a-316e6112e7fb"
+    }, 
+    "song_title": "Colors", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d7e3_6f610d0c3a3f_th.jpg", 
+    "song_artist": "Halsey", 
+    "favorite_count": 1, 
+    "uuid": "238FC998-47EC-4A17-A4DA-6B469747F3E9"
+}

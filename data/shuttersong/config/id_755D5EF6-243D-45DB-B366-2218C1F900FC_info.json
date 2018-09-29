@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-03-20T18:12:20-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fe19_a48307caf462.ssng", 
+    "updated_at": "2016-03-23T18:59:19-04:00", 
+    "share_url": "https://a.sso.ng/1/a48307caf462", 
+    "audio_url": "https://s02.sso.ng/1/00000003fe19_a48307caf462.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fe19_a48307caf462_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "krishnak", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9acf2e2e-5776-49f2-9645-2a8de7b2453e"
+    }, 
+    "song_title": "Parov Stelar - All Night (Extended Club Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fe19_a48307caf462_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "755D5EF6-243D-45DB-B366-2218C1F900FC"
+}

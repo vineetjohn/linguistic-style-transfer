@@ -1,0 +1,27 @@
+{
+    "mood": "Amused", 
+    "caption": "", 
+    "created_at": "2016-03-24T23:22:50-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f1de_8f64e3ff0e6e.ssng", 
+    "updated_at": "2016-05-05T10:11:15-04:00", 
+    "share_url": "https://a.sso.ng/1/8f64e3ff0e6e", 
+    "audio_url": "https://s02.sso.ng/1/00000003f1de_8f64e3ff0e6e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f1de_8f64e3ff0e6e_mr.jpg", 
+    "song_album": "Speak Now", 
+    "user": {
+        "username": "lilliel", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c6353282-d687-42ac-b1ef-b82fcfd4fc6e.jpg", 
+        "id": "c6353282-d687-42ac-b1ef-b82fcfd4fc6e"
+    }, 
+    "song_title": "Enchanted", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f1de_8f64e3ff0e6e_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 3, 
+    "uuid": "A1AFB2C5-3BE7-4548-A534-B85FB4F75D44"
+}

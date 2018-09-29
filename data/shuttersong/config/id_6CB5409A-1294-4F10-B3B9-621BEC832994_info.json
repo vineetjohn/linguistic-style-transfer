@@ -1,0 +1,27 @@
+{
+    "mood": "nerdy", 
+    "caption": "", 
+    "created_at": "2016-06-29T16:46:51-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004619e_6c7e4d285a94.ssng", 
+    "updated_at": "2016-06-29T17:21:23-04:00", 
+    "share_url": "https://a.sso.ng/1/6c7e4d285a94", 
+    "audio_url": "https://s02.sso.ng/1/00000004619e_6c7e4d285a94.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004619e_6c7e4d285a94_mr.jpg", 
+    "song_album": "Made In The A.M. (Deluxe Edition)", 
+    "user": {
+        "username": "HaleyMacLean", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b71e92ff-7585-48cd-b32b-1a0cf3a10a4e.jpg", 
+        "id": "b71e92ff-7585-48cd-b32b-1a0cf3a10a4e"
+    }, 
+    "song_title": "Wolves", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004619e_6c7e4d285a94_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "6CB5409A-1294-4F10-B3B9-621BEC832994"
+}

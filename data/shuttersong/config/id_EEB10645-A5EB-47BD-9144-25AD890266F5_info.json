@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "Follow me Beau @beaub ?", 
+    "created_at": "2016-02-15T15:23:56-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e37d_12c3a043da1b.ssng", 
+    "updated_at": "2016-02-15T19:26:40-05:00", 
+    "share_url": "https://a.sso.ng/1/12c3a043da1b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e37d_12c3a043da1b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e37d_12c3a043da1b_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "sidehoeluke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c9607b87-da27-48c7-b735-f90126ef4ff1.jpg", 
+        "id": "c9607b87-da27-48c7-b735-f90126ef4ff1"
+    }, 
+    "song_title": "Lion Heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e37d_12c3a043da1b_th.jpg", 
+    "song_artist": "Jake Miller", 
+    "favorite_count": 1, 
+    "uuid": "EEB10645-A5EB-47BD-9144-25AD890266F5"
+}

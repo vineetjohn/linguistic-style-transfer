@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-23T22:22:51-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f3dc_149fc52383a6.ssng", 
+    "updated_at": "2016-02-24T17:02:55-05:00", 
+    "share_url": "https://a.sso.ng/1/149fc52383a6", 
+    "audio_url": "https://s02.sso.ng/1/00000003f3dc_149fc52383a6.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f3dc_149fc52383a6_mr.jpg", 
+    "song_album": "Red", 
+    "user": {
+        "username": "MadisomW", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e99d73c2-4d74-4d69-ac70-9a62ffb7308c"
+    }, 
+    "song_title": "Red", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f3dc_149fc52383a6_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "33683C24-BCF7-4319-8B01-4DEE81E07F38"
+}

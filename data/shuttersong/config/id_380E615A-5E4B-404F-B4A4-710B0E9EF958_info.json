@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My account got deleted and I already had @jackandjackofficial favorite three of my post so I'm crying???", 
+    "created_at": "2015-08-12T13:45:13-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000023167_d94e43f42688_1.ssng", 
+    "updated_at": "2015-08-20T20:55:54-04:00", 
+    "share_url": "https://a.sso.ng/1/d94e43f42688", 
+    "audio_url": "https://s01.sso.ng/1/000000023167_d94e43f42688_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000023167_d94e43f42688_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "alexiagalindo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0bd70870-8ae6-4b52-87e0-cca38b0236d3.jpg", 
+        "id": "0bd70870-8ae6-4b52-87e0-cca38b0236d3"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000023167_d94e43f42688_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "380E615A-5E4B-404F-B4A4-710B0E9EF958"
+}

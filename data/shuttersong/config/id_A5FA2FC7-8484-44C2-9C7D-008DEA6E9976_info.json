@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T09:14:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000255a9_1eaba746aa39.ssng", 
+    "updated_at": "2015-08-21T15:15:04-04:00", 
+    "share_url": "https://a.sso.ng/1/1eaba746aa39", 
+    "audio_url": "https://s01.sso.ng/1/0000000255a9_1eaba746aa39.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000255a9_1eaba746aa39_mr.jpg", 
+    "song_album": "She's Kinda Hot - Single", 
+    "user": {
+        "username": "_lil_magie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9c1a7dba-1384-45ee-aa1a-40ae71078bdc.jpg", 
+        "id": "9c1a7dba-1384-45ee-aa1a-40ae71078bdc"
+    }, 
+    "song_title": "She's Kinda Hot", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000255a9_1eaba746aa39_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 1, 
+    "uuid": "A5FA2FC7-8484-44C2-9C7D-008DEA6E9976"
+}

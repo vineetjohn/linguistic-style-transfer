@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-09T10:02:02-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044da3_19924e60edfc.ssng", 
+    "updated_at": "2016-06-10T20:56:02-04:00", 
+    "share_url": "https://a.sso.ng/1/19924e60edfc", 
+    "audio_url": "https://s02.sso.ng/1/000000044da3_19924e60edfc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044da3_19924e60edfc_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "manel", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a8e36be3-bf48-4065-bc72-2e07624e2d5c"
+    }, 
+    "song_title": "Grace - You Don't Own Me - NO RAP - Extended", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044da3_19924e60edfc_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "1420A2FC-ACF6-427D-A4C6-C54D0BA668C1"
+}

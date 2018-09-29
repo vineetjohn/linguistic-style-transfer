@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo YouTube: FRIENDS NOTICE", 
+    "created_at": "2016-01-02T23:32:05-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000039c3a_bcd742049101.ssng", 
+    "updated_at": "2016-01-03T00:21:10-05:00", 
+    "share_url": "https://a.sso.ng/1/bcd742049101", 
+    "audio_url": "https://s01.sso.ng/1/000000039c3a_bcd742049101.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000039c3a_bcd742049101_mr.jpg", 
+    "song_album": "Santa Tell Me - Single", 
+    "user": {
+        "username": "Friends.nt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c4eb5412-0592-4f37-bfd1-26b537e6b0cf.jpg", 
+        "id": "c4eb5412-0592-4f37-bfd1-26b537e6b0cf"
+    }, 
+    "song_title": "Santa Tell Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000039c3a_bcd742049101_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 2, 
+    "uuid": "7E4163E4-99DB-46F9-8A33-66F9EE0087B3"
+}

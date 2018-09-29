@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-10-26T07:40:53-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f444_f7553b08b6d1_1.ssng", 
+    "updated_at": "2015-10-30T20:58:35-04:00", 
+    "share_url": "https://a.sso.ng/1/f7553b08b6d1", 
+    "audio_url": "https://s01.sso.ng/1/00000002f444_f7553b08b6d1_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f444_f7553b08b6d1_1_mr.jpg", 
+    "song_album": "Up / Down - Single", 
+    "user": {
+        "username": "shutterbrooke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Roller Shutter ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7f342844-e9c0-4476-9864-663edfe0d528.jpg", 
+        "id": "7f342844-e9c0-4476-9864-663edfe0d528"
+    }, 
+    "song_title": "Up / Down", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f444_f7553b08b6d1_1_th.jpg", 
+    "song_artist": "Jessica Mauboy", 
+    "favorite_count": 1, 
+    "uuid": "FB8A362B-CADB-4953-AAC2-DA3843C6C425"
+}

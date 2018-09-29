@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??????", 
+    "created_at": "2015-08-04T14:04:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020ba2_938eda68f98c_1.ssng", 
+    "updated_at": "2015-08-04T14:05:55-04:00", 
+    "share_url": "https://a.sso.ng/1/938eda68f98c", 
+    "audio_url": "https://s01.sso.ng/1/000000020ba2_938eda68f98c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020ba2_938eda68f98c_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "zoeyjean", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/715fc08d-e1ee-45b6-ad60-6d91054824bc.jpg", 
+        "id": "715fc08d-e1ee-45b6-ad60-6d91054824bc"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020ba2_938eda68f98c_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "8FADF4D3-3BAD-4616-9EB7-A95B3D50B01E"
+}

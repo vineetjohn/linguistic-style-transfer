@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2600\ufe0f??", 
+    "created_at": "2015-08-23T17:02:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002af6b_5529c6462d3f_1.ssng", 
+    "updated_at": "2015-08-28T11:20:32-04:00", 
+    "share_url": "https://a.sso.ng/1/5529c6462d3f", 
+    "audio_url": "https://s01.sso.ng/1/00000002af6b_5529c6462d3f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002af6b_5529c6462d3f_1_mr.jpg", 
+    "song_album": "Wonderland", 
+    "user": {
+        "username": "stephani", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Chapis Valle ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/70080cb0-5300-48a6-a6c0-d47481e3d44e.jpg", 
+        "id": "70080cb0-5300-48a6-a6c0-d47481e3d44e"
+    }, 
+    "song_title": "Earthquakey People (feat. Rivers Cuomo)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002af6b_5529c6462d3f_1_th.jpg", 
+    "song_artist": "Steve Aoki", 
+    "favorite_count": 1, 
+    "uuid": "8BC40AB0-D6EA-44A7-8498-BB74CD655166"
+}

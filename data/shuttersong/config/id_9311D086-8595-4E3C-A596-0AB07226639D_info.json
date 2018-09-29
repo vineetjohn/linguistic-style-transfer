@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "8 days left", 
+    "created_at": "2016-04-21T03:21:35-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041cb6_43053ebe7610.ssng", 
+    "updated_at": "2016-04-23T13:48:10-04:00", 
+    "share_url": "https://a.sso.ng/1/43053ebe7610", 
+    "audio_url": "https://s02.sso.ng/1/000000041cb6_43053ebe7610.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041cb6_43053ebe7610_mr.jpg", 
+    "song_album": "Stay Schemin (feat. Drake & French Montana)- Rick Ross", 
+    "user": {
+        "username": "stevenp1234", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7c9e0621-001f-47c8-b702-d1112ec5ebcf"
+    }, 
+    "song_title": "Stay Schemin (feat. Drake & French Montana)- Rick Ross", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041cb6_43053ebe7610_th.jpg", 
+    "song_artist": ".bigosmusicsource.com.", 
+    "favorite_count": 1, 
+    "uuid": "9311D086-8595-4E3C-A596-0AB07226639D"
+}

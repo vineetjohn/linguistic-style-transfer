@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T22:57:35-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000208ab_f49b7fedba61.ssng", 
+    "updated_at": "2015-08-03T22:57:35-04:00", 
+    "share_url": "https://a.sso.ng/1/f49b7fedba61", 
+    "audio_url": "https://s01.sso.ng/1/0000000208ab_f49b7fedba61.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000208ab_f49b7fedba61_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "megan.lavigne", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4d2d34b3-35e6-48a4-979d-bc062f46b23a"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000208ab_f49b7fedba61_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "D8579D66-5A20-48B0-87FB-6EA8EE8EB047"
+}

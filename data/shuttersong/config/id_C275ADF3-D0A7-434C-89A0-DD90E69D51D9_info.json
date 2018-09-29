@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "A full cover of Justin Bieber's \"Sorry\" is in production!", 
+    "created_at": "2016-01-13T02:21:21-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f372_8dcf9c0dcfbc.ssng", 
+    "updated_at": "2016-01-13T22:37:14-05:00", 
+    "share_url": "https://a.sso.ng/1/8dcf9c0dcfbc", 
+    "audio_url": "https://s01.sso.ng/1/00000002f372_8dcf9c0dcfbc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f372_8dcf9c0dcfbc_mr.jpg", 
+    "song_album": "Covers", 
+    "user": {
+        "username": "KarateKid", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6673e7f3-e2dd-4ab5-afee-5d903cd078b3.jpg", 
+        "id": "6673e7f3-e2dd-4ab5-afee-5d903cd078b3"
+    }, 
+    "song_title": "Sorry", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f372_8dcf9c0dcfbc_th.jpg", 
+    "song_artist": "Karate Kid", 
+    "favorite_count": 3, 
+    "uuid": "C275ADF3-D0A7-434C-89A0-DD90E69D51D9"
+}

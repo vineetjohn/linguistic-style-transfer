@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-20T18:14:50-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045a18_b503593b6d54.ssng", 
+    "updated_at": "2016-06-20T18:20:26-04:00", 
+    "share_url": "https://a.sso.ng/1/b503593b6d54", 
+    "audio_url": "https://s02.sso.ng/1/000000045a18_b503593b6d54.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045a18_b503593b6d54_mr.jpg", 
+    "song_album": "Thank You - Single", 
+    "user": {
+        "username": "ajajiaBnS", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "ajla ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2c47fdd5-532d-4dac-acb5-0f63ac8245b4"
+    }, 
+    "song_title": "Thank You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045a18_b503593b6d54_th.jpg", 
+    "song_artist": "Harvey", 
+    "favorite_count": 2, 
+    "uuid": "31946874-E962-4D60-9CAF-5F4DA344AB65"
+}

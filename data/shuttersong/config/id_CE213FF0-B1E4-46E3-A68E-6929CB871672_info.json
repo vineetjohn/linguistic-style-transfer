@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f?", 
+    "created_at": "2016-01-01T18:41:22-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000025c00_406ef707e697.ssng", 
+    "updated_at": "2016-01-01T22:09:48-05:00", 
+    "share_url": "https://a.sso.ng/1/406ef707e697", 
+    "audio_url": "https://s01.sso.ng/1/000000025c00_406ef707e697.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025c00_406ef707e697_mr.jpg", 
+    "song_album": "A Year Without Rain - Single", 
+    "user": {
+        "username": "janniuvers17", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d552dd32-5f1b-4319-b96a-7c50e584f200.jpg", 
+        "id": "d552dd32-5f1b-4319-b96a-7c50e584f200"
+    }, 
+    "song_title": "A Year Without Rain", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025c00_406ef707e697_th.jpg", 
+    "song_artist": "Selena Gomez & The Scene", 
+    "favorite_count": 1, 
+    "uuid": "CE213FF0-B1E4-46E3-A68E-6929CB871672"
+}

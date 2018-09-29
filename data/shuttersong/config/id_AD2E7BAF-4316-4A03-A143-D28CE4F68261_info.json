@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-20T15:17:49-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000030f68_9ea7feb15fd2.ssng", 
+    "updated_at": "2016-03-23T18:59:29-04:00", 
+    "share_url": "https://a.sso.ng/1/9ea7feb15fd2", 
+    "audio_url": "https://s02.sso.ng/1/000000030f68_9ea7feb15fd2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030f68_9ea7feb15fd2_mr.jpg", 
+    "song_album": "American Authors - EP", 
+    "user": {
+        "username": "Jenn001", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4e3e786f-1f0d-40c6-9345-733147b79fd6"
+    }, 
+    "song_title": "Best Day of My Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030f68_9ea7feb15fd2_th.jpg", 
+    "song_artist": "American Authors", 
+    "favorite_count": 3, 
+    "uuid": "AD2E7BAF-4316-4A03-A143-D28CE4F68261"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "and i'll be on my way ?", 
+    "created_at": "2016-02-10T01:20:19-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4d7_127214bf3fe5.ssng", 
+    "updated_at": "2016-02-10T11:14:27-05:00", 
+    "share_url": "https://a.sso.ng/1/127214bf3fe5", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4d7_127214bf3fe5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4d7_127214bf3fe5_mr.jpg", 
+    "song_album": "Neighborhood Watch Vol.1", 
+    "user": {
+        "username": "wildjye", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/67d28084-277f-4dc5-909e-4598067c2ac9.jpg", 
+        "id": "67d28084-277f-4dc5-909e-4598067c2ac9"
+    }, 
+    "song_title": "On My Way", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4d7_127214bf3fe5_th.jpg", 
+    "song_artist": "Illijah", 
+    "favorite_count": 2, 
+    "uuid": "75A7FB92-C7BF-4510-9B77-A60CBA484BA1"
+}

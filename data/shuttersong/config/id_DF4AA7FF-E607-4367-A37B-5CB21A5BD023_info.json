@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo", 
+    "created_at": "2015-12-23T15:26:22-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036e86_1c803e188f38.ssng", 
+    "updated_at": "2015-12-24T09:15:23-05:00", 
+    "share_url": "https://a.sso.ng/1/1c803e188f38", 
+    "audio_url": "https://s01.sso.ng/1/000000036e86_1c803e188f38.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036e86_1c803e188f38_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "fersi200gmail", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9b14ee45-badf-4944-8d7e-9387c7f5e785.jpg", 
+        "id": "9b14ee45-badf-4944-8d7e-9387c7f5e785"
+    }, 
+    "song_title": "all of me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036e86_1c803e188f38_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "DF4AA7FF-E607-4367-A37B-5CB21A5BD023"
+}

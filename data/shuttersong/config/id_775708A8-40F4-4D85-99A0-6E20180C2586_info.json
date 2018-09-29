@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??\u2757\ufe0f", 
+    "created_at": "2015-08-05T02:18:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020d2f_2fba4b3c152b_1.ssng", 
+    "updated_at": "2015-08-05T02:18:34-04:00", 
+    "share_url": "https://a.sso.ng/1/2fba4b3c152b", 
+    "audio_url": "https://s01.sso.ng/1/000000020d2f_2fba4b3c152b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020d2f_2fba4b3c152b_1_mr.jpg", 
+    "song_album": "The Pinkprint (Deluxe Version)", 
+    "user": {
+        "username": "Jayd", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0113e653-8986-4b45-be5e-cb0d0542145f.jpg", 
+        "id": "0113e653-8986-4b45-be5e-cb0d0542145f"
+    }, 
+    "song_title": "Feeling Myself (feat. Beyonc\u00e9)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020d2f_2fba4b3c152b_1_th.jpg", 
+    "song_artist": "Nicki Minaj", 
+    "favorite_count": 1, 
+    "uuid": "775708A8-40F4-4D85-99A0-6E20180C2586"
+}

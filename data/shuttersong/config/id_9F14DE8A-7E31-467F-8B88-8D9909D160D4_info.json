@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hamburg \u2693\ufe0f", 
+    "created_at": "2015-08-29T09:00:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000028e92_f0a0902ca3d3_1.ssng", 
+    "updated_at": "2015-09-03T08:28:15-04:00", 
+    "share_url": "https://a.sso.ng/1/f0a0902ca3d3", 
+    "audio_url": "https://s01.sso.ng/1/000000028e92_f0a0902ca3d3_1.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000028e92_f0a0902ca3d3_1_mr.jpg", 
+    "song_album": "Happiness - Single", 
+    "user": {
+        "username": "Nikisbeautychannel", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0bb09038-a216-404c-b0a0-07cf0226eb1a.jpg", 
+        "id": "0bb09038-a216-404c-b0a0-07cf0226eb1a"
+    }, 
+    "song_title": "Happiness", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000028e92_f0a0902ca3d3_1_th.jpg", 
+    "song_artist": "Alexis Jordan", 
+    "favorite_count": 8, 
+    "uuid": "9F14DE8A-7E31-467F-8B88-8D9909D160D4"
+}

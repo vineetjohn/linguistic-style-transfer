@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-18T16:55:07-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000032feb_4a8df4ef3030.ssng", 
+    "updated_at": "2015-12-19T06:25:53-05:00", 
+    "share_url": "https://a.sso.ng/1/4a8df4ef3030", 
+    "audio_url": "https://s01.sso.ng/1/000000032feb_4a8df4ef3030.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000032feb_4a8df4ef3030_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ivanahidalgo_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ivana Hidalgo", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ffb67d06-6a24-4460-b324-c6ba55079da2.jpg", 
+        "id": "ffb67d06-6a24-4460-b324-c6ba55079da2"
+    }, 
+    "song_title": "justin bieber - mistletoe", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000032feb_4a8df4ef3030_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "1D5EA689-300D-4860-A964-7584AE2BA48D"
+}

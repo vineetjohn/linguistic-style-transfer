@@ -1,0 +1,27 @@
+{
+    "mood": "lazy", 
+    "caption": "@beaub", 
+    "created_at": "2016-02-29T17:23:52-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e345_b745dac786a6.ssng", 
+    "updated_at": "2016-03-01T08:15:00-05:00", 
+    "share_url": "https://a.sso.ng/1/b745dac786a6", 
+    "audio_url": "https://s02.sso.ng/1/00000003e345_b745dac786a6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e345_b745dac786a6_mr.jpg", 
+    "song_album": "John Doe (feat. Priscilla) - Single", 
+    "user": {
+        "username": "janoskian.luv", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "mary", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/633d504f-5a9d-49c7-ade2-563132ae7cd8.jpg", 
+        "id": "633d504f-5a9d-49c7-ade2-563132ae7cd8"
+    }, 
+    "song_title": "John Doe (feat. Priscilla)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e345_b745dac786a6_th.jpg", 
+    "song_artist": "B.o.B", 
+    "favorite_count": 2, 
+    "uuid": "D5A9FD28-0A7E-41F5-A833-1C2C7A482920"
+}

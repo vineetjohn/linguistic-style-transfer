@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-08-04T13:10:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021904_54f362eb3dd1_1.ssng", 
+    "updated_at": "2015-08-04T13:10:40-04:00", 
+    "share_url": "https://a.sso.ng/1/54f362eb3dd1", 
+    "audio_url": "https://s01.sso.ng/1/000000021904_54f362eb3dd1_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021904_54f362eb3dd1_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Michaax4", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "19dc4b77-0929-4ec0-ac09-0c51ba4b2260"
+    }, 
+    "song_title": "Fetty Wap - Trap Queen (Crankdat Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021904_54f362eb3dd1_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "61E545E1-AEF0-4941-B348-63549BB73074"
+}

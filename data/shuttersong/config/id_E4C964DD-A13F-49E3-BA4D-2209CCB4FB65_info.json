@@ -1,0 +1,27 @@
+{
+    "mood": "Groggy", 
+    "caption": "wanttttt ice creammm ?", 
+    "created_at": "2016-02-24T23:56:22-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_790960d6af95.ssng", 
+    "updated_at": "2016-03-03T02:23:13-05:00", 
+    "share_url": "https://a.sso.ng/1/790960d6af95", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_790960d6af95.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_790960d6af95_mr.jpg", 
+    "song_album": "x (Deluxe Edition)", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "Thinking Out Loud", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_790960d6af95_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 4, 
+    "uuid": "E4C964DD-A13F-49E3-BA4D-2209CCB4FB65"
+}

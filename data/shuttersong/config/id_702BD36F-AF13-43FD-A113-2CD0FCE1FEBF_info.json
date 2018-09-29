@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Damn ?", 
+    "created_at": "2016-02-23T23:22:18-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e342_b007fb68c128.ssng", 
+    "updated_at": "2016-02-24T09:03:59-05:00", 
+    "share_url": "https://a.sso.ng/1/b007fb68c128", 
+    "audio_url": "https://s02.sso.ng/1/00000003e342_b007fb68c128.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e342_b007fb68c128_mr.jpg", 
+    "song_album": "Death Of A Bachelor", 
+    "user": {
+        "username": "_dirty_pig_squad_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1723ac95-f735-4155-b35f-8bb3b3aa492a.jpg", 
+        "id": "1723ac95-f735-4155-b35f-8bb3b3aa492a"
+    }, 
+    "song_title": "Emperor's New Clothes", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e342_b007fb68c128_th.jpg", 
+    "song_artist": "Panic! At the Disco", 
+    "favorite_count": 1, 
+    "uuid": "702BD36F-AF13-43FD-A113-2CD0FCE1FEBF"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T19:24:30-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002616d_402903793520.ssng", 
+    "updated_at": "2015-08-20T23:11:04-04:00", 
+    "share_url": "https://a.sso.ng/1/402903793520", 
+    "audio_url": "https://s01.sso.ng/1/00000002616d_402903793520.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002616d_402903793520_mr.jpg", 
+    "song_album": "Ghost Stories", 
+    "user": {
+        "username": "litzy17", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Litzy ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/61a97d6a-00c6-4665-848a-07470d231d76.jpg", 
+        "id": "61a97d6a-00c6-4665-848a-07470d231d76"
+    }, 
+    "song_title": "Magic", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002616d_402903793520_th.jpg", 
+    "song_artist": "Coldplay", 
+    "favorite_count": 1, 
+    "uuid": "FB2022DB-7524-4E47-8622-18A4107D2F8A"
+}

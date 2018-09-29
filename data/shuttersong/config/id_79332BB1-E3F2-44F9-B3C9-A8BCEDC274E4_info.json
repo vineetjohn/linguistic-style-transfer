@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-14T14:01:22-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000452d7_47583d3bf99c.ssng", 
+    "updated_at": "2016-06-17T10:52:32-04:00", 
+    "share_url": "https://a.sso.ng/1/47583d3bf99c", 
+    "audio_url": "https://s02.sso.ng/1/0000000452d7_47583d3bf99c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000452d7_47583d3bf99c_mr.jpg", 
+    "song_album": "The 70's Hits", 
+    "user": {
+        "username": "nikki76", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4c2c8edd-8253-4a95-a003-a84676289063.jpg", 
+        "id": "4c2c8edd-8253-4a95-a003-a84676289063"
+    }, 
+    "song_title": "Seasons In The Sun", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000452d7_47583d3bf99c_th.jpg", 
+    "song_artist": "Terry Jacks", 
+    "favorite_count": 5, 
+    "uuid": "79332BB1-E3F2-44F9-B3C9-A8BCEDC274E4"
+}

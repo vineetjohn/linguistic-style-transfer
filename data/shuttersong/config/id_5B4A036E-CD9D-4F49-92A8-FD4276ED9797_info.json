@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "We face tosh", 
+    "created_at": "2015-08-17T22:33:12-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024c66_e04cabc49140_1.ssng", 
+    "updated_at": "2015-08-19T00:31:49-04:00", 
+    "share_url": "https://a.sso.ng/1/e04cabc49140", 
+    "audio_url": "https://s01.sso.ng/1/000000024c66_e04cabc49140_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024c66_e04cabc49140_1_mr.jpg", 
+    "song_album": "Dirty Work", 
+    "user": {
+        "username": "icequeen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0989c656-dbd2-4688-a056-a32e41469d99.jpg", 
+        "id": "0989c656-dbd2-4688-a056-a32e41469d99"
+    }, 
+    "song_title": "Austin Mahone (lyrics)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024c66_e04cabc49140_1_th.jpg", 
+    "song_artist": "Dirty Work", 
+    "favorite_count": 1, 
+    "uuid": "5B4A036E-CD9D-4F49-92A8-FD4276ED9797"
+}

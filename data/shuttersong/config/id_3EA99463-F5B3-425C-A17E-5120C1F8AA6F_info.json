@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-03T03:05:57-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_e6667e58b03d.ssng", 
+    "updated_at": "2016-02-03T06:50:50-05:00", 
+    "share_url": "https://a.sso.ng/1/e6667e58b03d", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_e6667e58b03d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_e6667e58b03d_mr.jpg", 
+    "song_album": "Party", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "PARTY", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_e6667e58b03d_th.jpg", 
+    "song_artist": "\uc18c\ub140\uc2dc\ub300 (Girl's Generation)", 
+    "favorite_count": 1, 
+    "uuid": "3EA99463-F5B3-425C-A17E-5120C1F8AA6F"
+}

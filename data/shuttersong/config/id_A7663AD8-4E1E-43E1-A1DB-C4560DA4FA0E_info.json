@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-25T12:47:50-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea6a_5c95e7c0e673.ssng", 
+    "updated_at": "2016-02-25T15:38:19-05:00", 
+    "share_url": "https://a.sso.ng/1/5c95e7c0e673", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea6a_5c95e7c0e673.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea6a_5c95e7c0e673_mr.jpg", 
+    "song_album": "I Am Not a Human Being II (Deluxe Version)", 
+    "user": {
+        "username": "gina.janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce57dc3d-08d1-4494-af4a-c309a922ed35.jpg", 
+        "id": "ce57dc3d-08d1-4494-af4a-c309a922ed35"
+    }, 
+    "song_title": "Love Me (feat. Drake & Future)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea6a_5c95e7c0e673_th.jpg", 
+    "song_artist": "Lil Wayne", 
+    "favorite_count": 2, 
+    "uuid": "A7663AD8-4E1E-43E1-A1DB-C4560DA4FA0E"
+}

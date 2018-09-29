@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#bored #lipsync #lol", 
+    "created_at": "2016-03-14T18:46:46-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fbfd_5daf5c8228c0.ssng", 
+    "updated_at": "2016-04-14T20:18:24-04:00", 
+    "share_url": "https://a.sso.ng/1/5daf5c8228c0", 
+    "audio_url": "https://s02.sso.ng/1/00000003fbfd_5daf5c8228c0.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fbfd_5daf5c8228c0_mr.jpg", 
+    "song_album": "Dollhouse - EP", 
+    "user": {
+        "username": "skylarthaxton2", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "82451695-cd66-44b4-91a2-125e066c5b27"
+    }, 
+    "song_title": "Carousel", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fbfd_5daf5c8228c0_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 1, 
+    "uuid": "EBFC8CE9-4C1D-4A77-BA08-03C8147E00D3"
+}

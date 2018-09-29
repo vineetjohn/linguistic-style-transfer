@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My theme music.", 
+    "created_at": "2015-11-25T14:55:53-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000000e96b_e872a2dc0e8d_2.ssng", 
+    "updated_at": "2015-12-29T11:24:53-05:00", 
+    "share_url": "https://a.sso.ng/1/e872a2dc0e8d", 
+    "audio_url": "https://s01.sso.ng/1/00000000e96b_e872a2dc0e8d_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000e96b_e872a2dc0e8d_2_mr.jpg", 
+    "song_album": "25", 
+    "user": {
+        "username": "brandonskeie", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Brandon Skeie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1aee1508-8360-4dd0-8b74-e40ca5663ca8.jpg", 
+        "id": "1aee1508-8360-4dd0-8b74-e40ca5663ca8"
+    }, 
+    "song_title": "I Miss You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000e96b_e872a2dc0e8d_2_th.jpg", 
+    "song_artist": "Adele", 
+    "favorite_count": 13, 
+    "uuid": "D4E19037-2C95-4E6A-BDDF-7C8B54897320"
+}

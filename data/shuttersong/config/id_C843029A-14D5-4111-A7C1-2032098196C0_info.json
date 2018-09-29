@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-13T22:25:08-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000033b10_af7f47a08dfc.ssng", 
+    "updated_at": "2016-01-14T13:18:52-05:00", 
+    "share_url": "https://a.sso.ng/1/af7f47a08dfc", 
+    "audio_url": "https://s02.sso.ng/1/000000033b10_af7f47a08dfc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000033b10_af7f47a08dfc_mr.jpg", 
+    "song_album": "Becky G", 
+    "user": {
+        "username": "magp_99", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7afa443f-d62b-4ac2-88da-33ba126f20d7.jpg", 
+        "id": "7afa443f-d62b-4ac2-88da-33ba126f20d7"
+    }, 
+    "song_title": "Shower", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000033b10_af7f47a08dfc_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "C843029A-14D5-4111-A7C1-2032098196C0"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "BEAU MAKES ME SO HAPPY WOW", 
+    "created_at": "2016-02-10T13:43:57-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e77e_55c544089239.ssng", 
+    "updated_at": "2016-02-10T15:06:05-05:00", 
+    "share_url": "https://a.sso.ng/1/55c544089239", 
+    "audio_url": "https://s02.sso.ng/1/00000003e77e_55c544089239.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e77e_55c544089239_mr.jpg", 
+    "song_album": "Teenage Desperate - Single", 
+    "user": {
+        "username": "jaibooo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fe7305f9-ddd7-4607-bae0-c53db444762a.jpg", 
+        "id": "fe7305f9-ddd7-4607-bae0-c53db444762a"
+    }, 
+    "song_title": "Teenage Desperate", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e77e_55c544089239_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 5, 
+    "uuid": "297370BD-6CDD-4596-A679-310F356C6907"
+}

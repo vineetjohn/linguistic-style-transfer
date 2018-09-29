@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "But the truth is I'm not", 
+    "created_at": "2015-08-04T04:53:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000214db_bf621a50d27e_1.ssng", 
+    "updated_at": "2015-08-04T04:53:25-04:00", 
+    "share_url": "https://a.sso.ng/1/bf621a50d27e", 
+    "audio_url": "https://s01.sso.ng/1/0000000214db_bf621a50d27e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000214db_bf621a50d27e_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "MozzerllaMozzy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Laura A Hernandez", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/20d36320-3933-498a-9045-5f2f8a04b2d4.jpg", 
+        "id": "20d36320-3933-498a-9045-5f2f8a04b2d4"
+    }, 
+    "song_title": "Stitches", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000214db_bf621a50d27e_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "9FAC26FA-59A8-44F4-B659-56794E2F7437"
+}

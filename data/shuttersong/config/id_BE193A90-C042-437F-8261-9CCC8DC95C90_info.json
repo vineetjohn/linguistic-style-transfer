@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "DVSN - The Line - Sept. 5th", 
+    "created_at": "2016-05-30T22:59:36-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004410d_b864b8e8c311.ssng", 
+    "updated_at": "2016-05-31T13:58:11-04:00", 
+    "share_url": "https://a.sso.ng/1/b864b8e8c311", 
+    "audio_url": "https://s02.sso.ng/1/00000004410d_b864b8e8c311.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004410d_b864b8e8c311_mr.jpg", 
+    "song_album": "Sept. 5th", 
+    "user": {
+        "username": "danielquintana14", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Dan.\u00ec", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/651ee05c-dbe8-459a-841e-b4a62426f41a.jpg", 
+        "id": "651ee05c-dbe8-459a-841e-b4a62426f41a"
+    }, 
+    "song_title": "The Line", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004410d_b864b8e8c311_th.jpg", 
+    "song_artist": "DVSN", 
+    "favorite_count": 1, 
+    "uuid": "BE193A90-C042-437F-8261-9CCC8DC95C90"
+}

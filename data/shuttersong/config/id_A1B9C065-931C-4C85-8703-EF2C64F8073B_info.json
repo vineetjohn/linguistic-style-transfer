@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#contest #contest #contest", 
+    "created_at": "2015-08-16T20:24:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000248fc_1292ca52ccce_4.ssng", 
+    "updated_at": "2015-08-17T01:03:22-04:00", 
+    "share_url": "https://a.sso.ng/1/1292ca52ccce", 
+    "audio_url": "https://s01.sso.ng/1/0000000248fc_1292ca52ccce_4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000248fc_1292ca52ccce_4_mr.jpg", 
+    "song_album": "Doing It Right - Single", 
+    "user": {
+        "username": "kmills5656", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kaitlyn", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bf01d152-1668-41a7-b17b-5c7deb8d41e1.jpg", 
+        "id": "bf01d152-1668-41a7-b17b-5c7deb8d41e1"
+    }, 
+    "song_title": "Doing It Right", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000248fc_1292ca52ccce_4_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 3, 
+    "uuid": "A1B9C065-931C-4C85-8703-EF2C64F8073B"
+}

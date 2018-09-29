@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2016-02-12T07:00:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e6a5_9f71a55d018d.ssng", 
+    "updated_at": "2016-02-13T05:04:59-05:00", 
+    "share_url": "https://a.sso.ng/1/9f71a55d018d", 
+    "audio_url": "https://s02.sso.ng/1/00000003e6a5_9f71a55d018d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e6a5_9f71a55d018d_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "Jaibrooksqueen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Tiegan", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0719b902-9edf-42e0-8a85-7ce6cfdf8a72.jpg", 
+        "id": "0719b902-9edf-42e0-8a85-7ce6cfdf8a72"
+    }, 
+    "song_title": "Would U Love Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e6a5_9f71a55d018d_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 2, 
+    "uuid": "2C3E2A2A-6278-4BF4-88D0-EE2A7B725D16"
+}

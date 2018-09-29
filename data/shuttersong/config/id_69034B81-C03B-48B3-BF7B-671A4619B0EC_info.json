@@ -1,0 +1,27 @@
+{
+    "mood": "accepted", 
+    "caption": "@brooksluke you like my edit??", 
+    "created_at": "2016-02-10T16:12:09-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1ee_d671a783906a.ssng", 
+    "updated_at": "2016-02-18T21:47:45-05:00", 
+    "share_url": "https://a.sso.ng/1/d671a783906a", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1ee_d671a783906a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1ee_d671a783906a_mr.jpg", 
+    "song_album": "Teenage Desperate - Single", 
+    "user": {
+        "username": "High5Forever", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4edc5e55-f2d9-4257-9cdb-e14b16d99009.jpg", 
+        "id": "4edc5e55-f2d9-4257-9cdb-e14b16d99009"
+    }, 
+    "song_title": "Teenage Desperate", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1ee_d671a783906a_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 2, 
+    "uuid": "69034B81-C03B-48B3-BF7B-671A4619B0EC"
+}

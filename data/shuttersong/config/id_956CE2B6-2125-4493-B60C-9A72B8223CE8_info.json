@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?.", 
+    "created_at": "2015-08-04T00:54:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002120a_56b3e4ad681d_1.ssng", 
+    "updated_at": "2015-08-04T00:54:47-04:00", 
+    "share_url": "https://a.sso.ng/1/56b3e4ad681d", 
+    "audio_url": "https://s01.sso.ng/1/00000002120a_56b3e4ad681d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002120a_56b3e4ad681d_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "MadisonBarreda", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0aec4808-5a97-4390-b328-649985598016.jpg", 
+        "id": "0aec4808-5a97-4390-b328-649985598016"
+    }, 
+    "song_title": "B\u00d8RNS - 10,000 Emerald Pools", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002120a_56b3e4ad681d_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "956CE2B6-2125-4493-B60C-9A72B8223CE8"
+}

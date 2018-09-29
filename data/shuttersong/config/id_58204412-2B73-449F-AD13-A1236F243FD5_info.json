@@ -1,0 +1,27 @@
+{
+    "mood": "excited", 
+    "caption": "", 
+    "created_at": "2016-06-20T16:36:53-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045910_0dad5c79926a.ssng", 
+    "updated_at": "2016-06-20T18:26:07-04:00", 
+    "share_url": "https://a.sso.ng/1/0dad5c79926a", 
+    "audio_url": "https://s02.sso.ng/1/000000045910_0dad5c79926a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045910_0dad5c79926a_mr.jpg", 
+    "song_album": "This F**kin Song - Single", 
+    "user": {
+        "username": "LivMaeex", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1a847568-b933-45e4-aec8-d952a97a84f9.jpg", 
+        "id": "1a847568-b933-45e4-aec8-d952a97a84f9"
+    }, 
+    "song_title": "This F**kin Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045910_0dad5c79926a_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "58204412-2B73-449F-AD13-A1236F243FD5"
+}

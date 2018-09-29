@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2764\u2764\u2764", 
+    "created_at": "2016-01-08T21:48:21-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000337c5_c75db108324d.ssng", 
+    "updated_at": "2016-01-10T23:26:46-05:00", 
+    "share_url": "https://a.sso.ng/1/c75db108324d", 
+    "audio_url": "https://s01.sso.ng/1/0000000337c5_c75db108324d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000337c5_c75db108324d_mr.jpg", 
+    "song_album": "Chino &amp; Nacho", 
+    "user": {
+        "username": "karlilarez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/11c51381-78ba-496f-8db3-487cecf96fdb.jpg", 
+        "id": "11c51381-78ba-496f-8db3-487cecf96fdb"
+    }, 
+    "song_title": "Sin Ti (By. @JGalvezFlow)(WWW.ELGENERO.COM)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000337c5_c75db108324d_th.jpg", 
+    "song_artist": "Supremo", 
+    "favorite_count": 1, 
+    "uuid": "450F5D78-9273-4EC5-AAC2-3C26F1C600CD"
+}

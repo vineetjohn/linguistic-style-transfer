@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T12:41:23-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003702c_f5264da8f966.ssng", 
+    "updated_at": "2015-12-19T20:17:13-05:00", 
+    "share_url": "https://a.sso.ng/1/f5264da8f966", 
+    "audio_url": "https://s01.sso.ng/1/00000003702c_f5264da8f966.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003702c_f5264da8f966_mr.jpg", 
+    "song_album": "Rudolph the Red Nosed Reindeer and Other Christmas Classics", 
+    "user": {
+        "username": "Gimara", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c4b325bc-0152-4e77-8f25-619f95236df3"
+    }, 
+    "song_title": "Santa Claus Is Comin' to Town", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003702c_f5264da8f966_th.jpg", 
+    "song_artist": "Gene Autry", 
+    "favorite_count": 2, 
+    "uuid": "8DC2F728-83C7-4CEB-AF3D-5FAC8132DF43"
+}

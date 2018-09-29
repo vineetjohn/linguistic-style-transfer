@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @hectorvillegas", 
+    "created_at": "2015-12-21T15:18:44-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003608a_a753cd5164c6_1.ssng", 
+    "updated_at": "2015-12-26T15:13:37-05:00", 
+    "share_url": "https://a.sso.ng/1/a753cd5164c6", 
+    "audio_url": "https://s01.sso.ng/1/00000003608a_a753cd5164c6_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003608a_a753cd5164c6_1_mr.jpg", 
+    "song_album": "Directo Hasta Arriba", 
+    "user": {
+        "username": "hector_villegas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2ceb8c01-ca89-405f-9cb3-4ac42bf344a2.jpg", 
+        "id": "2ceb8c01-ca89-405f-9cb3-4ac42bf344a2"
+    }, 
+    "song_title": "Serenata Rap", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003608a_a753cd5164c6_1_th.jpg", 
+    "song_artist": "Dharius", 
+    "favorite_count": 1, 
+    "uuid": "CEAD4BCE-AB84-4D7D-9EB1-804E93897DAC"
+}

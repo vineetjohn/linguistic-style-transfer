@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo", 
+    "created_at": "2015-12-24T14:43:12-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000326db_4e49a29c247c.ssng", 
+    "updated_at": "2015-12-26T15:22:40-05:00", 
+    "share_url": "https://a.sso.ng/1/4e49a29c247c", 
+    "audio_url": "https://s01.sso.ng/1/0000000326db_4e49a29c247c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000326db_4e49a29c247c_mr.jpg", 
+    "song_album": "Go", 
+    "user": {
+        "username": "cecyregia", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f7f4232c-4437-426d-a688-aa5e56bc6608"
+    }, 
+    "song_title": "Beautiful", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000326db_4e49a29c247c_th.jpg", 
+    "song_artist": "Moby", 
+    "favorite_count": 1, 
+    "uuid": "8249D4D1-72CC-43D4-94DC-39AA70F9FBA1"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-09T15:05:31-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b5e4_d7e87f97247e.ssng", 
+    "updated_at": "2016-01-10T12:19:17-05:00", 
+    "share_url": "https://a.sso.ng/1/d7e87f97247e", 
+    "audio_url": "https://s01.sso.ng/1/00000003b5e4_d7e87f97247e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b5e4_d7e87f97247e_mr.jpg", 
+    "song_album": "Cry Baby (Deluxe Version)", 
+    "user": {
+        "username": "trippy.3", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "bb9c6234-71a5-4295-927c-79996c3924b7"
+    }, 
+    "song_title": "Sippy Cup", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b5e4_d7e87f97247e_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 3, 
+    "uuid": "42FE43A3-E70C-45E7-B3D9-22663E43BF43"
+}

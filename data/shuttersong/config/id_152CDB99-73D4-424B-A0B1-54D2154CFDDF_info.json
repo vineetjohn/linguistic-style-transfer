@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#contest", 
+    "created_at": "2015-08-16T16:43:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000220af_5db45a8fd0aa_1.ssng", 
+    "updated_at": "2015-08-16T17:15:07-04:00", 
+    "share_url": "https://a.sso.ng/1/5db45a8fd0aa", 
+    "audio_url": "https://s01.sso.ng/1/0000000220af_5db45a8fd0aa_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000220af_5db45a8fd0aa_1_mr.jpg", 
+    "song_album": "Right Where You Are - Single", 
+    "user": {
+        "username": "athenalynn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c47f56e8-42df-4ed1-8685-677058b38873.jpg", 
+        "id": "c47f56e8-42df-4ed1-8685-677058b38873"
+    }, 
+    "song_title": "Right Where You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000220af_5db45a8fd0aa_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "152CDB99-73D4-424B-A0B1-54D2154CFDDF"
+}

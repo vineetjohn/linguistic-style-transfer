@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-21T17:19:15-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037bbd_7004463becda.ssng", 
+    "updated_at": "2015-12-22T21:13:49-05:00", 
+    "share_url": "https://a.sso.ng/1/7004463becda", 
+    "audio_url": "https://s01.sso.ng/1/000000037bbd_7004463becda.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037bbd_7004463becda_mr.jpg", 
+    "song_album": "Justin Bieber", 
+    "user": {
+        "username": "alessierosell", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Alessie Rosell ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/44263273-3566-4ae5-9d8a-4ad61fc149ae.jpg", 
+        "id": "44263273-3566-4ae5-9d8a-4ad61fc149ae"
+    }, 
+    "song_title": "Sorry", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037bbd_7004463becda_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "0388BA86-3409-4600-BC46-77184AE45012"
+}

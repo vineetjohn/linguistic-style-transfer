@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-06T19:36:47-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d9c1_cb304edac95c.ssng", 
+    "updated_at": "2016-03-08T01:30:18-05:00", 
+    "share_url": "https://a.sso.ng/1/cb304edac95c", 
+    "audio_url": "https://s02.sso.ng/1/00000003d9c1_cb304edac95c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d9c1_cb304edac95c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "fdbishop258", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2bcf59af-60f1-42ab-81bc-62e5e031b712"
+    }, 
+    "song_title": "clean dreams bass line", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d9c1_cb304edac95c_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "80E3B052-CAC2-49CA-BAE1-A123E4AA27FA"
+}

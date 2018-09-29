@@ -1,0 +1,27 @@
+{
+    "mood": "Divertido", 
+    "caption": "", 
+    "created_at": "2016-06-20T00:34:25-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045793_f97c4ed386cf.ssng", 
+    "updated_at": "2016-06-20T16:02:54-04:00", 
+    "share_url": "https://a.sso.ng/1/f97c4ed386cf", 
+    "audio_url": "https://s02.sso.ng/1/000000045793_f97c4ed386cf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045793_f97c4ed386cf_mr.jpg", 
+    "song_album": "21", 
+    "user": {
+        "username": "alemv18", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "96aed515-6676-4681-b54e-0f767b7ce5ba"
+    }, 
+    "song_title": "Rumor Has It", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045793_f97c4ed386cf_th.jpg", 
+    "song_artist": "Adele", 
+    "favorite_count": 2, 
+    "uuid": "B60FCBF7-8336-4537-9D26-CEAFB158F06B"
+}

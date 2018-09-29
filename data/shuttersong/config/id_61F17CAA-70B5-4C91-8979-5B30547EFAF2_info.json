@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Love my boys and their new song", 
+    "created_at": "2015-08-06T04:27:48-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000226dc_9c8746f9c0bc_1.ssng", 
+    "updated_at": "2015-08-06T04:28:08-04:00", 
+    "share_url": "https://a.sso.ng/1/9c8746f9c0bc", 
+    "audio_url": "https://s01.sso.ng/1/0000000226dc_9c8746f9c0bc_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000226dc_9c8746f9c0bc_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "bellabauer99", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/524a8a92-5b56-4b3e-a988-8484b7d711b5.jpg", 
+        "id": "524a8a92-5b56-4b3e-a988-8484b7d711b5"
+    }, 
+    "song_title": "Wrong One", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000226dc_9c8746f9c0bc_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "61F17CAA-70B5-4C91-8979-5B30547EFAF2"
+}

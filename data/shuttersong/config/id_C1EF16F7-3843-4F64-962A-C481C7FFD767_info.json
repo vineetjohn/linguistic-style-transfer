@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-12T16:36:11-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003d31c_c1137b299906.ssng", 
+    "updated_at": "2016-01-13T19:14:30-05:00", 
+    "share_url": "https://a.sso.ng/1/c1137b299906", 
+    "audio_url": "https://s01.sso.ng/1/00000003d31c_c1137b299906.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003d31c_c1137b299906_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "EmilyGuty", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7b62fa9b-2be3-4533-b7dc-4854c1552ca8"
+    }, 
+    "song_title": "ho hey", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003d31c_c1137b299906_th.jpg", 
+    "song_artist": "The luminers", 
+    "favorite_count": 2, 
+    "uuid": "C1EF16F7-3843-4F64-962A-C481C7FFD767"
+}

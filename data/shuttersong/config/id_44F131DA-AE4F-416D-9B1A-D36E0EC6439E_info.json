@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-11T06:49:16-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bb2d_e7ecd7c86231.ssng", 
+    "updated_at": "2016-01-12T16:56:46-05:00", 
+    "share_url": "https://a.sso.ng/1/e7ecd7c86231", 
+    "audio_url": "https://s01.sso.ng/1/00000003bb2d_e7ecd7c86231.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bb2d_e7ecd7c86231_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mcsmilezalot", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "73a79ba3-5c29-4f8e-986d-95eeeeb2778b"
+    }, 
+    "song_title": "Tink - Bonnie &amp; Clyde Lyrics", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bb2d_e7ecd7c86231_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "44F131DA-AE4F-416D-9B1A-D36E0EC6439E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Buenas tardes???", 
+    "created_at": "2015-08-24T16:28:40-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000293b2_2fecee70be32_1.ssng", 
+    "updated_at": "2015-12-29T09:41:42-05:00", 
+    "share_url": "https://a.sso.ng/1/2fecee70be32", 
+    "audio_url": "https://s01.sso.ng/1/0000000293b2_2fecee70be32_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000293b2_2fecee70be32_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "Key_27", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2fb27494-ade5-45c6-9350-e601ee70e93c.jpg", 
+        "id": "2fb27494-ade5-45c6-9350-e601ee70e93c"
+    }, 
+    "song_title": "Bang Bang", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000293b2_2fecee70be32_1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "4B33FDC4-618C-498F-8832-AB6CA911F46F"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "dirty", 
+    "caption": "?", 
+    "created_at": "2016-02-15T20:53:34-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e876_b99d66e88d7f.ssng", 
+    "updated_at": "2016-02-19T11:58:47-05:00", 
+    "share_url": "https://a.sso.ng/1/b99d66e88d7f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e876_b99d66e88d7f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e876_b99d66e88d7f_mr.jpg", 
+    "song_album": "Friend Zone - Single", 
+    "user": {
+        "username": "joslynepov", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/298e610a-ea10-4a56-8b73-0b8097d356e6.jpg", 
+        "id": "298e610a-ea10-4a56-8b73-0b8097d356e6"
+    }, 
+    "song_title": "Friend Zone", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e876_b99d66e88d7f_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "640A9C55-86ED-4C71-9177-71B2DF90F8A6"
+}

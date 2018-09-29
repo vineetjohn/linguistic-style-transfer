@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2728", 
+    "created_at": "2015-08-21T23:30:40-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027e40_8e26fc880d41_1.ssng", 
+    "updated_at": "2015-08-22T14:37:23-04:00", 
+    "share_url": "https://a.sso.ng/1/8e26fc880d41", 
+    "audio_url": "https://s01.sso.ng/1/000000027e40_8e26fc880d41_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027e40_8e26fc880d41_1_mr.jpg", 
+    "song_album": "Trigga Reloaded", 
+    "user": {
+        "username": "Maricruzsanchezq", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5dc470b6-f203-4c40-b720-5754f3e01ccf.jpg", 
+        "id": "5dc470b6-f203-4c40-b720-5754f3e01ccf"
+    }, 
+    "song_title": "Loving You (feat. Ty Dolla $ign)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027e40_8e26fc880d41_1_th.jpg", 
+    "song_artist": "Trey Songz", 
+    "favorite_count": 5, 
+    "uuid": "DC832FB5-7E93-4549-B716-6061E9B37741"
+}

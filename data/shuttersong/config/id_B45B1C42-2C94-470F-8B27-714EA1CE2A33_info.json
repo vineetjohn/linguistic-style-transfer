@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-20T02:24:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000002f372_ce01d9163cf7.ssng", 
+    "updated_at": "2016-04-21T11:22:50-04:00", 
+    "share_url": "https://a.sso.ng/1/ce01d9163cf7", 
+    "audio_url": "https://s02.sso.ng/1/00000002f372_ce01d9163cf7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002f372_ce01d9163cf7_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "KarateKid", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6673e7f3-e2dd-4ab5-afee-5d903cd078b3.jpg", 
+        "id": "6673e7f3-e2dd-4ab5-afee-5d903cd078b3"
+    }, 
+    "song_title": "The Magic Has Gone Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002f372_ce01d9163cf7_th.jpg", 
+    "song_artist": "Matt Avellino", 
+    "favorite_count": 1, 
+    "uuid": "B45B1C42-2C94-470F-8B27-714EA1CE2A33"
+}

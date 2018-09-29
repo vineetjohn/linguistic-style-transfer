@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-12T15:04:14-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000305a7_8178d136fa0b.ssng", 
+    "updated_at": "2015-12-13T22:17:58-05:00", 
+    "share_url": "https://a.sso.ng/1/8178d136fa0b", 
+    "audio_url": "https://s01.sso.ng/1/0000000305a7_8178d136fa0b.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000305a7_8178d136fa0b_mr.jpg", 
+    "song_album": "Flights - Single", 
+    "user": {
+        "username": "makeupjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Yagurljohnson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/50f8a028-facc-45ab-9177-8adde9c0fda9.jpg", 
+        "id": "50f8a028-facc-45ab-9177-8adde9c0fda9"
+    }, 
+    "song_title": "Flights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000305a7_8178d136fa0b_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "911D27A9-49ED-421F-ACF2-4FD1F74343CC"
+}

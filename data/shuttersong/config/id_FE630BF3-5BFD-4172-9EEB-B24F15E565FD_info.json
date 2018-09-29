@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Best day of my @JackAndJackOfficial", 
+    "created_at": "2016-03-03T22:18:01-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea6a_30bee5a025b5.ssng", 
+    "updated_at": "2016-03-05T20:52:08-05:00", 
+    "share_url": "https://a.sso.ng/1/30bee5a025b5", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea6a_30bee5a025b5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea6a_30bee5a025b5_mr.jpg", 
+    "song_album": "Wild Life - Single", 
+    "user": {
+        "username": "gina.janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce57dc3d-08d1-4494-af4a-c309a922ed35.jpg", 
+        "id": "ce57dc3d-08d1-4494-af4a-c309a922ed35"
+    }, 
+    "song_title": "Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea6a_30bee5a025b5_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "FE630BF3-5BFD-4172-9EEB-B24F15E565FD"
+}

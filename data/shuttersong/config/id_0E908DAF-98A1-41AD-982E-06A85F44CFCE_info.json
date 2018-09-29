@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-29T04:28:20-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000423ec_333790b25554.ssng", 
+    "updated_at": "2016-05-01T06:50:56-04:00", 
+    "share_url": "https://a.sso.ng/1/333790b25554", 
+    "audio_url": "https://s02.sso.ng/1/0000000423ec_333790b25554.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000423ec_333790b25554_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "xpeonyx", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "603818f8-8740-4b9b-9a01-086cdd71029e"
+    }, 
+    "song_title": "Camera Obscura - Forests & Sands", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000423ec_333790b25554_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "0E908DAF-98A1-41AD-982E-06A85F44CFCE"
+}

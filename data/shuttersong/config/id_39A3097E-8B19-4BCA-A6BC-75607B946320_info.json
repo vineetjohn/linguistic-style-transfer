@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Amo esa cancion", 
+    "created_at": "2016-04-04T21:54:09-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040ad7_01673715b8d1.ssng", 
+    "updated_at": "2016-04-06T11:10:20-04:00", 
+    "share_url": "https://a.sso.ng/1/01673715b8d1", 
+    "audio_url": "https://s02.sso.ng/1/000000040ad7_01673715b8d1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040ad7_01673715b8d1_mr.jpg", 
+    "song_album": "Peace Is The Mission (Extended)", 
+    "user": {
+        "username": "Michita", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/08f5fb2a-1411-48cd-9a00-5148fea6fedb.jpg", 
+        "id": "08f5fb2a-1411-48cd-9a00-5148fea6fedb"
+    }, 
+    "song_title": "Light It Up (feat. Nyla & Fuse ODG) [Remix]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040ad7_01673715b8d1_th.jpg", 
+    "song_artist": "Major Lazer", 
+    "favorite_count": 2, 
+    "uuid": "39A3097E-8B19-4BCA-A6BC-75607B946320"
+}

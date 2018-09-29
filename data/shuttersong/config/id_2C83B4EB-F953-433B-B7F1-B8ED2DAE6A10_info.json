@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-11T14:44:36-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041221_fe0b14b94632.ssng", 
+    "updated_at": "2016-04-12T16:04:58-04:00", 
+    "share_url": "https://a.sso.ng/1/fe0b14b94632", 
+    "audio_url": "https://s02.sso.ng/1/000000041221_fe0b14b94632.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041221_fe0b14b94632_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "manumontielb", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "aa4a636e-3f2b-43b2-99a1-65ebfaf46326"
+    }, 
+    "song_title": "Adore You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041221_fe0b14b94632_th.jpg", 
+    "song_artist": "Miley Cyrus vs. Cedric Gervais", 
+    "favorite_count": 2, 
+    "uuid": "2C83B4EB-F953-433B-B7F1-B8ED2DAE6A10"
+}

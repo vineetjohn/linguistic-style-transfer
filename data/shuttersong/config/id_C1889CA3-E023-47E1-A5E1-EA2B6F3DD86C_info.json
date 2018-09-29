@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T23:17:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021bec_941c1f22db70.ssng", 
+    "updated_at": "2015-08-04T23:17:25-04:00", 
+    "share_url": "https://a.sso.ng/1/941c1f22db70", 
+    "audio_url": "https://s01.sso.ng/1/000000021bec_941c1f22db70.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021bec_941c1f22db70_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "Aaliyah", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "85689791-77e4-469e-9a79-91df800d38f4"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021bec_941c1f22db70_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "C1889CA3-E023-47E1-A5E1-EA2B6F3DD86C"
+}

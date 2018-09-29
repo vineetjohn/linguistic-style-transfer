@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-02T16:08:53-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002fef8_2bb61d1fd3ca.ssng", 
+    "updated_at": "2015-12-07T04:22:27-05:00", 
+    "share_url": "https://a.sso.ng/1/2bb61d1fd3ca", 
+    "audio_url": "https://s01.sso.ng/1/00000002fef8_2bb61d1fd3ca.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002fef8_2bb61d1fd3ca_mr.jpg", 
+    "song_album": "Frozen (Original Motion Picture Soundtrack)", 
+    "user": {
+        "username": "rtsbeacon", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "bb7547d5-d1b0-47a5-a320-bb22c1bfdaef"
+    }, 
+    "song_title": "Let It Go", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002fef8_2bb61d1fd3ca_th.jpg", 
+    "song_artist": "Idina Menzel", 
+    "favorite_count": 1, 
+    "uuid": "32B51E7B-A17B-4049-A16B-1630D06CE39B"
+}

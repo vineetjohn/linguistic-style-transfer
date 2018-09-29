@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-20T01:28:02-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f259_04cce18bac49.ssng", 
+    "updated_at": "2016-03-05T07:19:36-05:00", 
+    "share_url": "https://a.sso.ng/1/04cce18bac49", 
+    "audio_url": "https://s01.sso.ng/1/00000002f259_04cce18bac49.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f259_04cce18bac49_mr.jpg", 
+    "song_album": "Z", 
+    "user": {
+        "username": "wilde_karotte", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "948e47da-485d-4d20-a299-2bd4b7568076"
+    }, 
+    "song_title": "HiiiJack", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f259_04cce18bac49_th.jpg", 
+    "song_artist": "SZA", 
+    "favorite_count": 1, 
+    "uuid": "8D6D447E-4A80-4B2C-AB7C-94438A63C1A0"
+}

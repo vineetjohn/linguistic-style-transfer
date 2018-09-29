@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I hate drama", 
+    "created_at": "2016-03-13T14:02:18-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecbc_1b6465bec085.ssng", 
+    "updated_at": "2016-03-25T10:18:45-04:00", 
+    "share_url": "https://a.sso.ng/1/1b6465bec085", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecbc_1b6465bec085.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecbc_1b6465bec085_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lickjanosface", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": "noe", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d563402d-1a72-47ff-bec6-8e8ef1f7d8dd.jpg", 
+        "id": "d563402d-1a72-47ff-bec6-8e8ef1f7d8dd"
+    }, 
+    "song_title": "ZAYN - PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecbc_1b6465bec085_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 15, 
+    "uuid": "E9B4179D-7E0A-492B-93C7-FA024BFA4D1C"
+}

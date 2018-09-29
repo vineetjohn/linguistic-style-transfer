@@ -1,0 +1,27 @@
+{
+    "mood": "loco", 
+    "caption": "#rude #magic #selfie #boy ?", 
+    "created_at": "2015-12-19T23:16:07-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000032b3b_cf07bf6626ad_1.ssng", 
+    "updated_at": "2015-12-23T04:01:50-05:00", 
+    "share_url": "https://a.sso.ng/1/cf07bf6626ad", 
+    "audio_url": "https://s01.sso.ng/1/000000032b3b_cf07bf6626ad_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000032b3b_cf07bf6626ad_1_mr.jpg", 
+    "song_album": "Don't Kill the Magic", 
+    "user": {
+        "username": "SebaTerry", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/85ca0cca-c447-44f8-a58e-8dd38fdd6152.jpg", 
+        "id": "85ca0cca-c447-44f8-a58e-8dd38fdd6152"
+    }, 
+    "song_title": "Rude", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000032b3b_cf07bf6626ad_1_th.jpg", 
+    "song_artist": "Magic", 
+    "favorite_count": 9, 
+    "uuid": "EDA9411E-F162-48AA-AA03-0EB030CAE068"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-12T02:08:53-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e348_603bdd74ac8a.ssng", 
+    "updated_at": "2016-02-21T08:27:16-05:00", 
+    "share_url": "https://a.sso.ng/1/603bdd74ac8a", 
+    "audio_url": "https://s02.sso.ng/1/00000003e348_603bdd74ac8a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e348_603bdd74ac8a_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "JaisFifaTantrums", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Kirrilly", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6d466165-54d5-4f20-a839-034dc89896e9.jpg", 
+        "id": "6d466165-54d5-4f20-a839-034dc89896e9"
+    }, 
+    "song_title": "28 - Snoop Dogg - Sweat (David Guetta Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e348_603bdd74ac8a_th.jpg", 
+    "song_artist": "Snoop Dogg", 
+    "favorite_count": 4, 
+    "uuid": "6BEC0CC5-D09B-476F-B74C-5449946C6664"
+}

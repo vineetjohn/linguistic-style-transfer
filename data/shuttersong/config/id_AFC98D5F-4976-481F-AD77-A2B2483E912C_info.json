@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#beausvalentine", 
+    "created_at": "2016-02-11T22:48:25-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e81c_32b7d8a5748f.ssng", 
+    "updated_at": "2016-02-12T02:24:30-05:00", 
+    "share_url": "https://a.sso.ng/1/32b7d8a5748f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e81c_32b7d8a5748f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e81c_32b7d8a5748f_mr.jpg", 
+    "song_album": "BADLANDS (Deluxe)", 
+    "user": {
+        "username": "rachie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f673e38f-7fdc-4ff2-bdcb-db155fb2eef8.jpg", 
+        "id": "f673e38f-7fdc-4ff2-bdcb-db155fb2eef8"
+    }, 
+    "song_title": "Strange Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e81c_32b7d8a5748f_th.jpg", 
+    "song_artist": "Halsey", 
+    "favorite_count": 1, 
+    "uuid": "AFC98D5F-4976-481F-AD77-A2B2483E912C"
+}

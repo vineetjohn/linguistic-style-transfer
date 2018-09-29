@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YouTube: Kike Armijo", 
+    "created_at": "2015-12-29T12:40:14-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000026df9_9c15c33c90af.ssng", 
+    "updated_at": "2015-12-29T13:09:08-05:00", 
+    "share_url": "https://a.sso.ng/1/9c15c33c90af", 
+    "audio_url": "https://s01.sso.ng/1/000000026df9_9c15c33c90af.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000026df9_9c15c33c90af_mr.jpg", 
+    "song_album": "Platinum Christmas", 
+    "user": {
+        "username": "KikeArmijo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kike Armijo", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/83cb1e60-a0b7-4b74-96dc-a6c17dd8a7ae.jpg", 
+        "id": "83cb1e60-a0b7-4b74-96dc-a6c17dd8a7ae"
+    }, 
+    "song_title": "My Only Wish (This Year)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000026df9_9c15c33c90af_th.jpg", 
+    "song_artist": "Britney Spears", 
+    "favorite_count": 2, 
+    "uuid": "0A35C35B-841A-442C-B370-027B17025F1C"
+}

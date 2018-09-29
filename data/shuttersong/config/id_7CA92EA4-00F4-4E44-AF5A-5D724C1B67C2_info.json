@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-23T09:51:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004013e_2e66dfe6016f.ssng", 
+    "updated_at": "2016-04-24T05:07:39-04:00", 
+    "share_url": "https://a.sso.ng/1/2e66dfe6016f", 
+    "audio_url": "https://s02.sso.ng/1/00000004013e_2e66dfe6016f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004013e_2e66dfe6016f_mr.jpg", 
+    "song_album": "5sos", 
+    "user": {
+        "username": "sarahcalvert", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sarah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d843c873-aa47-4255-a232-2aeb8b6f34be.jpg", 
+        "id": "d843c873-aa47-4255-a232-2aeb8b6f34be"
+    }, 
+    "song_title": "Wherever You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004013e_2e66dfe6016f_th.jpg", 
+    "song_artist": "5 Seconds Of Summer", 
+    "favorite_count": 2, 
+    "uuid": "7CA92EA4-00F4-4E44-AF5A-5D724C1B67C2"
+}

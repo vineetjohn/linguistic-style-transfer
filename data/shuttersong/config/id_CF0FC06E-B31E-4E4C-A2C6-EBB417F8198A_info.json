@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo\nYou Tube: SerenA RubiO", 
+    "created_at": "2015-12-21T19:28:33-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037d7a_04056af13234.ssng", 
+    "updated_at": "2015-12-22T02:37:03-05:00", 
+    "share_url": "https://a.sso.ng/1/04056af13234", 
+    "audio_url": "https://s01.sso.ng/1/000000037d7a_04056af13234.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037d7a_04056af13234_mr.jpg", 
+    "song_album": "Fifth Harmony", 
+    "user": {
+        "username": "seresrubio", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/343de2a8-a839-4428-ad55-4d0aa1795c4d.jpg", 
+        "id": "343de2a8-a839-4428-ad55-4d0aa1795c4d"
+    }, 
+    "song_title": "Miss Movin' On", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037d7a_04056af13234_th.jpg", 
+    "song_artist": "Better Together", 
+    "favorite_count": 1, 
+    "uuid": "CF0FC06E-B31E-4E4C-A2C6-EBB417F8198A"
+}

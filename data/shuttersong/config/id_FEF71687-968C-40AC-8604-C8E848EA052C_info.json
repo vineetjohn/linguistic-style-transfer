@@ -1,0 +1,27 @@
+{
+    "mood": "Accomplished", 
+    "caption": "promosi gelas", 
+    "created_at": "2016-06-29T04:50:52-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_aaeab467abd0.ssng", 
+    "updated_at": "2016-06-30T03:52:44-04:00", 
+    "share_url": "https://a.sso.ng/1/aaeab467abd0", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_aaeab467abd0.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_aaeab467abd0_mr.jpg", 
+    "song_album": "Single", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "Yannick Bovy - Pieces", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_aaeab467abd0_th.jpg", 
+    "song_artist": "Yannick Bovy", 
+    "favorite_count": 4, 
+    "uuid": "FEF71687-968C-40AC-8604-C8E848EA052C"
+}

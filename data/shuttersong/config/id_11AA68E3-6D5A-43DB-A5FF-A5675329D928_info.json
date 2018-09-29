@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Yes", 
+    "created_at": "2015-09-03T21:01:53-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002dea2_9d9fcd730b3f_1.ssng", 
+    "updated_at": "2015-09-03T23:18:46-04:00", 
+    "share_url": "https://a.sso.ng/1/9d9fcd730b3f", 
+    "audio_url": "https://s01.sso.ng/1/00000002dea2_9d9fcd730b3f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002dea2_9d9fcd730b3f_1_mr.jpg", 
+    "song_album": "Cry Baby (Deluxe Version)", 
+    "user": {
+        "username": "taylergilliard", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d02027ca-78b7-4289-866b-45726bd65c3d"
+    }, 
+    "song_title": "Dollhouse", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002dea2_9d9fcd730b3f_1_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 1, 
+    "uuid": "11AA68E3-6D5A-43DB-A5FF-A5675329D928"
+}

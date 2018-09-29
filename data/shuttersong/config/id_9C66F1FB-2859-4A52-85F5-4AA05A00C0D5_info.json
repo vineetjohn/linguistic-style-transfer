@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Guess the song. #pizza", 
+    "created_at": "2015-08-05T23:50:23-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022539_6ca0408fd6af_1.ssng", 
+    "updated_at": "2015-10-24T17:50:49-04:00", 
+    "share_url": "https://a.sso.ng/1/6ca0408fd6af", 
+    "audio_url": "https://s01.sso.ng/1/000000022539_6ca0408fd6af_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022539_6ca0408fd6af_1_mr.jpg", 
+    "song_album": "LONG.LIVE.A$AP", 
+    "user": {
+        "username": "avadowney", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "ABA", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e656572a-4b2f-47db-91ba-ec8bd0eba88f.jpg", 
+        "id": "e656572a-4b2f-47db-91ba-ec8bd0eba88f"
+    }, 
+    "song_title": "F**kin' Problems (feat. Drake, 2 Chainz & Kendrick Lamar)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022539_6ca0408fd6af_1_th.jpg", 
+    "song_artist": "A$AP Rocky", 
+    "favorite_count": 1, 
+    "uuid": "9C66F1FB-2859-4A52-85F5-4AA05A00C0D5"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Long walk with my brother ??", 
+    "created_at": "2015-08-21T23:36:40-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020854_55bf3a53bd3e_1.ssng", 
+    "updated_at": "2015-08-22T11:36:17-04:00", 
+    "share_url": "https://a.sso.ng/1/55bf3a53bd3e", 
+    "audio_url": "https://s01.sso.ng/1/000000020854_55bf3a53bd3e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020854_55bf3a53bd3e_1_mr.jpg", 
+    "song_album": "Pure Heroine (Extended)", 
+    "user": {
+        "username": "delilahtracy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Delilah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5f6cb3e0-2f0b-4138-b027-d9fd1304deaf.jpg", 
+        "id": "5f6cb3e0-2f0b-4138-b027-d9fd1304deaf"
+    }, 
+    "song_title": "White Teeth Teens", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020854_55bf3a53bd3e_1_th.jpg", 
+    "song_artist": "Lorde", 
+    "favorite_count": 2, 
+    "uuid": "BB336ECE-D669-48C3-AB2A-3A5AF9B97F27"
+}

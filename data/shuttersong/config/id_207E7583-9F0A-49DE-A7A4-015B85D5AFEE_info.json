@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "this is just a test!", 
+    "created_at": "2016-02-17T01:27:46-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f00b_26ed9a797596.ssng", 
+    "updated_at": "2016-02-18T05:31:51-05:00", 
+    "share_url": "https://a.sso.ng/1/26ed9a797596", 
+    "audio_url": "https://s02.sso.ng/1/00000003f00b_26ed9a797596.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f00b_26ed9a797596_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Brooks.babes_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8e230e4a-a5a7-4694-950e-5ce92b7d1469"
+    }, 
+    "song_title": "02 Dancing On My Own", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f00b_26ed9a797596_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "207E7583-9F0A-49DE-A7A4-015B85D5AFEE"
+}

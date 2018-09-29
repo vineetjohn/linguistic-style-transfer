@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I tried lol #contest ", 
+    "created_at": "2015-08-14T14:13:31-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000209f5_f9155a0d14df_1.ssng", 
+    "updated_at": "2015-08-18T10:28:36-04:00", 
+    "share_url": "https://a.sso.ng/1/f9155a0d14df", 
+    "audio_url": "https://s01.sso.ng/1/0000000209f5_f9155a0d14df_1.m4a", 
+    "comment_count": 3, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000209f5_f9155a0d14df_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "lowqualityjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "bertha", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0ba6c9a0-4b08-40ae-93e4-5b8c87eb39be.jpg", 
+        "id": "0ba6c9a0-4b08-40ae-93e4-5b8c87eb39be"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000209f5_f9155a0d14df_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 8, 
+    "uuid": "32E9398E-FBB6-4AC8-A1FD-A6D35AF36B97"
+}

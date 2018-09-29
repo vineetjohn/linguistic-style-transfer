@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "im crazyyy", 
+    "created_at": "2016-04-23T09:04:35-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8dd_669c29af033e.ssng", 
+    "updated_at": "2016-04-30T09:12:23-04:00", 
+    "share_url": "https://a.sso.ng/1/669c29af033e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8dd_669c29af033e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8dd_669c29af033e_mr.jpg", 
+    "song_album": "Am I Wrong - Single", 
+    "user": {
+        "username": "MartinaTabone", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/992f1db6-5d3f-4452-89f5-c22be7bc12e0.jpg", 
+        "id": "992f1db6-5d3f-4452-89f5-c22be7bc12e0"
+    }, 
+    "song_title": "Am I Wrong", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8dd_669c29af033e_th.jpg", 
+    "song_artist": "Envy", 
+    "favorite_count": 1, 
+    "uuid": "370C04EE-CB1B-4B9C-ACA5-39A61C9394F8"
+}

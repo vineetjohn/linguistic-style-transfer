@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T21:14:58-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002615f_c8284b87b0b1.ssng", 
+    "updated_at": "2015-08-22T14:29:31-04:00", 
+    "share_url": "https://a.sso.ng/1/c8284b87b0b1", 
+    "audio_url": "https://s01.sso.ng/1/00000002615f_c8284b87b0b1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002615f_c8284b87b0b1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "valenco5", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Valentina", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/69e20e79-e683-442c-a3e2-75e985e185c2.jpg", 
+        "id": "69e20e79-e683-442c-a3e2-75e985e185c2"
+    }, 
+    "song_title": "Calvin Harris - Summer (Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002615f_c8284b87b0b1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "57E3D698-C926-4BD1-BE44-BAB4794B0591"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\udc94", 
+    "created_at": "2016-04-03T17:24:51-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7ac_9569dd6bb9c1.ssng", 
+    "updated_at": "2016-04-04T10:47:39-04:00", 
+    "share_url": "https://a.sso.ng/1/9569dd6bb9c1", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7ac_9569dd6bb9c1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7ac_9569dd6bb9c1_mr.jpg", 
+    "song_album": "In the Lonely Hour (Deluxe Version)", 
+    "user": {
+        "username": "theresa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0ff29971-dfa2-4a04-b295-aca7b7192cc5.jpg", 
+        "id": "0ff29971-dfa2-4a04-b295-aca7b7192cc5"
+    }, 
+    "song_title": "Not In That Way", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7ac_9569dd6bb9c1_th.jpg", 
+    "song_artist": "Sam Smith", 
+    "favorite_count": 2, 
+    "uuid": "EABC4982-489F-4759-96B3-B9C6AAAB3242"
+}

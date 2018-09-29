@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "????? #contest", 
+    "created_at": "2015-08-06T16:40:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000215d9_6822fba7c1fa_1.ssng", 
+    "updated_at": "2015-12-31T06:49:25-05:00", 
+    "share_url": "https://a.sso.ng/1/6822fba7c1fa", 
+    "audio_url": "https://s01.sso.ng/1/0000000215d9_6822fba7c1fa_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000215d9_6822fba7c1fa_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "believinjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "tay", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/82e41a85-3b8a-417d-b277-0d5ea050f026.jpg", 
+        "id": "82e41a85-3b8a-417d-b277-0d5ea050f026"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000215d9_6822fba7c1fa_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 6, 
+    "uuid": "93AECB7D-F7B0-4987-A25E-440FE8143D15"
+}

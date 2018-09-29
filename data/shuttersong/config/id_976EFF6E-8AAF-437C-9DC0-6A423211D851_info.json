@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2764\ufe0f", 
+    "created_at": "2016-02-21T09:28:54-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e71e_acb8cb753c81.ssng", 
+    "updated_at": "2016-03-26T11:23:41-04:00", 
+    "share_url": "https://a.sso.ng/1/acb8cb753c81", 
+    "audio_url": "https://s02.sso.ng/1/00000003e71e_acb8cb753c81.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e71e_acb8cb753c81_mr.jpg", 
+    "song_album": "Made In the A.M. (Deluxe Edition)", 
+    "user": {
+        "username": "KennyxOlsen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2b5e4ccb-ded8-4928-9960-32099cb22861.jpg", 
+        "id": "2b5e4ccb-ded8-4928-9960-32099cb22861"
+    }, 
+    "song_title": "A.M.", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e71e_acb8cb753c81_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 3, 
+    "uuid": "976EFF6E-8AAF-437C-9DC0-6A423211D851"
+}

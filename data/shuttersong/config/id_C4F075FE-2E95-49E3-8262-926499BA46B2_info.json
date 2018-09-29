@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T14:10:41-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002671f_07cd68e59365.ssng", 
+    "updated_at": "2015-08-21T22:44:00-04:00", 
+    "share_url": "https://a.sso.ng/1/07cd68e59365", 
+    "audio_url": "https://s01.sso.ng/1/00000002671f_07cd68e59365.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002671f_07cd68e59365_mr.jpg", 
+    "song_album": "The Very Best", 
+    "user": {
+        "username": "sarahstyles.4", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/01ed55d5-819e-4426-b013-d437f09dbf66.jpg", 
+        "id": "01ed55d5-819e-4426-b013-d437f09dbf66"
+    }, 
+    "song_title": "Kids In America", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002671f_07cd68e59365_th.jpg", 
+    "song_artist": "Kim Wilde", 
+    "favorite_count": 1, 
+    "uuid": "C4F075FE-2E95-49E3-8262-926499BA46B2"
+}

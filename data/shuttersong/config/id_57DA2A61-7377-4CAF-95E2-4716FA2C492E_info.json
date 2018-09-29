@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#jackandjack decided to do tides for this cause it's one of my favourite songs! ", 
+    "created_at": "2015-08-15T20:39:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022719_70509630055b_1.ssng", 
+    "updated_at": "2015-08-19T00:43:49-04:00", 
+    "share_url": "https://a.sso.ng/1/70509630055b", 
+    "audio_url": "https://s01.sso.ng/1/000000022719_70509630055b_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022719_70509630055b_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "Syd_G037", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3e3f11f4-a5ba-4ae0-8b68-3ed949c98b66"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022719_70509630055b_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "57DA2A61-7377-4CAF-95E2-4716FA2C492E"
+}

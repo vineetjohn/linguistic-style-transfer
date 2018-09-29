@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-03-28T11:58:06-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000402ac_4c58d9452149.ssng", 
+    "updated_at": "2016-03-29T14:07:04-04:00", 
+    "share_url": "https://a.sso.ng/1/4c58d9452149", 
+    "audio_url": "https://s02.sso.ng/1/0000000402ac_4c58d9452149.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000402ac_4c58d9452149_mr.jpg", 
+    "song_album": "US Top 40 Singles Chart Week 20 2013", 
+    "user": {
+        "username": "nth", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b7d33682-ca0d-4fe8-b559-a8a011f10565"
+    }, 
+    "song_title": "# that POWER", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000402ac_4c58d9452149_th.jpg", 
+    "song_artist": "will.i.am Featuring Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "46B52542-B906-440D-BE5E-14E74C4193E2"
+}

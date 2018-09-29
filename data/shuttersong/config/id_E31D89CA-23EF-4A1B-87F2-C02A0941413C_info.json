@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-01T22:29:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e854_37608ccdf632.ssng", 
+    "updated_at": "2015-10-09T01:00:11-04:00", 
+    "share_url": "https://a.sso.ng/1/37608ccdf632", 
+    "audio_url": "https://s01.sso.ng/1/00000002e854_37608ccdf632.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e854_37608ccdf632_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "allywood10", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7c558cb8-e0a0-4ed9-9f87-32b35ac5e3df.jpg", 
+        "id": "7c558cb8-e0a0-4ed9-9f87-32b35ac5e3df"
+    }, 
+    "song_title": "I wanna know", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e854_37608ccdf632_th.jpg", 
+    "song_artist": "Joe", 
+    "favorite_count": 3, 
+    "uuid": "E31D89CA-23EF-4A1B-87F2-C02A0941413C"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-20T23:28:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043a8f_f21184834a0b.ssng", 
+    "updated_at": "2016-05-24T01:38:06-04:00", 
+    "share_url": "https://a.sso.ng/1/f21184834a0b", 
+    "audio_url": "https://s02.sso.ng/1/000000043a8f_f21184834a0b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043a8f_f21184834a0b_mr.jpg", 
+    "song_album": "Blurryface", 
+    "user": {
+        "username": "Emily1224", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b3494ec9-4ba3-4b91-b812-bac65f1d4666"
+    }, 
+    "song_title": "Goner", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043a8f_f21184834a0b_th.jpg", 
+    "song_artist": "twenty one pilots", 
+    "favorite_count": 3, 
+    "uuid": "E255E602-EE02-4FAA-A5F7-C1B0B1BCB9DF"
+}

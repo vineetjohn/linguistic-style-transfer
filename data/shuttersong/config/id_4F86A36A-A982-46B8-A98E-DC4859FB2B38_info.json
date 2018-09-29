@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "#music", 
+    "created_at": "2016-04-08T17:09:33-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040efd_008181f5fbd4.ssng", 
+    "updated_at": "2016-04-10T20:51:37-04:00", 
+    "share_url": "https://a.sso.ng/1/008181f5fbd4", 
+    "audio_url": "https://s02.sso.ng/1/000000040efd_008181f5fbd4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040efd_008181f5fbd4_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "luci59", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/22e30000-ab75-4e44-8e45-97622d9d8148.jpg", 
+        "id": "22e30000-ab75-4e44-8e45-97622d9d8148"
+    }, 
+    "song_title": "Fifth Harmony - Work from Home ft. Ty Dolla _ign - 128K MP3", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040efd_008181f5fbd4_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "4F86A36A-A982-46B8-A98E-DC4859FB2B38"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Disney ???", 
+    "created_at": "2015-08-22T21:59:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002af39_58cb91ededae_1.ssng", 
+    "updated_at": "2015-08-23T10:25:27-04:00", 
+    "share_url": "https://a.sso.ng/1/58cb91ededae", 
+    "audio_url": "https://s01.sso.ng/1/00000002af39_58cb91ededae_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002af39_58cb91ededae_1_mr.jpg", 
+    "song_album": "Coraz\u00f3n Bipolar (Edici\u00f3n Especial)", 
+    "user": {
+        "username": "MoniiVeraa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Monica Vera", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5ec9cd94-db38-4c1d-b81d-9d70b01ea982.jpg", 
+        "id": "5ec9cd94-db38-4c1d-b81d-9d70b01ea982"
+    }, 
+    "song_title": "Hoy Soy Nadie", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002af39_58cb91ededae_1_th.jpg", 
+    "song_artist": "Paty Cantu", 
+    "favorite_count": 3, 
+    "uuid": "FB5E8904-A208-4710-AE08-811F5A404B55"
+}

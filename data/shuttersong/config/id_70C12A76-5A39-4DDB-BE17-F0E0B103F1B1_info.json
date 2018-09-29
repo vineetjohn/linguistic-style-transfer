@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-05T03:55:12-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e788_6625f783debb.ssng", 
+    "updated_at": "2016-06-16T04:10:05-04:00", 
+    "share_url": "https://a.sso.ng/1/6625f783debb", 
+    "audio_url": "https://s02.sso.ng/1/00000003e788_6625f783debb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e788_6625f783debb_mr.jpg", 
+    "song_album": "F**k With U (feat. G-Eazy) - Single", 
+    "user": {
+        "username": "_GemmaMarie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gemma Marie Crozier", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/443fabff-cb79-4204-9c68-f9cf00854cec.jpg", 
+        "id": "443fabff-cb79-4204-9c68-f9cf00854cec"
+    }, 
+    "song_title": "F**k With U (feat. G-Eazy)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e788_6625f783debb_th.jpg", 
+    "song_artist": "Pia Mia", 
+    "favorite_count": 3, 
+    "uuid": "70C12A76-5A39-4DDB-BE17-F0E0B103F1B1"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Sunsets and Tori Kelly go well together.", 
+    "created_at": "2015-08-03T23:31:59-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000209bb_d3e7d351a878_1.ssng", 
+    "updated_at": "2015-08-03T23:34:13-04:00", 
+    "share_url": "https://a.sso.ng/1/d3e7d351a878", 
+    "audio_url": "https://s01.sso.ng/1/0000000209bb_d3e7d351a878_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000209bb_d3e7d351a878_1_mr.jpg", 
+    "song_album": "Unbreakable Smile", 
+    "user": {
+        "username": "Kaysivan2", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kay", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/11a0aa2b-cc72-4bcc-aac5-88174239b1ed.jpg", 
+        "id": "11a0aa2b-cc72-4bcc-aac5-88174239b1ed"
+    }, 
+    "song_title": "City Dove", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000209bb_d3e7d351a878_1_th.jpg", 
+    "song_artist": "Tori Kelly", 
+    "favorite_count": 1, 
+    "uuid": "425CEA30-CF04-4A66-9730-34A0E482CB9E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I want shave ice even though it's almost 11:00 here.. My cravings need to be satisfied ASAP", 
+    "created_at": "2015-08-20T04:53:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000224f4_24c300b3f71c_1.ssng", 
+    "updated_at": "2015-08-20T19:25:29-04:00", 
+    "share_url": "https://a.sso.ng/1/24c300b3f71c", 
+    "audio_url": "https://s01.sso.ng/1/0000000224f4_24c300b3f71c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000224f4_24c300b3f71c_1_mr.jpg", 
+    "song_album": "One Way or Another (Teenage Kicks) - Single", 
+    "user": {
+        "username": "Kana808", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kana", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e512dfc4-38f9-42fb-a414-a91fff404d10.jpg", 
+        "id": "e512dfc4-38f9-42fb-a414-a91fff404d10"
+    }, 
+    "song_title": "One Way or Another (Teenage Kicks)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000224f4_24c300b3f71c_1_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 2, 
+    "uuid": "696AAABF-3E1A-42F5-9CB6-6F80E72486AF"
+}

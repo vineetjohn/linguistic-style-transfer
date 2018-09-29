@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "Beau Brooks", 
+    "created_at": "2016-03-15T17:38:49-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f4d6_20c3ba5c6fab.ssng", 
+    "updated_at": "2016-03-15T22:15:57-04:00", 
+    "share_url": "https://a.sso.ng/1/20c3ba5c6fab", 
+    "audio_url": "https://s02.sso.ng/1/00000003f4d6_20c3ba5c6fab.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f4d6_20c3ba5c6fab_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "brookie_carrigg", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bc9fc3fd-88d7-4191-b9c3-ec258ab65211.jpg", 
+        "id": "bc9fc3fd-88d7-4191-b9c3-ec258ab65211"
+    }, 
+    "song_title": "Best Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f4d6_20c3ba5c6fab_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 2, 
+    "uuid": "DFEBE02D-0B0A-481A-AC36-3442D731B37B"
+}

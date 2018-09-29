@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T10:05:58-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000216f3_c83894d656c3.ssng", 
+    "updated_at": "2015-08-04T10:05:58-04:00", 
+    "share_url": "https://a.sso.ng/1/c83894d656c3", 
+    "audio_url": "https://s01.sso.ng/1/0000000216f3_c83894d656c3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000216f3_c83894d656c3_mr.jpg", 
+    "song_album": "Glee: The Music, Vol. 2", 
+    "user": {
+        "username": "leedevon89", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/894009c1-ade7-46b2-abc9-5b3ca7c443d9.jpg", 
+        "id": "894009c1-ade7-46b2-abc9-5b3ca7c443d9"
+    }, 
+    "song_title": "True Colors (Glee Cast Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000216f3_c83894d656c3_th.jpg", 
+    "song_artist": "Glee Cast", 
+    "favorite_count": 1, 
+    "uuid": "955B51DB-5529-4144-997D-C189E3B26400"
+}

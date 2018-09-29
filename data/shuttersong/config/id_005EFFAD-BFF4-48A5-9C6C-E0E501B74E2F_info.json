@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-26T04:09:36-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002cc18_25b08fc18533_1.ssng", 
+    "updated_at": "2015-08-31T23:09:14-04:00", 
+    "share_url": "https://a.sso.ng/1/25b08fc18533", 
+    "audio_url": "https://s01.sso.ng/1/00000002cc18_25b08fc18533_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002cc18_25b08fc18533_1_mr.jpg", 
+    "song_album": "Waking up", 
+    "user": {
+        "username": "Tinasme", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Tina S. mendoza", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7c12da2d-5e49-4578-97e5-8ed32ba19cfc.jpg", 
+        "id": "7c12da2d-5e49-4578-97e5-8ed32ba19cfc"
+    }, 
+    "song_title": "All the right moves", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002cc18_25b08fc18533_1_th.jpg", 
+    "song_artist": "OneRepublic", 
+    "favorite_count": 1, 
+    "uuid": "005EFFAD-BFF4-48A5-9C6C-E0E501B74E2F"
+}

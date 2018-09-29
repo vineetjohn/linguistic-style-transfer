@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@danielsahyoune hello there", 
+    "created_at": "2016-02-15T08:16:40-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e323_41d5eeb82537.ssng", 
+    "updated_at": "2016-02-16T08:32:22-05:00", 
+    "share_url": "https://a.sso.ng/1/41d5eeb82537", 
+    "audio_url": "https://s02.sso.ng/1/00000003e323_41d5eeb82537.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e323_41d5eeb82537_mr.jpg", 
+    "song_album": "The Pinkprint (Deluxe)", 
+    "user": {
+        "username": "Paigee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Beauscoven", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7777cc7e-3b2d-43bd-be10-8cb3a2ea2aa5.jpg", 
+        "id": "7777cc7e-3b2d-43bd-be10-8cb3a2ea2aa5"
+    }, 
+    "song_title": "Big Daddy (feat. Meek Mill)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e323_41d5eeb82537_th.jpg", 
+    "song_artist": "Nicki Minaj", 
+    "favorite_count": 4, 
+    "uuid": "5C336ACB-4C14-4552-984E-44C079BD0EE5"
+}

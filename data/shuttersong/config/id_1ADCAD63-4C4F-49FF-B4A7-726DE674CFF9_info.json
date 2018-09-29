@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I guess for my first post it's only right to have my favorite song. ", 
+    "created_at": "2015-08-03T23:32:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020df6_2518185727d8_1.ssng", 
+    "updated_at": "2015-08-03T23:33:14-04:00", 
+    "share_url": "https://a.sso.ng/1/2518185727d8", 
+    "audio_url": "https://s01.sso.ng/1/000000020df6_2518185727d8_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020df6_2518185727d8_1_mr.jpg", 
+    "song_album": "All American", 
+    "user": {
+        "username": "KindalikeGage", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gage Pearson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7aef60a2-cb95-4a09-9d1a-741250295031.jpg", 
+        "id": "7aef60a2-cb95-4a09-9d1a-741250295031"
+    }, 
+    "song_title": "No Interruption", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020df6_2518185727d8_1_th.jpg", 
+    "song_artist": "Hoodie Allen", 
+    "favorite_count": 2, 
+    "uuid": "1ADCAD63-4C4F-49FF-B4A7-726DE674CFF9"
+}

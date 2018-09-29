@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-22T11:40:31-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004013e_20b9d545bb49.ssng", 
+    "updated_at": "2016-05-27T12:03:06-04:00", 
+    "share_url": "https://a.sso.ng/1/20b9d545bb49", 
+    "audio_url": "https://s02.sso.ng/1/00000004013e_20b9d545bb49.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004013e_20b9d545bb49_mr.jpg", 
+    "song_album": "Badlands", 
+    "user": {
+        "username": "sarahcalvert", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sarah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d843c873-aa47-4255-a232-2aeb8b6f34be.jpg", 
+        "id": "d843c873-aa47-4255-a232-2aeb8b6f34be"
+    }, 
+    "song_title": "I Walk The Line", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004013e_20b9d545bb49_th.jpg", 
+    "song_artist": "Halsey", 
+    "favorite_count": 7, 
+    "uuid": "5625F519-60A0-4EE3-8A3A-53D41F0BC641"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "Port Canaveral today", 
+    "created_at": "2016-04-17T21:11:10-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041950_4aea9a458a3a.ssng", 
+    "updated_at": "2016-04-19T10:50:09-04:00", 
+    "share_url": "https://a.sso.ng/1/4aea9a458a3a", 
+    "audio_url": "https://s02.sso.ng/1/000000041950_4aea9a458a3a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041950_4aea9a458a3a_mr.jpg", 
+    "song_album": "Vybz Kartel - Bet Mi Money (Official Audio) - January 2016", 
+    "user": {
+        "username": "Palmettoman", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c76879c8-ce5d-4416-bcdb-f1c915fd441a"
+    }, 
+    "song_title": "Bet Mi Money (Official Audio) - January 2016", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041950_4aea9a458a3a_th.jpg", 
+    "song_artist": "Vybz Kartel", 
+    "favorite_count": 3, 
+    "uuid": "52C3F3ED-8F61-4577-9F1F-5BE938B4E9A7"
+}

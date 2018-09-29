@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "first", 
+    "created_at": "2016-03-07T16:32:45-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f94b_301b0e8f07ee.ssng", 
+    "updated_at": "2016-03-08T23:16:24-05:00", 
+    "share_url": "https://a.sso.ng/1/301b0e8f07ee", 
+    "audio_url": "https://s02.sso.ng/1/00000003f94b_301b0e8f07ee.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f94b_301b0e8f07ee_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "bobbyscout_yep", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/34b1fe32-6d2e-4f1d-a7fc-0c2897146c64.jpg", 
+        "id": "34b1fe32-6d2e-4f1d-a7fc-0c2897146c64"
+    }, 
+    "song_title": "See You Again", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f94b_301b0e8f07ee_th.jpg", 
+    "song_artist": "Wiz Khalifa", 
+    "favorite_count": 2, 
+    "uuid": "9C536EF3-E48C-4DD5-BDB1-F77411622F05"
+}

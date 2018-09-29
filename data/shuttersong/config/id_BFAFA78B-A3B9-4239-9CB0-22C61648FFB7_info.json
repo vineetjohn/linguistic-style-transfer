@@ -1,0 +1,27 @@
+{
+    "mood": "Contento", 
+    "caption": "en la chutana con elmo", 
+    "created_at": "2016-06-17T01:09:44-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045223_d53f112167c1.ssng", 
+    "updated_at": "2016-06-17T19:52:13-04:00", 
+    "share_url": "https://a.sso.ng/1/d53f112167c1", 
+    "audio_url": "https://s02.sso.ng/1/000000045223_d53f112167c1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045223_d53f112167c1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lioness", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c65477eb-b4f2-4a71-925a-e4141ce85251.jpg", 
+        "id": "c65477eb-b4f2-4a71-925a-e4141ce85251"
+    }, 
+    "song_title": "Don't Stop Me Now", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045223_d53f112167c1_th.jpg", 
+    "song_artist": "Queen", 
+    "favorite_count": 2, 
+    "uuid": "BFAFA78B-A3B9-4239-9CB0-22C61648FFB7"
+}

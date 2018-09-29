@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-23T15:17:29-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ff6c_873a2d1da396.ssng", 
+    "updated_at": "2016-03-24T13:38:04-04:00", 
+    "share_url": "https://a.sso.ng/1/873a2d1da396", 
+    "audio_url": "https://s02.sso.ng/1/00000003ff6c_873a2d1da396.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ff6c_873a2d1da396_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "bbymckenzie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fba878f2-778a-478c-8eb5-1fc72bb03a37"
+    }, 
+    "song_title": "Best Mistake (feat. Big Sean)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ff6c_873a2d1da396_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 4, 
+    "uuid": "F11B2CD6-DAFD-4258-B397-0D85A8306924"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "relaxed", 
+    "caption": "It's been a long day", 
+    "created_at": "2016-02-16T12:55:19-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e263_3b5a658c7836.ssng", 
+    "updated_at": "2016-02-18T21:30:40-05:00", 
+    "share_url": "https://a.sso.ng/1/3b5a658c7836", 
+    "audio_url": "https://s02.sso.ng/1/00000003e263_3b5a658c7836.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e263_3b5a658c7836_mr.jpg", 
+    "song_album": "The Script", 
+    "user": {
+        "username": "Lukewantsvodka", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": "Tina ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2a5714a8-3332-4ef2-91a4-f188f6b5db92.jpg", 
+        "id": "2a5714a8-3332-4ef2-91a4-f188f6b5db92"
+    }, 
+    "song_title": "We Cry", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e263_3b5a658c7836_th.jpg", 
+    "song_artist": "the Script", 
+    "favorite_count": 5, 
+    "uuid": "BA55FAD0-FCDF-4DAB-8B65-5CCF55AF912C"
+}

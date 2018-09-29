@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-09T19:05:40-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e52e_d1b0432b6cb7.ssng", 
+    "updated_at": "2016-02-09T22:08:37-05:00", 
+    "share_url": "https://a.sso.ng/1/d1b0432b6cb7", 
+    "audio_url": "https://s02.sso.ng/1/00000003e52e_d1b0432b6cb7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e52e_d1b0432b6cb7_mr.jpg", 
+    "song_album": "Now That's What I Call Music! 92", 
+    "user": {
+        "username": "Jaiftjamyamm", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a9887910-77cf-47f6-82a9-bfa1125fcfab.jpg", 
+        "id": "a9887910-77cf-47f6-82a9-bfa1125fcfab"
+    }, 
+    "song_title": "Fight Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e52e_d1b0432b6cb7_th.jpg", 
+    "song_artist": "Rachel Platten", 
+    "favorite_count": 1, 
+    "uuid": "9DEE5EAE-6D8A-434B-9AC5-CDB45977251E"
+}

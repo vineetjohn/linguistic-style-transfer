@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-20T22:09:06-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030231_47f41b0f9554.ssng", 
+    "updated_at": "2015-11-23T19:08:45-05:00", 
+    "share_url": "https://a.sso.ng/1/47f41b0f9554", 
+    "audio_url": "https://s01.sso.ng/1/000000030231_47f41b0f9554.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030231_47f41b0f9554_mr.jpg", 
+    "song_album": "Unapologetic (Deluxe Version)", 
+    "user": {
+        "username": "nikyjackson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Niky Jackson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1cceecb6-fbff-4487-897e-a1d3d2f0a4eb.jpg", 
+        "id": "1cceecb6-fbff-4487-897e-a1d3d2f0a4eb"
+    }, 
+    "song_title": "Right Now (feat. David Guetta)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030231_47f41b0f9554_th.jpg", 
+    "song_artist": "Rihanna", 
+    "favorite_count": 2, 
+    "uuid": "21653A3E-2393-4E52-9386-927BB105CE49"
+}

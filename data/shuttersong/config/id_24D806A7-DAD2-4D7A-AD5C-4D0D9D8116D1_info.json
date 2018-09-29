@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Love", 
+    "created_at": "2015-08-12T01:29:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000023110_311ea8a07dae_1.ssng", 
+    "updated_at": "2015-08-12T05:07:53-04:00", 
+    "share_url": "https://a.sso.ng/1/311ea8a07dae", 
+    "audio_url": "https://s01.sso.ng/1/000000023110_311ea8a07dae_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000023110_311ea8a07dae_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "riekdiculous", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "57edb1d2-5a2b-4d38-842d-819ce1182875"
+    }, 
+    "song_title": "Twenty One Pilots - Cant Help Falling In Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000023110_311ea8a07dae_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "24D806A7-DAD2-4D7A-AD5C-4D0D9D8116D1"
+}

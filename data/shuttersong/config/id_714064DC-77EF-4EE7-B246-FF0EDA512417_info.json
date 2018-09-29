@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-11T15:58:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000230b6_61a2dd4e350b.ssng", 
+    "updated_at": "2015-08-12T05:10:08-04:00", 
+    "share_url": "https://a.sso.ng/1/61a2dd4e350b", 
+    "audio_url": "https://s01.sso.ng/1/0000000230b6_61a2dd4e350b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000230b6_61a2dd4e350b_mr.jpg", 
+    "song_album": "Descendants (Original TV Movie Soundtrack)", 
+    "user": {
+        "username": "xtinamaarie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "bc57a6a2-9a15-4b4a-8800-238e4a875980"
+    }, 
+    "song_title": "Rotten to the Core", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000230b6_61a2dd4e350b_th.jpg", 
+    "song_artist": "Dove Cameron, Cameron Boyce, Booboo Stewart & Sofia Carson", 
+    "favorite_count": 1, 
+    "uuid": "714064DC-77EF-4EE7-B246-FF0EDA512417"
+}

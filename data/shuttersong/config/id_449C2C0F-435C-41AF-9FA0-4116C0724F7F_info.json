@@ -1,0 +1,27 @@
+{
+    "mood": "grateful", 
+    "caption": "I loooove Exeter #architecture", 
+    "created_at": "2015-12-02T04:45:49-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000000045_b19c9bfe3195_1.ssng", 
+    "updated_at": "2016-02-23T19:29:16-05:00", 
+    "share_url": "https://a.sso.ng/1/b19c9bfe3195", 
+    "audio_url": "https://s01.sso.ng/1/000000000045_b19c9bfe3195_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000045_b19c9bfe3195_1_mr.jpg", 
+    "song_album": "The Another Love EP", 
+    "user": {
+        "username": "go", 
+        "verified": true, 
+        "username_color": "#f2766a", 
+        "full_name": "Georgina Oxford", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09b3db81-d909-45ee-b737-9c9283d5caeb.jpg", 
+        "id": "09b3db81-d909-45ee-b737-9c9283d5caeb"
+    }, 
+    "song_title": "Another Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000045_b19c9bfe3195_1_th.jpg", 
+    "song_artist": "Tom Odell", 
+    "favorite_count": 24, 
+    "uuid": "449C2C0F-435C-41AF-9FA0-4116C0724F7F"
+}

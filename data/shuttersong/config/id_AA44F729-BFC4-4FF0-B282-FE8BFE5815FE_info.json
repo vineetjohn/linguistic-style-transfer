@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T01:00:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a6a2_97587fc85c54.ssng", 
+    "updated_at": "2015-08-22T20:23:25-04:00", 
+    "share_url": "https://a.sso.ng/1/97587fc85c54", 
+    "audio_url": "https://s01.sso.ng/1/00000002a6a2_97587fc85c54.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a6a2_97587fc85c54_mr.jpg", 
+    "song_album": "Demo-Schmemo", 
+    "user": {
+        "username": "GreciaAylin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a30668f7-2a50-4b22-b1b9-756ed65c193d.jpg", 
+        "id": "a30668f7-2a50-4b22-b1b9-756ed65c193d"
+    }, 
+    "song_title": "Jane Doe", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a6a2_97587fc85c54_th.jpg", 
+    "song_artist": "NeverShoutNever", 
+    "favorite_count": 2, 
+    "uuid": "AA44F729-BFC4-4FF0-B282-FE8BFE5815FE"
+}

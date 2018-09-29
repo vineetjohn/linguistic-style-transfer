@@ -1,0 +1,27 @@
+{
+    "mood": "confused", 
+    "caption": "Say what", 
+    "created_at": "2016-03-15T12:09:45-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e71e_1b32bec922b8.ssng", 
+    "updated_at": "2016-03-18T16:39:46-04:00", 
+    "share_url": "https://a.sso.ng/1/1b32bec922b8", 
+    "audio_url": "https://s02.sso.ng/1/00000003e71e_1b32bec922b8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e71e_1b32bec922b8_mr.jpg", 
+    "song_album": "Death Of A Bachelor", 
+    "user": {
+        "username": "KennyxOlsen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2b5e4ccb-ded8-4928-9960-32099cb22861.jpg", 
+        "id": "2b5e4ccb-ded8-4928-9960-32099cb22861"
+    }, 
+    "song_title": "Victorious", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e71e_1b32bec922b8_th.jpg", 
+    "song_artist": "Panic! At the Disco", 
+    "favorite_count": 2, 
+    "uuid": "7984DEDE-0550-43DA-A28B-098ADE1C74F0"
+}

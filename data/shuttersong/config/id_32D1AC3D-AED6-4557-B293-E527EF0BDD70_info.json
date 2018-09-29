@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-08T23:30:37-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042dc3_dc6662d743c9.ssng", 
+    "updated_at": "2016-05-09T09:59:37-04:00", 
+    "share_url": "https://a.sso.ng/1/dc6662d743c9", 
+    "audio_url": "https://s02.sso.ng/1/000000042dc3_dc6662d743c9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042dc3_dc6662d743c9_mr.jpg", 
+    "song_album": "Doo-Wops & Hooligans", 
+    "user": {
+        "username": "stephanie52", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "351f8730-faf4-43ac-8bdf-4d5d3e218da7"
+    }, 
+    "song_title": "Just the Way You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042dc3_dc6662d743c9_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 2, 
+    "uuid": "32D1AC3D-AED6-4557-B293-E527EF0BDD70"
+}

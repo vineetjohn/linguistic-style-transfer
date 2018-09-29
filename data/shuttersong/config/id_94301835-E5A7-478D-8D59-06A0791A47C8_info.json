@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T22:53:23-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027b87_5008e48315ed.ssng", 
+    "updated_at": "2015-12-31T07:51:49-05:00", 
+    "share_url": "https://a.sso.ng/1/5008e48315ed", 
+    "audio_url": "https://s01.sso.ng/1/000000027b87_5008e48315ed.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027b87_5008e48315ed_mr.jpg", 
+    "song_album": "Ninja Tuna", 
+    "user": {
+        "username": "yuya", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Yuya Cst", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/507edf6e-7ac3-4a5d-a2f4-40f3fb9db161.jpg", 
+        "id": "507edf6e-7ac3-4a5d-a2f4-40f3fb9db161"
+    }, 
+    "song_title": "Kalimba", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027b87_5008e48315ed_th.jpg", 
+    "song_artist": "Mr. Scruff", 
+    "favorite_count": 5, 
+    "uuid": "94301835-E5A7-478D-8D59-06A0791A47C8"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-27T06:31:18-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ddf0_fec1e095392c.ssng", 
+    "updated_at": "2016-03-30T03:16:45-04:00", 
+    "share_url": "https://a.sso.ng/1/fec1e095392c", 
+    "audio_url": "https://s02.sso.ng/1/00000003ddf0_fec1e095392c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ddf0_fec1e095392c_mr.jpg", 
+    "song_album": "Currents", 
+    "user": {
+        "username": "barbrawo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f6b51b98-2087-417e-b5b9-bbdeb62d30f7"
+    }, 
+    "song_title": "Let It Happen", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ddf0_fec1e095392c_th.jpg", 
+    "song_artist": "Tame Impala", 
+    "favorite_count": 1, 
+    "uuid": "1868D8D9-7AE8-4ED9-BD6F-B801DF7A23EE"
+}

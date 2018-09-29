@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-03T10:11:26-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040933_7f89dc8c6f39.ssng", 
+    "updated_at": "2016-06-03T20:33:20-04:00", 
+    "share_url": "https://a.sso.ng/1/7f89dc8c6f39", 
+    "audio_url": "https://s02.sso.ng/1/000000040933_7f89dc8c6f39.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040933_7f89dc8c6f39_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "nam", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9abc443d-6c7d-4525-b086-67183cf1c76d"
+    }, 
+    "song_title": "Meek Mill - Bad For You Feat. Nicki Minaj [Full HD] lyrics", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040933_7f89dc8c6f39_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "066043A3-AD4C-42B9-920E-08FF030B0F7E"
+}

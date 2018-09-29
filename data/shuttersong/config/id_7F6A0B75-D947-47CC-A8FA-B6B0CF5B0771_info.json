@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-24T00:40:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024ed5_57e0d1d65fae.ssng", 
+    "updated_at": "2015-08-24T23:19:20-04:00", 
+    "share_url": "https://a.sso.ng/1/57e0d1d65fae", 
+    "audio_url": "https://s01.sso.ng/1/000000024ed5_57e0d1d65fae.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024ed5_57e0d1d65fae_mr.jpg", 
+    "song_album": "Problem - Single", 
+    "user": {
+        "username": "ReynaRmz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/36c2f592-4e97-4285-b117-bac3c72a69d9.jpg", 
+        "id": "36c2f592-4e97-4285-b117-bac3c72a69d9"
+    }, 
+    "song_title": "Problem (feat. Iggy Azalea)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024ed5_57e0d1d65fae_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 3, 
+    "uuid": "7F6A0B75-D947-47CC-A8FA-B6B0CF5B0771"
+}

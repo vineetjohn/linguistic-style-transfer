@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "first made ", 
+    "created_at": "2015-08-12T18:53:29-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000023a30_71385e520442_1.ssng", 
+    "updated_at": "2015-08-12T22:33:36-04:00", 
+    "share_url": "https://a.sso.ng/1/71385e520442", 
+    "audio_url": "https://s01.sso.ng/1/000000023a30_71385e520442_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000023a30_71385e520442_1_mr.jpg", 
+    "song_album": "Room 93 - EP", 
+    "user": {
+        "username": "okgrace", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/493c2404-6672-4620-9944-f6280aed6366.jpg", 
+        "id": "493c2404-6672-4620-9944-f6280aed6366"
+    }, 
+    "song_title": "Trouble (Stripped)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000023a30_71385e520442_1_th.jpg", 
+    "song_artist": "Halsey", 
+    "favorite_count": 1, 
+    "uuid": "A2437BF1-3304-4059-ACD7-14AB412F9DC9"
+}

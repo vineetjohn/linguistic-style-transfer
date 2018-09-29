@@ -1,0 +1,27 @@
+{
+    "mood": "bored", 
+    "caption": "", 
+    "created_at": "2016-02-10T18:56:10-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e6e1_43f3c0d600d2.ssng", 
+    "updated_at": "2016-02-11T22:19:54-05:00", 
+    "share_url": "https://a.sso.ng/1/43f3c0d600d2", 
+    "audio_url": "https://s02.sso.ng/1/00000003e6e1_43f3c0d600d2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e6e1_43f3c0d600d2_mr.jpg", 
+    "song_album": "Daydreams - EP", 
+    "user": {
+        "username": "Janos_brooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/47c116c6-99cb-4bf2-a8e9-7d2e52011566.jpg", 
+        "id": "47c116c6-99cb-4bf2-a8e9-7d2e52011566"
+    }, 
+    "song_title": "Something Better (feat. Lady Antebellum)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e6e1_43f3c0d600d2_th.jpg", 
+    "song_artist": "Audien", 
+    "favorite_count": 4, 
+    "uuid": "4A3230E4-3C2E-4FF9-90A7-2348165EDECE"
+}

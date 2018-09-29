@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "things are looking up- happy Sunday \u263a\ufe0f", 
+    "created_at": "2016-03-06T13:34:43-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f24f_7a9765ddf974.ssng", 
+    "updated_at": "2016-04-30T08:58:42-04:00", 
+    "share_url": "https://a.sso.ng/1/7a9765ddf974", 
+    "audio_url": "https://s02.sso.ng/1/00000003f24f_7a9765ddf974.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f24f_7a9765ddf974_mr.jpg", 
+    "song_album": "Gossamer", 
+    "user": {
+        "username": "katty511", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Kat Adams ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8c7bb89c-db50-434e-ac24-3a78dd501574.jpg", 
+        "id": "8c7bb89c-db50-434e-ac24-3a78dd501574"
+    }, 
+    "song_title": "Carried Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f24f_7a9765ddf974_th.jpg", 
+    "song_artist": "Passion Pit", 
+    "favorite_count": 3, 
+    "uuid": "299ECAE1-E9F4-4E76-B340-6D58B9929C25"
+}

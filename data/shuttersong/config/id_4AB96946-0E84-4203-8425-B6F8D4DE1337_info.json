@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-30T18:18:00-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000460fc_90b570adc6cd.ssng", 
+    "updated_at": "2016-07-02T09:48:27-04:00", 
+    "share_url": "https://a.sso.ng/1/90b570adc6cd", 
+    "audio_url": "https://s02.sso.ng/1/0000000460fc_90b570adc6cd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000460fc_90b570adc6cd_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "fabis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7718f139-e0d3-4fd2-bb68-661a9cbe089f"
+    }, 
+    "song_title": "R5 - F.E.E.L.G.O.O.D. (O.N. T.O.U.R.) - from YouTube", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000460fc_90b570adc6cd_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "4AB96946-0E84-4203-8425-B6F8D4DE1337"
+}

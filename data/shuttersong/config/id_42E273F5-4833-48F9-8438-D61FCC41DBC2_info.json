@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Juliana Garza  #SantaSorteo", 
+    "created_at": "2015-12-23T23:31:04-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000035de1_1af6edc90737.ssng", 
+    "updated_at": "2015-12-24T01:54:06-05:00", 
+    "share_url": "https://a.sso.ng/1/1af6edc90737", 
+    "audio_url": "https://s01.sso.ng/1/000000035de1_1af6edc90737.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000035de1_1af6edc90737_mr.jpg", 
+    "song_album": "The North", 
+    "user": {
+        "username": "JuliannaGarzaT", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "dac5293c-0b2c-467d-9ba6-08d35019d810"
+    }, 
+    "song_title": "Backlines", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000035de1_1af6edc90737_th.jpg", 
+    "song_artist": "Stars", 
+    "favorite_count": 1, 
+    "uuid": "42E273F5-4833-48F9-8438-D61FCC41DBC2"
+}

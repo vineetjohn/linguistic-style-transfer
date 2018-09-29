@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Don't you know people write songs about girls like you", 
+    "created_at": "2016-02-17T01:06:01-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003df5c_bd4de1924576.ssng", 
+    "updated_at": "2016-06-20T19:42:06-04:00", 
+    "share_url": "https://a.sso.ng/1/bd4de1924576", 
+    "audio_url": "https://s02.sso.ng/1/00000003df5c_bd4de1924576.m4a", 
+    "comment_count": 160, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003df5c_bd4de1924576_mr.jpg", 
+    "song_album": "New Way to Be Human", 
+    "user": {
+        "username": "beaub", 
+        "verified": true, 
+        "username_color": "#28c4d8", 
+        "full_name": "Beau Brooks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ffa72c4a-099a-4eea-a890-7d7e14a60007.jpg", 
+        "id": "ffa72c4a-099a-4eea-a890-7d7e14a60007"
+    }, 
+    "song_title": "Let That Be Enough", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003df5c_bd4de1924576_th.jpg", 
+    "song_artist": "Switchfoot", 
+    "favorite_count": 544, 
+    "uuid": "FCB19892-7BA0-42E8-A608-9FF33B24C9B3"
+}

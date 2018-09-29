@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-30T18:53:44-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000017278_f9e58ef1f8d3.ssng", 
+    "updated_at": "2015-12-22T20:37:04-05:00", 
+    "share_url": "https://a.sso.ng/1/f9e58ef1f8d3", 
+    "audio_url": "https://s01.sso.ng/1/000000017278_f9e58ef1f8d3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000017278_f9e58ef1f8d3_mr.jpg", 
+    "song_album": "Yeezus", 
+    "user": {
+        "username": "ILYFIGUEROA", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/36f69790-423c-4464-ad2b-cec8d4f2b439.jpg", 
+        "id": "36f69790-423c-4464-ad2b-cec8d4f2b439"
+    }, 
+    "song_title": "Bound 2", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000017278_f9e58ef1f8d3_th.jpg", 
+    "song_artist": "Kanye West", 
+    "favorite_count": 2, 
+    "uuid": "400A1878-5E08-4EC2-860D-E3669959C1FF"
+}

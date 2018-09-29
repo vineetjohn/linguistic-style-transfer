@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Taken at Reno, Nevada", 
+    "created_at": "2016-04-16T14:38:55-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_77d90d3a05a6.ssng", 
+    "updated_at": "2016-04-24T07:21:05-04:00", 
+    "share_url": "https://a.sso.ng/1/77d90d3a05a6", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_77d90d3a05a6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_77d90d3a05a6_mr.jpg", 
+    "song_album": "Our Own House", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "Our Own House", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_77d90d3a05a6_th.jpg", 
+    "song_artist": "MisterWives", 
+    "favorite_count": 2, 
+    "uuid": "F095A67C-3FCA-4850-8B8D-BE759BC4AB2F"
+}

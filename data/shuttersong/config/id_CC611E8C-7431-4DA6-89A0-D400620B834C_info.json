@@ -1,0 +1,27 @@
+{
+    "mood": "blah", 
+    "caption": "?", 
+    "created_at": "2016-02-22T00:43:04-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e724_c8c8f43e3620.ssng", 
+    "updated_at": "2016-02-23T19:56:48-05:00", 
+    "share_url": "https://a.sso.ng/1/c8c8f43e3620", 
+    "audio_url": "https://s02.sso.ng/1/00000003e724_c8c8f43e3620.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e724_c8c8f43e3620_mr.jpg", 
+    "song_album": "Sounds Good Feels Good (Deluxe)", 
+    "user": {
+        "username": "ageofteens", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "alexia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/658bd815-d8a9-42c7-b166-bf96697c0cd6.jpg", 
+        "id": "658bd815-d8a9-42c7-b166-bf96697c0cd6"
+    }, 
+    "song_title": "Hey Everybody!", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e724_c8c8f43e3620_th.jpg", 
+    "song_artist": "5 Seconds Of Summer", 
+    "favorite_count": 4, 
+    "uuid": "CC611E8C-7431-4DA6-89A0-D400620B834C"
+}

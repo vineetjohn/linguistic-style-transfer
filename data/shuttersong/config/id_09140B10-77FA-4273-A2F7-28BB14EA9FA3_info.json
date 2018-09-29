@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-10T22:24:13-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003cf89_da1e1c936d46.ssng", 
+    "updated_at": "2016-01-10T22:57:22-05:00", 
+    "share_url": "https://a.sso.ng/1/da1e1c936d46", 
+    "audio_url": "https://s01.sso.ng/1/00000003cf89_da1e1c936d46.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003cf89_da1e1c936d46_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "matt123", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4636f717-34ca-4ae2-bf00-ab69944a4bcc.jpg", 
+        "id": "4636f717-34ca-4ae2-bf00-ab69944a4bcc"
+    }, 
+    "song_title": "Wildest Dreams", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003cf89_da1e1c936d46_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "09140B10-77FA-4273-A2F7-28BB14EA9FA3"
+}

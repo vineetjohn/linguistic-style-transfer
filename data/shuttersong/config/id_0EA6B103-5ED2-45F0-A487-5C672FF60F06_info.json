@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T05:49:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a831_a6bcae10ceb5.ssng", 
+    "updated_at": "2015-08-22T23:45:24-04:00", 
+    "share_url": "https://a.sso.ng/1/a6bcae10ceb5", 
+    "audio_url": "https://s01.sso.ng/1/00000002a831_a6bcae10ceb5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a831_a6bcae10ceb5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Ima_Lady", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b3bed921-bdb3-4692-86ba-d9f5c26751a3"
+    }, 
+    "song_title": "Carly Rae Jepsen - I Really Like You (Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a831_a6bcae10ceb5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "0EA6B103-5ED2-45F0-A487-5C672FF60F06"
+}

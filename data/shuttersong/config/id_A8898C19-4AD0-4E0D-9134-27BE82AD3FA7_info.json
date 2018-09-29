@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "Marleys mood...", 
+    "created_at": "2016-05-01T15:46:18-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004262f_8877cc4ddd14.ssng", 
+    "updated_at": "2016-05-02T22:26:35-04:00", 
+    "share_url": "https://a.sso.ng/1/8877cc4ddd14", 
+    "audio_url": "https://s02.sso.ng/1/00000004262f_8877cc4ddd14.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004262f_8877cc4ddd14_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "cr8z4critters2", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e9cb8de1-da05-4b7e-92ac-4f2741a7e4c4"
+    }, 
+    "song_title": "Everybody_Wants_To_Be_A_Cat-537405", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004262f_8877cc4ddd14_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "A8898C19-4AD0-4E0D-9134-27BE82AD3FA7"
+}

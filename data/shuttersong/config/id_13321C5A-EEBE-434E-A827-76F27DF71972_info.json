@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2016-01-08T18:43:53-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003cbfd_16225d27ae40.ssng", 
+    "updated_at": "2016-01-09T21:30:40-05:00", 
+    "share_url": "https://a.sso.ng/1/16225d27ae40", 
+    "audio_url": "https://s01.sso.ng/1/00000003cbfd_16225d27ae40.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003cbfd_16225d27ae40_mr.jpg", 
+    "song_album": "Ariana Grande", 
+    "user": {
+        "username": "NicolV2", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c6b1c70e-18be-444b-9e95-4342b569fc93"
+    }, 
+    "song_title": "Ariana Grande - One Last Time", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003cbfd_16225d27ae40_th.jpg", 
+    "song_artist": "One Last Time - Single", 
+    "favorite_count": 1, 
+    "uuid": "13321C5A-EEBE-434E-A827-76F27DF71972"
+}

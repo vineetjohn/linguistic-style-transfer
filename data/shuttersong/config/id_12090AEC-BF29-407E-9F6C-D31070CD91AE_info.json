@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T23:21:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020864_cfb230d8d270.ssng", 
+    "updated_at": "2015-08-04T23:21:17-04:00", 
+    "share_url": "https://a.sso.ng/1/cfb230d8d270", 
+    "audio_url": "https://s01.sso.ng/1/000000020864_cfb230d8d270.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020864_cfb230d8d270_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "halle.hauer", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "HHH", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d90420cd-bab3-4c8a-bcab-e56a841fedaf"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020864_cfb230d8d270_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "12090AEC-BF29-407E-9F6C-D31070CD91AE"
+}

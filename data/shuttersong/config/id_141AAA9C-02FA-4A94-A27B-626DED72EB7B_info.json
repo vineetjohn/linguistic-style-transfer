@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Movie timeee", 
+    "created_at": "2016-01-04T05:41:31-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038e6d_d25a3fa0fc30.ssng", 
+    "updated_at": "2016-01-04T14:35:48-05:00", 
+    "share_url": "https://a.sso.ng/1/d25a3fa0fc30", 
+    "audio_url": "https://s01.sso.ng/1/000000038e6d_d25a3fa0fc30.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038e6d_d25a3fa0fc30_mr.jpg", 
+    "song_album": "Drift - Single", 
+    "user": {
+        "username": "gracielasmn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4e41bd46-6b1e-45df-820f-88139a58d69c.jpg", 
+        "id": "4e41bd46-6b1e-45df-820f-88139a58d69c"
+    }, 
+    "song_title": "Drift", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038e6d_d25a3fa0fc30_th.jpg", 
+    "song_artist": "Alina Baraz & Galimatias", 
+    "favorite_count": 1, 
+    "uuid": "141AAA9C-02FA-4A94-A27B-626DED72EB7B"
+}

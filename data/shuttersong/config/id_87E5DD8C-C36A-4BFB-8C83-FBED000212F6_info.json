@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#austinmahone", 
+    "created_at": "2015-08-05T00:24:29-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021bf2_6ea8aba562ed.ssng", 
+    "updated_at": "2015-10-24T17:13:47-04:00", 
+    "share_url": "https://a.sso.ng/1/6ea8aba562ed", 
+    "audio_url": "https://s01.sso.ng/1/000000021bf2_6ea8aba562ed.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021bf2_6ea8aba562ed_mr.jpg", 
+    "song_album": "Banga! Banga! - Single", 
+    "user": {
+        "username": "Nychelle_Evans33", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/39dceefb-d035-4fea-974c-318a6ea13720.jpg", 
+        "id": "39dceefb-d035-4fea-974c-318a6ea13720"
+    }, 
+    "song_title": "Banga! Banga!", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021bf2_6ea8aba562ed_th.jpg", 
+    "song_artist": "Austin Mahone", 
+    "favorite_count": 5, 
+    "uuid": "87E5DD8C-C36A-4BFB-8C83-FBED000212F6"
+}

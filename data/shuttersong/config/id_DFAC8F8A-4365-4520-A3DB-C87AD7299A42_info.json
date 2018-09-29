@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-03T19:33:38-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000409a5_be19ce302d9d.ssng", 
+    "updated_at": "2016-04-06T04:16:41-04:00", 
+    "share_url": "https://a.sso.ng/1/be19ce302d9d", 
+    "audio_url": "https://s02.sso.ng/1/0000000409a5_be19ce302d9d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000409a5_be19ce302d9d_mr.jpg", 
+    "song_album": "String Quartet Live!", 
+    "user": {
+        "username": "thewaytomyheart", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0a66b116-d1ee-4fa0-a4c5-1b1e139ef257"
+    }, 
+    "song_title": "This Must Be the Place (Naive Melody) [Live]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000409a5_be19ce302d9d_th.jpg", 
+    "song_artist": "Kishi Bashi", 
+    "favorite_count": 4, 
+    "uuid": "DFAC8F8A-4365-4520-A3DB-C87AD7299A42"
+}

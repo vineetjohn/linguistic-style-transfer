@@ -1,0 +1,27 @@
+{
+    "mood": "Lazy", 
+    "caption": "", 
+    "created_at": "2016-02-18T23:17:11-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f170_2651f8c886a8.ssng", 
+    "updated_at": "2016-02-20T07:54:01-05:00", 
+    "share_url": "https://a.sso.ng/1/2651f8c886a8", 
+    "audio_url": "https://s02.sso.ng/1/00000003f170_2651f8c886a8.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f170_2651f8c886a8_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Dimpless250", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/456b57e4-cfe6-45a5-a168-45a535acd306.jpg", 
+        "id": "456b57e4-cfe6-45a5-a168-45a535acd306"
+    }, 
+    "song_title": "Technicolour Beat", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f170_2651f8c886a8_th.jpg", 
+    "song_artist": "Oh Wonder", 
+    "favorite_count": 3, 
+    "uuid": "0CE31247-9D1E-4A8E-AFB3-CC59CE82DA71"
+}

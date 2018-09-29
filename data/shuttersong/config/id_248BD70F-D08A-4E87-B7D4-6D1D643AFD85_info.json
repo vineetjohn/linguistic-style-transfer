@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "For the best friends I ever had!! Tagged their instagrams also", 
+    "created_at": "2015-09-04T14:44:37-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002df04_4ce48c829e0e_1.ssng", 
+    "updated_at": "2015-09-05T09:56:50-04:00", 
+    "share_url": "https://a.sso.ng/1/4ce48c829e0e", 
+    "audio_url": "https://s01.sso.ng/1/00000002df04_4ce48c829e0e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002df04_4ce48c829e0e_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "tokyoboca", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2c1f19ef-22a2-4eca-99f3-08809cbe32b7.jpg", 
+        "id": "2c1f19ef-22a2-4eca-99f3-08809cbe32b7"
+    }, 
+    "song_title": "My Everything", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002df04_4ce48c829e0e_1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "248BD70F-D08A-4E87-B7D4-6D1D643AFD85"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "They make me so happy", 
+    "created_at": "2016-03-13T22:31:41-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4fa_b1a147210ccc.ssng", 
+    "updated_at": "2016-03-16T20:20:10-04:00", 
+    "share_url": "https://a.sso.ng/1/b1a147210ccc", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4fa_b1a147210ccc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4fa_b1a147210ccc_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "Jaihoojah", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Dirtycunt", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c0638ccd-c77a-4166-b8f2-9ceb1c49fb37.jpg", 
+        "id": "c0638ccd-c77a-4166-b8f2-9ceb1c49fb37"
+    }, 
+    "song_title": "Would U Love Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4fa_b1a147210ccc_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "7866DC1C-869A-42B2-9190-55E3D3221E7B"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "alone", 
+    "caption": "#mood", 
+    "created_at": "2016-02-28T16:43:38-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e263_dcac63ab2b47.ssng", 
+    "updated_at": "2016-02-29T21:51:42-05:00", 
+    "share_url": "https://a.sso.ng/1/dcac63ab2b47", 
+    "audio_url": "https://s02.sso.ng/1/00000003e263_dcac63ab2b47.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e263_dcac63ab2b47_mr.jpg", 
+    "song_album": "Teenage Desperate - Single", 
+    "user": {
+        "username": "Lukewantsvodka", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": "Tina ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2a5714a8-3332-4ef2-91a4-f188f6b5db92.jpg", 
+        "id": "2a5714a8-3332-4ef2-91a4-f188f6b5db92"
+    }, 
+    "song_title": "Teenage Desperate", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e263_dcac63ab2b47_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 8, 
+    "uuid": "6C0BFF68-CCBA-4867-9B87-FEE986249C10"
+}

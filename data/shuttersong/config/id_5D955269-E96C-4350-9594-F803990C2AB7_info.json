@@ -1,0 +1,27 @@
+{
+    "mood": "good", 
+    "caption": "\u2728", 
+    "created_at": "2016-02-12T23:16:19-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e752_f9964f30542a.ssng", 
+    "updated_at": "2016-03-20T16:31:05-04:00", 
+    "share_url": "https://a.sso.ng/1/f9964f30542a", 
+    "audio_url": "https://s02.sso.ng/1/00000003e752_f9964f30542a.m4a", 
+    "comment_count": 5, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e752_f9964f30542a_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "miilo18", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Marlene D'Silva", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/32a16c87-0901-486d-8b3c-c0f9ececcb5e.jpg", 
+        "id": "32a16c87-0901-486d-8b3c-c0f9ececcb5e"
+    }, 
+    "song_title": "Stellar (Radio Edit)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e752_f9964f30542a_th.jpg", 
+    "song_artist": "Daddy's Groove", 
+    "favorite_count": 3, 
+    "uuid": "5D955269-E96C-4350-9594-F803990C2AB7"
+}

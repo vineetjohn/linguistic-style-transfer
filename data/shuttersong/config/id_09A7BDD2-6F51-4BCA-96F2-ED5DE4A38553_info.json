@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "follow meeeee @beaub", 
+    "created_at": "2016-02-12T01:53:37-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ebd6_10f566a8fd14.ssng", 
+    "updated_at": "2016-02-13T00:27:55-05:00", 
+    "share_url": "https://a.sso.ng/1/10f566a8fd14", 
+    "audio_url": "https://s02.sso.ng/1/00000003ebd6_10f566a8fd14.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ebd6_10f566a8fd14_mr.jpg", 
+    "song_album": "PILLOWTALK - Single", 
+    "user": {
+        "username": "beaugly", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "elaf", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e6a78a02-94cc-4a9b-b6c9-2e58c2e0ac74.jpg", 
+        "id": "e6a78a02-94cc-4a9b-b6c9-2e58c2e0ac74"
+    }, 
+    "song_title": "PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ebd6_10f566a8fd14_th.jpg", 
+    "song_artist": "ZAYN", 
+    "favorite_count": 7, 
+    "uuid": "09A7BDD2-6F51-4BCA-96F2-ED5DE4A38553"
+}

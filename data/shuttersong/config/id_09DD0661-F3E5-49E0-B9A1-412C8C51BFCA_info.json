@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Thanks", 
+    "created_at": "2015-08-19T15:06:54-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020902_5d182cd68f81_1.ssng", 
+    "updated_at": "2015-08-19T20:38:46-04:00", 
+    "share_url": "https://a.sso.ng/1/5d182cd68f81", 
+    "audio_url": "https://s01.sso.ng/1/000000020902_5d182cd68f81_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020902_5d182cd68f81_1_mr.jpg", 
+    "song_album": "Oh, What a Life", 
+    "user": {
+        "username": "jackie2jackie2", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jackie Wuest ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ac54e527-f86f-41fa-bdc6-4a0f4485a58b.jpg", 
+        "id": "ac54e527-f86f-41fa-bdc6-4a0f4485a58b"
+    }, 
+    "song_title": "Best Day of My Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020902_5d182cd68f81_1_th.jpg", 
+    "song_artist": "American Authors", 
+    "favorite_count": 2, 
+    "uuid": "09DD0661-F3E5-49E0-B9A1-412C8C51BFCA"
+}

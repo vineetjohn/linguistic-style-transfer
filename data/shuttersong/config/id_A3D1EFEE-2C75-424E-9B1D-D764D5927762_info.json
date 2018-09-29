@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "is Luke the real slim shady ?? @brooksluke  @beaub", 
+    "created_at": "2016-03-06T22:56:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f28c_0ef9ae3edc85.ssng", 
+    "updated_at": "2016-03-07T00:20:34-05:00", 
+    "share_url": "https://a.sso.ng/1/0ef9ae3edc85", 
+    "audio_url": "https://s02.sso.ng/1/00000003f28c_0ef9ae3edc85.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f28c_0ef9ae3edc85_mr.jpg", 
+    "song_album": "The Marshall Mathers LP", 
+    "user": {
+        "username": "rocketshipjai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "ky", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/56c42178-7437-463c-aad3-081bd7897c8d.jpg", 
+        "id": "56c42178-7437-463c-aad3-081bd7897c8d"
+    }, 
+    "song_title": "The Real Slim Shady", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f28c_0ef9ae3edc85_th.jpg", 
+    "song_artist": "Eminem", 
+    "favorite_count": 1, 
+    "uuid": "A3D1EFEE-2C75-424E-9B1D-D764D5927762"
+}

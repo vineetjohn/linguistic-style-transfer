@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Tides? ", 
+    "created_at": "2015-08-03T23:28:27-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020d36_333c20abede7_1.ssng", 
+    "updated_at": "2015-08-03T23:29:57-04:00", 
+    "share_url": "https://a.sso.ng/1/333c20abede7", 
+    "audio_url": "https://s01.sso.ng/1/000000020d36_333c20abede7_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020d36_333c20abede7_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "BentleyWinsett", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Bentley Winsett", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0ba6f064-6051-4c2e-a124-a9b673f6eb11.jpg", 
+        "id": "0ba6f064-6051-4c2e-a124-a9b673f6eb11"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020d36_333c20abede7_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "00BA1F0D-0706-4874-9D9F-27129B06E7B2"
+}

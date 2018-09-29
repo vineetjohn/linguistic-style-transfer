@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "*has no idea what to put for caption*", 
+    "created_at": "2015-08-04T16:48:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021aa9_8b2f6f6e4682_1.ssng", 
+    "updated_at": "2015-08-04T16:49:20-04:00", 
+    "share_url": "https://a.sso.ng/1/8b2f6f6e4682", 
+    "audio_url": "https://s01.sso.ng/1/000000021aa9_8b2f6f6e4682_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021aa9_8b2f6f6e4682_1_mr.jpg", 
+    "song_album": "Drop It Down Like (feat. Rachel Kramer) - Single", 
+    "user": {
+        "username": "caitlin.debauge", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3c1ae252-9602-4941-b70b-c72c9f3dd95c.jpg", 
+        "id": "3c1ae252-9602-4941-b70b-c72c9f3dd95c"
+    }, 
+    "song_title": "Drop It Down Like (feat. Rachel Kramer) [Radio Edit]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021aa9_8b2f6f6e4682_1_th.jpg", 
+    "song_artist": "Lady Bee", 
+    "favorite_count": 1, 
+    "uuid": "99054498-8D30-4C97-B454-57AD56A5E3FA"
+}

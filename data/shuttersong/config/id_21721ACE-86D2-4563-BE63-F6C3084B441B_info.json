@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo", 
+    "created_at": "2015-12-22T19:32:39-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038032_f0a669503e62_1.ssng", 
+    "updated_at": "2015-12-31T22:35:33-05:00", 
+    "share_url": "https://a.sso.ng/1/f0a669503e62", 
+    "audio_url": "https://s01.sso.ng/1/000000038032_f0a669503e62_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038032_f0a669503e62_1_mr.jpg", 
+    "song_album": "Uptown Special", 
+    "user": {
+        "username": "roquita", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/65813ea0-aa25-43bf-a529-838499a8960d.jpg", 
+        "id": "65813ea0-aa25-43bf-a529-838499a8960d"
+    }, 
+    "song_title": "Uptown Funk (feat. Bruno Mars)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038032_f0a669503e62_1_th.jpg", 
+    "song_artist": "Mark Ronson", 
+    "favorite_count": 12, 
+    "uuid": "21721ACE-86D2-4563-BE63-F6C3084B441B"
+}

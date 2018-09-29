@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Punkish edit for my first post. Why not? ", 
+    "created_at": "2015-08-10T15:29:35-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022f88_ec5d34a88ec7_1.ssng", 
+    "updated_at": "2015-08-10T18:43:38-04:00", 
+    "share_url": "https://a.sso.ng/1/ec5d34a88ec7", 
+    "audio_url": "https://s01.sso.ng/1/000000022f88_ec5d34a88ec7_1.m4a", 
+    "comment_count": 3, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022f88_ec5d34a88ec7_1_mr.jpg", 
+    "song_album": "Nothin to a King - Single", 
+    "user": {
+        "username": "winchestgrier", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "bruhitscaryn", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8cdf2883-29cf-46de-a5ca-2e9b69bc0c7f.jpg", 
+        "id": "8cdf2883-29cf-46de-a5ca-2e9b69bc0c7f"
+    }, 
+    "song_title": "Nothin to a King", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022f88_ec5d34a88ec7_1_th.jpg", 
+    "song_artist": "Young Skate & Sammy Wilk", 
+    "favorite_count": 1, 
+    "uuid": "5135F0DB-9189-4028-8BCC-68DCD41099EF"
+}

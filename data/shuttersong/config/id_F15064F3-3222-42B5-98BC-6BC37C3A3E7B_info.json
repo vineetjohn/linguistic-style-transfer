@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-28T15:33:05-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003dcad_67909f29e2a3.ssng", 
+    "updated_at": "2016-02-01T05:07:55-05:00", 
+    "share_url": "https://a.sso.ng/1/67909f29e2a3", 
+    "audio_url": "https://s02.sso.ng/1/00000003dcad_67909f29e2a3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003dcad_67909f29e2a3_mr.jpg", 
+    "song_album": "Gonna Fly Now", 
+    "user": {
+        "username": "PaulMora", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b04e356d-3905-4122-b9e3-d50c0bc40c3e"
+    }, 
+    "song_title": "Gonna Fly Now (Rocky Movie Theme)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003dcad_67909f29e2a3_th.jpg", 
+    "song_artist": "Bill Conti", 
+    "favorite_count": 3, 
+    "uuid": "F15064F3-3222-42B5-98BC-6BC37C3A3E7B"
+}

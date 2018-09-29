@@ -1,0 +1,27 @@
+{
+    "mood": "Thankful", 
+    "caption": "thank.you", 
+    "created_at": "2016-06-22T03:25:17-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_7b1082a31a5d.ssng", 
+    "updated_at": "2016-06-23T03:29:14-04:00", 
+    "share_url": "https://a.sso.ng/1/7b1082a31a5d", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_7b1082a31a5d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_7b1082a31a5d_mr.jpg", 
+    "song_album": "1989", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "All You Had To Do Was Stay", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_7b1082a31a5d_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 4, 
+    "uuid": "B318BB45-196C-44D9-9056-2951D5D1F482"
+}

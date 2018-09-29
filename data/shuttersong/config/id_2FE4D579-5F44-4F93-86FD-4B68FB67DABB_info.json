@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-15T19:28:01-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000416a1_551b4648c4c9.ssng", 
+    "updated_at": "2016-04-15T22:49:30-04:00", 
+    "share_url": "https://a.sso.ng/1/551b4648c4c9", 
+    "audio_url": "https://s02.sso.ng/1/0000000416a1_551b4648c4c9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000416a1_551b4648c4c9_mr.jpg", 
+    "song_album": "20th Century Masters - The Millennium Collection: The Best of Lionel Richie", 
+    "user": {
+        "username": "travel2inspire", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f02911b3-4a3a-4d66-b525-36232583bf2b"
+    }, 
+    "song_title": "Hello", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000416a1_551b4648c4c9_th.jpg", 
+    "song_artist": "Lionel Richie", 
+    "favorite_count": 1, 
+    "uuid": "2FE4D579-5F44-4F93-86FD-4B68FB67DABB"
+}

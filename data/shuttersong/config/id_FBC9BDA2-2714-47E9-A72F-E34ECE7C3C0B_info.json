@@ -1,0 +1,27 @@
+{
+    "mood": "royal", 
+    "caption": "I look so cute when I was young", 
+    "created_at": "2016-04-01T08:53:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004057c_39115ee34989.ssng", 
+    "updated_at": "2016-04-02T02:24:53-04:00", 
+    "share_url": "https://a.sso.ng/1/39115ee34989", 
+    "audio_url": "https://s02.sso.ng/1/00000004057c_39115ee34989.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004057c_39115ee34989_mr.jpg", 
+    "song_album": "Aquarius", 
+    "user": {
+        "username": "Zanayah_the_Queen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/93606952-fcc6-4908-a6fa-1d49be4c2a74.jpg", 
+        "id": "93606952-fcc6-4908-a6fa-1d49be4c2a74"
+    }, 
+    "song_title": "All Hands On Deck", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004057c_39115ee34989_th.jpg", 
+    "song_artist": "Tinashe", 
+    "favorite_count": 1, 
+    "uuid": "FBC9BDA2-2714-47E9-A72F-E34ECE7C3C0B"
+}

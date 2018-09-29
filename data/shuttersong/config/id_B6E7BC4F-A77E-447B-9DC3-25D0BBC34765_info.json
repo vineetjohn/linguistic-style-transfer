@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#digifest", 
+    "created_at": "2015-08-04T15:02:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020662_4d8c5c943736.ssng", 
+    "updated_at": "2015-10-24T16:45:28-04:00", 
+    "share_url": "https://a.sso.ng/1/4d8c5c943736", 
+    "audio_url": "https://s01.sso.ng/1/000000020662_4d8c5c943736.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020662_4d8c5c943736_mr.jpg", 
+    "song_album": "We Weren't Born to Follow / Who Says You Can't Go Home (Duet With Jennifer Nettles) / Livin' On a Prayer (Live At the 52nd Grammy Awards) - Single", 
+    "user": {
+        "username": "anna_4567", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e09336ac-3587-49ca-a216-2856e703c8dd.jpg", 
+        "id": "e09336ac-3587-49ca-a216-2856e703c8dd"
+    }, 
+    "song_title": "We Weren't Born to Follow / Who Says You Can't Go Home (Duet With Jennifer Nettles) / Livin' On a Prayer (Live At the 52nd Grammy Awards)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020662_4d8c5c943736_th.jpg", 
+    "song_artist": "Bon Jovi", 
+    "favorite_count": 13, 
+    "uuid": "B6E7BC4F-A77E-447B-9DC3-25D0BBC34765"
+}

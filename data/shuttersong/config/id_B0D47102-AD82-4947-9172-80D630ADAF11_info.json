@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-04T10:42:50-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000217d0_f9644af8c996_1.ssng", 
+    "updated_at": "2015-08-04T10:43:08-04:00", 
+    "share_url": "https://a.sso.ng/1/f9644af8c996", 
+    "audio_url": "https://s01.sso.ng/1/0000000217d0_f9644af8c996_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000217d0_f9644af8c996_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "graciejean.b", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/08735e1f-462e-426d-b909-4bcd5660c619.jpg", 
+        "id": "08735e1f-462e-426d-b909-4bcd5660c619"
+    }, 
+    "song_title": "Something Big", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000217d0_f9644af8c996_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "B0D47102-AD82-4947-9172-80D630ADAF11"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-29T11:41:03-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004013e_0ee2d054cc1d.ssng", 
+    "updated_at": "2016-04-13T13:49:13-04:00", 
+    "share_url": "https://a.sso.ng/1/0ee2d054cc1d", 
+    "audio_url": "https://s02.sso.ng/1/00000004013e_0ee2d054cc1d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004013e_0ee2d054cc1d_mr.jpg", 
+    "song_album": "Cry Baby", 
+    "user": {
+        "username": "sarahcalvert", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sarah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d843c873-aa47-4255-a232-2aeb8b6f34be.jpg", 
+        "id": "d843c873-aa47-4255-a232-2aeb8b6f34be"
+    }, 
+    "song_title": "Sippy Cup", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004013e_0ee2d054cc1d_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 3, 
+    "uuid": "600F1EC5-8198-41C7-8A15-7B45BCD5B193"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-19T10:17:47-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000030920_16c7788b9beb.ssng", 
+    "updated_at": "2016-02-20T15:46:41-05:00", 
+    "share_url": "https://a.sso.ng/1/16c7788b9beb", 
+    "audio_url": "https://s02.sso.ng/1/000000030920_16c7788b9beb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030920_16c7788b9beb_mr.jpg", 
+    "song_album": "I Feel for You VLS", 
+    "user": {
+        "username": "Sweetpassion", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9155e9ba-f762-44cb-8793-4206810154ff"
+    }, 
+    "song_title": "I Feel for You (Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030920_16c7788b9beb_th.jpg", 
+    "song_artist": "Chaka Khan", 
+    "favorite_count": 1, 
+    "uuid": "D6DDD6CB-927F-43F4-B675-C02DD11F62A2"
+}

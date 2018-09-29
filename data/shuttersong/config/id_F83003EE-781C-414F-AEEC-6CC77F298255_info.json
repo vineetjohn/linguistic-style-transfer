@@ -1,0 +1,27 @@
+{
+    "mood": "alone", 
+    "caption": "", 
+    "created_at": "2016-04-15T18:00:40-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e561_8328f5ae8cbe.ssng", 
+    "updated_at": "2016-04-15T18:19:33-04:00", 
+    "share_url": "https://a.sso.ng/1/8328f5ae8cbe", 
+    "audio_url": "https://s02.sso.ng/1/00000003e561_8328f5ae8cbe.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e561_8328f5ae8cbe_mr.jpg", 
+    "song_album": "Confident (Deluxe Edition)", 
+    "user": {
+        "username": "_Lukesgirl_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Hey Guys Its Lea", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5b32f2d1-ee0f-4d0a-811f-ede3ab8b3c5a.jpg", 
+        "id": "5b32f2d1-ee0f-4d0a-811f-ede3ab8b3c5a"
+    }, 
+    "song_title": "Stone Cold", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e561_8328f5ae8cbe_th.jpg", 
+    "song_artist": "Demi Lovato", 
+    "favorite_count": 1, 
+    "uuid": "F83003EE-781C-414F-AEEC-6CC77F298255"
+}

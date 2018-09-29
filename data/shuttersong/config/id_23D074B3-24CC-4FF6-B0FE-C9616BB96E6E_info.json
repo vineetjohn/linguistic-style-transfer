@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-23T12:11:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021900_0e4ea1810480.ssng", 
+    "updated_at": "2015-08-23T21:06:46-04:00", 
+    "share_url": "https://a.sso.ng/1/0e4ea1810480", 
+    "audio_url": "https://s01.sso.ng/1/000000021900_0e4ea1810480.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021900_0e4ea1810480_mr.jpg", 
+    "song_album": "Settle", 
+    "user": {
+        "username": "sarahd", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sarah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/879a76f7-a3ef-4c3f-af15-e43a7ac5e009.jpg", 
+        "id": "879a76f7-a3ef-4c3f-af15-e43a7ac5e009"
+    }, 
+    "song_title": "Latch (feat. Sam Smith)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021900_0e4ea1810480_th.jpg", 
+    "song_artist": "Disclosure", 
+    "favorite_count": 1, 
+    "uuid": "23D074B3-24CC-4FF6-B0FE-C9616BB96E6E"
+}

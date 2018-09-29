@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-13T23:13:19-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000031044_194dcefd7390.ssng", 
+    "updated_at": "2015-12-14T05:26:12-05:00", 
+    "share_url": "https://a.sso.ng/1/194dcefd7390", 
+    "audio_url": "https://s01.sso.ng/1/000000031044_194dcefd7390.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000031044_194dcefd7390_mr.jpg", 
+    "song_album": "My Kind Of Christmas", 
+    "user": {
+        "username": "stunnamama", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f545122e-034e-4437-97e1-2c6fa6b55173"
+    }, 
+    "song_title": "Angels We Have Heard On High", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000031044_194dcefd7390_th.jpg", 
+    "song_artist": "Christina Aguilera", 
+    "favorite_count": 1, 
+    "uuid": "48270EA1-BAEA-4AFE-8C0E-35F93A225136"
+}

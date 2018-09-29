@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Love my baby ", 
+    "created_at": "2015-08-04T15:00:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000219e1_7f97c888cd19_1.ssng", 
+    "updated_at": "2015-08-04T15:00:39-04:00", 
+    "share_url": "https://a.sso.ng/1/7f97c888cd19", 
+    "audio_url": "https://s01.sso.ng/1/0000000219e1_7f97c888cd19_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000219e1_7f97c888cd19_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "raegon", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Raegon ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/abd5d303-029c-4f43-9f40-548dadeb28cc.jpg", 
+        "id": "abd5d303-029c-4f43-9f40-548dadeb28cc"
+    }, 
+    "song_title": "always be my baby", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000219e1_7f97c888cd19_1_th.jpg", 
+    "song_artist": "mirah carey ", 
+    "favorite_count": 1, 
+    "uuid": "A24A9A12-2000-4652-8168-A6F6BEC05CAC"
+}

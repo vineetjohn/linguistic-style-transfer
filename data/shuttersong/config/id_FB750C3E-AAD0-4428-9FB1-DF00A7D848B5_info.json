@@ -1,0 +1,27 @@
+{
+    "mood": "Blah", 
+    "caption": "#cheese #stick", 
+    "created_at": "2016-06-29T05:20:52-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000024c90_bea329f2c73f.ssng", 
+    "updated_at": "2016-06-29T17:37:31-04:00", 
+    "share_url": "https://a.sso.ng/1/bea329f2c73f", 
+    "audio_url": "https://s02.sso.ng/1/000000024c90_bea329f2c73f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000024c90_bea329f2c73f_mr.jpg", 
+    "song_album": "PTX, Vol. 2", 
+    "user": {
+        "username": "andre.raikonen", 
+        "verified": false, 
+        "username_color": "#084e8c", 
+        "full_name": "Andre Raikonen", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/43e20a5a-ff92-4ce3-adb6-e1da7f6359ca.jpg", 
+        "id": "43e20a5a-ff92-4ce3-adb6-e1da7f6359ca"
+    }, 
+    "song_title": "Daft Punk", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000024c90_bea329f2c73f_th.jpg", 
+    "song_artist": "Pentatonix", 
+    "favorite_count": 1, 
+    "uuid": "FB750C3E-AAD0-4428-9FB1-DF00A7D848B5"
+}

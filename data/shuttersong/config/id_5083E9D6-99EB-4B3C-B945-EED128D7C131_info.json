@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "meine tattokette", 
+    "created_at": "2016-06-30T13:04:40-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000046264_4ea6d8376a24.ssng", 
+    "updated_at": "2016-06-30T20:42:08-04:00", 
+    "share_url": "https://a.sso.ng/1/4ea6d8376a24", 
+    "audio_url": "https://s02.sso.ng/1/000000046264_4ea6d8376a24.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000046264_4ea6d8376a24_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lina.h", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4acf8219-5fae-49cb-9bec-b80e1ff0e89e"
+    }, 
+    "song_title": "Heart Attack", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000046264_4ea6d8376a24_th.jpg", 
+    "song_artist": "Nightcore", 
+    "favorite_count": 1, 
+    "uuid": "5083E9D6-99EB-4B3C-B945-EED128D7C131"
+}

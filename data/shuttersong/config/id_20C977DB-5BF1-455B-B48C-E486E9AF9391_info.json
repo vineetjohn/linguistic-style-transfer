@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Picnic at the lake \u2600\ufe0f?", 
+    "created_at": "2015-08-15T21:12:48-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024707_28be321f842d_1.ssng", 
+    "updated_at": "2015-08-15T21:31:43-04:00", 
+    "share_url": "https://a.sso.ng/1/28be321f842d", 
+    "audio_url": "https://s01.sso.ng/1/000000024707_28be321f842d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024707_28be321f842d_1_mr.jpg", 
+    "song_album": "Little Bit - Single", 
+    "user": {
+        "username": "sammyiams", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sam", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0274866c-77fd-424b-8a9e-d8803ba5f48d.jpg", 
+        "id": "0274866c-77fd-424b-8a9e-d8803ba5f48d"
+    }, 
+    "song_title": "Little Bit", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024707_28be321f842d_1_th.jpg", 
+    "song_artist": "Skate", 
+    "favorite_count": 1, 
+    "uuid": "20C977DB-5BF1-455B-B48C-E486E9AF9391"
+}

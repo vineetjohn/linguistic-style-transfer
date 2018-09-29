@@ -1,0 +1,27 @@
+{
+    "mood": "hungry", 
+    "caption": "desayuno, almuerzo y cena", 
+    "created_at": "2015-12-21T19:19:46-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003814a_d3690667b146_1.ssng", 
+    "updated_at": "2015-12-22T02:37:34-05:00", 
+    "share_url": "https://a.sso.ng/1/d3690667b146", 
+    "audio_url": "https://s01.sso.ng/1/00000003814a_d3690667b146_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003814a_d3690667b146_1_mr.jpg", 
+    "song_album": "Presence (Remastered)", 
+    "user": {
+        "username": "AmandaGomez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e41ac24-976b-4c38-baf1-21a76d431ecc.jpg", 
+        "id": "2e41ac24-976b-4c38-baf1-21a76d431ecc"
+    }, 
+    "song_title": "For Your Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003814a_d3690667b146_1_th.jpg", 
+    "song_artist": "Led Zeppelin", 
+    "favorite_count": 1, 
+    "uuid": "B81753CB-FEC0-4EDF-B8D2-05F1A7CEB12A"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "this is my favorite song ? it's so inspirational! dysfunctional ?", 
+    "created_at": "2015-08-11T23:45:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002064e_f019691a6849_1.ssng", 
+    "updated_at": "2015-08-19T00:41:13-04:00", 
+    "share_url": "https://a.sso.ng/1/f019691a6849", 
+    "audio_url": "https://s01.sso.ng/1/00000002064e_f019691a6849_1.m4a", 
+    "comment_count": 7, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002064e_f019691a6849_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "jackjackjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "nicole anderson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0225d114-9c76-4e7c-81ea-1fde881fdac8.jpg", 
+        "id": "0225d114-9c76-4e7c-81ea-1fde881fdac8"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002064e_f019691a6849_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 14, 
+    "uuid": "0C10739B-90BA-4029-8BF5-273188DE1A26"
+}

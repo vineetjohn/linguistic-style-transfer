@@ -1,0 +1,27 @@
+{
+    "mood": "excited", 
+    "caption": "this is dumb... But my birthday is in two days so idc", 
+    "created_at": "2016-03-17T19:38:22-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f24f_680e2eab9156.ssng", 
+    "updated_at": "2016-03-18T06:53:41-04:00", 
+    "share_url": "https://a.sso.ng/1/680e2eab9156", 
+    "audio_url": "https://s02.sso.ng/1/00000003f24f_680e2eab9156.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f24f_680e2eab9156_mr.jpg", 
+    "song_album": "5 Seconds of Summer (Bonus Track Version)", 
+    "user": {
+        "username": "katty511", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Kat Adams ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8c7bb89c-db50-434e-ac24-3a78dd501574.jpg", 
+        "id": "8c7bb89c-db50-434e-ac24-3a78dd501574"
+    }, 
+    "song_title": "Greenlight (Bonus Track)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f24f_680e2eab9156_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 2, 
+    "uuid": "EED0DA89-7284-4979-887F-6F480A87B3CE"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Babe", 
+    "created_at": "2016-06-27T14:33:43-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3f2_4fef12cb22e6.ssng", 
+    "updated_at": "2016-06-29T17:39:12-04:00", 
+    "share_url": "https://a.sso.ng/1/4fef12cb22e6", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3f2_4fef12cb22e6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3f2_4fef12cb22e6_mr.jpg", 
+    "song_album": "Mind of Mine (Deluxe Edition)", 
+    "user": {
+        "username": "AvaSaldana96", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ayeee_Vahhh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c860f132-e54d-4498-99e1-bac87ee33c31.jpg", 
+        "id": "c860f132-e54d-4498-99e1-bac87ee33c31"
+    }, 
+    "song_title": "LIKE I WOULD", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3f2_4fef12cb22e6_th.jpg", 
+    "song_artist": "ZAYN", 
+    "favorite_count": 4, 
+    "uuid": "D2A71B52-E8EA-4516-99DC-66252495DF00"
+}

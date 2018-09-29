@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-13T09:55:02-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f6f1_78213390409f.ssng", 
+    "updated_at": "2016-04-14T12:10:26-04:00", 
+    "share_url": "https://a.sso.ng/1/78213390409f", 
+    "audio_url": "https://s02.sso.ng/1/00000003f6f1_78213390409f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f6f1_78213390409f_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Linton33", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7f2c9856-0873-46bf-8d38-9ab2846dd321"
+    }, 
+    "song_title": "Bando Jonez - Sex You (audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f6f1_78213390409f_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "998EFF7B-E146-475F-A7C3-1F64757A607E"
+}

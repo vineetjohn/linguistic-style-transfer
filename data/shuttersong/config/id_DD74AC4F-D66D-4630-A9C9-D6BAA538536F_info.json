@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "-Amar es ser masoquista-", 
+    "created_at": "2015-09-13T19:22:10-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027a2e_5e0ff9d725b1_1.ssng", 
+    "updated_at": "2015-09-15T02:54:42-04:00", 
+    "share_url": "https://a.sso.ng/1/5e0ff9d725b1", 
+    "audio_url": "https://s01.sso.ng/1/000000027a2e_5e0ff9d725b1_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027a2e_5e0ff9d725b1_1_mr.jpg", 
+    "song_album": "21", 
+    "user": {
+        "username": "Mafer_Sanchez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e589cafa-6d99-4ecd-b8b8-fb26a353e75f.jpg", 
+        "id": "e589cafa-6d99-4ecd-b8b8-fb26a353e75f"
+    }, 
+    "song_title": "Set Fire to the Rain", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027a2e_5e0ff9d725b1_1_th.jpg", 
+    "song_artist": "Adele", 
+    "favorite_count": 1, 
+    "uuid": "DD74AC4F-D66D-4630-A9C9-D6BAA538536F"
+}

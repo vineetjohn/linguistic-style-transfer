@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo", 
+    "created_at": "2015-12-24T16:59:19-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000035070_54fa7dac518e.ssng", 
+    "updated_at": "2015-12-28T10:31:01-05:00", 
+    "share_url": "https://a.sso.ng/1/54fa7dac518e", 
+    "audio_url": "https://s01.sso.ng/1/000000035070_54fa7dac518e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000035070_54fa7dac518e_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "SolCarusillo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/77fdb9ef-8702-4621-a7f6-85d6575977c8.jpg", 
+        "id": "77fdb9ef-8702-4621-a7f6-85d6575977c8"
+    }, 
+    "song_title": "lily wood & the prick and robin schul - prayer in c (robin schulz remix) mp3", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000035070_54fa7dac518e_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "9DB959EF-9D4C-4E94-8F54-02C0EACD1EA4"
+}

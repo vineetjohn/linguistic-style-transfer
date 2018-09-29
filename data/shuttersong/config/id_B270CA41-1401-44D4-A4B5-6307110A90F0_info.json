@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My Daddy! #BodaOrdazPerdomo", 
+    "created_at": "2015-12-29T19:28:01-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003a140_36eabea2c834.ssng", 
+    "updated_at": "2015-12-29T22:34:39-05:00", 
+    "share_url": "https://a.sso.ng/1/36eabea2c834", 
+    "audio_url": "https://s01.sso.ng/1/00000003a140_36eabea2c834.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003a140_36eabea2c834_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "vanessavperdomo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4ec2baea-81e5-4cad-9c02-8a96db7585a3"
+    }, 
+    "song_title": "The Weeknd - Can't Feel My Face", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003a140_36eabea2c834_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "B270CA41-1401-44D4-A4B5-6307110A90F0"
+}

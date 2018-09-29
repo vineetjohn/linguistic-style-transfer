@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-18T10:25:27-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000000008_c43ef00b543a.ssng", 
+    "updated_at": "2015-12-20T08:55:56-05:00", 
+    "share_url": "https://a.sso.ng/1/c43ef00b543a", 
+    "audio_url": "https://s01.sso.ng/1/000000000008_c43ef00b543a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000008_c43ef00b543a_mr.jpg", 
+    "song_album": "Enya", 
+    "user": {
+        "username": "suryany", 
+        "verified": false, 
+        "username_color": "#8CD600", 
+        "full_name": "Suryany Puspita", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/01f074ec-e106-4cf4-92d9-7d216d2b22ac.jpg", 
+        "id": "01f074ec-e106-4cf4-92d9-7d216d2b22ac"
+    }, 
+    "song_title": "Oh Holy Night", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000008_c43ef00b543a_th.jpg", 
+    "song_artist": "Christmas Songs", 
+    "favorite_count": 1, 
+    "uuid": "96098723-7239-4290-8724-3B1825AB2F12"
+}

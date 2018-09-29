@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "i finally finished my painting!", 
+    "created_at": "2015-09-19T12:21:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020c39_e7ac3f4623f2_1.ssng", 
+    "updated_at": "2016-07-01T11:31:39-04:00", 
+    "share_url": "https://a.sso.ng/1/e7ac3f4623f2", 
+    "audio_url": "https://s01.sso.ng/1/000000020c39_e7ac3f4623f2_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020c39_e7ac3f4623f2_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "KenzieS", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Kenzie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0143701c-03a1-476e-b2cc-761410bcb8d2.jpg", 
+        "id": "0143701c-03a1-476e-b2cc-761410bcb8d2"
+    }, 
+    "song_title": "Aftertaste", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020c39_e7ac3f4623f2_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 3, 
+    "uuid": "B13491EB-6BA1-4F9D-A683-74B0A754DD6B"
+}

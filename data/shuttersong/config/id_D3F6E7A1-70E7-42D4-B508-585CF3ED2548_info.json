@@ -1,0 +1,27 @@
+{
+    "mood": "Anxious", 
+    "caption": "@yonanda2910", 
+    "created_at": "2016-06-17T02:49:03-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_9a0683397664.ssng", 
+    "updated_at": "2016-06-20T00:49:02-04:00", 
+    "share_url": "https://a.sso.ng/1/9a0683397664", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_9a0683397664.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_9a0683397664_mr.jpg", 
+    "song_album": "Angela Sings MLTR", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "Out Of The Blue", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_9a0683397664_th.jpg", 
+    "song_artist": "Angela", 
+    "favorite_count": 5, 
+    "uuid": "D3F6E7A1-70E7-42D4-B508-585CF3ED2548"
+}

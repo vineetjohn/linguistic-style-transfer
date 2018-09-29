@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Was yesterday! ??", 
+    "created_at": "2015-08-04T07:55:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021668_7fb54e54bc50_1.ssng", 
+    "updated_at": "2015-08-04T07:56:00-04:00", 
+    "share_url": "https://a.sso.ng/1/7fb54e54bc50", 
+    "audio_url": "https://s01.sso.ng/1/000000021668_7fb54e54bc50_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021668_7fb54e54bc50_1_mr.jpg", 
+    "song_album": "Four (Deluxe Edition)", 
+    "user": {
+        "username": "BrookeCrosby", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4b2c046a-e10a-46bf-b6d4-f5e5276ddeb4.jpg", 
+        "id": "4b2c046a-e10a-46bf-b6d4-f5e5276ddeb4"
+    }, 
+    "song_title": "Clouds", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021668_7fb54e54bc50_1_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "9C633EFF-961E-4763-A3EC-008392273058"
+}

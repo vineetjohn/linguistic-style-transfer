@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Bloop", 
+    "created_at": "2016-06-24T17:32:07-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000458d8_df658cc28130.ssng", 
+    "updated_at": "2016-06-25T20:13:05-04:00", 
+    "share_url": "https://a.sso.ng/1/df658cc28130", 
+    "audio_url": "https://s02.sso.ng/1/0000000458d8_df658cc28130.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000458d8_df658cc28130_mr.jpg", 
+    "song_album": "That's the Spirit", 
+    "user": {
+        "username": "sammie_kaylee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sammy", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/461d6a67-be27-4ed1-9c22-950c245c7532.jpg", 
+        "id": "461d6a67-be27-4ed1-9c22-950c245c7532"
+    }, 
+    "song_title": "True Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000458d8_df658cc28130_th.jpg", 
+    "song_artist": "Bring Me the Horizon", 
+    "favorite_count": 1, 
+    "uuid": "94E89083-F600-49EA-818D-4B4BACB8F6BF"
+}

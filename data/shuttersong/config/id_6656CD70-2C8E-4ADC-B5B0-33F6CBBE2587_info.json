@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "????", 
+    "created_at": "2015-09-17T19:53:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000284ff_a0cfe2930e29_1.ssng", 
+    "updated_at": "2015-09-23T18:06:01-04:00", 
+    "share_url": "https://a.sso.ng/1/a0cfe2930e29", 
+    "audio_url": "https://s01.sso.ng/1/0000000284ff_a0cfe2930e29_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000284ff_a0cfe2930e29_1_mr.jpg", 
+    "song_album": "Billboard Hot 100 Singles Chart", 
+    "user": {
+        "username": "itzelgutierrez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Itzel Gutierrez", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4015ac3e-9fc6-4499-be91-c20e51612357.jpg", 
+        "id": "4015ac3e-9fc6-4499-be91-c20e51612357"
+    }, 
+    "song_title": "Nasty Freestyle", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000284ff_a0cfe2930e29_1_th.jpg", 
+    "song_artist": "T-Wayne", 
+    "favorite_count": 1, 
+    "uuid": "6656CD70-2C8E-4ADC-B5B0-33F6CBBE2587"
+}

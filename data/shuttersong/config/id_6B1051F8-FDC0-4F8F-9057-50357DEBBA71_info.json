@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Lennon style", 
+    "created_at": "2015-12-20T16:11:20-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000278f7_d05de956035c.ssng", 
+    "updated_at": "2015-12-20T16:31:52-05:00", 
+    "share_url": "https://a.sso.ng/1/d05de956035c", 
+    "audio_url": "https://s01.sso.ng/1/0000000278f7_d05de956035c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000278f7_d05de956035c_mr.jpg", 
+    "song_album": "The Beatles", 
+    "user": {
+        "username": "fatizgo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a2470b83-76c6-46c5-8470-dc3f72c5dcfa.jpg", 
+        "id": "a2470b83-76c6-46c5-8470-dc3f72c5dcfa"
+    }, 
+    "song_title": "Beatles - Hey Jude", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000278f7_d05de956035c_th.jpg", 
+    "song_artist": "The Beatles 1", 
+    "favorite_count": 2, 
+    "uuid": "6B1051F8-FDC0-4F8F-9057-50357DEBBA71"
+}

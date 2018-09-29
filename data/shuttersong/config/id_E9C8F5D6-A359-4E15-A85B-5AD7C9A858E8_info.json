@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-01T12:59:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002eb8d_4f4d946631e9.ssng", 
+    "updated_at": "2015-10-04T22:15:36-04:00", 
+    "share_url": "https://a.sso.ng/1/4f4d946631e9", 
+    "audio_url": "https://s01.sso.ng/1/00000002eb8d_4f4d946631e9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002eb8d_4f4d946631e9_mr.jpg", 
+    "song_album": "Drag Me Down - Single", 
+    "user": {
+        "username": "graciejames20", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fbfe35ad-d2f3-49df-a708-c06c0ee8f9c4"
+    }, 
+    "song_title": "Drag Me Down", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002eb8d_4f4d946631e9_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "E9C8F5D6-A359-4E15-A85B-5AD7C9A858E8"
+}

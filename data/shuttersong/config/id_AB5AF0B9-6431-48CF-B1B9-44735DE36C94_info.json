@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-04T13:51:33-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003a702_dfed15f3cf03.ssng", 
+    "updated_at": "2016-01-13T14:51:12-05:00", 
+    "share_url": "https://a.sso.ng/1/dfed15f3cf03", 
+    "audio_url": "https://s01.sso.ng/1/00000003a702_dfed15f3cf03.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003a702_dfed15f3cf03_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "genesismota", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Genesis Mota Toyo", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f6bd5396-2565-407a-be65-c5a39e2f50d6.jpg", 
+        "id": "f6bd5396-2565-407a-be65-c5a39e2f50d6"
+    }, 
+    "song_title": "Justin Bieber - Sorry (PURPOSE - The Movement)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003a702_dfed15f3cf03_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "AB5AF0B9-6431-48CF-B1B9-44735DE36C94"
+}

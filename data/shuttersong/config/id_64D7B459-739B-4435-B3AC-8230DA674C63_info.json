@@ -1,0 +1,27 @@
+{
+    "mood": "peaceful", 
+    "caption": "@beaub check dms", 
+    "created_at": "2016-06-20T17:49:11-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e32b_05cd098e386f.ssng", 
+    "updated_at": "2016-06-20T19:24:46-04:00", 
+    "share_url": "https://a.sso.ng/1/05cd098e386f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e32b_05cd098e386f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e32b_05cd098e386f_mr.jpg", 
+    "song_album": "Love What You Have - Single", 
+    "user": {
+        "username": "Demi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "trappedjai", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ea8f35ae-ce5b-4758-a363-289fd7267f8c.jpg", 
+        "id": "ea8f35ae-ce5b-4758-a363-289fd7267f8c"
+    }, 
+    "song_title": "Love What You Have", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e32b_05cd098e386f_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 5, 
+    "uuid": "64D7B459-739B-4435-B3AC-8230DA674C63"
+}

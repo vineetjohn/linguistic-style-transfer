@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-26T20:14:38-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041b60_71ab97abf288.ssng", 
+    "updated_at": "2016-04-27T01:25:33-04:00", 
+    "share_url": "https://a.sso.ng/1/71ab97abf288", 
+    "audio_url": "https://s02.sso.ng/1/000000041b60_71ab97abf288.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041b60_71ab97abf288_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "luizaparente_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b604adfc-aeae-41c3-bfd3-da57a9ee9245"
+    }, 
+    "song_title": "Young, Wild & Free Lyrics - Wiz Khalifa feat. Snoop Dogg", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041b60_71ab97abf288_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "03D3FD91-8BDC-44C6-A88B-D47AA425288C"
+}

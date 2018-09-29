@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Starbucks vibes \u2615\ufe0f", 
+    "created_at": "2015-12-28T08:49:48-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f382_b5eeb7c5e008.ssng", 
+    "updated_at": "2016-03-04T10:46:13-05:00", 
+    "share_url": "https://a.sso.ng/1/b5eeb7c5e008", 
+    "audio_url": "https://s01.sso.ng/1/00000001f382_b5eeb7c5e008.m4a", 
+    "comment_count": 5, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f382_b5eeb7c5e008_mr.jpg", 
+    "song_album": "1989 (Deluxe)", 
+    "user": {
+        "username": "sapphire", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Sapphire", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/322041a2-32f5-4184-b5bb-c38c16a3d6ab.jpg", 
+        "id": "322041a2-32f5-4184-b5bb-c38c16a3d6ab"
+    }, 
+    "song_title": "Shake It Off", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f382_b5eeb7c5e008_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 188, 
+    "uuid": "0BAB2844-2F5F-46F4-B773-BCA7924ADEA3"
+}

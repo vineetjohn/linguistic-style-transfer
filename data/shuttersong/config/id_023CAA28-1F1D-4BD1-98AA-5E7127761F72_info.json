@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-15T23:46:09-05:00", 
+    "file_url": "https://s02.sso.ng/1/0000000322f2_f3d64b7aa807.ssng", 
+    "updated_at": "2016-01-26T05:12:36-05:00", 
+    "share_url": "https://a.sso.ng/1/f3d64b7aa807", 
+    "audio_url": "https://s02.sso.ng/1/0000000322f2_f3d64b7aa807.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000322f2_f3d64b7aa807_mr.jpg", 
+    "song_album": "Want to Want Me - Single", 
+    "user": {
+        "username": "Itzel_zaz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6f4b7184-fe0b-484b-bf49-1bf4fa908bf2.jpg", 
+        "id": "6f4b7184-fe0b-484b-bf49-1bf4fa908bf2"
+    }, 
+    "song_title": "Want to Want Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000322f2_f3d64b7aa807_th.jpg", 
+    "song_artist": "Jason Derulo", 
+    "favorite_count": 1, 
+    "uuid": "023CAA28-1F1D-4BD1-98AA-5E7127761F72"
+}

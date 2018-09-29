@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T20:03:36-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002672f_508a1b649242.ssng", 
+    "updated_at": "2015-08-20T22:33:17-04:00", 
+    "share_url": "https://a.sso.ng/1/508a1b649242", 
+    "audio_url": "https://s01.sso.ng/1/00000002672f_508a1b649242.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002672f_508a1b649242_mr.jpg", 
+    "song_album": "Midnight Memories", 
+    "user": {
+        "username": "erikaGonzalez99", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2efb2ec3-6b97-4384-8714-5ff2baf45e0a.jpg", 
+        "id": "2efb2ec3-6b97-4384-8714-5ff2baf45e0a"
+    }, 
+    "song_title": "Diana", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002672f_508a1b649242_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 2, 
+    "uuid": "9B51AD7B-E2F8-43E3-B490-7783BB1C171A"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-03T01:21:35-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000001f57c_c7425e48c356.ssng", 
+    "updated_at": "2016-05-05T20:08:39-04:00", 
+    "share_url": "https://a.sso.ng/1/c7425e48c356", 
+    "audio_url": "https://s02.sso.ng/1/00000001f57c_c7425e48c356.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001f57c_c7425e48c356_mr.jpg", 
+    "song_album": "The Truth About Love (Deluxe Edition)", 
+    "user": {
+        "username": "ShaneGalloOfficial", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Shane", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5e82b07c-47ae-4cdd-8269-374f74e3446e.jpg", 
+        "id": "5e82b07c-47ae-4cdd-8269-374f74e3446e"
+    }, 
+    "song_title": "Try", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001f57c_c7425e48c356_th.jpg", 
+    "song_artist": "P!NK", 
+    "favorite_count": 4, 
+    "uuid": "22156DE6-4B7D-4643-BE23-E1F1654CCB57"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-04-20T18:16:48-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5d1_3a342792d4c6.ssng", 
+    "updated_at": "2016-06-14T11:21:34-04:00", 
+    "share_url": "https://a.sso.ng/1/3a342792d4c6", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5d1_3a342792d4c6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5d1_3a342792d4c6_mr.jpg", 
+    "song_album": "www.Jams.to", 
+    "user": {
+        "username": "itsyammounibitch", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Amanda Leis-Miguel ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2aace85d-3b49-48aa-9813-13289294d780.jpg", 
+        "id": "2aace85d-3b49-48aa-9813-13289294d780"
+    }, 
+    "song_title": "Forget The World", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5d1_3a342792d4c6_th.jpg", 
+    "song_artist": "Faydee", 
+    "favorite_count": 12, 
+    "uuid": "D5F0B5E5-C4AC-4EB0-8016-0A00AF375DF0"
+}

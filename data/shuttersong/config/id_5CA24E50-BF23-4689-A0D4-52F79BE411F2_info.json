@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "|-/", 
+    "created_at": "2016-01-02T19:41:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030166_b7fe3e410348.ssng", 
+    "updated_at": "2016-01-03T15:38:33-05:00", 
+    "share_url": "https://a.sso.ng/1/b7fe3e410348", 
+    "audio_url": "https://s01.sso.ng/1/000000030166_b7fe3e410348.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030166_b7fe3e410348_mr.jpg", 
+    "song_album": "Blurryface", 
+    "user": {
+        "username": "martinaviera", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/578d5cf7-666f-4192-928e-ceeef26ce234.jpg", 
+        "id": "578d5cf7-666f-4192-928e-ceeef26ce234"
+    }, 
+    "song_title": "Polarize", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030166_b7fe3e410348_th.jpg", 
+    "song_artist": "twenty one pilots", 
+    "favorite_count": 2, 
+    "uuid": "5CA24E50-BF23-4689-A0D4-52F79BE411F2"
+}

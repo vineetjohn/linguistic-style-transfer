@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Follow me on Twitter aye?", 
+    "created_at": "2016-02-09T19:04:38-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e323_e43d74cd96f6.ssng", 
+    "updated_at": "2016-02-11T17:09:47-05:00", 
+    "share_url": "https://a.sso.ng/1/e43d74cd96f6", 
+    "audio_url": "https://s02.sso.ng/1/00000003e323_e43d74cd96f6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e323_e43d74cd96f6_mr.jpg", 
+    "song_album": "Blue Neighbourhood (Deluxe)", 
+    "user": {
+        "username": "Paigee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Beauscoven", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7777cc7e-3b2d-43bd-be10-8cb3a2ea2aa5.jpg", 
+        "id": "7777cc7e-3b2d-43bd-be10-8cb3a2ea2aa5"
+    }, 
+    "song_title": "YOUTH", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e323_e43d74cd96f6_th.jpg", 
+    "song_artist": "Troye Sivan", 
+    "favorite_count": 4, 
+    "uuid": "F2C297E9-0E00-4155-8A2F-15D7661B08B4"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2016-02-13T14:50:49-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e52e_2b430d2bacd3.ssng", 
+    "updated_at": "2016-02-13T19:24:14-05:00", 
+    "share_url": "https://a.sso.ng/1/2b430d2bacd3", 
+    "audio_url": "https://s02.sso.ng/1/00000003e52e_2b430d2bacd3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e52e_2b430d2bacd3_mr.jpg", 
+    "song_album": "Now That's What I Call Music! 92", 
+    "user": {
+        "username": "Jaiftjamyamm", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a9887910-77cf-47f6-82a9-bfa1125fcfab.jpg", 
+        "id": "a9887910-77cf-47f6-82a9-bfa1125fcfab"
+    }, 
+    "song_title": "Cool for the Summer", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e52e_2b430d2bacd3_th.jpg", 
+    "song_artist": "Demi Lovato", 
+    "favorite_count": 4, 
+    "uuid": "D2357D8A-445B-469D-AD69-8CBE8F5425DF"
+}

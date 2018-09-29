@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-05T22:11:02-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c3cf_cb4602967a11.ssng", 
+    "updated_at": "2016-01-06T04:00:46-05:00", 
+    "share_url": "https://a.sso.ng/1/cb4602967a11", 
+    "audio_url": "https://s01.sso.ng/1/00000003c3cf_cb4602967a11.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c3cf_cb4602967a11_mr.jpg", 
+    "song_album": "Save The Turtles: The Turtles Greatest Hits", 
+    "user": {
+        "username": "valechitiva", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "dce78035-8d40-4823-a407-1deb02636054"
+    }, 
+    "song_title": "Happy Together", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c3cf_cb4602967a11_th.jpg", 
+    "song_artist": "The Turtles", 
+    "favorite_count": 1, 
+    "uuid": "1C03647A-C5BA-4DB7-BF0D-CF58A591AEE0"
+}

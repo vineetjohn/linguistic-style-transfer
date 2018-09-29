@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "This pie photographs better than my face.", 
+    "created_at": "2016-04-19T07:40:39-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000002f9aa_486366b23426.ssng", 
+    "updated_at": "2016-05-12T21:26:30-04:00", 
+    "share_url": "https://a.sso.ng/1/486366b23426", 
+    "audio_url": "https://s02.sso.ng/1/00000002f9aa_486366b23426.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002f9aa_486366b23426_mr.jpg", 
+    "song_album": "Urban Hymns", 
+    "user": {
+        "username": "speciesmagazine", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a5e11149-e9eb-4773-857c-f47a0fe9fed5.jpg", 
+        "id": "a5e11149-e9eb-4773-857c-f47a0fe9fed5"
+    }, 
+    "song_title": "Bitter Sweet Symphony", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002f9aa_486366b23426_th.jpg", 
+    "song_artist": "The Verve", 
+    "favorite_count": 10, 
+    "uuid": "DCC6A7A1-558D-4CD0-A5BC-D4C5D579DF36"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "surprised", 
+    "caption": "", 
+    "created_at": "2016-04-01T00:20:13-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_3b4df0925e59.ssng", 
+    "updated_at": "2016-04-09T21:45:42-04:00", 
+    "share_url": "https://a.sso.ng/1/3b4df0925e59", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_3b4df0925e59.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_3b4df0925e59_mr.jpg", 
+    "song_album": "Focus - Single", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "Focus", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_3b4df0925e59_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 3, 
+    "uuid": "273D831B-E9F2-491F-872B-30C5AD6E8CD1"
+}

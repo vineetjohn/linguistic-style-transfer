@@ -1,0 +1,27 @@
+{
+    "mood": "dirty", 
+    "caption": "???", 
+    "created_at": "2016-02-12T01:22:52-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eb62_f37006d28ea8.ssng", 
+    "updated_at": "2016-02-12T15:39:30-05:00", 
+    "share_url": "https://a.sso.ng/1/f37006d28ea8", 
+    "audio_url": "https://s02.sso.ng/1/00000003eb62_f37006d28ea8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eb62_f37006d28ea8_mr.jpg", 
+    "song_album": "Loyal (feat. Lil Wayne &amp; Tyga) - Single", 
+    "user": {
+        "username": "dtjanoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sydney Sherwood", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/af1f7c52-2f31-44a6-b815-c9679a6c631b.jpg", 
+        "id": "af1f7c52-2f31-44a6-b815-c9679a6c631b"
+    }, 
+    "song_title": "Loyal (feat. Lil Wayne &amp; Tyga)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eb62_f37006d28ea8_th.jpg", 
+    "song_artist": "Chris Brown", 
+    "favorite_count": 1, 
+    "uuid": "E4818C2E-2F6A-444F-A20C-CCFB8AF1A087"
+}

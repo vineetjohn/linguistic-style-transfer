@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-18T17:10:11-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000341f2_144691dede37.ssng", 
+    "updated_at": "2015-12-19T03:33:20-05:00", 
+    "share_url": "https://a.sso.ng/1/144691dede37", 
+    "audio_url": "https://s01.sso.ng/1/0000000341f2_144691dede37.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000341f2_144691dede37_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "agusbattis2002", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fee2d829-e73c-4d14-bc01-a07c5a779eea"
+    }, 
+    "song_title": "Bruno Mars - Uptown Funk", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000341f2_144691dede37_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "5FE10CB9-FDD1-43D3-B5DA-8E31D2959273"
+}

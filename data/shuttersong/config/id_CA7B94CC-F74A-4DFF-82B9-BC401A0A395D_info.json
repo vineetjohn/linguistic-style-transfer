@@ -1,0 +1,27 @@
+{
+    "mood": "sleepy", 
+    "caption": "always sleeping in late together", 
+    "created_at": "2016-02-21T01:33:45-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1f7_3a7fc12b73b3.ssng", 
+    "updated_at": "2016-03-24T05:12:08-04:00", 
+    "share_url": "https://a.sso.ng/1/3a7fc12b73b3", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1f7_3a7fc12b73b3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1f7_3a7fc12b73b3_mr.jpg", 
+    "song_album": "For Emma, Forever Ago", 
+    "user": {
+        "username": "christinatina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8ab492da-f066-48ca-a644-6a3a7d9136a3.jpg", 
+        "id": "8ab492da-f066-48ca-a644-6a3a7d9136a3"
+    }, 
+    "song_title": "For Emma", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1f7_3a7fc12b73b3_th.jpg", 
+    "song_artist": "Bon Iver", 
+    "favorite_count": 2, 
+    "uuid": "CA7B94CC-F74A-4DFF-82B9-BC401A0A395D"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "accomplished", 
+    "caption": "Same luke?", 
+    "created_at": "2016-02-16T00:11:32-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eb1b_7f8bb23a60a7.ssng", 
+    "updated_at": "2016-02-16T07:15:09-05:00", 
+    "share_url": "https://a.sso.ng/1/7f8bb23a60a7", 
+    "audio_url": "https://s02.sso.ng/1/00000003eb1b_7f8bb23a60a7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eb1b_7f8bb23a60a7_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jai_janoskians_luke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gina", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/26c245ec-01f9-47c3-b617-c002ca5afbb7.jpg", 
+        "id": "26c245ec-01f9-47c3-b617-c002ca5afbb7"
+    }, 
+    "song_title": "Just Saying - 5 Seconds of Summer (Lyrics)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eb1b_7f8bb23a60a7_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "020DEF56-2E02-4CDE-8A87-D0DE7C282B56"
+}

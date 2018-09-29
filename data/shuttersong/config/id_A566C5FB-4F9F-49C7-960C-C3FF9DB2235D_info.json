@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I miss them so much", 
+    "created_at": "2015-08-15T20:20:29-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020cb3_aa410955af36_1.ssng", 
+    "updated_at": "2015-08-15T22:24:11-04:00", 
+    "share_url": "https://a.sso.ng/1/aa410955af36", 
+    "audio_url": "https://s01.sso.ng/1/000000020cb3_aa410955af36_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020cb3_aa410955af36_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "lauren_drace", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lauren", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/75a4ab5a-fb5f-4134-b8f0-5d83a415967e.jpg", 
+        "id": "75a4ab5a-fb5f-4134-b8f0-5d83a415967e"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020cb3_aa410955af36_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "A566C5FB-4F9F-49C7-960C-C3FF9DB2235D"
+}

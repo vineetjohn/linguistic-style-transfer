@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-03-27T16:11:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000401a4_984a05d8b979.ssng", 
+    "updated_at": "2016-03-30T03:15:48-04:00", 
+    "share_url": "https://a.sso.ng/1/984a05d8b979", 
+    "audio_url": "https://s02.sso.ng/1/0000000401a4_984a05d8b979.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000401a4_984a05d8b979_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "evais69", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6ecb17b1-a158-45a6-8193-ee2c7ec90a15"
+    }, 
+    "song_title": "Meghan Trainor - NO ( mq )", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000401a4_984a05d8b979_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "E618938C-EEFF-416F-A291-4CB9538A3E33"
+}

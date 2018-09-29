@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-16T16:39:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000435a6_1ead64c0440c.ssng", 
+    "updated_at": "2016-05-17T00:23:35-04:00", 
+    "share_url": "https://a.sso.ng/1/1ead64c0440c", 
+    "audio_url": "https://s02.sso.ng/1/0000000435a6_1ead64c0440c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000435a6_1ead64c0440c_mr.jpg", 
+    "song_album": "A Voice In Time (1939-1952) [Disc 4]", 
+    "user": {
+        "username": "hannahjewels", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9b634df3-f3bf-4811-9106-d124bc09d5a1"
+    }, 
+    "song_title": "American Beauty Rose", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000435a6_1ead64c0440c_th.jpg", 
+    "song_artist": "Frank Sinatra", 
+    "favorite_count": 1, 
+    "uuid": "7DAB1288-7CE2-4591-BACC-C65333A21B22"
+}

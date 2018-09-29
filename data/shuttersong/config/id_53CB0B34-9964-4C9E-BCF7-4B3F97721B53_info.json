@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T05:59:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002157f_aa83b25bae01.ssng", 
+    "updated_at": "2015-08-04T05:59:09-04:00", 
+    "share_url": "https://a.sso.ng/1/aa83b25bae01", 
+    "audio_url": "https://s01.sso.ng/1/00000002157f_aa83b25bae01.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002157f_aa83b25bae01_mr.jpg", 
+    "song_album": "5 Seconds of Summer", 
+    "user": {
+        "username": "bianca_rose", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/035d75d0-a345-416b-a1f8-848f259ac140.jpg", 
+        "id": "035d75d0-a345-416b-a1f8-848f259ac140"
+    }, 
+    "song_title": "Beside You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002157f_aa83b25bae01_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 1, 
+    "uuid": "53CB0B34-9964-4C9E-BCF7-4B3F97721B53"
+}

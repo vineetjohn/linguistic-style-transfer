@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-21T02:41:56-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025e8b_c193bcfc8994_1.ssng", 
+    "updated_at": "2015-08-27T19:07:10-04:00", 
+    "share_url": "https://a.sso.ng/1/c193bcfc8994", 
+    "audio_url": "https://s01.sso.ng/1/000000025e8b_c193bcfc8994_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025e8b_c193bcfc8994_1_mr.jpg", 
+    "song_album": "Underdog", 
+    "user": {
+        "username": "Lenrique", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b9aa5c62-15c9-4a2c-af54-41ad66d30112.jpg", 
+        "id": "b9aa5c62-15c9-4a2c-af54-41ad66d30112"
+    }, 
+    "song_title": "Underdog", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025e8b_c193bcfc8994_1_th.jpg", 
+    "song_artist": "2 Faced Funks", 
+    "favorite_count": 1, 
+    "uuid": "D8C20B92-D5DF-49CE-A5AE-B4ACDD4E2C5C"
+}

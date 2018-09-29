@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "because New York soon! #selfie #friends", 
+    "created_at": "2015-08-05T16:50:13-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000220ad_79ad1557b4a1_1.ssng", 
+    "updated_at": "2015-10-24T17:28:05-04:00", 
+    "share_url": "https://a.sso.ng/1/79ad1557b4a1", 
+    "audio_url": "https://s01.sso.ng/1/0000000220ad_79ad1557b4a1_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000220ad_79ad1557b4a1_1_mr.jpg", 
+    "song_album": "Shine (Deluxe Version)", 
+    "user": {
+        "username": "danielleharrison", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9cc55105-10f7-441c-9f85-f42ba3362dd3.jpg", 
+        "id": "9cc55105-10f7-441c-9f85-f42ba3362dd3"
+    }, 
+    "song_title": "American Boy (feat. Kanye West)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000220ad_79ad1557b4a1_1_th.jpg", 
+    "song_artist": "Estelle", 
+    "favorite_count": 1, 
+    "uuid": "1FB5C112-FE10-467A-ABA4-4F11C0A94A81"
+}

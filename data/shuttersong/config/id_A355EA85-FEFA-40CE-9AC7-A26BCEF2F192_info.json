@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "...", 
+    "created_at": "2015-08-31T14:22:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000267e5_a0308a62084e_1.ssng", 
+    "updated_at": "2015-08-31T23:09:31-04:00", 
+    "share_url": "https://a.sso.ng/1/a0308a62084e", 
+    "audio_url": "https://s01.sso.ng/1/0000000267e5_a0308a62084e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000267e5_a0308a62084e_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "JessieGil", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3e6299fe-0311-40ae-aa92-de6befece9b0.jpg", 
+        "id": "3e6299fe-0311-40ae-aa92-de6befece9b0"
+    }, 
+    "song_title": "Avicii - Addicted To You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000267e5_a0308a62084e_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "A355EA85-FEFA-40CE-9AC7-A26BCEF2F192"
+}

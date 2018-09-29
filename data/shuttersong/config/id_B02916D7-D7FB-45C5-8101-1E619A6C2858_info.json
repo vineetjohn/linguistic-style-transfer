@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-18T15:11:48-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000001c9e1_42e194c13227.ssng", 
+    "updated_at": "2016-05-19T20:07:10-04:00", 
+    "share_url": "https://a.sso.ng/1/42e194c13227", 
+    "audio_url": "https://s02.sso.ng/1/00000001c9e1_42e194c13227.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001c9e1_42e194c13227_mr.jpg", 
+    "song_album": "Northern Expozure, Vol. 5", 
+    "user": {
+        "username": "em1", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f1dd2208-18d2-4e49-9f04-1ca1c7e50569"
+    }, 
+    "song_title": "That Funk (feat. Bobo, Snag Loco, & Diesel)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001c9e1_42e194c13227_th.jpg", 
+    "song_artist": "Mad Dog", 
+    "favorite_count": 1, 
+    "uuid": "B02916D7-D7FB-45C5-8101-1E619A6C2858"
+}

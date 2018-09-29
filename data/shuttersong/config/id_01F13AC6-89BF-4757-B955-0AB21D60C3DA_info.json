@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-16T16:22:55-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000435a6_9ae22791e734.ssng", 
+    "updated_at": "2016-05-17T00:23:29-04:00", 
+    "share_url": "https://a.sso.ng/1/9ae22791e734", 
+    "audio_url": "https://s02.sso.ng/1/0000000435a6_9ae22791e734.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000435a6_9ae22791e734_mr.jpg", 
+    "song_album": "single", 
+    "user": {
+        "username": "hannahjewels", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9b634df3-f3bf-4811-9106-d124bc09d5a1"
+    }, 
+    "song_title": "Cool for the Summer (Official Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000435a6_9ae22791e734_th.jpg", 
+    "song_artist": "Demi Lovato", 
+    "favorite_count": 1, 
+    "uuid": "01F13AC6-89BF-4757-B955-0AB21D60C3DA"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-30T10:02:05-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000322c3_e96c41cd8350.ssng", 
+    "updated_at": "2015-12-30T10:41:54-05:00", 
+    "share_url": "https://a.sso.ng/1/e96c41cd8350", 
+    "audio_url": "https://s01.sso.ng/1/0000000322c3_e96c41cd8350.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000322c3_e96c41cd8350_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "Skyhelkacs", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/da959401-fa3d-433f-9b42-aba2cd3171c9.jpg", 
+        "id": "da959401-fa3d-433f-9b42-aba2cd3171c9"
+    }, 
+    "song_title": "California (There Is No End to Love)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000322c3_e96c41cd8350_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 1, 
+    "uuid": "3768469C-E419-4902-A4A0-527AD66B35D9"
+}

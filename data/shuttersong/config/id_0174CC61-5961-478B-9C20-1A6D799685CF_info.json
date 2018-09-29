@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "-jack & jack are bae af", 
+    "created_at": "2015-08-04T11:42:58-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002184d_9e2ce539784b_1.ssng", 
+    "updated_at": "2015-08-04T11:43:56-04:00", 
+    "share_url": "https://a.sso.ng/1/9e2ce539784b", 
+    "audio_url": "https://s01.sso.ng/1/00000002184d_9e2ce539784b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002184d_9e2ce539784b_1_mr.jpg", 
+    "song_album": "Like That (feat. Skate) - Single", 
+    "user": {
+        "username": "brittanynicole.5", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "brittany nicole", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c388a878-6dc8-4900-a721-d4c55b138c2f.jpg", 
+        "id": "c388a878-6dc8-4900-a721-d4c55b138c2f"
+    }, 
+    "song_title": "Like That (feat. Skate)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002184d_9e2ce539784b_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "0174CC61-5961-478B-9C20-1A6D799685CF"
+}

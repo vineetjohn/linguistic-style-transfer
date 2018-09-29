@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "But first, coffee", 
+    "created_at": "2015-09-10T15:12:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000000e96b_efdff3a9df99_1.ssng", 
+    "updated_at": "2015-12-29T11:29:14-05:00", 
+    "share_url": "https://a.sso.ng/1/efdff3a9df99", 
+    "audio_url": "https://s01.sso.ng/1/00000000e96b_efdff3a9df99_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000e96b_efdff3a9df99_1_mr.jpg", 
+    "song_album": "FROOT", 
+    "user": {
+        "username": "brandonskeie", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Brandon Skeie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1aee1508-8360-4dd0-8b74-e40ca5663ca8.jpg", 
+        "id": "1aee1508-8360-4dd0-8b74-e40ca5663ca8"
+    }, 
+    "song_title": "Gold", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000e96b_efdff3a9df99_1_th.jpg", 
+    "song_artist": "Marina and The Diamonds", 
+    "favorite_count": 17, 
+    "uuid": "9D1C4C8E-691A-429A-AEFD-4FC72D4B9484"
+}

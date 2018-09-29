@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T06:18:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a868_a209869a7bf2.ssng", 
+    "updated_at": "2015-08-22T23:45:30-04:00", 
+    "share_url": "https://a.sso.ng/1/a209869a7bf2", 
+    "audio_url": "https://s01.sso.ng/1/00000002a868_a209869a7bf2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a868_a209869a7bf2_mr.jpg", 
+    "song_album": "Ghost Stories", 
+    "user": {
+        "username": "solera", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2d86035f-a895-4653-9878-c8d754ebf26e"
+    }, 
+    "song_title": "A Sky Full of Stars", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a868_a209869a7bf2_th.jpg", 
+    "song_artist": "Coldplay", 
+    "favorite_count": 1, 
+    "uuid": "C6399BB5-66C0-44A2-BB55-81538FD686EF"
+}

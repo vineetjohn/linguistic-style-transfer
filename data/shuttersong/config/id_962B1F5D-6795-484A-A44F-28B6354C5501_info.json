@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T01:35:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a718_a0218b394194.ssng", 
+    "updated_at": "2015-08-22T23:45:30-04:00", 
+    "share_url": "https://a.sso.ng/1/a0218b394194", 
+    "audio_url": "https://s01.sso.ng/1/00000002a718_a0218b394194.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a718_a0218b394194_mr.jpg", 
+    "song_album": "Random Access Memories", 
+    "user": {
+        "username": "wafersucre", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "baa1c6b9-a8d9-4264-8576-0d9c9c452643"
+    }, 
+    "song_title": "Instant Crush", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a718_a0218b394194_th.jpg", 
+    "song_artist": "Daft Punk", 
+    "favorite_count": 1, 
+    "uuid": "962B1F5D-6795-484A-A44F-28B6354C5501"
+}

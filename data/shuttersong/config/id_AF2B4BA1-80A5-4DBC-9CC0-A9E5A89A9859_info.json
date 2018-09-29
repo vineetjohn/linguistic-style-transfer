@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-08T22:23:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f12b_9384ba10cbd6.ssng", 
+    "updated_at": "2015-08-09T06:30:47-04:00", 
+    "share_url": "https://a.sso.ng/1/9384ba10cbd6", 
+    "audio_url": "https://s01.sso.ng/1/00000001f12b_9384ba10cbd6.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f12b_9384ba10cbd6_mr.jpg", 
+    "song_album": "Native", 
+    "user": {
+        "username": "allym", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "815e4b63-0acf-4865-8083-ec5b0ea92ba8"
+    }, 
+    "song_title": "Something I Need", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f12b_9384ba10cbd6_th.jpg", 
+    "song_artist": "OneRepublic", 
+    "favorite_count": 3, 
+    "uuid": "AF2B4BA1-80A5-4DBC-9CC0-A9E5A89A9859"
+}

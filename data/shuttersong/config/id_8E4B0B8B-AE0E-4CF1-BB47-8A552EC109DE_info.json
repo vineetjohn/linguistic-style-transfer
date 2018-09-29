@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T00:23:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002112c_e9977eb5fdb1.ssng", 
+    "updated_at": "2015-08-04T00:23:43-04:00", 
+    "share_url": "https://a.sso.ng/1/e9977eb5fdb1", 
+    "audio_url": "https://s01.sso.ng/1/00000002112c_e9977eb5fdb1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002112c_e9977eb5fdb1_mr.jpg", 
+    "song_album": "Pitch Perfect 2 (Original Motion Picture Soundtrack)", 
+    "user": {
+        "username": "brooke.adele", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b0926e61-629e-484d-b90b-53caf74b3a42"
+    }, 
+    "song_title": "Crazy Youngsters", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002112c_e9977eb5fdb1_th.jpg", 
+    "song_artist": "Ester Dean", 
+    "favorite_count": 1, 
+    "uuid": "8E4B0B8B-AE0E-4CF1-BB47-8A552EC109DE"
+}

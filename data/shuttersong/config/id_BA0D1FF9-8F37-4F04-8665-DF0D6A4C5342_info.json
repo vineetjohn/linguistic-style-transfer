@@ -1,0 +1,27 @@
+{
+    "mood": "crazy", 
+    "caption": "this is war", 
+    "created_at": "2016-02-11T01:53:34-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9ce_73040e96fa37.ssng", 
+    "updated_at": "2016-06-29T14:50:37-04:00", 
+    "share_url": "https://a.sso.ng/1/73040e96fa37", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9ce_73040e96fa37.m4a", 
+    "comment_count": 271, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9ce_73040e96fa37_mr.jpg", 
+    "song_album": "Some Nights", 
+    "user": {
+        "username": "brooksluke", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d3a4bfe2-f663-4cc7-ab9a-60680ec1cee9.jpg", 
+        "id": "d3a4bfe2-f663-4cc7-ab9a-60680ec1cee9"
+    }, 
+    "song_title": "Some Nights", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9ce_73040e96fa37_th.jpg", 
+    "song_artist": "Fun.", 
+    "favorite_count": 446, 
+    "uuid": "BA0D1FF9-8F37-4F04-8665-DF0D6A4C5342"
+}

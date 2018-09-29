@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-27T03:10:08-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003467c_4affb5982af1.ssng", 
+    "updated_at": "2015-12-27T13:03:19-05:00", 
+    "share_url": "https://a.sso.ng/1/4affb5982af1", 
+    "audio_url": "https://s01.sso.ng/1/00000003467c_4affb5982af1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003467c_4affb5982af1_mr.jpg", 
+    "song_album": "Pitch Perfect (Original Motion Picture Soundtrack)", 
+    "user": {
+        "username": "cristtie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5f023fb7-816e-4b81-9428-5d5a6589de0b.jpg", 
+        "id": "5f023fb7-816e-4b81-9428-5d5a6589de0b"
+    }, 
+    "song_title": "Cups (Movie Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003467c_4affb5982af1_th.jpg", 
+    "song_artist": "Anna Kendrick", 
+    "favorite_count": 1, 
+    "uuid": "EF372673-7DC5-4FF5-8CBA-9D4D723A5BA3"
+}

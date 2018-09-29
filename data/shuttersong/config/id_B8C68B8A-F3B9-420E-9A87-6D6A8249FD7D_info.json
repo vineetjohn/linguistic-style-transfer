@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-03T08:16:20-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003df28_6b6cd86d7699.ssng", 
+    "updated_at": "2016-02-04T04:25:32-05:00", 
+    "share_url": "https://a.sso.ng/1/6b6cd86d7699", 
+    "audio_url": "https://s02.sso.ng/1/00000003df28_6b6cd86d7699.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003df28_6b6cd86d7699_mr.jpg", 
+    "song_album": "Self Made, Vol. 3", 
+    "user": {
+        "username": "TRECEBABY", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4e95524e-c48e-4b2c-b2d5-f3c5294f0a96"
+    }, 
+    "song_title": "Know You Better (feat. Fabolous &amp; Pusha T)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003df28_6b6cd86d7699_th.jpg", 
+    "song_artist": "Omarion", 
+    "favorite_count": 1, 
+    "uuid": "B8C68B8A-F3B9-420E-9A87-6D6A8249FD7D"
+}

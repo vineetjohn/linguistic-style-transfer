@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-05T21:40:52-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e027_1a6b2031dc42.ssng", 
+    "updated_at": "2016-03-18T19:32:00-04:00", 
+    "share_url": "https://a.sso.ng/1/1a6b2031dc42", 
+    "audio_url": "https://s02.sso.ng/1/00000003e027_1a6b2031dc42.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e027_1a6b2031dc42_mr.jpg", 
+    "song_album": "We Don't Even Live Here (Deluxe Edition)", 
+    "user": {
+        "username": "sp", 
+        "verified": true, 
+        "username_color": "", 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/15a2ad9f-dd3b-4ae5-b232-a9fa599472c8.jpg", 
+        "id": "15a2ad9f-dd3b-4ae5-b232-a9fa599472c8"
+    }, 
+    "song_title": "F**k Your Stuff", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e027_1a6b2031dc42_th.jpg", 
+    "song_artist": "P.O.S", 
+    "favorite_count": 2, 
+    "uuid": "AB078B81-8DAA-4ED5-9989-187A34B1D11A"
+}

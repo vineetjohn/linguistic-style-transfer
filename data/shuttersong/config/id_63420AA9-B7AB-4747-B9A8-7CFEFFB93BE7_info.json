@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-20T17:53:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f449_1b69be9df933.ssng", 
+    "updated_at": "2015-12-31T07:18:16-05:00", 
+    "share_url": "https://a.sso.ng/1/1b69be9df933", 
+    "audio_url": "https://s01.sso.ng/1/00000001f449_1b69be9df933.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f449_1b69be9df933_mr.jpg", 
+    "song_album": "Dookie", 
+    "user": {
+        "username": "KTrose", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Caitlin", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4b3b27a-e8ee-4bec-bb54-b00569986ac2.jpg", 
+        "id": "d4b3b27a-e8ee-4bec-bb54-b00569986ac2"
+    }, 
+    "song_title": "Welcome To Paradise", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f449_1b69be9df933_th.jpg", 
+    "song_artist": "Green Day", 
+    "favorite_count": 3, 
+    "uuid": "63420AA9-B7AB-4747-B9A8-7CFEFFB93BE7"
+}

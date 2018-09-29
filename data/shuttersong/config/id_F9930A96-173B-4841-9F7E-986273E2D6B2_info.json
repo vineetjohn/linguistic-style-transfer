@@ -1,0 +1,27 @@
+{
+    "mood": "thankful", 
+    "caption": "", 
+    "created_at": "2016-05-12T01:07:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042fd1_e5f29219712e.ssng", 
+    "updated_at": "2016-05-12T09:33:43-04:00", 
+    "share_url": "https://a.sso.ng/1/e5f29219712e", 
+    "audio_url": "https://s02.sso.ng/1/000000042fd1_e5f29219712e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042fd1_e5f29219712e_mr.jpg", 
+    "song_album": "The Art of Hustle (Deluxe Version)", 
+    "user": {
+        "username": "emilybrown09", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "85654e97-7c47-45f7-ba05-39f21a05a045"
+    }, 
+    "song_title": "Down In the DM (feat. Nicki Minaj) [Remix]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042fd1_e5f29219712e_th.jpg", 
+    "song_artist": "Yo Gotti", 
+    "favorite_count": 1, 
+    "uuid": "F9930A96-173B-4841-9F7E-986273E2D6B2"
+}

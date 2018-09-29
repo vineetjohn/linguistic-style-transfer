@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??????", 
+    "created_at": "2015-08-03T23:33:59-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e15_c8a4af469375_1.ssng", 
+    "updated_at": "2015-08-03T23:36:37-04:00", 
+    "share_url": "https://a.sso.ng/1/c8a4af469375", 
+    "audio_url": "https://s01.sso.ng/1/000000020e15_c8a4af469375_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e15_c8a4af469375_1_mr.jpg", 
+    "song_album": "Doing It Right - Single", 
+    "user": {
+        "username": "monseromano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Monse Romano", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5f663498-da8c-4a10-ac97-d5904771fb36.jpg", 
+        "id": "5f663498-da8c-4a10-ac97-d5904771fb36"
+    }, 
+    "song_title": "Doing It Right", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e15_c8a4af469375_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "512172F6-3D6F-473A-8D94-E48839BC5B99"
+}

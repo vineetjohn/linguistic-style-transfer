@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hey @w", 
+    "created_at": "2016-06-17T04:08:26-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000453d6_dae9b4151473.ssng", 
+    "updated_at": "2016-06-20T10:10:03-04:00", 
+    "share_url": "https://a.sso.ng/1/dae9b4151473", 
+    "audio_url": "https://s02.sso.ng/1/0000000453d6_dae9b4151473.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000453d6_dae9b4151473_mr.jpg", 
+    "song_album": "All We Have Left", 
+    "user": {
+        "username": "testingpushnotif", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "cc1b5d5b-db8b-4d83-92ac-150c9f5a5b59"
+    }, 
+    "song_title": "Daylight", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000453d6_dae9b4151473_th.jpg", 
+    "song_artist": "Boyce Avenue", 
+    "favorite_count": 1, 
+    "uuid": "5EDF81B7-3D79-4268-85B9-3D0C62A473B5"
+}

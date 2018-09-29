@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "my babies!", 
+    "created_at": "2016-01-10T08:44:38-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000026619_0aa875447670.ssng", 
+    "updated_at": "2016-01-12T11:21:54-05:00", 
+    "share_url": "https://a.sso.ng/1/0aa875447670", 
+    "audio_url": "https://s01.sso.ng/1/000000026619_0aa875447670.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000026619_0aa875447670_mr.jpg", 
+    "song_album": "Silento", 
+    "user": {
+        "username": "miaynatn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a248e3c6-5472-414d-b472-a9feb0ca1bbf"
+    }, 
+    "song_title": "Watch Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000026619_0aa875447670_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "4AD16338-84F9-41BC-83EC-F91875BEEF57"
+}

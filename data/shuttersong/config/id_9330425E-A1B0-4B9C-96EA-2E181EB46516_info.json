@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-06T12:25:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000027d28_2cb027b6c72b.ssng", 
+    "updated_at": "2016-01-07T20:42:28-05:00", 
+    "share_url": "https://a.sso.ng/1/2cb027b6c72b", 
+    "audio_url": "https://s01.sso.ng/1/000000027d28_2cb027b6c72b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027d28_2cb027b6c72b_mr.jpg", 
+    "song_album": "Palmar - EP", 
+    "user": {
+        "username": "MajoGuzman", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6d2803e1-9160-4f81-9eca-a5a95a0ad187"
+    }, 
+    "song_title": "Palmar (feat. Mon Laferte)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027d28_2cb027b6c72b_th.jpg", 
+    "song_artist": "Caloncho", 
+    "favorite_count": 1, 
+    "uuid": "9330425E-A1B0-4B9C-96EA-2E181EB46516"
+}

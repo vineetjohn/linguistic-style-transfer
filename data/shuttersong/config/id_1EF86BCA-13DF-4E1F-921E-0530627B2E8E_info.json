@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-23T05:13:52-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000039090_2910d7bf91bd.ssng", 
+    "updated_at": "2016-02-03T22:29:00-05:00", 
+    "share_url": "https://a.sso.ng/1/2910d7bf91bd", 
+    "audio_url": "https://s01.sso.ng/1/000000039090_2910d7bf91bd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000039090_2910d7bf91bd_mr.jpg", 
+    "song_album": "X - Musicfire.in", 
+    "user": {
+        "username": "fanbulous", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4c395971-4d2a-4499-a1dd-10d353d15108"
+    }, 
+    "song_title": "Tenerife Sea - Musicfire.in", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000039090_2910d7bf91bd_th.jpg", 
+    "song_artist": "Ed Sheeran/Musicfire.in", 
+    "favorite_count": 1, 
+    "uuid": "1EF86BCA-13DF-4E1F-921E-0530627B2E8E"
+}

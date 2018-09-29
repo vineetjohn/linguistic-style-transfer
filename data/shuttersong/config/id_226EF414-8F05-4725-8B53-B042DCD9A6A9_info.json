@@ -1,0 +1,27 @@
+{
+    "mood": "cold", 
+    "caption": "Early in the morning", 
+    "created_at": "2016-04-16T20:21:54-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041074_33f94d80fb6e.ssng", 
+    "updated_at": "2016-04-28T00:47:43-04:00", 
+    "share_url": "https://a.sso.ng/1/33f94d80fb6e", 
+    "audio_url": "https://s02.sso.ng/1/000000041074_33f94d80fb6e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041074_33f94d80fb6e_mr.jpg", 
+    "song_album": "Nothing Was the Same (Deluxe)", 
+    "user": {
+        "username": "Rylee.Janoskian.20", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/db665e90-48fe-44ef-8820-c5821cc37f24.jpg", 
+        "id": "db665e90-48fe-44ef-8820-c5821cc37f24"
+    }, 
+    "song_title": "Hold On, We're Going Home (feat. Majid Jordan)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041074_33f94d80fb6e_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 4, 
+    "uuid": "226EF414-8F05-4725-8B53-B042DCD9A6A9"
+}

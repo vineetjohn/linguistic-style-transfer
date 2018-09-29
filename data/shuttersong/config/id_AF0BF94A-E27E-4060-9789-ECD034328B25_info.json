@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-25T20:36:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f0c7_4bcc6fd2c9b2.ssng", 
+    "updated_at": "2015-10-26T02:15:23-04:00", 
+    "share_url": "https://a.sso.ng/1/4bcc6fd2c9b2", 
+    "audio_url": "https://s01.sso.ng/1/00000002f0c7_4bcc6fd2c9b2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f0c7_4bcc6fd2c9b2_mr.jpg", 
+    "song_album": "The Music of Grand Theft Auto V", 
+    "user": {
+        "username": "cherry_glass", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "81cf0ea1-f558-4b67-8970-5d768033ef95"
+    }, 
+    "song_title": "Change of Coast", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f0c7_4bcc6fd2c9b2_th.jpg", 
+    "song_artist": "Neon Indian", 
+    "favorite_count": 1, 
+    "uuid": "AF0BF94A-E27E-4060-9789-ECD034328B25"
+}

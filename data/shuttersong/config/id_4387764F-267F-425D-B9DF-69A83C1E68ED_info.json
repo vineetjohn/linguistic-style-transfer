@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-18T02:28:04-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030033_9e9fe87eacce.ssng", 
+    "updated_at": "2015-11-19T10:39:38-05:00", 
+    "share_url": "https://a.sso.ng/1/9e9fe87eacce", 
+    "audio_url": "https://s01.sso.ng/1/000000030033_9e9fe87eacce.m4a", 
+    "comment_count": 5, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030033_9e9fe87eacce_mr.jpg", 
+    "song_album": "The xxmas - Single", 
+    "user": {
+        "username": "1_B_E_C_K_Y_1", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Becky", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/00d55429-cb33-4b70-aa68-d306abb6edf9.jpg", 
+        "id": "00d55429-cb33-4b70-aa68-d306abb6edf9"
+    }, 
+    "song_title": "Chained", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030033_9e9fe87eacce_th.jpg", 
+    "song_artist": "The xx", 
+    "favorite_count": 1, 
+    "uuid": "4387764F-267F-425D-B9DF-69A83C1E68ED"
+}

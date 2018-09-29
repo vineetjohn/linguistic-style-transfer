@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-06T14:56:48-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022636_ea8688b2b521.ssng", 
+    "updated_at": "2015-08-06T14:56:48-04:00", 
+    "share_url": "https://a.sso.ng/1/ea8688b2b521", 
+    "audio_url": "https://s01.sso.ng/1/000000022636_ea8688b2b521.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022636_ea8688b2b521_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "RubyTuesday", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ruby Tuesday", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ef094da8-f116-43e3-a690-0a357d56246d.jpg", 
+        "id": "ef094da8-f116-43e3-a690-0a357d56246d"
+    }, 
+    "song_title": "Tides ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022636_ea8688b2b521_th.jpg", 
+    "song_artist": "Jack and Jack ", 
+    "favorite_count": 1, 
+    "uuid": "09F062FE-6D65-443C-9E21-E2D32D553C89"
+}

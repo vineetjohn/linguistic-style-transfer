@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-25T09:16:27-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000031145_22ff4ec03260.ssng", 
+    "updated_at": "2016-02-27T17:56:50-05:00", 
+    "share_url": "https://a.sso.ng/1/22ff4ec03260", 
+    "audio_url": "https://s02.sso.ng/1/000000031145_22ff4ec03260.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000031145_22ff4ec03260_mr.jpg", 
+    "song_album": "Lieder Live Disc 2", 
+    "user": {
+        "username": "Tamina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5d6f7dd1-232c-4d9b-b234-577ac700296c.jpg", 
+        "id": "5d6f7dd1-232c-4d9b-b234-577ac700296c"
+    }, 
+    "song_title": "Zuhause", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000031145_22ff4ec03260_th.jpg", 
+    "song_artist": "Adel Tawil", 
+    "favorite_count": 4, 
+    "uuid": "6CA23517-BFF4-41C9-8B6E-86525D73D57C"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My favorite song from Jack and Jack's EP ???\u2764\ufe0f How We Livin ", 
+    "created_at": "2015-08-05T17:42:53-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020576_b16005dc974f_1.ssng", 
+    "updated_at": "2015-08-05T17:45:15-04:00", 
+    "share_url": "https://a.sso.ng/1/b16005dc974f", 
+    "audio_url": "https://s01.sso.ng/1/000000020576_b16005dc974f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020576_b16005dc974f_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "itsvictory", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d9398942-eaf9-4b86-ae71-a4a7de5136ad.jpg", 
+        "id": "d9398942-eaf9-4b86-ae71-a4a7de5136ad"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020576_b16005dc974f_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "62707AF4-F395-4D4F-BD68-04F690262C3B"
+}

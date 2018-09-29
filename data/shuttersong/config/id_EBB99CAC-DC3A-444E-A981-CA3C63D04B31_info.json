@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "james be my valentine", 
+    "created_at": "2016-02-14T08:11:54-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecbc_cb3c6aa2efb3.ssng", 
+    "updated_at": "2016-02-21T08:17:45-05:00", 
+    "share_url": "https://a.sso.ng/1/cb3c6aa2efb3", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecbc_cb3c6aa2efb3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecbc_cb3c6aa2efb3_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lickjanosface", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": "noe", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d563402d-1a72-47ff-bec6-8e8ef1f7d8dd.jpg", 
+        "id": "d563402d-1a72-47ff-bec6-8e8ef1f7d8dd"
+    }, 
+    "song_title": "Melanie Martinez - Training Wheels", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecbc_cb3c6aa2efb3_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 7, 
+    "uuid": "EBB99CAC-DC3A-444E-A981-CA3C63D04B31"
+}

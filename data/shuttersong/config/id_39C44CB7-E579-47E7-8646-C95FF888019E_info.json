@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack and Jack are friendship goals??", 
+    "created_at": "2015-08-04T03:04:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000213d6_6f6e4e23ba48_1.ssng", 
+    "updated_at": "2015-08-04T03:05:54-04:00", 
+    "share_url": "https://a.sso.ng/1/6f6e4e23ba48", 
+    "audio_url": "https://s01.sso.ng/1/0000000213d6_6f6e4e23ba48_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000213d6_6f6e4e23ba48_1_mr.jpg", 
+    "song_album": "Wild Life - Single", 
+    "user": {
+        "username": "GilinskyFtPau", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fff27a76-1f52-4ea7-bfd7-8859a31cba0c.jpg", 
+        "id": "fff27a76-1f52-4ea7-bfd7-8859a31cba0c"
+    }, 
+    "song_title": "Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000213d6_6f6e4e23ba48_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "39C44CB7-E579-47E7-8646-C95FF888019E"
+}

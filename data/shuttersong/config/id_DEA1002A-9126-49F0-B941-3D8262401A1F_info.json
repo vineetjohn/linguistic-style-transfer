@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Beach ?", 
+    "created_at": "2015-08-21T15:21:41-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029b3d_5bd7ffeb1781_1.ssng", 
+    "updated_at": "2015-08-21T16:04:04-04:00", 
+    "share_url": "https://a.sso.ng/1/5bd7ffeb1781", 
+    "audio_url": "https://s01.sso.ng/1/000000029b3d_5bd7ffeb1781_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029b3d_5bd7ffeb1781_1_mr.jpg", 
+    "song_album": "+ (Deluxe Version)", 
+    "user": {
+        "username": "damaris.sv", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5568affc-9440-43cd-958b-fe583c3c3a17.jpg", 
+        "id": "5568affc-9440-43cd-958b-fe583c3c3a17"
+    }, 
+    "song_title": "Give Me Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029b3d_5bd7ffeb1781_1_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 1, 
+    "uuid": "DEA1002A-9126-49F0-B941-3D8262401A1F"
+}

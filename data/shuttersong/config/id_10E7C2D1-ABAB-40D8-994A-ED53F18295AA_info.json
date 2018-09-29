@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-11T05:59:13-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f43c_02daaf13c378.ssng", 
+    "updated_at": "2015-07-11T05:59:13-04:00", 
+    "share_url": "https://a.sso.ng/1/02daaf13c378", 
+    "audio_url": "https://s01.sso.ng/1/00000001f43c_02daaf13c378.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f43c_02daaf13c378_mr.jpg", 
+    "song_album": "Beatles for Sale", 
+    "user": {
+        "username": "Chloe_McMinn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/44fd5814-d515-4d80-80a0-5004e3c8820f.jpg", 
+        "id": "44fd5814-d515-4d80-80a0-5004e3c8820f"
+    }, 
+    "song_title": "Rock And Roll Music", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f43c_02daaf13c378_th.jpg", 
+    "song_artist": "The Beatles", 
+    "favorite_count": 2, 
+    "uuid": "10E7C2D1-ABAB-40D8-994A-ED53F18295AA"
+}

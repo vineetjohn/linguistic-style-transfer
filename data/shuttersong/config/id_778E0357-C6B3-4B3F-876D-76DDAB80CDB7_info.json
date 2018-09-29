@@ -1,0 +1,27 @@
+{
+    "mood": "excited", 
+    "caption": "Get to meet my #dog for the first time in just 5 days!", 
+    "created_at": "2015-12-15T12:29:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f449_22dc8d6de1fe_1.ssng", 
+    "updated_at": "2015-12-31T07:15:51-05:00", 
+    "share_url": "https://a.sso.ng/1/22dc8d6de1fe", 
+    "audio_url": "https://s01.sso.ng/1/00000001f449_22dc8d6de1fe_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f449_22dc8d6de1fe_1_mr.jpg", 
+    "song_album": "Cave Rave", 
+    "user": {
+        "username": "KTrose", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Caitlin", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4b3b27a-e8ee-4bec-bb54-b00569986ac2.jpg", 
+        "id": "d4b3b27a-e8ee-4bec-bb54-b00569986ac2"
+    }, 
+    "song_title": "Wave", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f449_22dc8d6de1fe_1_th.jpg", 
+    "song_artist": "Crystal Fighters", 
+    "favorite_count": 7, 
+    "uuid": "778E0357-C6B3-4B3F-876D-76DDAB80CDB7"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo vane yes yes", 
+    "created_at": "2015-12-19T18:02:29-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003722c_70c026b2e6c7_1.ssng", 
+    "updated_at": "2015-12-19T18:06:19-05:00", 
+    "share_url": "https://a.sso.ng/1/70c026b2e6c7", 
+    "audio_url": "https://s01.sso.ng/1/00000003722c_70c026b2e6c7_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003722c_70c026b2e6c7_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "vaneska", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5612d11c-ea56-4159-983e-75bc3638e964.jpg", 
+        "id": "5612d11c-ea56-4159-983e-75bc3638e964"
+    }, 
+    "song_title": "Ariana Grande - Focus", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003722c_70c026b2e6c7_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "DE437AB0-C1F0-48ED-B312-233E83D6B5C8"
+}

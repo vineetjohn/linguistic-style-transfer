@@ -1,0 +1,27 @@
+{
+    "mood": "Accepted", 
+    "caption": "#migel #snack", 
+    "created_at": "2016-06-29T05:23:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000024c90_13718f369235.ssng", 
+    "updated_at": "2016-06-29T17:37:30-04:00", 
+    "share_url": "https://a.sso.ng/1/13718f369235", 
+    "audio_url": "https://s02.sso.ng/1/000000024c90_13718f369235.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000024c90_13718f369235_mr.jpg", 
+    "song_album": "Angela Sings MLTR", 
+    "user": {
+        "username": "andre.raikonen", 
+        "verified": false, 
+        "username_color": "#084e8c", 
+        "full_name": "Andre Raikonen", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/43e20a5a-ff92-4ce3-adb6-e1da7f6359ca.jpg", 
+        "id": "43e20a5a-ff92-4ce3-adb6-e1da7f6359ca"
+    }, 
+    "song_title": "Paint My Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000024c90_13718f369235_th.jpg", 
+    "song_artist": "Angela", 
+    "favorite_count": 1, 
+    "uuid": "57A4A28D-F03B-4627-AE00-EA4755592147"
+}

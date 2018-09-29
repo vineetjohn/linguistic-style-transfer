@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "First post!", 
+    "created_at": "2016-06-20T18:38:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045a45_071d4730d6a1.ssng", 
+    "updated_at": "2016-06-21T03:33:36-04:00", 
+    "share_url": "https://a.sso.ng/1/071d4730d6a1", 
+    "audio_url": "https://s02.sso.ng/1/000000045a45_071d4730d6a1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045a45_071d4730d6a1_mr.jpg", 
+    "song_album": "Don't Panic It's Longer Now", 
+    "user": {
+        "username": "Sxnne", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b561607d-e405-4216-88f5-67d952f49047.jpg", 
+        "id": "b561607d-e405-4216-88f5-67d952f49047"
+    }, 
+    "song_title": "Backseat Serenade", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045a45_071d4730d6a1_th.jpg", 
+    "song_artist": "All Time Low", 
+    "favorite_count": 1, 
+    "uuid": "D868BA95-70BF-46CB-B559-ABD65AAFC7D4"
+}

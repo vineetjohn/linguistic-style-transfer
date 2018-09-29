@@ -1,0 +1,27 @@
+{
+    "mood": "hopeful", 
+    "caption": "If you ever want to be in love, I'll come around.", 
+    "created_at": "2016-04-08T22:58:12-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7d4_c3513000072e.ssng", 
+    "updated_at": "2016-06-22T00:28:00-04:00", 
+    "share_url": "https://a.sso.ng/1/c3513000072e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7d4_c3513000072e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7d4_c3513000072e_mr.jpg", 
+    "song_album": "Chaos and the Calm", 
+    "user": {
+        "username": "haze", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "hazel", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/aad6dd57-8e9b-4f15-9184-2908a2c6e863.jpg", 
+        "id": "aad6dd57-8e9b-4f15-9184-2908a2c6e863"
+    }, 
+    "song_title": "If You Ever Want To Be In Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7d4_c3513000072e_th.jpg", 
+    "song_artist": "James Bay", 
+    "favorite_count": 5, 
+    "uuid": "6D2924BA-D07B-4D26-852F-6376EE4EE55F"
+}

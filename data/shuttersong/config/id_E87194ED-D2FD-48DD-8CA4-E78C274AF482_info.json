@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#winning", 
+    "created_at": "2015-08-04T09:39:57-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021735_9d407159492e.ssng", 
+    "updated_at": "2015-10-24T16:39:40-04:00", 
+    "share_url": "https://a.sso.ng/1/9d407159492e", 
+    "audio_url": "https://s01.sso.ng/1/000000021735_9d407159492e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021735_9d407159492e_mr.jpg", 
+    "song_album": "Reflection (Deluxe)", 
+    "user": {
+        "username": "lilychen1234", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f50410e8-bb00-45d0-b12a-c7829fca9a31"
+    }, 
+    "song_title": "Worth It (feat. Kid Ink)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021735_9d407159492e_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 1, 
+    "uuid": "E87194ED-D2FD-48DD-8CA4-E78C274AF482"
+}

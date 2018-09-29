@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo Atala Bermudez ???", 
+    "created_at": "2015-12-22T12:12:05-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036912_aab5f8a680e2_1.ssng", 
+    "updated_at": "2015-12-22T12:50:57-05:00", 
+    "share_url": "https://a.sso.ng/1/aab5f8a680e2", 
+    "audio_url": "https://s01.sso.ng/1/000000036912_aab5f8a680e2_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036912_aab5f8a680e2_1_mr.jpg", 
+    "song_album": "The New Classic", 
+    "user": {
+        "username": "Atalabermudez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a9e527f2-5d3e-4e60-b907-916c3aa27a64.jpg", 
+        "id": "a9e527f2-5d3e-4e60-b907-916c3aa27a64"
+    }, 
+    "song_title": "Change Your Life ft. T.I.", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036912_aab5f8a680e2_1_th.jpg", 
+    "song_artist": "Iggy Azalea", 
+    "favorite_count": 1, 
+    "uuid": "AD09E2AC-79FD-4638-BC5C-567BC6698FE7"
+}

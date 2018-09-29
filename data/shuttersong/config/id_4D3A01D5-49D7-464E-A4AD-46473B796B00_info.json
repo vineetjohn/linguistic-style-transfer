@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "California - Jack and jack \n\nThis photo was taken when I went to California!\n\n\n", 
+    "created_at": "2015-08-04T07:46:00-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021659_c73e98fb0f2e_1.ssng", 
+    "updated_at": "2015-08-04T07:46:59-04:00", 
+    "share_url": "https://a.sso.ng/1/c73e98fb0f2e", 
+    "audio_url": "https://s01.sso.ng/1/000000021659_c73e98fb0f2e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021659_c73e98fb0f2e_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "Briannaaa_Grier", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Brianna", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6658e98d-1a51-4b1d-bcfe-50646007584b.jpg", 
+        "id": "6658e98d-1a51-4b1d-bcfe-50646007584b"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021659_c73e98fb0f2e_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "4D3A01D5-49D7-464E-A4AD-46473B796B00"
+}

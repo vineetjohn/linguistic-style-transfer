@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YouTube: Duarte Caroly", 
+    "created_at": "2015-12-29T13:37:50-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000382f8_ac8c6d88b312.ssng", 
+    "updated_at": "2015-12-29T14:57:41-05:00", 
+    "share_url": "https://a.sso.ng/1/ac8c6d88b312", 
+    "audio_url": "https://s01.sso.ng/1/0000000382f8_ac8c6d88b312.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000382f8_ac8c6d88b312_mr.jpg", 
+    "song_album": "1989 [Deluxe Edition]", 
+    "user": {
+        "username": "caroly", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a9a8c26a-cc27-4f24-931c-f2a2a6952661.jpg", 
+        "id": "a9a8c26a-cc27-4f24-931c-f2a2a6952661"
+    }, 
+    "song_title": "Style", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000382f8_ac8c6d88b312_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "6339F03D-9776-43DB-BA7B-58C68B82E35A"
+}

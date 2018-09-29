@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "M\u00e1s metas??????", 
+    "created_at": "2016-01-04T22:15:10-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000374ac_d0043ed9dd09.ssng", 
+    "updated_at": "2016-01-04T23:21:53-05:00", 
+    "share_url": "https://a.sso.ng/1/d0043ed9dd09", 
+    "audio_url": "https://s01.sso.ng/1/0000000374ac_d0043ed9dd09.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000374ac_d0043ed9dd09_mr.jpg", 
+    "song_album": "Martin Garrix", 
+    "user": {
+        "username": "Nikolle3102", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/da6a0714-dccf-4910-91ba-c2b608f2561a.jpg", 
+        "id": "da6a0714-dccf-4910-91ba-c2b608f2561a"
+    }, 
+    "song_title": "Poison", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000374ac_d0043ed9dd09_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "6E61B812-57DA-4213-8EF3-EF79FF90E0F0"
+}

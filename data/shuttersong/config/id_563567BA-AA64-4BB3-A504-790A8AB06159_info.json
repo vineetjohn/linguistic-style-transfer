@@ -1,0 +1,27 @@
+{
+    "mood": "drunk", 
+    "caption": "?\u2764\ufe0f?\u2764\ufe0f", 
+    "created_at": "2016-03-05T04:28:45-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1f7_914516ecfb95.ssng", 
+    "updated_at": "2016-03-24T05:11:19-04:00", 
+    "share_url": "https://a.sso.ng/1/914516ecfb95", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1f7_914516ecfb95.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1f7_914516ecfb95_mr.jpg", 
+    "song_album": "Crazy For You", 
+    "user": {
+        "username": "christinatina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8ab492da-f066-48ca-a644-6a3a7d9136a3.jpg", 
+        "id": "8ab492da-f066-48ca-a644-6a3a7d9136a3"
+    }, 
+    "song_title": "Boyfriend", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1f7_914516ecfb95_th.jpg", 
+    "song_artist": "Best Coast", 
+    "favorite_count": 5, 
+    "uuid": "563567BA-AA64-4BB3-A504-790A8AB06159"
+}

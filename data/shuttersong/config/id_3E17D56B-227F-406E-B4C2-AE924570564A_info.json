@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#summer #chile", 
+    "created_at": "2016-01-01T18:43:59-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000391fb_d83e557889c9.ssng", 
+    "updated_at": "2016-01-05T14:20:41-05:00", 
+    "share_url": "https://a.sso.ng/1/d83e557889c9", 
+    "audio_url": "https://s01.sso.ng/1/0000000391fb_d83e557889c9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000391fb_d83e557889c9_mr.jpg", 
+    "song_album": "Billboard Mainstream Top 40", 
+    "user": {
+        "username": "CamiScarlet", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b4bf9880-9137-4bbb-aa81-da32b8d05aa5.jpg", 
+        "id": "b4bf9880-9137-4bbb-aa81-da32b8d05aa5"
+    }, 
+    "song_title": "Summer", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000391fb_d83e557889c9_th.jpg", 
+    "song_artist": "Calvin Harris", 
+    "favorite_count": 1, 
+    "uuid": "3E17D56B-227F-406E-B4C2-AE924570564A"
+}

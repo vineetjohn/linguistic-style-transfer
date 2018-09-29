@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#??", 
+    "created_at": "2016-02-22T19:13:50-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea6a_1b19ab4587ac.ssng", 
+    "updated_at": "2016-02-24T02:24:36-05:00", 
+    "share_url": "https://a.sso.ng/1/1b19ab4587ac", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea6a_1b19ab4587ac.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea6a_1b19ab4587ac_mr.jpg", 
+    "song_album": "V (Deluxe Version)", 
+    "user": {
+        "username": "gina.janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce57dc3d-08d1-4494-af4a-c309a922ed35.jpg", 
+        "id": "ce57dc3d-08d1-4494-af4a-c309a922ed35"
+    }, 
+    "song_title": "It Was Always You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea6a_1b19ab4587ac_th.jpg", 
+    "song_artist": "Maroon 5", 
+    "favorite_count": 3, 
+    "uuid": "700A22F5-6403-4125-B838-516A5CCA5DF8"
+}

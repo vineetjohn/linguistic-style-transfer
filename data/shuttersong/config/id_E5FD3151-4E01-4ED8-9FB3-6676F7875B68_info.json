@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Nothing to a king - sakte & Sammy ", 
+    "created_at": "2015-08-04T01:04:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002123a_5aad7074f7b9_1.ssng", 
+    "updated_at": "2015-08-04T01:04:32-04:00", 
+    "share_url": "https://a.sso.ng/1/5aad7074f7b9", 
+    "audio_url": "https://s01.sso.ng/1/00000002123a_5aad7074f7b9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002123a_5aad7074f7b9_1_mr.jpg", 
+    "song_album": "Nothin to a King - Single", 
+    "user": {
+        "username": "sophieja", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sophie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c5add828-e157-45be-abad-3f5d7ac625fd.jpg", 
+        "id": "c5add828-e157-45be-abad-3f5d7ac625fd"
+    }, 
+    "song_title": "Nothin to a King", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002123a_5aad7074f7b9_1_th.jpg", 
+    "song_artist": "Young Skate & Sammy Wilk", 
+    "favorite_count": 1, 
+    "uuid": "E5FD3151-4E01-4ED8-9FB3-6676F7875B68"
+}

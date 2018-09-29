@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-10T13:36:39-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e933_edb37308d181.ssng", 
+    "updated_at": "2016-02-11T06:41:09-05:00", 
+    "share_url": "https://a.sso.ng/1/edb37308d181", 
+    "audio_url": "https://s02.sso.ng/1/00000003e933_edb37308d181.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e933_edb37308d181_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "plummyluke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b04ce8fd-5494-4dd5-8348-7677e1b82ec1.jpg", 
+        "id": "b04ce8fd-5494-4dd5-8348-7677e1b82ec1"
+    }, 
+    "song_title": "ZAYN - PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e933_edb37308d181_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "A3030565-9C4D-4EA0-876F-8EFBAA0B2AD8"
+}

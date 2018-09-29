@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-04T13:42:44-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003df37_baa220488d2b.ssng", 
+    "updated_at": "2016-02-05T21:21:11-05:00", 
+    "share_url": "https://a.sso.ng/1/baa220488d2b", 
+    "audio_url": "https://s02.sso.ng/1/00000003df37_baa220488d2b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003df37_baa220488d2b_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ixxfrankissxxi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c0845575-2bd3-4983-85e7-bc5d3ca5638e"
+    }, 
+    "song_title": "Best of 2015 Medley _ Anthem Lights", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003df37_baa220488d2b_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "A389DF2A-F901-4F11-95EE-B834A57A56AA"
+}

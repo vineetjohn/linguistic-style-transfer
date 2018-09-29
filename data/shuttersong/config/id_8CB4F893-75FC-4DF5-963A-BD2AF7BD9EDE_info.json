@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@beaub moodswings", 
+    "created_at": "2016-03-25T14:22:47-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f737_400dbd0140a6.ssng", 
+    "updated_at": "2016-03-30T03:19:36-04:00", 
+    "share_url": "https://a.sso.ng/1/400dbd0140a6", 
+    "audio_url": "https://s02.sso.ng/1/00000003f737_400dbd0140a6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f737_400dbd0140a6_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "emirebmac", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c368542d-dfb1-4384-8a8a-b6961abc149f.jpg", 
+        "id": "c368542d-dfb1-4384-8a8a-b6961abc149f"
+    }, 
+    "song_title": "MoodSwings", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f737_400dbd0140a6_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "8CB4F893-75FC-4DF5-963A-BD2AF7BD9EDE"
+}

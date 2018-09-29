@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-14T23:12:11-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003108e_9eb9d58c6977.ssng", 
+    "updated_at": "2015-12-17T01:24:29-05:00", 
+    "share_url": "https://a.sso.ng/1/9eb9d58c6977", 
+    "audio_url": "https://s01.sso.ng/1/00000003108e_9eb9d58c6977.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003108e_9eb9d58c6977_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "gilinskyforlyf", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5ec33304-85b9-4442-a223-0d53e6074185"
+    }, 
+    "song_title": "13-Fly-Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003108e_9eb9d58c6977_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "D16ACD5A-EEE5-4FFB-B0DD-A1FC400FE81C"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-10T03:18:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042edd_075e92eed3c8.ssng", 
+    "updated_at": "2016-05-11T12:03:13-04:00", 
+    "share_url": "https://a.sso.ng/1/075e92eed3c8", 
+    "audio_url": "https://s02.sso.ng/1/000000042edd_075e92eed3c8.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042edd_075e92eed3c8_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "izzierom", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "cc739c5d-e0e4-49a8-b43a-de17863bad03"
+    }, 
+    "song_title": "Birdy - Skinny Love (One Take)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042edd_075e92eed3c8_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "CD8E94A5-35DF-42BF-99C9-44F38EF783F1"
+}

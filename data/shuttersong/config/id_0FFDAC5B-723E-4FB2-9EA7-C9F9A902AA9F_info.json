@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Loki is crazy!", 
+    "created_at": "2016-05-15T15:28:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004311b_8b980d30a36a.ssng", 
+    "updated_at": "2016-05-16T03:01:48-04:00", 
+    "share_url": "https://a.sso.ng/1/8b980d30a36a", 
+    "audio_url": "https://s02.sso.ng/1/00000004311b_8b980d30a36a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004311b_8b980d30a36a_mr.jpg", 
+    "song_album": "Cry Baby (Deluxe Version)", 
+    "user": {
+        "username": "YoloMcSwaggin20", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/15d9dc61-47aa-4e33-847b-ae18c9e20f16.jpg", 
+        "id": "15d9dc61-47aa-4e33-847b-ae18c9e20f16"
+    }, 
+    "song_title": "Mad Hatter", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004311b_8b980d30a36a_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 2, 
+    "uuid": "0FFDAC5B-723E-4FB2-9EA7-C9F9A902AA9F"
+}

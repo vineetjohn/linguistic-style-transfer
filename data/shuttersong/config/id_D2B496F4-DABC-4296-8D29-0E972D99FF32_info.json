@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T01:53:01-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001e39d_a3e00ffc4927.ssng", 
+    "updated_at": "2015-08-22T11:36:12-04:00", 
+    "share_url": "https://a.sso.ng/1/a3e00ffc4927", 
+    "audio_url": "https://s01.sso.ng/1/00000001e39d_a3e00ffc4927.m4a", 
+    "comment_count": 9, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001e39d_a3e00ffc4927_mr.jpg", 
+    "song_album": "Title (Deluxe)", 
+    "user": {
+        "username": "mariana111902", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "cc106c37-02f2-486a-8cd2-0bacb886385f"
+    }, 
+    "song_title": "All About That Bass", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001e39d_a3e00ffc4927_th.jpg", 
+    "song_artist": "Meghan Trainor", 
+    "favorite_count": 12, 
+    "uuid": "D2B496F4-DABC-4296-8D29-0E972D99FF32"
+}

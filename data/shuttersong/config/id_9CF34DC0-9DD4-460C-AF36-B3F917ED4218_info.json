@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-25T05:07:41-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043ef7_640e73269415.ssng", 
+    "updated_at": "2016-05-27T11:37:39-04:00", 
+    "share_url": "https://a.sso.ng/1/640e73269415", 
+    "audio_url": "https://s02.sso.ng/1/000000043ef7_640e73269415.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043ef7_640e73269415_mr.jpg", 
+    "song_album": "Know-It-All (Deluxe)", 
+    "user": {
+        "username": "averagecutie89", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "cffb2342-4c7a-49b2-bd15-3c84c15dfba9"
+    }, 
+    "song_title": "Seventeen", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043ef7_640e73269415_th.jpg", 
+    "song_artist": "Alessia Cara", 
+    "favorite_count": 2, 
+    "uuid": "9CF34DC0-9DD4-460C-AF36-B3F917ED4218"
+}

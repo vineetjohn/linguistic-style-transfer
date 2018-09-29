@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Life isn't so hard ", 
+    "created_at": "2015-08-04T04:16:40-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021472_7039518d088a_1.ssng", 
+    "updated_at": "2015-08-04T04:17:02-04:00", 
+    "share_url": "https://a.sso.ng/1/7039518d088a", 
+    "audio_url": "https://s01.sso.ng/1/000000021472_7039518d088a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021472_7039518d088a_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "kayarashae", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kaya Rashae ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/53f40f19-6b3a-4f6c-9ce5-0f83da1f1063.jpg", 
+        "id": "53f40f19-6b3a-4f6c-9ce5-0f83da1f1063"
+    }, 
+    "song_title": "Best Mistake (feat. Big Sean)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021472_7039518d088a_1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "506C41F5-28CF-480C-8C63-D4A24688ABAA"
+}

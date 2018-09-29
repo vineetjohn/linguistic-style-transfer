@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "New Piercing!", 
+    "created_at": "2016-02-10T09:54:41-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4e6_b4d569c938ab.ssng", 
+    "updated_at": "2016-06-20T17:36:31-04:00", 
+    "share_url": "https://a.sso.ng/1/b4d569c938ab", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4e6_b4d569c938ab.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4e6_b4d569c938ab_mr.jpg", 
+    "song_album": "Stories", 
+    "user": {
+        "username": "AnneBrooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f9c776f8-38e7-472d-a5e4-bdb2a0894535.jpg", 
+        "id": "f9c776f8-38e7-472d-a5e4-bdb2a0894535"
+    }, 
+    "song_title": "For a Better Day", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4e6_b4d569c938ab_th.jpg", 
+    "song_artist": "Avicii", 
+    "favorite_count": 7, 
+    "uuid": "6329E4BC-413D-4FDA-AF47-C46850155B7E"
+}

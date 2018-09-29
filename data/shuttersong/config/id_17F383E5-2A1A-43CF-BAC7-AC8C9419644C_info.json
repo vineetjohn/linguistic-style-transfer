@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-28T01:59:57-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000210d7_56c4f8120185.ssng", 
+    "updated_at": "2015-09-03T15:15:00-04:00", 
+    "share_url": "https://a.sso.ng/1/56c4f8120185", 
+    "audio_url": "https://s01.sso.ng/1/0000000210d7_56c4f8120185.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000210d7_56c4f8120185_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "aavamarie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "ava", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/49243662-0ede-4522-b84d-affecd50dcf7.jpg", 
+        "id": "49243662-0ede-4522-b84d-affecd50dcf7"
+    }, 
+    "song_title": "Bring It Back", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000210d7_56c4f8120185_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "17F383E5-2A1A-43CF-BAC7-AC8C9419644C"
+}

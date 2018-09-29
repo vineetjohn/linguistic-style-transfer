@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack&jack", 
+    "created_at": "2015-08-03T23:22:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020dd5_a631929e505e_1.ssng", 
+    "updated_at": "2015-08-03T23:23:24-04:00", 
+    "share_url": "https://a.sso.ng/1/a631929e505e", 
+    "audio_url": "https://s01.sso.ng/1/000000020dd5_a631929e505e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020dd5_a631929e505e_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "nicolevanegas7", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Nicole Vanegas", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0d74f0db-719b-42c4-8bdf-bf2c88721ec6.jpg", 
+        "id": "0d74f0db-719b-42c4-8bdf-bf2c88721ec6"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020dd5_a631929e505e_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "2295F3FC-232F-41E7-BCF8-6A17B16FFE97"
+}

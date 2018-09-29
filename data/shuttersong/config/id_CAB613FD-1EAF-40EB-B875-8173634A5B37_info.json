@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Tu sonrisa me enamoro???", 
+    "created_at": "2015-08-20T19:25:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025f96_6498ffbb1d90_1.ssng", 
+    "updated_at": "2015-08-21T00:46:07-04:00", 
+    "share_url": "https://a.sso.ng/1/6498ffbb1d90", 
+    "audio_url": "https://s01.sso.ng/1/000000025f96_6498ffbb1d90_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025f96_6498ffbb1d90_1_mr.jpg", 
+    "song_album": "1989 (Deluxe Edition)", 
+    "user": {
+        "username": "lesli", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lesli", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/464a847a-27ad-481e-ab53-ddbf9ad8fec6.jpg", 
+        "id": "464a847a-27ad-481e-ab53-ddbf9ad8fec6"
+    }, 
+    "song_title": "Style", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025f96_6498ffbb1d90_1_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 2, 
+    "uuid": "CAB613FD-1EAF-40EB-B875-8173634A5B37"
+}

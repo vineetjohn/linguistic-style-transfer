@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "A preview snippet of Matt Fable's 'Down The Road.'", 
+    "created_at": "2015-11-30T00:01:28-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f372_888b564ba1e0_1.ssng", 
+    "updated_at": "2015-12-02T00:50:58-05:00", 
+    "share_url": "https://a.sso.ng/1/888b564ba1e0", 
+    "audio_url": "https://s01.sso.ng/1/00000002f372_888b564ba1e0_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f372_888b564ba1e0_1_mr.jpg", 
+    "song_album": "Prolouge EP", 
+    "user": {
+        "username": "KarateKid", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6673e7f3-e2dd-4ab5-afee-5d903cd078b3.jpg", 
+        "id": "6673e7f3-e2dd-4ab5-afee-5d903cd078b3"
+    }, 
+    "song_title": "Down The Road (Verse Soundscape)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f372_888b564ba1e0_1_th.jpg", 
+    "song_artist": "Matt Fable", 
+    "favorite_count": 1, 
+    "uuid": "3AC4B87B-EDC1-4019-A0A0-B06A39FFE503"
+}

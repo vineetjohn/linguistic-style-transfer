@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-12-20T09:50:56-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000294eb_fcabdb0b4fb1_1.ssng", 
+    "updated_at": "2015-12-21T09:37:48-05:00", 
+    "share_url": "https://a.sso.ng/1/fcabdb0b4fb1", 
+    "audio_url": "https://s01.sso.ng/1/0000000294eb_fcabdb0b4fb1_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000294eb_fcabdb0b4fb1_1_mr.jpg", 
+    "song_album": "All the Little Lights", 
+    "user": {
+        "username": "PamelaLovera1", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d2f4d686-2f78-4351-a076-ee71f61730b7.jpg", 
+        "id": "d2f4d686-2f78-4351-a076-ee71f61730b7"
+    }, 
+    "song_title": "Let Her Go (Acoustic)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000294eb_fcabdb0b4fb1_1_th.jpg", 
+    "song_artist": "Passenger", 
+    "favorite_count": 1, 
+    "uuid": "F1C0FBF2-403B-4C5C-9A21-6B67865AB7DE"
+}

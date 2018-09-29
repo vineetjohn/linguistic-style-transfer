@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-21T21:08:22-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003849c_25d5a183ec07.ssng", 
+    "updated_at": "2015-12-25T21:46:29-05:00", 
+    "share_url": "https://a.sso.ng/1/25d5a183ec07", 
+    "audio_url": "https://s01.sso.ng/1/00000003849c_25d5a183ec07.m4a", 
+    "comment_count": 4, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003849c_25d5a183ec07_mr.jpg", 
+    "song_album": "Coldplay", 
+    "user": {
+        "username": "karenc_y", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Karen Ceballos", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/162c8816-f9f2-4892-96cd-264050dcbf27.jpg", 
+        "id": "162c8816-f9f2-4892-96cd-264050dcbf27"
+    }, 
+    "song_title": "Green Eyes", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003849c_25d5a183ec07_th.jpg", 
+    "song_artist": "A Rush of Blood to the Head", 
+    "favorite_count": 12, 
+    "uuid": "ACA15D8B-673B-4AA5-8968-CC0CBE1ECB68"
+}

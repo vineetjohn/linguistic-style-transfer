@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-08-30T09:32:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022955_e5790608d7d5_1.ssng", 
+    "updated_at": "2015-09-01T11:44:21-04:00", 
+    "share_url": "https://a.sso.ng/1/e5790608d7d5", 
+    "audio_url": "https://s01.sso.ng/1/000000022955_e5790608d7d5_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022955_e5790608d7d5_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "johnsonsflannel", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "diana", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/320946c9-d5f9-4c70-9d32-3142cb3e9801.jpg", 
+        "id": "320946c9-d5f9-4c70-9d32-3142cb3e9801"
+    }, 
+    "song_title": "Break Your Heart Right Back (feat. Childish Gambino)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022955_e5790608d7d5_1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 4, 
+    "uuid": "716E7C01-827D-4A7D-A73D-A832FB8E570E"
+}

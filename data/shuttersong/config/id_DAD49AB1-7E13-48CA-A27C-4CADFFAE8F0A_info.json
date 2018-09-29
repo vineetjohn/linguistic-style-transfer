@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "love u beau ?", 
+    "created_at": "2016-03-08T21:33:48-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5d1_0877caf35fcb.ssng", 
+    "updated_at": "2016-06-14T11:25:44-04:00", 
+    "share_url": "https://a.sso.ng/1/0877caf35fcb", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5d1_0877caf35fcb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5d1_0877caf35fcb_mr.jpg", 
+    "song_album": "Unknown Album", 
+    "user": {
+        "username": "itsyammounibitch", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Amanda Leis-Miguel ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2aace85d-3b49-48aa-9813-13289294d780.jpg", 
+        "id": "2aace85d-3b49-48aa-9813-13289294d780"
+    }, 
+    "song_title": "Would U Love Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5d1_0877caf35fcb_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 20, 
+    "uuid": "DAD49AB1-7E13-48CA-A27C-4CADFFAE8F0A"
+}

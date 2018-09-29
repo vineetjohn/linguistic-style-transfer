@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo #ootn", 
+    "created_at": "2015-12-29T16:34:11-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b344_e7ea7e04fdd8.ssng", 
+    "updated_at": "2015-12-29T17:03:58-05:00", 
+    "share_url": "https://a.sso.ng/1/e7ea7e04fdd8", 
+    "audio_url": "https://s01.sso.ng/1/00000003b344_e7ea7e04fdd8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b344_e7ea7e04fdd8_mr.jpg", 
+    "song_album": "From Eden", 
+    "user": {
+        "username": "mariamateo04", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2d5c3bb7-ef58-457b-8b81-a7b9ce3de748.jpg", 
+        "id": "2d5c3bb7-ef58-457b-8b81-a7b9ce3de748"
+    }, 
+    "song_title": "Work Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b344_e7ea7e04fdd8_th.jpg", 
+    "song_artist": "Hozier", 
+    "favorite_count": 1, 
+    "uuid": "D657A681-5002-4296-983F-3E9F4BA6AC9A"
+}

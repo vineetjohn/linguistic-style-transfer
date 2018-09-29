@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Lol @beaub", 
+    "created_at": "2016-02-13T09:37:19-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ed9e_a2d3d8eba424.ssng", 
+    "updated_at": "2016-02-14T10:43:57-05:00", 
+    "share_url": "https://a.sso.ng/1/a2d3d8eba424", 
+    "audio_url": "https://s02.sso.ng/1/00000003ed9e_a2d3d8eba424.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ed9e_a2d3d8eba424_mr.jpg", 
+    "song_album": "Best Friends", 
+    "user": {
+        "username": "onlylukesass", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Janoskianator", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "beb4ce13-9c4a-4f4d-a8de-d873cad9ae34"
+    }, 
+    "song_title": "Best Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ed9e_a2d3d8eba424_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "9599D9C7-B5BD-4E58-8498-9D31D6E972DA"
+}

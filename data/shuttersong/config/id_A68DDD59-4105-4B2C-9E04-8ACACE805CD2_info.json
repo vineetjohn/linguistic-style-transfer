@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "Beach \ud83d\ude0d\ud83d\ude0d", 
+    "created_at": "2016-04-12T11:57:46-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e968_7a7d99c3e0ee.ssng", 
+    "updated_at": "2016-04-23T14:29:04-04:00", 
+    "share_url": "https://a.sso.ng/1/7a7d99c3e0ee", 
+    "audio_url": "https://s02.sso.ng/1/00000003e968_7a7d99c3e0ee.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e968_7a7d99c3e0ee_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Khaya2707", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Khaya S-R", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/81abb3bf-f265-4ca2-b393-bafa09a5e3fd.jpg", 
+        "id": "81abb3bf-f265-4ca2-b393-bafa09a5e3fd"
+    }, 
+    "song_title": "Ed Sheeran - I'm In Love With The Coco (Hitimpulse Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e968_7a7d99c3e0ee_th.jpg", 
+    "song_artist": "Remix", 
+    "favorite_count": 3, 
+    "uuid": "A68DDD59-4105-4B2C-9E04-8ACACE805CD2"
+}

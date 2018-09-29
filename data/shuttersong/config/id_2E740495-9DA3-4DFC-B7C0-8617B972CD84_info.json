@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Mark my words \u2740", 
+    "created_at": "2016-04-08T11:53:18-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040d95_7d972ad4292d.ssng", 
+    "updated_at": "2016-04-10T20:52:26-04:00", 
+    "share_url": "https://a.sso.ng/1/7d972ad4292d", 
+    "audio_url": "https://s02.sso.ng/1/000000040d95_7d972ad4292d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040d95_7d972ad4292d_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "femkedemuynck", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c3bf4398-475e-4887-b403-a32be2a419c7"
+    }, 
+    "song_title": "Mark My Words", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040d95_7d972ad4292d_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 2, 
+    "uuid": "2E740495-9DA3-4DFC-B7C0-8617B972CD84"
+}

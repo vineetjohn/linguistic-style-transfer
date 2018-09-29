@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#perfection #jackjohnson", 
+    "created_at": "2015-08-05T12:41:12-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021e62_8e5db8254036.ssng", 
+    "updated_at": "2015-10-24T17:19:18-04:00", 
+    "share_url": "https://a.sso.ng/1/8e5db8254036", 
+    "audio_url": "https://s01.sso.ng/1/000000021e62_8e5db8254036.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021e62_8e5db8254036_mr.jpg", 
+    "song_album": "Wild Life - Single", 
+    "user": {
+        "username": "Paytonreisinger", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Payton Reisinger", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/32e9a374-7dab-44ed-a834-b0081270a0bf.jpg", 
+        "id": "32e9a374-7dab-44ed-a834-b0081270a0bf"
+    }, 
+    "song_title": "Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021e62_8e5db8254036_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 6, 
+    "uuid": "8B109BE5-73C0-4AEB-81A7-B5AE118D6472"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "giggly", 
+    "caption": "10/10 quality chair", 
+    "created_at": "2016-06-22T09:30:03-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045a21_91e570270140.ssng", 
+    "updated_at": "2016-06-23T17:52:54-04:00", 
+    "share_url": "https://a.sso.ng/1/91e570270140", 
+    "audio_url": "https://s02.sso.ng/1/000000045a21_91e570270140.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045a21_91e570270140_mr.jpg", 
+    "song_album": "Like That (feat. Skate) - Single", 
+    "user": {
+        "username": "ughh_erin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "erin henry", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dc6ee41f-9303-44c5-ab58-e64c5a102c0d.jpg", 
+        "id": "dc6ee41f-9303-44c5-ab58-e64c5a102c0d"
+    }, 
+    "song_title": "Like That (feat. Skate)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045a21_91e570270140_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "3B42C459-55BC-4654-AA9E-15008FB905A5"
+}

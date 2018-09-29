@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-27T04:12:50-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045709_4504d34e8c28.ssng", 
+    "updated_at": "2016-07-01T16:56:22-04:00", 
+    "share_url": "https://a.sso.ng/1/4504d34e8c28", 
+    "audio_url": "https://s02.sso.ng/1/000000045709_4504d34e8c28.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045709_4504d34e8c28_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "iDoTunez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "iDoTunez", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7bba4556-676e-4d2b-b4be-3a832df79d9b.jpg", 
+        "id": "7bba4556-676e-4d2b-b4be-3a832df79d9b"
+    }, 
+    "song_title": "SledgeHammer", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045709_4504d34e8c28_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "C255F7B6-E0C1-498F-8010-3FBEAFD77975"
+}

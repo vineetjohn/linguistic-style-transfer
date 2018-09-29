@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-09T14:07:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004013e_19d07910cdac.ssng", 
+    "updated_at": "2016-05-23T03:19:25-04:00", 
+    "share_url": "https://a.sso.ng/1/19d07910cdac", 
+    "audio_url": "https://s02.sso.ng/1/00000004013e_19d07910cdac.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004013e_19d07910cdac_mr.jpg", 
+    "song_album": "Four [Deluxe Edition]", 
+    "user": {
+        "username": "sarahcalvert", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sarah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d843c873-aa47-4255-a232-2aeb8b6f34be.jpg", 
+        "id": "d843c873-aa47-4255-a232-2aeb8b6f34be"
+    }, 
+    "song_title": "Fool's Gold", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004013e_19d07910cdac_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 6, 
+    "uuid": "3954D531-5A2B-4FA5-ADF6-C8CF8BA28463"
+}

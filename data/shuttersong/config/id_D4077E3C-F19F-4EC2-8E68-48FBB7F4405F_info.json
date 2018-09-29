@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:24:48-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020db1_aff988207636.ssng", 
+    "updated_at": "2015-08-03T23:24:48-04:00", 
+    "share_url": "https://a.sso.ng/1/aff988207636", 
+    "audio_url": "https://s01.sso.ng/1/000000020db1_aff988207636.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020db1_aff988207636_mr.jpg", 
+    "song_album": "Surfers Paradise", 
+    "user": {
+        "username": "babygirlmariee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "72be7171-518a-48e5-a8b1-a0e4760256f1"
+    }, 
+    "song_title": "Pretty Brown Eyes", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020db1_aff988207636_th.jpg", 
+    "song_artist": "Cody Simpson", 
+    "favorite_count": 1, 
+    "uuid": "D4077E3C-F19F-4EC2-8E68-48FBB7F4405F"
+}

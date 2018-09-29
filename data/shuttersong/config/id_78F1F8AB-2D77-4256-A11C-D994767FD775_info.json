@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-04T05:11:44-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f7ab_8f2880ccb90f.ssng", 
+    "updated_at": "2016-03-15T02:42:18-04:00", 
+    "share_url": "https://a.sso.ng/1/8f2880ccb90f", 
+    "audio_url": "https://s02.sso.ng/1/00000003f7ab_8f2880ccb90f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f7ab_8f2880ccb90f_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "pantilimon", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1c8913ff-db50-4667-90c2-760e017130a1"
+    }, 
+    "song_title": "LANY-ILYSB", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f7ab_8f2880ccb90f_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "78F1F8AB-2D77-4256-A11C-D994767FD775"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-09-14T00:27:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e494_442178bb4775_1.ssng", 
+    "updated_at": "2015-09-16T13:33:33-04:00", 
+    "share_url": "https://a.sso.ng/1/442178bb4775", 
+    "audio_url": "https://s01.sso.ng/1/00000002e494_442178bb4775_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e494_442178bb4775_1_mr.jpg", 
+    "song_album": "Urban Flora - EP", 
+    "user": {
+        "username": "ericabrown", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9f1fbe7d-1634-47e7-8be4-c00e445405f5.jpg", 
+        "id": "9f1fbe7d-1634-47e7-8be4-c00e445405f5"
+    }, 
+    "song_title": "Can I", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e494_442178bb4775_1_th.jpg", 
+    "song_artist": "Alina Baraz & Galimatias", 
+    "favorite_count": 1, 
+    "uuid": "2B7C0262-C230-4B60-8D6F-8DB787FA7D86"
+}

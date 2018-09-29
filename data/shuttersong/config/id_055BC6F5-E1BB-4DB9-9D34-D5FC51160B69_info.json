@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-15T18:32:38-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002179d_a6f823127ff6.ssng", 
+    "updated_at": "2015-08-18T10:24:39-04:00", 
+    "share_url": "https://a.sso.ng/1/a6f823127ff6", 
+    "audio_url": "https://s01.sso.ng/1/00000002179d_a6f823127ff6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002179d_a6f823127ff6_mr.jpg", 
+    "song_album": "Distance - Single", 
+    "user": {
+        "username": "tiakerrmiller", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Tia Kerr-Miller ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bb24bea7-17e5-4521-84d0-22192369bf21.jpg", 
+        "id": "bb24bea7-17e5-4521-84d0-22192369bf21"
+    }, 
+    "song_title": "Distance", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002179d_a6f823127ff6_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 6, 
+    "uuid": "055BC6F5-E1BB-4DB9-9D34-D5FC51160B69"
+}

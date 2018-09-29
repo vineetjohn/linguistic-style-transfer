@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#squad got smoothie king after work", 
+    "created_at": "2015-10-19T16:30:31-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000000090_e9811d1bf24a_1.ssng", 
+    "updated_at": "2015-10-20T16:45:15-04:00", 
+    "share_url": "https://a.sso.ng/1/e9811d1bf24a", 
+    "audio_url": "https://s01.sso.ng/1/000000000090_e9811d1bf24a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000090_e9811d1bf24a_1_mr.jpg", 
+    "song_album": "Sounds Good Feels Good (Deluxe)", 
+    "user": {
+        "username": "mh", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Maggie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/67b30a1b-dafe-41b1-9eae-4b09e1f9f46b.jpg", 
+        "id": "67b30a1b-dafe-41b1-9eae-4b09e1f9f46b"
+    }, 
+    "song_title": "Hey Everybody!", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000090_e9811d1bf24a_1_th.jpg", 
+    "song_artist": "5 Seconds Of Summer", 
+    "favorite_count": 3, 
+    "uuid": "75D4FC61-35B8-446B-8D19-0391C8A31B20"
+}

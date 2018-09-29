@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\ude0b", 
+    "created_at": "2016-04-30T00:37:25-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e821_37ab54f8d704.ssng", 
+    "updated_at": "2016-06-15T12:14:17-04:00", 
+    "share_url": "https://a.sso.ng/1/37ab54f8d704", 
+    "audio_url": "https://s02.sso.ng/1/00000003e821_37ab54f8d704.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e821_37ab54f8d704_mr.jpg", 
+    "song_album": "Don't Drop That Thun Thun - Single", 
+    "user": {
+        "username": "Annini", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09e1fb3d-69fa-4375-93a4-008fc02e1b34.jpg", 
+        "id": "09e1fb3d-69fa-4375-93a4-008fc02e1b34"
+    }, 
+    "song_title": "Don't Drop That Thun Thun", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e821_37ab54f8d704_th.jpg", 
+    "song_artist": "Finatticz", 
+    "favorite_count": 3, 
+    "uuid": "B6E1C670-B4DA-45E1-B12C-F02FD0EFBFBD"
+}

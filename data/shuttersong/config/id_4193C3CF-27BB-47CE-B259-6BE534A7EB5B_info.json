@@ -1,0 +1,27 @@
+{
+    "mood": "bittersweet", 
+    "caption": "wishing it would rain in SoCal", 
+    "created_at": "2016-03-27T03:22:41-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7d4_da0945c7636c.ssng", 
+    "updated_at": "2016-05-27T13:33:44-04:00", 
+    "share_url": "https://a.sso.ng/1/da0945c7636c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7d4_da0945c7636c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7d4_da0945c7636c_mr.jpg", 
+    "song_album": "Positive Songs for Negative People (Deluxe)", 
+    "user": {
+        "username": "haze", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "hazel", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/aad6dd57-8e9b-4f15-9184-2908a2c6e863.jpg", 
+        "id": "aad6dd57-8e9b-4f15-9184-2908a2c6e863"
+    }, 
+    "song_title": "The Next Storm", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7d4_da0945c7636c_th.jpg", 
+    "song_artist": "Frank Turner", 
+    "favorite_count": 1, 
+    "uuid": "4193C3CF-27BB-47CE-B259-6BE534A7EB5B"
+}

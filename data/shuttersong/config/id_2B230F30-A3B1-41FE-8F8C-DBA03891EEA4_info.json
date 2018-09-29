@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Happy 90th Queenie", 
+    "created_at": "2016-04-21T06:18:44-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000002f9aa_18bcc262aa64.ssng", 
+    "updated_at": "2016-05-12T21:25:37-04:00", 
+    "share_url": "https://a.sso.ng/1/18bcc262aa64", 
+    "audio_url": "https://s02.sso.ng/1/00000002f9aa_18bcc262aa64.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002f9aa_18bcc262aa64_mr.jpg", 
+    "song_album": "Stadium Arcadium", 
+    "user": {
+        "username": "speciesmagazine", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a5e11149-e9eb-4773-857c-f47a0fe9fed5.jpg", 
+        "id": "a5e11149-e9eb-4773-857c-f47a0fe9fed5"
+    }, 
+    "song_title": "Snow (Hey Oh)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002f9aa_18bcc262aa64_th.jpg", 
+    "song_artist": "Red Hot Chili Peppers", 
+    "favorite_count": 15, 
+    "uuid": "2B230F30-A3B1-41FE-8F8C-DBA03891EEA4"
+}

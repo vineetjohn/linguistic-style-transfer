@@ -1,0 +1,27 @@
+{
+    "mood": "royal", 
+    "caption": "", 
+    "created_at": "2016-03-24T10:27:54-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_1063e85490ae.ssng", 
+    "updated_at": "2016-03-24T18:32:26-04:00", 
+    "share_url": "https://a.sso.ng/1/1063e85490ae", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_1063e85490ae.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_1063e85490ae_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_1063e85490ae_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "60684560-05D8-4E3E-A40A-763C9EC4F865"
+}

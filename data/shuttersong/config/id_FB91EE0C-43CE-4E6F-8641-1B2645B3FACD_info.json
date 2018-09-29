@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Everlong", 
+    "created_at": "2015-08-21T01:56:14-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000000deee_e9221306bdea_1.ssng", 
+    "updated_at": "2015-08-21T03:38:25-04:00", 
+    "share_url": "https://a.sso.ng/1/e9221306bdea", 
+    "audio_url": "https://s01.sso.ng/1/00000000deee_e9221306bdea_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000deee_e9221306bdea_1_mr.jpg", 
+    "song_album": "The Colour and the Shape", 
+    "user": {
+        "username": "fabuamaya", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Fabian Amaya", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fb1840ee-9066-44d8-80f9-f8d0aa2969f0.jpg", 
+        "id": "fb1840ee-9066-44d8-80f9-f8d0aa2969f0"
+    }, 
+    "song_title": "Everlong", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000deee_e9221306bdea_1_th.jpg", 
+    "song_artist": "Foo Fighters", 
+    "favorite_count": 2, 
+    "uuid": "FB91EE0C-43CE-4E6F-8641-1B2645B3FACD"
+}

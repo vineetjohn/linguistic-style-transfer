@@ -1,0 +1,27 @@
+{
+    "mood": "atontado", 
+    "caption": "In case", 
+    "created_at": "2016-01-09T19:10:37-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003cb77_487bb415f1e5.ssng", 
+    "updated_at": "2016-01-10T07:59:37-05:00", 
+    "share_url": "https://a.sso.ng/1/487bb415f1e5", 
+    "audio_url": "https://s01.sso.ng/1/00000003cb77_487bb415f1e5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003cb77_487bb415f1e5_mr.jpg", 
+    "song_album": "Demi", 
+    "user": {
+        "username": "Aniilu_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e883204-a19b-4688-976a-30a511325270.jpg", 
+        "id": "2e883204-a19b-4688-976a-30a511325270"
+    }, 
+    "song_title": "In Case", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003cb77_487bb415f1e5_th.jpg", 
+    "song_artist": "Demi Lovato", 
+    "favorite_count": 1, 
+    "uuid": "1CD6AAA7-0195-49BD-85F7-16CB16240561"
+}

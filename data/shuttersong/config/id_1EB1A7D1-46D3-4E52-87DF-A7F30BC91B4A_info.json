@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "Good Morning Everyone", 
+    "created_at": "2016-05-14T08:44:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043381_d22d8a1ab6fd.ssng", 
+    "updated_at": "2016-05-15T07:35:02-04:00", 
+    "share_url": "https://a.sso.ng/1/d22d8a1ab6fd", 
+    "audio_url": "https://s02.sso.ng/1/000000043381_d22d8a1ab6fd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043381_d22d8a1ab6fd_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "danieltiger_77", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0238d70e-441d-4e6c-b71e-f8d698f53334"
+    }, 
+    "song_title": "Morning Has Broken", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043381_d22d8a1ab6fd_th.jpg", 
+    "song_artist": "Cat Stevens", 
+    "favorite_count": 2, 
+    "uuid": "1EB1A7D1-46D3-4E52-87DF-A7F30BC91B4A"
+}

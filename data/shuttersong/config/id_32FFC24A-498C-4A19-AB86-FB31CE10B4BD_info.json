@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "two kids named jack and we burnin the sack ?", 
+    "created_at": "2015-08-03T22:03:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000201ea_3d5c3bb29241_1.ssng", 
+    "updated_at": "2015-08-03T22:04:06-04:00", 
+    "share_url": "https://a.sso.ng/1/3d5c3bb29241", 
+    "audio_url": "https://s01.sso.ng/1/0000000201ea_3d5c3bb29241_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000201ea_3d5c3bb29241_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "juliahyatt22", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "jack johnson ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6b5832be-277f-4f90-83e7-764d906aef65.jpg", 
+        "id": "6b5832be-277f-4f90-83e7-764d906aef65"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000201ea_3d5c3bb29241_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "32FFC24A-498C-4A19-AB86-FB31CE10B4BD"
+}

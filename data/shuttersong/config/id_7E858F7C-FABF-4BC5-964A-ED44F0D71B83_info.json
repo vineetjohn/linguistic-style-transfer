@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo Marcelo Santangelo", 
+    "created_at": "2015-12-30T12:42:27-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000035c91_b4110350ae07.ssng", 
+    "updated_at": "2016-01-15T03:12:20-05:00", 
+    "share_url": "https://a.sso.ng/1/b4110350ae07", 
+    "audio_url": "https://s01.sso.ng/1/000000035c91_b4110350ae07.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000035c91_b4110350ae07_mr.jpg", 
+    "song_album": "Cry Baby (Deluxe Version)", 
+    "user": {
+        "username": "msantangelo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/374718f5-2960-4e58-a2de-102fcefa67fc.jpg", 
+        "id": "374718f5-2960-4e58-a2de-102fcefa67fc"
+    }, 
+    "song_title": "Alphabet Boy", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000035c91_b4110350ae07_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 1, 
+    "uuid": "7E858F7C-FABF-4BC5-964A-ED44F0D71B83"
+}

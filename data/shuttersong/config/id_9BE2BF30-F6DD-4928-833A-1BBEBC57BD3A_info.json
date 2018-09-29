@@ -1,0 +1,27 @@
+{
+    "mood": "crushed", 
+    "caption": "", 
+    "created_at": "2016-03-08T10:46:22-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_101147831dae.ssng", 
+    "updated_at": "2016-03-08T16:20:50-05:00", 
+    "share_url": "https://a.sso.ng/1/101147831dae", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_101147831dae.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_101147831dae_mr.jpg", 
+    "song_album": "Monstercat 023 - Voyage", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "The Girl (Color Source Remix) [feat. Cozi Zuehlsdorff]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_101147831dae_th.jpg", 
+    "song_artist": "Hellberg", 
+    "favorite_count": 1, 
+    "uuid": "9BE2BF30-F6DD-4928-833A-1BBEBC57BD3A"
+}

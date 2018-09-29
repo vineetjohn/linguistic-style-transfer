@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "He gets all the biddies", 
+    "created_at": "2015-08-04T13:21:12-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020ef1_f8e777761d32_1.ssng", 
+    "updated_at": "2015-12-22T20:40:28-05:00", 
+    "share_url": "https://a.sso.ng/1/f8e777761d32", 
+    "audio_url": "https://s01.sso.ng/1/000000020ef1_f8e777761d32_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020ef1_f8e777761d32_1_mr.jpg", 
+    "song_album": "Glee: The Music Presents the Warblers", 
+    "user": {
+        "username": "bri123", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Brianna", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/96b84bc7-811f-4251-acf4-972863338994.jpg", 
+        "id": "96b84bc7-811f-4251-acf4-972863338994"
+    }, 
+    "song_title": "Do Ya Think I'm Sexy?", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020ef1_f8e777761d32_1_th.jpg", 
+    "song_artist": "The Warblers", 
+    "favorite_count": 2, 
+    "uuid": "F7F28E0A-E80B-4153-8CB1-0E503EC24D5A"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\udc4c\ud83d\udc98\ud83d\ude0d", 
+    "created_at": "2016-05-13T13:02:44-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000432bf_cf96def93f99.ssng", 
+    "updated_at": "2016-05-13T20:07:25-04:00", 
+    "share_url": "https://a.sso.ng/1/cf96def93f99", 
+    "audio_url": "https://s02.sso.ng/1/0000000432bf_cf96def93f99.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000432bf_cf96def93f99_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Sheila_Styles", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2be46e16-eba4-4687-a01c-2937924581cf"
+    }, 
+    "song_title": "Katy Perry Dark Horse Lyrics", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000432bf_cf96def93f99_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "C1B04850-D317-492F-B1F3-9971BDFDF65E"
+}

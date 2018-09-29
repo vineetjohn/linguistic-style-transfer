@@ -1,0 +1,27 @@
+{
+    "mood": "cold", 
+    "caption": "Holy crap it's winter", 
+    "created_at": "2016-01-07T14:51:24-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002402c_fd084291a30a.ssng", 
+    "updated_at": "2016-01-07T23:31:03-05:00", 
+    "share_url": "https://a.sso.ng/1/fd084291a30a", 
+    "audio_url": "https://s01.sso.ng/1/00000002402c_fd084291a30a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002402c_fd084291a30a_mr.jpg", 
+    "song_album": "twenty one pilots", 
+    "user": {
+        "username": "NeedleMendes", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emily", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5ed4dc92-4df5-4ae4-98c6-01a473a2b2c7.jpg", 
+        "id": "5ed4dc92-4df5-4ae4-98c6-01a473a2b2c7"
+    }, 
+    "song_title": "Air Catcher", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002402c_fd084291a30a_th.jpg", 
+    "song_artist": "twenty one pilots", 
+    "favorite_count": 3, 
+    "uuid": "33A1DB91-BC57-4DB7-9BA3-CA1F3A9C1E98"
+}

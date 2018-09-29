@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-18T20:07:25-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f15b_9a309afb352c.ssng", 
+    "updated_at": "2016-02-19T12:16:43-05:00", 
+    "share_url": "https://a.sso.ng/1/9a309afb352c", 
+    "audio_url": "https://s02.sso.ng/1/00000003f15b_9a309afb352c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f15b_9a309afb352c_mr.jpg", 
+    "song_album": "Sublime", 
+    "user": {
+        "username": "sflemingo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "50071f21-d9d5-40f5-9d81-de463cee3a1d"
+    }, 
+    "song_title": "Caress Me Down", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f15b_9a309afb352c_th.jpg", 
+    "song_artist": "Sublime", 
+    "favorite_count": 1, 
+    "uuid": "DF5FF6D8-64B0-46CA-875C-7FA47BB1F15A"
+}

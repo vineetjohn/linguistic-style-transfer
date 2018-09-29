@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hola!", 
+    "created_at": "2015-08-22T06:33:02-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a871_9b77980b5be4_1.ssng", 
+    "updated_at": "2015-08-22T23:45:29-04:00", 
+    "share_url": "https://a.sso.ng/1/9b77980b5be4", 
+    "audio_url": "https://s01.sso.ng/1/00000002a871_9b77980b5be4_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a871_9b77980b5be4_1_mr.jpg", 
+    "song_album": "Cheerleader (Felix Jaehn Remix Radio Edit) - Single", 
+    "user": {
+        "username": "Patriciadlsr", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d548a16b-b2d7-456b-bca4-10dd4f2b1b16.jpg", 
+        "id": "d548a16b-b2d7-456b-bca4-10dd4f2b1b16"
+    }, 
+    "song_title": "Cheerleader (Felix Jaehn Remix Radio Edit)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a871_9b77980b5be4_1_th.jpg", 
+    "song_artist": "Omi", 
+    "favorite_count": 1, 
+    "uuid": "1A5A8E55-82F9-4A05-9E65-CECBC02263B0"
+}

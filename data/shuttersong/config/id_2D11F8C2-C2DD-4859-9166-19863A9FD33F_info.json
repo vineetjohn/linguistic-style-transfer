@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "????", 
+    "created_at": "2015-08-04T15:42:12-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000219df_30b192fbf012_1.ssng", 
+    "updated_at": "2015-08-04T15:43:26-04:00", 
+    "share_url": "https://a.sso.ng/1/30b192fbf012", 
+    "audio_url": "https://s01.sso.ng/1/0000000219df_30b192fbf012_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000219df_30b192fbf012_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "byiby", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Iby", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3669620e-28c5-4428-994a-f1b74bc94254.jpg", 
+        "id": "3669620e-28c5-4428-994a-f1b74bc94254"
+    }, 
+    "song_title": "Groove - Jack and Jack", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000219df_30b192fbf012_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "2D11F8C2-C2DD-4859-9166-19863A9FD33F"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo ? YouTube: Klau M. Schwartz ?", 
+    "created_at": "2015-12-21T18:33:35-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037bd7_140c7e49b04c.ssng", 
+    "updated_at": "2015-12-21T18:37:43-05:00", 
+    "share_url": "https://a.sso.ng/1/140c7e49b04c", 
+    "audio_url": "https://s01.sso.ng/1/000000037bd7_140c7e49b04c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037bd7_140c7e49b04c_mr.jpg", 
+    "song_album": "James Arthur", 
+    "user": {
+        "username": "klaumschwartz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/af6e8298-7218-48ab-a3e1-5c70c7b56d88.jpg", 
+        "id": "af6e8298-7218-48ab-a3e1-5c70c7b56d88"
+    }, 
+    "song_title": "Impossible", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037bd7_140c7e49b04c_th.jpg", 
+    "song_artist": "James Arthur (Deluxe)", 
+    "favorite_count": 1, 
+    "uuid": "0D5EE1A9-C45A-4EBE-87BD-DC0D6FAC62B6"
+}

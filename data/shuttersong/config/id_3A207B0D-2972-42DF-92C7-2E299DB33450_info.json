@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I love this", 
+    "created_at": "2016-05-12T20:34:17-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004319c_cc04dca9b6ab.ssng", 
+    "updated_at": "2016-05-13T04:46:05-04:00", 
+    "share_url": "https://a.sso.ng/1/cc04dca9b6ab", 
+    "audio_url": "https://s02.sso.ng/1/00000004319c_cc04dca9b6ab.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004319c_cc04dca9b6ab_mr.jpg", 
+    "song_album": "Come and See Me (feat. Drake) - Single", 
+    "user": {
+        "username": "lizxie__", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lol Lizzie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e84381c7-df0d-47f3-ac6c-f05ef8ae909e.jpg", 
+        "id": "e84381c7-df0d-47f3-ac6c-f05ef8ae909e"
+    }, 
+    "song_title": "Come and See Me (feat. Drake)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004319c_cc04dca9b6ab_th.jpg", 
+    "song_artist": "PARTYNEXTDOOR", 
+    "favorite_count": 1, 
+    "uuid": "3A207B0D-2972-42DF-92C7-2E299DB33450"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Proud?", 
+    "created_at": "2015-08-04T06:53:00-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000215f2_7934f904e895_1.ssng", 
+    "updated_at": "2015-08-04T06:53:42-04:00", 
+    "share_url": "https://a.sso.ng/1/7934f904e895", 
+    "audio_url": "https://s01.sso.ng/1/0000000215f2_7934f904e895_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000215f2_7934f904e895_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "xPauline", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2b8371ba-c232-47fe-adb5-d5ef5cbd77a8.jpg", 
+        "id": "2b8371ba-c232-47fe-adb5-d5ef5cbd77a8"
+    }, 
+    "song_title": "Jack and Jack - Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000215f2_7934f904e895_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "CBBC5AF1-67CD-411C-816E-82437BF2AA3D"
+}

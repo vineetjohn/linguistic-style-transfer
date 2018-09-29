@@ -1,0 +1,27 @@
+{
+    "mood": "borracho", 
+    "caption": "", 
+    "created_at": "2016-02-19T05:42:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecbc_7fa9be8b22e3.ssng", 
+    "updated_at": "2016-02-20T07:53:27-05:00", 
+    "share_url": "https://a.sso.ng/1/7fa9be8b22e3", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecbc_7fa9be8b22e3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecbc_7fa9be8b22e3_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lickjanosface", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": "noe", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d563402d-1a72-47ff-bec6-8e8ef1f7d8dd.jpg", 
+        "id": "d563402d-1a72-47ff-bec6-8e8ef1f7d8dd"
+    }, 
+    "song_title": "ZAYN - PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecbc_7fa9be8b22e3_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 12, 
+    "uuid": "DDA86598-FD4C-4934-9257-E5E72CD02B63"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2016-02-13T23:30:31-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ee37_c87646cfa735.ssng", 
+    "updated_at": "2016-02-13T23:31:23-05:00", 
+    "share_url": "https://a.sso.ng/1/c87646cfa735", 
+    "audio_url": "https://s02.sso.ng/1/00000003ee37_c87646cfa735.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ee37_c87646cfa735_mr.jpg", 
+    "song_album": "2014 Forest Hills Drive", 
+    "user": {
+        "username": "savannahjames", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "sav ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/eabbfc7a-7bf2-46b7-8d38-ea988ec8077b.jpg", 
+        "id": "eabbfc7a-7bf2-46b7-8d38-ea988ec8077b"
+    }, 
+    "song_title": "No Role Modelz", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ee37_c87646cfa735_th.jpg", 
+    "song_artist": "J. Cole", 
+    "favorite_count": 1, 
+    "uuid": "62CBBEF8-BC76-4476-A6BC-1ED9448DD251"
+}

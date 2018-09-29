@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Bebes?", 
+    "created_at": "2015-08-22T02:09:55-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a740_cfe3a5f88a9a_1.ssng", 
+    "updated_at": "2015-08-22T23:45:28-04:00", 
+    "share_url": "https://a.sso.ng/1/cfe3a5f88a9a", 
+    "audio_url": "https://s01.sso.ng/1/00000002a740_cfe3a5f88a9a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a740_cfe3a5f88a9a_1_mr.jpg", 
+    "song_album": "Don't Kill the Magic", 
+    "user": {
+        "username": "marifer123", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/290f6b71-0449-46bd-86dc-03b306e86694.jpg", 
+        "id": "290f6b71-0449-46bd-86dc-03b306e86694"
+    }, 
+    "song_title": "Rude", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a740_cfe3a5f88a9a_1_th.jpg", 
+    "song_artist": "MAGIC!", 
+    "favorite_count": 1, 
+    "uuid": "0DCB814D-27A5-4DD0-80A1-3A49220FAD25"
+}

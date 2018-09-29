@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2016-01-01T17:37:04-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037319_6ff76032c92c.ssng", 
+    "updated_at": "2016-01-03T14:14:34-05:00", 
+    "share_url": "https://a.sso.ng/1/6ff76032c92c", 
+    "audio_url": "https://s01.sso.ng/1/000000037319_6ff76032c92c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037319_6ff76032c92c_mr.jpg", 
+    "song_album": "Grammy Nominees 2005", 
+    "user": {
+        "username": "mapemad", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3e749546-766c-4d0d-938a-c1898830ca69.jpg", 
+        "id": "3e749546-766c-4d0d-938a-c1898830ca69"
+    }, 
+    "song_title": "Let's Get It Started", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037319_6ff76032c92c_th.jpg", 
+    "song_artist": "The Black Eyed Peas", 
+    "favorite_count": 1, 
+    "uuid": "B10F6A71-7709-4053-9E9B-1D4DF9301793"
+}

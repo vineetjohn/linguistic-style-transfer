@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-06T16:37:09-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000030ad3_c419ea4784a9.ssng", 
+    "updated_at": "2016-02-09T14:36:18-05:00", 
+    "share_url": "https://a.sso.ng/1/c419ea4784a9", 
+    "audio_url": "https://s02.sso.ng/1/000000030ad3_c419ea4784a9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030ad3_c419ea4784a9_mr.jpg", 
+    "song_album": "Revival (Deluxe)", 
+    "user": {
+        "username": "Original_Omaha_Crew", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b3e3207f-045b-4afd-ab2a-91d9908e28db.jpg", 
+        "id": "b3e3207f-045b-4afd-ab2a-91d9908e28db"
+    }, 
+    "song_title": "Hands To Myself", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030ad3_c419ea4784a9_th.jpg", 
+    "song_artist": "Selena Gomez", 
+    "favorite_count": 1, 
+    "uuid": "874C96C2-BAD1-4A11-9262-9AA40B19A0F5"
+}

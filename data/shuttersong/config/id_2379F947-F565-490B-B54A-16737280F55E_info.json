@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "He looks so peaceful", 
+    "created_at": "2016-02-09T18:35:52-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e2b1_3faebbebd9ac.ssng", 
+    "updated_at": "2016-02-10T18:47:40-05:00", 
+    "share_url": "https://a.sso.ng/1/3faebbebd9ac", 
+    "audio_url": "https://s02.sso.ng/1/00000003e2b1_3faebbebd9ac.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e2b1_3faebbebd9ac_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "jahooluke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/aba360fb-fb6a-4b9c-b96d-78163706de82.jpg", 
+        "id": "aba360fb-fb6a-4b9c-b96d-78163706de82"
+    }, 
+    "song_title": "MoodSwings", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e2b1_3faebbebd9ac_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "2379F947-F565-490B-B54A-16737280F55E"
+}

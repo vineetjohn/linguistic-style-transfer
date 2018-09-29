@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-04-16T21:55:55-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000036fe2_b44afb87692d.ssng", 
+    "updated_at": "2016-04-19T10:51:23-04:00", 
+    "share_url": "https://a.sso.ng/1/b44afb87692d", 
+    "audio_url": "https://s02.sso.ng/1/000000036fe2_b44afb87692d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000036fe2_b44afb87692d_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jime234", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/06234e65-ba29-4146-b36c-a02cef8a6849.jpg", 
+        "id": "06234e65-ba29-4146-b36c-a02cef8a6849"
+    }, 
+    "song_title": "Katty Perry - Firework", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000036fe2_b44afb87692d_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "24A92D9F-FBCC-4CC2-BA4C-56ED777C165E"
+}

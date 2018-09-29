@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-12T02:09:23-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000447b8_09ca10f04039.ssng", 
+    "updated_at": "2016-06-14T08:08:23-04:00", 
+    "share_url": "https://a.sso.ng/1/09ca10f04039", 
+    "audio_url": "https://s02.sso.ng/1/0000000447b8_09ca10f04039.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000447b8_09ca10f04039_mr.jpg", 
+    "song_album": "2011 Single", 
+    "user": {
+        "username": "ans", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "30dae4fa-bc92-4829-9da0-d32c79954c26"
+    }, 
+    "song_title": "Wings", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000447b8_09ca10f04039_th.jpg", 
+    "song_artist": "Macklemore and Ryan Lewis", 
+    "favorite_count": 1, 
+    "uuid": "11F0406D-34A0-4CEA-B6A9-F1F468AED43B"
+}

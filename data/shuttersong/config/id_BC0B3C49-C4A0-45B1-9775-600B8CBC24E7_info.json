@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "343.", 
+    "created_at": "2016-01-21T14:06:20-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d9ac_0bda7a599982.ssng", 
+    "updated_at": "2016-01-24T22:25:29-05:00", 
+    "share_url": "https://a.sso.ng/1/0bda7a599982", 
+    "audio_url": "https://s02.sso.ng/1/00000003d9ac_0bda7a599982.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d9ac_0bda7a599982_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "RhiRuggiero", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/304ec8af-efa4-4e29-ad6a-b2f5dd3830a7.jpg", 
+        "id": "304ec8af-efa4-4e29-ad6a-b2f5dd3830a7"
+    }, 
+    "song_title": "Eyes (Kaskade's ICE Mix) [feat. Mindy Gledhill] - Kaskade (Fire &amp; Ice 2011)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d9ac_0bda7a599982_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "BC0B3C49-C4A0-45B1-9775-600B8CBC24E7"
+}

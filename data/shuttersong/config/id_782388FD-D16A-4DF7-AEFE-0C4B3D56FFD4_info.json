@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-18T13:42:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024c66_4adc07c604cb.ssng", 
+    "updated_at": "2015-08-19T05:36:11-04:00", 
+    "share_url": "https://a.sso.ng/1/4adc07c604cb", 
+    "audio_url": "https://s01.sso.ng/1/000000024c66_4adc07c604cb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024c66_4adc07c604cb_mr.jpg", 
+    "song_album": "Before You Exit", 
+    "user": {
+        "username": "icequeen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0989c656-dbd2-4688-a056-a32e41469d99.jpg", 
+        "id": "0989c656-dbd2-4688-a056-a32e41469d99"
+    }, 
+    "song_title": "Dangerous (Official Music Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024c66_4adc07c604cb_th.jpg", 
+    "song_artist": "Before You Exit", 
+    "favorite_count": 3, 
+    "uuid": "782388FD-D16A-4DF7-AEFE-0C4B3D56FFD4"
+}

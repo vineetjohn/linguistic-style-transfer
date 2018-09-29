@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#BFF", 
+    "created_at": "2016-01-13T17:41:44-05:00", 
+    "file_url": "https://s02.sso.ng/1/0000000395e9_d1fdbfb6d7fd.ssng", 
+    "updated_at": "2016-02-01T18:07:37-05:00", 
+    "share_url": "https://a.sso.ng/1/d1fdbfb6d7fd", 
+    "audio_url": "https://s02.sso.ng/1/0000000395e9_d1fdbfb6d7fd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000395e9_d1fdbfb6d7fd_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mooregimenez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fb4d3efa-d356-4fbe-a78f-e03b3e678419"
+    }, 
+    "song_title": "Everybody Talks - Neon Trees Lyrics", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000395e9_d1fdbfb6d7fd_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "4B892C54-44E7-4C58-B0CD-B1BDCD0517A8"
+}

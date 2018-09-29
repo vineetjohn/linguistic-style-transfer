@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I'm too sexyyyyy", 
+    "created_at": "2015-08-20T19:49:00-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000026243_006b361859c0_1.ssng", 
+    "updated_at": "2015-08-21T00:47:01-04:00", 
+    "share_url": "https://a.sso.ng/1/006b361859c0", 
+    "audio_url": "https://s01.sso.ng/1/000000026243_006b361859c0_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000026243_006b361859c0_1_mr.jpg", 
+    "song_album": "Right Said Fred", 
+    "user": {
+        "username": "Stephi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Tefa", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0271b5bc-1e83-4145-a551-d90b6ce88049.jpg", 
+        "id": "0271b5bc-1e83-4145-a551-d90b6ce88049"
+    }, 
+    "song_title": "I`m Too Sexy (The Original)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000026243_006b361859c0_1_th.jpg", 
+    "song_artist": "Right Said Fred", 
+    "favorite_count": 1, 
+    "uuid": "0ED849B1-7BE5-4434-B212-E8519D74AA84"
+}

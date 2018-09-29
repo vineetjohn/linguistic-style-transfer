@@ -1,0 +1,27 @@
+{
+    "mood": "ashamed", 
+    "caption": "", 
+    "created_at": "2016-04-01T00:18:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_b2215feafd0d.ssng", 
+    "updated_at": "2016-04-09T21:45:42-04:00", 
+    "share_url": "https://a.sso.ng/1/b2215feafd0d", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_b2215feafd0d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_b2215feafd0d_mr.jpg", 
+    "song_album": "Dangerous Woman", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "Be Alright", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_b2215feafd0d_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "548D1D0F-4FC4-4F3D-AC7D-A11B4FF991A8"
+}

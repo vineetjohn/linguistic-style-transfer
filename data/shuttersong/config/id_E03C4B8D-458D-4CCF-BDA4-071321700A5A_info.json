@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#friends #underwater", 
+    "created_at": "2015-08-03T23:09:13-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020a3c_50532a3fda3e.ssng", 
+    "updated_at": "2015-10-24T16:03:40-04:00", 
+    "share_url": "https://a.sso.ng/1/50532a3fda3e", 
+    "audio_url": "https://s01.sso.ng/1/000000020a3c_50532a3fda3e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020a3c_50532a3fda3e_mr.jpg", 
+    "song_album": "Hide Away - Single", 
+    "user": {
+        "username": "haleyjean", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Haley Phillips", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0953c4ff-df5f-483c-9e42-26f15fa580fa.jpg", 
+        "id": "0953c4ff-df5f-483c-9e42-26f15fa580fa"
+    }, 
+    "song_title": "Hide Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020a3c_50532a3fda3e_th.jpg", 
+    "song_artist": "Daya", 
+    "favorite_count": 1, 
+    "uuid": "E03C4B8D-458D-4CCF-BDA4-071321700A5A"
+}

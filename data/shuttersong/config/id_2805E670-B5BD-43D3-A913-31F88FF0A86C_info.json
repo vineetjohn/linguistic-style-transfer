@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack's nip slip", 
+    "created_at": "2015-08-04T06:55:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002116a_0158f60b39e9_1.ssng", 
+    "updated_at": "2015-08-04T06:55:40-04:00", 
+    "share_url": "https://a.sso.ng/1/0158f60b39e9", 
+    "audio_url": "https://s01.sso.ng/1/00000002116a_0158f60b39e9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002116a_0158f60b39e9_1_mr.jpg", 
+    "song_album": "Groove - Single", 
+    "user": {
+        "username": "kinklinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Andrea", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c5bf201c-3eb2-4ca1-9b99-53bb907f4e27.jpg", 
+        "id": "c5bf201c-3eb2-4ca1-9b99-53bb907f4e27"
+    }, 
+    "song_title": "Groove", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002116a_0158f60b39e9_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "2805E670-B5BD-43D3-A913-31F88FF0A86C"
+}

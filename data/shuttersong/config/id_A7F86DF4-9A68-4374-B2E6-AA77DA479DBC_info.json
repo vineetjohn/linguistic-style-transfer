@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-31T00:36:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024cc7_94882c0ce02a.ssng", 
+    "updated_at": "2015-09-01T09:07:01-04:00", 
+    "share_url": "https://a.sso.ng/1/94882c0ce02a", 
+    "audio_url": "https://s01.sso.ng/1/000000024cc7_94882c0ce02a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024cc7_94882c0ce02a_mr.jpg", 
+    "song_album": "PRISM (Deluxe)", 
+    "user": {
+        "username": "puko32", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4ddee427-2c1b-4aba-bb7e-84d5583e220d"
+    }, 
+    "song_title": "Birthday", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024cc7_94882c0ce02a_th.jpg", 
+    "song_artist": "\u30b1\u30a4\u30c6\u30a3\u30fb\u30da\u30ea\u30fc", 
+    "favorite_count": 1, 
+    "uuid": "A7F86DF4-9A68-4374-B2E6-AA77DA479DBC"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#contest ", 
+    "created_at": "2015-08-05T18:31:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000222ca_00f8fc65362d_1.ssng", 
+    "updated_at": "2015-08-05T18:31:42-04:00", 
+    "share_url": "https://a.sso.ng/1/00f8fc65362d", 
+    "audio_url": "https://s01.sso.ng/1/0000000222ca_00f8fc65362d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000222ca_00f8fc65362d_1_mr.jpg", 
+    "song_album": "Romance - EP", 
+    "user": {
+        "username": "brookewilk", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ed95e4fd-7e8f-4415-8eb9-38923a07c3a2.jpg", 
+        "id": "ed95e4fd-7e8f-4415-8eb9-38923a07c3a2"
+    }, 
+    "song_title": "Hot Hands", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000222ca_00f8fc65362d_1_th.jpg", 
+    "song_artist": "Darius", 
+    "favorite_count": 1, 
+    "uuid": "408F2F82-C942-4440-8DEA-8ACBFC707584"
+}

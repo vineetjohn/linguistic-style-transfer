@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-26T01:40:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002cbf5_64ab6432686c_1.ssng", 
+    "updated_at": "2015-08-26T23:12:40-04:00", 
+    "share_url": "https://a.sso.ng/1/64ab6432686c", 
+    "audio_url": "https://s01.sso.ng/1/00000002cbf5_64ab6432686c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002cbf5_64ab6432686c_1_mr.jpg", 
+    "song_album": "X (Deluxe Edition)", 
+    "user": {
+        "username": "stella1250", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Estela Cuellar", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e1c0f28a-3afa-4588-9aee-af8ab57b15d5.jpg", 
+        "id": "e1c0f28a-3afa-4588-9aee-af8ab57b15d5"
+    }, 
+    "song_title": "Thinking Out Loud", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002cbf5_64ab6432686c_1_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 1, 
+    "uuid": "005A8B03-D939-4D03-9941-1DA14AEC1B2C"
+}

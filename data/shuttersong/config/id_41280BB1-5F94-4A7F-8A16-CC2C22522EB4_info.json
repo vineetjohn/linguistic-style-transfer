@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-21T16:49:21-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f2c4_0db7ca6579e2.ssng", 
+    "updated_at": "2016-02-22T08:56:23-05:00", 
+    "share_url": "https://a.sso.ng/1/0db7ca6579e2", 
+    "audio_url": "https://s02.sso.ng/1/00000003f2c4_0db7ca6579e2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f2c4_0db7ca6579e2_mr.jpg", 
+    "song_album": "Crazy in Love - Fifty Shades of Grey Version - Single", 
+    "user": {
+        "username": "4everbekah", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5b92d0e5-85f3-455d-a56c-ea3e19436484"
+    }, 
+    "song_title": "Crazy in Love - Fifty Shades of Grey Version", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f2c4_0db7ca6579e2_th.jpg", 
+    "song_artist": "Sofia Karlberg", 
+    "favorite_count": 1, 
+    "uuid": "41280BB1-5F94-4A7F-8A16-CC2C22522EB4"
+}

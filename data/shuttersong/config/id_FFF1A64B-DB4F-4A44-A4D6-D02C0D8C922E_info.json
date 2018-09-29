@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "The calm before the storm", 
+    "created_at": "2015-08-23T11:51:16-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f449_af738f5beb0d_1.ssng", 
+    "updated_at": "2015-12-31T07:21:11-05:00", 
+    "share_url": "https://a.sso.ng/1/af738f5beb0d", 
+    "audio_url": "https://s01.sso.ng/1/00000001f449_af738f5beb0d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f449_af738f5beb0d_1_mr.jpg", 
+    "song_album": "An Awesome Wave", 
+    "user": {
+        "username": "KTrose", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Caitlin", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4b3b27a-e8ee-4bec-bb54-b00569986ac2.jpg", 
+        "id": "d4b3b27a-e8ee-4bec-bb54-b00569986ac2"
+    }, 
+    "song_title": "Dissolve Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f449_af738f5beb0d_1_th.jpg", 
+    "song_artist": "Alt-J", 
+    "favorite_count": 3, 
+    "uuid": "FFF1A64B-DB4F-4A44-A4D6-D02C0D8C922E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I'm screaming in 9642753 different languages", 
+    "created_at": "2016-03-06T05:50:04-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e348_520824baae60.ssng", 
+    "updated_at": "2016-03-07T13:36:29-05:00", 
+    "share_url": "https://a.sso.ng/1/520824baae60", 
+    "audio_url": "https://s02.sso.ng/1/00000003e348_520824baae60.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e348_520824baae60_mr.jpg", 
+    "song_album": "Usher", 
+    "user": {
+        "username": "JaisFifaTantrums", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Kirrilly", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6d466165-54d5-4f20-a839-034dc89896e9.jpg", 
+        "id": "6d466165-54d5-4f20-a839-034dc89896e9"
+    }, 
+    "song_title": "Numb (Lyrics On Screen)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e348_520824baae60_th.jpg", 
+    "song_artist": "Usher", 
+    "favorite_count": 9, 
+    "uuid": "7D919D1F-15F5-4A16-84E2-1922A5E7A356"
+}

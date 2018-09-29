@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-07T21:01:26-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027ef2_1bdba4a0a051.ssng", 
+    "updated_at": "2015-10-11T12:02:29-04:00", 
+    "share_url": "https://a.sso.ng/1/1bdba4a0a051", 
+    "audio_url": "https://s01.sso.ng/1/000000027ef2_1bdba4a0a051.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027ef2_1bdba4a0a051_mr.jpg", 
+    "song_album": "Doo-Wops & Hooligans", 
+    "user": {
+        "username": "lil_hipster_girl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d95f0f14-890d-40cb-8cad-29e4c6b32cf8.jpg", 
+        "id": "d95f0f14-890d-40cb-8cad-29e4c6b32cf8"
+    }, 
+    "song_title": "Count On Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027ef2_1bdba4a0a051_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 2, 
+    "uuid": "24269CAD-3DC8-4063-9AD8-313D9234B67C"
+}

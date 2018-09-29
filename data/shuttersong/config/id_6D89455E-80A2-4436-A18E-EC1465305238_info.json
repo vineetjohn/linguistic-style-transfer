@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo", 
+    "created_at": "2015-12-19T04:50:08-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036bcf_ae12e572260d_1.ssng", 
+    "updated_at": "2015-12-28T11:22:57-05:00", 
+    "share_url": "https://a.sso.ng/1/ae12e572260d", 
+    "audio_url": "https://s01.sso.ng/1/000000036bcf_ae12e572260d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036bcf_ae12e572260d_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "victoriamolinap", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8218faf9-1768-45c3-ba1e-44615c695fb5"
+    }, 
+    "song_title": "What Do You Mean?", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036bcf_ae12e572260d_1_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "6D89455E-80A2-4436-A18E-EC1465305238"
+}

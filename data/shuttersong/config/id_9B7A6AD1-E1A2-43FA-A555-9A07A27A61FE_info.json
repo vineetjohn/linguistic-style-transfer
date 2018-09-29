@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Beau Brooks a little cutie @beaub", 
+    "created_at": "2016-02-10T05:44:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8d4_51d0566b6fa0.ssng", 
+    "updated_at": "2016-03-25T10:17:45-04:00", 
+    "share_url": "https://a.sso.ng/1/51d0566b6fa0", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8d4_51d0566b6fa0.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8d4_51d0566b6fa0_mr.jpg", 
+    "song_album": "Friend Zone - Single", 
+    "user": {
+        "username": "kj_janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kj Yammouni", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e141d00-1b4d-4a7d-9169-6742873e1cf8.jpg", 
+        "id": "2e141d00-1b4d-4a7d-9169-6742873e1cf8"
+    }, 
+    "song_title": "Friend Zone", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8d4_51d0566b6fa0_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 2, 
+    "uuid": "9B7A6AD1-E1A2-43FA-A555-9A07A27A61FE"
+}

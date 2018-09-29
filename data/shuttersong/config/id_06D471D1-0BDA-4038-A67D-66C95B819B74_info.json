@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "Blue Jeans \ud83d\udc99", 
+    "created_at": "2016-05-06T18:42:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042ae1_6e99f7bbab13.ssng", 
+    "updated_at": "2016-05-07T10:56:04-04:00", 
+    "share_url": "https://a.sso.ng/1/6e99f7bbab13", 
+    "audio_url": "https://s02.sso.ng/1/000000042ae1_6e99f7bbab13.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042ae1_6e99f7bbab13_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "AbiEV", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9fa81a7a-ffc6-4150-8b2a-923ec4295195.jpg", 
+        "id": "9fa81a7a-ffc6-4150-8b2a-923ec4295195"
+    }, 
+    "song_title": "CALL ME MAYBE", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042ae1_6e99f7bbab13_th.jpg", 
+    "song_artist": "CARLY RAE JEPSEN", 
+    "favorite_count": 1, 
+    "uuid": "06D471D1-0BDA-4038-A67D-66C95B819B74"
+}

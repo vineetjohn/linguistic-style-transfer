@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@JackJohnsonOfficial One Of @JackAndJackOfficial", 
+    "created_at": "2015-09-19T19:50:50-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020010_bf360699d6f6_1.ssng", 
+    "updated_at": "2015-09-19T22:07:50-04:00", 
+    "share_url": "https://a.sso.ng/1/bf360699d6f6", 
+    "audio_url": "https://s01.sso.ng/1/000000020010_bf360699d6f6_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020010_bf360699d6f6_1_mr.jpg", 
+    "song_album": "Not an Apology", 
+    "user": {
+        "username": "DreamWithJacks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Cande", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/90d74c0b-d492-4447-9194-ae32de27181f.jpg", 
+        "id": "90d74c0b-d492-4447-9194-ae32de27181f"
+    }, 
+    "song_title": "Dracula", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020010_bf360699d6f6_1_th.jpg", 
+    "song_artist": "Bea Miller", 
+    "favorite_count": 1, 
+    "uuid": "F672374E-6592-4559-89B5-F148A4AAB9CD"
+}

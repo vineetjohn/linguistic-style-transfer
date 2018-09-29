@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack and jack will always be my favs ?", 
+    "created_at": "2015-08-04T10:14:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020da4_e7d7f3f52a2e_1.ssng", 
+    "updated_at": "2015-08-19T00:37:48-04:00", 
+    "share_url": "https://a.sso.ng/1/e7d7f3f52a2e", 
+    "audio_url": "https://s01.sso.ng/1/000000020da4_e7d7f3f52a2e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020da4_e7d7f3f52a2e_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "Liv_DeMoura", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b254ebd1-b906-4929-98b7-05b016365615.jpg", 
+        "id": "b254ebd1-b906-4929-98b7-05b016365615"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020da4_e7d7f3f52a2e_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "424C31D7-2035-4C25-AA14-AC556D8B726A"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My summer has been pretty boring", 
+    "created_at": "2016-06-26T12:57:47-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3f2_60b484bc7de7.ssng", 
+    "updated_at": "2016-06-29T17:40:00-04:00", 
+    "share_url": "https://a.sso.ng/1/60b484bc7de7", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3f2_60b484bc7de7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3f2_60b484bc7de7_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "AvaSaldana96", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ayeee_Vahhh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c860f132-e54d-4498-99e1-bac87ee33c31.jpg", 
+        "id": "c860f132-e54d-4498-99e1-bac87ee33c31"
+    }, 
+    "song_title": "Jet Black Heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3f2_60b484bc7de7_th.jpg", 
+    "song_artist": "5SOS", 
+    "favorite_count": 5, 
+    "uuid": "3BB6F146-1BC0-436D-BFC5-51AF38F0DE5B"
+}

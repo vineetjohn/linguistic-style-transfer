@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\udc44\ud83d\udc44\ud83d\udc44", 
+    "created_at": "2016-06-04T09:54:46-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000030da2_1b1c69c835e5.ssng", 
+    "updated_at": "2016-06-07T08:16:53-04:00", 
+    "share_url": "https://a.sso.ng/1/1b1c69c835e5", 
+    "audio_url": "https://s02.sso.ng/1/000000030da2_1b1c69c835e5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030da2_1b1c69c835e5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "tatis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3ee9196d-a7e2-4fad-a22d-0dea164ef944.jpg", 
+        "id": "3ee9196d-a7e2-4fad-a22d-0dea164ef944"
+    }, 
+    "song_title": "Cher Lloyd - Want U Back (US Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030da2_1b1c69c835e5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "0D0EE3A6-E883-4E43-9B33-35FECC1525B0"
+}

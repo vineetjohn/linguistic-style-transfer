@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-15T22:02:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002089b_f20c453d517f.ssng", 
+    "updated_at": "2015-08-16T10:36:07-04:00", 
+    "share_url": "https://a.sso.ng/1/f20c453d517f", 
+    "audio_url": "https://s01.sso.ng/1/00000002089b_f20c453d517f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002089b_f20c453d517f_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "yepitsmendes", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ashley ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bcdfdf41-3615-44f5-bddc-24200a5e757b.jpg", 
+        "id": "bcdfdf41-3615-44f5-bddc-24200a5e757b"
+    }, 
+    "song_title": "Stitches", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002089b_f20c453d517f_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 13, 
+    "uuid": "9555F8C0-D8E2-48B6-8EF3-FE85BA2B2DAB"
+}

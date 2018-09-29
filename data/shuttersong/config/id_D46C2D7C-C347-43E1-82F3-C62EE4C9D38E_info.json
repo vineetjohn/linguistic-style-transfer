@@ -1,0 +1,27 @@
+{
+    "mood": "sad", 
+    "caption": "RIP Prince", 
+    "created_at": "2016-04-21T14:35:54-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000019923_bad1bc6322b6.ssng", 
+    "updated_at": "2016-04-23T13:45:55-04:00", 
+    "share_url": "https://a.sso.ng/1/bad1bc6322b6", 
+    "audio_url": "https://s02.sso.ng/1/000000019923_bad1bc6322b6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000019923_bad1bc6322b6_mr.jpg", 
+    "song_album": "The Very Best of Prince", 
+    "user": {
+        "username": "calebsbailey", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "63e9d59a-bcde-46e3-bacd-59d69ad9f2f9"
+    }, 
+    "song_title": "Purple Rain", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000019923_bad1bc6322b6_th.jpg", 
+    "song_artist": "Prince & The Revolution", 
+    "favorite_count": 1, 
+    "uuid": "D46C2D7C-C347-43E1-82F3-C62EE4C9D38E"
+}

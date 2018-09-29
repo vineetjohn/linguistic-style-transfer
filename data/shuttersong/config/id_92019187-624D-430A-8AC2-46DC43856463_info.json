@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-01T13:32:21-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042610_b93efc13187e.ssng", 
+    "updated_at": "2016-05-01T19:58:56-04:00", 
+    "share_url": "https://a.sso.ng/1/b93efc13187e", 
+    "audio_url": "https://s02.sso.ng/1/000000042610_b93efc13187e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042610_b93efc13187e_mr.jpg", 
+    "song_album": "Signals - Single", 
+    "user": {
+        "username": "tallen22", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "27070461-b9ba-472b-8459-3a280d1bfe82"
+    }, 
+    "song_title": "Signals", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042610_b93efc13187e_th.jpg", 
+    "song_artist": "Clockwork & Taylr Renee", 
+    "favorite_count": 3, 
+    "uuid": "92019187-624D-430A-8AC2-46DC43856463"
+}

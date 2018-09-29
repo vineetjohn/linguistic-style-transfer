@@ -1,0 +1,27 @@
+{
+    "mood": "affectionate", 
+    "caption": "Beau you make me happy @beaub", 
+    "created_at": "2016-02-17T22:37:47-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e577_52ac6fd68038.ssng", 
+    "updated_at": "2016-02-22T11:20:46-05:00", 
+    "share_url": "https://a.sso.ng/1/52ac6fd68038", 
+    "audio_url": "https://s02.sso.ng/1/00000003e577_52ac6fd68038.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e577_52ac6fd68038_mr.jpg", 
+    "song_album": "Montevallo", 
+    "user": {
+        "username": "Fymluke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "ashtyn", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3d1c41b8-ba89-40f2-b113-bca1a44416a1.jpg", 
+        "id": "3d1c41b8-ba89-40f2-b113-bca1a44416a1"
+    }, 
+    "song_title": "Cop Car", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e577_52ac6fd68038_th.jpg", 
+    "song_artist": "Sam Hunt", 
+    "favorite_count": 4, 
+    "uuid": "649DFDA7-8312-443C-A00B-09725C5CC31F"
+}

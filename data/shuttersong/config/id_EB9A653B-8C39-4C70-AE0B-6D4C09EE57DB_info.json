@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "bad bitty ", 
+    "created_at": "2015-08-04T20:45:20-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002079b_60e194fc689b_1.ssng", 
+    "updated_at": "2015-08-04T20:45:41-04:00", 
+    "share_url": "https://a.sso.ng/1/60e194fc689b", 
+    "audio_url": "https://s01.sso.ng/1/00000002079b_60e194fc689b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002079b_60e194fc689b_1_mr.jpg", 
+    "song_album": "Like That (feat. Skate) - Single", 
+    "user": {
+        "username": "mtvbrooke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "mtvbrooke", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5846be21-e3e4-4586-a9e0-a94b9b314158.jpg", 
+        "id": "5846be21-e3e4-4586-a9e0-a94b9b314158"
+    }, 
+    "song_title": "Like That (feat. Skate)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002079b_60e194fc689b_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "EB9A653B-8C39-4C70-AE0B-6D4C09EE57DB"
+}

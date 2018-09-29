@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-03-20T20:41:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fe53_420389a2c6f7.ssng", 
+    "updated_at": "2016-03-23T18:59:13-04:00", 
+    "share_url": "https://a.sso.ng/1/420389a2c6f7", 
+    "audio_url": "https://s02.sso.ng/1/00000003fe53_420389a2c6f7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fe53_420389a2c6f7_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Azeri", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "67c811d4-f2fd-4a95-9c7f-e907635cf096"
+    }, 
+    "song_title": "Amor Gitana (Official Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fe53_420389a2c6f7_th.jpg", 
+    "song_artist": "Akcent feat. Sandra N", 
+    "favorite_count": 2, 
+    "uuid": "79E65EDF-2DDE-4BD7-A612-07F671DD084C"
+}

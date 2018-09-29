@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#black #roses ?", 
+    "created_at": "2015-08-21T08:30:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000028fc9_ac14544fe1e9_1.ssng", 
+    "updated_at": "2016-01-10T19:32:10-05:00", 
+    "share_url": "https://a.sso.ng/1/ac14544fe1e9", 
+    "audio_url": "https://s01.sso.ng/1/000000028fc9_ac14544fe1e9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000028fc9_ac14544fe1e9_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "NataliaMG", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Shadow Kissing ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/354e848f-6844-4073-8b29-f5ea5854884d.jpg", 
+        "id": "354e848f-6844-4073-8b29-f5ea5854884d"
+    }, 
+    "song_title": "Black Roses", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000028fc9_ac14544fe1e9_1_th.jpg", 
+    "song_artist": "Barrington Levy", 
+    "favorite_count": 1, 
+    "uuid": "FE0445BD-8D04-4359-BFDD-0C8CF31EA166"
+}

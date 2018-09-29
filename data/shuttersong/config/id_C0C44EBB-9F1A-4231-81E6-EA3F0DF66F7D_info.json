@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "B\u00e6", 
+    "created_at": "2015-08-04T00:02:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021093_316b92426377_1.ssng", 
+    "updated_at": "2015-08-04T00:03:05-04:00", 
+    "share_url": "https://a.sso.ng/1/316b92426377", 
+    "audio_url": "https://s01.sso.ng/1/000000021093_316b92426377_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021093_316b92426377_1_mr.jpg", 
+    "song_album": "x (Deluxe Edition)", 
+    "user": {
+        "username": "gabby_push", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fcb9d65f-1d17-46d9-aff6-5db0ad4d5ebf"
+    }, 
+    "song_title": "Runaway", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021093_316b92426377_1_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 1, 
+    "uuid": "C0C44EBB-9F1A-4231-81E6-EA3F0DF66F7D"
+}

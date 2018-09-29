@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-24T01:36:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000028840_cd2d820b919e.ssng", 
+    "updated_at": "2015-08-24T23:19:23-04:00", 
+    "share_url": "https://a.sso.ng/1/cd2d820b919e", 
+    "audio_url": "https://s01.sso.ng/1/000000028840_cd2d820b919e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000028840_cd2d820b919e_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "JenniferGamboa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0f108dd5-ccfe-4a92-a2c6-08363ce3a80d.jpg", 
+        "id": "0f108dd5-ccfe-4a92-a2c6-08363ce3a80d"
+    }, 
+    "song_title": "11. all of me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000028840_cd2d820b919e_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "53389753-F537-43FD-8890-F39DD18E9092"
+}

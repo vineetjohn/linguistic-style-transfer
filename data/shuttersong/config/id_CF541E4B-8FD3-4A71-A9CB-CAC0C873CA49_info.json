@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-29T19:32:20-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b01f_066c597e9691.ssng", 
+    "updated_at": "2015-12-29T22:34:30-05:00", 
+    "share_url": "https://a.sso.ng/1/066c597e9691", 
+    "audio_url": "https://s01.sso.ng/1/00000003b01f_066c597e9691.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b01f_066c597e9691_mr.jpg", 
+    "song_album": "FridayMixtape.com", 
+    "user": {
+        "username": "Helena2615", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/53b3ba7a-44b4-4c55-8e89-d4bc1b6c3913.jpg", 
+        "id": "53b3ba7a-44b4-4c55-8e89-d4bc1b6c3913"
+    }, 
+    "song_title": "Habits", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b01f_066c597e9691_th.jpg", 
+    "song_artist": "Tove Lo", 
+    "favorite_count": 1, 
+    "uuid": "CF541E4B-8FD3-4A71-A9CB-CAC0C873CA49"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My lil puppy", 
+    "created_at": "2016-02-20T23:15:47-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8ae_6e9b5772a157.ssng", 
+    "updated_at": "2016-02-25T14:42:26-05:00", 
+    "share_url": "https://a.sso.ng/1/6e9b5772a157", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8ae_6e9b5772a157.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8ae_6e9b5772a157_mr.jpg", 
+    "song_album": "Lovely", 
+    "user": {
+        "username": "gracesm_itthhh", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f423015b-4a96-4948-a217-ad539503e101"
+    }, 
+    "song_title": "Helplessly", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8ae_6e9b5772a157_th.jpg", 
+    "song_artist": "Tatiana Manaois", 
+    "favorite_count": 2, 
+    "uuid": "29B169C1-DD01-4355-B42E-0C77ED7A6C05"
+}

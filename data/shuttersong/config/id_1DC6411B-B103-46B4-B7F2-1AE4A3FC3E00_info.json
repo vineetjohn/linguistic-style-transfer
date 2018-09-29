@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Made these?", 
+    "created_at": "2015-09-03T18:24:01-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002de93_7a886e2a9c68_1.ssng", 
+    "updated_at": "2015-09-05T01:08:57-04:00", 
+    "share_url": "https://a.sso.ng/1/7a886e2a9c68", 
+    "audio_url": "https://s01.sso.ng/1/00000002de93_7a886e2a9c68_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002de93_7a886e2a9c68_1_mr.jpg", 
+    "song_album": "Title (Deluxe)", 
+    "user": {
+        "username": "Viaa.0208", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ae5d60f5-7603-4a9b-b284-8764830abbbb.jpg", 
+        "id": "ae5d60f5-7603-4a9b-b284-8764830abbbb"
+    }, 
+    "song_title": "The Best Part (Interlude)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002de93_7a886e2a9c68_1_th.jpg", 
+    "song_artist": "Meghan Trainor", 
+    "favorite_count": 1, 
+    "uuid": "1DC6411B-B103-46B4-B7F2-1AE4A3FC3E00"
+}

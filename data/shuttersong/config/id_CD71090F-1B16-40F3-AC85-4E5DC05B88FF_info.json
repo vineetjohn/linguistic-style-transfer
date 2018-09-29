@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "#NothingPromised", 
+    "created_at": "2016-06-03T06:55:35-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000447e5_54b507c94210.ssng", 
+    "updated_at": "2016-06-03T20:04:26-04:00", 
+    "share_url": "https://a.sso.ng/1/54b507c94210", 
+    "audio_url": "https://s02.sso.ng/1/0000000447e5_54b507c94210.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000447e5_54b507c94210_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "maurynavy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4363d11a-5906-47c3-8326-9e3d14b8d0b6"
+    }, 
+    "song_title": "01 Nothing Is Promised", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000447e5_54b507c94210_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "CD71090F-1B16-40F3-AC85-4E5DC05B88FF"
+}

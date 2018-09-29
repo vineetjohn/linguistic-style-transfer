@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T07:46:58-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002750a_8f471d919e57.ssng", 
+    "updated_at": "2015-08-22T23:45:27-04:00", 
+    "share_url": "https://a.sso.ng/1/8f471d919e57", 
+    "audio_url": "https://s01.sso.ng/1/00000002750a_8f471d919e57.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002750a_8f471d919e57_mr.jpg", 
+    "song_album": "SEX AND LOVE (Deluxe Edition)", 
+    "user": {
+        "username": "batyflores", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/781b4465-a28c-41d8-96bd-83b94a877bf1.jpg", 
+        "id": "781b4465-a28c-41d8-96bd-83b94a877bf1"
+    }, 
+    "song_title": "Bailando (feat. Descemer Bueno & Gente de Zona)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002750a_8f471d919e57_th.jpg", 
+    "song_artist": "Enrique Iglesias", 
+    "favorite_count": 1, 
+    "uuid": "D0EAF931-D16D-4EF9-9EA4-BC670C400A75"
+}

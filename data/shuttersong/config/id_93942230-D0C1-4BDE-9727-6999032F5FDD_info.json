@@ -1,0 +1,27 @@
+{
+    "mood": "calm", 
+    "caption": "?", 
+    "created_at": "2016-02-24T02:50:26-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e724_e8a25c7a40c2.ssng", 
+    "updated_at": "2016-02-25T16:45:25-05:00", 
+    "share_url": "https://a.sso.ng/1/e8a25c7a40c2", 
+    "audio_url": "https://s02.sso.ng/1/00000003e724_e8a25c7a40c2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e724_e8a25c7a40c2_mr.jpg", 
+    "song_album": "Sounds Good Feels Good (Deluxe)", 
+    "user": {
+        "username": "ageofteens", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "alexia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/658bd815-d8a9-42c7-b166-bf96697c0cd6.jpg", 
+        "id": "658bd815-d8a9-42c7-b166-bf96697c0cd6"
+    }, 
+    "song_title": "Waste the Night", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e724_e8a25c7a40c2_th.jpg", 
+    "song_artist": "5 Seconds Of Summer", 
+    "favorite_count": 3, 
+    "uuid": "93942230-D0C1-4BDE-9727-6999032F5FDD"
+}

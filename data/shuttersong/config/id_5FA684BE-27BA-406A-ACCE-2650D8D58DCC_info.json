@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "???GOOD FOR YOU???", 
+    "created_at": "2015-08-22T02:50:52-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a7ae_012f16be2a0c_1.ssng", 
+    "updated_at": "2015-08-22T23:45:18-04:00", 
+    "share_url": "https://a.sso.ng/1/012f16be2a0c", 
+    "audio_url": "https://s01.sso.ng/1/00000002a7ae_012f16be2a0c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a7ae_012f16be2a0c_1_mr.jpg", 
+    "song_album": "Good For You (feat. A$AP Rocky) - Single", 
+    "user": {
+        "username": "carmenabiga", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e18afdb-aff8-4c92-a275-7ad883bd2f01.jpg", 
+        "id": "2e18afdb-aff8-4c92-a275-7ad883bd2f01"
+    }, 
+    "song_title": "Good For You (feat. A$AP Rocky)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a7ae_012f16be2a0c_1_th.jpg", 
+    "song_artist": "Selena Gomez", 
+    "favorite_count": 1, 
+    "uuid": "5FA684BE-27BA-406A-ACCE-2650D8D58DCC"
+}

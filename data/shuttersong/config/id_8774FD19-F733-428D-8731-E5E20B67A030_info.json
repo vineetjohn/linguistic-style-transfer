@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-17T20:48:58-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027048_da7e2b7563ed.ssng", 
+    "updated_at": "2015-09-20T11:43:46-04:00", 
+    "share_url": "https://a.sso.ng/1/da7e2b7563ed", 
+    "audio_url": "https://s01.sso.ng/1/000000027048_da7e2b7563ed.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027048_da7e2b7563ed_mr.jpg", 
+    "song_album": "Dollhouse EP", 
+    "user": {
+        "username": "RayRoseCX", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fb72c15a-a3a8-4f7e-b2e7-f7394141672a"
+    }, 
+    "song_title": "Dead To Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027048_da7e2b7563ed_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 1, 
+    "uuid": "8774FD19-F733-428D-8731-E5E20B67A030"
+}

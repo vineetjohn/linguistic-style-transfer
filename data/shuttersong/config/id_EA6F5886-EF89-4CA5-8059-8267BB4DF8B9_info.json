@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-06T19:09:09-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f0cc_36c2c0f21c7f.ssng", 
+    "updated_at": "2016-03-11T12:32:37-05:00", 
+    "share_url": "https://a.sso.ng/1/36c2c0f21c7f", 
+    "audio_url": "https://s02.sso.ng/1/00000003f0cc_36c2c0f21c7f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f0cc_36c2c0f21c7f_mr.jpg", 
+    "song_album": "Konvicted (Exclusive Version)", 
+    "user": {
+        "username": "Madalin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/381e083a-cce0-49b7-a305-642059a8ce51.jpg", 
+        "id": "381e083a-cce0-49b7-a305-642059a8ce51"
+    }, 
+    "song_title": "I Wanna Love You (feat. Snoop Dogg)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f0cc_36c2c0f21c7f_th.jpg", 
+    "song_artist": "Akon featuring Snoop Dogg", 
+    "favorite_count": 2, 
+    "uuid": "EA6F5886-EF89-4CA5-8059-8267BB4DF8B9"
+}

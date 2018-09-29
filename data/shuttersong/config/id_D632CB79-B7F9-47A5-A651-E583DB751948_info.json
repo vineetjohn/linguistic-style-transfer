@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "No sense..", 
+    "created_at": "2016-01-12T04:12:34-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003d2b8_cadc1e7bfc3b.ssng", 
+    "updated_at": "2016-01-13T00:05:24-05:00", 
+    "share_url": "https://a.sso.ng/1/cadc1e7bfc3b", 
+    "audio_url": "https://s01.sso.ng/1/00000003d2b8_cadc1e7bfc3b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003d2b8_cadc1e7bfc3b_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "alyssamg96", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "cb643656-0eeb-45c2-882e-804cef244255"
+    }, 
+    "song_title": "No Sense (feat. Travis Scott)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003d2b8_cadc1e7bfc3b_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 3, 
+    "uuid": "D632CB79-B7F9-47A5-A651-E583DB751948"
+}

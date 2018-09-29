@@ -1,0 +1,27 @@
+{
+    "mood": "excited", 
+    "caption": "Take me anywhere", 
+    "created_at": "2016-02-19T18:53:56-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4b4_c84232f94aa5.ssng", 
+    "updated_at": "2016-06-20T16:55:03-04:00", 
+    "share_url": "https://a.sso.ng/1/c84232f94aa5", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4b4_c84232f94aa5.m4a", 
+    "comment_count": 10, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4b4_c84232f94aa5_mr.jpg", 
+    "song_album": "Ice On the Dune", 
+    "user": {
+        "username": "chelseyamaro", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7da84893-7f1f-4ca1-83d8-9d9a71644eb1.jpg", 
+        "id": "7da84893-7f1f-4ca1-83d8-9d9a71644eb1"
+    }, 
+    "song_title": "Concert Pitch", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4b4_c84232f94aa5_th.jpg", 
+    "song_artist": "Empire of the Sun", 
+    "favorite_count": 97, 
+    "uuid": "B44552DB-19D5-4637-8383-5032CB82F39D"
+}

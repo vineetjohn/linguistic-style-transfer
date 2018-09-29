@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Gig", 
+    "created_at": "2016-05-08T14:32:20-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042d10_feea72bf4f7c.ssng", 
+    "updated_at": "2016-05-08T23:43:42-04:00", 
+    "share_url": "https://a.sso.ng/1/feea72bf4f7c", 
+    "audio_url": "https://s02.sso.ng/1/000000042d10_feea72bf4f7c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042d10_feea72bf4f7c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ggggggh", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f192eab9-08c7-49df-90ac-e31f482fa461"
+    }, 
+    "song_title": "Diego (Official Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042d10_feea72bf4f7c_th.jpg", 
+    "song_artist": "Tory Lanez", 
+    "favorite_count": 1, 
+    "uuid": "E4E9DB79-D11C-4609-82BE-8B04AA5941F0"
+}

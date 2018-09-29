@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T22:59:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020902_91d46a78951c.ssng", 
+    "updated_at": "2015-08-03T22:59:09-04:00", 
+    "share_url": "https://a.sso.ng/1/91d46a78951c", 
+    "audio_url": "https://s01.sso.ng/1/000000020902_91d46a78951c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020902_91d46a78951c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jackie2jackie2", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jackie Wuest ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ac54e527-f86f-41fa-bdc6-4a0f4485a58b.jpg", 
+        "id": "ac54e527-f86f-41fa-bdc6-4a0f4485a58b"
+    }, 
+    "song_title": "Andy Grammer - Fine By Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020902_91d46a78951c_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "A7BEA3D7-9B14-4A21-8A77-A4A5FAE00217"
+}

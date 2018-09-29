@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Back to school \u2764\ufe0f\u2764\ufe0f", 
+    "created_at": "2015-08-26T00:43:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000287fb_5dee206c73b9_1.ssng", 
+    "updated_at": "2015-08-26T09:52:04-04:00", 
+    "share_url": "https://a.sso.ng/1/5dee206c73b9", 
+    "audio_url": "https://s01.sso.ng/1/0000000287fb_5dee206c73b9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000287fb_5dee206c73b9_1_mr.jpg", 
+    "song_album": "SUCKER", 
+    "user": {
+        "username": "AnaDasjorA", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/54ed7ed5-445e-4fc4-9c5a-2a914b29ed3d.jpg", 
+        "id": "54ed7ed5-445e-4fc4-9c5a-2a914b29ed3d"
+    }, 
+    "song_title": "Break the Rules", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000287fb_5dee206c73b9_1_th.jpg", 
+    "song_artist": "Charli XCX", 
+    "favorite_count": 1, 
+    "uuid": "02437AFA-FCF2-4167-B29D-6975514E6A13"
+}

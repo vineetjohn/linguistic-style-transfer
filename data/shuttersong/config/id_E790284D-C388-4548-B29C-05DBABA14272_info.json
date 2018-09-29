@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-14T02:49:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000414ac_3eda82028feb.ssng", 
+    "updated_at": "2016-04-23T14:21:30-04:00", 
+    "share_url": "https://a.sso.ng/1/3eda82028feb", 
+    "audio_url": "https://s02.sso.ng/1/0000000414ac_3eda82028feb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000414ac_3eda82028feb_mr.jpg", 
+    "song_album": "Lush Life - Single", 
+    "user": {
+        "username": "tanisha", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "efa72fe5-75af-45e7-ab94-755b361dd415"
+    }, 
+    "song_title": "Lush Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000414ac_3eda82028feb_th.jpg", 
+    "song_artist": "Zara Larsson", 
+    "favorite_count": 2, 
+    "uuid": "E790284D-C388-4548-B29C-05DBABA14272"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-25T01:22:54-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044d94_068fb84d2eda.ssng", 
+    "updated_at": "2016-06-25T20:12:13-04:00", 
+    "share_url": "https://a.sso.ng/1/068fb84d2eda", 
+    "audio_url": "https://s02.sso.ng/1/000000044d94_068fb84d2eda.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044d94_068fb84d2eda_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mahafatya", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6863fc90-3b35-4971-aaad-6192fab4316d"
+    }, 
+    "song_title": "Oh Wonder - Without You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044d94_068fb84d2eda_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "9BD04CAD-A9C0-408B-99A3-BAFA8A194673"
+}

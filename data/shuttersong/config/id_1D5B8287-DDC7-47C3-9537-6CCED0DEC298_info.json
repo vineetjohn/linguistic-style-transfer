@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#selfie", 
+    "created_at": "2015-08-03T20:40:27-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020612_f905d1bd8018.ssng", 
+    "updated_at": "2015-10-24T15:54:32-04:00", 
+    "share_url": "https://a.sso.ng/1/f905d1bd8018", 
+    "audio_url": "https://s01.sso.ng/1/000000020612_f905d1bd8018.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020612_f905d1bd8018_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "madi.harmon", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4720f5d4-50a2-4d82-bb8b-50a1d5389402"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020612_f905d1bd8018_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "1D5B8287-DDC7-47C3-9537-6CCED0DEC298"
+}

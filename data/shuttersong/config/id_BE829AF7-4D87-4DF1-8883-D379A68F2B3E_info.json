@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-09T21:44:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_7b7932fbef09.ssng", 
+    "updated_at": "2016-04-11T07:18:08-04:00", 
+    "share_url": "https://a.sso.ng/1/7b7932fbef09", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_7b7932fbef09.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_7b7932fbef09_mr.jpg", 
+    "song_album": "Hey, Soul Sister - Single", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "Hey, Soul Sister", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_7b7932fbef09_th.jpg", 
+    "song_artist": "Train", 
+    "favorite_count": 1, 
+    "uuid": "BE829AF7-4D87-4DF1-8883-D379A68F2B3E"
+}

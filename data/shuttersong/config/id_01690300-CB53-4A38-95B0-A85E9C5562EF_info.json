@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-25T11:09:16-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e0ff_7d8d91913486.ssng", 
+    "updated_at": "2015-11-30T06:55:06-05:00", 
+    "share_url": "https://a.sso.ng/1/7d8d91913486", 
+    "audio_url": "https://s01.sso.ng/1/00000002e0ff_7d8d91913486.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e0ff_7d8d91913486_mr.jpg", 
+    "song_album": "Best of Rnb", 
+    "user": {
+        "username": "sweetpassion5", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b2825eeb-a6a2-42f7-90b4-0fcf6153a4f1.jpg", 
+        "id": "b2825eeb-a6a2-42f7-90b4-0fcf6153a4f1"
+    }, 
+    "song_title": "Pony", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e0ff_7d8d91913486_th.jpg", 
+    "song_artist": "Ginuwine", 
+    "favorite_count": 1, 
+    "uuid": "01690300-CB53-4A38-95B0-A85E9C5562EF"
+}

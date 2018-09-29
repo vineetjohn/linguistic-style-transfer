@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "back again", 
+    "created_at": "2016-04-08T19:08:01-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040ee5_65510828b7d9.ssng", 
+    "updated_at": "2016-04-11T00:11:03-04:00", 
+    "share_url": "https://a.sso.ng/1/65510828b7d9", 
+    "audio_url": "https://s02.sso.ng/1/000000040ee5_65510828b7d9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040ee5_65510828b7d9_mr.jpg", 
+    "song_album": "Sounds - EP", 
+    "user": {
+        "username": "lavlexi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "lexi", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/14a4407c-a22b-4db8-b1bb-64cbad12508c.jpg", 
+        "id": "14a4407c-a22b-4db8-b1bb-64cbad12508c"
+    }, 
+    "song_title": "Back Again", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040ee5_65510828b7d9_th.jpg", 
+    "song_artist": "Flor", 
+    "favorite_count": 3, 
+    "uuid": "979F5845-4FB0-47DF-9DED-E58D979B90C5"
+}

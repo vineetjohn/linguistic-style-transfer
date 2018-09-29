@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "BFF EVER", 
+    "created_at": "2016-04-24T19:57:24-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042055_3408c1f6b089.ssng", 
+    "updated_at": "2016-04-25T04:00:16-04:00", 
+    "share_url": "https://a.sso.ng/1/3408c1f6b089", 
+    "audio_url": "https://s02.sso.ng/1/000000042055_3408c1f6b089.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042055_3408c1f6b089_mr.jpg", 
+    "song_album": "Easy Love - Single", 
+    "user": {
+        "username": "Mich.f", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e7f99258-95a0-4f47-8b65-7c2f0f00658b"
+    }, 
+    "song_title": "Easy Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042055_3408c1f6b089_th.jpg", 
+    "song_artist": "Sigala", 
+    "favorite_count": 2, 
+    "uuid": "A7134737-9F64-47E7-B405-1C951361A4AD"
+}

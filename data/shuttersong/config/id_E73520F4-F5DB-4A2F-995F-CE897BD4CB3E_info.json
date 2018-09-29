@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-14T03:02:44-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9f6_69c65713092e.ssng", 
+    "updated_at": "2016-02-14T10:36:48-05:00", 
+    "share_url": "https://a.sso.ng/1/69c65713092e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9f6_69c65713092e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9f6_69c65713092e_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lukes_sl0th", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/39cabaac-3424-4627-b65b-dce56dd8594b.jpg", 
+        "id": "39cabaac-3424-4627-b65b-dce56dd8594b"
+    }, 
+    "song_title": "Blackbear - Valley Girls (The Afterglow) (HD + LYRICS)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9f6_69c65713092e_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "E73520F4-F5DB-4A2F-995F-CE897BD4CB3E"
+}

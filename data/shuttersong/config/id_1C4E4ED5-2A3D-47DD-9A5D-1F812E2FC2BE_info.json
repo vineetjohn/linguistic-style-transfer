@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@beaub please follow me ?", 
+    "created_at": "2016-02-11T11:31:44-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e46e_490cbbb445d8.ssng", 
+    "updated_at": "2016-02-11T15:36:47-05:00", 
+    "share_url": "https://a.sso.ng/1/490cbbb445d8", 
+    "audio_url": "https://s02.sso.ng/1/00000003e46e_490cbbb445d8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e46e_490cbbb445d8_mr.jpg", 
+    "song_album": "Four (Deluxe Version)", 
+    "user": {
+        "username": "Bubblegumjano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Niamh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9919db4d-7fb1-41fd-b9e1-ecc6ad7b16cf.jpg", 
+        "id": "9919db4d-7fb1-41fd-b9e1-ecc6ad7b16cf"
+    }, 
+    "song_title": "Fireproof", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e46e_490cbbb445d8_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "1C4E4ED5-2A3D-47DD-9A5D-1F812E2FC2BE"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "meeeep", 
+    "created_at": "2016-03-24T22:55:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004000a_dfc30c20e8a9.ssng", 
+    "updated_at": "2016-03-26T23:13:33-04:00", 
+    "share_url": "https://a.sso.ng/1/dfc30c20e8a9", 
+    "audio_url": "https://s02.sso.ng/1/00000004000a_dfc30c20e8a9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004000a_dfc30c20e8a9_mr.jpg", 
+    "song_album": "I like it when you sleep, for you are so beautiful yet so unaware of it", 
+    "user": {
+        "username": "jetblackbeau", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "giselle", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4744d041-adb9-469e-b484-0904858c28a7.jpg", 
+        "id": "4744d041-adb9-469e-b484-0904858c28a7"
+    }, 
+    "song_title": "The Ballad of Me and My Brain", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004000a_dfc30c20e8a9_th.jpg", 
+    "song_artist": "The 1975", 
+    "favorite_count": 4, 
+    "uuid": "71268E1B-E82C-4FF5-AF51-DDB74EBC8153"
+}

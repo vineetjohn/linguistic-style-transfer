@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-22T22:29:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045c91_6af5263a7772.ssng", 
+    "updated_at": "2016-06-24T16:44:18-04:00", 
+    "share_url": "https://a.sso.ng/1/6af5263a7772", 
+    "audio_url": "https://s02.sso.ng/1/000000045c91_6af5263a7772.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045c91_6af5263a7772_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "akaleikami", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f828f142-2d13-4c10-a847-0bac02ea63db"
+    }, 
+    "song_title": "PayChecks (Prod. by OhGoshLeotus)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045c91_6af5263a7772_th.jpg", 
+    "song_artist": "NOROOMFORUS FT. KIDD DRYDEN", 
+    "favorite_count": 1, 
+    "uuid": "479FD840-2CE2-41C4-B7E6-FA8247AAAB57"
+}

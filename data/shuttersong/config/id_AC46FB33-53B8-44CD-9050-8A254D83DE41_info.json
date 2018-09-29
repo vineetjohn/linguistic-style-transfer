@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-06T04:21:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022771_837bfed4a040.ssng", 
+    "updated_at": "2015-08-06T04:21:43-04:00", 
+    "share_url": "https://a.sso.ng/1/837bfed4a040", 
+    "audio_url": "https://s01.sso.ng/1/000000022771_837bfed4a040.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022771_837bfed4a040_mr.jpg", 
+    "song_album": "Decisions", 
+    "user": {
+        "username": "melgarza12", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "afa5735d-8ed4-4b55-8e71-3e374cdaebc8"
+    }, 
+    "song_title": "Decisions (Original)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022771_837bfed4a040_th.jpg", 
+    "song_artist": "Borgore", 
+    "favorite_count": 1, 
+    "uuid": "AC46FB33-53B8-44CD-9050-8A254D83DE41"
+}

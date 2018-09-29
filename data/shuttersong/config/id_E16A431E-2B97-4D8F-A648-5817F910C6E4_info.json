@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?? Paradise?? #jackandjack #jackjohnson", 
+    "created_at": "2015-08-04T01:39:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000212d6_7de2ec33f58c_1.ssng", 
+    "updated_at": "2015-10-24T16:07:23-04:00", 
+    "share_url": "https://a.sso.ng/1/7de2ec33f58c", 
+    "audio_url": "https://s01.sso.ng/1/0000000212d6_7de2ec33f58c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000212d6_7de2ec33f58c_1_mr.jpg", 
+    "song_album": "Paradise (Never Change) - Single", 
+    "user": {
+        "username": "TrinWhiteside", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/db6f9d91-f3ee-4195-bfd7-f962d608fd10.jpg", 
+        "id": "db6f9d91-f3ee-4195-bfd7-f962d608fd10"
+    }, 
+    "song_title": "Paradise (Never Change)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000212d6_7de2ec33f58c_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "E16A431E-2B97-4D8F-A648-5817F910C6E4"
+}

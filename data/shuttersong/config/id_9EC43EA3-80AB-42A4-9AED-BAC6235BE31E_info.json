@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My best friend \ud83d\udc8d", 
+    "created_at": "2016-05-19T13:37:56-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000438e2_006c098b51ed.ssng", 
+    "updated_at": "2016-05-20T16:33:22-04:00", 
+    "share_url": "https://a.sso.ng/1/006c098b51ed", 
+    "audio_url": "https://s02.sso.ng/1/0000000438e2_006c098b51ed.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000438e2_006c098b51ed_mr.jpg", 
+    "song_album": "Best Friends", 
+    "user": {
+        "username": "meganistrash_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8534399d-ca36-4207-bb11-0f3bff9d2f59"
+    }, 
+    "song_title": "Best Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000438e2_006c098b51ed_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "9EC43EA3-80AB-42A4-9AED-BAC6235BE31E"
+}

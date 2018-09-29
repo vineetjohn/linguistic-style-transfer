@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My best Friend???", 
+    "created_at": "2015-08-22T04:18:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000026816_2c60abbdb36b_1.ssng", 
+    "updated_at": "2015-08-22T23:45:34-04:00", 
+    "share_url": "https://a.sso.ng/1/2c60abbdb36b", 
+    "audio_url": "https://s01.sso.ng/1/000000026816_2c60abbdb36b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000026816_2c60abbdb36b_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "brenda_renteria34", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e0804c79-693b-4df0-a92e-c6f8b515c6ec.jpg", 
+        "id": "e0804c79-693b-4df0-a92e-c6f8b515c6ec"
+    }, 
+    "song_title": "ariana grande bang bang", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000026816_2c60abbdb36b_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "1EB61443-294D-491D-B292-A283369E7BA9"
+}

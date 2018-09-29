@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2016-03-05T15:26:18-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f855_3d0dedbd0fee.ssng", 
+    "updated_at": "2016-03-08T10:43:53-05:00", 
+    "share_url": "https://a.sso.ng/1/3d0dedbd0fee", 
+    "audio_url": "https://s02.sso.ng/1/00000003f855_3d0dedbd0fee.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f855_3d0dedbd0fee_mr.jpg", 
+    "song_album": "The Fix (feat. Jeremih) - Single", 
+    "user": {
+        "username": "megan_nicole334", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b41f4897-b1ab-4aa0-abb0-ca54bbd27301"
+    }, 
+    "song_title": "The Fix (feat. Jeremih)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f855_3d0dedbd0fee_th.jpg", 
+    "song_artist": "Nelly", 
+    "favorite_count": 4, 
+    "uuid": "F66308BA-A2D2-4A0E-9098-4E9CEC3C2B3D"
+}

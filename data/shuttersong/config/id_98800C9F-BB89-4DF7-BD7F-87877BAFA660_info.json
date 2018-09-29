@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Love yourself", 
+    "created_at": "2016-02-10T04:50:39-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e836_5ef9fb2faed1.ssng", 
+    "updated_at": "2016-02-13T05:29:40-05:00", 
+    "share_url": "https://a.sso.ng/1/5ef9fb2faed1", 
+    "audio_url": "https://s02.sso.ng/1/00000003e836_5ef9fb2faed1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e836_5ef9fb2faed1_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "Lukesgurl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Tuqiri", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5bfb80bf-cc1b-4896-9006-7facaac210f5.jpg", 
+        "id": "5bfb80bf-cc1b-4896-9006-7facaac210f5"
+    }, 
+    "song_title": "Love Yourself", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e836_5ef9fb2faed1_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "98800C9F-BB89-4DF7-BD7F-87877BAFA660"
+}

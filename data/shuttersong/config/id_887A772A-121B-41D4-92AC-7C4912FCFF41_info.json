@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-31T15:12:31-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040609_a411029b2849.ssng", 
+    "updated_at": "2016-04-01T08:39:41-04:00", 
+    "share_url": "https://a.sso.ng/1/a411029b2849", 
+    "audio_url": "https://s02.sso.ng/1/000000040609_a411029b2849.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040609_a411029b2849_mr.jpg", 
+    "song_album": "I Know There's Gonna Be (Good Times) [feat. Popcaan] - Single", 
+    "user": {
+        "username": "KEIKIBIKINI", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5ad49b38-d164-47ff-b253-8cbd3ce90e09"
+    }, 
+    "song_title": "I Know There's Gonna Be (Good Times) [feat. Popcaan]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040609_a411029b2849_th.jpg", 
+    "song_artist": "Young Thug & Jamie xx", 
+    "favorite_count": 2, 
+    "uuid": "887A772A-121B-41D4-92AC-7C4912FCFF41"
+}

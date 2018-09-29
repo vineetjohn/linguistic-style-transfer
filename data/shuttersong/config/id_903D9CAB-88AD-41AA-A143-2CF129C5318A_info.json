@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-18T12:28:10-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e336_5842f8b498fa.ssng", 
+    "updated_at": "2016-06-17T13:19:23-04:00", 
+    "share_url": "https://a.sso.ng/1/5842f8b498fa", 
+    "audio_url": "https://s02.sso.ng/1/00000003e336_5842f8b498fa.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e336_5842f8b498fa_mr.jpg", 
+    "song_album": "Just Can't Let Her Go - Single", 
+    "user": {
+        "username": "Jamie_Lynn8218", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Jamie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0015119b-7099-4378-993a-2e5f290a9104.jpg", 
+        "id": "0015119b-7099-4378-993a-2e5f290a9104"
+    }, 
+    "song_title": "Just Can't Let Her Go", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e336_5842f8b498fa_th.jpg", 
+    "song_artist": "Rajiv Dhall", 
+    "favorite_count": 5, 
+    "uuid": "903D9CAB-88AD-41AA-A143-2CF129C5318A"
+}

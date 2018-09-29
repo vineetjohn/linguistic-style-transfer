@@ -1,0 +1,27 @@
+{
+    "mood": "cingl\u00e9", 
+    "caption": "", 
+    "created_at": "2016-05-29T17:03:00-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f0e1_6bfaf3e8d493.ssng", 
+    "updated_at": "2016-06-06T20:41:54-04:00", 
+    "share_url": "https://a.sso.ng/1/6bfaf3e8d493", 
+    "audio_url": "https://s02.sso.ng/1/00000003f0e1_6bfaf3e8d493.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f0e1_6bfaf3e8d493_mr.jpg", 
+    "song_album": "Thank You (Deluxe)", 
+    "user": {
+        "username": "fraisinette", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Roxane Simard", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f3413178-87c4-4d35-b222-fb36bacc525d.jpg", 
+        "id": "f3413178-87c4-4d35-b222-fb36bacc525d"
+    }, 
+    "song_title": "NO", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f0e1_6bfaf3e8d493_th.jpg", 
+    "song_artist": "Meghan Trainor", 
+    "favorite_count": 5, 
+    "uuid": "7AF36581-A31F-441A-BACA-F8A6513732D9"
+}

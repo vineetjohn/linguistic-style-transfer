@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T20:10:54-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000266d1_3851bdbef66f.ssng", 
+    "updated_at": "2015-08-20T22:24:11-04:00", 
+    "share_url": "https://a.sso.ng/1/3851bdbef66f", 
+    "audio_url": "https://s01.sso.ng/1/0000000266d1_3851bdbef66f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000266d1_3851bdbef66f_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "sebasviv", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/57eea2e7-0cf7-4205-a41f-f39f36e10225.jpg", 
+        "id": "57eea2e7-0cf7-4205-a41f-f39f36e10225"
+    }, 
+    "song_title": "Alesso ft. Tove Lo - Heroes (we could be) (Music Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000266d1_3851bdbef66f_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "7445A89D-F495-4DC4-9C63-E3B24354743E"
+}

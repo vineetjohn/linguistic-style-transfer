@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2764\ufe0f", 
+    "created_at": "2016-03-16T22:05:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ed15_7c781010c1e9.ssng", 
+    "updated_at": "2016-06-22T21:07:04-04:00", 
+    "share_url": "https://a.sso.ng/1/7c781010c1e9", 
+    "audio_url": "https://s02.sso.ng/1/00000003ed15_7c781010c1e9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ed15_7c781010c1e9_mr.jpg", 
+    "song_album": "Sounds Good Feels Good (Deluxe)", 
+    "user": {
+        "username": "BeccaMusic", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "BeccaInfinty ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bc990ba2-21d7-4061-befe-28d35e1910c4.jpg", 
+        "id": "bc990ba2-21d7-4061-befe-28d35e1910c4"
+    }, 
+    "song_title": "Jet Black Heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ed15_7c781010c1e9_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 1, 
+    "uuid": "4F059F06-D2B5-4DFC-9EA3-2E75D61C3269"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "????????????", 
+    "created_at": "2015-08-30T11:23:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d6f0_a1aae13c9d7b_1.ssng", 
+    "updated_at": "2015-08-30T17:49:01-04:00", 
+    "share_url": "https://a.sso.ng/1/a1aae13c9d7b", 
+    "audio_url": "https://s01.sso.ng/1/00000002d6f0_a1aae13c9d7b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d6f0_a1aae13c9d7b_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "SofiLopera", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sofii", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3c8ff070-b52b-4949-ab8e-a04e2e8dc4da.jpg", 
+        "id": "3c8ff070-b52b-4949-ab8e-a04e2e8dc4da"
+    }, 
+    "song_title": "Avicii-The_Nights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d6f0_a1aae13c9d7b_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "0DD36D9A-12A5-432C-B156-C7B38F0FCCE6"
+}

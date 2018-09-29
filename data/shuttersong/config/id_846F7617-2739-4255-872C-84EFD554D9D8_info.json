@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-07T13:50:48-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021893_e5c204bc4e7c.ssng", 
+    "updated_at": "2015-08-07T13:58:58-04:00", 
+    "share_url": "https://a.sso.ng/1/e5c204bc4e7c", 
+    "audio_url": "https://s01.sso.ng/1/000000021893_e5c204bc4e7c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021893_e5c204bc4e7c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Colline01", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/94dc0b5c-2e1c-4e04-a128-d4320c3bfcc7.jpg", 
+        "id": "94dc0b5c-2e1c-4e04-a128-d4320c3bfcc7"
+    }, 
+    "song_title": "Flights (Lyrics) HQ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021893_e5c204bc4e7c_th.jpg", 
+    "song_artist": "Jack and Jack ", 
+    "favorite_count": 1, 
+    "uuid": "846F7617-2739-4255-872C-84EFD554D9D8"
+}

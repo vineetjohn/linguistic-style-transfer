@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo @Edwinrodriguez", 
+    "created_at": "2015-12-20T15:34:38-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000379c7_340c2de602ec.ssng", 
+    "updated_at": "2015-12-25T17:10:39-05:00", 
+    "share_url": "https://a.sso.ng/1/340c2de602ec", 
+    "audio_url": "https://s01.sso.ng/1/0000000379c7_340c2de602ec.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000379c7_340c2de602ec_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Antonii", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e8c0001c-8375-4d56-9cff-28011d5bf036"
+    }, 
+    "song_title": "Lean on", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000379c7_340c2de602ec_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "FAB02BF3-B0A2-4E5D-A170-A64F4F5A57B3"
+}

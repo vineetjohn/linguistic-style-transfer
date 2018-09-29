@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:19:14-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020c3d_dd18c88101ea.ssng", 
+    "updated_at": "2015-08-03T23:19:14-04:00", 
+    "share_url": "https://a.sso.ng/1/dd18c88101ea", 
+    "audio_url": "https://s01.sso.ng/1/000000020c3d_dd18c88101ea.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020c3d_dd18c88101ea_mr.jpg", 
+    "song_album": "The Secret", 
+    "user": {
+        "username": "breezycaniff", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "\u00e7  h  \u00e8    \u0161  \u00ea  \u00ff", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8c0d5010-b2e0-4379-adc4-bc5e91203b9d.jpg", 
+        "id": "8c0d5010-b2e0-4379-adc4-bc5e91203b9d"
+    }, 
+    "song_title": "Secret", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020c3d_dd18c88101ea_th.jpg", 
+    "song_artist": "Austin Mahone", 
+    "favorite_count": 1, 
+    "uuid": "7E5265FE-9266-4C41-BC65-42B75A0334C0"
+}

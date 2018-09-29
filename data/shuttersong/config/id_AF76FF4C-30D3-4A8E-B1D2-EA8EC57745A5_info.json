@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "? jaja la carita.", 
+    "created_at": "2015-08-30T12:00:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d706_24ad3d919547_1.ssng", 
+    "updated_at": "2015-08-30T21:25:08-04:00", 
+    "share_url": "https://a.sso.ng/1/24ad3d919547", 
+    "audio_url": "https://s01.sso.ng/1/00000002d706_24ad3d919547_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d706_24ad3d919547_1_mr.jpg", 
+    "song_album": "Lest We Forget - The Best of Marilyn Manson", 
+    "user": {
+        "username": "Elchita", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Elsa Rodriguez Diaz", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b75ab1d4-b703-4f12-9bc9-675cb4b87bca.jpg", 
+        "id": "b75ab1d4-b703-4f12-9bc9-675cb4b87bca"
+    }, 
+    "song_title": "The Reflecting God", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d706_24ad3d919547_1_th.jpg", 
+    "song_artist": "Marilyn Manson", 
+    "favorite_count": 1, 
+    "uuid": "AF76FF4C-30D3-4A8E-B1D2-EA8EC57745A5"
+}

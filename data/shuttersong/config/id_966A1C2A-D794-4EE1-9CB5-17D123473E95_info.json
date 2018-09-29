@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Lovely day at the beach in Brixham", 
+    "created_at": "2015-07-22T07:20:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000000045_8a45737588f8_1.ssng", 
+    "updated_at": "2016-03-04T22:26:35-05:00", 
+    "share_url": "https://a.sso.ng/1/8a45737588f8", 
+    "audio_url": "https://s01.sso.ng/1/000000000045_8a45737588f8_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000045_8a45737588f8_1_mr.jpg", 
+    "song_album": "Bill Withers' Greatest Hits", 
+    "user": {
+        "username": "go", 
+        "verified": true, 
+        "username_color": "#f2766a", 
+        "full_name": "Georgina Oxford", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09b3db81-d909-45ee-b737-9c9283d5caeb.jpg", 
+        "id": "09b3db81-d909-45ee-b737-9c9283d5caeb"
+    }, 
+    "song_title": "Lovely Day", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000045_8a45737588f8_1_th.jpg", 
+    "song_artist": "Bill Withers", 
+    "favorite_count": 30, 
+    "uuid": "966A1C2A-D794-4EE1-9CB5-17D123473E95"
+}

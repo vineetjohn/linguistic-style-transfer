@@ -1,0 +1,27 @@
+{
+    "mood": "lonely", 
+    "caption": "Whatever!", 
+    "created_at": "2016-02-18T20:37:05-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7e8_56005e67ed4b.ssng", 
+    "updated_at": "2016-02-18T21:20:53-05:00", 
+    "share_url": "https://a.sso.ng/1/56005e67ed4b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7e8_56005e67ed4b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7e8_56005e67ed4b_mr.jpg", 
+    "song_album": "Because the Internet", 
+    "user": {
+        "username": "_Momo__C", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6aa26e02-a13a-4a8e-a37b-cd20d0cb7d28.jpg", 
+        "id": "6aa26e02-a13a-4a8e-a37b-cd20d0cb7d28"
+    }, 
+    "song_title": "3005", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7e8_56005e67ed4b_th.jpg", 
+    "song_artist": "Childish Gambino", 
+    "favorite_count": 1, 
+    "uuid": "EBC9AB4F-5958-4B51-81D6-8B50620467F0"
+}

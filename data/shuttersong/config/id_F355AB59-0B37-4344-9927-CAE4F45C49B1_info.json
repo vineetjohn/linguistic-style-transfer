@@ -1,0 +1,27 @@
+{
+    "mood": "thankful", 
+    "caption": "", 
+    "created_at": "2016-02-13T14:24:12-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ebb9_d37e50f9f999.ssng", 
+    "updated_at": "2016-02-25T06:22:59-05:00", 
+    "share_url": "https://a.sso.ng/1/d37e50f9f999", 
+    "audio_url": "https://s02.sso.ng/1/00000003ebb9_d37e50f9f999.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ebb9_d37e50f9f999_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "glenroylegends", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "sorry not isabel", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/46119fa4-7110-4137-8a28-3fb836acacb0.jpg", 
+        "id": "46119fa4-7110-4137-8a28-3fb836acacb0"
+    }, 
+    "song_title": "I'll Show You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ebb9_d37e50f9f999_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 3, 
+    "uuid": "F355AB59-0B37-4344-9927-CAE4F45C49B1"
+}

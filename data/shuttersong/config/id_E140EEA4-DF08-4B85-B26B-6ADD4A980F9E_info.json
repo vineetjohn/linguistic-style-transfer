@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My Firework!", 
+    "created_at": "2015-08-20T23:39:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027eae_a916924af268_1.ssng", 
+    "updated_at": "2015-08-21T14:30:46-04:00", 
+    "share_url": "https://a.sso.ng/1/a916924af268", 
+    "audio_url": "https://s01.sso.ng/1/000000027eae_a916924af268_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027eae_a916924af268_1_mr.jpg", 
+    "song_album": "Teenage Dream", 
+    "user": {
+        "username": "Yariday", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0a9ace6f-6154-422a-8c78-990bdf3380ff.jpg", 
+        "id": "0a9ace6f-6154-422a-8c78-990bdf3380ff"
+    }, 
+    "song_title": "Firework", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027eae_a916924af268_1_th.jpg", 
+    "song_artist": "Katy Perry", 
+    "favorite_count": 1, 
+    "uuid": "E140EEA4-DF08-4B85-B26B-6ADD4A980F9E"
+}

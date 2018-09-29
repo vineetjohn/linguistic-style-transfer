@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-08T23:51:07-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042dd0_bb29fc33e2c7.ssng", 
+    "updated_at": "2016-05-09T11:18:00-04:00", 
+    "share_url": "https://a.sso.ng/1/bb29fc33e2c7", 
+    "audio_url": "https://s02.sso.ng/1/000000042dd0_bb29fc33e2c7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042dd0_bb29fc33e2c7_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lo.kee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "debbf3ed-ffc0-4776-b4db-e9249597fbbb"
+    }, 
+    "song_title": "Insane - Flume (LoKee rmx)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042dd0_bb29fc33e2c7_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "78FB33D4-0A93-463B-9770-42CB6623547E"
+}

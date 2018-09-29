@@ -1,0 +1,27 @@
+{
+    "mood": "drained", 
+    "caption": "", 
+    "created_at": "2016-03-24T10:28:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_6cdcdf50a309.ssng", 
+    "updated_at": "2016-03-26T21:37:45-04:00", 
+    "share_url": "https://a.sso.ng/1/6cdcdf50a309", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_6cdcdf50a309.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_6cdcdf50a309_mr.jpg", 
+    "song_album": "Set This World On Fire - Single", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "Set This World On Fire", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_6cdcdf50a309_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 2, 
+    "uuid": "407257FF-2E4C-465E-90D7-1B34EB7EE5F0"
+}

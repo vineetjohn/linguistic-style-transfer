@@ -1,0 +1,27 @@
+{
+    "mood": "grateful", 
+    "caption": "Our house", 
+    "created_at": "2016-05-28T21:01:33-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000000002b_cbf20cd51664.ssng", 
+    "updated_at": "2016-06-30T11:43:28-04:00", 
+    "share_url": "https://a.sso.ng/1/cbf20cd51664", 
+    "audio_url": "https://s02.sso.ng/1/00000000002b_cbf20cd51664.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000000002b_cbf20cd51664_mr.jpg", 
+    "song_album": "Greatest Hits", 
+    "user": {
+        "username": "w", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "William", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0cae3ea0-2922-4a36-9a55-3fc5387033e5.jpg", 
+        "id": "0cae3ea0-2922-4a36-9a55-3fc5387033e5"
+    }, 
+    "song_title": "Our House", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000000002b_cbf20cd51664_th.jpg", 
+    "song_artist": "Crosby, Stills, Nash & Young", 
+    "favorite_count": 37, 
+    "uuid": "30CE64D3-2722-4336-82E5-996F1B36C131"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "favourite human \ud83c\udf40\ud83c\udf51 @brooksluke", 
+    "created_at": "2016-05-16T14:53:23-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043096_4b191977d091.ssng", 
+    "updated_at": "2016-05-31T04:00:22-04:00", 
+    "share_url": "https://a.sso.ng/1/4b191977d091", 
+    "audio_url": "https://s02.sso.ng/1/000000043096_4b191977d091.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043096_4b191977d091_mr.jpg", 
+    "song_album": "Views", 
+    "user": {
+        "username": "hannahcleeve", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "han", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7c6ae210-6547-4e1c-b565-1599fb11fc00.jpg", 
+        "id": "7c6ae210-6547-4e1c-b565-1599fb11fc00"
+    }, 
+    "song_title": "One Dance (feat. Wizkid & Kyla)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043096_4b191977d091_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 5, 
+    "uuid": "B2A80CC2-B457-46B7-97A1-38543F3C2C33"
+}

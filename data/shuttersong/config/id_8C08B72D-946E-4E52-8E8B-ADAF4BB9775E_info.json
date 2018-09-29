@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Snoring little angels?", 
+    "created_at": "2015-08-29T10:51:46-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002cc18_005faa4fbb08_1.ssng", 
+    "updated_at": "2015-08-31T23:09:11-04:00", 
+    "share_url": "https://a.sso.ng/1/005faa4fbb08", 
+    "audio_url": "https://s01.sso.ng/1/00000002cc18_005faa4fbb08_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002cc18_005faa4fbb08_1_mr.jpg", 
+    "song_album": "Suburban Nature", 
+    "user": {
+        "username": "Tinasme", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Tina S. mendoza", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7c12da2d-5e49-4578-97e5-8ed32ba19cfc.jpg", 
+        "id": "7c12da2d-5e49-4578-97e5-8ed32ba19cfc"
+    }, 
+    "song_title": "Clementine", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002cc18_005faa4fbb08_1_th.jpg", 
+    "song_artist": "Sarah Jaffe", 
+    "favorite_count": 1, 
+    "uuid": "8C08B72D-946E-4E52-8E8B-ADAF4BB9775E"
+}

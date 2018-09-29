@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "idk how to use this but hey", 
+    "created_at": "2016-02-10T05:03:40-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e87e_4df8df4cdf5e.ssng", 
+    "updated_at": "2016-02-12T17:41:32-05:00", 
+    "share_url": "https://a.sso.ng/1/4df8df4cdf5e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e87e_4df8df4cdf5e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e87e_4df8df4cdf5e_mr.jpg", 
+    "song_album": "BADLANDS (Deluxe)", 
+    "user": {
+        "username": "lukesemojis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "kaitie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5297fe01-7a33-412c-8ba4-ded111d32674.jpg", 
+        "id": "5297fe01-7a33-412c-8ba4-ded111d32674"
+    }, 
+    "song_title": "Young God", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e87e_4df8df4cdf5e_th.jpg", 
+    "song_artist": "Halsey", 
+    "favorite_count": 12, 
+    "uuid": "B2640C19-F597-4A7D-B84B-745558D22CD1"
+}

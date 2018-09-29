@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Good morning \ud83d\ude0b", 
+    "created_at": "2016-05-26T05:24:42-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000001f382_81b1c177c840.ssng", 
+    "updated_at": "2016-06-28T06:14:35-04:00", 
+    "share_url": "https://a.sso.ng/1/81b1c177c840", 
+    "audio_url": "https://s02.sso.ng/1/00000001f382_81b1c177c840.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001f382_81b1c177c840_mr.jpg", 
+    "song_album": "Views", 
+    "user": {
+        "username": "sapphire", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Sapphire", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/322041a2-32f5-4184-b5bb-c38c16a3d6ab.jpg", 
+        "id": "322041a2-32f5-4184-b5bb-c38c16a3d6ab"
+    }, 
+    "song_title": "One Dance (feat. Wizkid & Kyla)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001f382_81b1c177c840_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 27, 
+    "uuid": "CA6C5ECB-CA65-41F8-BE8D-18F613B2624B"
+}

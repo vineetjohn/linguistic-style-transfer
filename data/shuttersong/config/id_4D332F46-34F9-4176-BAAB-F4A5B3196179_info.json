@@ -1,0 +1,27 @@
+{
+    "mood": "bored", 
+    "caption": "", 
+    "created_at": "2016-02-19T15:46:02-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9b1_2c569fdce0bc.ssng", 
+    "updated_at": "2016-02-20T15:30:15-05:00", 
+    "share_url": "https://a.sso.ng/1/2c569fdce0bc", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9b1_2c569fdce0bc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9b1_2c569fdce0bc_mr.jpg", 
+    "song_album": "Wild Life - Single", 
+    "user": {
+        "username": "tiana_devereux", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7904f0ea-2020-4427-a473-0ffa0cde74fe.jpg", 
+        "id": "7904f0ea-2020-4427-a473-0ffa0cde74fe"
+    }, 
+    "song_title": "Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9b1_2c569fdce0bc_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "4D332F46-34F9-4176-BAAB-F4A5B3196179"
+}

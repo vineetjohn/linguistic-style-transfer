@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Space Bound?", 
+    "created_at": "2015-08-11T15:01:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022fd8_80ffa1b81db3_1.ssng", 
+    "updated_at": "2015-08-11T22:28:51-04:00", 
+    "share_url": "https://a.sso.ng/1/80ffa1b81db3", 
+    "audio_url": "https://s01.sso.ng/1/000000022fd8_80ffa1b81db3_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022fd8_80ffa1b81db3_1_mr.jpg", 
+    "song_album": "Recovery (Deluxe Edition)", 
+    "user": {
+        "username": "kyles_kitty", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/cd37ec57-f84a-49dc-9238-30698bf15569.jpg", 
+        "id": "cd37ec57-f84a-49dc-9238-30698bf15569"
+    }, 
+    "song_title": "Space Bound", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022fd8_80ffa1b81db3_1_th.jpg", 
+    "song_artist": "Eminem", 
+    "favorite_count": 1, 
+    "uuid": "85BE3079-D9F6-4C71-B4F9-7A99A3A078C2"
+}

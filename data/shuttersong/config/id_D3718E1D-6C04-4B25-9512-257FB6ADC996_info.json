@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-04T22:51:30-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000026af6_37f70b50719e.ssng", 
+    "updated_at": "2015-09-05T20:21:03-04:00", 
+    "share_url": "https://a.sso.ng/1/37f70b50719e", 
+    "audio_url": "https://s01.sso.ng/1/000000026af6_37f70b50719e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000026af6_37f70b50719e_mr.jpg", 
+    "song_album": "Kiss", 
+    "user": {
+        "username": "CarlyAra", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f2d18653-c465-4838-895a-77c7ad80a966"
+    }, 
+    "song_title": "Beautiful", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000026af6_37f70b50719e_th.jpg", 
+    "song_artist": "Carly Rae Jepsen & Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "D3718E1D-6C04-4B25-9512-257FB6ADC996"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-26T07:18:32-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000457f0_834a1bb634cb.ssng", 
+    "updated_at": "2016-06-27T03:53:39-04:00", 
+    "share_url": "https://a.sso.ng/1/834a1bb634cb", 
+    "audio_url": "https://s02.sso.ng/1/0000000457f0_834a1bb634cb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000457f0_834a1bb634cb_mr.jpg", 
+    "song_album": "Royal Blood", 
+    "user": {
+        "username": "Andrea.p", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6f86c1ae-8cfa-4758-9f5f-fd2ce4418498"
+    }, 
+    "song_title": "Figure It Out", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000457f0_834a1bb634cb_th.jpg", 
+    "song_artist": "Royal Blood", 
+    "favorite_count": 1, 
+    "uuid": "2D78E30B-FD89-42EA-90FD-12063FAF69CD"
+}

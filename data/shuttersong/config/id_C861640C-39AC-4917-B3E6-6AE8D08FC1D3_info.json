@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-02T02:57:31-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000000008_6d274ded8cb4.ssng", 
+    "updated_at": "2016-02-22T23:09:05-05:00", 
+    "share_url": "https://a.sso.ng/1/6d274ded8cb4", 
+    "audio_url": "https://s02.sso.ng/1/000000000008_6d274ded8cb4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000008_6d274ded8cb4_mr.jpg", 
+    "song_album": "Angela Sings MLTR", 
+    "user": {
+        "username": "suryany", 
+        "verified": false, 
+        "username_color": "#8CD600", 
+        "full_name": "Suryany Puspita", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/01f074ec-e106-4cf4-92d9-7d216d2b22ac.jpg", 
+        "id": "01f074ec-e106-4cf4-92d9-7d216d2b22ac"
+    }, 
+    "song_title": "Paint My Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000008_6d274ded8cb4_th.jpg", 
+    "song_artist": "Angela", 
+    "favorite_count": 1, 
+    "uuid": "C861640C-39AC-4917-B3E6-6AE8D08FC1D3"
+}

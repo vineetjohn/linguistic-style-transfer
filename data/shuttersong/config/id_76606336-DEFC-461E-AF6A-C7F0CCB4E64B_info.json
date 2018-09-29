@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "One of my favorite pics \ud83d\ude1c", 
+    "created_at": "2016-05-30T01:43:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3f2_baecc01ca59e.ssng", 
+    "updated_at": "2016-05-30T03:42:17-04:00", 
+    "share_url": "https://a.sso.ng/1/baecc01ca59e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3f2_baecc01ca59e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3f2_baecc01ca59e_mr.jpg", 
+    "song_album": "Blue Neighbourhood (Deluxe)", 
+    "user": {
+        "username": "AvaSaldana96", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ayeee_Vahhh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c860f132-e54d-4498-99e1-bac87ee33c31.jpg", 
+        "id": "c860f132-e54d-4498-99e1-bac87ee33c31"
+    }, 
+    "song_title": "BITE", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3f2_baecc01ca59e_th.jpg", 
+    "song_artist": "Troye Sivan", 
+    "favorite_count": 1, 
+    "uuid": "76606336-DEFC-461E-AF6A-C7F0CCB4E64B"
+}

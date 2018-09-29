@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T06:06:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a859_ccc3aeb1b487.ssng", 
+    "updated_at": "2015-08-22T23:45:27-04:00", 
+    "share_url": "https://a.sso.ng/1/ccc3aeb1b487", 
+    "audio_url": "https://s01.sso.ng/1/00000002a859_ccc3aeb1b487.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a859_ccc3aeb1b487_mr.jpg", 
+    "song_album": "The New Classic (Deluxe Edition)", 
+    "user": {
+        "username": "micha_gt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "322c4bde-3ecd-4e7c-9274-1b84ab806b53"
+    }, 
+    "song_title": "Black Widow", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a859_ccc3aeb1b487_th.jpg", 
+    "song_artist": "Iggy Azaela", 
+    "favorite_count": 1, 
+    "uuid": "537EA74C-CB9D-4A78-B7F9-3583000E6904"
+}

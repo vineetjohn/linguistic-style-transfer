@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-16T09:37:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000000045_f22e73eb4403.ssng", 
+    "updated_at": "2016-01-01T14:08:51-05:00", 
+    "share_url": "https://a.sso.ng/1/f22e73eb4403", 
+    "audio_url": "https://s01.sso.ng/1/000000000045_f22e73eb4403.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000045_f22e73eb4403_mr.jpg", 
+    "song_album": "Annie Mac Presents 2012", 
+    "user": {
+        "username": "go", 
+        "verified": true, 
+        "username_color": "#f2766a", 
+        "full_name": "Georgina Oxford", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09b3db81-d909-45ee-b737-9c9283d5caeb.jpg", 
+        "id": "09b3db81-d909-45ee-b737-9c9283d5caeb"
+    }, 
+    "song_title": "Express Yourself (feat. Nicky Da B)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000045_f22e73eb4403_th.jpg", 
+    "song_artist": "Diplo", 
+    "favorite_count": 13, 
+    "uuid": "62F6F5F2-85A8-4FCA-B0F6-A17AC60809DD"
+}

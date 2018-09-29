@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-05T22:06:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b563_3414516ada81.ssng", 
+    "updated_at": "2015-09-09T16:02:51-04:00", 
+    "share_url": "https://a.sso.ng/1/3414516ada81", 
+    "audio_url": "https://s01.sso.ng/1/00000002b563_3414516ada81.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b563_3414516ada81_mr.jpg", 
+    "song_album": "My Head Is An Animal", 
+    "user": {
+        "username": "Amalia1503", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f410ce4e-7284-4179-b834-ec26d4fd8066.jpg", 
+        "id": "f410ce4e-7284-4179-b834-ec26d4fd8066"
+    }, 
+    "song_title": "Little Talks", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b563_3414516ada81_th.jpg", 
+    "song_artist": "Of Monsters and Men", 
+    "favorite_count": 4, 
+    "uuid": "94F7E5B5-DC86-418C-B216-E0A4FA7CF954"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-12-23T16:18:51-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038034_74c4d2579629.ssng", 
+    "updated_at": "2015-12-26T18:06:49-05:00", 
+    "share_url": "https://a.sso.ng/1/74c4d2579629", 
+    "audio_url": "https://s01.sso.ng/1/000000038034_74c4d2579629.m4a", 
+    "comment_count": 4, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038034_74c4d2579629_mr.jpg", 
+    "song_album": "youtube.com/watch?v=Wg92RrNhB8s", 
+    "user": {
+        "username": "aurahernandezr", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Aura Hernandez Reales", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/df1d7217-97ed-414f-bffa-40c3167e7817.jpg", 
+        "id": "df1d7217-97ed-414f-bffa-40c3167e7817"
+    }, 
+    "song_title": "Ariana Grande - One Last Time (Lyric Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038034_74c4d2579629_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "A1AC2012-131C-475B-84C5-76CD9FD7D0AE"
+}

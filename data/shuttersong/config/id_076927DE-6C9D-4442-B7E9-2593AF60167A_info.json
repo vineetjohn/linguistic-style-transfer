@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@beaub", 
+    "created_at": "2016-02-10T03:27:09-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e88d_a450defc3eee.ssng", 
+    "updated_at": "2016-02-11T12:27:29-05:00", 
+    "share_url": "https://a.sso.ng/1/a450defc3eee", 
+    "audio_url": "https://s02.sso.ng/1/00000003e88d_a450defc3eee.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e88d_a450defc3eee_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "luciepf", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7d1ccbf9-c646-4bf9-8826-1475631a25e0.jpg", 
+        "id": "7d1ccbf9-c646-4bf9-8826-1475631a25e0"
+    }, 
+    "song_title": "Teenage Desperate - Janoskians (Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e88d_a450defc3eee_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "076927DE-6C9D-4442-B7E9-2593AF60167A"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "this is me on so many levels", 
+    "created_at": "2015-09-11T16:47:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002094f_23d072ff1f44_1.ssng", 
+    "updated_at": "2016-05-26T21:52:13-04:00", 
+    "share_url": "https://a.sso.ng/1/23d072ff1f44", 
+    "audio_url": "https://s01.sso.ng/1/00000002094f_23d072ff1f44_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002094f_23d072ff1f44_1_mr.jpg", 
+    "song_album": "Cold Hearted - Single", 
+    "user": {
+        "username": "paige.scheirer", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Jacks' Babe", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/849f6e22-f8cc-4661-813b-77cc46769b27.jpg", 
+        "id": "849f6e22-f8cc-4661-813b-77cc46769b27"
+    }, 
+    "song_title": "Cold Hearted", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002094f_23d072ff1f44_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 6, 
+    "uuid": "B6C83FA1-69EE-43C2-A04B-56BAFA869A0E"
+}

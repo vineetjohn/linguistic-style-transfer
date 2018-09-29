@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83c\udf93\ud83d\udc95 #2016", 
+    "created_at": "2016-06-30T15:49:56-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000027986_bdd1fed6f549.ssng", 
+    "updated_at": "2016-07-01T11:19:47-04:00", 
+    "share_url": "https://a.sso.ng/1/bdd1fed6f549", 
+    "audio_url": "https://s02.sso.ng/1/000000027986_bdd1fed6f549.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000027986_bdd1fed6f549_mr.jpg", 
+    "song_album": "Up All Night", 
+    "user": {
+        "username": "kellows", 
+        "verified": false, 
+        "username_color": "#f2766a", 
+        "full_name": "Kelly", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/64dc4ad8-e81d-41d4-a310-eb84226c0db2.jpg", 
+        "id": "64dc4ad8-e81d-41d4-a310-eb84226c0db2"
+    }, 
+    "song_title": "Up All Night", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000027986_bdd1fed6f549_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 3, 
+    "uuid": "8675BC8D-A600-4211-B027-9EFE3D2548C1"
+}

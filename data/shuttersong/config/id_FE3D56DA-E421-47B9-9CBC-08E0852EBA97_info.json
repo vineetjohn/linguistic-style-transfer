@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-31T11:53:44-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003149c_5211d375cf19.ssng", 
+    "updated_at": "2015-12-31T13:09:10-05:00", 
+    "share_url": "https://a.sso.ng/1/5211d375cf19", 
+    "audio_url": "https://s01.sso.ng/1/00000003149c_5211d375cf19.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003149c_5211d375cf19_mr.jpg", 
+    "song_album": "Shawn Mendes", 
+    "user": {
+        "username": "Madeleine.C", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "21afe2e5-82fc-4662-84ac-dcf22251f7e2"
+    }, 
+    "song_title": "I Don't Even Know Your Name", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003149c_5211d375cf19_th.jpg", 
+    "song_artist": "Handwritten (Deluxe)", 
+    "favorite_count": 1, 
+    "uuid": "FE3D56DA-E421-47B9-9CBC-08E0852EBA97"
+}

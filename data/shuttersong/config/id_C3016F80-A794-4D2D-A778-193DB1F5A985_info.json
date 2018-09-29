@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "i just wanna travel around the world and take pictures of the sky ", 
+    "created_at": "2015-08-04T16:25:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020d91_a1ac124d2b0b_1.ssng", 
+    "updated_at": "2015-08-04T16:25:56-04:00", 
+    "share_url": "https://a.sso.ng/1/a1ac124d2b0b", 
+    "audio_url": "https://s01.sso.ng/1/000000020d91_a1ac124d2b0b_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020d91_a1ac124d2b0b_1_mr.jpg", 
+    "song_album": "The Shawn Mendes EP", 
+    "user": {
+        "username": "ameliaellist", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "amelia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d5837dd3-5590-466e-9c67-6eda379f6bfa.jpg", 
+        "id": "d5837dd3-5590-466e-9c67-6eda379f6bfa"
+    }, 
+    "song_title": "Life of the Party", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020d91_a1ac124d2b0b_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "C3016F80-A794-4D2D-A778-193DB1F5A985"
+}

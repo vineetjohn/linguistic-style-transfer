@@ -1,0 +1,27 @@
+{
+    "mood": "dragueur", 
+    "caption": "Oh my Jai ??", 
+    "created_at": "2016-02-12T16:03:15-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e947_c4403755a243.ssng", 
+    "updated_at": "2016-06-20T17:46:30-04:00", 
+    "share_url": "https://a.sso.ng/1/c4403755a243", 
+    "audio_url": "https://s02.sso.ng/1/00000003e947_c4403755a243.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e947_c4403755a243_mr.jpg", 
+    "song_album": "The Janoskians", 
+    "user": {
+        "username": "jaidonsmile_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/62b4008a-3c29-468c-b804-f8b6d9c3a8ed.jpg", 
+        "id": "62b4008a-3c29-468c-b804-f8b6d9c3a8ed"
+    }, 
+    "song_title": "All I Want 4 Christmas", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e947_c4403755a243_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 4, 
+    "uuid": "7408EE38-7523-4A1C-8A1E-F86607F5D96B"
+}

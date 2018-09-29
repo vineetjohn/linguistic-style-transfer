@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-24T00:49:53-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002c288_6bf55b082b0c.ssng", 
+    "updated_at": "2015-08-24T23:19:21-04:00", 
+    "share_url": "https://a.sso.ng/1/6bf55b082b0c", 
+    "audio_url": "https://s01.sso.ng/1/00000002c288_6bf55b082b0c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002c288_6bf55b082b0c_mr.jpg", 
+    "song_album": "The Truth About Love", 
+    "user": {
+        "username": "leslie8020", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b9a9395f-7eda-4bf5-8735-eb625c53d272.jpg", 
+        "id": "b9a9395f-7eda-4bf5-8735-eb625c53d272"
+    }, 
+    "song_title": "Just Give Me A Reason", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002c288_6bf55b082b0c_th.jpg", 
+    "song_artist": "Pink", 
+    "favorite_count": 1, 
+    "uuid": "DB1D586A-2991-4ED3-AE0C-E2ECA5DD1CA0"
+}

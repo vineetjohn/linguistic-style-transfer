@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-14T15:56:35-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045274_78376f355365.ssng", 
+    "updated_at": "2016-06-16T05:56:00-04:00", 
+    "share_url": "https://a.sso.ng/1/78376f355365", 
+    "audio_url": "https://s02.sso.ng/1/000000045274_78376f355365.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045274_78376f355365_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "safescape", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "cd2d6e80-ed23-4cb8-96de-7550d7ed3b41"
+    }, 
+    "song_title": "Counting Down the Days (Safescape Remix)Rough Mix", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045274_78376f355365_th.jpg", 
+    "song_artist": "SafeScape", 
+    "favorite_count": 6, 
+    "uuid": "CEC256F2-A06F-49D9-9681-BA1609BAA975"
+}

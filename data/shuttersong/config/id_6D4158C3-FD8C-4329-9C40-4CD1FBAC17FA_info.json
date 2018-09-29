@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-24T03:10:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7d7_75e1ed042591.ssng", 
+    "updated_at": "2016-06-25T20:13:27-04:00", 
+    "share_url": "https://a.sso.ng/1/75e1ed042591", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7d7_75e1ed042591.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7d7_75e1ed042591_mr.jpg", 
+    "song_album": "PILLOWTALK - Single", 
+    "user": {
+        "username": "katiexhinze", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6fa61f07-20fb-43de-9e2d-91fcc591b8df.jpg", 
+        "id": "6fa61f07-20fb-43de-9e2d-91fcc591b8df"
+    }, 
+    "song_title": "PILLOWTALK", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7d7_75e1ed042591_th.jpg", 
+    "song_artist": "ZAYN", 
+    "favorite_count": 2, 
+    "uuid": "6D4158C3-FD8C-4329-9C40-4CD1FBAC17FA"
+}

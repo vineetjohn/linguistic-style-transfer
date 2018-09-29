@@ -1,0 +1,27 @@
+{
+    "mood": "lovable", 
+    "caption": "They make me so happy ?", 
+    "created_at": "2016-02-11T22:34:39-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e590_65029a9db47b.ssng", 
+    "updated_at": "2016-02-13T00:29:55-05:00", 
+    "share_url": "https://a.sso.ng/1/65029a9db47b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e590_65029a9db47b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e590_65029a9db47b_mr.jpg", 
+    "song_album": "Wifi Wifey - Single", 
+    "user": {
+        "username": "Omg_janos", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Aaliyah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bd0a4e2f-bbc1-49f9-bdeb-aa4c1b189963.jpg", 
+        "id": "bd0a4e2f-bbc1-49f9-bdeb-aa4c1b189963"
+    }, 
+    "song_title": "Wifi Wifey", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e590_65029a9db47b_th.jpg", 
+    "song_artist": "Nick Bean", 
+    "favorite_count": 4, 
+    "uuid": "E3B9DC1C-1BBD-4AFE-99F7-39DE8C787616"
+}

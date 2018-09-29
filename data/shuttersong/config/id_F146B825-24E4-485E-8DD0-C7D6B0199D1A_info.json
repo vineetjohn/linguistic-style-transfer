@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo\nYouTube: Klaudija Bajoraite", 
+    "created_at": "2015-12-29T18:10:10-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b37c_60e656b15a20.ssng", 
+    "updated_at": "2015-12-29T18:33:15-05:00", 
+    "share_url": "https://a.sso.ng/1/60e656b15a20", 
+    "audio_url": "https://s01.sso.ng/1/00000003b37c_60e656b15a20.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b37c_60e656b15a20_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Claudia_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b649a6cc-e309-4141-a27b-80b5661d26c1.jpg", 
+        "id": "b649a6cc-e309-4141-a27b-80b5661d26c1"
+    }, 
+    "song_title": "Justin Bieber - What Do You Mean_", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b37c_60e656b15a20_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "F146B825-24E4-485E-8DD0-C7D6B0199D1A"
+}

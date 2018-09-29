@@ -1,0 +1,27 @@
+{
+    "mood": "alleen", 
+    "caption": "", 
+    "created_at": "2016-05-12T02:15:37-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9a0_529b30ce831c.ssng", 
+    "updated_at": "2016-05-12T14:39:47-04:00", 
+    "share_url": "https://a.sso.ng/1/529b30ce831c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9a0_529b30ce831c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9a0_529b30ce831c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "petra_lange", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Petra Lange", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4222d87-1b79-4dab-986f-451a04196ae4.jpg", 
+        "id": "d4222d87-1b79-4dab-986f-451a04196ae4"
+    }, 
+    "song_title": "5 Seconds of Summer - Wherever You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9a0_529b30ce831c_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "D09DBF5A-926C-4D9F-813F-EB74C1E6CFD7"
+}

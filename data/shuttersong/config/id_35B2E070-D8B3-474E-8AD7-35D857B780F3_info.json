@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-06T03:54:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022756_6574a9107cee.ssng", 
+    "updated_at": "2015-08-06T03:54:42-04:00", 
+    "share_url": "https://a.sso.ng/1/6574a9107cee", 
+    "audio_url": "https://s01.sso.ng/1/000000022756_6574a9107cee.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022756_6574a9107cee_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mai.yh", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3f1e5dc6-3b4a-4d84-9830-608da9310273"
+    }, 
+    "song_title": "Get Stupid", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022756_6574a9107cee_th.jpg", 
+    "song_artist": "Aston Merrygold", 
+    "favorite_count": 1, 
+    "uuid": "35B2E070-D8B3-474E-8AD7-35D857B780F3"
+}

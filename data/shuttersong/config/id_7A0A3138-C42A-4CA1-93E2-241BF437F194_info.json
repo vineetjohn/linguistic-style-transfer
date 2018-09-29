@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T00:48:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000211e6_e16ba01d1a1f.ssng", 
+    "updated_at": "2015-08-04T00:48:09-04:00", 
+    "share_url": "https://a.sso.ng/1/e16ba01d1a1f", 
+    "audio_url": "https://s01.sso.ng/1/0000000211e6_e16ba01d1a1f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000211e6_e16ba01d1a1f_mr.jpg", 
+    "song_album": "Doing It Right - Single", 
+    "user": {
+        "username": "aracely.luna", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1b0341a9-750f-431d-9128-6a3ba5e00f75"
+    }, 
+    "song_title": "Doing It Right", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000211e6_e16ba01d1a1f_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "7A0A3138-C42A-4CA1-93E2-241BF437F194"
+}

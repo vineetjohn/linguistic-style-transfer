@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Pa criollo q un platano , el aguacate #foodGQ", 
+    "created_at": "2015-08-20T21:30:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000000fa67_aebcfcd5c3bd.ssng", 
+    "updated_at": "2015-12-03T02:03:30-05:00", 
+    "share_url": "https://a.sso.ng/1/aebcfcd5c3bd", 
+    "audio_url": "https://s01.sso.ng/1/00000000fa67_aebcfcd5c3bd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000fa67_aebcfcd5c3bd_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "gnss1200", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Genesis Quiroz", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4311f7e0-8621-4347-a5e9-f300d17d1c9c.jpg", 
+        "id": "4311f7e0-8621-4347-a5e9-f300d17d1c9c"
+    }, 
+    "song_title": "Volcano", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000fa67_aebcfcd5c3bd_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 2, 
+    "uuid": "F73AC1BA-81D1-475D-82D3-0D921C2D82B3"
+}

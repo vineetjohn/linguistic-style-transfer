@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@brooksluke", 
+    "created_at": "2016-03-16T21:32:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3b4_53d24c1bdeef.ssng", 
+    "updated_at": "2016-03-19T07:38:51-04:00", 
+    "share_url": "https://a.sso.ng/1/53d24c1bdeef", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3b4_53d24c1bdeef.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3b4_53d24c1bdeef_mr.jpg", 
+    "song_album": "Best Friends", 
+    "user": {
+        "username": "beaurito_brooks", 
+        "verified": false, 
+        "username_color": "#8CD600", 
+        "full_name": "beaurito brooks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/972acd41-c650-49f4-9754-6074b350fd29.jpg", 
+        "id": "972acd41-c650-49f4-9754-6074b350fd29"
+    }, 
+    "song_title": "Best Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3b4_53d24c1bdeef_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 4, 
+    "uuid": "D529CA4A-DA33-4BFC-B85A-54CBBF444A1B"
+}

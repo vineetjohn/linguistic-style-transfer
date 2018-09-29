@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-15T11:53:52-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e6e1_685034ae5173.ssng", 
+    "updated_at": "2016-02-15T19:27:57-05:00", 
+    "share_url": "https://a.sso.ng/1/685034ae5173", 
+    "audio_url": "https://s02.sso.ng/1/00000003e6e1_685034ae5173.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e6e1_685034ae5173_mr.jpg", 
+    "song_album": "Greatest Hits", 
+    "user": {
+        "username": "Janos_brooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/47c116c6-99cb-4bf2-a8e9-7d2e52011566.jpg", 
+        "id": "47c116c6-99cb-4bf2-a8e9-7d2e52011566"
+    }, 
+    "song_title": "Under the Bridge", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e6e1_685034ae5173_th.jpg", 
+    "song_artist": "Red Hot Chili Peppers", 
+    "favorite_count": 4, 
+    "uuid": "AD0F9A72-7BBA-42C5-A5A6-1D511EC49908"
+}

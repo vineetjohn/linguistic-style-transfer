@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo", 
+    "created_at": "2015-12-31T20:30:48-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000033b24_49d76f73cc60.ssng", 
+    "updated_at": "2016-02-18T22:47:54-05:00", 
+    "share_url": "https://a.sso.ng/1/49d76f73cc60", 
+    "audio_url": "https://s01.sso.ng/1/000000033b24_49d76f73cc60.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000033b24_49d76f73cc60_mr.jpg", 
+    "song_album": "Born to Die (Deluxe Version)", 
+    "user": {
+        "username": "alejandroramirez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4366989d-69da-4af6-a512-358cedd80caa.jpg", 
+        "id": "4366989d-69da-4af6-a512-358cedd80caa"
+    }, 
+    "song_title": "Blue Jeans", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000033b24_49d76f73cc60_th.jpg", 
+    "song_artist": "Lana Del Rey", 
+    "favorite_count": 1, 
+    "uuid": "44B315F9-A5B0-4CBA-93A1-3D068780C524"
+}

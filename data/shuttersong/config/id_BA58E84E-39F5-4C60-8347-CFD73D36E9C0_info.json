@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I met a bunny and almost stole it #cute #bunny", 
+    "created_at": "2015-11-17T18:07:04-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000000090_923c9096f608_1.ssng", 
+    "updated_at": "2015-11-19T17:20:19-05:00", 
+    "share_url": "https://a.sso.ng/1/923c9096f608", 
+    "audio_url": "https://s01.sso.ng/1/000000000090_923c9096f608_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000090_923c9096f608_1_mr.jpg", 
+    "song_album": "Sounds Good Feels Good (Deluxe)", 
+    "user": {
+        "username": "mh", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Maggie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/67b30a1b-dafe-41b1-9eae-4b09e1f9f46b.jpg", 
+        "id": "67b30a1b-dafe-41b1-9eae-4b09e1f9f46b"
+    }, 
+    "song_title": "She's Kinda Hot", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000090_923c9096f608_1_th.jpg", 
+    "song_artist": "5 Seconds Of Summer", 
+    "favorite_count": 5, 
+    "uuid": "BA58E84E-39F5-4C60-8347-CFD73D36E9C0"
+}

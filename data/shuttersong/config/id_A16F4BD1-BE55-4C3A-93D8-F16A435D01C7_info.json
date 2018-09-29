@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#contest California is my favorite song off Calibraska!", 
+    "created_at": "2015-08-15T17:53:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002450c_5b1565d4cb3c_1.ssng", 
+    "updated_at": "2015-08-18T23:56:10-04:00", 
+    "share_url": "https://a.sso.ng/1/5b1565d4cb3c", 
+    "audio_url": "https://s01.sso.ng/1/00000002450c_5b1565d4cb3c_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002450c_5b1565d4cb3c_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "CarolineGilinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Caroline Spears", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0e30916f-6b73-4770-a467-bb065e48fe7d.jpg", 
+        "id": "0e30916f-6b73-4770-a467-bb065e48fe7d"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002450c_5b1565d4cb3c_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "A16F4BD1-BE55-4C3A-93D8-F16A435D01C7"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-01T10:06:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002dc72_9759c2d8c4c9.ssng", 
+    "updated_at": "2015-09-02T17:05:23-04:00", 
+    "share_url": "https://a.sso.ng/1/9759c2d8c4c9", 
+    "audio_url": "https://s01.sso.ng/1/00000002dc72_9759c2d8c4c9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002dc72_9759c2d8c4c9_mr.jpg", 
+    "song_album": "And Out Come The Wolves", 
+    "user": {
+        "username": "Tsuguya", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6eb2dc1f-fc84-49cc-bd93-bdd976eace3f.jpg", 
+        "id": "6eb2dc1f-fc84-49cc-bd93-bdd976eace3f"
+    }, 
+    "song_title": "Ruby Soho", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002dc72_9759c2d8c4c9_th.jpg", 
+    "song_artist": "Rancid", 
+    "favorite_count": 1, 
+    "uuid": "3BE2831A-FA86-44E0-995F-1F7309FF2BE5"
+}

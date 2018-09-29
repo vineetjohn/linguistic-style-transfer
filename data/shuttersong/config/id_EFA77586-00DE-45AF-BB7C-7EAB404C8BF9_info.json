@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T20:38:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002690e_857838c20198.ssng", 
+    "updated_at": "2015-08-21T21:03:01-04:00", 
+    "share_url": "https://a.sso.ng/1/857838c20198", 
+    "audio_url": "https://s01.sso.ng/1/00000002690e_857838c20198.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002690e_857838c20198_mr.jpg", 
+    "song_album": "Paramore", 
+    "user": {
+        "username": "EvelinP.A", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ebfdc593-d2b5-4451-b3e5-e57649d3c2a0.jpg", 
+        "id": "ebfdc593-d2b5-4451-b3e5-e57649d3c2a0"
+    }, 
+    "song_title": "Daydreaming", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002690e_857838c20198_th.jpg", 
+    "song_artist": "Paramore", 
+    "favorite_count": 1, 
+    "uuid": "EFA77586-00DE-45AF-BB7C-7EAB404C8BF9"
+}

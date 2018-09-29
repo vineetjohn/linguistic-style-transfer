@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Too pale for life \u270c\ud83c\udffb\ufe0f", 
+    "created_at": "2016-05-14T10:31:20-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7ac_84d7a0912507.ssng", 
+    "updated_at": "2016-05-15T07:34:57-04:00", 
+    "share_url": "https://a.sso.ng/1/84d7a0912507", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7ac_84d7a0912507.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7ac_84d7a0912507_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "theresa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0ff29971-dfa2-4a04-b295-aca7b7192cc5.jpg", 
+        "id": "0ff29971-dfa2-4a04-b295-aca7b7192cc5"
+    }, 
+    "song_title": "Aftertaste", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7ac_84d7a0912507_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 3, 
+    "uuid": "624998D3-87D3-4811-95AA-6DB21434CF74"
+}

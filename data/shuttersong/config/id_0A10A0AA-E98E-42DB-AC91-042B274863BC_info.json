@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T00:03:18-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003248d_90bf35609334.ssng", 
+    "updated_at": "2015-12-19T12:38:28-05:00", 
+    "share_url": "https://a.sso.ng/1/90bf35609334", 
+    "audio_url": "https://s01.sso.ng/1/00000003248d_90bf35609334.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003248d_90bf35609334_mr.jpg", 
+    "song_album": "Ed Sheeran", 
+    "user": {
+        "username": "LeiramZop", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "ee25267e-c8d8-49af-b6a0-20d8df2aa32d"
+    }, 
+    "song_title": "Cold coffee", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003248d_90bf35609334_th.jpg", 
+    "song_artist": "Songs I Wrote With Amy", 
+    "favorite_count": 1, 
+    "uuid": "0A10A0AA-E98E-42DB-AC91-042B274863BC"
+}

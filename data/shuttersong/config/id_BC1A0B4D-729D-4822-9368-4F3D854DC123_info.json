@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-28T22:02:38-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004032d_77417d42a17c.ssng", 
+    "updated_at": "2016-03-30T00:59:30-04:00", 
+    "share_url": "https://a.sso.ng/1/77417d42a17c", 
+    "audio_url": "https://s02.sso.ng/1/00000004032d_77417d42a17c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004032d_77417d42a17c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "nea_caro", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b9dbb886-0896-4231-82c0-33e0656bd2eb"
+    }, 
+    "song_title": "Paradise City", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004032d_77417d42a17c_th.jpg", 
+    "song_artist": "Guns N' Roses", 
+    "favorite_count": 2, 
+    "uuid": "BC1A0B4D-729D-4822-9368-4F3D854DC123"
+}

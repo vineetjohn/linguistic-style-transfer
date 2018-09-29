@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-03T16:42:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002ddf5_2d89f8256a77.ssng", 
+    "updated_at": "2015-09-04T12:07:05-04:00", 
+    "share_url": "https://a.sso.ng/1/2d89f8256a77", 
+    "audio_url": "https://s01.sso.ng/1/00000002ddf5_2d89f8256a77.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002ddf5_2d89f8256a77_mr.jpg", 
+    "song_album": "Paramore", 
+    "user": {
+        "username": "Dallas_kaye", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/275706ba-0068-4a7b-b8c6-f4b73cd4a115.jpg", 
+        "id": "275706ba-0068-4a7b-b8c6-f4b73cd4a115"
+    }, 
+    "song_title": "Ain't It Fun", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002ddf5_2d89f8256a77_th.jpg", 
+    "song_artist": "Paramore", 
+    "favorite_count": 1, 
+    "uuid": "0450117F-1D65-46F0-9686-7F295BE31017"
+}

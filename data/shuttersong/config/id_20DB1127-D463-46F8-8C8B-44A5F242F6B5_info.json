@@ -1,0 +1,27 @@
+{
+    "mood": "awake", 
+    "caption": "Good morning ? how is everyone ??", 
+    "created_at": "2016-02-10T06:47:29-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e64b_d3732c002fc0.ssng", 
+    "updated_at": "2016-02-11T17:36:48-05:00", 
+    "share_url": "https://a.sso.ng/1/d3732c002fc0", 
+    "audio_url": "https://s02.sso.ng/1/00000003e64b_d3732c002fc0.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e64b_d3732c002fc0_mr.jpg", 
+    "song_album": "Dopamine", 
+    "user": {
+        "username": "FatLuka", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Mollie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3c5466f8-cac4-4469-9c85-676df17b3e19.jpg", 
+        "id": "3c5466f8-cac4-4469-9c85-676df17b3e19"
+    }, 
+    "song_title": "Electric Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e64b_d3732c002fc0_th.jpg", 
+    "song_artist": "B\u00d8RNS", 
+    "favorite_count": 5, 
+    "uuid": "20DB1127-D463-46F8-8C8B-44A5F242F6B5"
+}

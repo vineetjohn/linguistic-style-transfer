@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-04T16:51:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bbd3_82917df58f37.ssng", 
+    "updated_at": "2016-01-19T04:35:57-05:00", 
+    "share_url": "https://a.sso.ng/1/82917df58f37", 
+    "audio_url": "https://s01.sso.ng/1/00000003bbd3_82917df58f37.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bbd3_82917df58f37_mr.jpg", 
+    "song_album": "Meghan Trainor Ft. John Legend", 
+    "user": {
+        "username": "anapaulagm6", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/78c478e2-76ee-4056-9d13-cd91e1f5d281.jpg", 
+        "id": "78c478e2-76ee-4056-9d13-cd91e1f5d281"
+    }, 
+    "song_title": "Like Im Gonna Lose You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bbd3_82917df58f37_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "EAEEAAFB-2C79-4EDD-80EF-E2B22257C4E2"
+}

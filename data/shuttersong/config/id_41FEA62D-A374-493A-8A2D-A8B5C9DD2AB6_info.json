@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-10T13:22:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e17f_85bef395568e.ssng", 
+    "updated_at": "2015-09-12T17:39:54-04:00", 
+    "share_url": "https://a.sso.ng/1/85bef395568e", 
+    "audio_url": "https://s01.sso.ng/1/00000002e17f_85bef395568e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e17f_85bef395568e_mr.jpg", 
+    "song_album": "Debut Album", 
+    "user": {
+        "username": "mynameismayk", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/86c7afb8-7d42-4e49-8ca9-28c766e4b03b.jpg", 
+        "id": "86c7afb8-7d42-4e49-8ca9-28c766e4b03b"
+    }, 
+    "song_title": "Just the Way You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e17f_85bef395568e_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 2, 
+    "uuid": "41FEA62D-A374-493A-8A2D-A8B5C9DD2AB6"
+}

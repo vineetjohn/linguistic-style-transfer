@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YT: Mar\u00edajose Rosales :)", 
+    "created_at": "2015-12-22T01:00:05-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037979_eb517b079c36_1.ssng", 
+    "updated_at": "2015-12-23T19:45:45-05:00", 
+    "share_url": "https://a.sso.ng/1/eb517b079c36", 
+    "audio_url": "https://s01.sso.ng/1/000000037979_eb517b079c36_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037979_eb517b079c36_1_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "maariarosales", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c2b6a709-f330-4208-824f-99853133ef26"
+    }, 
+    "song_title": "Purpose", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037979_eb517b079c36_1_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "A32A291B-2405-4CA8-A6F8-A701D0B7F2B3"
+}

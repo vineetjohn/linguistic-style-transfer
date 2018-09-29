@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Bae for life ?", 
+    "created_at": "2015-11-22T19:16:06-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030367_6d7f9857b348_1.ssng", 
+    "updated_at": "2015-12-31T11:42:40-05:00", 
+    "share_url": "https://a.sso.ng/1/6d7f9857b348", 
+    "audio_url": "https://s01.sso.ng/1/000000030367_6d7f9857b348_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030367_6d7f9857b348_1_mr.jpg", 
+    "song_album": "Into the Wild Life (Deluxe)", 
+    "user": {
+        "username": "jillylol", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jillian ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dbfb576e-2729-4faa-8373-2b64fd634c6a.jpg", 
+        "id": "dbfb576e-2729-4faa-8373-2b64fd634c6a"
+    }, 
+    "song_title": "Apocalyptic", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030367_6d7f9857b348_1_th.jpg", 
+    "song_artist": "Halestorm", 
+    "favorite_count": 3, 
+    "uuid": "1D8F67C4-6DBE-4BF2-9A11-DF96678C029C"
+}

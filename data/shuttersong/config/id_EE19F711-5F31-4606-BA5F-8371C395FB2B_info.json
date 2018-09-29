@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T07:08:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021619_7cb19beff801.ssng", 
+    "updated_at": "2015-08-04T07:08:33-04:00", 
+    "share_url": "https://a.sso.ng/1/7cb19beff801", 
+    "audio_url": "https://s01.sso.ng/1/000000021619_7cb19beff801.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021619_7cb19beff801_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jecagan", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d11c9179-6cfd-4206-9124-d2ec7ad12369"
+    }, 
+    "song_title": "Becky G - Shower (Lyrics)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021619_7cb19beff801_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "EE19F711-5F31-4606-BA5F-8371C395FB2B"
+}

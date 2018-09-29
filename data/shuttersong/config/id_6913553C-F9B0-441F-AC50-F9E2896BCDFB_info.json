@@ -1,0 +1,27 @@
+{
+    "mood": "hungry", 
+    "caption": "?", 
+    "created_at": "2016-02-14T10:36:09-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eca1_490b8f134472.ssng", 
+    "updated_at": "2016-02-14T15:52:11-05:00", 
+    "share_url": "https://a.sso.ng/1/490b8f134472", 
+    "audio_url": "https://s02.sso.ng/1/00000003eca1_490b8f134472.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eca1_490b8f134472_mr.jpg", 
+    "song_album": "Toxicity", 
+    "user": {
+        "username": "rudeyammouni", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7a461cb5-49a1-44ac-9983-4184fd276947.jpg", 
+        "id": "7a461cb5-49a1-44ac-9983-4184fd276947"
+    }, 
+    "song_title": "Chop Suey!", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eca1_490b8f134472_th.jpg", 
+    "song_artist": "System of a Down", 
+    "favorite_count": 1, 
+    "uuid": "6913553C-F9B0-441F-AC50-F9E2896BCDFB"
+}

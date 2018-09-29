@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-26T06:58:09-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003669a_91fc860a3ebf.ssng", 
+    "updated_at": "2015-12-26T12:37:56-05:00", 
+    "share_url": "https://a.sso.ng/1/91fc860a3ebf", 
+    "audio_url": "https://s01.sso.ng/1/00000003669a_91fc860a3ebf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003669a_91fc860a3ebf_mr.jpg", 
+    "song_album": "Saint Cecilia - EP", 
+    "user": {
+        "username": "Anndrea_Fuentes", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Andrea Fuentes.", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a8200bdb-cf35-4ce9-b059-d674b290c5f8.jpg", 
+        "id": "a8200bdb-cf35-4ce9-b059-d674b290c5f8"
+    }, 
+    "song_title": "Sean", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003669a_91fc860a3ebf_th.jpg", 
+    "song_artist": "Foo Fighters", 
+    "favorite_count": 1, 
+    "uuid": "BE526460-40D5-4A9C-AF9E-B1996C334997"
+}

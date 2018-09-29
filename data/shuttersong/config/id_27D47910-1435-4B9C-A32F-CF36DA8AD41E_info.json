@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Son lo m\u00e1ximo", 
+    "created_at": "2015-12-17T21:31:28-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000332e9_f71d2fa7d503_1.ssng", 
+    "updated_at": "2015-12-18T19:20:25-05:00", 
+    "share_url": "https://a.sso.ng/1/f71d2fa7d503", 
+    "audio_url": "https://s01.sso.ng/1/0000000332e9_f71d2fa7d503_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000332e9_f71d2fa7d503_1_mr.jpg", 
+    "song_album": "www.livingelectro.com", 
+    "user": {
+        "username": "hatziri", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a01eacc7-5fb5-4d36-a77d-de5f859b679f.jpg", 
+        "id": "a01eacc7-5fb5-4d36-a77d-de5f859b679f"
+    }, 
+    "song_title": "Wake Me Up", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000332e9_f71d2fa7d503_1_th.jpg", 
+    "song_artist": "Avicii", 
+    "favorite_count": 3, 
+    "uuid": "27D47910-1435-4B9C-A32F-CF36DA8AD41E"
+}

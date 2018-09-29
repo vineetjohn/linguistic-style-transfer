@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-01T12:36:48-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000305a7_60a00f78d147.ssng", 
+    "updated_at": "2015-12-02T00:40:16-05:00", 
+    "share_url": "https://a.sso.ng/1/60a00f78d147", 
+    "audio_url": "https://s01.sso.ng/1/0000000305a7_60a00f78d147.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000305a7_60a00f78d147_mr.jpg", 
+    "song_album": "X (Deluxe Edition)", 
+    "user": {
+        "username": "makeupjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Yagurljohnson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/50f8a028-facc-45ab-9177-8adde9c0fda9.jpg", 
+        "id": "50f8a028-facc-45ab-9177-8adde9c0fda9"
+    }, 
+    "song_title": "Photograph", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000305a7_60a00f78d147_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 4, 
+    "uuid": "E67409A3-1E03-4719-9912-7568B00EF26F"
+}

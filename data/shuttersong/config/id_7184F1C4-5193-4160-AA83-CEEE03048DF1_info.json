@@ -1,0 +1,27 @@
+{
+    "mood": "cold", 
+    "caption": "\u2665\ufe0f", 
+    "created_at": "2015-12-21T12:39:02-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003814a_7de1ad93dcb0_1.ssng", 
+    "updated_at": "2015-12-22T10:12:34-05:00", 
+    "share_url": "https://a.sso.ng/1/7de1ad93dcb0", 
+    "audio_url": "https://s01.sso.ng/1/00000003814a_7de1ad93dcb0_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003814a_7de1ad93dcb0_1_mr.jpg", 
+    "song_album": "Beacon", 
+    "user": {
+        "username": "AmandaGomez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e41ac24-976b-4c38-baf1-21a76d431ecc.jpg", 
+        "id": "2e41ac24-976b-4c38-baf1-21a76d431ecc"
+    }, 
+    "song_title": "Next Year", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003814a_7de1ad93dcb0_1_th.jpg", 
+    "song_artist": "Two Door Cinema Club", 
+    "favorite_count": 1, 
+    "uuid": "7184F1C4-5193-4160-AA83-CEEE03048DF1"
+}

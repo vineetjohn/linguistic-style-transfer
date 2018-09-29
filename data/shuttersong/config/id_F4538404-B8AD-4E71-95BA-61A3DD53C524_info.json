@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#jackandjack #jackjohnson #jackgilinsky", 
+    "created_at": "2015-08-04T14:49:23-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020b60_ae37fb58c9d9.ssng", 
+    "updated_at": "2015-10-24T16:46:19-04:00", 
+    "share_url": "https://a.sso.ng/1/ae37fb58c9d9", 
+    "audio_url": "https://s01.sso.ng/1/000000020b60_ae37fb58c9d9.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020b60_ae37fb58c9d9_mr.jpg", 
+    "song_album": "Cold Hearted - Single", 
+    "user": {
+        "username": "jaylyynn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jaylynn", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/542bfac2-24f5-4a08-840c-230710bbeab4.jpg", 
+        "id": "542bfac2-24f5-4a08-840c-230710bbeab4"
+    }, 
+    "song_title": "Cold Hearted", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020b60_ae37fb58c9d9_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 4, 
+    "uuid": "F4538404-B8AD-4E71-95BA-61A3DD53C524"
+}

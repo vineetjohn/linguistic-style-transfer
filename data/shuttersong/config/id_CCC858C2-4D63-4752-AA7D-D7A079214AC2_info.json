@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#marialeregalauniphone", 
+    "created_at": "2016-01-06T10:20:13-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c5e8_7a99b290965b.ssng", 
+    "updated_at": "2016-01-08T17:31:22-05:00", 
+    "share_url": "https://a.sso.ng/1/7a99b290965b", 
+    "audio_url": "https://s01.sso.ng/1/00000003c5e8_7a99b290965b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c5e8_7a99b290965b_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "isa29", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4c43aba0-f20c-4c29-a7e7-d54772c4df13"
+    }, 
+    "song_title": "Thinking Out Loud [Official Video]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c5e8_7a99b290965b_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 1, 
+    "uuid": "CCC858C2-4D63-4752-AA7D-D7A079214AC2"
+}

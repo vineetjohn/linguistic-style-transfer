@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Love O2L", 
+    "created_at": "2015-08-06T22:36:13-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022a5d_3cbb4000fa5d_1.ssng", 
+    "updated_at": "2015-08-06T22:36:37-04:00", 
+    "share_url": "https://a.sso.ng/1/3cbb4000fa5d", 
+    "audio_url": "https://s01.sso.ng/1/000000022a5d_3cbb4000fa5d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022a5d_3cbb4000fa5d_1_mr.jpg", 
+    "song_album": "The Bright Side", 
+    "user": {
+        "username": "Paige.O2L", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Paige ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/56854f37-a8a3-4eb6-881f-4fb3281acbdb.jpg", 
+        "id": "56854f37-a8a3-4eb6-881f-4fb3281acbdb"
+    }, 
+    "song_title": "Like the Way", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022a5d_3cbb4000fa5d_1_th.jpg", 
+    "song_artist": "Aer", 
+    "favorite_count": 1, 
+    "uuid": "46F859B5-0BDF-4738-A7BF-A6953732380D"
+}

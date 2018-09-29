@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-28T16:06:17-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042373_f1b8640376cf.ssng", 
+    "updated_at": "2016-04-28T21:58:12-04:00", 
+    "share_url": "https://a.sso.ng/1/f1b8640376cf", 
+    "audio_url": "https://s02.sso.ng/1/000000042373_f1b8640376cf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042373_f1b8640376cf_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "vincemusanti", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0ab48a65-3ba7-4bbf-b3ba-d8c1fa158804"
+    }, 
+    "song_title": "Al Jolson - I'm Sitting On Top Of The World (Lyrics)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042373_f1b8640376cf_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "73299A4E-ED85-47B2-AEBA-5905B144DB9F"
+}

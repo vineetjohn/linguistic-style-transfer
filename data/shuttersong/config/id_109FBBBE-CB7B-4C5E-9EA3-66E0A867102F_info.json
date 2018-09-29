@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-20T19:42:48-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e821_e3289635097e.ssng", 
+    "updated_at": "2016-06-21T16:33:22-04:00", 
+    "share_url": "https://a.sso.ng/1/e3289635097e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e821_e3289635097e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e821_e3289635097e_mr.jpg", 
+    "song_album": "Title - EP", 
+    "user": {
+        "username": "Annini", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09e1fb3d-69fa-4375-93a4-008fc02e1b34.jpg", 
+        "id": "09e1fb3d-69fa-4375-93a4-008fc02e1b34"
+    }, 
+    "song_title": "All About That Bass", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e821_e3289635097e_th.jpg", 
+    "song_artist": "Meghan Trainor", 
+    "favorite_count": 4, 
+    "uuid": "109FBBBE-CB7B-4C5E-9EA3-66E0A867102F"
+}

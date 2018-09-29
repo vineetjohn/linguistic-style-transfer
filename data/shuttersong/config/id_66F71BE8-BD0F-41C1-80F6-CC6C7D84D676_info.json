@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo MayraMarcial", 
+    "created_at": "2016-01-02T20:55:37-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000039d94_f17d5bf3afe6.ssng", 
+    "updated_at": "2016-01-02T21:50:18-05:00", 
+    "share_url": "https://a.sso.ng/1/f17d5bf3afe6", 
+    "audio_url": "https://s01.sso.ng/1/000000039d94_f17d5bf3afe6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000039d94_f17d5bf3afe6_mr.jpg", 
+    "song_album": "Samsung", 
+    "user": {
+        "username": "MayraMarcial", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "10c86aad-4913-4042-a41f-67993da7c3b5"
+    }, 
+    "song_title": "Over the Horizon", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000039d94_f17d5bf3afe6_th.jpg", 
+    "song_artist": "Brand Music", 
+    "favorite_count": 1, 
+    "uuid": "66F71BE8-BD0F-41C1-80F6-CC6C7D84D676"
+}

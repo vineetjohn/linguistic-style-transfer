@@ -1,0 +1,27 @@
+{
+    "mood": "accomplished", 
+    "caption": "", 
+    "created_at": "2016-03-21T03:42:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d4b4_63b5f2958a75.ssng", 
+    "updated_at": "2016-03-23T06:28:27-04:00", 
+    "share_url": "https://a.sso.ng/1/63b5f2958a75", 
+    "audio_url": "https://s02.sso.ng/1/00000003d4b4_63b5f2958a75.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d4b4_63b5f2958a75_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Kaleb67k", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s01.sso.ng/users/80686d0e-1dbc-4944-a788-e903ff4d765a.jpg", 
+        "id": "80686d0e-1dbc-4944-a788-e903ff4d765a"
+    }, 
+    "song_title": "Bitch Dont Kill My Vibe (Explicit)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d4b4_63b5f2958a75_th.jpg", 
+    "song_artist": "Kendrick Lamar", 
+    "favorite_count": 1, 
+    "uuid": "AF16BD8F-A105-4CBF-9BCB-08DC60F10D3B"
+}

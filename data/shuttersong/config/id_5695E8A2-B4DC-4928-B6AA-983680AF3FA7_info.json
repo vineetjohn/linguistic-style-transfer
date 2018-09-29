@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#dirtypig", 
+    "created_at": "2016-02-18T22:57:56-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f046_0a5e82270a65.ssng", 
+    "updated_at": "2016-02-19T02:05:45-05:00", 
+    "share_url": "https://a.sso.ng/1/0a5e82270a65", 
+    "audio_url": "https://s02.sso.ng/1/00000003f046_0a5e82270a65.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f046_0a5e82270a65_mr.jpg", 
+    "song_album": "Set This World On Fire - Single", 
+    "user": {
+        "username": "taianh", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Tai Anh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d5d8a95d-1ae3-4265-9773-e7d9484abc64.jpg", 
+        "id": "d5d8a95d-1ae3-4265-9773-e7d9484abc64"
+    }, 
+    "song_title": "Set This World On Fire", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f046_0a5e82270a65_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "5695E8A2-B4DC-4928-B6AA-983680AF3FA7"
+}

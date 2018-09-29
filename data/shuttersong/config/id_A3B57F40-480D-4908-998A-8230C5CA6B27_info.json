@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-15T15:50:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002443a_8a5b2d608ed1.ssng", 
+    "updated_at": "2015-08-18T10:24:36-04:00", 
+    "share_url": "https://a.sso.ng/1/8a5b2d608ed1", 
+    "audio_url": "https://s01.sso.ng/1/00000002443a_8a5b2d608ed1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002443a_8a5b2d608ed1_mr.jpg", 
+    "song_album": "A Piece of Me EP", 
+    "user": {
+        "username": "emilyalvarez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e0533a94-8fe2-41f7-844a-e29e74c24742.jpg", 
+        "id": "e0533a94-8fe2-41f7-844a-e29e74c24742"
+    }, 
+    "song_title": "Not My Type at All", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002443a_8a5b2d608ed1_th.jpg", 
+    "song_artist": "Jacob Whitesides", 
+    "favorite_count": 2, 
+    "uuid": "A3B57F40-480D-4908-998A-8230C5CA6B27"
+}

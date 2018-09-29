@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-01-30T02:56:50-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003dd57_a511adaad13c.ssng", 
+    "updated_at": "2016-01-31T13:19:33-05:00", 
+    "share_url": "https://a.sso.ng/1/a511adaad13c", 
+    "audio_url": "https://s02.sso.ng/1/00000003dd57_a511adaad13c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003dd57_a511adaad13c_mr.jpg", 
+    "song_album": "Strength &amp; Loyalty [Best Buy Exclusive]", 
+    "user": {
+        "username": "shadowlion", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8b04cfe4-af83-41a3-a1c3-b502ee5baadb"
+    }, 
+    "song_title": "Just Vibe", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003dd57_a511adaad13c_th.jpg", 
+    "song_artist": "Bone Thugs-N-Harmony", 
+    "favorite_count": 1, 
+    "uuid": "EF822F03-51C8-43AF-A85C-735DB4E420C6"
+}

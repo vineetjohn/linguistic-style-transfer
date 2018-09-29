@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-03T01:13:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000432c7_0605b29b6ee6.ssng", 
+    "updated_at": "2016-06-05T10:12:52-04:00", 
+    "share_url": "https://a.sso.ng/1/0605b29b6ee6", 
+    "audio_url": "https://s02.sso.ng/1/0000000432c7_0605b29b6ee6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000432c7_0605b29b6ee6_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "vusterone", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d310dbdb-8284-49e3-861b-9c040ccd6333.jpg", 
+        "id": "d310dbdb-8284-49e3-861b-9c040ccd6333"
+    }, 
+    "song_title": "Yuna - Crush (Audio) ft. Usher", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000432c7_0605b29b6ee6_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "69D3F367-387C-4FC1-9EDB-428C8B8215C4"
+}

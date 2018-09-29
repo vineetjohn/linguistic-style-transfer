@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo @ale15fuentes", 
+    "created_at": "2015-12-22T10:23:36-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000034f61_ea512129b02a_1.ssng", 
+    "updated_at": "2015-12-22T11:42:46-05:00", 
+    "share_url": "https://a.sso.ng/1/ea512129b02a", 
+    "audio_url": "https://s01.sso.ng/1/000000034f61_ea512129b02a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000034f61_ea512129b02a_1_mr.jpg", 
+    "song_album": "One of The Boys...", 
+    "user": {
+        "username": "ale15fuentes", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7e6bf8c1-8120-4898-b85c-c3ae0c68df33.jpg", 
+        "id": "7e6bf8c1-8120-4898-b85c-c3ae0c68df33"
+    }, 
+    "song_title": "Hot 'N Cold", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000034f61_ea512129b02a_1_th.jpg", 
+    "song_artist": "Katy Perry", 
+    "favorite_count": 1, 
+    "uuid": "B650F0E0-7998-4E19-9D0A-8447506A4037"
+}

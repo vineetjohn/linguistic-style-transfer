@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "En el colegio/ At school ?", 
+    "created_at": "2015-12-28T16:27:15-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000039ac3_fd6e95d584d3.ssng", 
+    "updated_at": "2015-12-30T21:07:13-05:00", 
+    "share_url": "https://a.sso.ng/1/fd6e95d584d3", 
+    "audio_url": "https://s01.sso.ng/1/000000039ac3_fd6e95d584d3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000039ac3_fd6e95d584d3_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "MaruAlvarez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b961f11b-b4bd-422a-aef8-ca3e28977879"
+    }, 
+    "song_title": "Iggy Azalea - Fancy (Explicit) ft. Charli XCX", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000039ac3_fd6e95d584d3_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "1C591030-1875-42EC-A42F-8D4BA4134A9B"
+}

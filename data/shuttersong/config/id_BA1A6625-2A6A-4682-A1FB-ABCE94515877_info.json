@@ -1,0 +1,27 @@
+{
+    "mood": "Royal", 
+    "caption": "", 
+    "created_at": "2016-01-29T04:41:26-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_cac54d4eb34c.ssng", 
+    "updated_at": "2016-01-29T04:53:29-05:00", 
+    "share_url": "https://a.sso.ng/1/cac54d4eb34c", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_cac54d4eb34c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_cac54d4eb34c_mr.jpg", 
+    "song_album": "Californication", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "Otherside", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_cac54d4eb34c_th.jpg", 
+    "song_artist": "Red Hot Chilli Peppers", 
+    "favorite_count": 1, 
+    "uuid": "BA1A6625-2A6A-4682-A1FB-ABCE94515877"
+}

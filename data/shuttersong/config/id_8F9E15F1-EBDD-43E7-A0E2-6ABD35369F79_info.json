@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-10T20:39:51-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003149c_9131ba00e5b8.ssng", 
+    "updated_at": "2016-01-11T13:53:46-05:00", 
+    "share_url": "https://a.sso.ng/1/9131ba00e5b8", 
+    "audio_url": "https://s01.sso.ng/1/00000003149c_9131ba00e5b8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003149c_9131ba00e5b8_mr.jpg", 
+    "song_album": "Taylor Swift", 
+    "user": {
+        "username": "Madeleine.C", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "21afe2e5-82fc-4662-84ac-dcf22251f7e2"
+    }, 
+    "song_title": "I Knew You Were Trouble", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003149c_9131ba00e5b8_th.jpg", 
+    "song_artist": "Red", 
+    "favorite_count": 3, 
+    "uuid": "8F9E15F1-EBDD-43E7-A0E2-6ABD35369F79"
+}

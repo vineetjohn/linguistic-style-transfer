@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u27b0?\u27b0", 
+    "created_at": "2015-08-04T00:17:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021119_79c0785bcd99_1.ssng", 
+    "updated_at": "2016-03-02T02:58:33-05:00", 
+    "share_url": "https://a.sso.ng/1/79c0785bcd99", 
+    "audio_url": "https://s01.sso.ng/1/000000021119_79c0785bcd99_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021119_79c0785bcd99_1_mr.jpg", 
+    "song_album": "She Bad (feat. Sj3) - Single", 
+    "user": {
+        "username": "danya", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3c886495-3aff-465f-92c3-a230c3db93d2"
+    }, 
+    "song_title": "She Bad (feat. Sj3)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021119_79c0785bcd99_1_th.jpg", 
+    "song_artist": "Cameron Dallas", 
+    "favorite_count": 5, 
+    "uuid": "34D96DFA-1B91-4A3E-889C-3E2633626347"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "Calm", 
+    "caption": "", 
+    "created_at": "2016-03-27T11:40:15-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fd53_2c0a4851c0a7.ssng", 
+    "updated_at": "2016-03-30T03:16:05-04:00", 
+    "share_url": "https://a.sso.ng/1/2c0a4851c0a7", 
+    "audio_url": "https://s02.sso.ng/1/00000003fd53_2c0a4851c0a7.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fd53_2c0a4851c0a7_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "liz810", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6b8a2396-a506-4a07-b996-87655db6800b.jpg", 
+        "id": "6b8a2396-a506-4a07-b996-87655db6800b"
+    }, 
+    "song_title": "Katy Perry-California Gurls-ft Snoop Dogg_1454219157290", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fd53_2c0a4851c0a7_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "1DB984FE-F42E-4887-805A-7D3B1081A2A4"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "That time when Jack and Jack almost missed their flight??", 
+    "created_at": "2015-08-03T23:15:14-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000209bc_cf54f24429ea.ssng", 
+    "updated_at": "2015-08-21T00:49:18-04:00", 
+    "share_url": "https://a.sso.ng/1/cf54f24429ea", 
+    "audio_url": "https://s01.sso.ng/1/0000000209bc_cf54f24429ea.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000209bc_cf54f24429ea_mr.jpg", 
+    "song_album": "Flights - Single", 
+    "user": {
+        "username": "jessicx15", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d5492623-3406-414d-ac41-693acae4ce5a.jpg", 
+        "id": "d5492623-3406-414d-ac41-693acae4ce5a"
+    }, 
+    "song_title": "Flights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000209bc_cf54f24429ea_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "F4314E89-876C-4278-BBEB-4F18B15ED482"
+}

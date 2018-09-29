@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "holy // PVRIS", 
+    "created_at": "2015-08-30T10:08:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d6db_7633cbfb23cc_1.ssng", 
+    "updated_at": "2015-08-30T23:45:24-04:00", 
+    "share_url": "https://a.sso.ng/1/7633cbfb23cc", 
+    "audio_url": "https://s01.sso.ng/1/00000002d6db_7633cbfb23cc_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d6db_7633cbfb23cc_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "emywillow", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "fb1e7b7a-9014-45d9-aacd-da46c724e07d"
+    }, 
+    "song_title": "Holy", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d6db_7633cbfb23cc_1_th.jpg", 
+    "song_artist": "PVRIS", 
+    "favorite_count": 1, 
+    "uuid": "26B645F0-CC93-49BC-981F-46D25CAE3705"
+}

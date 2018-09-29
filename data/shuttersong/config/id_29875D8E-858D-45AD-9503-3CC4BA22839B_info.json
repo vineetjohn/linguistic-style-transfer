@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "10 Things I Hate About You", 
+    "created_at": "2015-07-20T11:59:31-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f43c_6b8945173cb1_2.ssng", 
+    "updated_at": "2015-07-20T12:00:33-04:00", 
+    "share_url": "https://a.sso.ng/1/6b8945173cb1", 
+    "audio_url": "https://s01.sso.ng/1/00000001f43c_6b8945173cb1_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f43c_6b8945173cb1_2_mr.jpg", 
+    "song_album": "10 Things I Hate About You Soundtrack", 
+    "user": {
+        "username": "Chloe_McMinn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/44fd5814-d515-4d80-80a0-5004e3c8820f.jpg", 
+        "id": "44fd5814-d515-4d80-80a0-5004e3c8820f"
+    }, 
+    "song_title": "I Want You To Want Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f43c_6b8945173cb1_2_th.jpg", 
+    "song_artist": "Letters to Cleo", 
+    "favorite_count": 1, 
+    "uuid": "29875D8E-858D-45AD-9503-3CC4BA22839B"
+}

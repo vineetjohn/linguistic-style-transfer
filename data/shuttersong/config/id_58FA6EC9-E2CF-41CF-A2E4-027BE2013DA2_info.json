@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Me encanta la Navidad! ?#SantaSorteo @GabiiGym", 
+    "created_at": "2015-12-21T19:14:43-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003647a_4c872e759f27_1.ssng", 
+    "updated_at": "2015-12-21T20:34:52-05:00", 
+    "share_url": "https://a.sso.ng/1/4c872e759f27", 
+    "audio_url": "https://s01.sso.ng/1/00000003647a_4c872e759f27_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003647a_4c872e759f27_1_mr.jpg", 
+    "song_album": "Roses (feat. ROZES) - Single", 
+    "user": {
+        "username": "Gabi_Tellez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gabi", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f32c3d7c-32fa-45cf-95ef-df10c533dee3.jpg", 
+        "id": "f32c3d7c-32fa-45cf-95ef-df10c533dee3"
+    }, 
+    "song_title": "Roses (feat. ROZES)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003647a_4c872e759f27_1_th.jpg", 
+    "song_artist": "The Chainsmokers", 
+    "favorite_count": 1, 
+    "uuid": "58FA6EC9-E2CF-41CF-A2E4-027BE2013DA2"
+}

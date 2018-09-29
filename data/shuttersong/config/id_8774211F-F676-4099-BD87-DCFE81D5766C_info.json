@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-08T04:40:11-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042cbe_89bf54d0e787.ssng", 
+    "updated_at": "2016-05-08T23:44:16-04:00", 
+    "share_url": "https://a.sso.ng/1/89bf54d0e787", 
+    "audio_url": "https://s02.sso.ng/1/000000042cbe_89bf54d0e787.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042cbe_89bf54d0e787_mr.jpg", 
+    "song_album": "dog days are over", 
+    "user": {
+        "username": "vdevalelgt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1b9144e3-6964-48d5-8fd9-dd719a4d9d67"
+    }, 
+    "song_title": "dog days are over - www.hotmentos.com", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042cbe_89bf54d0e787_th.jpg", 
+    "song_artist": "florence and the machine", 
+    "favorite_count": 1, 
+    "uuid": "8774211F-F676-4099-BD87-DCFE81D5766C"
+}

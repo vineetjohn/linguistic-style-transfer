@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T09:27:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029072_cc7088de46cb.ssng", 
+    "updated_at": "2015-08-22T22:14:48-04:00", 
+    "share_url": "https://a.sso.ng/1/cc7088de46cb", 
+    "audio_url": "https://s01.sso.ng/1/000000029072_cc7088de46cb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029072_cc7088de46cb_mr.jpg", 
+    "song_album": "The Official Uk Top 40 Singles Chart 11-08-2013", 
+    "user": {
+        "username": "GianiRam", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gianina Valeria Ram\u00edrez", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/221cdc13-379c-4a1e-81c4-c76bdec0820c.jpg", 
+        "id": "221cdc13-379c-4a1e-81c4-c76bdec0820c"
+    }, 
+    "song_title": "Summertime Sadness (Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029072_cc7088de46cb_th.jpg", 
+    "song_artist": "Lana Del Rey Vs Cedric Gervais", 
+    "favorite_count": 1, 
+    "uuid": "91295C12-EC9C-4B10-8CBA-DFE4EF2737A3"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "cracking bronsons on the water", 
+    "created_at": "2015-10-11T13:34:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021e9c_a341e4e3b23e_1.ssng", 
+    "updated_at": "2015-12-31T07:26:13-05:00", 
+    "share_url": "https://a.sso.ng/1/a341e4e3b23e", 
+    "audio_url": "https://s01.sso.ng/1/000000021e9c_a341e4e3b23e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021e9c_a341e4e3b23e_1_mr.jpg", 
+    "song_album": "Live Show 4 of 7 (Seattle)", 
+    "user": {
+        "username": "PledgeMusic", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f18e0d34-9d3c-4501-868f-88402003e364.jpg", 
+        "id": "f18e0d34-9d3c-4501-868f-88402003e364"
+    }, 
+    "song_title": "07 Cold Beverage", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021e9c_a341e4e3b23e_1_th.jpg", 
+    "song_artist": "G. Love & Special Sauce", 
+    "favorite_count": 3, 
+    "uuid": "B262B449-79D1-4A95-8D2D-6E801BF0190F"
+}

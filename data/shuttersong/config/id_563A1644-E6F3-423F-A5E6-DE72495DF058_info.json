@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "BFF \u2764\ufe0f", 
+    "created_at": "2016-01-10T11:09:46-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b3d8_f35563218ef6.ssng", 
+    "updated_at": "2016-02-12T10:57:25-05:00", 
+    "share_url": "https://a.sso.ng/1/f35563218ef6", 
+    "audio_url": "https://s01.sso.ng/1/00000003b3d8_f35563218ef6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b3d8_f35563218ef6_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "saracantuc", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a89e3533-a869-47bd-ad4e-5459094fbcce.jpg", 
+        "id": "a89e3533-a869-47bd-ad4e-5459094fbcce"
+    }, 
+    "song_title": "California Girls", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b3d8_f35563218ef6_th.jpg", 
+    "song_artist": "Katy Perry Ft. Snoop Dog", 
+    "favorite_count": 3, 
+    "uuid": "563A1644-E6F3-423F-A5E6-DE72495DF058"
+}

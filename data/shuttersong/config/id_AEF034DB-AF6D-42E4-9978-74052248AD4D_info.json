@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo.  #mariale", 
+    "created_at": "2015-12-18T14:10:32-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000357cb_c902f5bd1db7.ssng", 
+    "updated_at": "2015-12-24T08:42:21-05:00", 
+    "share_url": "https://a.sso.ng/1/c902f5bd1db7", 
+    "audio_url": "https://s01.sso.ng/1/0000000357cb_c902f5bd1db7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000357cb_c902f5bd1db7_mr.jpg", 
+    "song_album": "Talyor Swift", 
+    "user": {
+        "username": "andrea19802020", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/31745d11-fa7b-4fb2-b3f3-3f9275f917d2.jpg", 
+        "id": "31745d11-fa7b-4fb2-b3f3-3f9275f917d2"
+    }, 
+    "song_title": "shake it off", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000357cb_c902f5bd1db7_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "AEF034DB-AF6D-42E4-9978-74052248AD4D"
+}

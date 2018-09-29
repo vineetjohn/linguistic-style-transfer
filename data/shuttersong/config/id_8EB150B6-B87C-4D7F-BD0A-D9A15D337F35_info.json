@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-16T00:58:50-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024905_ab8c7f699ea1.ssng", 
+    "updated_at": "2015-08-16T12:10:57-04:00", 
+    "share_url": "https://a.sso.ng/1/ab8c7f699ea1", 
+    "audio_url": "https://s01.sso.ng/1/000000024905_ab8c7f699ea1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024905_ab8c7f699ea1_mr.jpg", 
+    "song_album": "Nothing But the Beat", 
+    "user": {
+        "username": "dcl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "31d50094-3aa3-4859-9206-dd8b3b687e83"
+    }, 
+    "song_title": "Turn Me On (feat. Nicki Minaj)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024905_ab8c7f699ea1_th.jpg", 
+    "song_artist": "David Guetta & Nicki Minaj", 
+    "favorite_count": 1, 
+    "uuid": "8EB150B6-B87C-4D7F-BD0A-D9A15D337F35"
+}

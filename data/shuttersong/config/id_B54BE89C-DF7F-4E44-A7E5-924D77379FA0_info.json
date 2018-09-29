@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-30T17:18:18-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000404b3_70518696cd48.ssng", 
+    "updated_at": "2016-03-31T23:17:06-04:00", 
+    "share_url": "https://a.sso.ng/1/70518696cd48", 
+    "audio_url": "https://s02.sso.ng/1/0000000404b3_70518696cd48.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000404b3_70518696cd48_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "anto323", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ryan ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/64bf03cb-979a-4f65-b1ca-d0de3c1c1e0d.jpg", 
+        "id": "64bf03cb-979a-4f65-b1ca-d0de3c1c1e0d"
+    }, 
+    "song_title": "De La Soul - Trying People Ft. Mansa-2", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000404b3_70518696cd48_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "B54BE89C-DF7F-4E44-A7E5-924D77379FA0"
+}

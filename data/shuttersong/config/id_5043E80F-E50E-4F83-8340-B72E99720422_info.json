@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-13T07:54:53-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fb6b_130903e5a4cf.ssng", 
+    "updated_at": "2016-03-16T16:27:31-04:00", 
+    "share_url": "https://a.sso.ng/1/130903e5a4cf", 
+    "audio_url": "https://s02.sso.ng/1/00000003fb6b_130903e5a4cf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fb6b_130903e5a4cf_mr.jpg", 
+    "song_album": "I Wasn't There - EP", 
+    "user": {
+        "username": "usua", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "588c7459-8e25-467d-b738-c2d71763adca"
+    }, 
+    "song_title": "I'll Remember", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fb6b_130903e5a4cf_th.jpg", 
+    "song_artist": "Nathan Hawes", 
+    "favorite_count": 1, 
+    "uuid": "5043E80F-E50E-4F83-8340-B72E99720422"
+}

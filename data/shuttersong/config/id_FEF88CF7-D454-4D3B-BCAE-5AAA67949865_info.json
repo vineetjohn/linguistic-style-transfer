@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-30T02:06:00-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000404a7_d88e353725d5.ssng", 
+    "updated_at": "2016-03-31T11:02:51-04:00", 
+    "share_url": "https://a.sso.ng/1/d88e353725d5", 
+    "audio_url": "https://s02.sso.ng/1/0000000404a7_d88e353725d5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000404a7_d88e353725d5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "shsndshsns", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "46019e4b-460d-4a34-a5f1-bf3d6bd085ad"
+    }, 
+    "song_title": "Under The Influence", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000404a7_d88e353725d5_th.jpg", 
+    "song_artist": "SNOH AALEGRA", 
+    "favorite_count": 1, 
+    "uuid": "FEF88CF7-D454-4D3B-BCAE-5AAA67949865"
+}

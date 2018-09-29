@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-19T11:43:52-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000024b15_b84cb2acd836.ssng", 
+    "updated_at": "2016-06-20T04:29:24-04:00", 
+    "share_url": "https://a.sso.ng/1/b84cb2acd836", 
+    "audio_url": "https://s02.sso.ng/1/000000024b15_b84cb2acd836.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000024b15_b84cb2acd836_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Akswat", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "662544a5-96ba-4a23-8086-37be02005f16"
+    }, 
+    "song_title": "luther vandross dance with my father again.mp4", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000024b15_b84cb2acd836_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "F9F41F61-18A5-48BF-8985-A3807F286A47"
+}

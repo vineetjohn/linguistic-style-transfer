@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YouTube: Sklady Roa", 
+    "created_at": "2015-12-31T10:45:54-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038acf_40f97f044459.ssng", 
+    "updated_at": "2015-12-31T11:17:08-05:00", 
+    "share_url": "https://a.sso.ng/1/40f97f044459", 
+    "audio_url": "https://s01.sso.ng/1/000000038acf_40f97f044459.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038acf_40f97f044459_mr.jpg", 
+    "song_album": "Talk That Talk", 
+    "user": {
+        "username": "skla", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4a607c22-285a-467b-84e1-a92a7a49f0bb.jpg", 
+        "id": "4a607c22-285a-467b-84e1-a92a7a49f0bb"
+    }, 
+    "song_title": "Where Have You Been", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038acf_40f97f044459_th.jpg", 
+    "song_artist": "Rihanna", 
+    "favorite_count": 1, 
+    "uuid": "FA2B199D-98F1-4BAB-9EE2-C0BB2451E5BF"
+}

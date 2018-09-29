@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-01T17:46:03-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bb74_78347d7f3bab.ssng", 
+    "updated_at": "2016-01-02T09:30:44-05:00", 
+    "share_url": "https://a.sso.ng/1/78347d7f3bab", 
+    "audio_url": "https://s01.sso.ng/1/00000003bb74_78347d7f3bab.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bb74_78347d7f3bab_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "danyaf21", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "009d6b57-cfe5-44c6-a9d9-81d55647fddc"
+    }, 
+    "song_title": "Feel So Close ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bb74_78347d7f3bab_th.jpg", 
+    "song_artist": "Calvin Harris", 
+    "favorite_count": 1, 
+    "uuid": "81E7E31E-7662-499D-ACA0-89D7BD4C67A7"
+}

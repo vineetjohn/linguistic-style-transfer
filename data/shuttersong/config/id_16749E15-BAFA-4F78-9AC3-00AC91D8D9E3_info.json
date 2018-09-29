@@ -1,0 +1,27 @@
+{
+    "mood": "Lazy", 
+    "caption": "@brooksluke is me", 
+    "created_at": "2016-02-19T10:59:06-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3f1_171281c4e4e5.ssng", 
+    "updated_at": "2016-06-20T17:00:42-04:00", 
+    "share_url": "https://a.sso.ng/1/171281c4e4e5", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3f1_171281c4e4e5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3f1_171281c4e4e5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Brierleysmart", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Brier", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e593477c-f345-4701-b29d-a97819bed4ba.jpg", 
+        "id": "e593477c-f345-4701-b29d-a97819bed4ba"
+    }, 
+    "song_title": "The Lazy Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3f1_171281c4e4e5_th.jpg", 
+    "song_artist": "Various Artists", 
+    "favorite_count": 9, 
+    "uuid": "16749E15-BAFA-4F78-9AC3-00AC91D8D9E3"
+}

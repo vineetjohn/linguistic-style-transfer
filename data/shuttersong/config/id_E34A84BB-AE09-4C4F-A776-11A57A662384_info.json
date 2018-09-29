@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Pretty deep if you think about it :)", 
+    "created_at": "2016-03-02T01:29:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f6db_3deb0e5a3613.ssng", 
+    "updated_at": "2016-03-03T22:35:24-05:00", 
+    "share_url": "https://a.sso.ng/1/3deb0e5a3613", 
+    "audio_url": "https://s02.sso.ng/1/00000003f6db_3deb0e5a3613.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f6db_3deb0e5a3613_mr.jpg", 
+    "song_album": "Woodland - EP", 
+    "user": {
+        "username": "Ezzi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/41148e69-ffdf-4746-8b23-36cd2acfff22.jpg", 
+        "id": "41148e69-ffdf-4746-8b23-36cd2acfff22"
+    }, 
+    "song_title": "Bloom (Bonus Track)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f6db_3deb0e5a3613_th.jpg", 
+    "song_artist": "The Paper Kites", 
+    "favorite_count": 1, 
+    "uuid": "E34A84BB-AE09-4C4F-A776-11A57A662384"
+}

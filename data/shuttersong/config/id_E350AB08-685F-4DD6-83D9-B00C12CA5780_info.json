@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "When this song explains who jack and jack are just in one song ", 
+    "created_at": "2015-08-04T09:12:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020773_4670401d7bb1_1.ssng", 
+    "updated_at": "2015-08-04T09:13:14-04:00", 
+    "share_url": "https://a.sso.ng/1/4670401d7bb1", 
+    "audio_url": "https://s01.sso.ng/1/000000020773_4670401d7bb1_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020773_4670401d7bb1_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "lexibug420", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e4408a36-96b4-40fa-b422-e43d348c59c5.jpg", 
+        "id": "e4408a36-96b4-40fa-b422-e43d348c59c5"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020773_4670401d7bb1_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "E350AB08-685F-4DD6-83D9-B00C12CA5780"
+}

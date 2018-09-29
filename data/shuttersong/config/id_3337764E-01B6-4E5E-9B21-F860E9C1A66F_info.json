@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I don't know what I did", 
+    "created_at": "2015-08-04T00:52:10-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000211e7_3ce5d54b7be0_1.ssng", 
+    "updated_at": "2015-08-04T00:52:32-04:00", 
+    "share_url": "https://a.sso.ng/1/3ce5d54b7be0", 
+    "audio_url": "https://s01.sso.ng/1/0000000211e7_3ce5d54b7be0_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000211e7_3ce5d54b7be0_1_mr.jpg", 
+    "song_album": "Sweet Talker (Deluxe Version)", 
+    "user": {
+        "username": "ecatnis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2c72788b-c67a-401a-adc7-a9952094d8e1.jpg", 
+        "id": "2c72788b-c67a-401a-adc7-a9952094d8e1"
+    }, 
+    "song_title": "Bang Bang", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000211e7_3ce5d54b7be0_1_th.jpg", 
+    "song_artist": "Jessie J, Ariana Grande & Nicki Minaj", 
+    "favorite_count": 1, 
+    "uuid": "3337764E-01B6-4E5E-9B21-F860E9C1A66F"
+}

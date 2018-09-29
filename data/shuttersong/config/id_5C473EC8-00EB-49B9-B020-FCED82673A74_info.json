@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "???", 
+    "created_at": "2015-08-21T16:22:20-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029d2d_ef9d3513ef01_1.ssng", 
+    "updated_at": "2015-08-21T22:43:26-04:00", 
+    "share_url": "https://a.sso.ng/1/ef9d3513ef01", 
+    "audio_url": "https://s01.sso.ng/1/000000029d2d_ef9d3513ef01_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029d2d_ef9d3513ef01_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "kellyaless", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ebb995af-ffe5-4ec3-8d7d-132d0b127fbb.jpg", 
+        "id": "ebb995af-ffe5-4ec3-8d7d-132d0b127fbb"
+    }, 
+    "song_title": "Style", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029d2d_ef9d3513ef01_1_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "5C473EC8-00EB-49B9-B020-FCED82673A74"
+}

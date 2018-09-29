@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "live free\u270c?\ufe0f ", 
+    "created_at": "2015-08-12T17:35:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000023824_5d774a4ac562_1.ssng", 
+    "updated_at": "2015-08-18T23:41:02-04:00", 
+    "share_url": "https://a.sso.ng/1/5d774a4ac562", 
+    "audio_url": "https://s01.sso.ng/1/000000023824_5d774a4ac562_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000023824_5d774a4ac562_1_mr.jpg", 
+    "song_album": "Doing It Right - Single", 
+    "user": {
+        "username": "madison_c", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d5385d0b-7cc8-4b06-b539-9d0cb8f1419c.jpg", 
+        "id": "d5385d0b-7cc8-4b06-b539-9d0cb8f1419c"
+    }, 
+    "song_title": "Doing It Right", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000023824_5d774a4ac562_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "A9BD4143-4032-4E35-A62B-D61598985E51"
+}

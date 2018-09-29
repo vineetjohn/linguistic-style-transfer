@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@beab my faves ?", 
+    "created_at": "2016-03-14T19:06:16-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecbc_4e260523f076.ssng", 
+    "updated_at": "2016-03-25T10:18:34-04:00", 
+    "share_url": "https://a.sso.ng/1/4e260523f076", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecbc_4e260523f076.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecbc_4e260523f076_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lickjanosface", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": "noe", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d563402d-1a72-47ff-bec6-8e8ef1f7d8dd.jpg", 
+        "id": "d563402d-1a72-47ff-bec6-8e8ef1f7d8dd"
+    }, 
+    "song_title": "Meghan Trainor - Dear Future Husband", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecbc_4e260523f076_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 13, 
+    "uuid": "07653B0D-BE90-4C1E-89C0-FE558B75D346"
+}

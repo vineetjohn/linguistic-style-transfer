@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "J balvi", 
+    "created_at": "2015-12-30T09:31:33-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b63f_2d2b9ea9760d.ssng", 
+    "updated_at": "2015-12-30T10:44:56-05:00", 
+    "share_url": "https://a.sso.ng/1/2d2b9ea9760d", 
+    "audio_url": "https://s01.sso.ng/1/00000003b63f_2d2b9ea9760d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b63f_2d2b9ea9760d_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "isabelEspejo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e08bdb87-cd4c-4bed-a625-a19e60bfeba9.jpg", 
+        "id": "e08bdb87-cd4c-4bed-a625-a19e60bfeba9"
+    }, 
+    "song_title": "J Balvin - Tranquila", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b63f_2d2b9ea9760d_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "AA979E28-F3C1-409B-B78E-7D5A295988A7"
+}

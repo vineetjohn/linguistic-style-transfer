@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-17T18:00:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021b17_26f36bbeec2c.ssng", 
+    "updated_at": "2015-12-24T21:37:10-05:00", 
+    "share_url": "https://a.sso.ng/1/26f36bbeec2c", 
+    "audio_url": "https://s01.sso.ng/1/000000021b17_26f36bbeec2c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021b17_26f36bbeec2c_mr.jpg", 
+    "song_album": "Bruno Mars", 
+    "user": {
+        "username": "hideadeadcarrot", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Natashia Mathus-vichi", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/15cae56a-417c-463d-aed8-45d2dad4e554.jpg", 
+        "id": "15cae56a-417c-463d-aed8-45d2dad4e554"
+    }, 
+    "song_title": "Somewhere in Brooklyn Lyrics", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021b17_26f36bbeec2c_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 4, 
+    "uuid": "7A99EE5A-1B6C-4BC1-AD11-195358E8E530"
+}

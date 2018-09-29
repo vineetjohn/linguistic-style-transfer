@@ -1,0 +1,27 @@
+{
+    "mood": "sleepy", 
+    "caption": "sunrise", 
+    "created_at": "2016-06-20T17:15:43-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1f7_c03c87709032.ssng", 
+    "updated_at": "2016-07-01T10:37:14-04:00", 
+    "share_url": "https://a.sso.ng/1/c03c87709032", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1f7_c03c87709032.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1f7_c03c87709032_mr.jpg", 
+    "song_album": "Born To Die", 
+    "user": {
+        "username": "christinatina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8ab492da-f066-48ca-a644-6a3a7d9136a3.jpg", 
+        "id": "8ab492da-f066-48ca-a644-6a3a7d9136a3"
+    }, 
+    "song_title": "Diet Mountain Dew", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1f7_c03c87709032_th.jpg", 
+    "song_artist": "Lana Del Rey", 
+    "favorite_count": 4, 
+    "uuid": "A4E986B0-FFF0-4312-8EE0-9D16FDB68018"
+}

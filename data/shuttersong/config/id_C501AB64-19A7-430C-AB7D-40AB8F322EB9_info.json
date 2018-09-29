@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Yay! #F", 
+    "created_at": "2015-08-21T10:50:29-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000292c5_56c999a90bd9_1.ssng", 
+    "updated_at": "2015-08-22T23:38:45-04:00", 
+    "share_url": "https://a.sso.ng/1/56c999a90bd9", 
+    "audio_url": "https://s01.sso.ng/1/0000000292c5_56c999a90bd9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000292c5_56c999a90bd9_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "contrerasst", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Esteban contreras tovar", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6d3fb4cf-5a6d-499c-a461-1a8d821622ed.jpg", 
+        "id": "6d3fb4cf-5a6d-499c-a461-1a8d821622ed"
+    }, 
+    "song_title": "Fuckin' Problems", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000292c5_56c999a90bd9_1_th.jpg", 
+    "song_artist": "A$AP Rocky ", 
+    "favorite_count": 1, 
+    "uuid": "C501AB64-19A7-430C-AB7D-40AB8F322EB9"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-21T14:36:21-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000002417e_174540fdde05.ssng", 
+    "updated_at": "2016-06-21T14:57:50-04:00", 
+    "share_url": "https://a.sso.ng/1/174540fdde05", 
+    "audio_url": "https://s02.sso.ng/1/00000002417e_174540fdde05.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002417e_174540fdde05_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "l.e.x.y_m", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/35da88af-a845-45ce-b26c-e3e079b78326.jpg", 
+        "id": "35da88af-a845-45ce-b26c-e3e079b78326"
+    }, 
+    "song_title": "the-lumineers--cleopatra", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002417e_174540fdde05_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "2A46F307-23B5-402C-8151-928F53DF127A"
+}

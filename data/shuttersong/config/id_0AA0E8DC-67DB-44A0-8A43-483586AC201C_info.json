@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-27T11:04:49-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004013e_a415c3fcf0e2.ssng", 
+    "updated_at": "2016-04-13T13:49:31-04:00", 
+    "share_url": "https://a.sso.ng/1/a415c3fcf0e2", 
+    "audio_url": "https://s02.sso.ng/1/00000004013e_a415c3fcf0e2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004013e_a415c3fcf0e2_mr.jpg", 
+    "song_album": "American Candy", 
+    "user": {
+        "username": "sarahcalvert", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Sarah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d843c873-aa47-4255-a232-2aeb8b6f34be.jpg", 
+        "id": "d843c873-aa47-4255-a232-2aeb8b6f34be"
+    }, 
+    "song_title": "(Un) Lost", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004013e_a415c3fcf0e2_th.jpg", 
+    "song_artist": "The Maine", 
+    "favorite_count": 3, 
+    "uuid": "0AA0E8DC-67DB-44A0-8A43-483586AC201C"
+}

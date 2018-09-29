@@ -1,0 +1,27 @@
+{
+    "mood": "hungry", 
+    "caption": "I haven't posted in 8 days but sup yall", 
+    "created_at": "2016-02-21T13:38:33-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ebd6_b2694434ffa4.ssng", 
+    "updated_at": "2016-02-22T11:20:58-05:00", 
+    "share_url": "https://a.sso.ng/1/b2694434ffa4", 
+    "audio_url": "https://s02.sso.ng/1/00000003ebd6_b2694434ffa4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ebd6_b2694434ffa4_mr.jpg", 
+    "song_album": "BADLANDS (Deluxe)", 
+    "user": {
+        "username": "beaugly", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "elaf", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e6a78a02-94cc-4a9b-b6c9-2e58c2e0ac74.jpg", 
+        "id": "e6a78a02-94cc-4a9b-b6c9-2e58c2e0ac74"
+    }, 
+    "song_title": "New Americana", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ebd6_b2694434ffa4_th.jpg", 
+    "song_artist": "Halsey", 
+    "favorite_count": 5, 
+    "uuid": "D15D043C-6B20-468A-9F62-680E00CE4693"
+}

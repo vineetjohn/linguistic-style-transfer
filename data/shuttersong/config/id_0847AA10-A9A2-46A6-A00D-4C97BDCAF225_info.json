@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-08T22:25:10-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022ded_f1e7c0d8920e.ssng", 
+    "updated_at": "2015-08-08T23:02:46-04:00", 
+    "share_url": "https://a.sso.ng/1/f1e7c0d8920e", 
+    "audio_url": "https://s01.sso.ng/1/000000022ded_f1e7c0d8920e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022ded_f1e7c0d8920e_mr.jpg", 
+    "song_album": "+ (Deluxe Version)", 
+    "user": {
+        "username": "caleighkorns123", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f28c8520-ae56-4ab3-a730-99f35bb6ff3c.jpg", 
+        "id": "f28c8520-ae56-4ab3-a730-99f35bb6ff3c"
+    }, 
+    "song_title": "The a Team", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022ded_f1e7c0d8920e_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 1, 
+    "uuid": "0847AA10-A9A2-46A6-A00D-4C97BDCAF225"
+}

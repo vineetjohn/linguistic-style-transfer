@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "BETTER THAN WORDS ?", 
+    "created_at": "2015-08-21T17:52:35-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002672f_18b2f178af0d_1.ssng", 
+    "updated_at": "2015-08-21T22:43:42-04:00", 
+    "share_url": "https://a.sso.ng/1/18b2f178af0d", 
+    "audio_url": "https://s01.sso.ng/1/00000002672f_18b2f178af0d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002672f_18b2f178af0d_1_mr.jpg", 
+    "song_album": "Midnight Memories", 
+    "user": {
+        "username": "erikaGonzalez99", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2efb2ec3-6b97-4384-8714-5ff2baf45e0a.jpg", 
+        "id": "2efb2ec3-6b97-4384-8714-5ff2baf45e0a"
+    }, 
+    "song_title": "Better Than Words", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002672f_18b2f178af0d_1_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "49394842-4D03-41E4-931D-D5162AA24E1A"
+}

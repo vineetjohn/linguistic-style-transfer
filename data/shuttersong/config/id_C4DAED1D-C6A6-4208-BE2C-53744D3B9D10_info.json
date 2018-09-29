@@ -1,0 +1,27 @@
+{
+    "mood": "dirty", 
+    "caption": "\u264b\ufe0f ?", 
+    "created_at": "2016-02-17T23:39:09-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4ad_1565d8fba9c8.ssng", 
+    "updated_at": "2016-05-28T11:13:58-04:00", 
+    "share_url": "https://a.sso.ng/1/1565d8fba9c8", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4ad_1565d8fba9c8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4ad_1565d8fba9c8_mr.jpg", 
+    "song_album": "The Lazy Song - Single", 
+    "user": {
+        "username": "qcgirl", 
+        "verified": false, 
+        "username_color": "#084e8c", 
+        "full_name": "M.L.B", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6f63a04c-a3c3-42be-bd2c-77611c4cecff.jpg", 
+        "id": "6f63a04c-a3c3-42be-bd2c-77611c4cecff"
+    }, 
+    "song_title": "The Lazy Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4ad_1565d8fba9c8_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 39, 
+    "uuid": "C4DAED1D-C6A6-4208-BE2C-53744D3B9D10"
+}

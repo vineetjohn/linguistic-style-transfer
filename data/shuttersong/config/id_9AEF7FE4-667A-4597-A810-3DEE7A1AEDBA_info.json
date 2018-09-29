@@ -1,0 +1,27 @@
+{
+    "mood": "accomplished", 
+    "caption": "My first and only follower, that's all I need on here. ?", 
+    "created_at": "2016-03-25T14:37:41-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040002_19783186a5da.ssng", 
+    "updated_at": "2016-03-30T03:19:27-04:00", 
+    "share_url": "https://a.sso.ng/1/19783186a5da", 
+    "audio_url": "https://s02.sso.ng/1/000000040002_19783186a5da.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040002_19783186a5da_mr.jpg", 
+    "song_album": "F**k With U (feat. G-Eazy) - Single", 
+    "user": {
+        "username": "NamelessBecca", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Becca", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/232fd55a-3cfd-47e2-83b0-a28e3d6b8002.jpg", 
+        "id": "232fd55a-3cfd-47e2-83b0-a28e3d6b8002"
+    }, 
+    "song_title": "F**k With U (feat. G-Eazy)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040002_19783186a5da_th.jpg", 
+    "song_artist": "Pia Mia", 
+    "favorite_count": 2, 
+    "uuid": "9AEF7FE4-667A-4597-A810-3DEE7A1AEDBA"
+}

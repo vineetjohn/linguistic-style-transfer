@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:59:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002105e_0ad13a577b89.ssng", 
+    "updated_at": "2015-08-03T23:59:07-04:00", 
+    "share_url": "https://a.sso.ng/1/0ad13a577b89", 
+    "audio_url": "https://s01.sso.ng/1/00000002105e_0ad13a577b89.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002105e_0ad13a577b89_mr.jpg", 
+    "song_album": "Uptown Funk (feat. Bruno Mars)", 
+    "user": {
+        "username": "SophiaM", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a5a13472-81f2-4ff5-a846-fa42dbc45736"
+    }, 
+    "song_title": "Uptown Funk (feat. Bruno Mars)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002105e_0ad13a577b89_th.jpg", 
+    "song_artist": "Mark Ronson", 
+    "favorite_count": 1, 
+    "uuid": "8FEA384A-4538-4D83-A0D3-2C75BDFA3A2E"
+}

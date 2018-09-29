@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#Barbie", 
+    "created_at": "2015-12-18T00:50:10-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000031eba_2977b3c98220_1.ssng", 
+    "updated_at": "2015-12-20T12:41:04-05:00", 
+    "share_url": "https://a.sso.ng/1/2977b3c98220", 
+    "audio_url": "https://s01.sso.ng/1/000000031eba_2977b3c98220_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000031eba_2977b3c98220_1_mr.jpg", 
+    "song_album": "Love Me - Single", 
+    "user": {
+        "username": "Alekinsdc", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/727ebda8-dca7-4918-82d7-b4e5586c4903.jpg", 
+        "id": "727ebda8-dca7-4918-82d7-b4e5586c4903"
+    }, 
+    "song_title": "Love Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000031eba_2977b3c98220_1_th.jpg", 
+    "song_artist": "The 1975", 
+    "favorite_count": 3, 
+    "uuid": "7CAEA3B4-807D-4B1C-93C0-390E764439E7"
+}

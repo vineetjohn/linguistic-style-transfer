@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\udc90", 
+    "created_at": "2016-06-25T16:44:13-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000458fb_be4b15f4768d.ssng", 
+    "updated_at": "2016-06-26T11:31:16-04:00", 
+    "share_url": "https://a.sso.ng/1/be4b15f4768d", 
+    "audio_url": "https://s02.sso.ng/1/0000000458fb_be4b15f4768d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000458fb_be4b15f4768d_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "pillskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "morgane loves beau", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bb47bc24-e605-4e5b-8873-453c26cfcd47.jpg", 
+        "id": "bb47bc24-e605-4e5b-8873-453c26cfcd47"
+    }, 
+    "song_title": "Love Yourself Mashup", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000458fb_be4b15f4768d_th.jpg", 
+    "song_artist": "Justin Bieber/Others", 
+    "favorite_count": 3, 
+    "uuid": "24BE46D2-0BAA-492A-B1D1-C858121B9E9A"
+}

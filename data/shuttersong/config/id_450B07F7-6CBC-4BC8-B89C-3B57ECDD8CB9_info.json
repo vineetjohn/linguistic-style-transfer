@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "JAIDON \u2764\ufe0f", 
+    "created_at": "2016-02-21T09:08:27-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e340_4f120014eb37.ssng", 
+    "updated_at": "2016-03-07T21:20:53-05:00", 
+    "share_url": "https://a.sso.ng/1/4f120014eb37", 
+    "audio_url": "https://s02.sso.ng/1/00000003e340_4f120014eb37.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e340_4f120014eb37_mr.jpg", 
+    "song_album": "5 Seconds of Summer (Deluxe)", 
+    "user": {
+        "username": "LukeTasteMe", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/66abf579-2b2d-4d98-90f6-7f3b5f753b6b.jpg", 
+        "id": "66abf579-2b2d-4d98-90f6-7f3b5f753b6b"
+    }, 
+    "song_title": "Kiss Me Kiss Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e340_4f120014eb37_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 6, 
+    "uuid": "450B07F7-6CBC-4BC8-B89C-3B57ECDD8CB9"
+}

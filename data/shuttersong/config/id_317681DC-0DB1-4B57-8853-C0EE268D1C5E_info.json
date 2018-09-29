@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "Me and my crush have been talking \ud83c\udf1f\ud83d\ude42", 
+    "created_at": "2016-04-04T16:28:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ed15_cc10bef8706e.ssng", 
+    "updated_at": "2016-04-09T03:42:25-04:00", 
+    "share_url": "https://a.sso.ng/1/cc10bef8706e", 
+    "audio_url": "https://s02.sso.ng/1/00000003ed15_cc10bef8706e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ed15_cc10bef8706e_mr.jpg", 
+    "song_album": "Sounds Good Feels Good (Deluxe)", 
+    "user": {
+        "username": "BeccaMusic", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "BeccaInfinty ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bc990ba2-21d7-4061-befe-28d35e1910c4.jpg", 
+        "id": "bc990ba2-21d7-4061-befe-28d35e1910c4"
+    }, 
+    "song_title": "Airplanes", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ed15_cc10bef8706e_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 3, 
+    "uuid": "317681DC-0DB1-4B57-8853-C0EE268D1C5E"
+}

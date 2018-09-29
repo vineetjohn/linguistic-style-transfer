@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "", 
+    "created_at": "2016-02-17T21:16:55-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003df5c_0d37d334882d.ssng", 
+    "updated_at": "2016-06-22T01:27:20-04:00", 
+    "share_url": "https://a.sso.ng/1/0d37d334882d", 
+    "audio_url": "https://s02.sso.ng/1/00000003df5c_0d37d334882d.m4a", 
+    "comment_count": 531, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003df5c_0d37d334882d_mr.jpg", 
+    "song_album": "Welcome Interstate Managers", 
+    "user": {
+        "username": "beaub", 
+        "verified": true, 
+        "username_color": "#28c4d8", 
+        "full_name": "Beau Brooks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ffa72c4a-099a-4eea-a890-7d7e14a60007.jpg", 
+        "id": "ffa72c4a-099a-4eea-a890-7d7e14a60007"
+    }, 
+    "song_title": "Stacy's Mom", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003df5c_0d37d334882d_th.jpg", 
+    "song_artist": "Fountains Of Wayne", 
+    "favorite_count": 632, 
+    "uuid": "6A88CEB7-950C-427F-997D-BD9D89A33761"
+}

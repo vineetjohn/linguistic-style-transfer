@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "GOLF", 
+    "created_at": "2015-08-10T22:13:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022aad_e7b167424ca3_1.ssng", 
+    "updated_at": "2015-08-20T03:34:31-04:00", 
+    "share_url": "https://a.sso.ng/1/e7b167424ca3", 
+    "audio_url": "https://s01.sso.ng/1/000000022aad_e7b167424ca3_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022aad_e7b167424ca3_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "madisonbeer", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Julia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c8aed4fb-2dd9-445f-85b0-167b3963737c.jpg", 
+        "id": "c8aed4fb-2dd9-445f-85b0-167b3963737c"
+    }, 
+    "song_title": "One Last Time", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022aad_e7b167424ca3_1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 3, 
+    "uuid": "B7312036-0FE1-4A08-852F-4C0420C966F4"
+}

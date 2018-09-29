@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Good night", 
+    "created_at": "2015-08-22T00:53:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a687_74548da8fcff_1.ssng", 
+    "updated_at": "2015-08-22T23:45:24-04:00", 
+    "share_url": "https://a.sso.ng/1/74548da8fcff", 
+    "audio_url": "https://s01.sso.ng/1/00000002a687_74548da8fcff_1.m4a", 
+    "comment_count": 3, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a687_74548da8fcff_1_mr.jpg", 
+    "song_album": "From The Vault", 
+    "user": {
+        "username": "Edjmll", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "950a4abb-24f1-4563-9521-c278662aec39"
+    }, 
+    "song_title": "Wish You Were Here 2013", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a687_74548da8fcff_1_th.jpg", 
+    "song_artist": "Pink Floyd", 
+    "favorite_count": 1, 
+    "uuid": "76C41213-E1A2-4534-B1A2-C9962B3BD7D2"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-10T15:33:44-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000001719b_9fbee7c7091a.ssng", 
+    "updated_at": "2016-03-19T19:00:25-04:00", 
+    "share_url": "https://a.sso.ng/1/9fbee7c7091a", 
+    "audio_url": "https://s02.sso.ng/1/00000001719b_9fbee7c7091a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001719b_9fbee7c7091a_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "adeguerisoli", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0f6f4f59-a27b-41ee-a0ce-0b6fd390ea84"
+    }, 
+    "song_title": "The 1975 - fallingforyou", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001719b_9fbee7c7091a_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "E2E08D5C-C9D9-4D15-8CA6-F174C88353D7"
+}

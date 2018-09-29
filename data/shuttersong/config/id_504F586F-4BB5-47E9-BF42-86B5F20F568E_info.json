@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#party", 
+    "created_at": "2015-11-27T14:49:17-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000001fe7b_f9bd5851bb49_1.ssng", 
+    "updated_at": "2015-11-30T11:35:48-05:00", 
+    "share_url": "https://a.sso.ng/1/f9bd5851bb49", 
+    "audio_url": "https://s01.sso.ng/1/00000001fe7b_f9bd5851bb49_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001fe7b_f9bd5851bb49_1_mr.jpg", 
+    "song_album": "Singles", 
+    "user": {
+        "username": "shmian", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1609eaac-90a5-496a-9a8d-9aee1f7f765a.jpg", 
+        "id": "1609eaac-90a5-496a-9a8d-9aee1f7f765a"
+    }, 
+    "song_title": "Party Fears Two", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001fe7b_f9bd5851bb49_1_th.jpg", 
+    "song_artist": "The Associates", 
+    "favorite_count": 1, 
+    "uuid": "504F586F-4BB5-47E9-BF42-86B5F20F568E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-23T23:25:13-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f223_e114795a3d05.ssng", 
+    "updated_at": "2016-06-25T20:13:51-04:00", 
+    "share_url": "https://a.sso.ng/1/e114795a3d05", 
+    "audio_url": "https://s02.sso.ng/1/00000003f223_e114795a3d05.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f223_e114795a3d05_mr.jpg", 
+    "song_album": "Suicide Squad: The Album", 
+    "user": {
+        "username": "DEMXNS", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Steve Guz", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b8ccab37-75e9-4066-b70f-7a40e4da4aa3.jpg", 
+        "id": "b8ccab37-75e9-4066-b70f-7a40e4da4aa3"
+    }, 
+    "song_title": "Sucker For Pain (with Logic, Ty Dolla $ign & X Ambassadors)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f223_e114795a3d05_th.jpg", 
+    "song_artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons", 
+    "favorite_count": 3, 
+    "uuid": "1F6FECCF-2ED4-4483-9A5E-40DB21EA45B2"
+}

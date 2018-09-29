@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Retrograde", 
+    "created_at": "2016-05-20T04:34:32-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004398a_580c67bffb1b.ssng", 
+    "updated_at": "2016-05-24T01:39:03-04:00", 
+    "share_url": "https://a.sso.ng/1/580c67bffb1b", 
+    "audio_url": "https://s02.sso.ng/1/00000004398a_580c67bffb1b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004398a_580c67bffb1b_mr.jpg", 
+    "song_album": "Retrograde - Single", 
+    "user": {
+        "username": "giuliafei", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1de18373-bae5-430f-8896-a96f22921612.jpg", 
+        "id": "1de18373-bae5-430f-8896-a96f22921612"
+    }, 
+    "song_title": "Retrograde", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004398a_580c67bffb1b_th.jpg", 
+    "song_artist": "James Blake", 
+    "favorite_count": 2, 
+    "uuid": "D047B285-6AAD-44E2-AE08-721690044A2E"
+}

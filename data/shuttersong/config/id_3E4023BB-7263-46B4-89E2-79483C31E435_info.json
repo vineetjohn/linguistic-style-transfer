@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T19:55:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002577f_b3bbf4fb577f.ssng", 
+    "updated_at": "2015-12-28T07:56:30-05:00", 
+    "share_url": "https://a.sso.ng/1/b3bbf4fb577f", 
+    "audio_url": "https://s01.sso.ng/1/00000002577f_b3bbf4fb577f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002577f_b3bbf4fb577f_mr.jpg", 
+    "song_album": "Nimrod", 
+    "user": {
+        "username": "VeroVargasi242", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Veronica Vargas", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9ce76c5c-1270-4333-ab1c-ac5a49078344.jpg", 
+        "id": "9ce76c5c-1270-4333-ab1c-ac5a49078344"
+    }, 
+    "song_title": "Time of Your Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002577f_b3bbf4fb577f_th.jpg", 
+    "song_artist": "Green Day", 
+    "favorite_count": 2, 
+    "uuid": "3E4023BB-7263-46B4-89E2-79483C31E435"
+}

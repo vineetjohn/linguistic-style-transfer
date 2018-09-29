@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-12-30T03:25:21-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b5db_95518bc15f0e.ssng", 
+    "updated_at": "2015-12-30T11:12:17-05:00", 
+    "share_url": "https://a.sso.ng/1/95518bc15f0e", 
+    "audio_url": "https://s01.sso.ng/1/00000003b5db_95518bc15f0e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b5db_95518bc15f0e_mr.jpg", 
+    "song_album": "Greatest Hits", 
+    "user": {
+        "username": "wopaolahoho", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0aa3837a-6e2b-4e0d-95f5-51eb9e921414.jpg", 
+        "id": "0aa3837a-6e2b-4e0d-95f5-51eb9e921414"
+    }, 
+    "song_title": "Piano Man", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b5db_95518bc15f0e_th.jpg", 
+    "song_artist": "Billiy Joel", 
+    "favorite_count": 1, 
+    "uuid": "21A0E1F3-A456-40DB-8DBB-337D70D7434C"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-07T15:02:56-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003149c_44db6c22af1b.ssng", 
+    "updated_at": "2016-01-07T17:10:06-05:00", 
+    "share_url": "https://a.sso.ng/1/44db6c22af1b", 
+    "audio_url": "https://s01.sso.ng/1/00000003149c_44db6c22af1b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003149c_44db6c22af1b_mr.jpg", 
+    "song_album": "Meghan Trainor", 
+    "user": {
+        "username": "Madeleine.C", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "21afe2e5-82fc-4662-84ac-dcf22251f7e2"
+    }, 
+    "song_title": "Like I'm Gonna Lose You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003149c_44db6c22af1b_th.jpg", 
+    "song_artist": "Title (Deluxe Edition)", 
+    "favorite_count": 1, 
+    "uuid": "F710980D-02BB-404A-A0A2-8B66C086D7B5"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "???", 
+    "created_at": "2016-01-13T19:42:36-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000031ea6_207b6b03b487.ssng", 
+    "updated_at": "2016-01-16T03:23:21-05:00", 
+    "share_url": "https://a.sso.ng/1/207b6b03b487", 
+    "audio_url": "https://s02.sso.ng/1/000000031ea6_207b6b03b487.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000031ea6_207b6b03b487_mr.jpg", 
+    "song_album": "Work Bitch - Single", 
+    "user": {
+        "username": "nikkiandrade91", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dc4a482c-df76-43e0-882a-801d4e7202bc.jpg", 
+        "id": "dc4a482c-df76-43e0-882a-801d4e7202bc"
+    }, 
+    "song_title": "Work Bitch", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000031ea6_207b6b03b487_th.jpg", 
+    "song_artist": "Britney Spears", 
+    "favorite_count": 1, 
+    "uuid": "CE730CC5-88D7-4348-A493-28208F397522"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-22T12:15:30-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045c23_b1e40779305c.ssng", 
+    "updated_at": "2016-06-24T16:48:31-04:00", 
+    "share_url": "https://a.sso.ng/1/b1e40779305c", 
+    "audio_url": "https://s02.sso.ng/1/000000045c23_b1e40779305c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045c23_b1e40779305c_mr.jpg", 
+    "song_album": "Ghostbusters (Original Motion Picture Soundtrack)", 
+    "user": {
+        "username": "rirae", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "22d8c42a-8ef4-4486-91cf-d85e1c601c49"
+    }, 
+    "song_title": "Ghostbusters", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045c23_b1e40779305c_th.jpg", 
+    "song_artist": "Ray Parker, Jr.", 
+    "favorite_count": 4, 
+    "uuid": "2BE7CB2D-7BF4-4498-A0FC-7BC2897F3ECD"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "can somebody like this", 
+    "created_at": "2016-05-01T14:19:57-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004262b_523098e36998.ssng", 
+    "updated_at": "2016-05-02T00:26:31-04:00", 
+    "share_url": "https://a.sso.ng/1/523098e36998", 
+    "audio_url": "https://s02.sso.ng/1/00000004262b_523098e36998.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004262b_523098e36998_mr.jpg", 
+    "song_album": "-----", 
+    "user": {
+        "username": "kennialwt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/93c5a1ec-cab4-45dd-a428-34031acab38d.jpg", 
+        "id": "93c5a1ec-cab4-45dd-a428-34031acab38d"
+    }, 
+    "song_title": "somebody that i used to know", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004262b_523098e36998_th.jpg", 
+    "song_artist": "goyte", 
+    "favorite_count": 2, 
+    "uuid": "485631A7-0C97-433E-B78B-6FC47DF8EF52"
+}

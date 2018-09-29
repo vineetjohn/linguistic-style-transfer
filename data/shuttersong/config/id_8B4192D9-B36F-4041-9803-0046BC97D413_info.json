@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-08T10:30:51-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042cf1_2acf91138cae.ssng", 
+    "updated_at": "2016-05-08T23:44:03-04:00", 
+    "share_url": "https://a.sso.ng/1/2acf91138cae", 
+    "audio_url": "https://s02.sso.ng/1/000000042cf1_2acf91138cae.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042cf1_2acf91138cae_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "rossy.09.23", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e1138df9-3256-4bca-a0b7-d1446a146d13.jpg", 
+        "id": "e1138df9-3256-4bca-a0b7-d1446a146d13"
+    }, 
+    "song_title": "Rihanna - Work (Explicit) ft. Drake", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042cf1_2acf91138cae_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "8B4192D9-B36F-4041-9803-0046BC97D413"
+}

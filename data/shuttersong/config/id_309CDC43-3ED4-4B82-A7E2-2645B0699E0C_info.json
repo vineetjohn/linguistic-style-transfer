@@ -1,0 +1,27 @@
+{
+    "mood": "lazy", 
+    "caption": "Emrys \ud83d\udc36", 
+    "created_at": "2016-06-29T15:51:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004619e_da5d72e680ea.ssng", 
+    "updated_at": "2016-06-29T17:22:00-04:00", 
+    "share_url": "https://a.sso.ng/1/da5d72e680ea", 
+    "audio_url": "https://s02.sso.ng/1/00000004619e_da5d72e680ea.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004619e_da5d72e680ea_mr.jpg", 
+    "song_album": "Phoebe Ryan", 
+    "user": {
+        "username": "HaleyMacLean", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b71e92ff-7585-48cd-b32b-1a0cf3a10a4e.jpg", 
+        "id": "b71e92ff-7585-48cd-b32b-1a0cf3a10a4e"
+    }, 
+    "song_title": "Mine", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004619e_da5d72e680ea_th.jpg", 
+    "song_artist": "Phoebe Ryan", 
+    "favorite_count": 1, 
+    "uuid": "309CDC43-3ED4-4B82-A7E2-2645B0699E0C"
+}

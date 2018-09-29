@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Top chef M\u00e9xico!", 
+    "created_at": "2016-06-11T12:59:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e821_0d75396871a1.ssng", 
+    "updated_at": "2016-06-15T12:14:00-04:00", 
+    "share_url": "https://a.sso.ng/1/0d75396871a1", 
+    "audio_url": "https://s02.sso.ng/1/00000003e821_0d75396871a1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e821_0d75396871a1_mr.jpg", 
+    "song_album": "Safe and Sound - Single", 
+    "user": {
+        "username": "Annini", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09e1fb3d-69fa-4375-93a4-008fc02e1b34.jpg", 
+        "id": "09e1fb3d-69fa-4375-93a4-008fc02e1b34"
+    }, 
+    "song_title": "Safe and Sound", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e821_0d75396871a1_th.jpg", 
+    "song_artist": "Capital Cities", 
+    "favorite_count": 4, 
+    "uuid": "82032532-29DA-40EA-A63A-370FB3E711B5"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2016-03-08T00:21:38-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e27f_8e4a97478d64.ssng", 
+    "updated_at": "2016-03-08T16:37:03-05:00", 
+    "share_url": "https://a.sso.ng/1/8e4a97478d64", 
+    "audio_url": "https://s02.sso.ng/1/00000003e27f_8e4a97478d64.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e27f_8e4a97478d64_mr.jpg", 
+    "song_album": "1989", 
+    "user": {
+        "username": "brittanydunaway", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Brittany Dunaway", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8b834ab6-9c86-461d-b229-8c7879a0d9bf.jpg", 
+        "id": "8b834ab6-9c86-461d-b229-8c7879a0d9bf"
+    }, 
+    "song_title": "Bad Blood", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e27f_8e4a97478d64_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "812BB6F0-F2D6-4097-AF4F-43217AF1117B"
+}

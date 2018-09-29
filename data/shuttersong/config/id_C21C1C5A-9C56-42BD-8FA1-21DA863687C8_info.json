@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "tides - Jack and Jack", 
+    "created_at": "2015-08-04T00:54:37-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021226_50c20890ccdd_1.ssng", 
+    "updated_at": "2015-08-04T00:54:58-04:00", 
+    "share_url": "https://a.sso.ng/1/50c20890ccdd", 
+    "audio_url": "https://s01.sso.ng/1/000000021226_50c20890ccdd_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021226_50c20890ccdd_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "patriciazalenski", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/379e165d-e02a-4f4b-add9-1d29803c3ba3.jpg", 
+        "id": "379e165d-e02a-4f4b-add9-1d29803c3ba3"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021226_50c20890ccdd_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "C21C1C5A-9C56-42BD-8FA1-21DA863687C8"
+}

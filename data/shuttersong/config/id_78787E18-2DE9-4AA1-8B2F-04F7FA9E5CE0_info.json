@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "testing #pleaselike #likeforlike", 
+    "created_at": "2016-06-02T18:42:42-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044770_2c4242536786.ssng", 
+    "updated_at": "2016-06-05T10:14:45-04:00", 
+    "share_url": "https://a.sso.ng/1/2c4242536786", 
+    "audio_url": "https://s02.sso.ng/1/000000044770_2c4242536786.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044770_2c4242536786_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "yoji", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e19e76b0-676d-422a-9e17-f63a08bd71f2.jpg", 
+        "id": "e19e76b0-676d-422a-9e17-f63a08bd71f2"
+    }, 
+    "song_title": "Witt Lowry - Lay Here (Prod. Tido Vegas)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044770_2c4242536786_th.jpg", 
+    "song_artist": "SwagyTracks", 
+    "favorite_count": 2, 
+    "uuid": "78787E18-2DE9-4AA1-8B2F-04F7FA9E5CE0"
+}

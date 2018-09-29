@@ -1,0 +1,27 @@
+{
+    "mood": "flirty", 
+    "caption": "Since you asked, I'll stay ??", 
+    "created_at": "2016-03-01T22:09:00-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000023670_3c4377cb6042.ssng", 
+    "updated_at": "2016-03-02T11:10:37-05:00", 
+    "share_url": "https://a.sso.ng/1/3c4377cb6042", 
+    "audio_url": "https://s02.sso.ng/1/000000023670_3c4377cb6042.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000023670_3c4377cb6042_mr.jpg", 
+    "song_album": "Right Where You Are - Single", 
+    "user": {
+        "username": "johnsonscougar", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "alanna", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8cacc30f-2f1b-4072-85bd-8cba0c7af882.jpg", 
+        "id": "8cacc30f-2f1b-4072-85bd-8cba0c7af882"
+    }, 
+    "song_title": "Right Where You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000023670_3c4377cb6042_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "7D6B8EFD-E537-4619-91B4-0F734C8A4D89"
+}

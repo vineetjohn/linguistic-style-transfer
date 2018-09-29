@@ -1,0 +1,27 @@
+{
+    "mood": "confused", 
+    "caption": "had an alright day wishing for a good one tomorrow", 
+    "created_at": "2016-05-12T15:13:45-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040ee8_db733f3fe6be.ssng", 
+    "updated_at": "2016-06-20T17:08:20-04:00", 
+    "share_url": "https://a.sso.ng/1/db733f3fe6be", 
+    "audio_url": "https://s02.sso.ng/1/000000040ee8_db733f3fe6be.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040ee8_db733f3fe6be_mr.jpg", 
+    "song_album": "Up to Now", 
+    "user": {
+        "username": "emskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bbd5c396-59c2-4a02-a002-1f0da9a704ff.jpg", 
+        "id": "bbd5c396-59c2-4a02-a002-1f0da9a704ff"
+    }, 
+    "song_title": "Chasing Cars", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040ee8_db733f3fe6be_th.jpg", 
+    "song_artist": "Snow Patrol", 
+    "favorite_count": 4, 
+    "uuid": "681D29C4-8D7F-47A6-A5C7-5540E7D5860F"
+}

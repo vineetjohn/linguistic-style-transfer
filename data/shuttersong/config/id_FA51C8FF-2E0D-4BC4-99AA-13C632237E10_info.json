@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Take me back to Barca ?????", 
+    "created_at": "2015-07-14T08:17:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000000045_b4779c02f6d2_1.ssng", 
+    "updated_at": "2016-03-04T22:25:58-05:00", 
+    "share_url": "https://a.sso.ng/1/b4779c02f6d2", 
+    "audio_url": "https://s01.sso.ng/1/000000000045_b4779c02f6d2_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000045_b4779c02f6d2_1_mr.jpg", 
+    "song_album": "Summertime Sadness (Lana Del Rey vs. Cedric Gervais) [Cedric Gervais Remix] [Radio Edit] - Single", 
+    "user": {
+        "username": "go", 
+        "verified": true, 
+        "username_color": "#f2766a", 
+        "full_name": "Georgina Oxford", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09b3db81-d909-45ee-b737-9c9283d5caeb.jpg", 
+        "id": "09b3db81-d909-45ee-b737-9c9283d5caeb"
+    }, 
+    "song_title": "Summertime Sadness (Lana Del Rey vs. Cedric Gervais) [Cedric Gervais Remix] [Radio Edit]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000045_b4779c02f6d2_1_th.jpg", 
+    "song_artist": "Lana Del Rey & Cedric Gervais", 
+    "favorite_count": 20, 
+    "uuid": "FA51C8FF-2E0D-4BC4-99AA-13C632237E10"
+}

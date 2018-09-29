@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Squad ? ", 
+    "created_at": "2015-08-06T01:02:53-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000226b1_7c5846858699_1.ssng", 
+    "updated_at": "2015-08-06T01:05:20-04:00", 
+    "share_url": "https://a.sso.ng/1/7c5846858699", 
+    "audio_url": "https://s01.sso.ng/1/0000000226b1_7c5846858699_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000226b1_7c5846858699_1_mr.jpg", 
+    "song_album": "Handwritten", 
+    "user": {
+        "username": "valeponceOk", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/79b96629-6c8f-46ef-9514-13b778a12177.jpg", 
+        "id": "79b96629-6c8f-46ef-9514-13b778a12177"
+    }, 
+    "song_title": "Stitches", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000226b1_7c5846858699_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "4AF5F9A2-4D11-4417-B0BF-88D697179155"
+}

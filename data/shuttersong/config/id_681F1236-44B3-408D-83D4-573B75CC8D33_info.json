@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Selfie for @beaub", 
+    "created_at": "2016-02-10T19:17:54-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000000e744_a87d4e4f8fca.ssng", 
+    "updated_at": "2016-02-12T00:25:28-05:00", 
+    "share_url": "https://a.sso.ng/1/a87d4e4f8fca", 
+    "audio_url": "https://s02.sso.ng/1/00000000e744_a87d4e4f8fca.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000000e744_a87d4e4f8fca_mr.jpg", 
+    "song_album": "Play It Again - EP", 
+    "user": {
+        "username": "lukeysnosedot", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/01075518-0526-43a9-8ce6-5ac33d7a412c.jpg", 
+        "id": "01075518-0526-43a9-8ce6-5ac33d7a412c"
+    }, 
+    "song_title": "Built For This", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000000e744_a87d4e4f8fca_th.jpg", 
+    "song_artist": "Becky G", 
+    "favorite_count": 8, 
+    "uuid": "681F1236-44B3-408D-83D4-573B75CC8D33"
+}

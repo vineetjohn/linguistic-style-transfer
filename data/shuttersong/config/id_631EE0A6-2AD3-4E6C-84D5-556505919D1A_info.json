@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-20T15:55:20-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045809_da11c18c8224.ssng", 
+    "updated_at": "2016-06-22T22:50:36-04:00", 
+    "share_url": "https://a.sso.ng/1/da11c18c8224", 
+    "audio_url": "https://s02.sso.ng/1/000000045809_da11c18c8224.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045809_da11c18c8224_mr.jpg", 
+    "song_album": "Hello Forever", 
+    "user": {
+        "username": "SamTrotman", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9eafff01-c398-4a54-8e6f-acfd06c9dbd2"
+    }, 
+    "song_title": "The Adventure", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045809_da11c18c8224_th.jpg", 
+    "song_artist": "The Pro Letarians", 
+    "favorite_count": 2, 
+    "uuid": "631EE0A6-2AD3-4E6C-84D5-556505919D1A"
+}

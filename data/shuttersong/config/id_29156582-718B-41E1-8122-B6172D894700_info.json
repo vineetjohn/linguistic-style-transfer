@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T23:33:16-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001c0d9_aa1feb6a3e88.ssng", 
+    "updated_at": "2015-08-21T20:31:20-04:00", 
+    "share_url": "https://a.sso.ng/1/aa1feb6a3e88", 
+    "audio_url": "https://s01.sso.ng/1/00000001c0d9_aa1feb6a3e88.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001c0d9_aa1feb6a3e88_mr.jpg", 
+    "song_album": "Kids on the Slope Original Soundtrack", 
+    "user": {
+        "username": "edoaz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Eduardo", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f636da92-d8b7-4e12-bf01-0295f6c38f18.jpg", 
+        "id": "f636da92-d8b7-4e12-bf01-0295f6c38f18"
+    }, 
+    "song_title": "Lullaby Of Birdland", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001c0d9_aa1feb6a3e88_th.jpg", 
+    "song_artist": "Aoi Teshima", 
+    "favorite_count": 1, 
+    "uuid": "29156582-718B-41E1-8122-B6172D894700"
+}

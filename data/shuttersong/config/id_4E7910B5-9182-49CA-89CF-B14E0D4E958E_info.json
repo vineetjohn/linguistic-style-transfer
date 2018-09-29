@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "oldie??", 
+    "created_at": "2016-03-03T22:46:18-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e724_86f6bf47bb9c.ssng", 
+    "updated_at": "2016-03-09T22:29:49-05:00", 
+    "share_url": "https://a.sso.ng/1/86f6bf47bb9c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e724_86f6bf47bb9c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e724_86f6bf47bb9c_mr.jpg", 
+    "song_album": "The Very Best Of Fleetwood Mac", 
+    "user": {
+        "username": "ageofteens", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "alexia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/658bd815-d8a9-42c7-b166-bf96697c0cd6.jpg", 
+        "id": "658bd815-d8a9-42c7-b166-bf96697c0cd6"
+    }, 
+    "song_title": "Dreams", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e724_86f6bf47bb9c_th.jpg", 
+    "song_artist": "Fleetwood Mac", 
+    "favorite_count": 6, 
+    "uuid": "4E7910B5-9182-49CA-89CF-B14E0D4E958E"
+}

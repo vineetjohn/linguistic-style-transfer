@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-14T21:07:37-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000031008_4b6b1f92de71_1.ssng", 
+    "updated_at": "2015-12-15T18:40:30-05:00", 
+    "share_url": "https://a.sso.ng/1/4b6b1f92de71", 
+    "audio_url": "https://s01.sso.ng/1/000000031008_4b6b1f92de71_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000031008_4b6b1f92de71_1_mr.jpg", 
+    "song_album": "Liv and Maddie (Music from the TV Series)", 
+    "user": {
+        "username": "Sophie15", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0db35f0e-4cd0-4c8f-a41a-8808a9da4567.jpg", 
+        "id": "0db35f0e-4cd0-4c8f-a41a-8808a9da4567"
+    }, 
+    "song_title": "Better in Stereo (Theme Song Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000031008_4b6b1f92de71_1_th.jpg", 
+    "song_artist": "Dove Cameron", 
+    "favorite_count": 2, 
+    "uuid": "D4CCEA09-A34C-45A4-A16D-490408697D28"
+}

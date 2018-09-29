@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-04T22:04:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042956_b2a6ca74477e.ssng", 
+    "updated_at": "2016-05-05T05:25:12-04:00", 
+    "share_url": "https://a.sso.ng/1/b2a6ca74477e", 
+    "audio_url": "https://s02.sso.ng/1/000000042956_b2a6ca74477e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042956_b2a6ca74477e_mr.jpg", 
+    "song_album": "Black Messiah", 
+    "user": {
+        "username": "v.too.chill", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "26a3df46-dea8-4bd8-ac81-774eeb395c52"
+    }, 
+    "song_title": "Really Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042956_b2a6ca74477e_th.jpg", 
+    "song_artist": "D\u2019Angelo and The Vanguard", 
+    "favorite_count": 1, 
+    "uuid": "F0FF8C1A-CF81-4CC1-8078-9286C85FA627"
+}

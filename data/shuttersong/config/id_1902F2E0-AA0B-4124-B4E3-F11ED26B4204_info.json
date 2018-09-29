@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo @FabiolaPortilloChiu", 
+    "created_at": "2015-12-22T23:09:35-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000383b0_2e1301b78cef.ssng", 
+    "updated_at": "2015-12-23T19:58:09-05:00", 
+    "share_url": "https://a.sso.ng/1/2e1301b78cef", 
+    "audio_url": "https://s01.sso.ng/1/0000000383b0_2e1301b78cef.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000383b0_2e1301b78cef_mr.jpg", 
+    "song_album": "Paramore", 
+    "user": {
+        "username": "fab.portillo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bfa0bd13-9445-42d0-9597-8bfa53f2cad2.jpg", 
+        "id": "bfa0bd13-9445-42d0-9597-8bfa53f2cad2"
+    }, 
+    "song_title": "Aint It Fun", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000383b0_2e1301b78cef_th.jpg", 
+    "song_artist": "Paramore", 
+    "favorite_count": 1, 
+    "uuid": "1902F2E0-AA0B-4124-B4E3-F11ED26B4204"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "idk what to post so here's a pic of happy me", 
+    "created_at": "2016-02-12T08:19:09-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e899_c3e9c478c9dd.ssng", 
+    "updated_at": "2016-02-13T15:18:39-05:00", 
+    "share_url": "https://a.sso.ng/1/c3e9c478c9dd", 
+    "audio_url": "https://s02.sso.ng/1/00000003e899_c3e9c478c9dd.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e899_c3e9c478c9dd_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "emasundberg", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "ema ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/07f7d044-29bc-4ea7-907f-785145223d5a.jpg", 
+        "id": "07f7d044-29bc-4ea7-907f-785145223d5a"
+    }, 
+    "song_title": "Real Girls Eat Cake", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e899_c3e9c478c9dd_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 4, 
+    "uuid": "7237B374-1D1A-4087-A320-5D96B71ABAE8"
+}

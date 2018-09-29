@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Holi ??", 
+    "created_at": "2015-08-21T01:49:00-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000028842_95bb97928181.ssng", 
+    "updated_at": "2015-08-22T11:36:12-04:00", 
+    "share_url": "https://a.sso.ng/1/95bb97928181", 
+    "audio_url": "https://s01.sso.ng/1/000000028842_95bb97928181.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000028842_95bb97928181_mr.jpg", 
+    "song_album": "Maps - Single", 
+    "user": {
+        "username": "anye_star", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/52e920aa-295a-4066-8275-81974b1eaf07.jpg", 
+        "id": "52e920aa-295a-4066-8275-81974b1eaf07"
+    }, 
+    "song_title": "Maps", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000028842_95bb97928181_th.jpg", 
+    "song_artist": "Maroon 5", 
+    "favorite_count": 4, 
+    "uuid": "3FA40DB4-AF1A-4466-9F86-1E0469773D1D"
+}

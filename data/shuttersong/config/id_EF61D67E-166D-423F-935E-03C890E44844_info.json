@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "bustin it", 
+    "created_at": "2015-08-04T10:11:54-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021781_ca439b21eda7_1.ssng", 
+    "updated_at": "2015-08-04T10:12:16-04:00", 
+    "share_url": "https://a.sso.ng/1/ca439b21eda7", 
+    "audio_url": "https://s01.sso.ng/1/000000021781_ca439b21eda7_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021781_ca439b21eda7_1_mr.jpg", 
+    "song_album": "Glee: The Music, Vol. 1", 
+    "user": {
+        "username": "bellabombo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/75c241d3-c953-4fc5-bce8-26e90f7edd28.jpg", 
+        "id": "75c241d3-c953-4fc5-bce8-26e90f7edd28"
+    }, 
+    "song_title": "Bust a Move (Glee Cast Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021781_ca439b21eda7_1_th.jpg", 
+    "song_artist": "Glee Cast", 
+    "favorite_count": 1, 
+    "uuid": "EF61D67E-166D-423F-935E-03C890E44844"
+}

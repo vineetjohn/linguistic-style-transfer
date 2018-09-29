@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "love this pic", 
+    "created_at": "2015-08-04T06:52:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021600_8b652421f59b_1.ssng", 
+    "updated_at": "2015-08-04T06:53:08-04:00", 
+    "share_url": "https://a.sso.ng/1/8b652421f59b", 
+    "audio_url": "https://s01.sso.ng/1/000000021600_8b652421f59b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021600_8b652421f59b_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "chelseagomez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "cc4e2f5f-13f9-4fcd-98dc-c53a22669652"
+    }, 
+    "song_title": "Like That", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021600_8b652421f59b_1_th.jpg", 
+    "song_artist": "Jack & Jack ft. Skate", 
+    "favorite_count": 1, 
+    "uuid": "A87BDFC9-30DA-4FF6-9541-F2B260CE2442"
+}

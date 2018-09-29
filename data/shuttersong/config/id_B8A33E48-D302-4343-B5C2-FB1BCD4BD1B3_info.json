@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @soofic's", 
+    "created_at": "2016-01-04T15:57:38-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002c4da_71fd58fa0149.ssng", 
+    "updated_at": "2016-01-06T07:39:01-05:00", 
+    "share_url": "https://a.sso.ng/1/71fd58fa0149", 
+    "audio_url": "https://s01.sso.ng/1/00000002c4da_71fd58fa0149.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002c4da_71fd58fa0149_mr.jpg", 
+    "song_album": "Erica Sunn", 
+    "user": {
+        "username": "eva.soofi.98", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4d63e575-2f66-4d68-8e32-1d3c14901906.jpg", 
+        "id": "4d63e575-2f66-4d68-8e32-1d3c14901906"
+    }, 
+    "song_title": "Static space", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002c4da_71fd58fa0149_th.jpg", 
+    "song_artist": "Erica Sunn", 
+    "favorite_count": 1, 
+    "uuid": "B8A33E48-D302-4343-B5C2-FB1BCD4BD1B3"
+}

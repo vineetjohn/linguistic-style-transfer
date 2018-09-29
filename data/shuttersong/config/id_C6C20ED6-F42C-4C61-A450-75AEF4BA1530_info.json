@@ -1,0 +1,27 @@
+{
+    "mood": "cheeky", 
+    "caption": "Almost that time again ?", 
+    "created_at": "2016-02-13T22:57:23-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4b4_6dca6c5f6b5b.ssng", 
+    "updated_at": "2016-06-20T16:54:41-04:00", 
+    "share_url": "https://a.sso.ng/1/6dca6c5f6b5b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4b4_6dca6c5f6b5b.m4a", 
+    "comment_count": 7, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4b4_6dca6c5f6b5b_mr.jpg", 
+    "song_album": "Living In America", 
+    "user": {
+        "username": "chelseyamaro", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7da84893-7f1f-4ca1-83d8-9d9a71644eb1.jpg", 
+        "id": "7da84893-7f1f-4ca1-83d8-9d9a71644eb1"
+    }, 
+    "song_title": "Rock 'n' Roll", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4b4_6dca6c5f6b5b_th.jpg", 
+    "song_artist": "The Sounds", 
+    "favorite_count": 108, 
+    "uuid": "C6C20ED6-F42C-4C61-A450-75AEF4BA1530"
+}

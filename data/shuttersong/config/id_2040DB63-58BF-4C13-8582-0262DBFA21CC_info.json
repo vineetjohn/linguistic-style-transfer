@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-20T16:27:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041a1c_23b19edb02f9.ssng", 
+    "updated_at": "2016-04-20T21:05:24-04:00", 
+    "share_url": "https://a.sso.ng/1/23b19edb02f9", 
+    "audio_url": "https://s02.sso.ng/1/000000041a1c_23b19edb02f9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041a1c_23b19edb02f9_mr.jpg", 
+    "song_album": "Stronger (Deluxe Version)", 
+    "user": {
+        "username": "cjchadwick", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "605806f6-5e4e-4642-9e9c-ed265f3f3150"
+    }, 
+    "song_title": "Stronger (What Doesn't Kill You)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041a1c_23b19edb02f9_th.jpg", 
+    "song_artist": "Kelly Clarkson", 
+    "favorite_count": 1, 
+    "uuid": "2040DB63-58BF-4C13-8582-0262DBFA21CC"
+}

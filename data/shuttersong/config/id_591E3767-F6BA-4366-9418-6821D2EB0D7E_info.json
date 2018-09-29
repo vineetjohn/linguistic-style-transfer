@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-21T15:26:07-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037ebc_bbdb2e663ecf.ssng", 
+    "updated_at": "2015-12-25T22:44:30-05:00", 
+    "share_url": "https://a.sso.ng/1/bbdb2e663ecf", 
+    "audio_url": "https://s01.sso.ng/1/000000037ebc_bbdb2e663ecf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037ebc_bbdb2e663ecf_mr.jpg", 
+    "song_album": "Clean Bandit Feat Jess Glynne", 
+    "user": {
+        "username": "RosaTell", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Rosa Fernanda Telleria Garcia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d1dcf098-9f39-4f36-89b0-c1a8e5fbd87b.jpg", 
+        "id": "d1dcf098-9f39-4f36-89b0-c1a8e5fbd87b"
+    }, 
+    "song_title": "Rather Be", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037ebc_bbdb2e663ecf_th.jpg", 
+    "song_artist": "The Official Uk Top 40 Singles Chart 02-02-2014", 
+    "favorite_count": 1, 
+    "uuid": "591E3767-F6BA-4366-9418-6821D2EB0D7E"
+}

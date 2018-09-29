@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "#Hello", 
+    "created_at": "2016-02-19T07:46:35-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003b11d_51efe5006f16.ssng", 
+    "updated_at": "2016-02-19T18:58:35-05:00", 
+    "share_url": "https://a.sso.ng/1/51efe5006f16", 
+    "audio_url": "https://s02.sso.ng/1/00000003b11d_51efe5006f16.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003b11d_51efe5006f16_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Ashleyneira_8", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d79a1fff-a9ae-4aac-9c1a-2a8333f9592d.jpg", 
+        "id": "d79a1fff-a9ae-4aac-9c1a-2a8333f9592d"
+    }, 
+    "song_title": "Hello", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003b11d_51efe5006f16_th.jpg", 
+    "song_artist": "Adele", 
+    "favorite_count": 1, 
+    "uuid": "FD142BF8-C820-44E1-84DE-F7F6D2EAE57E"
+}

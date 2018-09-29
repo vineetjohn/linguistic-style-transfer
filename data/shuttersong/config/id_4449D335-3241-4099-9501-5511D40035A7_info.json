@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83c\udf89\ud83c\udf89\ud83c\udf89\ud83c\udf89", 
+    "created_at": "2016-04-06T19:53:44-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040cc9_22ca2a423b1d.ssng", 
+    "updated_at": "2016-04-08T18:19:02-04:00", 
+    "share_url": "https://a.sso.ng/1/22ca2a423b1d", 
+    "audio_url": "https://s02.sso.ng/1/000000040cc9_22ca2a423b1d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040cc9_22ca2a423b1d_mr.jpg", 
+    "song_album": "My House", 
+    "user": {
+        "username": "morgan.gibbs", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4b24957c-ac3c-46de-8c5a-7644f78d3bab.jpg", 
+        "id": "4b24957c-ac3c-46de-8c5a-7644f78d3bab"
+    }, 
+    "song_title": "My House", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040cc9_22ca2a423b1d_th.jpg", 
+    "song_artist": "Flo Rida", 
+    "favorite_count": 4, 
+    "uuid": "4449D335-3241-4099-9501-5511D40035A7"
+}

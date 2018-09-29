@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My Boyfriend and I's song.", 
+    "created_at": "2016-03-01T18:52:46-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e22b_0652ed813898.ssng", 
+    "updated_at": "2016-03-02T08:27:08-05:00", 
+    "share_url": "https://a.sso.ng/1/0652ed813898", 
+    "audio_url": "https://s02.sso.ng/1/00000003e22b_0652ed813898.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e22b_0652ed813898_mr.jpg", 
+    "song_album": "Analog Love", 
+    "user": {
+        "username": "JennEagleson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jenn Eagleson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/660d2639-b007-4ce7-ba3e-116f35013ee1.jpg", 
+        "id": "660d2639-b007-4ce7-ba3e-116f35013ee1"
+    }, 
+    "song_title": "Sound of Your Heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e22b_0652ed813898_th.jpg", 
+    "song_artist": "Shawn Hook", 
+    "favorite_count": 1, 
+    "uuid": "90275BB6-74B0-4BB0-A7AD-DD37847343E9"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-25T16:19:27-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea6a_fc98f2c72c3c.ssng", 
+    "updated_at": "2016-02-27T01:11:40-05:00", 
+    "share_url": "https://a.sso.ng/1/fc98f2c72c3c", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea6a_fc98f2c72c3c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea6a_fc98f2c72c3c_mr.jpg", 
+    "song_album": "Doo-Wops & Hooligans", 
+    "user": {
+        "username": "gina.janoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ce57dc3d-08d1-4494-af4a-c309a922ed35.jpg", 
+        "id": "ce57dc3d-08d1-4494-af4a-c309a922ed35"
+    }, 
+    "song_title": "Grenade", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea6a_fc98f2c72c3c_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 1, 
+    "uuid": "79D3F65B-5577-4833-8CA7-5F13AB6F9FA4"
+}

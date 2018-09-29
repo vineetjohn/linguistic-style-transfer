@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo Maryant Quintero", 
+    "created_at": "2015-12-31T20:34:26-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000324ec_1a2bf1598d3f.ssng", 
+    "updated_at": "2015-12-31T20:37:00-05:00", 
+    "share_url": "https://a.sso.ng/1/1a2bf1598d3f", 
+    "audio_url": "https://s01.sso.ng/1/0000000324ec_1a2bf1598d3f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000324ec_1a2bf1598d3f_mr.jpg", 
+    "song_album": "Nine Track Mind", 
+    "user": {
+        "username": "maryantquintero", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Maryant Quintero", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3a5a1a1b-0d11-49c3-9225-e77970af4118.jpg", 
+        "id": "3a5a1a1b-0d11-49c3-9225-e77970af4118"
+    }, 
+    "song_title": "One Call Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000324ec_1a2bf1598d3f_th.jpg", 
+    "song_artist": "Charlie Puth", 
+    "favorite_count": 1, 
+    "uuid": "FA74343A-1A63-45CD-A2DF-4354270C8BE6"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-27T19:37:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000026aea_4a7f49fbc8cf.ssng", 
+    "updated_at": "2016-05-29T01:51:34-04:00", 
+    "share_url": "https://a.sso.ng/1/4a7f49fbc8cf", 
+    "audio_url": "https://s02.sso.ng/1/000000026aea_4a7f49fbc8cf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000026aea_4a7f49fbc8cf_mr.jpg", 
+    "song_album": "Dangerous Woman (Deluxe)", 
+    "user": {
+        "username": "SayYay", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Rimvydas", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7f083457-a53c-41b9-aa09-4bb83e3dc346.jpg", 
+        "id": "7f083457-a53c-41b9-aa09-4bb83e3dc346"
+    }, 
+    "song_title": "Thinking Bout You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000026aea_4a7f49fbc8cf_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 2, 
+    "uuid": "9059D605-C92F-4A69-B103-7152564E35EE"
+}

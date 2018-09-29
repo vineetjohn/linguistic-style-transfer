@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Having a bad hair day ??", 
+    "created_at": "2015-12-13T14:40:04-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030f97_860bd89b450a_1.ssng", 
+    "updated_at": "2015-12-15T13:23:00-05:00", 
+    "share_url": "https://a.sso.ng/1/860bd89b450a", 
+    "audio_url": "https://s01.sso.ng/1/000000030f97_860bd89b450a_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030f97_860bd89b450a_1_mr.jpg", 
+    "song_album": "Lips Are Movin - Single", 
+    "user": {
+        "username": "Mils_Love", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c754d496-9a64-4e40-ab23-f92fff9b8ca1.jpg", 
+        "id": "c754d496-9a64-4e40-ab23-f92fff9b8ca1"
+    }, 
+    "song_title": "Lips Are Movin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030f97_860bd89b450a_1_th.jpg", 
+    "song_artist": "Meghan Trainor", 
+    "favorite_count": 1, 
+    "uuid": "582A0CC1-D7D5-42EB-B522-36C2D5FD5816"
+}

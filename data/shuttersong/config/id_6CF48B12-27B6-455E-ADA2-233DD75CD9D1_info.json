@@ -1,0 +1,27 @@
+{
+    "mood": "cheeky", 
+    "caption": "Broke", 
+    "created_at": "2016-02-15T02:08:52-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e434_b46851d9ec49.ssng", 
+    "updated_at": "2016-03-02T16:18:00-05:00", 
+    "share_url": "https://a.sso.ng/1/b46851d9ec49", 
+    "audio_url": "https://s02.sso.ng/1/00000003e434_b46851d9ec49.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e434_b46851d9ec49_mr.jpg", 
+    "song_album": "Everything Is 4", 
+    "user": {
+        "username": "Iconicjaidon", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f0698d8d-e8e9-48ec-8beb-d7945844faf1.jpg", 
+        "id": "f0698d8d-e8e9-48ec-8beb-d7945844faf1"
+    }, 
+    "song_title": "Broke (feat. Stevie Wonder &amp; Keith Urban)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e434_b46851d9ec49_th.jpg", 
+    "song_artist": "Jason Derulo", 
+    "favorite_count": 1, 
+    "uuid": "6CF48B12-27B6-455E-ADA2-233DD75CD9D1"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-11T03:02:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000023044_be4c8046860f.ssng", 
+    "updated_at": "2015-08-12T12:10:46-04:00", 
+    "share_url": "https://a.sso.ng/1/be4c8046860f", 
+    "audio_url": "https://s01.sso.ng/1/000000023044_be4c8046860f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000023044_be4c8046860f_mr.jpg", 
+    "song_album": "Wild Life - Single", 
+    "user": {
+        "username": "lionjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/23268796-f390-4b03-b2d6-03430f659f49.jpg", 
+        "id": "23268796-f390-4b03-b2d6-03430f659f49"
+    }, 
+    "song_title": "Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000023044_be4c8046860f_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "2ACEA72E-D46A-463F-9A4B-F51B52D70DF3"
+}

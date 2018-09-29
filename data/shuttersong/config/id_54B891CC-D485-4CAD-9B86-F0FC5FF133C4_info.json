@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Bro??", 
+    "created_at": "2016-02-11T11:26:30-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e52e_25862df59184.ssng", 
+    "updated_at": "2016-02-12T10:20:47-05:00", 
+    "share_url": "https://a.sso.ng/1/25862df59184", 
+    "audio_url": "https://s02.sso.ng/1/00000003e52e_25862df59184.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e52e_25862df59184_mr.jpg", 
+    "song_album": "Now That's What I Call a Party", 
+    "user": {
+        "username": "Jaiftjamyamm", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a9887910-77cf-47f6-82a9-bfa1125fcfab.jpg", 
+        "id": "a9887910-77cf-47f6-82a9-bfa1125fcfab"
+    }, 
+    "song_title": "Pompeii", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e52e_25862df59184_th.jpg", 
+    "song_artist": "Bastille", 
+    "favorite_count": 3, 
+    "uuid": "54B891CC-D485-4CAD-9B86-F0FC5FF133C4"
+}

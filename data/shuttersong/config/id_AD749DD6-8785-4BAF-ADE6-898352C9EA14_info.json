@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Best Coast 2016", 
+    "created_at": "2016-02-24T21:10:48-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1f7_900a6b5994a3.ssng", 
+    "updated_at": "2016-03-24T05:11:56-04:00", 
+    "share_url": "https://a.sso.ng/1/900a6b5994a3", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1f7_900a6b5994a3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1f7_900a6b5994a3_mr.jpg", 
+    "song_album": "Crazy For You", 
+    "user": {
+        "username": "christinatina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8ab492da-f066-48ca-a644-6a3a7d9136a3.jpg", 
+        "id": "8ab492da-f066-48ca-a644-6a3a7d9136a3"
+    }, 
+    "song_title": "Goodbye", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1f7_900a6b5994a3_th.jpg", 
+    "song_artist": "Best Coast", 
+    "favorite_count": 3, 
+    "uuid": "AD749DD6-8785-4BAF-ADE6-898352C9EA14"
+}

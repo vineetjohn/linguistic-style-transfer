@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-26T20:36:59-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000301ff_40bd820998e0.ssng", 
+    "updated_at": "2015-11-28T18:00:35-05:00", 
+    "share_url": "https://a.sso.ng/1/40bd820998e0", 
+    "audio_url": "https://s01.sso.ng/1/0000000301ff_40bd820998e0.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000301ff_40bd820998e0_mr.jpg", 
+    "song_album": "Made In The A.M. (Deluxe Edition)", 
+    "user": {
+        "username": "kathryntomlinson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f8314460-3107-466b-9a39-d97ee360cd8d"
+    }, 
+    "song_title": "Hey Angel", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000301ff_40bd820998e0_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 2, 
+    "uuid": "FF227B65-462F-47F1-81F9-10E348DB7E7E"
+}

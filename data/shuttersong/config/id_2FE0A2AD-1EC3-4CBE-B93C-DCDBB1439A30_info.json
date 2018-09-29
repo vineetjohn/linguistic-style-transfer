@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-13T09:05:28-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7ac_0c03c8e75552.ssng", 
+    "updated_at": "2016-05-13T20:07:35-04:00", 
+    "share_url": "https://a.sso.ng/1/0c03c8e75552", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7ac_0c03c8e75552.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7ac_0c03c8e75552_mr.jpg", 
+    "song_album": "The First Time", 
+    "user": {
+        "username": "theresa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0ff29971-dfa2-4a04-b295-aca7b7192cc5.jpg", 
+        "id": "0ff29971-dfa2-4a04-b295-aca7b7192cc5"
+    }, 
+    "song_title": "Peter Pan", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7ac_0c03c8e75552_th.jpg", 
+    "song_artist": "Kelsea Ballerini", 
+    "favorite_count": 2, 
+    "uuid": "2FE0A2AD-1EC3-4CBE-B93C-DCDBB1439A30"
+}

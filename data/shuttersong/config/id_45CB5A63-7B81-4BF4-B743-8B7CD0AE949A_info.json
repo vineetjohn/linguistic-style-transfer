@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-27T17:18:12-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003dc59_32c95f6948a7.ssng", 
+    "updated_at": "2016-02-03T16:00:56-05:00", 
+    "share_url": "https://a.sso.ng/1/32c95f6948a7", 
+    "audio_url": "https://s02.sso.ng/1/00000003dc59_32c95f6948a7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003dc59_32c95f6948a7_mr.jpg", 
+    "song_album": "The Daydreamer", 
+    "user": {
+        "username": "ethamilton", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9be7f2c2-910f-46d4-ba48-9801b0e8b956"
+    }, 
+    "song_title": "Platonic Hello (Prod. 4.0)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003dc59_32c95f6948a7_th.jpg", 
+    "song_artist": "Rex Avant", 
+    "favorite_count": 1, 
+    "uuid": "45CB5A63-7B81-4BF4-B743-8B7CD0AE949A"
+}

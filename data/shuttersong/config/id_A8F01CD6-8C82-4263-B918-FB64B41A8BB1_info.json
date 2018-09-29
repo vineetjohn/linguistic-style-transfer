@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-13T13:53:30-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d568_34606c3ccd53.ssng", 
+    "updated_at": "2016-01-14T15:37:00-05:00", 
+    "share_url": "https://a.sso.ng/1/34606c3ccd53", 
+    "audio_url": "https://s02.sso.ng/1/00000003d568_34606c3ccd53.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d568_34606c3ccd53_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "prisci97", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e4dab43a-b7ba-4acc-9557-62e076e9f29f"
+    }, 
+    "song_title": "Adele - Set Fire To The Rain (Lyrics on Screen) (Original)(2)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d568_34606c3ccd53_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "A8F01CD6-8C82-4263-B918-FB64B41A8BB1"
+}

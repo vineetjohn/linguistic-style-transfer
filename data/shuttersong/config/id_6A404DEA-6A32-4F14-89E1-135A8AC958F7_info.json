@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#sky #trees #rain", 
+    "created_at": "2016-06-22T18:26:32-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000026aea_a845b4b915f3.ssng", 
+    "updated_at": "2016-06-24T16:45:24-04:00", 
+    "share_url": "https://a.sso.ng/1/a845b4b915f3", 
+    "audio_url": "https://s02.sso.ng/1/000000026aea_a845b4b915f3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000026aea_a845b4b915f3_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "SayYay", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Rimvydas", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7f083457-a53c-41b9-aa09-4bb83e3dc346.jpg", 
+        "id": "7f083457-a53c-41b9-aa09-4bb83e3dc346"
+    }, 
+    "song_title": "Ariana Grande - Greedy (Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000026aea_a845b4b915f3_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 6, 
+    "uuid": "6A404DEA-6A32-4F14-89E1-135A8AC958F7"
+}

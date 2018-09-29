@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I miss Digi fest?", 
+    "created_at": "2015-08-30T00:46:34-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000211b1_b6cdf1005033_1.ssng", 
+    "updated_at": "2015-08-30T12:01:57-04:00", 
+    "share_url": "https://a.sso.ng/1/b6cdf1005033", 
+    "audio_url": "https://s01.sso.ng/1/0000000211b1_b6cdf1005033_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000211b1_b6cdf1005033_1_mr.jpg", 
+    "song_album": "Ordinary - Single", 
+    "user": {
+        "username": "tbhhjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Tyler", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2b5ac4fb-0b1b-460b-8d0d-613cf84545b2.jpg", 
+        "id": "2b5ac4fb-0b1b-460b-8d0d-613cf84545b2"
+    }, 
+    "song_title": "Ordinary", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000211b1_b6cdf1005033_1_th.jpg", 
+    "song_artist": "Ricky Dillon", 
+    "favorite_count": 3, 
+    "uuid": "BB1374A8-23B7-4EDE-8F65-5739CB622394"
+}

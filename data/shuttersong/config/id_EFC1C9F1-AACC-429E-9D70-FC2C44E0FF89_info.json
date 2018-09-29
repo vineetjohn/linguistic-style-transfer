@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-01T06:15:08-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003082c_d5cd63243179.ssng", 
+    "updated_at": "2015-12-02T00:50:03-05:00", 
+    "share_url": "https://a.sso.ng/1/d5cd63243179", 
+    "audio_url": "https://s01.sso.ng/1/00000003082c_d5cd63243179.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003082c_d5cd63243179_mr.jpg", 
+    "song_album": "Diamonds (Acoustic Version) [feat. Jona Selle] - Single", 
+    "user": {
+        "username": "giancarlo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0e17182e-3d72-41e9-932e-3cea5ec9a7f8"
+    }, 
+    "song_title": "Diamonds (Acoustic Version) [feat. Jona Selle]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003082c_d5cd63243179_th.jpg", 
+    "song_artist": "Joel Brandenstein", 
+    "favorite_count": 1, 
+    "uuid": "EFC1C9F1-AACC-429E-9D70-FC2C44E0FF89"
+}

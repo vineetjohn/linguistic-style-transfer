@@ -1,0 +1,27 @@
+{
+    "mood": "Cheerful", 
+    "caption": "", 
+    "created_at": "2016-05-19T18:15:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000024713_8361a8e2e79b.ssng", 
+    "updated_at": "2016-06-03T13:19:48-04:00", 
+    "share_url": "https://a.sso.ng/1/8361a8e2e79b", 
+    "audio_url": "https://s02.sso.ng/1/000000024713_8361a8e2e79b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000024713_8361a8e2e79b_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "adamoua00", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7b15d80a-4992-4978-aaad-1b0ace481f3f"
+    }, 
+    "song_title": "Hit & Run", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000024713_8361a8e2e79b_th.jpg", 
+    "song_artist": "Greyson Chance", 
+    "favorite_count": 3, 
+    "uuid": "A531CD55-A4C2-4390-AFF8-8E3824C70A7A"
+}

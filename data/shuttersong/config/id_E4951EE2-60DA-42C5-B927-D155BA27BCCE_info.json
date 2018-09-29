@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Gordi", 
+    "created_at": "2015-08-21T01:12:53-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025a96_1bfb946d7c84_1.ssng", 
+    "updated_at": "2015-08-21T01:41:00-04:00", 
+    "share_url": "https://a.sso.ng/1/1bfb946d7c84", 
+    "audio_url": "https://s01.sso.ng/1/000000025a96_1bfb946d7c84_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025a96_1bfb946d7c84_1_mr.jpg", 
+    "song_album": "Reflection (Deluxe)", 
+    "user": {
+        "username": "Abril", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4e48f197-6724-481f-9a86-2fd38557c4cb.jpg", 
+        "id": "4e48f197-6724-481f-9a86-2fd38557c4cb"
+    }, 
+    "song_title": "Worth It (feat. Kid Ink)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025a96_1bfb946d7c84_1_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 1, 
+    "uuid": "E4951EE2-60DA-42C5-B927-D155BA27BCCE"
+}

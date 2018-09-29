@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-10T18:36:37-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e873_8dde6aeb07a1.ssng", 
+    "updated_at": "2016-02-29T15:08:46-05:00", 
+    "share_url": "https://a.sso.ng/1/8dde6aeb07a1", 
+    "audio_url": "https://s02.sso.ng/1/00000003e873_8dde6aeb07a1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e873_8dde6aeb07a1_mr.jpg", 
+    "song_album": "Midnight Memories (Deluxe Edition)", 
+    "user": {
+        "username": "gayoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a011aa22-5956-4781-ac22-b46b7e340f93.jpg", 
+        "id": "a011aa22-5956-4781-ac22-b46b7e340f93"
+    }, 
+    "song_title": "Right Now", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e873_8dde6aeb07a1_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "FDB8DC2D-65C9-4518-B839-B513BCFD2A14"
+}

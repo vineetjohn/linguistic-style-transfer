@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "One of our family photos from last week?", 
+    "created_at": "2015-11-14T12:36:24-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002fdd8_58b62c518ad9_1.ssng", 
+    "updated_at": "2015-11-15T06:19:13-05:00", 
+    "share_url": "https://a.sso.ng/1/58b62c518ad9", 
+    "audio_url": "https://s01.sso.ng/1/00000002fdd8_58b62c518ad9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002fdd8_58b62c518ad9_1_mr.jpg", 
+    "song_album": "x (Deluxe Edition)", 
+    "user": {
+        "username": "lexana", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/810592bd-c3bb-4ab4-b1a0-6ab988b1d66a.jpg", 
+        "id": "810592bd-c3bb-4ab4-b1a0-6ab988b1d66a"
+    }, 
+    "song_title": "Photograph", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002fdd8_58b62c518ad9_1_th.jpg", 
+    "song_artist": "Ed Sheeran", 
+    "favorite_count": 2, 
+    "uuid": "1BE7F3FC-3BE3-4065-B959-BB4D39D3A648"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "Accepted", 
+    "caption": "Just a calm photo \ud83d\ude01", 
+    "created_at": "2016-05-16T07:54:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040017_33dc48ac1683.ssng", 
+    "updated_at": "2016-05-17T00:24:01-04:00", 
+    "share_url": "https://a.sso.ng/1/33dc48ac1683", 
+    "audio_url": "https://s02.sso.ng/1/000000040017_33dc48ac1683.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040017_33dc48ac1683_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Tiahna", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/293a1102-986e-4eca-83cd-6085d254076c.jpg", 
+        "id": "293a1102-986e-4eca-83cd-6085d254076c"
+    }, 
+    "song_title": "The Chainsmokers - Don't Let Me Down (Illenium Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040017_33dc48ac1683_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "316E7BB3-7A66-4AB2-9BEB-E46CEFC572FA"
+}

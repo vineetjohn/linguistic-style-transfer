@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-27T10:39:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020081_998c7978ee5a.ssng", 
+    "updated_at": "2015-07-27T10:39:07-04:00", 
+    "share_url": "https://a.sso.ng/1/998c7978ee5a", 
+    "audio_url": "https://s01.sso.ng/1/000000020081_998c7978ee5a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020081_998c7978ee5a_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "estheria", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "031e5f6a-c715-428e-b657-89e3c34f4c8d"
+    }, 
+    "song_title": "I'll Believe", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020081_998c7978ee5a_th.jpg", 
+    "song_artist": "Altima", 
+    "favorite_count": 2, 
+    "uuid": "9938BB7A-7611-447A-B67A-ECF694A9FC77"
+}

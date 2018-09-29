@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T11:28:51-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036a29_0226a8b4ad38.ssng", 
+    "updated_at": "2015-12-19T13:05:34-05:00", 
+    "share_url": "https://a.sso.ng/1/0226a8b4ad38", 
+    "audio_url": "https://s01.sso.ng/1/000000036a29_0226a8b4ad38.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036a29_0226a8b4ad38_mr.jpg", 
+    "song_album": "Ariana Grande", 
+    "user": {
+        "username": "DanielaZapata23", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/16ce9c9f-6006-4bd5-a233-3f5b627138ee.jpg", 
+        "id": "16ce9c9f-6006-4bd5-a233-3f5b627138ee"
+    }, 
+    "song_title": "Focus", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036a29_0226a8b4ad38_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "567A51FB-380D-4E36-97A2-ABABDC88D3CD"
+}

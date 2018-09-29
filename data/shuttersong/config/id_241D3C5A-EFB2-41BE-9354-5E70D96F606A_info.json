@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Nicely coloured !!", 
+    "created_at": "2016-06-04T19:24:40-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044947_aae603a40da9.ssng", 
+    "updated_at": "2016-06-06T16:35:20-04:00", 
+    "share_url": "https://a.sso.ng/1/aae603a40da9", 
+    "audio_url": "https://s02.sso.ng/1/000000044947_aae603a40da9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044947_aae603a40da9_mr.jpg", 
+    "song_album": "1", 
+    "user": {
+        "username": "ali2471", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6b5db424-7a88-43d1-bf91-f291951a851b"
+    }, 
+    "song_title": "Yellow Submarine", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044947_aae603a40da9_th.jpg", 
+    "song_artist": "The Beatles", 
+    "favorite_count": 2, 
+    "uuid": "241D3C5A-EFB2-41BE-9354-5E70D96F606A"
+}

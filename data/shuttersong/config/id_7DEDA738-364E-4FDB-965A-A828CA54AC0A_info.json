@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:24:41-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020df8_3237ec7c4e07.ssng", 
+    "updated_at": "2015-08-03T23:24:41-04:00", 
+    "share_url": "https://a.sso.ng/1/3237ec7c4e07", 
+    "audio_url": "https://s01.sso.ng/1/000000020df8_3237ec7c4e07.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020df8_3237ec7c4e07_mr.jpg", 
+    "song_album": "Calibraska", 
+    "user": {
+        "username": "garcia.natalie8", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d5d0ff34-e2fa-4209-950d-5621946d66a2"
+    }, 
+    "song_title": "Shallow Love ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020df8_3237ec7c4e07_th.jpg", 
+    "song_artist": "Jack and Jack ", 
+    "favorite_count": 1, 
+    "uuid": "7DEDA738-364E-4FDB-965A-A828CA54AC0A"
+}

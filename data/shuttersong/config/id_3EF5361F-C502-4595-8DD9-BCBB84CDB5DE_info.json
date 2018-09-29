@@ -1,0 +1,27 @@
+{
+    "mood": "cold", 
+    "caption": "Shyness", 
+    "created_at": "2016-03-22T15:03:32-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003aa14_16942800a8cc.ssng", 
+    "updated_at": "2016-03-23T06:27:53-04:00", 
+    "share_url": "https://a.sso.ng/1/16942800a8cc", 
+    "audio_url": "https://s02.sso.ng/1/00000003aa14_16942800a8cc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003aa14_16942800a8cc_mr.jpg", 
+    "song_album": "Fly - Single", 
+    "user": {
+        "username": "Brati", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/47c7fee3-9373-4592-8a62-6cd3deed5c76.jpg", 
+        "id": "47c7fee3-9373-4592-8a62-6cd3deed5c76"
+    }, 
+    "song_title": "Fly", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003aa14_16942800a8cc_th.jpg", 
+    "song_artist": "Hollie Steel", 
+    "favorite_count": 1, 
+    "uuid": "3EF5361F-C502-4595-8DD9-BCBB84CDB5DE"
+}

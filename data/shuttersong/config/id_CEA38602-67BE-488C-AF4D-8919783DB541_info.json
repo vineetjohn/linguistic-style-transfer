@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T00:42:38-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020aec_540402117739.ssng", 
+    "updated_at": "2015-08-04T00:42:38-04:00", 
+    "share_url": "https://a.sso.ng/1/540402117739", 
+    "audio_url": "https://s01.sso.ng/1/000000020aec_540402117739.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020aec_540402117739_mr.jpg", 
+    "song_album": "Right Where You Are - Single", 
+    "user": {
+        "username": "buzzedjohnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "marcia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/67666f81-9bb1-4c19-ac5b-914daa2f321f.jpg", 
+        "id": "67666f81-9bb1-4c19-ac5b-914daa2f321f"
+    }, 
+    "song_title": "Right Where You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020aec_540402117739_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "CEA38602-67BE-488C-AF4D-8919783DB541"
+}

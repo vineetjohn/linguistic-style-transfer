@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "love my boy Johnson ", 
+    "created_at": "2015-08-03T23:30:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020bfd_ad22768d6339_1.ssng", 
+    "updated_at": "2015-08-03T23:31:08-04:00", 
+    "share_url": "https://a.sso.ng/1/ad22768d6339", 
+    "audio_url": "https://s01.sso.ng/1/000000020bfd_ad22768d6339_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020bfd_ad22768d6339_1_mr.jpg", 
+    "song_album": "Party of the Year (feat. Jack & Jack) - Single", 
+    "user": {
+        "username": "maggiie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "ogocnathan", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/031432d8-8231-4bf4-aaaa-9895fe698d7a.jpg", 
+        "id": "031432d8-8231-4bf4-aaaa-9895fe698d7a"
+    }, 
+    "song_title": "Party of the Year (feat. Jack & Jack)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020bfd_ad22768d6339_1_th.jpg", 
+    "song_artist": "DJ Rupp & Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "F58D614A-3189-4A0E-8AB4-2A0CB923F56A"
+}

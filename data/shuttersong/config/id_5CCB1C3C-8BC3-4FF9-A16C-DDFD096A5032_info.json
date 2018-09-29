@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u260e\ufe0f", 
+    "created_at": "2016-01-09T23:24:00-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000028fc9_f6a3930cfa8f.ssng", 
+    "updated_at": "2016-01-12T20:03:52-05:00", 
+    "share_url": "https://a.sso.ng/1/f6a3930cfa8f", 
+    "audio_url": "https://s01.sso.ng/1/000000028fc9_f6a3930cfa8f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000028fc9_f6a3930cfa8f_mr.jpg", 
+    "song_album": "For Promotional Use Only", 
+    "user": {
+        "username": "NataliaMG", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Shadow Kissing ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/354e848f-6844-4073-8b29-f5ea5854884d.jpg", 
+        "id": "354e848f-6844-4073-8b29-f5ea5854884d"
+    }, 
+    "song_title": "Hotline Bling (Clean)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000028fc9_f6a3930cfa8f_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 7, 
+    "uuid": "5CCB1C3C-8BC3-4FF9-A16C-DDFD096A5032"
+}

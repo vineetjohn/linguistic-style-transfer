@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-09T20:20:37-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001d3be_b5d3823e2f3f.ssng", 
+    "updated_at": "2015-10-11T13:39:41-04:00", 
+    "share_url": "https://a.sso.ng/1/b5d3823e2f3f", 
+    "audio_url": "https://s01.sso.ng/1/00000001d3be_b5d3823e2f3f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001d3be_b5d3823e2f3f_mr.jpg", 
+    "song_album": "Hamilton (Original Broadway Cast Recording)", 
+    "user": {
+        "username": "fedsom", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1d18e67c-4ff0-4d83-9a4b-5329ccff0921"
+    }, 
+    "song_title": "Cabinet Battle #1", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001d3be_b5d3823e2f3f_th.jpg", 
+    "song_artist": "Lin-Manuel Miranda", 
+    "favorite_count": 1, 
+    "uuid": "6578CD72-10DD-4F11-B344-FE1116E9D2DA"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I want to be that hotdog", 
+    "created_at": "2016-02-09T18:32:00-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5af_87926e0675ff.ssng", 
+    "updated_at": "2016-02-10T21:44:24-05:00", 
+    "share_url": "https://a.sso.ng/1/87926e0675ff", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5af_87926e0675ff.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5af_87926e0675ff_mr.jpg", 
+    "song_album": "5 Seconds of Summer (Deluxe)", 
+    "user": {
+        "username": "CreamMeJai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fbcfbf84-a7db-45c7-847c-fbe9da0c8ec7.jpg", 
+        "id": "fbcfbf84-a7db-45c7-847c-fbe9da0c8ec7"
+    }, 
+    "song_title": "Beside You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5af_87926e0675ff_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 1, 
+    "uuid": "AF09A7F2-FA18-4907-B71E-D609BA2B05CE"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "? #santasorteo Atala Bermudez", 
+    "created_at": "2015-12-21T00:44:28-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036912_9c8475d3f3d8.ssng", 
+    "updated_at": "2015-12-21T08:51:51-05:00", 
+    "share_url": "https://a.sso.ng/1/9c8475d3f3d8", 
+    "audio_url": "https://s01.sso.ng/1/000000036912_9c8475d3f3d8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036912_9c8475d3f3d8_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Atalabermudez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a9e527f2-5d3e-4e60-b907-916c3aa27a64.jpg", 
+        "id": "a9e527f2-5d3e-4e60-b907-916c3aa27a64"
+    }, 
+    "song_title": "All Of Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036912_9c8475d3f3d8_th.jpg", 
+    "song_artist": "John Legend", 
+    "favorite_count": 1, 
+    "uuid": "3DC37332-C431-4E82-95CD-37CBE018A6A8"
+}

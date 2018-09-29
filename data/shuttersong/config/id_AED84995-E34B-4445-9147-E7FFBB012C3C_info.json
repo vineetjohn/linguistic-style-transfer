@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Some of my favourite lyrics from Wrong One by Jack and Jack!! ", 
+    "created_at": "2015-08-03T23:54:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020fc7_28669a468262_1.ssng", 
+    "updated_at": "2015-08-03T23:55:45-04:00", 
+    "share_url": "https://a.sso.ng/1/28669a468262", 
+    "audio_url": "https://s01.sso.ng/1/000000020fc7_28669a468262_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020fc7_28669a468262_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "tattedjacks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "bef12df7-c6fd-4edb-9396-be5206cd0bc1"
+    }, 
+    "song_title": "Wrong One", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020fc7_28669a468262_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "AED84995-E34B-4445-9147-E7FFBB012C3C"
+}

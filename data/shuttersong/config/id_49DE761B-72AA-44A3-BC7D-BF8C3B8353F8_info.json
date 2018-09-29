@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-03T00:47:10-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000408c7_5e506a6eb0be.ssng", 
+    "updated_at": "2016-04-03T19:34:21-04:00", 
+    "share_url": "https://a.sso.ng/1/5e506a6eb0be", 
+    "audio_url": "https://s02.sso.ng/1/0000000408c7_5e506a6eb0be.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000408c7_5e506a6eb0be_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "whaletown88", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "26b822f0-9101-4059-9c14-9d1f296a575c"
+    }, 
+    "song_title": "All Around The World (Lyric Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000408c7_5e506a6eb0be_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "49DE761B-72AA-44A3-BC7D-BF8C3B8353F8"
+}

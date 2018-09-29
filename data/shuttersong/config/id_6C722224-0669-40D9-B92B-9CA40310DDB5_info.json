@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-20T00:16:07-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036379_5a87b72dd914.ssng", 
+    "updated_at": "2015-12-22T11:30:13-05:00", 
+    "share_url": "https://a.sso.ng/1/5a87b72dd914", 
+    "audio_url": "https://s01.sso.ng/1/000000036379_5a87b72dd914.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036379_5a87b72dd914_mr.jpg", 
+    "song_album": "Yours Truly", 
+    "user": {
+        "username": "agustincorpusg", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Agustin Corpus", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d3b052c4-e2db-4901-bb75-07ec51aaaa6f.jpg", 
+        "id": "d3b052c4-e2db-4901-bb75-07ec51aaaa6f"
+    }, 
+    "song_title": "The Way (feat. Mac Miller)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036379_5a87b72dd914_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "6C722224-0669-40D9-B92B-9CA40310DDB5"
+}

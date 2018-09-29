@@ -1,0 +1,27 @@
+{
+    "mood": "Chipper", 
+    "caption": "", 
+    "created_at": "2016-01-19T02:08:20-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_c07f7289ec4c.ssng", 
+    "updated_at": "2016-01-19T02:09:03-05:00", 
+    "share_url": "https://a.sso.ng/1/c07f7289ec4c", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_c07f7289ec4c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_c07f7289ec4c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "[WAV]Jessie J-Flashlight", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_c07f7289ec4c_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "218EC3C0-24BD-492F-B867-F380D5E391CC"
+}

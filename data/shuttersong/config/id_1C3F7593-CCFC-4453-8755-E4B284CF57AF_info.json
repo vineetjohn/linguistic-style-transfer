@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-19T05:05:22-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003a1c9_f6b874689ef8.ssng", 
+    "updated_at": "2016-01-21T06:29:56-05:00", 
+    "share_url": "https://a.sso.ng/1/f6b874689ef8", 
+    "audio_url": "https://s02.sso.ng/1/00000003a1c9_f6b874689ef8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003a1c9_f6b874689ef8_mr.jpg", 
+    "song_album": "Coraline Soundtrack", 
+    "user": {
+        "username": "marjorie14jane", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1ce21ac4-72a6-4475-90f9-3903c2ce3644"
+    }, 
+    "song_title": "Exploration", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003a1c9_f6b874689ef8_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "1C3F7593-CCFC-4453-8755-E4B284CF57AF"
+}

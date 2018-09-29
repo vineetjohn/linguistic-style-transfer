@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-20T17:34:26-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000459b5_83279c0ffe22.ssng", 
+    "updated_at": "2016-06-20T19:26:42-04:00", 
+    "share_url": "https://a.sso.ng/1/83279c0ffe22", 
+    "audio_url": "https://s02.sso.ng/1/0000000459b5_83279c0ffe22.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000459b5_83279c0ffe22_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "colleen_rose", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/df8cb139-b66a-4133-a240-c0433fb6daf8.jpg", 
+        "id": "df8cb139-b66a-4133-a240-c0433fb6daf8"
+    }, 
+    "song_title": "5SOS - Close As Strangers (Lyrics)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000459b5_83279c0ffe22_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "51C73D56-6815-40CD-AD18-736C536B7702"
+}

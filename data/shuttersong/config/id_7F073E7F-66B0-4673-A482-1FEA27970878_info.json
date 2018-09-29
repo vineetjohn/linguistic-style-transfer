@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-12T15:38:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022f2d_3d6d8312e7b1.ssng", 
+    "updated_at": "2015-10-17T14:47:23-04:00", 
+    "share_url": "https://a.sso.ng/1/3d6d8312e7b1", 
+    "audio_url": "https://s01.sso.ng/1/000000022f2d_3d6d8312e7b1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022f2d_3d6d8312e7b1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "yasmin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "34166525-aa96-4bf1-a351-ed5928410de2"
+    }, 
+    "song_title": "Cameron Dallas - She Bad Lyrics  2015", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022f2d_3d6d8312e7b1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "7F073E7F-66B0-4673-A482-1FEA27970878"
+}

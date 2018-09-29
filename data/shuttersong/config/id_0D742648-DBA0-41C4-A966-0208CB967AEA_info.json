@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T12:58:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002120f_798313672013.ssng", 
+    "updated_at": "2015-08-04T12:58:21-04:00", 
+    "share_url": "https://a.sso.ng/1/798313672013", 
+    "audio_url": "https://s01.sso.ng/1/00000002120f_798313672013.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002120f_798313672013_mr.jpg", 
+    "song_album": "Maybe - Single", 
+    "user": {
+        "username": "Tara.Lynne.Clifford", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/79330fd6-348d-44d2-9306-6dad8fdfda25.jpg", 
+        "id": "79330fd6-348d-44d2-9306-6dad8fdfda25"
+    }, 
+    "song_title": "Maybe", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002120f_798313672013_th.jpg", 
+    "song_artist": "Daniel Skye", 
+    "favorite_count": 3, 
+    "uuid": "0D742648-DBA0-41C4-A966-0208CB967AEA"
+}

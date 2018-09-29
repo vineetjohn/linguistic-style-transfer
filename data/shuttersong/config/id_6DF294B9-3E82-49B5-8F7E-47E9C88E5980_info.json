@@ -1,0 +1,27 @@
+{
+    "mood": "accomplished", 
+    "caption": "", 
+    "created_at": "2016-06-24T23:49:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045df3_d7a195679baf.ssng", 
+    "updated_at": "2016-06-25T20:12:22-04:00", 
+    "share_url": "https://a.sso.ng/1/d7a195679baf", 
+    "audio_url": "https://s02.sso.ng/1/000000045df3_d7a195679baf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045df3_d7a195679baf_mr.jpg", 
+    "song_album": "ARTPOP", 
+    "user": {
+        "username": "KC11105", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/cbd5e265-5ab4-492b-a5cd-237251ec7e61.jpg", 
+        "id": "cbd5e265-5ab4-492b-a5cd-237251ec7e61"
+    }, 
+    "song_title": "Applause", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045df3_d7a195679baf_th.jpg", 
+    "song_artist": "Lady Gaga", 
+    "favorite_count": 2, 
+    "uuid": "6DF294B9-3E82-49B5-8F7E-47E9C88E5980"
+}

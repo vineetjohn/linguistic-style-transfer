@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?*keep your head above the water*?", 
+    "created_at": "2015-08-05T18:48:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021aa9_a037d518aa35_1.ssng", 
+    "updated_at": "2015-08-05T18:49:53-04:00", 
+    "share_url": "https://a.sso.ng/1/a037d518aa35", 
+    "audio_url": "https://s01.sso.ng/1/000000021aa9_a037d518aa35_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021aa9_a037d518aa35_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "caitlin.debauge", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3c1ae252-9602-4941-b70b-c72c9f3dd95c.jpg", 
+        "id": "3c1ae252-9602-4941-b70b-c72c9f3dd95c"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021aa9_a037d518aa35_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "05711025-AFD2-4C7A-A47C-F1B43AF2274E"
+}

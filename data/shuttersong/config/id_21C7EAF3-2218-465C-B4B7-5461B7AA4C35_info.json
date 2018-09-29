@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-10T12:58:32-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003cf10_8345e71f75a9.ssng", 
+    "updated_at": "2016-05-02T21:54:32-04:00", 
+    "share_url": "https://a.sso.ng/1/8345e71f75a9", 
+    "audio_url": "https://s01.sso.ng/1/00000003cf10_8345e71f75a9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003cf10_8345e71f75a9_mr.jpg", 
+    "song_album": "Newsboys", 
+    "user": {
+        "username": "dominican_boo101", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "NastiaGuerrero", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2dff5f63-ea7e-4905-8666-07b1d6239553.jpg", 
+        "id": "2dff5f63-ea7e-4905-8666-07b1d6239553"
+    }, 
+    "song_title": "Your Love Never Fails", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003cf10_8345e71f75a9_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "21C7EAF3-2218-465C-B4B7-5461B7AA4C35"
+}

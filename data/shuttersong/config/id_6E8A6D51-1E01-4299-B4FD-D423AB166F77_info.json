@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "LuBoDa", 
+    "created_at": "2016-02-19T18:52:03-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003df5c_43a273089a95.ssng", 
+    "updated_at": "2016-06-20T19:42:01-04:00", 
+    "share_url": "https://a.sso.ng/1/43a273089a95", 
+    "audio_url": "https://s02.sso.ng/1/00000003df5c_43a273089a95.m4a", 
+    "comment_count": 124, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003df5c_43a273089a95_mr.jpg", 
+    "song_album": "Hymns For the Non-Believer", 
+    "user": {
+        "username": "beaub", 
+        "verified": true, 
+        "username_color": "#28c4d8", 
+        "full_name": "Beau Brooks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ffa72c4a-099a-4eea-a890-7d7e14a60007.jpg", 
+        "id": "ffa72c4a-099a-4eea-a890-7d7e14a60007"
+    }, 
+    "song_title": "Spray On Pants", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003df5c_43a273089a95_th.jpg", 
+    "song_artist": "Kisschasy", 
+    "favorite_count": 459, 
+    "uuid": "6E8A6D51-1E01-4299-B4FD-D423AB166F77"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-31T00:22:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000011b21_94d9aa9b8565.ssng", 
+    "updated_at": "2016-04-30T09:14:36-04:00", 
+    "share_url": "https://a.sso.ng/1/94d9aa9b8565", 
+    "audio_url": "https://s01.sso.ng/1/000000011b21_94d9aa9b8565.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000011b21_94d9aa9b8565_mr.jpg", 
+    "song_album": "Wilder Mind ", 
+    "user": {
+        "username": "redsixx13", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3f08db9c-4b39-4e4c-a557-bbc17e017af9"
+    }, 
+    "song_title": "Tompkins Square Park", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000011b21_94d9aa9b8565_th.jpg", 
+    "song_artist": "Mumford & Sons", 
+    "favorite_count": 3, 
+    "uuid": "CBD20E5E-6279-46A5-B6CE-80FACB99223D"
+}

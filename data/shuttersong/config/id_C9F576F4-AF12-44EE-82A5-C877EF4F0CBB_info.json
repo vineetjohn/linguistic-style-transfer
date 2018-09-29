@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??\u2764\ufe0f", 
+    "created_at": "2016-01-13T19:53:19-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000031ea6_b5dc776b5a2a.ssng", 
+    "updated_at": "2016-01-13T22:31:01-05:00", 
+    "share_url": "https://a.sso.ng/1/b5dc776b5a2a", 
+    "audio_url": "https://s02.sso.ng/1/000000031ea6_b5dc776b5a2a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000031ea6_b5dc776b5a2a_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "nikkiandrade91", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dc4a482c-df76-43e0-882a-801d4e7202bc.jpg", 
+        "id": "dc4a482c-df76-43e0-882a-801d4e7202bc"
+    }, 
+    "song_title": "maroon_5_-_sugar_(jasper_dietze_remix)_[heldeep_radio_032_cut]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000031ea6_b5dc776b5a2a_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "C9F576F4-AF12-44EE-82A5-C877EF4F0CBB"
+}

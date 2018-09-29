@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T23:37:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029eb0_2cfa94029a3f.ssng", 
+    "updated_at": "2015-08-23T15:25:26-04:00", 
+    "share_url": "https://a.sso.ng/1/2cfa94029a3f", 
+    "audio_url": "https://s01.sso.ng/1/000000029eb0_2cfa94029a3f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029eb0_2cfa94029a3f_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ferchis2004", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c56dcfc1-d165-4c68-b607-a297344aa59a"
+    }, 
+    "song_title": "Mi Mi Mi", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029eb0_2cfa94029a3f_th.jpg", 
+    "song_artist": "SEREBRO", 
+    "favorite_count": 3, 
+    "uuid": "F3DC692E-FA2E-4AD5-A56A-D945F2708C2B"
+}

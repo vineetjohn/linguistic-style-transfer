@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Believe?\u2764\ufe0f\u2764\ufe0f", 
+    "created_at": "2015-08-22T01:06:37-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000202b7_265225e7d234_1.ssng", 
+    "updated_at": "2015-08-22T23:45:22-04:00", 
+    "share_url": "https://a.sso.ng/1/265225e7d234", 
+    "audio_url": "https://s01.sso.ng/1/0000000202b7_265225e7d234_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000202b7_265225e7d234_1_mr.jpg", 
+    "song_album": "Believe - Single", 
+    "user": {
+        "username": "Lesliechs", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Leslie Chaves", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c68fc82c-bc2e-433c-b543-fb3e2f2bc442.jpg", 
+        "id": "c68fc82c-bc2e-433c-b543-fb3e2f2bc442"
+    }, 
+    "song_title": "Believe", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000202b7_265225e7d234_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "5CCB0B2A-AA0D-4696-9EA6-0C5CE5F99D41"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-27T08:52:08-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020094_f60151d76cc4.ssng", 
+    "updated_at": "2015-07-27T08:52:08-04:00", 
+    "share_url": "https://a.sso.ng/1/f60151d76cc4", 
+    "audio_url": "https://s01.sso.ng/1/000000020094_f60151d76cc4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020094_f60151d76cc4_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "zoe1202", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "aad1955f-81ba-4f02-99ed-bd90f931a14e"
+    }, 
+    "song_title": "Tata Young - Cinderella", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020094_f60151d76cc4_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "4916D784-9DC3-4812-BA63-B151CB611300"
+}

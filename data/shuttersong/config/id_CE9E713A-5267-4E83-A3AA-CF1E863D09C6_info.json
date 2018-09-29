@@ -1,0 +1,27 @@
+{
+    "mood": "good", 
+    "caption": "Hello Daniel @danielsahyoune", 
+    "created_at": "2016-02-15T04:28:23-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8c2_bd910c4ad240.ssng", 
+    "updated_at": "2016-02-15T19:29:52-05:00", 
+    "share_url": "https://a.sso.ng/1/bd910c4ad240", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8c2_bd910c4ad240.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8c2_bd910c4ad240_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "Tragicjanoskians", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c66aa0a2-309e-4b01-8813-5ae44a1bd9f1.jpg", 
+        "id": "c66aa0a2-309e-4b01-8813-5ae44a1bd9f1"
+    }, 
+    "song_title": "Would U Love Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8c2_bd910c4ad240_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 2, 
+    "uuid": "CE9E713A-5267-4E83-A3AA-CF1E863D09C6"
+}

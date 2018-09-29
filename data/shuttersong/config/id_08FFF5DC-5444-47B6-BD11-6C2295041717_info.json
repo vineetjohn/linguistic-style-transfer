@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "SHAWN is my total bae", 
+    "created_at": "2015-08-17T13:31:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024059_9de6c3cdb073_1.ssng", 
+    "updated_at": "2015-08-20T21:26:07-04:00", 
+    "share_url": "https://a.sso.ng/1/9de6c3cdb073", 
+    "audio_url": "https://s01.sso.ng/1/000000024059_9de6c3cdb073_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024059_9de6c3cdb073_1_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "amber_wyllie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Amber_wyllie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1ced0b36-5e96-4a52-8774-8b51d5d8c3c2.jpg", 
+        "id": "1ced0b36-5e96-4a52-8774-8b51d5d8c3c2"
+    }, 
+    "song_title": "Something Big", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024059_9de6c3cdb073_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 3, 
+    "uuid": "08FFF5DC-5444-47B6-BD11-6C2295041717"
+}

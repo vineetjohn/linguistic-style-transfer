@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-17T22:34:06-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000314ed_bfd48c8e6480.ssng", 
+    "updated_at": "2015-12-18T14:38:32-05:00", 
+    "share_url": "https://a.sso.ng/1/bfd48c8e6480", 
+    "audio_url": "https://s01.sso.ng/1/0000000314ed_bfd48c8e6480.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000314ed_bfd48c8e6480_mr.jpg", 
+    "song_album": "Birdy (Deluxe Version)", 
+    "user": {
+        "username": "gionewstyle", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4054fc0d-33d3-4798-b50c-8caa4bf69d55.jpg", 
+        "id": "4054fc0d-33d3-4798-b50c-8caa4bf69d55"
+    }, 
+    "song_title": "White Winter Hymnal", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000314ed_bfd48c8e6480_th.jpg", 
+    "song_artist": "Birdy", 
+    "favorite_count": 3, 
+    "uuid": "A0E89789-81DB-4B11-889D-E9000CED8BE6"
+}

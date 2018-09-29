@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-19T23:27:47-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e876_c70acf9bc484.ssng", 
+    "updated_at": "2016-02-20T17:13:52-05:00", 
+    "share_url": "https://a.sso.ng/1/c70acf9bc484", 
+    "audio_url": "https://s02.sso.ng/1/00000003e876_c70acf9bc484.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e876_c70acf9bc484_mr.jpg", 
+    "song_album": "Beauty Behind the Madness", 
+    "user": {
+        "username": "joslynepov", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/298e610a-ea10-4a56-8b73-0b8097d356e6.jpg", 
+        "id": "298e610a-ea10-4a56-8b73-0b8097d356e6"
+    }, 
+    "song_title": "Earned It (Fifty Shades of Grey)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e876_c70acf9bc484_th.jpg", 
+    "song_artist": "The Weeknd", 
+    "favorite_count": 2, 
+    "uuid": "F06DCB58-3929-46A2-B564-AA8FD3729315"
+}

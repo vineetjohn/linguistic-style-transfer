@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo", 
+    "created_at": "2016-01-02T21:57:12-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000033ee0_f404b54c7285.ssng", 
+    "updated_at": "2016-01-03T01:18:34-05:00", 
+    "share_url": "https://a.sso.ng/1/f404b54c7285", 
+    "audio_url": "https://s01.sso.ng/1/000000033ee0_f404b54c7285.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000033ee0_f404b54c7285_mr.jpg", 
+    "song_album": "I Am...Sasha Fierce [DE] CD1", 
+    "user": {
+        "username": "karolete", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/66452920-98e0-49f7-ba2b-14bac40ee1d8.jpg", 
+        "id": "66452920-98e0-49f7-ba2b-14bac40ee1d8"
+    }, 
+    "song_title": "Halo", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000033ee0_f404b54c7285_th.jpg", 
+    "song_artist": "Beyonce", 
+    "favorite_count": 1, 
+    "uuid": "69D1EA63-4367-4EA5-99A5-9AD478061660"
+}

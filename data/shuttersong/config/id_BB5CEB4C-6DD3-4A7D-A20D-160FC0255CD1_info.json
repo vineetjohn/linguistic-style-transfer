@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Cool ???", 
+    "created_at": "2015-08-23T19:03:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025e19_4deb0fbec0cd_1.ssng", 
+    "updated_at": "2015-08-24T10:03:16-04:00", 
+    "share_url": "https://a.sso.ng/1/4deb0fbec0cd", 
+    "audio_url": "https://s01.sso.ng/1/000000025e19_4deb0fbec0cd_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025e19_4deb0fbec0cd_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ekersitow", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Eker", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0ac765ea-6500-4f8d-b415-f745569e94b5.jpg", 
+        "id": "0ac765ea-6500-4f8d-b415-f745569e94b5"
+    }, 
+    "song_title": "ZHU - Faded", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025e19_4deb0fbec0cd_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "BB5CEB4C-6DD3-4A7D-A20D-160FC0255CD1"
+}

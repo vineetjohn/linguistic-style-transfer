@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-04-09T08:59:17-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040fc0_6da2032eca9e.ssng", 
+    "updated_at": "2016-04-11T11:55:51-04:00", 
+    "share_url": "https://a.sso.ng/1/6da2032eca9e", 
+    "audio_url": "https://s02.sso.ng/1/000000040fc0_6da2032eca9e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040fc0_6da2032eca9e_mr.jpg", 
+    "song_album": "Tones", 
+    "user": {
+        "username": "HipsterFawn32", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9ac9f32d-924c-4fa2-9c85-5fe823cea407"
+    }, 
+    "song_title": "Worth_It-ringtone-1823096", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040fc0_6da2032eca9e_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 4, 
+    "uuid": "C27C398D-56E7-4E51-B8A7-1260BEEECC61"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-16T15:47:12-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fca5_f07d459f2b3d.ssng", 
+    "updated_at": "2016-03-23T05:24:57-04:00", 
+    "share_url": "https://a.sso.ng/1/f07d459f2b3d", 
+    "audio_url": "https://s02.sso.ng/1/00000003fca5_f07d459f2b3d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fca5_f07d459f2b3d_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "dariagolsberg1997", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "bb39f3df-dcf3-4ec9-84fb-356d88f63dda"
+    }, 
+    "song_title": "Rolling in the deep 16_03_2016", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fca5_f07d459f2b3d_th.jpg", 
+    "song_artist": "Music For Sale", 
+    "favorite_count": 2, 
+    "uuid": "93A91B6C-D183-422B-A2DD-B98E980D6643"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Luke\ud83d\ude0d\ud83d\udc9c", 
+    "created_at": "2016-06-08T22:35:17-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044d5b_8c26410e1d4c.ssng", 
+    "updated_at": "2016-06-09T15:45:57-04:00", 
+    "share_url": "https://a.sso.ng/1/8c26410e1d4c", 
+    "audio_url": "https://s02.sso.ng/1/000000044d5b_8c26410e1d4c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044d5b_8c26410e1d4c_mr.jpg", 
+    "song_album": "Crazy in Love - Single", 
+    "user": {
+        "username": "Lukes_Main_Girl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Danielle", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a8f20318-acbe-4444-ac51-7bd705790688.jpg", 
+        "id": "a8f20318-acbe-4444-ac51-7bd705790688"
+    }, 
+    "song_title": "Crazy in Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044d5b_8c26410e1d4c_th.jpg", 
+    "song_artist": "Sofia Karlberg", 
+    "favorite_count": 2, 
+    "uuid": "57FD13CB-3FE6-4422-B887-6D85AE8DAAE2"
+}

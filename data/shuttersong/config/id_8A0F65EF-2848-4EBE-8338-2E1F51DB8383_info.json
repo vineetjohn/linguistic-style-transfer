@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-29T20:31:37-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003a428_07d0e25d22fc.ssng", 
+    "updated_at": "2015-12-29T22:29:43-05:00", 
+    "share_url": "https://a.sso.ng/1/07d0e25d22fc", 
+    "audio_url": "https://s01.sso.ng/1/00000003a428_07d0e25d22fc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003a428_07d0e25d22fc_mr.jpg", 
+    "song_album": "Arctic Monkeys", 
+    "user": {
+        "username": "karen_99", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "ca49b3be-ba49-44a1-beb1-af2656956902"
+    }, 
+    "song_title": "Do I Wanna Know?", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003a428_07d0e25d22fc_th.jpg", 
+    "song_artist": "Do I Wanna Know? - Single", 
+    "favorite_count": 1, 
+    "uuid": "8A0F65EF-2848-4EBE-8338-2E1F51DB8383"
+}

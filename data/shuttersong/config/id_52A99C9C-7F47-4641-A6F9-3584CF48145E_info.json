@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-04T15:00:28-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e336_be57ac3bc869.ssng", 
+    "updated_at": "2016-03-04T22:21:34-05:00", 
+    "share_url": "https://a.sso.ng/1/be57ac3bc869", 
+    "audio_url": "https://s02.sso.ng/1/00000003e336_be57ac3bc869.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e336_be57ac3bc869_mr.jpg", 
+    "song_album": "Good Feeling - Single", 
+    "user": {
+        "username": "Jamie_Lynn8218", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Jamie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0015119b-7099-4378-993a-2e5f290a9104.jpg", 
+        "id": "0015119b-7099-4378-993a-2e5f290a9104"
+    }, 
+    "song_title": "Good Feeling", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e336_be57ac3bc869_th.jpg", 
+    "song_artist": "Flo Rida", 
+    "favorite_count": 3, 
+    "uuid": "52A99C9C-7F47-4641-A6F9-3584CF48145E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-10T23:05:38-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e561_ad5d436ba85b.ssng", 
+    "updated_at": "2016-02-13T05:13:47-05:00", 
+    "share_url": "https://a.sso.ng/1/ad5d436ba85b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e561_ad5d436ba85b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e561_ad5d436ba85b_mr.jpg", 
+    "song_album": "I Know What You Did Last Summer - Single", 
+    "user": {
+        "username": "_Lukesgirl_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Hey Guys Its Lea", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5b32f2d1-ee0f-4d0a-811f-ede3ab8b3c5a.jpg", 
+        "id": "5b32f2d1-ee0f-4d0a-811f-ede3ab8b3c5a"
+    }, 
+    "song_title": "I Know What You Did Last Summer", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e561_ad5d436ba85b_th.jpg", 
+    "song_artist": "Shawn Mendes &amp; Camila Cabello", 
+    "favorite_count": 1, 
+    "uuid": "08DAE973-A1CF-4B70-A614-6B5A598BAF34"
+}

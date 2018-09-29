@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Can Luke not?\ud83d\ude2d", 
+    "created_at": "2016-02-14T17:52:14-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e666_9f2457d308d7.ssng", 
+    "updated_at": "2016-06-09T11:13:02-04:00", 
+    "share_url": "https://a.sso.ng/1/9f2457d308d7", 
+    "audio_url": "https://s02.sso.ng/1/00000003e666_9f2457d308d7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e666_9f2457d308d7_mr.jpg", 
+    "song_album": "Music For Cars EP", 
+    "user": {
+        "username": "nirvxnajai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "niamh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a63aacec-1d78-4022-b2c2-c40fb6a575f1.jpg", 
+        "id": "a63aacec-1d78-4022-b2c2-c40fb6a575f1"
+    }, 
+    "song_title": "Chocolate", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e666_9f2457d308d7_th.jpg", 
+    "song_artist": "The 1975", 
+    "favorite_count": 5, 
+    "uuid": "341B30C1-8BFA-4E36-903D-C21597CCF325"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\udc40\u2728", 
+    "created_at": "2016-06-29T18:07:05-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000027986_d0da669d7271.ssng", 
+    "updated_at": "2016-06-30T10:02:58-04:00", 
+    "share_url": "https://a.sso.ng/1/d0da669d7271", 
+    "audio_url": "https://s02.sso.ng/1/000000027986_d0da669d7271.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000027986_d0da669d7271_mr.jpg", 
+    "song_album": "Ray of Light", 
+    "user": {
+        "username": "kellows", 
+        "verified": false, 
+        "username_color": "#f2766a", 
+        "full_name": "Kelly", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/64dc4ad8-e81d-41d4-a310-eb84226c0db2.jpg", 
+        "id": "64dc4ad8-e81d-41d4-a310-eb84226c0db2"
+    }, 
+    "song_title": "Ray of Light", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000027986_d0da669d7271_th.jpg", 
+    "song_artist": "Madonna", 
+    "favorite_count": 4, 
+    "uuid": "745603B4-5538-4660-9997-405F49FE7AC7"
+}

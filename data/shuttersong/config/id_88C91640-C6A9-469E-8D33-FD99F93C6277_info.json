@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Holy crap I can never get over this song ", 
+    "created_at": "2015-08-05T14:50:24-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002106b_4d29400058ea_1.ssng", 
+    "updated_at": "2015-08-05T14:50:53-04:00", 
+    "share_url": "https://a.sso.ng/1/4d29400058ea", 
+    "audio_url": "https://s01.sso.ng/1/00000002106b_4d29400058ea_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002106b_4d29400058ea_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "zayum.viv", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Vivianna", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0a5621bf-783b-434d-aa64-5fb0ec4bb94e.jpg", 
+        "id": "0a5621bf-783b-434d-aa64-5fb0ec4bb94e"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002106b_4d29400058ea_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "88C91640-C6A9-469E-8D33-FD99F93C6277"
+}

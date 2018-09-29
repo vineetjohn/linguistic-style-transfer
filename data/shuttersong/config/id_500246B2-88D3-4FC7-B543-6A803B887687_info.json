@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My best friend is so pretty. \ud83d\ude3b\ud83d\udc99", 
+    "created_at": "2016-06-25T17:16:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043fa2_e570cb63f94c.ssng", 
+    "updated_at": "2016-06-27T03:54:02-04:00", 
+    "share_url": "https://a.sso.ng/1/e570cb63f94c", 
+    "audio_url": "https://s02.sso.ng/1/000000043fa2_e570cb63f94c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043fa2_e570cb63f94c_mr.jpg", 
+    "song_album": "1989", 
+    "user": {
+        "username": "Kait", 
+        "verified": false, 
+        "username_color": "#084e8c", 
+        "full_name": "Jai's_main_squeeze", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3ef65736-6cc2-4fe4-9f0a-8244da25885f.jpg", 
+        "id": "3ef65736-6cc2-4fe4-9f0a-8244da25885f"
+    }, 
+    "song_title": "Blank Space", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043fa2_e570cb63f94c_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 7, 
+    "uuid": "500246B2-88D3-4FC7-B543-6A803B887687"
+}

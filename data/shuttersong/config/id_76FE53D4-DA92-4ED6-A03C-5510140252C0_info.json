@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-29T04:19:36-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000423e9_a1cf0494a603.ssng", 
+    "updated_at": "2016-05-01T22:55:48-04:00", 
+    "share_url": "https://a.sso.ng/1/a1cf0494a603", 
+    "audio_url": "https://s02.sso.ng/1/0000000423e9_a1cf0494a603.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000423e9_a1cf0494a603_mr.jpg", 
+    "song_album": "Views", 
+    "user": {
+        "username": "Views", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "bd029430-a883-4eb2-92d8-9714505f5068"
+    }, 
+    "song_title": "With You (feat. PARTYNEXTDOOR)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000423e9_a1cf0494a603_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 4, 
+    "uuid": "76FE53D4-DA92-4ED6-A03C-5510140252C0"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-10T15:22:11-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9bc_89ffc5e2ded9.ssng", 
+    "updated_at": "2016-02-10T15:31:20-05:00", 
+    "share_url": "https://a.sso.ng/1/89ffc5e2ded9", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9bc_89ffc5e2ded9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9bc_89ffc5e2ded9_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Brubeles", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6aa5b913-7152-435f-b048-61425c36a784.jpg", 
+        "id": "6aa5b913-7152-435f-b048-61425c36a784"
+    }, 
+    "song_title": "The Weeknd - The Hills", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9bc_89ffc5e2ded9_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "F9418DF1-6F7E-43C7-A094-6791A257C271"
+}

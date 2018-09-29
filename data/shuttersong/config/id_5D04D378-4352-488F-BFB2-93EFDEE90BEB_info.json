@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T00:09:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020953_dc4547bb3153.ssng", 
+    "updated_at": "2015-08-04T00:09:49-04:00", 
+    "share_url": "https://a.sso.ng/1/dc4547bb3153", 
+    "audio_url": "https://s01.sso.ng/1/000000020953_dc4547bb3153.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020953_dc4547bb3153_mr.jpg", 
+    "song_album": "Melodies - Single", 
+    "user": {
+        "username": "Angelica_Gutierrez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6ef91a5b-8085-4d12-87a9-2db5518610be.jpg", 
+        "id": "6ef91a5b-8085-4d12-87a9-2db5518610be"
+    }, 
+    "song_title": "Melodies", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020953_dc4547bb3153_th.jpg", 
+    "song_artist": "Madison Beer", 
+    "favorite_count": 1, 
+    "uuid": "5D04D378-4352-488F-BFB2-93EFDEE90BEB"
+}

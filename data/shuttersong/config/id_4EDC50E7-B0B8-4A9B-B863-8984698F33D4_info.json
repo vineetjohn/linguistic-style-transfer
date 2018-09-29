@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2016-03-14T19:07:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecbc_fbe242488e5b.ssng", 
+    "updated_at": "2016-04-24T01:15:24-04:00", 
+    "share_url": "https://a.sso.ng/1/fbe242488e5b", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecbc_fbe242488e5b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecbc_fbe242488e5b_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lickjanosface", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": "noe", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d563402d-1a72-47ff-bec6-8e8ef1f7d8dd.jpg", 
+        "id": "d563402d-1a72-47ff-bec6-8e8ef1f7d8dd"
+    }, 
+    "song_title": "Melanie Martinez - Training Wheels", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecbc_fbe242488e5b_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 15, 
+    "uuid": "4EDC50E7-B0B8-4A9B-B863-8984698F33D4"
+}

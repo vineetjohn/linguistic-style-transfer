@@ -1,0 +1,27 @@
+{
+    "mood": "bittersweet", 
+    "caption": "", 
+    "created_at": "2016-02-20T17:01:41-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7c2_18e0692215c8.ssng", 
+    "updated_at": "2016-02-23T10:18:50-05:00", 
+    "share_url": "https://a.sso.ng/1/18e0692215c8", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7c2_18e0692215c8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7c2_18e0692215c8_mr.jpg", 
+    "song_album": "Fallen", 
+    "user": {
+        "username": "LukeyBrooksy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Brianna", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/57c35848-09c3-497b-952c-559db93acc5a.jpg", 
+        "id": "57c35848-09c3-497b-952c-559db93acc5a"
+    }, 
+    "song_title": "Bring Me To Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7c2_18e0692215c8_th.jpg", 
+    "song_artist": "Evanescence", 
+    "favorite_count": 5, 
+    "uuid": "BB388CB9-E0C2-429B-AA18-1CF2F8B7C359"
+}

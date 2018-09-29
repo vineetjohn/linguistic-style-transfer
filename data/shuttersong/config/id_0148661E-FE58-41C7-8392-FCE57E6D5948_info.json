@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-09-14T06:48:14-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e4ab_45b863561b1f_1.ssng", 
+    "updated_at": "2015-09-15T02:51:29-04:00", 
+    "share_url": "https://a.sso.ng/1/45b863561b1f", 
+    "audio_url": "https://s01.sso.ng/1/00000002e4ab_45b863561b1f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e4ab_45b863561b1f_1_mr.jpg", 
+    "song_album": "BEYONC\u00c9 (More Only) - EP", 
+    "user": {
+        "username": "francescastrangio", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d42ed641-1e72-44e4-ac4d-efde016219c1"
+    }, 
+    "song_title": "Blow Remix (feat. Pharrell Williams)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e4ab_45b863561b1f_1_th.jpg", 
+    "song_artist": "Beyonc\u00e9", 
+    "favorite_count": 2, 
+    "uuid": "0148661E-FE58-41C7-8392-FCE57E6D5948"
+}

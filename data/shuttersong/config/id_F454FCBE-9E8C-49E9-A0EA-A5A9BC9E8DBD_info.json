@@ -1,0 +1,27 @@
+{
+    "mood": "Sleepy", 
+    "caption": "gnight?", 
+    "created_at": "2016-02-12T15:45:33-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecb6_b01ebb23b39c.ssng", 
+    "updated_at": "2016-02-12T17:58:34-05:00", 
+    "share_url": "https://a.sso.ng/1/b01ebb23b39c", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecb6_b01ebb23b39c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecb6_b01ebb23b39c_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jatherine", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c2946f3d-ed5a-4ec0-a98f-56bd57b48710.jpg", 
+        "id": "c2946f3d-ed5a-4ec0-a98f-56bd57b48710"
+    }, 
+    "song_title": "Sun Don't Shine", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecb6_b01ebb23b39c_th.jpg", 
+    "song_artist": "Faydee", 
+    "favorite_count": 1, 
+    "uuid": "F454FCBE-9E8C-49E9-A0EA-A5A9BC9E8DBD"
+}

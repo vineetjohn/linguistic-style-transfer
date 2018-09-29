@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?Stay Royal My Friends?", 
+    "created_at": "2015-08-14T20:27:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020b0b_6ee54dddd322_1.ssng", 
+    "updated_at": "2015-08-14T20:57:00-04:00", 
+    "share_url": "https://a.sso.ng/1/6ee54dddd322", 
+    "audio_url": "https://s01.sso.ng/1/000000020b0b_6ee54dddd322_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020b0b_6ee54dddd322_1_mr.jpg", 
+    "song_album": "Doing It Right - Single", 
+    "user": {
+        "username": "ClaireMarie1551", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Claire", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5182886b-67db-4ac5-8075-a85942a05af3.jpg", 
+        "id": "5182886b-67db-4ac5-8075-a85942a05af3"
+    }, 
+    "song_title": "Doing It Right", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020b0b_6ee54dddd322_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "C808D411-BB71-4721-8C2C-3DE395925255"
+}

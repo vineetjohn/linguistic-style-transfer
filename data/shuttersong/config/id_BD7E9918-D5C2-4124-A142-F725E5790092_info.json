@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "\ud83d\ude07\ud83d\ude18", 
+    "created_at": "2016-06-30T00:15:07-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044284_362106fe9b63.ssng", 
+    "updated_at": "2016-06-30T20:38:14-04:00", 
+    "share_url": "https://a.sso.ng/1/362106fe9b63", 
+    "audio_url": "https://s02.sso.ng/1/000000044284_362106fe9b63.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044284_362106fe9b63_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "that_peruvian_chick_", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": "Gabriella Carbajal", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/694187b6-297d-4db5-8dd7-1e5df1a4aed6.jpg", 
+        "id": "694187b6-297d-4db5-8dd7-1e5df1a4aed6"
+    }, 
+    "song_title": "Treat Me Like Somebody", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044284_362106fe9b63_th.jpg", 
+    "song_artist": "Tink", 
+    "favorite_count": 5, 
+    "uuid": "BD7E9918-D5C2-4124-A142-F725E5790092"
+}

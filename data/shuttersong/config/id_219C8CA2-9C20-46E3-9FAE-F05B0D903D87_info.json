@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-16T22:40:24-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d80f_15f94f21236f.ssng", 
+    "updated_at": "2016-01-17T21:48:05-05:00", 
+    "share_url": "https://a.sso.ng/1/15f94f21236f", 
+    "audio_url": "https://s02.sso.ng/1/00000003d80f_15f94f21236f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d80f_15f94f21236f_mr.jpg", 
+    "song_album": "Crash My Party (Deluxe)", 
+    "user": {
+        "username": "Teresakay", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2f6677ac-b45c-4584-8f6a-b6bf3eb54056"
+    }, 
+    "song_title": "Drink a Beer", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d80f_15f94f21236f_th.jpg", 
+    "song_artist": "Luke Bryan", 
+    "favorite_count": 1, 
+    "uuid": "219C8CA2-9C20-46E3-9FAE-F05B0D903D87"
+}

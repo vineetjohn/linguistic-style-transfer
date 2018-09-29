@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-16T14:03:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024a58_03062e7eddb6.ssng", 
+    "updated_at": "2015-08-16T14:54:43-04:00", 
+    "share_url": "https://a.sso.ng/1/03062e7eddb6", 
+    "audio_url": "https://s01.sso.ng/1/000000024a58_03062e7eddb6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024a58_03062e7eddb6_mr.jpg", 
+    "song_album": "Surf", 
+    "user": {
+        "username": "y.e.h.c", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c7bfeb32-8c4f-4628-a87d-81f9d76182a7"
+    }, 
+    "song_title": "Sunday Candy", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024a58_03062e7eddb6_th.jpg", 
+    "song_artist": "Donnie Trumpet & The Social Experiment", 
+    "favorite_count": 1, 
+    "uuid": "7BA6B6AA-45ED-4342-9FF5-B598EAE45AC6"
+}

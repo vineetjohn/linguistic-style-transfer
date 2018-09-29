@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-17T23:17:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024ba8_4a2f92d79457.ssng", 
+    "updated_at": "2015-08-18T23:28:06-04:00", 
+    "share_url": "https://a.sso.ng/1/4a2f92d79457", 
+    "audio_url": "https://s01.sso.ng/1/000000024ba8_4a2f92d79457.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024ba8_4a2f92d79457_mr.jpg", 
+    "song_album": "Buckwild (feat. Taylor Caniff) - Single", 
+    "user": {
+        "username": "hayley.hall7", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "31dbce6c-b5ea-4a37-b7d9-73113c4fd6d2"
+    }, 
+    "song_title": "Buckwild (feat. Taylor Caniff)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024ba8_4a2f92d79457_th.jpg", 
+    "song_artist": "2Virgins", 
+    "favorite_count": 1, 
+    "uuid": "5B1A9D0C-F648-4293-8CBA-8E729D723AAD"
+}

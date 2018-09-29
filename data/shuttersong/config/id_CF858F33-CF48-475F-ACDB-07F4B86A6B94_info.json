@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Idk man", 
+    "created_at": "2016-02-10T00:43:24-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e762_3953d17f888b.ssng", 
+    "updated_at": "2016-02-11T07:54:24-05:00", 
+    "share_url": "https://a.sso.ng/1/3953d17f888b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e762_3953d17f888b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e762_3953d17f888b_mr.jpg", 
+    "song_album": "Blue Neighbourhood (Deluxe)", 
+    "user": {
+        "username": "maloryhrockwell", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/29691bcf-3a96-4b71-8697-6395252416a9.jpg", 
+        "id": "29691bcf-3a96-4b71-8697-6395252416a9"
+    }, 
+    "song_title": "THE QUIET", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e762_3953d17f888b_th.jpg", 
+    "song_artist": "Troye Sivan", 
+    "favorite_count": 3, 
+    "uuid": "CF858F33-CF48-475F-ACDB-07F4B86A6B94"
+}

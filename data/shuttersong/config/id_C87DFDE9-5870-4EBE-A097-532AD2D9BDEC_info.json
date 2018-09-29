@@ -1,0 +1,27 @@
+{
+    "mood": "alocado", 
+    "caption": "", 
+    "created_at": "2016-05-09T22:25:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042d9d_13c445cb040c.ssng", 
+    "updated_at": "2016-05-11T01:06:11-04:00", 
+    "share_url": "https://a.sso.ng/1/13c445cb040c", 
+    "audio_url": "https://s02.sso.ng/1/000000042d9d_13c445cb040c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042d9d_13c445cb040c_mr.jpg", 
+    "song_album": "The Final Countdown: The Best of Europe", 
+    "user": {
+        "username": "niedererchaaa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/86733271-6fce-4944-bcba-29a0b54ca32a.jpg", 
+        "id": "86733271-6fce-4944-bcba-29a0b54ca32a"
+    }, 
+    "song_title": "The Final Countdown", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042d9d_13c445cb040c_th.jpg", 
+    "song_artist": "Europe", 
+    "favorite_count": 2, 
+    "uuid": "C87DFDE9-5870-4EBE-A097-532AD2D9BDEC"
+}

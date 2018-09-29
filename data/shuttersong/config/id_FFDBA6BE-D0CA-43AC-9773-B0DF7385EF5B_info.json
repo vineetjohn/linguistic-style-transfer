@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-05T00:01:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021bf6_ebf41809cb39_1.ssng", 
+    "updated_at": "2015-08-05T00:01:57-04:00", 
+    "share_url": "https://a.sso.ng/1/ebf41809cb39", 
+    "audio_url": "https://s01.sso.ng/1/000000021bf6_ebf41809cb39_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021bf6_ebf41809cb39_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "merilyn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5c7a38cd-9128-4881-9905-0e5f0b3920e9.jpg", 
+        "id": "5c7a38cd-9128-4881-9905-0e5f0b3920e9"
+    }, 
+    "song_title": "Shawn Mendes - Believe (Official)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021bf6_ebf41809cb39_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "FFDBA6BE-D0CA-43AC-9773-B0DF7385EF5B"
+}

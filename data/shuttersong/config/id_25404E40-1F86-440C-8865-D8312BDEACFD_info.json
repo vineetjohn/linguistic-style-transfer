@@ -1,0 +1,27 @@
+{
+    "mood": "numb", 
+    "caption": "", 
+    "created_at": "2016-02-11T17:33:04-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e822_47cf2fc18316.ssng", 
+    "updated_at": "2016-04-30T08:59:09-04:00", 
+    "share_url": "https://a.sso.ng/1/47cf2fc18316", 
+    "audio_url": "https://s02.sso.ng/1/00000003e822_47cf2fc18316.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e822_47cf2fc18316_mr.jpg", 
+    "song_album": "21st Century Breakdown (Deluxe Version)", 
+    "user": {
+        "username": "Vvitchout", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0ec3bc87-cbe7-46db-9bc9-a1abba69d1a7.jpg", 
+        "id": "0ec3bc87-cbe7-46db-9bc9-a1abba69d1a7"
+    }, 
+    "song_title": "21 Guns", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e822_47cf2fc18316_th.jpg", 
+    "song_artist": "Green Day", 
+    "favorite_count": 7, 
+    "uuid": "25404E40-1F86-440C-8865-D8312BDEACFD"
+}

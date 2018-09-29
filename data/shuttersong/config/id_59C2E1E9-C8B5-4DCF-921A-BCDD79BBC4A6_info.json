@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T01:21:17-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a6b3_2885a83180f9.ssng", 
+    "updated_at": "2015-08-22T23:45:26-04:00", 
+    "share_url": "https://a.sso.ng/1/2885a83180f9", 
+    "audio_url": "https://s01.sso.ng/1/00000002a6b3_2885a83180f9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a6b3_2885a83180f9_mr.jpg", 
+    "song_album": "Full Frequency", 
+    "user": {
+        "username": "Jasmine.Ann", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jasmine Ann S\u00e1ez", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/76f01792-3b0f-4b96-9552-41acf803bbab.jpg", 
+        "id": "76f01792-3b0f-4b96-9552-41acf803bbab"
+    }, 
+    "song_title": "Anyday", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a6b3_2885a83180f9_th.jpg", 
+    "song_artist": "Sean Paul", 
+    "favorite_count": 1, 
+    "uuid": "59C2E1E9-C8B5-4DCF-921A-BCDD79BBC4A6"
+}

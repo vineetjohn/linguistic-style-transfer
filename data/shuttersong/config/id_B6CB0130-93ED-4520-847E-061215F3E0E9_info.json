@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-27T10:42:00-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020081_7d16c7e77d03.ssng", 
+    "updated_at": "2015-07-27T10:42:00-04:00", 
+    "share_url": "https://a.sso.ng/1/7d16c7e77d03", 
+    "audio_url": "https://s01.sso.ng/1/000000020081_7d16c7e77d03.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020081_7d16c7e77d03_mr.jpg", 
+    "song_album": "Clarity", 
+    "user": {
+        "username": "estheria", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "031e5f6a-c715-428e-b657-89e3c34f4c8d"
+    }, 
+    "song_title": "Clarity (Ft. Foxes)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020081_7d16c7e77d03_th.jpg", 
+    "song_artist": "Zedd", 
+    "favorite_count": 1, 
+    "uuid": "B6CB0130-93ED-4520-847E-061215F3E0E9"
+}

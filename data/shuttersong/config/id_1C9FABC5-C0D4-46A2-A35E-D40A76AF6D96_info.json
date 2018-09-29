@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-27T04:03:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000000119_578936f6faf9.ssng", 
+    "updated_at": "2015-07-27T04:03:42-04:00", 
+    "share_url": "https://a.sso.ng/1/578936f6faf9", 
+    "audio_url": "https://s01.sso.ng/1/000000000119_578936f6faf9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000119_578936f6faf9_mr.jpg", 
+    "song_album": "Alive [5th Mini Album]", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "BLUE", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000119_578936f6faf9_th.jpg", 
+    "song_artist": "Big Bang", 
+    "favorite_count": 3, 
+    "uuid": "1C9FABC5-C0D4-46A2-A35E-D40A76AF6D96"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#thevamps", 
+    "created_at": "2015-08-05T17:18:03-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002227a_b4e6b6088433_1.ssng", 
+    "updated_at": "2015-08-05T17:18:26-04:00", 
+    "share_url": "https://a.sso.ng/1/b4e6b6088433", 
+    "audio_url": "https://s01.sso.ng/1/00000002227a_b4e6b6088433_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002227a_b4e6b6088433_1_mr.jpg", 
+    "song_album": "Meet The Vamps", 
+    "user": {
+        "username": "thevampsbabe", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/38476651-ecc7-43fc-9424-78cf6f1478c4.jpg", 
+        "id": "38476651-ecc7-43fc-9424-78cf6f1478c4"
+    }, 
+    "song_title": "Wild Heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002227a_b4e6b6088433_1_th.jpg", 
+    "song_artist": "The Vamps", 
+    "favorite_count": 3, 
+    "uuid": "E5A976D8-22D8-4BCE-824E-E7EA9A5BEEB3"
+}

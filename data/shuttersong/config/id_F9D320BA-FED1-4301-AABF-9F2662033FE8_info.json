@@ -1,0 +1,27 @@
+{
+    "mood": "cranky", 
+    "caption": "I'm the Cool Candy Kid ??", 
+    "created_at": "2016-02-20T22:43:11-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4ad_7080cc3a8641.ssng", 
+    "updated_at": "2016-05-29T12:54:07-04:00", 
+    "share_url": "https://a.sso.ng/1/7080cc3a8641", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4ad_7080cc3a8641.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4ad_7080cc3a8641_mr.jpg", 
+    "song_album": "Talking Dreams", 
+    "user": {
+        "username": "qcgirl", 
+        "verified": false, 
+        "username_color": "#084e8c", 
+        "full_name": "M.L.B", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6f63a04c-a3c3-42be-bd2c-77611c4cecff.jpg", 
+        "id": "6f63a04c-a3c3-42be-bd2c-77611c4cecff"
+    }, 
+    "song_title": "Cool Kids", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4ad_7080cc3a8641_th.jpg", 
+    "song_artist": "Echosmith", 
+    "favorite_count": 41, 
+    "uuid": "F9D320BA-FED1-4301-AABF-9F2662033FE8"
+}

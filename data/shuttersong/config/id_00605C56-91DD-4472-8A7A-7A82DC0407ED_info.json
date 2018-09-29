@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo nombre de usuario en Youtube es FUNCHISWAG!!", 
+    "created_at": "2015-12-23T23:57:52-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037b15_713062aed191.ssng", 
+    "updated_at": "2015-12-29T09:01:59-05:00", 
+    "share_url": "https://a.sso.ng/1/713062aed191", 
+    "audio_url": "https://s01.sso.ng/1/000000037b15_713062aed191.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037b15_713062aed191_mr.jpg", 
+    "song_album": "Some Type of Love - EP", 
+    "user": {
+        "username": "richisantana", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/300268b3-04c4-44ee-8614-c541227ee867.jpg", 
+        "id": "300268b3-04c4-44ee-8614-c541227ee867"
+    }, 
+    "song_title": "Marvin Gaye (feat. Meghan Trainor)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037b15_713062aed191_th.jpg", 
+    "song_artist": "Charlie Puth", 
+    "favorite_count": 1, 
+    "uuid": "00605C56-91DD-4472-8A7A-7A82DC0407ED"
+}

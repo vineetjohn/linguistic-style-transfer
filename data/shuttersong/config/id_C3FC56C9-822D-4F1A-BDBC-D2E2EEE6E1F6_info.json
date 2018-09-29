@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-04-02T23:57:31-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000408a3_cff4f9d5b694.ssng", 
+    "updated_at": "2016-04-03T04:50:17-04:00", 
+    "share_url": "https://a.sso.ng/1/cff4f9d5b694", 
+    "audio_url": "https://s02.sso.ng/1/0000000408a3_cff4f9d5b694.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000408a3_cff4f9d5b694_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "pizzamagnet", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9a84163d-d2ed-4d06-b640-cd7a69640a23"
+    }, 
+    "song_title": "Anchor", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000408a3_cff4f9d5b694_th.jpg", 
+    "song_artist": "Mindy Gledhill", 
+    "favorite_count": 1, 
+    "uuid": "C3FC56C9-822D-4F1A-BDBC-D2E2EEE6E1F6"
+}

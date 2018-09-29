@@ -1,0 +1,27 @@
+{
+    "mood": "Awake", 
+    "caption": "", 
+    "created_at": "2016-03-06T05:58:33-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f1fd_70b4b8e297dd.ssng", 
+    "updated_at": "2016-03-24T20:38:47-04:00", 
+    "share_url": "https://a.sso.ng/1/70b4b8e297dd", 
+    "audio_url": "https://s02.sso.ng/1/00000003f1fd_70b4b8e297dd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f1fd_70b4b8e297dd_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "sammylong", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5c3c948f-adf1-4a00-8ce9-30238a51158a"
+    }, 
+    "song_title": "Away From Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f1fd_70b4b8e297dd_th.jpg", 
+    "song_artist": "Trifo & Simon Milan", 
+    "favorite_count": 1, 
+    "uuid": "50380A83-9A66-438D-8534-705431FFD3BA"
+}

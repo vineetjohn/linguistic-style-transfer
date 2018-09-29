@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "the feeling - justin bieber feat halsey", 
+    "created_at": "2016-02-12T03:16:38-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e87e_2ae9afdc3c04.ssng", 
+    "updated_at": "2016-02-12T13:14:29-05:00", 
+    "share_url": "https://a.sso.ng/1/2ae9afdc3c04", 
+    "audio_url": "https://s02.sso.ng/1/00000003e87e_2ae9afdc3c04.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e87e_2ae9afdc3c04_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "lukesemojis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "kaitie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5297fe01-7a33-412c-8ba4-ded111d32674.jpg", 
+        "id": "5297fe01-7a33-412c-8ba4-ded111d32674"
+    }, 
+    "song_title": "The Feeling (feat. Halsey)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e87e_2ae9afdc3c04_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 6, 
+    "uuid": "A73FA194-8252-42AC-877D-328A68B507B2"
+}

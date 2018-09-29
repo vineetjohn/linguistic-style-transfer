@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2708\ufe0f", 
+    "created_at": "2015-08-04T08:21:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021695_7097aa05cb36_1.ssng", 
+    "updated_at": "2015-08-04T08:22:14-04:00", 
+    "share_url": "https://a.sso.ng/1/7097aa05cb36", 
+    "audio_url": "https://s01.sso.ng/1/000000021695_7097aa05cb36_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021695_7097aa05cb36_1_mr.jpg", 
+    "song_album": "1989 (Deluxe)", 
+    "user": {
+        "username": "Heleneive", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Helene Iversen", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/551d0e84-898b-4548-98ee-0b42ecde926d.jpg", 
+        "id": "551d0e84-898b-4548-98ee-0b42ecde926d"
+    }, 
+    "song_title": "Wonderland", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021695_7097aa05cb36_1_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "7B137EAE-1BDD-4B21-8CD4-35A8F62C3D8D"
+}

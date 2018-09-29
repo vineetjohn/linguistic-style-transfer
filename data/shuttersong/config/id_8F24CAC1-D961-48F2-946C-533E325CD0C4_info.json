@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Good night???", 
+    "created_at": "2015-08-20T21:44:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025edc_bbf9bc3733b0_1.ssng", 
+    "updated_at": "2015-12-19T01:48:08-05:00", 
+    "share_url": "https://a.sso.ng/1/bbf9bc3733b0", 
+    "audio_url": "https://s01.sso.ng/1/000000025edc_bbf9bc3733b0_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025edc_bbf9bc3733b0_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jeniferchaparroc", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/58fbca71-4337-41b0-af69-e6098a1233a3.jpg", 
+        "id": "58fbca71-4337-41b0-af69-e6098a1233a3"
+    }, 
+    "song_title": "Break Through the Silence", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025edc_bbf9bc3733b0_1_th.jpg", 
+    "song_artist": "Martin Garrix vs. Matisse & Sadko feat. ID", 
+    "favorite_count": 1, 
+    "uuid": "8F24CAC1-D961-48F2-946C-533E325CD0C4"
+}

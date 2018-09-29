@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-28T14:39:00-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003dc93_adae72dbb0c5.ssng", 
+    "updated_at": "2016-01-31T03:08:28-05:00", 
+    "share_url": "https://a.sso.ng/1/adae72dbb0c5", 
+    "audio_url": "https://s02.sso.ng/1/00000003dc93_adae72dbb0c5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003dc93_adae72dbb0c5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "fido", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5b8b84ba-7c91-42aa-bd35-e3f06441d290"
+    }, 
+    "song_title": "Coldplay - Fix You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003dc93_adae72dbb0c5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "C481EC65-7247-46EA-B2C6-4F6B7AA85E7B"
+}

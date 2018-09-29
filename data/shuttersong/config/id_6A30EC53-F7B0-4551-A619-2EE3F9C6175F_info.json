@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-19T11:48:57-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000025db8_40b1623d7939.ssng", 
+    "updated_at": "2015-12-25T18:23:47-05:00", 
+    "share_url": "https://a.sso.ng/1/40b1623d7939", 
+    "audio_url": "https://s01.sso.ng/1/000000025db8_40b1623d7939.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025db8_40b1623d7939_mr.jpg", 
+    "song_album": "Abbey Road", 
+    "user": {
+        "username": "DaniBautista_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6050b733-f8d9-4fe5-9f56-9e1a324c4974.jpg", 
+        "id": "6050b733-f8d9-4fe5-9f56-9e1a324c4974"
+    }, 
+    "song_title": "Here Comes the Sun", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025db8_40b1623d7939_th.jpg", 
+    "song_artist": "The Beatles", 
+    "favorite_count": 1, 
+    "uuid": "6A30EC53-F7B0-4551-A619-2EE3F9C6175F"
+}

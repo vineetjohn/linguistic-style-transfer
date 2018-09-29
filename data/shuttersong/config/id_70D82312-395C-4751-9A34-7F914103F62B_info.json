@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-03T02:20:30-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027ef2_28901fce7031.ssng", 
+    "updated_at": "2015-10-11T12:02:26-04:00", 
+    "share_url": "https://a.sso.ng/1/28901fce7031", 
+    "audio_url": "https://s01.sso.ng/1/000000027ef2_28901fce7031.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027ef2_28901fce7031_mr.jpg", 
+    "song_album": "Bring Out the Bottles - Single", 
+    "user": {
+        "username": "lil_hipster_girl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d95f0f14-890d-40cb-8cad-29e4c6b32cf8.jpg", 
+        "id": "d95f0f14-890d-40cb-8cad-29e4c6b32cf8"
+    }, 
+    "song_title": "Bring Out the Bottles", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027ef2_28901fce7031_th.jpg", 
+    "song_artist": "Redfoo", 
+    "favorite_count": 1, 
+    "uuid": "70D82312-395C-4751-9A34-7F914103F62B"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-11T16:01:02-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e494_a18d1b9f5d96.ssng", 
+    "updated_at": "2016-02-11T18:21:22-05:00", 
+    "share_url": "https://a.sso.ng/1/a18d1b9f5d96", 
+    "audio_url": "https://s02.sso.ng/1/00000003e494_a18d1b9f5d96.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e494_a18d1b9f5d96_mr.jpg", 
+    "song_album": "You Got It All - Single", 
+    "user": {
+        "username": "Ezzy.YamYam", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9dc7e487-1016-4cef-9762-673d1cf81430.jpg", 
+        "id": "9dc7e487-1016-4cef-9762-673d1cf81430"
+    }, 
+    "song_title": "You Got It All", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e494_a18d1b9f5d96_th.jpg", 
+    "song_artist": "Union J", 
+    "favorite_count": 1, 
+    "uuid": "05CFBD2D-B9F2-4E8A-9826-4770A5979891"
+}

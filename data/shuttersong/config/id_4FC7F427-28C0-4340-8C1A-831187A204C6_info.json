@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-28T13:29:20-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043d71_3242343f6b30.ssng", 
+    "updated_at": "2016-05-29T01:51:16-04:00", 
+    "share_url": "https://a.sso.ng/1/3242343f6b30", 
+    "audio_url": "https://s02.sso.ng/1/000000043d71_3242343f6b30.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043d71_3242343f6b30_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Mashpopss", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "896aa7b0-105f-4321-b40b-dd6c59713228"
+    }, 
+    "song_title": "Where The Hood At Original Version. (DMX)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043d71_3242343f6b30_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "4FC7F427-28C0-4340-8C1A-831187A204C6"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hey there\u2764\ufe0f", 
+    "created_at": "2015-08-04T17:45:41-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021afb_05159611cf99_1.ssng", 
+    "updated_at": "2015-08-04T17:46:25-04:00", 
+    "share_url": "https://a.sso.ng/1/05159611cf99", 
+    "audio_url": "https://s01.sso.ng/1/000000021afb_05159611cf99_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021afb_05159611cf99_1_mr.jpg", 
+    "song_album": "Love Is Overrated - Single", 
+    "user": {
+        "username": "bayles_01", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Baylee", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2f2e72a0-9b9a-4151-970f-193ef52eea7a.jpg", 
+        "id": "2f2e72a0-9b9a-4151-970f-193ef52eea7a"
+    }, 
+    "song_title": "Love Is Overrated", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021afb_05159611cf99_1_th.jpg", 
+    "song_artist": "Shwayze", 
+    "favorite_count": 1, 
+    "uuid": "E9B7E22F-D87A-49B2-B0F1-7B75FA55DAF9"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-15T04:41:46-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ec42_a128f5c7f343.ssng", 
+    "updated_at": "2016-05-15T19:37:39-04:00", 
+    "share_url": "https://a.sso.ng/1/a128f5c7f343", 
+    "audio_url": "https://s02.sso.ng/1/00000003ec42_a128f5c7f343.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ec42_a128f5c7f343_mr.jpg", 
+    "song_album": "Girls Like (feat. Zara Larsson) - Single", 
+    "user": {
+        "username": "janoskians_098", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8acf9f3a-848f-4e92-bce5-ac02cb39d31c.jpg", 
+        "id": "8acf9f3a-848f-4e92-bce5-ac02cb39d31c"
+    }, 
+    "song_title": "Girls Like (feat. Zara Larsson)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ec42_a128f5c7f343_th.jpg", 
+    "song_artist": "Tinie Tempah", 
+    "favorite_count": 1, 
+    "uuid": "4A02D07E-06EC-4EC4-BE36-000D9EFB05C4"
+}

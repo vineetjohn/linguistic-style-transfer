@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-08T16:35:40-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000300ff_037a7fa31a49.ssng", 
+    "updated_at": "2016-05-08T23:43:00-04:00", 
+    "share_url": "https://a.sso.ng/1/037a7fa31a49", 
+    "audio_url": "https://s02.sso.ng/1/0000000300ff_037a7fa31a49.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000300ff_037a7fa31a49_mr.jpg", 
+    "song_album": "Mark of the Blade", 
+    "user": {
+        "username": "2Tall", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2defbf5d-7bfa-49e1-9824-1d62c64b730b"
+    }, 
+    "song_title": "Mark of the Blade", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000300ff_037a7fa31a49_th.jpg", 
+    "song_artist": "Whitechapel", 
+    "favorite_count": 1, 
+    "uuid": "37707870-FC6D-4C9B-BF43-600C303444D8"
+}

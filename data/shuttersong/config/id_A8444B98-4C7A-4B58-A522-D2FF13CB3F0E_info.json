@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-23T15:20:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002bda3_4690b17ae35d.ssng", 
+    "updated_at": "2015-08-23T15:28:17-04:00", 
+    "share_url": "https://a.sso.ng/1/4690b17ae35d", 
+    "audio_url": "https://s01.sso.ng/1/00000002bda3_4690b17ae35d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002bda3_4690b17ae35d_mr.jpg", 
+    "song_album": "1000 Forms of Fear", 
+    "user": {
+        "username": "valenyguille", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e7bd7c65-d0c3-44f8-a278-e676a6c9adf3.jpg", 
+        "id": "e7bd7c65-d0c3-44f8-a278-e676a6c9adf3"
+    }, 
+    "song_title": "Big Girls Cry", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002bda3_4690b17ae35d_th.jpg", 
+    "song_artist": "Sia", 
+    "favorite_count": 1, 
+    "uuid": "A8444B98-4C7A-4B58-A522-D2FF13CB3F0E"
+}

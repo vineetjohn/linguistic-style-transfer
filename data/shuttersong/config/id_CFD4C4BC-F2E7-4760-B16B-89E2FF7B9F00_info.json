@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-11T18:35:56-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000194fe_d85a6626f707.ssng", 
+    "updated_at": "2016-01-13T00:03:37-05:00", 
+    "share_url": "https://a.sso.ng/1/d85a6626f707", 
+    "audio_url": "https://s01.sso.ng/1/0000000194fe_d85a6626f707.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000194fe_d85a6626f707_mr.jpg", 
+    "song_album": "Si T\u00fa Te Vas", 
+    "user": {
+        "username": "becky00", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/50a29fd8-1051-45e1-aabc-3a61f30a3a72.jpg", 
+        "id": "50a29fd8-1051-45e1-aabc-3a61f30a3a72"
+    }, 
+    "song_title": "Loco por Ti", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000194fe_d85a6626f707_th.jpg", 
+    "song_artist": "Los Temerarios", 
+    "favorite_count": 1, 
+    "uuid": "CFD4C4BC-F2E7-4760-B16B-89E2FF7B9F00"
+}

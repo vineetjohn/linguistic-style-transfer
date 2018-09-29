@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-26T18:56:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002cc4c_aafa3d19bf6e.ssng", 
+    "updated_at": "2015-08-27T14:28:17-04:00", 
+    "share_url": "https://a.sso.ng/1/aafa3d19bf6e", 
+    "audio_url": "https://s01.sso.ng/1/00000002cc4c_aafa3d19bf6e.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002cc4c_aafa3d19bf6e_mr.jpg", 
+    "song_album": "Nothing But the Beat", 
+    "user": {
+        "username": "Vabn1511", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/adda6404-2e43-4438-8977-ec99b0af0265.jpg", 
+        "id": "adda6404-2e43-4438-8977-ec99b0af0265"
+    }, 
+    "song_title": "Titanium (feat. Sia)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002cc4c_aafa3d19bf6e_th.jpg", 
+    "song_artist": "David Guetta & Sia", 
+    "favorite_count": 1, 
+    "uuid": "CD802E20-E417-4B61-BA21-555FBE3EDC1E"
+}

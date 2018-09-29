@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My favorite artist ????", 
+    "created_at": "2016-01-03T12:19:46-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003a55f_1b1aa4e99a63.ssng", 
+    "updated_at": "2016-01-03T14:03:50-05:00", 
+    "share_url": "https://a.sso.ng/1/1b1aa4e99a63", 
+    "audio_url": "https://s01.sso.ng/1/00000003a55f_1b1aa4e99a63.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003a55f_1b1aa4e99a63_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "_vmsm_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "021c2150-9cfa-4ed1-88ba-495632214167"
+    }, 
+    "song_title": "Man Down  ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003a55f_1b1aa4e99a63_th.jpg", 
+    "song_artist": "Rihanna(www.djevolusom.org)", 
+    "favorite_count": 1, 
+    "uuid": "7E45A2D7-E566-41E8-8EE0-174E23B9DD00"
+}

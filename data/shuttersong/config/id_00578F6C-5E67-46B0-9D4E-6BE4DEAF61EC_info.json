@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "", 
+    "created_at": "2016-06-29T16:48:32-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004619e_3ecc6ab21440.ssng", 
+    "updated_at": "2016-06-29T17:21:14-04:00", 
+    "share_url": "https://a.sso.ng/1/3ecc6ab21440", 
+    "audio_url": "https://s02.sso.ng/1/00000004619e_3ecc6ab21440.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004619e_3ecc6ab21440_mr.jpg", 
+    "song_album": "A Year Without Rain", 
+    "user": {
+        "username": "HaleyMacLean", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b71e92ff-7585-48cd-b32b-1a0cf3a10a4e.jpg", 
+        "id": "b71e92ff-7585-48cd-b32b-1a0cf3a10a4e"
+    }, 
+    "song_title": "Naturally", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004619e_3ecc6ab21440_th.jpg", 
+    "song_artist": "Selena Gomez", 
+    "favorite_count": 1, 
+    "uuid": "00578F6C-5E67-46B0-9D4E-6BE4DEAF61EC"
+}

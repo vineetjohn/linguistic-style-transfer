@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-11T16:14:40-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9f6_4c6150c0ac54.ssng", 
+    "updated_at": "2016-02-13T05:17:22-05:00", 
+    "share_url": "https://a.sso.ng/1/4c6150c0ac54", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9f6_4c6150c0ac54.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9f6_4c6150c0ac54_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lukes_sl0th", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/39cabaac-3424-4627-b65b-dce56dd8594b.jpg", 
+        "id": "39cabaac-3424-4627-b65b-dce56dd8594b"
+    }, 
+    "song_title": "Jack Gilinsky - Fuck You All The Time", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9f6_4c6150c0ac54_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "A117C3CF-DC9A-4ABC-B089-4F9528910DF2"
+}

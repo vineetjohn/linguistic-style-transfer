@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T15:50:10-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021a35_e6ed447eeaa5.ssng", 
+    "updated_at": "2015-08-04T15:50:10-04:00", 
+    "share_url": "https://a.sso.ng/1/e6ed447eeaa5", 
+    "audio_url": "https://s01.sso.ng/1/000000021a35_e6ed447eeaa5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021a35_e6ed447eeaa5_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "meganparrott", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3be5f76e-8c80-4a09-bd17-b2ad94f5f2fb"
+    }, 
+    "song_title": "Life of the Party", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021a35_e6ed447eeaa5_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "9B151754-EE12-45F5-9442-5D5105E227BC"
+}

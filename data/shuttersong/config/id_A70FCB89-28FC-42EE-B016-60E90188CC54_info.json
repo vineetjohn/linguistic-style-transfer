@@ -1,0 +1,27 @@
+{
+    "mood": "admiration", 
+    "caption": "...\ud83d\udc9f\u2764\ufe0f\ud83d\udc9f...", 
+    "created_at": "2016-05-22T11:47:50-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e517_33ed9d897796.ssng", 
+    "updated_at": "2016-05-23T22:25:52-04:00", 
+    "share_url": "https://a.sso.ng/1/33ed9d897796", 
+    "audio_url": "https://s02.sso.ng/1/00000003e517_33ed9d897796.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e517_33ed9d897796_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "lovegirl", 
+        "verified": false, 
+        "username_color": "#EA0F6B", 
+        "full_name": "Janoskianator", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a2e13c2f-4b4c-444b-8084-6a1e43abe8d7.jpg", 
+        "id": "a2e13c2f-4b4c-444b-8084-6a1e43abe8d7"
+    }, 
+    "song_title": "Iris (Hold Me Close)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e517_33ed9d897796_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 9, 
+    "uuid": "A70FCB89-28FC-42EE-B016-60E90188CC54"
+}

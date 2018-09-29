@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I don't know if this is shallow love, or if it's something real. maybe if I see jack johnson again I'll know? ", 
+    "created_at": "2015-08-05T23:43:28-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022544_aa8651c284bc_1.ssng", 
+    "updated_at": "2015-08-19T00:37:44-04:00", 
+    "share_url": "https://a.sso.ng/1/aa8651c284bc", 
+    "audio_url": "https://s01.sso.ng/1/000000022544_aa8651c284bc_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022544_aa8651c284bc_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "kennapaiser", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "dd0c3e74-d667-4481-8eec-b9f0b96e8e53"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022544_aa8651c284bc_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "B26D4592-52F5-419D-9D2C-A9F68E5F7AD4"
+}

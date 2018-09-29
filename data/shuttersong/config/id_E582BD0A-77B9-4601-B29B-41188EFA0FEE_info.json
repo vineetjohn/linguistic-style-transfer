@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo \nYoutube:Valeria Rios", 
+    "created_at": "2015-12-19T12:17:45-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036b00_dd954516a9bc.ssng", 
+    "updated_at": "2015-12-26T14:30:59-05:00", 
+    "share_url": "https://a.sso.ng/1/dd954516a9bc", 
+    "audio_url": "https://s01.sso.ng/1/000000036b00_dd954516a9bc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036b00_dd954516a9bc_mr.jpg", 
+    "song_album": "Omi", 
+    "user": {
+        "username": "valerios", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/aa0811eb-4f33-489e-8049-a12137f201ab.jpg", 
+        "id": "aa0811eb-4f33-489e-8049-a12137f201ab"
+    }, 
+    "song_title": "Cheerleader - Felix Jaehn Remix Radio Edit", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036b00_dd954516a9bc_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "E582BD0A-77B9-4601-B29B-41188EFA0FEE"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-25T16:24:51-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e336_4af06bc4ade3.ssng", 
+    "updated_at": "2016-02-26T19:38:35-05:00", 
+    "share_url": "https://a.sso.ng/1/4af06bc4ade3", 
+    "audio_url": "https://s02.sso.ng/1/00000003e336_4af06bc4ade3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e336_4af06bc4ade3_mr.jpg", 
+    "song_album": "Tear In My Heart - Single", 
+    "user": {
+        "username": "Jamie_Lynn8218", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Jamie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0015119b-7099-4378-993a-2e5f290a9104.jpg", 
+        "id": "0015119b-7099-4378-993a-2e5f290a9104"
+    }, 
+    "song_title": "Tear In My Heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e336_4af06bc4ade3_th.jpg", 
+    "song_artist": "twenty one pilots", 
+    "favorite_count": 5, 
+    "uuid": "AC5D2E0F-D6AD-4D1A-B6AF-2D44C147798D"
+}

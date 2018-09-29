@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-21T21:51:52-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000035544_29ca78934d77.ssng", 
+    "updated_at": "2015-12-21T22:16:46-05:00", 
+    "share_url": "https://a.sso.ng/1/29ca78934d77", 
+    "audio_url": "https://s01.sso.ng/1/000000035544_29ca78934d77.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000035544_29ca78934d77_mr.jpg", 
+    "song_album": "OneRepublic ", 
+    "user": {
+        "username": "laurabarbosa97", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dc334604-f827-4706-9b29-11984ed0da88.jpg", 
+        "id": "dc334604-f827-4706-9b29-11984ed0da88"
+    }, 
+    "song_title": "Something I Need", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000035544_29ca78934d77_th.jpg", 
+    "song_artist": "Native ", 
+    "favorite_count": 1, 
+    "uuid": "36F76A7B-00D3-4285-AC7E-CDAF668A75F5"
+}

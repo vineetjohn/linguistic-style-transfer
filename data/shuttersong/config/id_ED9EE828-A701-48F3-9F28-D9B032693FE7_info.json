@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T19:05:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000000d91e_cc0202f424f3.ssng", 
+    "updated_at": "2015-08-21T01:41:26-04:00", 
+    "share_url": "https://a.sso.ng/1/cc0202f424f3", 
+    "audio_url": "https://s01.sso.ng/1/00000000d91e_cc0202f424f3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000000d91e_cc0202f424f3_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "pedpatricia", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8e0c54e5-61d1-49be-82f4-59646d22b8e8.jpg", 
+        "id": "8e0c54e5-61d1-49be-82f4-59646d22b8e8"
+    }, 
+    "song_title": "Flo Rida - GDFR ft. Sage The Gemini and Lookas [Lyric Video]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000000d91e_cc0202f424f3_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "ED9EE828-A701-48F3-9F28-D9B032693FE7"
+}

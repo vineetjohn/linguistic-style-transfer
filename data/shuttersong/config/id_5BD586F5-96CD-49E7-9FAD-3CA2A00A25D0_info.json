@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?ari", 
+    "created_at": "2015-12-19T11:05:56-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000361ab_eeb780dd7a79_1.ssng", 
+    "updated_at": "2015-12-25T20:05:08-05:00", 
+    "share_url": "https://a.sso.ng/1/eeb780dd7a79", 
+    "audio_url": "https://s01.sso.ng/1/0000000361ab_eeb780dd7a79_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000361ab_eeb780dd7a79_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jvF", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ba5a22a1-68a0-4521-b399-4dbab9c01c54.jpg", 
+        "id": "ba5a22a1-68a0-4521-b399-4dbab9c01c54"
+    }, 
+    "song_title": "Ariana Grande - Focus", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000361ab_eeb780dd7a79_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "5BD586F5-96CD-49E7-9FAD-3CA2A00A25D0"
+}

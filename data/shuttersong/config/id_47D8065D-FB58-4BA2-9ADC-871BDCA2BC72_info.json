@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Prom ft Alek and Ed", 
+    "created_at": "2015-07-13T07:58:52-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f449_93b150fee7dd_1.ssng", 
+    "updated_at": "2015-12-31T07:18:09-05:00", 
+    "share_url": "https://a.sso.ng/1/93b150fee7dd", 
+    "audio_url": "https://s01.sso.ng/1/00000001f449_93b150fee7dd_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f449_93b150fee7dd_1_mr.jpg", 
+    "song_album": "Nimrod", 
+    "user": {
+        "username": "KTrose", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Caitlin", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4b3b27a-e8ee-4bec-bb54-b00569986ac2.jpg", 
+        "id": "d4b3b27a-e8ee-4bec-bb54-b00569986ac2"
+    }, 
+    "song_title": "King For A Day", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f449_93b150fee7dd_1_th.jpg", 
+    "song_artist": "Green Day", 
+    "favorite_count": 3, 
+    "uuid": "47D8065D-FB58-4BA2-9ADC-871BDCA2BC72"
+}

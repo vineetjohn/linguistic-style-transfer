@@ -1,0 +1,27 @@
+{
+    "mood": "blah", 
+    "caption": "One of those nights", 
+    "created_at": "2016-06-18T13:52:56-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7d4_7584c35f9604.ssng", 
+    "updated_at": "2016-06-22T00:27:47-04:00", 
+    "share_url": "https://a.sso.ng/1/7584c35f9604", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7d4_7584c35f9604.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7d4_7584c35f9604_mr.jpg", 
+    "song_album": "Third Eye Blind", 
+    "user": {
+        "username": "haze", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "hazel", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/aad6dd57-8e9b-4f15-9184-2908a2c6e863.jpg", 
+        "id": "aad6dd57-8e9b-4f15-9184-2908a2c6e863"
+    }, 
+    "song_title": "How's It Going to Be", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7d4_7584c35f9604_th.jpg", 
+    "song_artist": "Third Eye Blind", 
+    "favorite_count": 7, 
+    "uuid": "F3BA71DC-DCF7-461C-8182-5551F9D48613"
+}

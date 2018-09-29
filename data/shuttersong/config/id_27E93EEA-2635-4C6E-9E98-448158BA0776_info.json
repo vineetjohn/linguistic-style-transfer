@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I could be your fantasy \u2728", 
+    "created_at": "2016-02-11T10:02:10-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eac3_833b741b6530.ssng", 
+    "updated_at": "2016-02-12T03:12:40-05:00", 
+    "share_url": "https://a.sso.ng/1/833b741b6530", 
+    "audio_url": "https://s02.sso.ng/1/00000003eac3_833b741b6530.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eac3_833b741b6530_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ericalaraina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5dd8f0b8-a8db-43d6-90e4-ca30b8e6b00f.jpg", 
+        "id": "5dd8f0b8-a8db-43d6-90e4-ca30b8e6b00f"
+    }, 
+    "song_title": "Fantasy - Alina Baraz", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eac3_833b741b6530_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "27E93EEA-2635-4C6E-9E98-448158BA0776"
+}

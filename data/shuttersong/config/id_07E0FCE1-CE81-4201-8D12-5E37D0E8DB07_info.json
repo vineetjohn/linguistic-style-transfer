@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-27T16:47:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002cf0b_4243a3e49286.ssng", 
+    "updated_at": "2015-09-03T15:15:34-04:00", 
+    "share_url": "https://a.sso.ng/1/4243a3e49286", 
+    "audio_url": "https://s01.sso.ng/1/00000002cf0b_4243a3e49286.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002cf0b_4243a3e49286_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "andrea_c9", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e201d59f-718f-404e-94fa-09045daaa404.jpg", 
+        "id": "e201d59f-718f-404e-94fa-09045daaa404"
+    }, 
+    "song_title": "Major Lazer & DJ Snake - Lean On (feat. M\u00d8) (Official Lyric Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002cf0b_4243a3e49286_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "07E0FCE1-CE81-4201-8D12-5E37D0E8DB07"
+}

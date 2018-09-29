@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My Superhero!!!", 
+    "created_at": "2015-08-21T00:03:11-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000027eae_5df26cec7cfc_1.ssng", 
+    "updated_at": "2015-08-21T14:31:12-04:00", 
+    "share_url": "https://a.sso.ng/1/5df26cec7cfc", 
+    "audio_url": "https://s01.sso.ng/1/000000027eae_5df26cec7cfc_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027eae_5df26cec7cfc_1_mr.jpg", 
+    "song_album": "Alive", 
+    "user": {
+        "username": "Yariday", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0a9ace6f-6154-422a-8c78-990bdf3380ff.jpg", 
+        "id": "0a9ace6f-6154-422a-8c78-990bdf3380ff"
+    }, 
+    "song_title": "Superhero", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027eae_5df26cec7cfc_1_th.jpg", 
+    "song_artist": "Tim McMorris", 
+    "favorite_count": 1, 
+    "uuid": "5D0001C1-405D-4BA0-95D7-4565DA27EFE6"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Felicidaaaad?", 
+    "created_at": "2015-08-22T17:54:29-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b242_fc78c95c879b_1.ssng", 
+    "updated_at": "2015-12-28T11:19:06-05:00", 
+    "share_url": "https://a.sso.ng/1/fc78c95c879b", 
+    "audio_url": "https://s01.sso.ng/1/00000002b242_fc78c95c879b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b242_fc78c95c879b_1_mr.jpg", 
+    "song_album": "Unorthodox Jukebox", 
+    "user": {
+        "username": "Aleefer", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/79a8afee-d88f-46e5-9877-66712bb4fd43.jpg", 
+        "id": "79a8afee-d88f-46e5-9877-66712bb4fd43"
+    }, 
+    "song_title": "Gorilla", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b242_fc78c95c879b_1_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 1, 
+    "uuid": "6ABBBF23-8550-4342-AB6D-2D03F395E2F6"
+}

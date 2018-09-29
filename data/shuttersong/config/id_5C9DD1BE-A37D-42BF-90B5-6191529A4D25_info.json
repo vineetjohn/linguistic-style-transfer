@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "This is literally 'DisneyDeezy'", 
+    "created_at": "2015-11-18T08:40:42-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000020c39_486b96ed0074_1.ssng", 
+    "updated_at": "2015-12-31T07:13:40-05:00", 
+    "share_url": "https://a.sso.ng/1/486b96ed0074", 
+    "audio_url": "https://s01.sso.ng/1/000000020c39_486b96ed0074_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020c39_486b96ed0074_1_mr.jpg", 
+    "song_album": "Don't Tell 'Em (DeeZmix) - Single", 
+    "user": {
+        "username": "KenzieS", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Kenzie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0143701c-03a1-476e-b2cc-761410bcb8d2.jpg", 
+        "id": "0143701c-03a1-476e-b2cc-761410bcb8d2"
+    }, 
+    "song_title": "Don't Tell 'Em (DeeZmix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020c39_486b96ed0074_1_th.jpg", 
+    "song_artist": "Dylan Holland", 
+    "favorite_count": 4, 
+    "uuid": "5C9DD1BE-A37D-42BF-90B5-6191529A4D25"
+}

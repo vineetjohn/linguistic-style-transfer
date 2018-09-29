@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-06T13:40:17-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c655_61b5f874f943.ssng", 
+    "updated_at": "2016-01-07T03:49:08-05:00", 
+    "share_url": "https://a.sso.ng/1/61b5f874f943", 
+    "audio_url": "https://s01.sso.ng/1/00000003c655_61b5f874f943.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c655_61b5f874f943_mr.jpg", 
+    "song_album": "G I R L", 
+    "user": {
+        "username": "crityalbeth", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2a042e2e-0933-4239-968f-2bab9e92becb"
+    }, 
+    "song_title": "Happy (From \"Despicable Me 2\")", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c655_61b5f874f943_th.jpg", 
+    "song_artist": "Pharrell Williams", 
+    "favorite_count": 1, 
+    "uuid": "B24799B7-2CFA-4C13-9397-0241E740A98C"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "gevoelloos", 
+    "caption": "hello hello", 
+    "created_at": "2016-02-11T16:29:36-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8ac_5c74b083dec5.ssng", 
+    "updated_at": "2016-02-12T10:20:04-05:00", 
+    "share_url": "https://a.sso.ng/1/5c74b083dec5", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8ac_5c74b083dec5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8ac_5c74b083dec5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "beersjai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "kim", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dad4f7f2-4c9c-4b9f-9ac1-1dedc71f7555.jpg", 
+        "id": "dad4f7f2-4c9c-4b9f-9ac1-1dedc71f7555"
+    }, 
+    "song_title": "The Janoskians - MoodSwings", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8ac_5c74b083dec5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "A5D35F98-0AD5-44D3-8664-A1CA95ED2E42"
+}

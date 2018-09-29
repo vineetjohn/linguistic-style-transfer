@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I love beau brooks @beaub", 
+    "created_at": "2016-03-23T02:01:12-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5bc_9b885fa90d45.ssng", 
+    "updated_at": "2016-05-11T18:04:49-04:00", 
+    "share_url": "https://a.sso.ng/1/9b885fa90d45", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5bc_9b885fa90d45.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5bc_9b885fa90d45_mr.jpg", 
+    "song_album": "Set This World On Fire - Single", 
+    "user": {
+        "username": "sassaylube.", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "t a y l a h ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b1510817-de16-431a-917e-400dca39e5bd.jpg", 
+        "id": "b1510817-de16-431a-917e-400dca39e5bd"
+    }, 
+    "song_title": "Set This World On Fire", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5bc_9b885fa90d45_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 7, 
+    "uuid": "F040FE92-112E-4866-A8C6-6C8C39C8328D"
+}

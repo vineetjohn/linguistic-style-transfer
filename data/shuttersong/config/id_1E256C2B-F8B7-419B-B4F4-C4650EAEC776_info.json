@@ -1,0 +1,27 @@
+{
+    "mood": "giggly", 
+    "caption": "@brooksluke ??", 
+    "created_at": "2016-02-29T06:54:18-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e365_41687c294e2b.ssng", 
+    "updated_at": "2016-03-01T01:54:12-05:00", 
+    "share_url": "https://a.sso.ng/1/41687c294e2b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e365_41687c294e2b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e365_41687c294e2b_mr.jpg", 
+    "song_album": "This F**kin Song - Single", 
+    "user": {
+        "username": "rubypapadatos", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jake Lube Baniel Lames Laniel", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/016349d9-5c7b-4dfc-9714-253fb194d325.jpg", 
+        "id": "016349d9-5c7b-4dfc-9714-253fb194d325"
+    }, 
+    "song_title": "This F**kin Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e365_41687c294e2b_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "1E256C2B-F8B7-419B-B4F4-C4650EAEC776"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-20T15:57:33-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045584_13fa1f5e7772.ssng", 
+    "updated_at": "2016-06-20T18:26:26-04:00", 
+    "share_url": "https://a.sso.ng/1/13fa1f5e7772", 
+    "audio_url": "https://s02.sso.ng/1/000000045584_13fa1f5e7772.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045584_13fa1f5e7772_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mayj", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e18d8aa4-d981-493f-8461-f9e0bff6ca3a"
+    }, 
+    "song_title": "Toothpaste Kisses", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045584_13fa1f5e7772_th.jpg", 
+    "song_artist": "The Maccabees", 
+    "favorite_count": 1, 
+    "uuid": "1A82E2C9-E672-4DFF-8821-A2FA7FF9E5E3"
+}

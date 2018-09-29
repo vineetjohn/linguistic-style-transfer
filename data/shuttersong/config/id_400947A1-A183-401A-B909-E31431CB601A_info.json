@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "@beaub", 
+    "created_at": "2016-02-16T11:33:20-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eb69_3ea4b2d7a9dd.ssng", 
+    "updated_at": "2016-02-18T19:35:12-05:00", 
+    "share_url": "https://a.sso.ng/1/3ea4b2d7a9dd", 
+    "audio_url": "https://s02.sso.ng/1/00000003eb69_3ea4b2d7a9dd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eb69_3ea4b2d7a9dd_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "LaurenBoo17", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ffc0fc7c-509a-4e93-84af-c5287f947e44.jpg", 
+        "id": "ffc0fc7c-509a-4e93-84af-c5287f947e44"
+    }, 
+    "song_title": "Best Friends audio (Official)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eb69_3ea4b2d7a9dd_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "400947A1-A183-401A-B909-E31431CB601A"
+}

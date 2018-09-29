@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-09T18:48:29-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e63d_5b5dc6ea5e5a.ssng", 
+    "updated_at": "2016-02-09T18:50:45-05:00", 
+    "share_url": "https://a.sso.ng/1/5b5dc6ea5e5a", 
+    "audio_url": "https://s02.sso.ng/1/00000003e63d_5b5dc6ea5e5a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e63d_5b5dc6ea5e5a_mr.jpg", 
+    "song_album": "Down To Earth", 
+    "user": {
+        "username": "hashanthi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a90a452b-15b5-488d-9d07-49d343cd60dc.jpg", 
+        "id": "a90a452b-15b5-488d-9d07-49d343cd60dc"
+    }, 
+    "song_title": "Crave You feat. Giselle", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e63d_5b5dc6ea5e5a_th.jpg", 
+    "song_artist": "Flight Facilities", 
+    "favorite_count": 1, 
+    "uuid": "BC46A232-F915-4BAF-A345-B8BFB9697FDD"
+}

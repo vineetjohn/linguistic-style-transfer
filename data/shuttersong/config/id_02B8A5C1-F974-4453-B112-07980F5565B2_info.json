@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T20:00:58-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002678a_401c6cd1b368.ssng", 
+    "updated_at": "2016-04-02T19:51:35-04:00", 
+    "share_url": "https://a.sso.ng/1/401c6cd1b368", 
+    "audio_url": "https://s01.sso.ng/1/00000002678a_401c6cd1b368.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002678a_401c6cd1b368_mr.jpg", 
+    "song_album": "[www.behmusic.com]", 
+    "user": {
+        "username": "brigittemanchester", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/22bd42df-13fa-4db2-b15e-dad2c22dade2.jpg", 
+        "id": "22bd42df-13fa-4db2-b15e-dad2c22dade2"
+    }, 
+    "song_title": "Diamonds [www.behmusic.com]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002678a_401c6cd1b368_th.jpg", 
+    "song_artist": "Rihana [www.behmusic.com]", 
+    "favorite_count": 2, 
+    "uuid": "02B8A5C1-F974-4453-B112-07980F5565B2"
+}

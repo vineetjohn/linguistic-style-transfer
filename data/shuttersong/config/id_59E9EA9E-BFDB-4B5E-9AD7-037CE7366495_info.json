@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "arena, agua y comida quemas se puede pedir", 
+    "created_at": "2015-12-30T17:41:38-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036931_68c19e92bc33.ssng", 
+    "updated_at": "2015-12-30T17:44:31-05:00", 
+    "share_url": "https://a.sso.ng/1/68c19e92bc33", 
+    "audio_url": "https://s01.sso.ng/1/000000036931_68c19e92bc33.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036931_68c19e92bc33_mr.jpg", 
+    "song_album": "Creed", 
+    "user": {
+        "username": "pollock23", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "maria pollock", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/cd3a4553-93f8-4c1d-bb17-7f2b68ef43f5.jpg", 
+        "id": "cd3a4553-93f8-4c1d-bb17-7f2b68ef43f5"
+    }, 
+    "song_title": "My Sacrifice", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036931_68c19e92bc33_th.jpg", 
+    "song_artist": "Weathered", 
+    "favorite_count": 1, 
+    "uuid": "59E9EA9E-BFDB-4B5E-9AD7-037CE7366495"
+}

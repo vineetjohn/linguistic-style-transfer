@@ -1,0 +1,27 @@
+{
+    "mood": "frustrated", 
+    "caption": "", 
+    "created_at": "2016-03-24T10:28:03-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_51d54c76598e.ssng", 
+    "updated_at": "2016-03-30T03:21:01-04:00", 
+    "share_url": "https://a.sso.ng/1/51d54c76598e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_51d54c76598e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_51d54c76598e_mr.jpg", 
+    "song_album": "The Wanted", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "Chasing the Sun", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_51d54c76598e_th.jpg", 
+    "song_artist": "The Wanted", 
+    "favorite_count": 6, 
+    "uuid": "CC0B90AB-961B-4E31-8266-A92F1B75A8C5"
+}

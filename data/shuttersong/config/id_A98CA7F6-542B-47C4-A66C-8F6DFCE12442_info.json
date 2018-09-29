@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-15T21:52:07-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045457_52f9be27d7ec.ssng", 
+    "updated_at": "2016-06-19T18:09:17-04:00", 
+    "share_url": "https://a.sso.ng/1/52f9be27d7ec", 
+    "audio_url": "https://s02.sso.ng/1/000000045457_52f9be27d7ec.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045457_52f9be27d7ec_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "johanna_iy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "47cc91de-aaea-46bc-b819-6f888a23b7ef"
+    }, 
+    "song_title": "Twenty One Pilots_Heathens (Radio Edit)_ISRC-", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045457_52f9be27d7ec_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "A98CA7F6-542B-47C4-A66C-8F6DFCE12442"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-09T23:03:22-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e362_600d8c42ac46.ssng", 
+    "updated_at": "2016-02-11T03:48:58-05:00", 
+    "share_url": "https://a.sso.ng/1/600d8c42ac46", 
+    "audio_url": "https://s02.sso.ng/1/00000003e362_600d8c42ac46.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e362_600d8c42ac46_mr.jpg", 
+    "song_album": "B.o.B Presents: The Adventures of Bobby Ray (Deluxe Version)", 
+    "user": {
+        "username": "morris_s02", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2169f4ea-97a2-4745-8d93-ba1af84113c0.jpg", 
+        "id": "2169f4ea-97a2-4745-8d93-ba1af84113c0"
+    }, 
+    "song_title": "Airplanes (feat. Hayley Williams of Paramore)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e362_600d8c42ac46_th.jpg", 
+    "song_artist": "B.o.B", 
+    "favorite_count": 5, 
+    "uuid": "EBAE46DD-40A9-4EBB-AE6C-C38365095042"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-19T22:37:16-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041b72_09af4c7cd8e1.ssng", 
+    "updated_at": "2016-04-21T11:22:59-04:00", 
+    "share_url": "https://a.sso.ng/1/09af4c7cd8e1", 
+    "audio_url": "https://s02.sso.ng/1/000000041b72_09af4c7cd8e1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041b72_09af4c7cd8e1_mr.jpg", 
+    "song_album": "Turn Down For What - Single", 
+    "user": {
+        "username": "AEtri", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "737159b2-ed5e-4934-b781-c41de92ef621"
+    }, 
+    "song_title": "Turn Down For What", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041b72_09af4c7cd8e1_th.jpg", 
+    "song_artist": "DJ Snake & Lil Jon", 
+    "favorite_count": 1, 
+    "uuid": "4C551D3E-1476-4C43-B0BB-2D15F4C5D008"
+}

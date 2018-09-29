@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Don't wait", 
+    "created_at": "2016-02-29T19:21:08-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e45b_3dcd80c91e96.ssng", 
+    "updated_at": "2016-03-04T07:09:09-05:00", 
+    "share_url": "https://a.sso.ng/1/3dcd80c91e96", 
+    "audio_url": "https://s02.sso.ng/1/00000003e45b_3dcd80c91e96.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e45b_3dcd80c91e96_mr.jpg", 
+    "song_album": "Don't Wait - Single", 
+    "user": {
+        "username": "KatieKat", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/db427aa2-3c1e-442a-ae6d-bbafb270443e.jpg", 
+        "id": "db427aa2-3c1e-442a-ae6d-bbafb270443e"
+    }, 
+    "song_title": "Don't Wait", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e45b_3dcd80c91e96_th.jpg", 
+    "song_artist": "Joey Graceffa", 
+    "favorite_count": 2, 
+    "uuid": "1307AD83-A1CD-428E-ABF3-DD4300F72AEF"
+}

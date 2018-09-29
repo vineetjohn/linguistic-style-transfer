@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "? #janoskians", 
+    "created_at": "2016-02-09T18:37:37-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e590_96852c0ac775.ssng", 
+    "updated_at": "2016-02-11T03:52:54-05:00", 
+    "share_url": "https://a.sso.ng/1/96852c0ac775", 
+    "audio_url": "https://s02.sso.ng/1/00000003e590_96852c0ac775.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e590_96852c0ac775_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "Omg_janos", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Aaliyah", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bd0a4e2f-bbc1-49f9-bdeb-aa4c1b189963.jpg", 
+        "id": "bd0a4e2f-bbc1-49f9-bdeb-aa4c1b189963"
+    }, 
+    "song_title": "Would U Love Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e590_96852c0ac775_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "28B01DF4-43A0-4D7A-93F5-0DA5FD047D30"
+}

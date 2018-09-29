@@ -1,0 +1,27 @@
+{
+    "mood": "Sleepy", 
+    "caption": "Trying to wake up isn't easy everyday!", 
+    "created_at": "2016-02-11T04:31:14-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea7c_8e55ffb0c9ef.ssng", 
+    "updated_at": "2016-02-12T05:47:34-05:00", 
+    "share_url": "https://a.sso.ng/1/8e55ffb0c9ef", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea7c_8e55ffb0c9ef.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea7c_8e55ffb0c9ef_mr.jpg", 
+    "song_album": "This Is Alphabeat", 
+    "user": {
+        "username": "lamarlouz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Marlyse.", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/06ad14f2-5b34-4b29-a13e-89d2252f1b56.jpg", 
+        "id": "06ad14f2-5b34-4b29-a13e-89d2252f1b56"
+    }, 
+    "song_title": "Fascination", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea7c_8e55ffb0c9ef_th.jpg", 
+    "song_artist": "Alphabeat", 
+    "favorite_count": 2, 
+    "uuid": "46B18825-E220-4F78-978D-08401254594A"
+}

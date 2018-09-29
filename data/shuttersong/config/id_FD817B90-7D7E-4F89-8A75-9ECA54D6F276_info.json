@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-21T12:00:34-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037d03_ebff522ac81a.ssng", 
+    "updated_at": "2015-12-23T09:49:19-05:00", 
+    "share_url": "https://a.sso.ng/1/ebff522ac81a", 
+    "audio_url": "https://s01.sso.ng/1/000000037d03_ebff522ac81a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037d03_ebff522ac81a_mr.jpg", 
+    "song_album": "Justin Bieber", 
+    "user": {
+        "username": "lucy_ortrgaruiz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/19b1c63a-4185-4989-a239-3afcab7fd057.jpg", 
+        "id": "19b1c63a-4185-4989-a239-3afcab7fd057"
+    }, 
+    "song_title": "Been You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037d03_ebff522ac81a_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "FD817B90-7D7E-4F89-8A75-9ECA54D6F276"
+}

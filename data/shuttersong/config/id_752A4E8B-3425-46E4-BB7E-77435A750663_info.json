@@ -1,0 +1,27 @@
+{
+    "mood": "cheeky", 
+    "caption": "Still one of my favourite videos ?", 
+    "created_at": "2016-02-27T17:53:20-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e348_efccf6479853.ssng", 
+    "updated_at": "2016-03-04T22:49:26-05:00", 
+    "share_url": "https://a.sso.ng/1/efccf6479853", 
+    "audio_url": "https://s02.sso.ng/1/00000003e348_efccf6479853.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e348_efccf6479853_mr.jpg", 
+    "song_album": "The Wanted", 
+    "user": {
+        "username": "JaisFifaTantrums", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Kirrilly", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6d466165-54d5-4f20-a839-034dc89896e9.jpg", 
+        "id": "6d466165-54d5-4f20-a839-034dc89896e9"
+    }, 
+    "song_title": "Chasing The Sun", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e348_efccf6479853_th.jpg", 
+    "song_artist": "The Wanted", 
+    "favorite_count": 8, 
+    "uuid": "752A4E8B-3425-46E4-BB7E-77435A750663"
+}

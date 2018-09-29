@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T19:27:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025b7b_267c0645f17d.ssng", 
+    "updated_at": "2015-08-20T23:45:36-04:00", 
+    "share_url": "https://a.sso.ng/1/267c0645f17d", 
+    "audio_url": "https://s01.sso.ng/1/000000025b7b_267c0645f17d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025b7b_267c0645f17d_mr.jpg", 
+    "song_album": "You've Never Been Alone - Single", 
+    "user": {
+        "username": "jannett.garcia", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b1785a3e-f256-419f-b176-f7cd621b2028"
+    }, 
+    "song_title": "You've Never Been Alone", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025b7b_267c0645f17d_th.jpg", 
+    "song_artist": "Andrea Balency", 
+    "favorite_count": 1, 
+    "uuid": "0203C983-3E42-47AD-825C-86B4AA676DFF"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-18T00:57:24-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000027037_f5d38f62c6c2.ssng", 
+    "updated_at": "2015-12-18T15:56:36-05:00", 
+    "share_url": "https://a.sso.ng/1/f5d38f62c6c2", 
+    "audio_url": "https://s01.sso.ng/1/000000027037_f5d38f62c6c2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000027037_f5d38f62c6c2_mr.jpg", 
+    "song_album": "James Blunt", 
+    "user": {
+        "username": "DACCH", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b648b970-6be0-4314-8e1b-8ecbee947143.jpg", 
+        "id": "b648b970-6be0-4314-8e1b-8ecbee947143"
+    }, 
+    "song_title": "You're Beautiful", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000027037_f5d38f62c6c2_th.jpg", 
+    "song_artist": "Back To Bedlam", 
+    "favorite_count": 2, 
+    "uuid": "FDE9FF38-B65D-4135-89F8-B06F65A32B03"
+}

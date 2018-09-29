@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantoSorteo Amalia Sepulveda", 
+    "created_at": "2015-12-24T20:02:06-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036d86_097c3587cda2.ssng", 
+    "updated_at": "2015-12-27T07:04:30-05:00", 
+    "share_url": "https://a.sso.ng/1/097c3587cda2", 
+    "audio_url": "https://s01.sso.ng/1/000000036d86_097c3587cda2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036d86_097c3587cda2_mr.jpg", 
+    "song_album": "New Year Song", 
+    "user": {
+        "username": "Amalia123", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1e5d4b89-a274-4a6f-9481-9800d4ee5abd.jpg", 
+        "id": "1e5d4b89-a274-4a6f-9481-9800d4ee5abd"
+    }, 
+    "song_title": "Jingle Bells", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036d86_097c3587cda2_th.jpg", 
+    "song_artist": "Single Hits 58", 
+    "favorite_count": 1, 
+    "uuid": "9DA036E0-2539-4DF7-879C-C0D2AE8B12CE"
+}

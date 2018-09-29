@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T07:26:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000010505_7e6a8e059710.ssng", 
+    "updated_at": "2015-08-04T07:26:42-04:00", 
+    "share_url": "https://a.sso.ng/1/7e6a8e059710", 
+    "audio_url": "https://s01.sso.ng/1/000000010505_7e6a8e059710.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000010505_7e6a8e059710_mr.jpg", 
+    "song_album": "Too Experienced: The Best of Barrington Levy", 
+    "user": {
+        "username": "rashid", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "29d09967-186a-41d7-97e6-9ca1311b628e"
+    }, 
+    "song_title": "Murderer", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000010505_7e6a8e059710_th.jpg", 
+    "song_artist": "Barrington Levy", 
+    "favorite_count": 1, 
+    "uuid": "3C7FC86E-F95E-4D49-96CC-020308BCB1C0"
+}

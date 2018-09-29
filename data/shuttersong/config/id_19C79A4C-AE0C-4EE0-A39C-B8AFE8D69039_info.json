@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-07T23:05:41-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030c20_7e1a99a39689.ssng", 
+    "updated_at": "2015-12-07T23:27:12-05:00", 
+    "share_url": "https://a.sso.ng/1/7e1a99a39689", 
+    "audio_url": "https://s01.sso.ng/1/000000030c20_7e1a99a39689.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030c20_7e1a99a39689_mr.jpg", 
+    "song_album": "The Gas", 
+    "user": {
+        "username": "asherfreeman", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "79313ad0-3800-4d55-961c-4c760a4468a7"
+    }, 
+    "song_title": "Boss Money Gangsters (Ft. Boss Money)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030c20_7e1a99a39689_th.jpg", 
+    "song_artist": "The P Brothers", 
+    "favorite_count": 1, 
+    "uuid": "19C79A4C-AE0C-4EE0-A39C-B8AFE8D69039"
+}

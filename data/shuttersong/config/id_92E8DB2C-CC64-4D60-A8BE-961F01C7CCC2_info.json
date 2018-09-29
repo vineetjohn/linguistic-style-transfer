@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "#friendship", 
+    "created_at": "2016-01-14T23:15:24-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_b2f6ca9ca1ce.ssng", 
+    "updated_at": "2016-01-14T23:42:10-05:00", 
+    "share_url": "https://a.sso.ng/1/b2f6ca9ca1ce", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_b2f6ca9ca1ce.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_b2f6ca9ca1ce_mr.jpg", 
+    "song_album": "Kygo", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "Firestone (feat. Conrad)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_b2f6ca9ca1ce_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "92E8DB2C-CC64-4D60-A8BE-961F01C7CCC2"
+}

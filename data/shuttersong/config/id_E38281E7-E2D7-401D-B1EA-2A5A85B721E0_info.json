@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T23:46:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021bfe_55cffae7d499.ssng", 
+    "updated_at": "2015-08-04T23:46:19-04:00", 
+    "share_url": "https://a.sso.ng/1/55cffae7d499", 
+    "audio_url": "https://s01.sso.ng/1/000000021bfe_55cffae7d499.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021bfe_55cffae7d499_mr.jpg", 
+    "song_album": "Nasty Freestyle - Single", 
+    "user": {
+        "username": "jaedynn31", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/840ad5de-2043-41b8-8a69-0dfa745025e2.jpg", 
+        "id": "840ad5de-2043-41b8-8a69-0dfa745025e2"
+    }, 
+    "song_title": "Nasty Freestyle", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021bfe_55cffae7d499_th.jpg", 
+    "song_artist": "Twayne", 
+    "favorite_count": 1, 
+    "uuid": "E38281E7-E2D7-401D-B1EA-2A5A85B721E0"
+}

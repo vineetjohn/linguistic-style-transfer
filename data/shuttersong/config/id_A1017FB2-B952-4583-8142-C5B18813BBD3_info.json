@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "why is this so hot oh my lanta", 
+    "created_at": "2015-08-03T23:41:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020dfe_b759ca85b896_1.ssng", 
+    "updated_at": "2015-08-03T23:41:35-04:00", 
+    "share_url": "https://a.sso.ng/1/b759ca85b896", 
+    "audio_url": "https://s01.sso.ng/1/000000020dfe_b759ca85b896_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020dfe_b759ca85b896_1_mr.jpg", 
+    "song_album": "CalibraskaEP", 
+    "user": {
+        "username": "marydaubney", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b6e26ef5-52d5-4f0f-b210-b95141189732.jpg", 
+        "id": "b6e26ef5-52d5-4f0f-b210-b95141189732"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020dfe_b759ca85b896_1_th.jpg", 
+    "song_artist": "Jack and Jack", 
+    "favorite_count": 1, 
+    "uuid": "A1017FB2-B952-4583-8142-C5B18813BBD3"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T17:41:57-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021afa_a6226fcd8d9a.ssng", 
+    "updated_at": "2015-08-04T17:41:57-04:00", 
+    "share_url": "https://a.sso.ng/1/a6226fcd8d9a", 
+    "audio_url": "https://s01.sso.ng/1/000000021afa_a6226fcd8d9a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021afa_a6226fcd8d9a_mr.jpg", 
+    "song_album": "All I Want (feat. Cameron Dallas) - Single", 
+    "user": {
+        "username": "gabbyg", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fbf6f66d-89a1-4d95-b7f1-74b84b37d97c.jpg", 
+        "id": "fbf6f66d-89a1-4d95-b7f1-74b84b37d97c"
+    }, 
+    "song_title": "All I Want (feat. Cameron Dallas)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021afa_a6226fcd8d9a_th.jpg", 
+    "song_artist": "Daniel Skye", 
+    "favorite_count": 1, 
+    "uuid": "1FDEE7BD-20A9-44DF-9239-880B069BA6CC"
+}

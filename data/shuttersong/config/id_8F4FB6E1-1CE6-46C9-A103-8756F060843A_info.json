@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I love Daniel so much ?", 
+    "created_at": "2016-02-15T09:39:14-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e6ba_e10cc9b8c94b.ssng", 
+    "updated_at": "2016-02-15T19:46:08-05:00", 
+    "share_url": "https://a.sso.ng/1/e10cc9b8c94b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e6ba_e10cc9b8c94b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e6ba_e10cc9b8c94b_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "nochilljano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Alyssa", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/65cf1249-9f40-4dd1-8e2a-7369ff3cf671.jpg", 
+        "id": "65cf1249-9f40-4dd1-8e2a-7369ff3cf671"
+    }, 
+    "song_title": "Real Girls Eat Cake", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e6ba_e10cc9b8c94b_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 7, 
+    "uuid": "8F4FB6E1-1CE6-46C9-A103-8756F060843A"
+}

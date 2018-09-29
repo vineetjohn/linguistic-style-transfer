@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-18T17:46:29-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000030920_150c9ef05dfd.ssng", 
+    "updated_at": "2016-01-25T02:18:21-05:00", 
+    "share_url": "https://a.sso.ng/1/150c9ef05dfd", 
+    "audio_url": "https://s02.sso.ng/1/000000030920_150c9ef05dfd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030920_150c9ef05dfd_mr.jpg", 
+    "song_album": "R. (Disc 1)", 
+    "user": {
+        "username": "Sweetpassion", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9155e9ba-f762-44cb-8793-4206810154ff"
+    }, 
+    "song_title": "If I'm Wit You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030920_150c9ef05dfd_th.jpg", 
+    "song_artist": "R.Kelly", 
+    "favorite_count": 1, 
+    "uuid": "E2E4D505-B17B-49D5-B616-F2BBCE877858"
+}

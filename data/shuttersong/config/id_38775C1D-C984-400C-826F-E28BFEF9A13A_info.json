@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-07T14:10:51-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c8a3_48f66484f383.ssng", 
+    "updated_at": "2016-01-07T14:23:50-05:00", 
+    "share_url": "https://a.sso.ng/1/48f66484f383", 
+    "audio_url": "https://s01.sso.ng/1/00000003c8a3_48f66484f383.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c8a3_48f66484f383_mr.jpg", 
+    "song_album": "New Year's Eve Mix - Single", 
+    "user": {
+        "username": "mylifeaseva", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "04a37d39-5a88-4389-9118-f0ba9db7e225"
+    }, 
+    "song_title": "You Make Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c8a3_48f66484f383_th.jpg", 
+    "song_artist": "Avicii", 
+    "favorite_count": 1, 
+    "uuid": "38775C1D-C984-400C-826F-E28BFEF9A13A"
+}

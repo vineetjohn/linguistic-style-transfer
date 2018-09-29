@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My bae????????", 
+    "created_at": "2015-11-23T14:07:08-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000030367_006242e46b9b_1.ssng", 
+    "updated_at": "2015-12-02T05:59:24-05:00", 
+    "share_url": "https://a.sso.ng/1/006242e46b9b", 
+    "audio_url": "https://s01.sso.ng/1/000000030367_006242e46b9b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000030367_006242e46b9b_1_mr.jpg", 
+    "song_album": "Fight Song - EP", 
+    "user": {
+        "username": "jillylol", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jillian ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dbfb576e-2729-4faa-8373-2b64fd634c6a.jpg", 
+        "id": "dbfb576e-2729-4faa-8373-2b64fd634c6a"
+    }, 
+    "song_title": "Fight Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000030367_006242e46b9b_1_th.jpg", 
+    "song_artist": "Rachel Platten", 
+    "favorite_count": 2, 
+    "uuid": "D454C6B0-687C-445A-A0AA-84D7A8AE364F"
+}

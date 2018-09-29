@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @Kbm1995", 
+    "created_at": "2015-12-20T03:22:50-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003797b_c695ec63421e_1.ssng", 
+    "updated_at": "2015-12-23T19:44:45-05:00", 
+    "share_url": "https://a.sso.ng/1/c695ec63421e", 
+    "audio_url": "https://s01.sso.ng/1/00000003797b_c695ec63421e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003797b_c695ec63421e_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Kbm1995", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "608034c6-4a7c-4498-896b-eb2df2f6757f"
+    }, 
+    "song_title": "ODESZA ft. Shy Girls - All We Need (Dzeko & Torres Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003797b_c695ec63421e_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "49ED24FA-CFA4-4210-800C-4920977C2461"
+}

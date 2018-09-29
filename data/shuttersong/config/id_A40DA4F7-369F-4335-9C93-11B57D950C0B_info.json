@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "All I want is you??#selfie", 
+    "created_at": "2015-08-06T00:32:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022654_ac1e41491e73_1.ssng", 
+    "updated_at": "2015-10-24T17:48:07-04:00", 
+    "share_url": "https://a.sso.ng/1/ac1e41491e73", 
+    "audio_url": "https://s01.sso.ng/1/000000022654_ac1e41491e73_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022654_ac1e41491e73_1_mr.jpg", 
+    "song_album": "All I Want (feat. Cameron Dallas) - Single", 
+    "user": {
+        "username": "bri_bri3300", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f18bd98c-3e8a-43d9-908e-a7178a52c351.jpg", 
+        "id": "f18bd98c-3e8a-43d9-908e-a7178a52c351"
+    }, 
+    "song_title": "All I Want (feat. Cameron Dallas)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022654_ac1e41491e73_1_th.jpg", 
+    "song_artist": "Daniel Skye", 
+    "favorite_count": 1, 
+    "uuid": "A40DA4F7-369F-4335-9C93-11B57D950C0B"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "calm", 
+    "caption": "Shawn Mendes voice is so calming", 
+    "created_at": "2016-06-23T01:17:12-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045a21_2a44ae200134.ssng", 
+    "updated_at": "2016-06-23T17:52:41-04:00", 
+    "share_url": "https://a.sso.ng/1/2a44ae200134", 
+    "audio_url": "https://s02.sso.ng/1/000000045a21_2a44ae200134.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045a21_2a44ae200134_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "ughh_erin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "erin henry", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dc6ee41f-9303-44c5-ab58-e64c5a102c0d.jpg", 
+        "id": "dc6ee41f-9303-44c5-ab58-e64c5a102c0d"
+    }, 
+    "song_title": "Never Be Alone", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045a21_2a44ae200134_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "2FDC648D-1A64-493D-A8AF-1134000E5D3D"
+}

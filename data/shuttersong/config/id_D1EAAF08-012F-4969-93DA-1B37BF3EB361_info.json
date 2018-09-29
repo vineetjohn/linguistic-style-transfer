@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-16T13:34:39-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041428_44bfa86b3ad7.ssng", 
+    "updated_at": "2016-04-30T09:01:04-04:00", 
+    "share_url": "https://a.sso.ng/1/44bfa86b3ad7", 
+    "audio_url": "https://s02.sso.ng/1/000000041428_44bfa86b3ad7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041428_44bfa86b3ad7_mr.jpg", 
+    "song_album": "Cry Baby", 
+    "user": {
+        "username": "shihyi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5d6eeb30-6577-43a5-9eb2-62e75c1eec1a.jpg", 
+        "id": "5d6eeb30-6577-43a5-9eb2-62e75c1eec1a"
+    }, 
+    "song_title": "Soap", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041428_44bfa86b3ad7_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 6, 
+    "uuid": "D1EAAF08-012F-4969-93DA-1B37BF3EB361"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Me bc @beaub won't follow me", 
+    "created_at": "2016-03-12T15:41:00-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eb90_47cd16330729.ssng", 
+    "updated_at": "2016-03-14T07:02:26-04:00", 
+    "share_url": "https://a.sso.ng/1/47cd16330729", 
+    "audio_url": "https://s02.sso.ng/1/00000003eb90_47cd16330729.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eb90_47cd16330729_mr.jpg", 
+    "song_album": "Clarity", 
+    "user": {
+        "username": "those5aussiesxx", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Julia ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/93524b8d-a5fd-47cc-a539-c2dc467bc36f.jpg", 
+        "id": "93524b8d-a5fd-47cc-a539-c2dc467bc36f"
+    }, 
+    "song_title": "Clarity (feat. Foxes)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eb90_47cd16330729_th.jpg", 
+    "song_artist": "Zedd", 
+    "favorite_count": 4, 
+    "uuid": "38F97462-98B0-4533-AF78-32E31830F7CD"
+}

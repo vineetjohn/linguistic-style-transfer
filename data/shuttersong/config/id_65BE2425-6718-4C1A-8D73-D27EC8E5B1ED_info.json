@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-17T12:25:40-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003bcb7_1bda7a5120fc.ssng", 
+    "updated_at": "2016-01-25T02:17:57-05:00", 
+    "share_url": "https://a.sso.ng/1/1bda7a5120fc", 
+    "audio_url": "https://s02.sso.ng/1/00000003bcb7_1bda7a5120fc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003bcb7_1bda7a5120fc_mr.jpg", 
+    "song_album": "Selena Gomez", 
+    "user": {
+        "username": "alice488", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3f204916-907c-469b-9675-12ba416728d2"
+    }, 
+    "song_title": "Good For You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003bcb7_1bda7a5120fc_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "65BE2425-6718-4C1A-8D73-D27EC8E5B1ED"
+}

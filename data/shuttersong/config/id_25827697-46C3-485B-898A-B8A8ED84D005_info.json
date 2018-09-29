@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jack Johnson with random tune", 
+    "created_at": "2015-08-04T00:39:16-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000211a5_85d188735e65_1.ssng", 
+    "updated_at": "2015-08-04T00:39:57-04:00", 
+    "share_url": "https://a.sso.ng/1/85d188735e65", 
+    "audio_url": "https://s01.sso.ng/1/0000000211a5_85d188735e65_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000211a5_85d188735e65_1_mr.jpg", 
+    "song_album": "Mercy", 
+    "user": {
+        "username": "tiff.17", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9225d5db-b781-422c-9e71-6390a700dd5a.jpg", 
+        "id": "9225d5db-b781-422c-9e71-6390a700dd5a"
+    }, 
+    "song_title": "Never Far Away", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000211a5_85d188735e65_1_th.jpg", 
+    "song_artist": "Active Child", 
+    "favorite_count": 1, 
+    "uuid": "25827697-46C3-485B-898A-B8A8ED84D005"
+}

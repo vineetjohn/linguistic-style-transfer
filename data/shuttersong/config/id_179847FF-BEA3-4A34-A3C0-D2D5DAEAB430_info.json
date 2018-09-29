@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-08T11:27:07-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040d95_ff5f6f8bd905.ssng", 
+    "updated_at": "2016-04-12T01:08:13-04:00", 
+    "share_url": "https://a.sso.ng/1/ff5f6f8bd905", 
+    "audio_url": "https://s02.sso.ng/1/000000040d95_ff5f6f8bd905.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040d95_ff5f6f8bd905_mr.jpg", 
+    "song_album": "De Maxx Long Player 30", 
+    "user": {
+        "username": "femkedemuynck", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c3bf4398-475e-4887-b403-a32be2a419c7"
+    }, 
+    "song_title": "My Love (feat. Jess Glynne)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040d95_ff5f6f8bd905_th.jpg", 
+    "song_artist": "Route 94", 
+    "favorite_count": 4, 
+    "uuid": "179847FF-BEA3-4A34-A3C0-D2D5DAEAB430"
+}

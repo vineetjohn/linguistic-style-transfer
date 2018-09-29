@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-17T23:42:30-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d895_52381ca7aaa5.ssng", 
+    "updated_at": "2016-01-19T09:36:07-05:00", 
+    "share_url": "https://a.sso.ng/1/52381ca7aaa5", 
+    "audio_url": "https://s02.sso.ng/1/00000003d895_52381ca7aaa5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d895_52381ca7aaa5_mr.jpg", 
+    "song_album": "Urban Flora - EP", 
+    "user": {
+        "username": "kjc27756", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "72c24a47-d117-42b2-9f65-84bb7cfc67a6"
+    }, 
+    "song_title": "Fantasy", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d895_52381ca7aaa5_th.jpg", 
+    "song_artist": "Alina Baraz &amp; Galimatias", 
+    "favorite_count": 1, 
+    "uuid": "563179CC-E0AA-4B25-9423-851B5F625CBE"
+}

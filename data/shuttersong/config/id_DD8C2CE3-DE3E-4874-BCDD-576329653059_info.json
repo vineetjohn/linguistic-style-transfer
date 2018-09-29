@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I need jack and jack the most ???", 
+    "created_at": "2015-08-04T00:44:57-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000211f1_7c2fb027e942_1.ssng", 
+    "updated_at": "2015-08-04T00:45:26-04:00", 
+    "share_url": "https://a.sso.ng/1/7c2fb027e942", 
+    "audio_url": "https://s01.sso.ng/1/0000000211f1_7c2fb027e942_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000211f1_7c2fb027e942_1_mr.jpg", 
+    "song_album": "Skrillex and Diplo Present Jack \u00dc", 
+    "user": {
+        "username": "gabrielle.james", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0b73e7e4-9001-4e5d-872a-c10eb62b2101"
+    }, 
+    "song_title": "Where Are \u00dc Now (with Justin Bieber)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000211f1_7c2fb027e942_1_th.jpg", 
+    "song_artist": "Skrillex & Diplo", 
+    "favorite_count": 1, 
+    "uuid": "DD8C2CE3-DE3E-4874-BCDD-576329653059"
+}

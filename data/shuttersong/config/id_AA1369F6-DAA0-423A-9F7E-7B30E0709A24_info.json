@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-25T14:28:19-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f48d_aaa413f14570.ssng", 
+    "updated_at": "2016-02-25T19:29:26-05:00", 
+    "share_url": "https://a.sso.ng/1/aaa413f14570", 
+    "audio_url": "https://s02.sso.ng/1/00000003f48d_aaa413f14570.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f48d_aaa413f14570_mr.jpg", 
+    "song_album": "Prod. By Predikador AK47", 
+    "user": {
+        "username": "mafer150107", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8d0d1d50-59dc-4e56-a05d-1e4e59f59f16.jpg", 
+        "id": "8d0d1d50-59dc-4e56-a05d-1e4e59f59f16"
+    }, 
+    "song_title": "Picky", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f48d_aaa413f14570_th.jpg", 
+    "song_artist": "Joey Montana", 
+    "favorite_count": 1, 
+    "uuid": "AA1369F6-DAA0-423A-9F7E-7B30E0709A24"
+}

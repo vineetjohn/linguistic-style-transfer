@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T01:08:52-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002120f_dd12795f158d.ssng", 
+    "updated_at": "2015-08-04T01:08:52-04:00", 
+    "share_url": "https://a.sso.ng/1/dd12795f158d", 
+    "audio_url": "https://s01.sso.ng/1/00000002120f_dd12795f158d.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002120f_dd12795f158d_mr.jpg", 
+    "song_album": "Kickin It - Single", 
+    "user": {
+        "username": "Tara.Lynne.Clifford", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/79330fd6-348d-44d2-9306-6dad8fdfda25.jpg", 
+        "id": "79330fd6-348d-44d2-9306-6dad8fdfda25"
+    }, 
+    "song_title": "Kickin It", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002120f_dd12795f158d_th.jpg", 
+    "song_artist": "Dylan Dauzat", 
+    "favorite_count": 3, 
+    "uuid": "D95D2570-DA70-494A-A975-CA5BDDF3C5F9"
+}

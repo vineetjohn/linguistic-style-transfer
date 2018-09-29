@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-20T01:20:50-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037165_7614d6b4c190.ssng", 
+    "updated_at": "2015-12-27T10:20:43-05:00", 
+    "share_url": "https://a.sso.ng/1/7614d6b4c190", 
+    "audio_url": "https://s01.sso.ng/1/000000037165_7614d6b4c190.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037165_7614d6b4c190_mr.jpg", 
+    "song_album": "Megan Trainor", 
+    "user": {
+        "username": "guadix_46", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1aeaf6a6-2ef6-4ebf-bb3b-0e33d611fc25.jpg", 
+        "id": "1aeaf6a6-2ef6-4ebf-bb3b-0e33d611fc25"
+    }, 
+    "song_title": "All About That Bass", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037165_7614d6b4c190_th.jpg", 
+    "song_artist": "All About That Bass-Single", 
+    "favorite_count": 1, 
+    "uuid": "9E1AD1ED-9372-4DD2-9483-7FD698D9CC26"
+}

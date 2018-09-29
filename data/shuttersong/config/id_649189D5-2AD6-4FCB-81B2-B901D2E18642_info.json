@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-02T00:05:38-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000000119_82cc58ba0756.ssng", 
+    "updated_at": "2015-11-02T01:47:46-05:00", 
+    "share_url": "https://a.sso.ng/1/82cc58ba0756", 
+    "audio_url": "https://s01.sso.ng/1/000000000119_82cc58ba0756.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000119_82cc58ba0756_mr.jpg", 
+    "song_album": "Special Edition", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "Love Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000119_82cc58ba0756_th.jpg", 
+    "song_artist": "\ube45\ubc45(Big Bang)", 
+    "favorite_count": 1, 
+    "uuid": "649189D5-2AD6-4FCB-81B2-B901D2E18642"
+}

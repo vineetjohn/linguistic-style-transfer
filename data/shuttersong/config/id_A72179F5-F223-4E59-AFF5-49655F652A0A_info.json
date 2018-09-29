@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Miss my cousins!", 
+    "created_at": "2016-05-07T16:32:18-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9ce_885759f5805e.ssng", 
+    "updated_at": "2016-07-01T20:11:11-04:00", 
+    "share_url": "https://a.sso.ng/1/885759f5805e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9ce_885759f5805e.m4a", 
+    "comment_count": 25, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9ce_885759f5805e_mr.jpg", 
+    "song_album": "Up From Below (Deluxe Edition)", 
+    "user": {
+        "username": "brooksluke", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d3a4bfe2-f663-4cc7-ab9a-60680ec1cee9.jpg", 
+        "id": "d3a4bfe2-f663-4cc7-ab9a-60680ec1cee9"
+    }, 
+    "song_title": "Home", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9ce_885759f5805e_th.jpg", 
+    "song_artist": "Edward Sharpe & The Magnetic Zeros", 
+    "favorite_count": 198, 
+    "uuid": "A72179F5-F223-4E59-AFF5-49655F652A0A"
+}

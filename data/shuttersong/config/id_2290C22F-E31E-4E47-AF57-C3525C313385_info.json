@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-04-05T07:00:49-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000000119_8873c221da2b.ssng", 
+    "updated_at": "2016-04-05T17:29:00-04:00", 
+    "share_url": "https://a.sso.ng/1/8873c221da2b", 
+    "audio_url": "https://s02.sso.ng/1/000000000119_8873c221da2b.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000000119_8873c221da2b_mr.jpg", 
+    "song_album": "Not a Bad Thing - Single", 
+    "user": {
+        "username": "yonanda.w", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Yonanda W", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4089cb7-39f4-460e-b992-01338c1b1feb.jpg", 
+        "id": "f4089cb7-39f4-460e-b992-01338c1b1feb"
+    }, 
+    "song_title": "Not a Bad Thing", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000000119_8873c221da2b_th.jpg", 
+    "song_artist": "Justin Timberlake", 
+    "favorite_count": 2, 
+    "uuid": "2290C22F-E31E-4E47-AF57-C3525C313385"
+}

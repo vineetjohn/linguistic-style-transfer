@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-27T18:21:18-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041008_a8a9daecff4a.ssng", 
+    "updated_at": "2016-06-29T07:19:20-04:00", 
+    "share_url": "https://a.sso.ng/1/a8a9daecff4a", 
+    "audio_url": "https://s02.sso.ng/1/000000041008_a8a9daecff4a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041008_a8a9daecff4a_mr.jpg", 
+    "song_album": "Views", 
+    "user": {
+        "username": "draketunez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "94533053-459b-4f15-9911-a27bc66f7c23"
+    }, 
+    "song_title": "Redemption", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041008_a8a9daecff4a_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 1, 
+    "uuid": "BCBAB7C8-1A94-4EBA-A9C4-8B3725A2F34E"
+}

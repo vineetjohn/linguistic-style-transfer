@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#locker #blink182", 
+    "created_at": "2015-08-06T20:56:56-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022957_d2ef63a6da95.ssng", 
+    "updated_at": "2015-10-24T22:01:00-04:00", 
+    "share_url": "https://a.sso.ng/1/d2ef63a6da95", 
+    "audio_url": "https://s01.sso.ng/1/000000022957_d2ef63a6da95.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022957_d2ef63a6da95_mr.jpg", 
+    "song_album": "Greatest Hits", 
+    "user": {
+        "username": "Jazmin.Gutierrez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/22de4210-4dd7-45a4-a775-437dbda184c4.jpg", 
+        "id": "22de4210-4dd7-45a4-a775-437dbda184c4"
+    }, 
+    "song_title": "All The Small Things", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022957_d2ef63a6da95_th.jpg", 
+    "song_artist": "Blink-182", 
+    "favorite_count": 1, 
+    "uuid": "EAAC4C89-8A6A-4E4C-B327-787FFF8B6264"
+}

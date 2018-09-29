@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Waiting on some action on this Independence Weekend Y'all!", 
+    "created_at": "2016-07-02T07:47:12-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000030a87_efa8a2f4d905.ssng", 
+    "updated_at": "2016-07-02T20:17:44-04:00", 
+    "share_url": "https://a.sso.ng/1/efa8a2f4d905", 
+    "audio_url": "https://s02.sso.ng/1/000000030a87_efa8a2f4d905.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030a87_efa8a2f4d905_mr.jpg", 
+    "song_album": "The Best of the Monkees", 
+    "user": {
+        "username": "GiGiM19", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/953a8817-1c42-458d-8631-7e82984af4f4.jpg", 
+        "id": "953a8817-1c42-458d-8631-7e82984af4f4"
+    }, 
+    "song_title": "Daydream Believer", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030a87_efa8a2f4d905_th.jpg", 
+    "song_artist": "The Monkees", 
+    "favorite_count": 3, 
+    "uuid": "9A4594E4-0AB5-4FEE-BE6F-488A2FC5E8DC"
+}

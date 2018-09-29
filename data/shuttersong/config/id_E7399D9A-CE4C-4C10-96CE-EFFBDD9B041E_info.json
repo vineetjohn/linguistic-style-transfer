@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "???", 
+    "created_at": "2016-01-06T19:11:28-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c6ee_ec0832058da5.ssng", 
+    "updated_at": "2016-01-07T22:14:54-05:00", 
+    "share_url": "https://a.sso.ng/1/ec0832058da5", 
+    "audio_url": "https://s01.sso.ng/1/00000003c6ee_ec0832058da5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c6ee_ec0832058da5_mr.jpg", 
+    "song_album": "Time of Our Lives", 
+    "user": {
+        "username": "veronicaurbina", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7c20dd6d-abb8-4f69-864a-d87150613aa6.jpg", 
+        "id": "7c20dd6d-abb8-4f69-864a-d87150613aa6"
+    }, 
+    "song_title": "Time of Our Lives", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c6ee_ec0832058da5_th.jpg", 
+    "song_artist": "Pitbull &amp; Ne-Yo", 
+    "favorite_count": 1, 
+    "uuid": "E7399D9A-CE4C-4C10-96CE-EFFBDD9B041E"
+}

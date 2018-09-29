@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-30T01:21:05-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000443c5_d1a408ba8dce.ssng", 
+    "updated_at": "2016-06-01T08:15:49-04:00", 
+    "share_url": "https://a.sso.ng/1/d1a408ba8dce", 
+    "audio_url": "https://s02.sso.ng/1/0000000443c5_d1a408ba8dce.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000443c5_d1a408ba8dce_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "StarsDieToo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d4880625-949d-4a61-a2e6-76655c049637"
+    }, 
+    "song_title": "All The Time Tove Lo Flip Keys and Krates-[]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000443c5_d1a408ba8dce_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "7BA940EF-1188-4FE7-BAFE-B293080B2C1F"
+}

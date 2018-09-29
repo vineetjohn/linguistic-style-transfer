@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#yonce", 
+    "created_at": "2015-12-20T02:19:20-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037944_135e9a136fd9.ssng", 
+    "updated_at": "2015-12-23T19:47:43-05:00", 
+    "share_url": "https://a.sso.ng/1/135e9a136fd9", 
+    "audio_url": "https://s01.sso.ng/1/000000037944_135e9a136fd9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037944_135e9a136fd9_mr.jpg", 
+    "song_album": "Yonce", 
+    "user": {
+        "username": "rebedelpilar", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3dc9d40c-4202-49ff-8a3b-a5dbce99b38f.jpg", 
+        "id": "3dc9d40c-4202-49ff-8a3b-a5dbce99b38f"
+    }, 
+    "song_title": "Beyonce", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037944_135e9a136fd9_th.jpg", 
+    "song_artist": null, 
+    "favorite_count": 1, 
+    "uuid": "417F51CC-34E1-47A1-B201-53FBC075E4E9"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-07-23T22:56:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001fe2f_b2413424a88e.ssng", 
+    "updated_at": "2015-07-23T22:56:25-04:00", 
+    "share_url": "https://a.sso.ng/1/b2413424a88e", 
+    "audio_url": "https://s01.sso.ng/1/00000001fe2f_b2413424a88e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001fe2f_b2413424a88e_mr.jpg", 
+    "song_album": "Electra Heart (Deluxe Version)", 
+    "user": {
+        "username": "katienansnanas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b0cb7b75-ae73-4c6f-bf29-54d03f446ffc"
+    }, 
+    "song_title": "Teen Idle", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001fe2f_b2413424a88e_th.jpg", 
+    "song_artist": "Marina and The Diamonds", 
+    "favorite_count": 1, 
+    "uuid": "34C18458-7B02-4679-96DF-0BE5096A30F9"
+}

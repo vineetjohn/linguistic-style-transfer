@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-23T12:33:57-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000300ff_4b76f251557f.ssng", 
+    "updated_at": "2016-06-24T16:43:49-04:00", 
+    "share_url": "https://a.sso.ng/1/4b76f251557f", 
+    "audio_url": "https://s02.sso.ng/1/0000000300ff_4b76f251557f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000300ff_4b76f251557f_mr.jpg", 
+    "song_album": "All Our Gods Have Abandoned Us", 
+    "user": {
+        "username": "2Tall", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2defbf5d-7bfa-49e1-9824-1d62c64b730b"
+    }, 
+    "song_title": "Nihilist", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000300ff_4b76f251557f_th.jpg", 
+    "song_artist": "Architects", 
+    "favorite_count": 2, 
+    "uuid": "730829ED-B584-4940-BC0F-2B6562DAF40F"
+}

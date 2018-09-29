@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo// Youtube: Sam Albornoz", 
+    "created_at": "2015-12-20T18:37:13-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037eb5_ed2b58da5bed.ssng", 
+    "updated_at": "2015-12-20T18:53:55-05:00", 
+    "share_url": "https://a.sso.ng/1/ed2b58da5bed", 
+    "audio_url": "https://s01.sso.ng/1/000000037eb5_ed2b58da5bed.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037eb5_ed2b58da5bed_mr.jpg", 
+    "song_album": "Monstercat - 3 Year Anniversary", 
+    "user": {
+        "username": "Samcat", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/517c0df7-2c78-4443-bd49-3c843243686a.jpg", 
+        "id": "517c0df7-2c78-4443-bd49-3c843243686a"
+    }, 
+    "song_title": "Monstercat Live Performance (3 Year Anniversary Mix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037eb5_ed2b58da5bed_th.jpg", 
+    "song_artist": "Didrick", 
+    "favorite_count": 1, 
+    "uuid": "304B2464-CB58-458C-95F8-7FB4F245D4A7"
+}

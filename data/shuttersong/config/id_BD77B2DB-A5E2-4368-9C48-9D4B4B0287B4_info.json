@@ -1,0 +1,27 @@
+{
+    "mood": "accepted", 
+    "caption": "", 
+    "created_at": "2016-05-14T10:57:50-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000043390_b0f3b91c6b4f.ssng", 
+    "updated_at": "2016-06-03T13:25:25-04:00", 
+    "share_url": "https://a.sso.ng/1/b0f3b91c6b4f", 
+    "audio_url": "https://s02.sso.ng/1/000000043390_b0f3b91c6b4f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000043390_b0f3b91c6b4f_mr.jpg", 
+    "song_album": "Fetty Wap (Deluxe)", 
+    "user": {
+        "username": "tylert10", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0c82a8c4-950d-4d1f-aee9-dfc423e33529"
+    }, 
+    "song_title": "Let It Bang", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000043390_b0f3b91c6b4f_th.jpg", 
+    "song_artist": "Fetty Wap", 
+    "favorite_count": 3, 
+    "uuid": "BD77B2DB-A5E2-4368-9C48-9D4B4B0287B4"
+}

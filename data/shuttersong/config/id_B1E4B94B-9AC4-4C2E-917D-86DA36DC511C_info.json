@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-29T00:55:16-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f223_cf093e13377b.ssng", 
+    "updated_at": "2016-06-30T01:33:05-04:00", 
+    "share_url": "https://a.sso.ng/1/cf093e13377b", 
+    "audio_url": "https://s02.sso.ng/1/00000003f223_cf093e13377b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f223_cf093e13377b_mr.jpg", 
+    "song_album": "Major Key", 
+    "user": {
+        "username": "DEMXNS", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Steve Guz", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b8ccab37-75e9-4066-b70f-7a40e4da4aa3.jpg", 
+        "id": "b8ccab37-75e9-4066-b70f-7a40e4da4aa3"
+    }, 
+    "song_title": "I Got the Keys (feat. JAY Z & Future)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f223_cf093e13377b_th.jpg", 
+    "song_artist": "DJ Khaled", 
+    "favorite_count": 2, 
+    "uuid": "B1E4B94B-9AC4-4C2E-917D-86DA36DC511C"
+}

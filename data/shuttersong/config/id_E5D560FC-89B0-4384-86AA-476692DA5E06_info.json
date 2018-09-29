@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "chillin'", 
+    "created_at": "2016-04-12T12:16:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041314_3bc768217194.ssng", 
+    "updated_at": "2016-04-23T14:28:33-04:00", 
+    "share_url": "https://a.sso.ng/1/3bc768217194", 
+    "audio_url": "https://s02.sso.ng/1/000000041314_3bc768217194.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041314_3bc768217194_mr.jpg", 
+    "song_album": "Into the Morning", 
+    "user": {
+        "username": "justjor", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "79924516-1f98-4fba-9e09-60a55c8bb61f"
+    }, 
+    "song_title": "When a Heart Breaks", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041314_3bc768217194_th.jpg", 
+    "song_artist": "Ben Rector", 
+    "favorite_count": 4, 
+    "uuid": "E5D560FC-89B0-4384-86AA-476692DA5E06"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-09T22:52:13-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000030ab6_3ddf2cf6e947.ssng", 
+    "updated_at": "2016-04-01T22:03:06-04:00", 
+    "share_url": "https://a.sso.ng/1/3ddf2cf6e947", 
+    "audio_url": "https://s02.sso.ng/1/000000030ab6_3ddf2cf6e947.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030ab6_3ddf2cf6e947_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "angelic1", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f47500ee-7d38-4f9c-865a-eacf0db36a5f"
+    }, 
+    "song_title": "UB40 - Kingston Town", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030ab6_3ddf2cf6e947_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "C1C7F068-6DA2-4E94-9486-72EAC23DFFE5"
+}

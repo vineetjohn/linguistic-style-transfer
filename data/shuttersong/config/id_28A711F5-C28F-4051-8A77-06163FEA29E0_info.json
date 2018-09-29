@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-26T11:41:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004401a_5ec589b0fd84.ssng", 
+    "updated_at": "2016-05-27T09:39:00-04:00", 
+    "share_url": "https://a.sso.ng/1/5ec589b0fd84", 
+    "audio_url": "https://s02.sso.ng/1/00000004401a_5ec589b0fd84.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004401a_5ec589b0fd84_mr.jpg", 
+    "song_album": "Anarchytecture", 
+    "user": {
+        "username": "antondenver", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7df7c1e7-b88a-4a3f-b925-5f3db7584ec5"
+    }, 
+    "song_title": "Victim", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004401a_5ec589b0fd84_th.jpg", 
+    "song_artist": "Skunk Anansie", 
+    "favorite_count": 2, 
+    "uuid": "28A711F5-C28F-4051-8A77-06163FEA29E0"
+}

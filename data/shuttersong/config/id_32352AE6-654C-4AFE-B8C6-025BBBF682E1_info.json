@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-25T15:03:07-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002fc66_3fd7a6b65225.ssng", 
+    "updated_at": "2015-11-29T08:52:52-05:00", 
+    "share_url": "https://a.sso.ng/1/3fd7a6b65225", 
+    "audio_url": "https://s01.sso.ng/1/00000002fc66_3fd7a6b65225.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002fc66_3fd7a6b65225_mr.jpg", 
+    "song_album": "In a Perfect World... (I Like Edition)", 
+    "user": {
+        "username": "Cookie_1999", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8de22249-06bb-46f6-809e-977348df3e50"
+    }, 
+    "song_title": "I Like (Jost & Grubert Radio Mix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002fc66_3fd7a6b65225_th.jpg", 
+    "song_artist": "Keri Hilson", 
+    "favorite_count": 1, 
+    "uuid": "32352AE6-654C-4AFE-B8C6-025BBBF682E1"
+}

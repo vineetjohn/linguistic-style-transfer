@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Shawn?\u2764\ufe0f", 
+    "created_at": "2015-08-04T00:40:30-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021105_d154f9d9c8c8_2.ssng", 
+    "updated_at": "2015-08-04T00:43:50-04:00", 
+    "share_url": "https://a.sso.ng/1/d154f9d9c8c8", 
+    "audio_url": "https://s01.sso.ng/1/000000021105_d154f9d9c8c8_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021105_d154f9d9c8c8_2_mr.jpg", 
+    "song_album": "Something Big - Single", 
+    "user": {
+        "username": "jjfelixxx", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jeanette", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d6c6f97f-b0be-455f-90e8-11b29a1746ee.jpg", 
+        "id": "d6c6f97f-b0be-455f-90e8-11b29a1746ee"
+    }, 
+    "song_title": "Something Big", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021105_d154f9d9c8c8_2_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "0B51F16D-049A-486A-BDBC-A9D396DE9CDE"
+}

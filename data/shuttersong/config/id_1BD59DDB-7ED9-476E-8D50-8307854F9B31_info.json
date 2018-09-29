@@ -1,0 +1,27 @@
+{
+    "mood": "hungry", 
+    "caption": "???", 
+    "created_at": "2016-02-28T16:09:04-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e911_fee730fcf6a3.ssng", 
+    "updated_at": "2016-04-07T23:01:14-04:00", 
+    "share_url": "https://a.sso.ng/1/fee730fcf6a3", 
+    "audio_url": "https://s02.sso.ng/1/00000003e911_fee730fcf6a3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e911_fee730fcf6a3_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "VickyTHL", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/08993097-ab8b-4ac7-a5be-135d4dd81ee4.jpg", 
+        "id": "08993097-ab8b-4ac7-a5be-135d4dd81ee4"
+    }, 
+    "song_title": "Song for Someone", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e911_fee730fcf6a3_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 5, 
+    "uuid": "1BD59DDB-7ED9-476E-8D50-8307854F9B31"
+}

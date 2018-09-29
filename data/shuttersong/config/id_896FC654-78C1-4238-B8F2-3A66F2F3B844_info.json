@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-01T02:45:31-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000001e023_88763e4695dc.ssng", 
+    "updated_at": "2016-04-03T21:45:33-04:00", 
+    "share_url": "https://a.sso.ng/1/88763e4695dc", 
+    "audio_url": "https://s02.sso.ng/1/00000001e023_88763e4695dc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001e023_88763e4695dc_mr.jpg", 
+    "song_album": "TWENTY88", 
+    "user": {
+        "username": "hitee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "647857a3-6c80-46ac-868f-004bfeb7c956"
+    }, 
+    "song_title": "Selfish", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001e023_88763e4695dc_th.jpg", 
+    "song_artist": "TWENTY88", 
+    "favorite_count": 2, 
+    "uuid": "896FC654-78C1-4238-B8F2-3A66F2F3B844"
+}

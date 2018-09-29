@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-10T15:04:25-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003b09b_a3edae1d2b6d.ssng", 
+    "updated_at": "2016-04-11T11:54:50-04:00", 
+    "share_url": "https://a.sso.ng/1/a3edae1d2b6d", 
+    "audio_url": "https://s02.sso.ng/1/00000003b09b_a3edae1d2b6d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003b09b_a3edae1d2b6d_mr.jpg", 
+    "song_album": "What a Time To Be Alive", 
+    "user": {
+        "username": "LailaJ", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c268d123-5136-4c09-8169-317147867329"
+    }, 
+    "song_title": "Jumpman", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003b09b_a3edae1d2b6d_th.jpg", 
+    "song_artist": "Drake & Future", 
+    "favorite_count": 2, 
+    "uuid": "3D094479-ACEE-4393-B8C3-4856CDE9980F"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-19T10:30:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000000f2b7_9242d7bd0258.ssng", 
+    "updated_at": "2016-02-19T20:26:45-05:00", 
+    "share_url": "https://a.sso.ng/1/9242d7bd0258", 
+    "audio_url": "https://s02.sso.ng/1/00000000f2b7_9242d7bd0258.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000000f2b7_9242d7bd0258_mr.jpg", 
+    "song_album": "Waking Up", 
+    "user": {
+        "username": "dennisck", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8d2efd0c-0e53-43b9-aa22-39dc1f202fc9"
+    }, 
+    "song_title": "Secrets", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000000f2b7_9242d7bd0258_th.jpg", 
+    "song_artist": "OneRepublic", 
+    "favorite_count": 1, 
+    "uuid": "C9FA4BEB-C094-4F7E-97BE-D90B2213C3B4"
+}

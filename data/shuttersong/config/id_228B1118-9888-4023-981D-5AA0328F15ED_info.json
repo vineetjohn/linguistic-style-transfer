@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "@beaub color vs b/w", 
+    "created_at": "2016-02-10T18:28:31-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e297_4c03f31caa93.ssng", 
+    "updated_at": "2016-02-25T18:06:57-05:00", 
+    "share_url": "https://a.sso.ng/1/4c03f31caa93", 
+    "audio_url": "https://s02.sso.ng/1/00000003e297_4c03f31caa93.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e297_4c03f31caa93_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Cover_Girl_LB", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/015e95b2-5c1e-4a34-8ac9-3f41b03cf590.jpg", 
+        "id": "015e95b2-5c1e-4a34-8ac9-3f41b03cf590"
+    }, 
+    "song_title": "One Time (Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e297_4c03f31caa93_th.jpg", 
+    "song_artist": "Marian Hill", 
+    "favorite_count": 5, 
+    "uuid": "228B1118-9888-4023-981D-5AA0328F15ED"
+}

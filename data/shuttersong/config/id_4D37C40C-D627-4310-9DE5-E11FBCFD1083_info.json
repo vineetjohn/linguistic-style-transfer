@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "damn dude \u263a\ufe0f", 
+    "created_at": "2015-08-04T07:24:07-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002161d_298b754720bf_1.ssng", 
+    "updated_at": "2015-08-04T07:25:00-04:00", 
+    "share_url": "https://a.sso.ng/1/298b754720bf", 
+    "audio_url": "https://s01.sso.ng/1/00000002161d_298b754720bf_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002161d_298b754720bf_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "justhannah", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/66117f3f-3a82-4772-87b6-d8c25562821b.jpg", 
+        "id": "66117f3f-3a82-4772-87b6-d8c25562821b"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002161d_298b754720bf_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "4D37C40C-D627-4310-9DE5-E11FBCFD1083"
+}

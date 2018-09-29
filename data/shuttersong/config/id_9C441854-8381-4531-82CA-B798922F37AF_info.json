@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo YouTube: Scarlet Ramos", 
+    "created_at": "2015-12-22T10:22:27-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038530_8b35b523c44c_1.ssng", 
+    "updated_at": "2015-12-27T18:51:49-05:00", 
+    "share_url": "https://a.sso.ng/1/8b35b523c44c", 
+    "audio_url": "https://s01.sso.ng/1/000000038530_8b35b523c44c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038530_8b35b523c44c_1_mr.jpg", 
+    "song_album": "Paradise - Single", 
+    "user": {
+        "username": "scarletmeow", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e414f754-5c8b-4336-b3ef-56502b221b7d.jpg", 
+        "id": "e414f754-5c8b-4336-b3ef-56502b221b7d"
+    }, 
+    "song_title": "Paradise", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038530_8b35b523c44c_1_th.jpg", 
+    "song_artist": "Coldplay", 
+    "favorite_count": 1, 
+    "uuid": "9C441854-8381-4531-82CA-B798922F37AF"
+}

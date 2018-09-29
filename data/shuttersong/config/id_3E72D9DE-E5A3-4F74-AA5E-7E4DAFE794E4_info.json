@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-07-03T00:06:22-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000432be_5806854a270b.ssng", 
+    "updated_at": "2016-07-06T10:59:36-04:00", 
+    "share_url": "https://a.sso.ng/1/5806854a270b", 
+    "audio_url": "https://s02.sso.ng/1/0000000432be_5806854a270b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000432be_5806854a270b_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Iszozo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "37329469-eddc-4cef-bf1b-b1ce1e6f2805"
+    }, 
+    "song_title": "The Janoskians - Love What You Have - pitch 10.7 - tempo- 149", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000432be_5806854a270b_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "3E72D9DE-E5A3-4F74-AA5E-7E4DAFE794E4"
+}

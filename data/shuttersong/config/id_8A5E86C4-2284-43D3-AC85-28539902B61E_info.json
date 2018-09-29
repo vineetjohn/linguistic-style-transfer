@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-09T23:23:30-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003ac4b_9fe720d5a476.ssng", 
+    "updated_at": "2016-01-10T11:43:40-05:00", 
+    "share_url": "https://a.sso.ng/1/9fe720d5a476", 
+    "audio_url": "https://s01.sso.ng/1/00000003ac4b_9fe720d5a476.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003ac4b_9fe720d5a476_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "jeniiblue", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/471385f9-f42d-4a3b-848d-48d9f98f327d.jpg", 
+        "id": "471385f9-f42d-4a3b-848d-48d9f98f327d"
+    }, 
+    "song_title": "Fall Out Boy - Immortals Big Hero 6 (AUDIO)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003ac4b_9fe720d5a476_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "8A5E86C4-2284-43D3-AC85-28539902B61E"
+}

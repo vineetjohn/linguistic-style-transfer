@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I LOVE YOU BEAU AND I MISS YOU @BEAUB", 
+    "created_at": "2016-03-02T15:03:02-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1d2_49609bbbb82c.ssng", 
+    "updated_at": "2016-03-02T15:12:28-05:00", 
+    "share_url": "https://a.sso.ng/1/49609bbbb82c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1d2_49609bbbb82c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1d2_49609bbbb82c_mr.jpg", 
+    "song_album": "Best Friends", 
+    "user": {
+        "username": "needyjai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f4c5d522-e2d2-4098-8ebe-c9b1abcffc46.jpg", 
+        "id": "f4c5d522-e2d2-4098-8ebe-c9b1abcffc46"
+    }, 
+    "song_title": "Best Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1d2_49609bbbb82c_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "60FA774A-905A-4C76-A11D-2925A4F6C99C"
+}

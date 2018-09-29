@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2728?", 
+    "created_at": "2016-02-21T04:28:18-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e788_17e4a5b92ed9.ssng", 
+    "updated_at": "2016-04-30T08:57:32-04:00", 
+    "share_url": "https://a.sso.ng/1/17e4a5b92ed9", 
+    "audio_url": "https://s02.sso.ng/1/00000003e788_17e4a5b92ed9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e788_17e4a5b92ed9_mr.jpg", 
+    "song_album": "Believe", 
+    "user": {
+        "username": "_GemmaMarie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gemma Marie Crozier", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/443fabff-cb79-4204-9c68-f9cf00854cec.jpg", 
+        "id": "443fabff-cb79-4204-9c68-f9cf00854cec"
+    }, 
+    "song_title": "Catching Feelings", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e788_17e4a5b92ed9_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 2, 
+    "uuid": "1E827E00-8E3A-407D-8D4B-982CE0682824"
+}

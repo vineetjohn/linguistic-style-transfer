@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Top chef M\u00e9xico!!", 
+    "created_at": "2016-06-14T18:15:48-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e821_556e6c276676.ssng", 
+    "updated_at": "2016-06-16T22:00:58-04:00", 
+    "share_url": "https://a.sso.ng/1/556e6c276676", 
+    "audio_url": "https://s02.sso.ng/1/00000003e821_556e6c276676.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e821_556e6c276676_mr.jpg", 
+    "song_album": "The Secret", 
+    "user": {
+        "username": "Annini", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09e1fb3d-69fa-4375-93a4-008fc02e1b34.jpg", 
+        "id": "09e1fb3d-69fa-4375-93a4-008fc02e1b34"
+    }, 
+    "song_title": "Mmm Yeah (feat. Pitbull)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e821_556e6c276676_th.jpg", 
+    "song_artist": "Austin Mahone", 
+    "favorite_count": 7, 
+    "uuid": "15141364-6BC6-4E0A-AED2-34F0703F0D8A"
+}

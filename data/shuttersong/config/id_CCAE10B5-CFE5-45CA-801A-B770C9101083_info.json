@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-03T09:20:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fcd4_186cd57b3cc8.ssng", 
+    "updated_at": "2016-04-04T06:42:22-04:00", 
+    "share_url": "https://a.sso.ng/1/186cd57b3cc8", 
+    "audio_url": "https://s02.sso.ng/1/00000003fcd4_186cd57b3cc8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fcd4_186cd57b3cc8_mr.jpg", 
+    "song_album": "18", 
+    "user": {
+        "username": "josangl08", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ede39c02-2d0c-4de7-acd5-863032942f90.jpg", 
+        "id": "ede39c02-2d0c-4de7-acd5-863032942f90"
+    }, 
+    "song_title": "In My Heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fcd4_186cd57b3cc8_th.jpg", 
+    "song_artist": "Moby", 
+    "favorite_count": 2, 
+    "uuid": "CCAE10B5-CFE5-45CA-801A-B770C9101083"
+}

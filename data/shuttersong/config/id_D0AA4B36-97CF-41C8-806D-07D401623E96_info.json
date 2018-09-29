@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2648\ufe0f", 
+    "created_at": "2016-02-10T17:31:14-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e788_d490420c82a2.ssng", 
+    "updated_at": "2016-04-30T09:15:32-04:00", 
+    "share_url": "https://a.sso.ng/1/d490420c82a2", 
+    "audio_url": "https://s02.sso.ng/1/00000003e788_d490420c82a2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e788_d490420c82a2_mr.jpg", 
+    "song_album": "Old School Love (feat. Ed Sheeran) - Single", 
+    "user": {
+        "username": "_GemmaMarie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Gemma Marie Crozier", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/443fabff-cb79-4204-9c68-f9cf00854cec.jpg", 
+        "id": "443fabff-cb79-4204-9c68-f9cf00854cec"
+    }, 
+    "song_title": "Old School Love (feat. Ed Sheeran)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e788_d490420c82a2_th.jpg", 
+    "song_artist": "Lupe Fiasco", 
+    "favorite_count": 5, 
+    "uuid": "D0AA4B36-97CF-41C8-806D-07D401623E96"
+}

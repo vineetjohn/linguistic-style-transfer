@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "GOODMORNING?", 
+    "created_at": "2016-02-14T11:06:07-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e345_39990ecbd055.ssng", 
+    "updated_at": "2016-02-14T15:42:24-05:00", 
+    "share_url": "https://a.sso.ng/1/39990ecbd055", 
+    "audio_url": "https://s02.sso.ng/1/00000003e345_39990ecbd055.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e345_39990ecbd055_mr.jpg", 
+    "song_album": "Bad Blood - Single", 
+    "user": {
+        "username": "janoskian.luv", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "mary", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/633d504f-5a9d-49c7-ade2-563132ae7cd8.jpg", 
+        "id": "633d504f-5a9d-49c7-ade2-563132ae7cd8"
+    }, 
+    "song_title": "Bad Blood", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e345_39990ecbd055_th.jpg", 
+    "song_artist": "NAO", 
+    "favorite_count": 4, 
+    "uuid": "240133C9-67C1-4E67-82E7-72D52DCAD292"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-19T10:32:46-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000001a3cf_5de65dc3487b.ssng", 
+    "updated_at": "2016-05-20T10:03:00-04:00", 
+    "share_url": "https://a.sso.ng/1/5de65dc3487b", 
+    "audio_url": "https://s02.sso.ng/1/00000001a3cf_5de65dc3487b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001a3cf_5de65dc3487b_mr.jpg", 
+    "song_album": "Don't know where it is", 
+    "user": {
+        "username": "smplnml", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "75a79e12-6cbd-4a5d-99d7-cfbf84d228f3"
+    }, 
+    "song_title": "Let It Sway", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001a3cf_5de65dc3487b_th.jpg", 
+    "song_artist": "DYGL", 
+    "favorite_count": 3, 
+    "uuid": "38D78EEF-FE58-4F5C-8E6A-4D94173DE29D"
+}

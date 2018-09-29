@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-02T21:36:24-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004479d_114607380a5c.ssng", 
+    "updated_at": "2016-06-05T10:14:36-04:00", 
+    "share_url": "https://a.sso.ng/1/114607380a5c", 
+    "audio_url": "https://s02.sso.ng/1/00000004479d_114607380a5c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004479d_114607380a5c_mr.jpg", 
+    "song_album": "Platinum", 
+    "user": {
+        "username": "elissamanalo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3d4b0f76-2b2d-490e-b988-98752881ba7d"
+    }, 
+    "song_title": "Platinum", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004479d_114607380a5c_th.jpg", 
+    "song_artist": "Miranda Lambert", 
+    "favorite_count": 2, 
+    "uuid": "A2DFD1BF-C160-419F-85C8-2B8A2A7A561D"
+}

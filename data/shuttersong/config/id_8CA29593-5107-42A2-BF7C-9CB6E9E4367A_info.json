@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-25T23:39:12-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f4c6_3805a5eb0e07.ssng", 
+    "updated_at": "2016-02-27T06:22:54-05:00", 
+    "share_url": "https://a.sso.ng/1/3805a5eb0e07", 
+    "audio_url": "https://s02.sso.ng/1/00000003f4c6_3805a5eb0e07.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f4c6_3805a5eb0e07_mr.jpg", 
+    "song_album": "These Things Happen", 
+    "user": {
+        "username": "dyl.ran", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5142c16d-e135-48cb-a934-a185bcc27442"
+    }, 
+    "song_title": "Let's Get Lost", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f4c6_3805a5eb0e07_th.jpg", 
+    "song_artist": "G-Eazy/Devon Baldwin", 
+    "favorite_count": 1, 
+    "uuid": "8CA29593-5107-42A2-BF7C-9CB6E9E4367A"
+}

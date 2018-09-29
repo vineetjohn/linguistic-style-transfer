@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-03T18:04:56-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000030f68_367533678dc2.ssng", 
+    "updated_at": "2016-05-04T05:43:16-04:00", 
+    "share_url": "https://a.sso.ng/1/367533678dc2", 
+    "audio_url": "https://s02.sso.ng/1/000000030f68_367533678dc2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030f68_367533678dc2_mr.jpg", 
+    "song_album": "Ella Fitzgerald: A 75th Birthday Salute [Disc 1]", 
+    "user": {
+        "username": "Jenn001", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "4e3e786f-1f0d-40c6-9345-733147b79fd6"
+    }, 
+    "song_title": "Oh, Lady Be Good (1947 Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030f68_367533678dc2_th.jpg", 
+    "song_artist": "Ella Fitzgerald", 
+    "favorite_count": 1, 
+    "uuid": "ED80EA02-6370-4532-A0CF-BE8D022D0893"
+}

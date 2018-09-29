@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-29T02:02:52-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037e00_4a15ea4690d1.ssng", 
+    "updated_at": "2015-12-30T08:12:19-05:00", 
+    "share_url": "https://a.sso.ng/1/4a15ea4690d1", 
+    "audio_url": "https://s01.sso.ng/1/000000037e00_4a15ea4690d1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037e00_4a15ea4690d1_mr.jpg", 
+    "song_album": "Word of Mouth (Deluxe)", 
+    "user": {
+        "username": "ferchas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/742b5fb6-e496-4ab3-820a-e15279cb18b6.jpg", 
+        "id": "742b5fb6-e496-4ab3-820a-e15279cb18b6"
+    }, 
+    "song_title": "Demons", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037e00_4a15ea4690d1_th.jpg", 
+    "song_artist": "The Wanted", 
+    "favorite_count": 1, 
+    "uuid": "DFB4FD70-979F-45D8-B5B9-1140F0C495F9"
+}

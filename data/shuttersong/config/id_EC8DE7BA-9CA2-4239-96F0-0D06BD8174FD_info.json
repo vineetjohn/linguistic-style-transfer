@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-12-19T00:26:07-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000369de_43947087982f_1.ssng", 
+    "updated_at": "2015-12-25T20:13:35-05:00", 
+    "share_url": "https://a.sso.ng/1/43947087982f", 
+    "audio_url": "https://s01.sso.ng/1/0000000369de_43947087982f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000369de_43947087982f_1_mr.jpg", 
+    "song_album": "Acapella - Single", 
+    "user": {
+        "username": "Tiki29", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/57118b87-9130-4ad7-9f87-dd68fee097ec.jpg", 
+        "id": "57118b87-9130-4ad7-9f87-dd68fee097ec"
+    }, 
+    "song_title": "Acapella", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000369de_43947087982f_1_th.jpg", 
+    "song_artist": "Karmin", 
+    "favorite_count": 4, 
+    "uuid": "EC8DE7BA-9CA2-4239-96F0-0D06BD8174FD"
+}

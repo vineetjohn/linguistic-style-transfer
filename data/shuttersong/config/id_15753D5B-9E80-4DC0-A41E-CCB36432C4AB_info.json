@@ -1,0 +1,27 @@
+{
+    "mood": "cold", 
+    "caption": "I really need to get some Christmas music on my phone!", 
+    "created_at": "2015-12-12T11:38:16-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f449_39c1108b9afd_1.ssng", 
+    "updated_at": "2015-12-31T07:16:00-05:00", 
+    "share_url": "https://a.sso.ng/1/39c1108b9afd", 
+    "audio_url": "https://s01.sso.ng/1/00000001f449_39c1108b9afd_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f449_39c1108b9afd_1_mr.jpg", 
+    "song_album": "xx", 
+    "user": {
+        "username": "KTrose", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Caitlin", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4b3b27a-e8ee-4bec-bb54-b00569986ac2.jpg", 
+        "id": "d4b3b27a-e8ee-4bec-bb54-b00569986ac2"
+    }, 
+    "song_title": "You've Got the Love - Florence Cover", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f449_39c1108b9afd_1_th.jpg", 
+    "song_artist": "The xx", 
+    "favorite_count": 9, 
+    "uuid": "15753D5B-9E80-4DC0-A41E-CCB36432C4AB"
+}

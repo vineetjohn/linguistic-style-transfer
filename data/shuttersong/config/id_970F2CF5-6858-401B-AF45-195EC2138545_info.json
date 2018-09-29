@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-07-02T12:51:36-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004617b_e40c114cc647.ssng", 
+    "updated_at": "2016-07-02T13:13:35-04:00", 
+    "share_url": "https://a.sso.ng/1/e40c114cc647", 
+    "audio_url": "https://s02.sso.ng/1/00000004617b_e40c114cc647.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004617b_e40c114cc647_mr.jpg", 
+    "song_album": "Studio Zeta Dance 80, Vol. 1", 
+    "user": {
+        "username": "uru", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "cc9142fc-aa2d-42c4-9791-afef5a05653f"
+    }, 
+    "song_title": "Zodiac", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004617b_e40c114cc647_th.jpg", 
+    "song_artist": "Roberta Kelly", 
+    "favorite_count": 1, 
+    "uuid": "970F2CF5-6858-401B-AF45-195EC2138545"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "New state?", 
+    "created_at": "2016-01-07T17:27:49-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003c938_5ff39b8f0ccc.ssng", 
+    "updated_at": "2016-01-08T15:56:25-05:00", 
+    "share_url": "https://a.sso.ng/1/5ff39b8f0ccc", 
+    "audio_url": "https://s01.sso.ng/1/00000003c938_5ff39b8f0ccc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003c938_5ff39b8f0ccc_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "IrenePG", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6df8c4bc-4a02-4915-b887-f9c74d0d3ca6"
+    }, 
+    "song_title": "Stars - Fun.", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003c938_5ff39b8f0ccc_th.jpg", 
+    "song_artist": "Some Nights", 
+    "favorite_count": 3, 
+    "uuid": "94858EDD-6154-4682-BF1F-CD717839E45C"
+}

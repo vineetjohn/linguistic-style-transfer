@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-24T02:21:48-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002c2f4_2a63bf282b4e.ssng", 
+    "updated_at": "2015-08-24T23:19:25-04:00", 
+    "share_url": "https://a.sso.ng/1/2a63bf282b4e", 
+    "audio_url": "https://s01.sso.ng/1/00000002c2f4_2a63bf282b4e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002c2f4_2a63bf282b4e_mr.jpg", 
+    "song_album": "Love In the Future | vk.com/rnbspot", 
+    "user": {
+        "username": "LetyJara", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b6905731-0052-4212-ba29-9e32e31fd201.jpg", 
+        "id": "b6905731-0052-4212-ba29-9e32e31fd201"
+    }, 
+    "song_title": "All of Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002c2f4_2a63bf282b4e_th.jpg", 
+    "song_artist": "John Legend", 
+    "favorite_count": 1, 
+    "uuid": "8770EC90-13D1-4476-9E6C-B7836C61FEA2"
+}

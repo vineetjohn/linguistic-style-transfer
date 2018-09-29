@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-28T21:40:28-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000423a1_40240e092e8d.ssng", 
+    "updated_at": "2016-04-30T09:45:27-04:00", 
+    "share_url": "https://a.sso.ng/1/40240e092e8d", 
+    "audio_url": "https://s02.sso.ng/1/0000000423a1_40240e092e8d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000423a1_40240e092e8d_mr.jpg", 
+    "song_album": "Wake Up (Deluxe)", 
+    "user": {
+        "username": "Pia81", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e12318f9-10a5-4c70-a366-d919919f0227"
+    }, 
+    "song_title": "Rest Your Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000423a1_40240e092e8d_th.jpg", 
+    "song_artist": "The Vamps", 
+    "favorite_count": 1, 
+    "uuid": "5F49D341-AEEA-484D-90F1-417EC7C39699"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My fav person is you \u2764\ufe0f #JackandJackShirt", 
+    "created_at": "2015-12-21T13:59:08-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000311c5_f386e3bb2d2c_1.ssng", 
+    "updated_at": "2015-12-23T05:39:26-05:00", 
+    "share_url": "https://a.sso.ng/1/f386e3bb2d2c", 
+    "audio_url": "https://s01.sso.ng/1/0000000311c5_f386e3bb2d2c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000311c5_f386e3bb2d2c_1_mr.jpg", 
+    "song_album": "Single", 
+    "user": {
+        "username": "OGOCBOYS", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/159745b9-7358-4758-b826-e87a13781c5b.jpg", 
+        "id": "159745b9-7358-4758-b826-e87a13781c5b"
+    }, 
+    "song_title": "Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000311c5_f386e3bb2d2c_1_th.jpg", 
+    "song_artist": "Jack and Jack", 
+    "favorite_count": 1, 
+    "uuid": "65B50DB5-C4BA-40E8-82A0-476CD92A5F40"
+}

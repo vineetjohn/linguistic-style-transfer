@@ -1,0 +1,27 @@
+{
+    "mood": "envious", 
+    "caption": "Natural beauty.  Even a beauty app can't make much improvement.", 
+    "created_at": "2016-06-25T10:52:03-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003aa14_ec3a3095dbda.ssng", 
+    "updated_at": "2016-06-26T21:11:10-04:00", 
+    "share_url": "https://a.sso.ng/1/ec3a3095dbda", 
+    "audio_url": "https://s02.sso.ng/1/00000003aa14_ec3a3095dbda.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003aa14_ec3a3095dbda_mr.jpg", 
+    "song_album": "Lovely", 
+    "user": {
+        "username": "Brati", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/47c7fee3-9373-4592-8a62-6cd3deed5c76.jpg", 
+        "id": "47c7fee3-9373-4592-8a62-6cd3deed5c76"
+    }, 
+    "song_title": "Beauty Sings", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003aa14_ec3a3095dbda_th.jpg", 
+    "song_artist": "Tatiana Manaois", 
+    "favorite_count": 6, 
+    "uuid": "A997F3E0-E96F-432C-9136-0EF31E64EAA4"
+}

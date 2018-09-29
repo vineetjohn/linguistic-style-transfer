@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-11T06:20:40-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000411c4_a048f1701f90.ssng", 
+    "updated_at": "2016-04-23T14:32:17-04:00", 
+    "share_url": "https://a.sso.ng/1/a048f1701f90", 
+    "audio_url": "https://s02.sso.ng/1/0000000411c4_a048f1701f90.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000411c4_a048f1701f90_mr.jpg", 
+    "song_album": "How Deep Is Your Love - Single", 
+    "user": {
+        "username": "Gynchik", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b09b8d92-3dae-4db9-bcc8-d4baa1c34acf"
+    }, 
+    "song_title": "How Deep Is Your Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000411c4_a048f1701f90_th.jpg", 
+    "song_artist": "\u041a\u0430\u043b\u0432\u0438\u043d \u0425\u0430\u0440\u0440\u0438\u0441 & Disciples", 
+    "favorite_count": 1, 
+    "uuid": "4E059BEE-43A8-448F-AB19-2DE1AC1E4B0D"
+}

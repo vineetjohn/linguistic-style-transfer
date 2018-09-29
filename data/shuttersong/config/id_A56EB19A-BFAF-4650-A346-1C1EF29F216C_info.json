@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo", 
+    "created_at": "2015-12-21T20:25:02-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000389cd_c2a2188eb8a5_1.ssng", 
+    "updated_at": "2015-12-21T20:31:03-05:00", 
+    "share_url": "https://a.sso.ng/1/c2a2188eb8a5", 
+    "audio_url": "https://s01.sso.ng/1/0000000389cd_c2a2188eb8a5_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000389cd_c2a2188eb8a5_1_mr.jpg", 
+    "song_album": "What Do You Mean? - Single", 
+    "user": {
+        "username": "magdalena26", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/06209bdb-4ebd-4a22-80f2-1ebbfeac839c.jpg", 
+        "id": "06209bdb-4ebd-4a22-80f2-1ebbfeac839c"
+    }, 
+    "song_title": "What Do You Mean?", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000389cd_c2a2188eb8a5_1_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "A56EB19A-BFAF-4650-A346-1C1EF29F216C"
+}

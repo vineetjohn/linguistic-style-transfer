@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f", 
+    "created_at": "2016-06-20T16:49:26-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045910_05c3b9dc6660.ssng", 
+    "updated_at": "2016-06-20T18:24:47-04:00", 
+    "share_url": "https://a.sso.ng/1/05c3b9dc6660", 
+    "audio_url": "https://s02.sso.ng/1/000000045910_05c3b9dc6660.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045910_05c3b9dc6660_mr.jpg", 
+    "song_album": "My Worlds", 
+    "user": {
+        "username": "LivMaeex", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1a847568-b933-45e4-aec8-d952a97a84f9.jpg", 
+        "id": "1a847568-b933-45e4-aec8-d952a97a84f9"
+    }, 
+    "song_title": "U Smile", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045910_05c3b9dc6660_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "3DB36ABD-C2A1-4534-AF0B-D8B757D339BD"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Feeling lucky", 
+    "created_at": "2016-03-30T21:16:34-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004057c_d94e56add702.ssng", 
+    "updated_at": "2016-03-31T11:01:23-04:00", 
+    "share_url": "https://a.sso.ng/1/d94e56add702", 
+    "audio_url": "https://s02.sso.ng/1/00000004057c_d94e56add702.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004057c_d94e56add702_mr.jpg", 
+    "song_album": "Something New (feat. Chris Brown) - Single", 
+    "user": {
+        "username": "Zanayah_the_Queen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/93606952-fcc6-4908-a6fa-1d49be4c2a74.jpg", 
+        "id": "93606952-fcc6-4908-a6fa-1d49be4c2a74"
+    }, 
+    "song_title": "Something New (feat. Chris Brown)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004057c_d94e56add702_th.jpg", 
+    "song_artist": "Zendaya", 
+    "favorite_count": 1, 
+    "uuid": "6D610BC0-3F05-4730-B77B-06F453E4CB6C"
+}

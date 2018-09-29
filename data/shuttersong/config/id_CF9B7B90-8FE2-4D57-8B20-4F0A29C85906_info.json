@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "He's adorable\u2764\ufe0f", 
+    "created_at": "2016-03-18T14:42:05-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e666_9f2af89c82cf.ssng", 
+    "updated_at": "2016-06-24T12:12:33-04:00", 
+    "share_url": "https://a.sso.ng/1/9f2af89c82cf", 
+    "audio_url": "https://s02.sso.ng/1/00000003e666_9f2af89c82cf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e666_9f2af89c82cf_mr.jpg", 
+    "song_album": "BADLANDS (Deluxe)", 
+    "user": {
+        "username": "nirvxnajai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "niamh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a63aacec-1d78-4022-b2c2-c40fb6a575f1.jpg", 
+        "id": "a63aacec-1d78-4022-b2c2-c40fb6a575f1"
+    }, 
+    "song_title": "Ghost", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e666_9f2af89c82cf_th.jpg", 
+    "song_artist": "Halsey", 
+    "favorite_count": 9, 
+    "uuid": "CF9B7B90-8FE2-4D57-8B20-4F0A29C85906"
+}

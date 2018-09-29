@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-15T18:06:21-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000035bcb_c6d633836dd1.ssng", 
+    "updated_at": "2016-05-16T09:25:13-04:00", 
+    "share_url": "https://a.sso.ng/1/c6d633836dd1", 
+    "audio_url": "https://s02.sso.ng/1/000000035bcb_c6d633836dd1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000035bcb_c6d633836dd1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Kaky18167", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kaky Kaky", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/07fc63f2-db25-4d33-965f-5f8bbef0c3f0.jpg", 
+        "id": "07fc63f2-db25-4d33-965f-5f8bbef0c3f0"
+    }, 
+    "song_title": "Major Lazer - Light It Up (feat. Nyla) (Official Lyric Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000035bcb_c6d633836dd1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "21B7CBA6-32E8-41AE-9C9F-391F7D8DD220"
+}

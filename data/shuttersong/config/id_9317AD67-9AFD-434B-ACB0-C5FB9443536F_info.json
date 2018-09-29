@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Currently waiting for beau to hmu in dms", 
+    "created_at": "2016-06-20T17:04:23-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e237_6b05b1f1abc9.ssng", 
+    "updated_at": "2016-06-20T21:01:04-04:00", 
+    "share_url": "https://a.sso.ng/1/6b05b1f1abc9", 
+    "audio_url": "https://s02.sso.ng/1/00000003e237_6b05b1f1abc9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e237_6b05b1f1abc9_mr.jpg", 
+    "song_album": "Love What You Have - Single", 
+    "user": {
+        "username": "beaubrooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Beau Brooks", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9d7a5c52-f690-4743-ad95-8a1b70df9e2c.jpg", 
+        "id": "9d7a5c52-f690-4743-ad95-8a1b70df9e2c"
+    }, 
+    "song_title": "Love What You Have", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e237_6b05b1f1abc9_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 5, 
+    "uuid": "9317AD67-9AFD-434B-ACB0-C5FB9443536F"
+}

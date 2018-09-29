@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-02T14:39:57-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bbe0_820e150c482a.ssng", 
+    "updated_at": "2016-01-02T14:56:39-05:00", 
+    "share_url": "https://a.sso.ng/1/820e150c482a", 
+    "audio_url": "https://s01.sso.ng/1/00000003bbe0_820e150c482a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bbe0_820e150c482a_mr.jpg", 
+    "song_album": "80s", 
+    "user": {
+        "username": "Adoreadorn", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ena ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e2cf6ced-86d4-4f1c-8e01-4549b3177405.jpg", 
+        "id": "e2cf6ced-86d4-4f1c-8e01-4549b3177405"
+    }, 
+    "song_title": "Dancing in Heaven", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bbe0_820e150c482a_th.jpg", 
+    "song_artist": "La Douche", 
+    "favorite_count": 1, 
+    "uuid": "166EEC03-B275-4EB1-882D-5FB616B3EEEB"
+}

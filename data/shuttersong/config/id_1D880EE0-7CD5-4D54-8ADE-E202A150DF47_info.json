@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-05T23:23:51-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f7ab_86c1089db26f.ssng", 
+    "updated_at": "2016-03-06T20:26:22-05:00", 
+    "share_url": "https://a.sso.ng/1/86c1089db26f", 
+    "audio_url": "https://s02.sso.ng/1/00000003f7ab_86c1089db26f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f7ab_86c1089db26f_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "pantilimon", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1c8913ff-db50-4667-90c2-760e017130a1"
+    }, 
+    "song_title": "SAINT MOTEL-Cold Cold Man", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f7ab_86c1089db26f_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "1D880EE0-7CD5-4D54-8ADE-E202A150DF47"
+}

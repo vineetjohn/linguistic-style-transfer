@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I hate living in NZ tbh", 
+    "created_at": "2015-08-03T23:04:10-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020961_d6a71b3ded8b_1.ssng", 
+    "updated_at": "2015-08-03T23:04:55-04:00", 
+    "share_url": "https://a.sso.ng/1/d6a71b3ded8b", 
+    "audio_url": "https://s01.sso.ng/1/000000020961_d6a71b3ded8b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020961_d6a71b3ded8b_1_mr.jpg", 
+    "song_album": "Get Free (feat. Amber Coffman) - Single", 
+    "user": {
+        "username": "IloveJohnsonJack", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "31ef542f-0721-4466-87bb-d8789f584f36"
+    }, 
+    "song_title": "Get Free (feat. Amber Coffman)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020961_d6a71b3ded8b_1_th.jpg", 
+    "song_artist": "Major Lazer", 
+    "favorite_count": 1, 
+    "uuid": "2904DF3D-5167-4BE1-BE74-D7534EF66ECE"
+}

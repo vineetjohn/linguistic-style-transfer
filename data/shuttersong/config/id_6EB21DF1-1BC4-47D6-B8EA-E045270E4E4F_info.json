@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Nate????", 
+    "created_at": "2015-08-14T18:26:05-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020abe_0b6a06cfd524_1.ssng", 
+    "updated_at": "2015-08-14T19:54:17-04:00", 
+    "share_url": "https://a.sso.ng/1/0b6a06cfd524", 
+    "audio_url": "https://s01.sso.ng/1/000000020abe_0b6a06cfd524_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020abe_0b6a06cfd524_1_mr.jpg", 
+    "song_album": "Wassup - Single", 
+    "user": {
+        "username": "maddycurt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/82c0cfe8-caef-4600-96bf-e2d061f74d14.jpg", 
+        "id": "82c0cfe8-caef-4600-96bf-e2d061f74d14"
+    }, 
+    "song_title": "Wassup", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020abe_0b6a06cfd524_1_th.jpg", 
+    "song_artist": "Sammy & Skate", 
+    "favorite_count": 1, 
+    "uuid": "6EB21DF1-1BC4-47D6-B8EA-E045270E4E4F"
+}

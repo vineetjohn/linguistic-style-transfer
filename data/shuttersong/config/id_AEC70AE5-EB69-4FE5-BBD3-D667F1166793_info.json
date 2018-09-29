@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T10:09:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021784_e4c714ec25b4.ssng", 
+    "updated_at": "2015-08-04T10:09:32-04:00", 
+    "share_url": "https://a.sso.ng/1/e4c714ec25b4", 
+    "audio_url": "https://s01.sso.ng/1/000000021784_e4c714ec25b4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021784_e4c714ec25b4_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "RXTGERR", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6fddf301-f514-4ac1-aae3-760d9b701a41"
+    }, 
+    "song_title": "Rachel Platten - Fight Song (Lyric Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021784_e4c714ec25b4_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "AEC70AE5-EB69-4FE5-BBD3-D667F1166793"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "But just imagine your taking this photo with Greenday softly playing in the background", 
+    "created_at": "2016-03-27T00:29:23-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e348_bccab8f54b04.ssng", 
+    "updated_at": "2016-03-28T13:15:15-04:00", 
+    "share_url": "https://a.sso.ng/1/bccab8f54b04", 
+    "audio_url": "https://s02.sso.ng/1/00000003e348_bccab8f54b04.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e348_bccab8f54b04_mr.jpg", 
+    "song_album": "Green Day", 
+    "user": {
+        "username": "JaisFifaTantrums", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Kirrilly", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6d466165-54d5-4f20-a839-034dc89896e9.jpg", 
+        "id": "6d466165-54d5-4f20-a839-034dc89896e9"
+    }, 
+    "song_title": "21 guns with lyrics", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e348_bccab8f54b04_th.jpg", 
+    "song_artist": "Green Day", 
+    "favorite_count": 8, 
+    "uuid": "B05F9065-8D34-476D-A4B5-47F4AA8B2C08"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "First shutter??", 
+    "created_at": "2015-08-03T23:29:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e7b_f28dafcec2ec_1.ssng", 
+    "updated_at": "2015-08-03T23:29:57-04:00", 
+    "share_url": "https://a.sso.ng/1/f28dafcec2ec", 
+    "audio_url": "https://s01.sso.ng/1/000000020e7b_f28dafcec2ec_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e7b_f28dafcec2ec_1_mr.jpg", 
+    "song_album": "Cheerleader (Felix Jaehn Remix Radio Edit) - Single", 
+    "user": {
+        "username": "kewm11", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fa3da821-d59f-4430-b107-10133b4ee6ed.jpg", 
+        "id": "fa3da821-d59f-4430-b107-10133b4ee6ed"
+    }, 
+    "song_title": "Cheerleader (Felix Jaehn Remix Radio Edit)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e7b_f28dafcec2ec_1_th.jpg", 
+    "song_artist": "Omi", 
+    "favorite_count": 1, 
+    "uuid": "F42EBBA1-C7EE-4962-98D3-1356768361CF"
+}

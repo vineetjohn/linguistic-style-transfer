@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-02T16:51:54-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003091d_819d89656746.ssng", 
+    "updated_at": "2015-12-03T23:11:44-05:00", 
+    "share_url": "https://a.sso.ng/1/819d89656746", 
+    "audio_url": "https://s01.sso.ng/1/00000003091d_819d89656746.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003091d_819d89656746_mr.jpg", 
+    "song_album": "1989", 
+    "user": {
+        "username": "typicaltoriii", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ff4c47e9-2e83-43cb-93ab-c2281944ea4f.jpg", 
+        "id": "ff4c47e9-2e83-43cb-93ab-c2281944ea4f"
+    }, 
+    "song_title": "All You Had To Do Was Stay", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003091d_819d89656746_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 2, 
+    "uuid": "4A6B3139-742B-4C3B-9DB0-04F40B3C8160"
+}

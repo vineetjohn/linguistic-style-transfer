@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "my best friend who lives in hawaii and i finally beat distance and met at vidcon ?", 
+    "created_at": "2015-08-04T01:52:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000212e1_a3fc40423555_1.ssng", 
+    "updated_at": "2015-08-04T01:52:44-04:00", 
+    "share_url": "https://a.sso.ng/1/a3fc40423555", 
+    "audio_url": "https://s01.sso.ng/1/0000000212e1_a3fc40423555_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000212e1_a3fc40423555_1_mr.jpg", 
+    "song_album": "Surfers Paradise", 
+    "user": {
+        "username": "kate", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0f93b701-9336-4ced-a66f-639b9c2ca717.jpg", 
+        "id": "0f93b701-9336-4ced-a66f-639b9c2ca717"
+    }, 
+    "song_title": "Summertime of Our Lives", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000212e1_a3fc40423555_1_th.jpg", 
+    "song_artist": "Cody Simpson", 
+    "favorite_count": 1, 
+    "uuid": "A1F035F3-C97D-4652-A849-DFA4E5DEB2E6"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Ask me questions x", 
+    "created_at": "2016-02-15T05:04:55-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ef41_c5cf87e327b3.ssng", 
+    "updated_at": "2016-02-16T13:49:43-05:00", 
+    "share_url": "https://a.sso.ng/1/c5cf87e327b3", 
+    "audio_url": "https://s02.sso.ng/1/00000003ef41_c5cf87e327b3.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ef41_c5cf87e327b3_mr.jpg", 
+    "song_album": "This F**kin Song - Single", 
+    "user": {
+        "username": "jamesyammouniofficial", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "James Yammouni", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e7ce26c-29f1-494f-8f3f-290e9b36d353.jpg", 
+        "id": "2e7ce26c-29f1-494f-8f3f-290e9b36d353"
+    }, 
+    "song_title": "This F**kin Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ef41_c5cf87e327b3_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 3, 
+    "uuid": "E2AECFB9-CFA6-4303-AD9F-2E7DFF1A9D76"
+}

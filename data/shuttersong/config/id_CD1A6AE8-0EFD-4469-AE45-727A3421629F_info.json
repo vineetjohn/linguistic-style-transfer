@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?", 
+    "created_at": "2015-08-21T17:24:08-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000029e9b_75b18ce6aeaf_1.ssng", 
+    "updated_at": "2015-08-22T00:03:53-04:00", 
+    "share_url": "https://a.sso.ng/1/75b18ce6aeaf", 
+    "audio_url": "https://s01.sso.ng/1/000000029e9b_75b18ce6aeaf_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000029e9b_75b18ce6aeaf_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "andy_gali", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/41cce2cd-964f-475a-9910-56a144b1ef19.jpg", 
+        "id": "41cce2cd-964f-475a-9910-56a144b1ef19"
+    }, 
+    "song_title": "Come With Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000029e9b_75b18ce6aeaf_1_th.jpg", 
+    "song_artist": "Ricky Martin", 
+    "favorite_count": 2, 
+    "uuid": "CD1A6AE8-0EFD-4469-AE45-727A3421629F"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#selfie", 
+    "created_at": "2015-08-07T16:57:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022c4a_a566394a7f94.ssng", 
+    "updated_at": "2015-10-24T22:11:17-04:00", 
+    "share_url": "https://a.sso.ng/1/a566394a7f94", 
+    "audio_url": "https://s01.sso.ng/1/000000022c4a_a566394a7f94.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022c4a_a566394a7f94_mr.jpg", 
+    "song_album": "Mechanical Bull (Deluxe Version)", 
+    "user": {
+        "username": "AmarisXos", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b7d4b427-9df6-4a26-80ab-b5e758501e50.jpg", 
+        "id": "b7d4b427-9df6-4a26-80ab-b5e758501e50"
+    }, 
+    "song_title": "Beautiful War", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022c4a_a566394a7f94_th.jpg", 
+    "song_artist": "Kings of Leon", 
+    "favorite_count": 3, 
+    "uuid": "A028D21B-5EC4-4A7F-955E-8B8E20224471"
+}

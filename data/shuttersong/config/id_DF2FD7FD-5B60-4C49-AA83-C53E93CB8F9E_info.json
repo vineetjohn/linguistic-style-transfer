@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "Overused puppy filter back again :-)", 
+    "created_at": "2016-04-08T16:14:06-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e3aa_7adfcb7fa499.ssng", 
+    "updated_at": "2016-05-11T19:47:56-04:00", 
+    "share_url": "https://a.sso.ng/1/7adfcb7fa499", 
+    "audio_url": "https://s02.sso.ng/1/00000003e3aa_7adfcb7fa499.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e3aa_7adfcb7fa499_mr.jpg", 
+    "song_album": "Love What You Have - Single", 
+    "user": {
+        "username": "CHILLYAMMOUNI", 
+        "verified": false, 
+        "username_color": "#F6CAC9", 
+        "full_name": "CHILLYAMMOUNI", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/707a20ac-32a7-4941-ad11-40b47f18ff9a.jpg", 
+        "id": "707a20ac-32a7-4941-ad11-40b47f18ff9a"
+    }, 
+    "song_title": "Love What You Have", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e3aa_7adfcb7fa499_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 4, 
+    "uuid": "DF2FD7FD-5B60-4C49-AA83-C53E93CB8F9E"
+}

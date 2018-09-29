@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-01T08:19:53-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ce17_409a42f2a811.ssng", 
+    "updated_at": "2016-02-02T17:56:29-05:00", 
+    "share_url": "https://a.sso.ng/1/409a42f2a811", 
+    "audio_url": "https://s02.sso.ng/1/00000003ce17_409a42f2a811.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ce17_409a42f2a811_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "thepinkdreamer", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/aea6ee4c-6745-4078-a78c-4b055349f235.jpg", 
+        "id": "aea6ee4c-6745-4078-a78c-4b055349f235"
+    }, 
+    "song_title": "Nicki Minaj - Feeling Myself (Audio) ft. Beyonc\u00e9", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ce17_409a42f2a811_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "89536E60-8DDB-4802-A8F4-44CAC9FDDFAD"
+}

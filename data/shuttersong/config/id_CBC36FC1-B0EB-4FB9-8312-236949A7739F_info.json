@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T10:49:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000292f0_6833114609be.ssng", 
+    "updated_at": "2015-08-22T23:38:48-04:00", 
+    "share_url": "https://a.sso.ng/1/6833114609be", 
+    "audio_url": "https://s01.sso.ng/1/0000000292f0_6833114609be.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000292f0_6833114609be_mr.jpg", 
+    "song_album": "DJ Got Us Fallin' In Love (feat. Pitbull) - Single", 
+    "user": {
+        "username": "Danna115", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4826e5ff-8a9e-48dd-aa37-0219f0c72234.jpg", 
+        "id": "4826e5ff-8a9e-48dd-aa37-0219f0c72234"
+    }, 
+    "song_title": "DJ Got Us Fallin' In Love (feat. Pitbull)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000292f0_6833114609be_th.jpg", 
+    "song_artist": "Usher", 
+    "favorite_count": 3, 
+    "uuid": "CBC36FC1-B0EB-4FB9-8312-236949A7739F"
+}

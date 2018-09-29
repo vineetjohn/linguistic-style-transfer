@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-22T01:57:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000182f4_0cc1651c6ab0_1.ssng", 
+    "updated_at": "2015-08-22T23:45:30-04:00", 
+    "share_url": "https://a.sso.ng/1/0cc1651c6ab0", 
+    "audio_url": "https://s01.sso.ng/1/0000000182f4_0cc1651c6ab0_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000182f4_0cc1651c6ab0_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "brigitecastillo", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3fae3f5e-739e-4d94-baee-0a8c15534e49"
+    }, 
+    "song_title": "Enrique Iglesias   I'm A Freak ft. Pitbull", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000182f4_0cc1651c6ab0_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "ECE3E425-02A0-43E2-A71B-1B9C71EE2C1B"
+}

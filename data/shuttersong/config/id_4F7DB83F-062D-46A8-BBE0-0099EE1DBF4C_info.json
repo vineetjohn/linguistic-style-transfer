@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Life is a journey", 
+    "created_at": "2016-02-10T01:43:33-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e816_e2269b8daff6.ssng", 
+    "updated_at": "2016-02-11T01:07:02-05:00", 
+    "share_url": "https://a.sso.ng/1/e2269b8daff6", 
+    "audio_url": "https://s02.sso.ng/1/00000003e816_e2269b8daff6.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e816_e2269b8daff6_mr.jpg", 
+    "song_album": "Airplanes (feat. Hayley Williams) - Single", 
+    "user": {
+        "username": "smileysam23", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Samantha", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8c3f338d-9995-40dc-aeff-8222557cb5d9.jpg", 
+        "id": "8c3f338d-9995-40dc-aeff-8222557cb5d9"
+    }, 
+    "song_title": "Airplanes (feat. Hayley Williams)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e816_e2269b8daff6_th.jpg", 
+    "song_artist": "B.o.B", 
+    "favorite_count": 1, 
+    "uuid": "4F7DB83F-062D-46A8-BBE0-0099EE1DBF4C"
+}

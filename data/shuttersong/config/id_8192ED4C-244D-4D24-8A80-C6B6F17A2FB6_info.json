@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I have loved you since we were 18....", 
+    "created_at": "2015-08-03T22:22:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002068d_36d0741c9d2b_1.ssng", 
+    "updated_at": "2015-12-22T20:42:37-05:00", 
+    "share_url": "https://a.sso.ng/1/36d0741c9d2b", 
+    "audio_url": "https://s01.sso.ng/1/00000002068d_36d0741c9d2b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002068d_36d0741c9d2b_1_mr.jpg", 
+    "song_album": "FOUR (Ultimate Edition)", 
+    "user": {
+        "username": "bellexjohnsonxgilinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d8307602-abb7-490d-a521-09417b721aad.jpg", 
+        "id": "d8307602-abb7-490d-a521-09417b721aad"
+    }, 
+    "song_title": "18", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002068d_36d0741c9d2b_1_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 2, 
+    "uuid": "8192ED4C-244D-4D24-8A80-C6B6F17A2FB6"
+}

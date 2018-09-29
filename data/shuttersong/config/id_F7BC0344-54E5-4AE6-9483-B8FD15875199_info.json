@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "We're all bored we're all so tired of everything????????", 
+    "created_at": "2015-12-13T23:44:00-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000031022_67c4b46801de_1.ssng", 
+    "updated_at": "2015-12-15T13:22:28-05:00", 
+    "share_url": "https://a.sso.ng/1/67c4b46801de", 
+    "audio_url": "https://s01.sso.ng/1/000000031022_67c4b46801de_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000031022_67c4b46801de_1_mr.jpg", 
+    "song_album": "1989 [Deluxe Edition]", 
+    "user": {
+        "username": "marvelousmackenzie8", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/83015566-0a21-4d0c-833d-074d7d4034ee.jpg", 
+        "id": "83015566-0a21-4d0c-833d-074d7d4034ee"
+    }, 
+    "song_title": "New Romantics", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000031022_67c4b46801de_1_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "F7BC0344-54E5-4AE6-9483-B8FD15875199"
+}

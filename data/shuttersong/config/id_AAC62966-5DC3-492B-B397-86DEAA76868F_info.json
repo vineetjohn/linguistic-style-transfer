@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-02-10T19:25:25-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea13_f36c9af13350.ssng", 
+    "updated_at": "2016-02-12T17:42:04-05:00", 
+    "share_url": "https://a.sso.ng/1/f36c9af13350", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea13_f36c9af13350.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea13_f36c9af13350_mr.jpg", 
+    "song_album": "What Do You Mean? - Single", 
+    "user": {
+        "username": "Alyssaalanis13", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Alyssa Alanis", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d8d0d5dc-920c-4b5c-b486-ea43802bdb77.jpg", 
+        "id": "d8d0d5dc-920c-4b5c-b486-ea43802bdb77"
+    }, 
+    "song_title": "What Do You Mean?", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea13_f36c9af13350_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "AAC62966-5DC3-492B-B397-86DEAA76868F"
+}

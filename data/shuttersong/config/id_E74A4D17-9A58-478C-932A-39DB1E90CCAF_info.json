@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jajajajajaja", 
+    "created_at": "2015-09-05T21:54:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b563_3c73486d62f9_1.ssng", 
+    "updated_at": "2015-09-06T03:38:19-04:00", 
+    "share_url": "https://a.sso.ng/1/3c73486d62f9", 
+    "audio_url": "https://s01.sso.ng/1/00000002b563_3c73486d62f9_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b563_3c73486d62f9_1_mr.jpg", 
+    "song_album": "The Fox (What Does the Fox Say?) - Single", 
+    "user": {
+        "username": "Amalia1503", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f410ce4e-7284-4179-b834-ec26d4fd8066.jpg", 
+        "id": "f410ce4e-7284-4179-b834-ec26d4fd8066"
+    }, 
+    "song_title": "The Fox (What Does the Fox Say?)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b563_3c73486d62f9_1_th.jpg", 
+    "song_artist": "Ylvis", 
+    "favorite_count": 1, 
+    "uuid": "E74A4D17-9A58-478C-932A-39DB1E90CCAF"
+}

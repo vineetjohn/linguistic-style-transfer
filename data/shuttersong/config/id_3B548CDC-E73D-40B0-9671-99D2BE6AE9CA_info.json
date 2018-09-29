@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-09T19:54:36-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003bb1a_aabcf982ec84.ssng", 
+    "updated_at": "2016-01-12T18:30:26-05:00", 
+    "share_url": "https://a.sso.ng/1/aabcf982ec84", 
+    "audio_url": "https://s01.sso.ng/1/00000003bb1a_aabcf982ec84.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003bb1a_aabcf982ec84_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Jimena.cordero", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8435dc0d-d33a-4627-ba24-e8e3c43574ea.jpg", 
+        "id": "8435dc0d-d33a-4627-ba24-e8e3c43574ea"
+    }, 
+    "song_title": "R5 - Smile (Official Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003bb1a_aabcf982ec84_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "3B548CDC-E73D-40B0-9671-99D2BE6AE9CA"
+}

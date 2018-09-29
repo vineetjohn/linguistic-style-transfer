@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Shawn Mendes \u2764\ufe0f", 
+    "created_at": "2015-08-05T00:22:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021c11_c2ce77be1f5d_1.ssng", 
+    "updated_at": "2015-08-06T01:57:12-04:00", 
+    "share_url": "https://a.sso.ng/1/c2ce77be1f5d", 
+    "audio_url": "https://s01.sso.ng/1/000000021c11_c2ce77be1f5d_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021c11_c2ce77be1f5d_1_mr.jpg", 
+    "song_album": "Handwritten", 
+    "user": {
+        "username": "jazzie98765", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8e822271-6996-47e2-a829-a2103144eaf9.jpg", 
+        "id": "8e822271-6996-47e2-a829-a2103144eaf9"
+    }, 
+    "song_title": "Aftertaste", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021c11_c2ce77be1f5d_1_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "1B319E1F-06D4-4414-8C14-D737C838FA4F"
+}

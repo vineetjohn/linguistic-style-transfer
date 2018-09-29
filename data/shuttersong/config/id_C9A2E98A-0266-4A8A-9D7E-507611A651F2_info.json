@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-02T21:08:39-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003ba11_d0e7e90e4c8e.ssng", 
+    "updated_at": "2016-01-03T10:10:18-05:00", 
+    "share_url": "https://a.sso.ng/1/d0e7e90e4c8e", 
+    "audio_url": "https://s01.sso.ng/1/00000003ba11_d0e7e90e4c8e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003ba11_d0e7e90e4c8e_mr.jpg", 
+    "song_album": "Ariana Grande", 
+    "user": {
+        "username": "luz_elenav", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/138dd229-7463-4dd3-9fb0-511d82eb40ed.jpg", 
+        "id": "138dd229-7463-4dd3-9fb0-511d82eb40ed"
+    }, 
+    "song_title": "Santa Tell Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003ba11_d0e7e90e4c8e_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "C9A2E98A-0266-4A8A-9D7E-507611A651F2"
+}

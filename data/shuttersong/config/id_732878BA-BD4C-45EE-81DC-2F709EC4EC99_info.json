@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-17T15:20:25-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045584_b6c249b0997b.ssng", 
+    "updated_at": "2016-06-18T06:54:49-04:00", 
+    "share_url": "https://a.sso.ng/1/b6c249b0997b", 
+    "audio_url": "https://s02.sso.ng/1/000000045584_b6c249b0997b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045584_b6c249b0997b_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mayj", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e18d8aa4-d981-493f-8461-f9e0bff6ca3a"
+    }, 
+    "song_title": "Mac DeMarco -- Ode to Viceroy (OFFICIAL VIDEO)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045584_b6c249b0997b_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "732878BA-BD4C-45EE-81DC-2F709EC4EC99"
+}

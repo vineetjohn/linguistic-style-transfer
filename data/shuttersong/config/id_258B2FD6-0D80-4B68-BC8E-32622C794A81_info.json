@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "RWYA~ Jack And Jack ?", 
+    "created_at": "2015-08-19T10:21:59-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021dc5_d89e49e3050a_2.ssng", 
+    "updated_at": "2015-08-21T16:55:43-04:00", 
+    "share_url": "https://a.sso.ng/1/d89e49e3050a", 
+    "audio_url": "https://s01.sso.ng/1/000000021dc5_d89e49e3050a_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021dc5_d89e49e3050a_2_mr.jpg", 
+    "song_album": "Right Where You Are - Single", 
+    "user": {
+        "username": "magconcharley", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c0b37283-732d-46c6-add6-17128c86322e.jpg", 
+        "id": "c0b37283-732d-46c6-add6-17128c86322e"
+    }, 
+    "song_title": "Right Where You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021dc5_d89e49e3050a_2_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "258B2FD6-0D80-4B68-BC8E-32622C794A81"
+}

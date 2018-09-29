@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-05T22:31:00-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000223fe_7299c2a15fcf.ssng", 
+    "updated_at": "2015-08-15T00:12:07-04:00", 
+    "share_url": "https://a.sso.ng/1/7299c2a15fcf", 
+    "audio_url": "https://s01.sso.ng/1/0000000223fe_7299c2a15fcf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000223fe_7299c2a15fcf_mr.jpg", 
+    "song_album": "Bangerz (Deluxe Version)", 
+    "user": {
+        "username": "notcartersqueen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Notjacksqueen", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a415e094-405a-4726-ae45-bd7603eec666.jpg", 
+        "id": "a415e094-405a-4726-ae45-bd7603eec666"
+    }, 
+    "song_title": "Adore You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000223fe_7299c2a15fcf_th.jpg", 
+    "song_artist": "Miley Cyrus", 
+    "favorite_count": 3, 
+    "uuid": "9A50F5F0-30EC-431B-B6A7-490FA283CA92"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "cheeky", 
+    "caption": "great quality carpet am I right?", 
+    "created_at": "2016-06-21T11:34:32-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045a21_0c92a8c9d1fc.ssng", 
+    "updated_at": "2016-06-22T05:33:59-04:00", 
+    "share_url": "https://a.sso.ng/1/0c92a8c9d1fc", 
+    "audio_url": "https://s02.sso.ng/1/000000045a21_0c92a8c9d1fc.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045a21_0c92a8c9d1fc_mr.jpg", 
+    "song_album": "Headstrong", 
+    "user": {
+        "username": "ughh_erin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "erin henry", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dc6ee41f-9303-44c5-ab58-e64c5a102c0d.jpg", 
+        "id": "dc6ee41f-9303-44c5-ab58-e64c5a102c0d"
+    }, 
+    "song_title": "He Said She Said", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045a21_0c92a8c9d1fc_th.jpg", 
+    "song_artist": "Ashley Tisdale", 
+    "favorite_count": 1, 
+    "uuid": "1B3498DF-0CB0-4A75-8CB8-DFD495BDBD91"
+}

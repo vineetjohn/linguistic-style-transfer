@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Wanna hear your echo...", 
+    "created_at": "2016-02-04T22:06:32-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d048_c6f0594fe240.ssng", 
+    "updated_at": "2016-02-07T00:21:59-05:00", 
+    "share_url": "https://a.sso.ng/1/c6f0594fe240", 
+    "audio_url": "https://s02.sso.ng/1/00000003d048_c6f0594fe240.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d048_c6f0594fe240_mr.jpg", 
+    "song_album": "XIAT - EP", 
+    "user": {
+        "username": "Faith.Hughes", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "6df72e29-d99a-4968-a704-cf52af81f7c8"
+    }, 
+    "song_title": "Echo", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d048_c6f0594fe240_th.jpg", 
+    "song_artist": "Trevor Moran", 
+    "favorite_count": 1, 
+    "uuid": "7B7EF950-2D8F-4D3D-BCE1-BBA7A2B95D6B"
+}

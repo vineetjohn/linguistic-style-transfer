@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T23:29:33-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002aa07_ad0c62b4a36f.ssng", 
+    "updated_at": "2015-08-23T14:28:10-04:00", 
+    "share_url": "https://a.sso.ng/1/ad0c62b4a36f", 
+    "audio_url": "https://s01.sso.ng/1/00000002aa07_ad0c62b4a36f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002aa07_ad0c62b4a36f_mr.jpg", 
+    "song_album": "Peace Is The Mission", 
+    "user": {
+        "username": "KELLYMARI77", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a00b434d-904e-4fac-bda5-c88febffb2ab.jpg", 
+        "id": "a00b434d-904e-4fac-bda5-c88febffb2ab"
+    }, 
+    "song_title": "Lean On (feat. M\u00d8 & DJ Snake)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002aa07_ad0c62b4a36f_th.jpg", 
+    "song_artist": "Major Lazer", 
+    "favorite_count": 1, 
+    "uuid": "7D316518-54F3-427B-932D-D149A41A3A5E"
+}

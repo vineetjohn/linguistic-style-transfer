@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#DWTS", 
+    "created_at": "2015-11-13T19:08:32-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002fc2a_360cc80e32cf_1.ssng", 
+    "updated_at": "2015-12-23T15:04:54-05:00", 
+    "share_url": "https://a.sso.ng/1/360cc80e32cf", 
+    "audio_url": "https://s01.sso.ng/1/00000002fc2a_360cc80e32cf_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002fc2a_360cc80e32cf_1_mr.jpg", 
+    "song_album": "Heart Made Up On You - EP", 
+    "user": {
+        "username": "Emy3333004", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/16285ddd-17f1-4a7d-b4f5-56f32b959fee.jpg", 
+        "id": "16285ddd-17f1-4a7d-b4f5-56f32b959fee"
+    }, 
+    "song_title": "Stay With Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002fc2a_360cc80e32cf_1_th.jpg", 
+    "song_artist": "R5", 
+    "favorite_count": 1, 
+    "uuid": "DB247943-BC90-43D7-B0E7-311D2A561C70"
+}

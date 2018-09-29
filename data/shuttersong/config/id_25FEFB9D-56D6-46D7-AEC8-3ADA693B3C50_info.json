@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-04-20T14:18:33-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000041c02_23f437b40913.ssng", 
+    "updated_at": "2016-04-21T11:22:29-04:00", 
+    "share_url": "https://a.sso.ng/1/23f437b40913", 
+    "audio_url": "https://s02.sso.ng/1/000000041c02_23f437b40913.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000041c02_23f437b40913_mr.jpg", 
+    "song_album": "Sorry - Single", 
+    "user": {
+        "username": "mariaaaa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/33200538-8e76-4630-9379-72ec97a58930.jpg", 
+        "id": "33200538-8e76-4630-9379-72ec97a58930"
+    }, 
+    "song_title": "Sorry", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000041c02_23f437b40913_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "25FEFB9D-56D6-46D7-AEC8-3ADA693B3C50"
+}

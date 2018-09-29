@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-15T12:14:18-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f05c_a4c4ec0f4c45.ssng", 
+    "updated_at": "2016-04-23T14:12:34-04:00", 
+    "share_url": "https://a.sso.ng/1/a4c4ec0f4c45", 
+    "audio_url": "https://s02.sso.ng/1/00000003f05c_a4c4ec0f4c45.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f05c_a4c4ec0f4c45_mr.jpg", 
+    "song_album": "This Is Living - EP", 
+    "user": {
+        "username": "adinaelen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9ac72b5d-118c-4c29-9d71-5485b37fdec3.jpg", 
+        "id": "9ac72b5d-118c-4c29-9d71-5485b37fdec3"
+    }, 
+    "song_title": "Pursue", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f05c_a4c4ec0f4c45_th.jpg", 
+    "song_artist": "Hillsong Young & Free", 
+    "favorite_count": 2, 
+    "uuid": "C751FFCA-52DF-488C-8872-4781A02890B5"
+}

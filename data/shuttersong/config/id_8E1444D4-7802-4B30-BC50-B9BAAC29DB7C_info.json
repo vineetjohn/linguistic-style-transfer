@@ -1,0 +1,27 @@
+{
+    "mood": "happy", 
+    "caption": "Best day of my life? @JackAndJackOfficial", 
+    "created_at": "2016-03-06T18:04:57-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000022924_68b1b8abd20b.ssng", 
+    "updated_at": "2016-03-09T20:39:22-05:00", 
+    "share_url": "https://a.sso.ng/1/68b1b8abd20b", 
+    "audio_url": "https://s02.sso.ng/1/000000022924_68b1b8abd20b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000022924_68b1b8abd20b_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "Isabella.Livoli", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Isabella", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/907849d4-a74f-45a5-af3b-ed9feb785709.jpg", 
+        "id": "907849d4-a74f-45a5-af3b-ed9feb785709"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000022924_68b1b8abd20b_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "8E1444D4-7802-4B30-BC50-B9BAAC29DB7C"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-20T20:37:27-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000265fd_d3c742e9102d.ssng", 
+    "updated_at": "2015-08-21T18:55:09-04:00", 
+    "share_url": "https://a.sso.ng/1/d3c742e9102d", 
+    "audio_url": "https://s01.sso.ng/1/0000000265fd_d3c742e9102d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000265fd_d3c742e9102d_mr.jpg", 
+    "song_album": "Clarity", 
+    "user": {
+        "username": "eunicz", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c73ecd7b-6e73-45c3-83df-31ca0197a844.jpg", 
+        "id": "c73ecd7b-6e73-45c3-83df-31ca0197a844"
+    }, 
+    "song_title": "Clarity (feat. Foxes)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000265fd_d3c742e9102d_th.jpg", 
+    "song_artist": "Zedd", 
+    "favorite_count": 2, 
+    "uuid": "48FC94AA-DA9C-42E5-AF86-E3C8A373A6A5"
+}

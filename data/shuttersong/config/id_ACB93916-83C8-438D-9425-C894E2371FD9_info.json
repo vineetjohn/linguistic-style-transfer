@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-21T18:40:01-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038913_9f5dc39c6e64.ssng", 
+    "updated_at": "2016-01-10T18:20:46-05:00", 
+    "share_url": "https://a.sso.ng/1/9f5dc39c6e64", 
+    "audio_url": "https://s01.sso.ng/1/000000038913_9f5dc39c6e64.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038913_9f5dc39c6e64_mr.jpg", 
+    "song_album": "Third Eye Blind", 
+    "user": {
+        "username": "LifeIsAUsedVinyl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d00e9536-080c-41c0-bfae-44a4f9357e1e"
+    }, 
+    "song_title": "Motorcycle Drive By", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038913_9f5dc39c6e64_th.jpg", 
+    "song_artist": "Third Eye Blind", 
+    "favorite_count": 1, 
+    "uuid": "ACB93916-83C8-438D-9425-C894E2371FD9"
+}

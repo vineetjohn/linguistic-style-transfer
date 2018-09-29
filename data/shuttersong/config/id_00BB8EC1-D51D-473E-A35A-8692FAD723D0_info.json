@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#Santasorteo", 
+    "created_at": "2015-12-30T12:25:17-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b6a0_50fb10e283a7.ssng", 
+    "updated_at": "2015-12-30T12:44:43-05:00", 
+    "share_url": "https://a.sso.ng/1/50fb10e283a7", 
+    "audio_url": "https://s01.sso.ng/1/00000003b6a0_50fb10e283a7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b6a0_50fb10e283a7_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "aleja05", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/441b8c97-76cf-4702-b426-6648ea5ef798.jpg", 
+        "id": "441b8c97-76cf-4702-b426-6648ea5ef798"
+    }, 
+    "song_title": "The Miracle (Of Joey Ramone)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b6a0_50fb10e283a7_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 1, 
+    "uuid": "00BB8EC1-D51D-473E-A35A-8692FAD723D0"
+}

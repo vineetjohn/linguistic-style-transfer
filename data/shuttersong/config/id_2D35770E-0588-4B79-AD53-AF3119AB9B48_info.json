@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "No tellin' what I might do when I'm in the right mood...", 
+    "created_at": "2015-08-19T13:45:50-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000207e1_c47d98d0582e_1.ssng", 
+    "updated_at": "2015-08-19T19:18:17-04:00", 
+    "share_url": "https://a.sso.ng/1/c47d98d0582e", 
+    "audio_url": "https://s01.sso.ng/1/0000000207e1_c47d98d0582e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000207e1_c47d98d0582e_1_mr.jpg", 
+    "song_album": "Wild Life - Single", 
+    "user": {
+        "username": "Julia.Clift", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Julia Clift ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c3790321-1b64-494d-9efb-886b851d7ca5.jpg", 
+        "id": "c3790321-1b64-494d-9efb-886b851d7ca5"
+    }, 
+    "song_title": "Wild Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000207e1_c47d98d0582e_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "2D35770E-0588-4B79-AD53-AF3119AB9B48"
+}

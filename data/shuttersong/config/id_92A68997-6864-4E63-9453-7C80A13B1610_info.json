@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-21T17:17:24-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037f26_577b7b77deb4.ssng", 
+    "updated_at": "2015-12-21T21:43:45-05:00", 
+    "share_url": "https://a.sso.ng/1/577b7b77deb4", 
+    "audio_url": "https://s01.sso.ng/1/000000037f26_577b7b77deb4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037f26_577b7b77deb4_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "jenny866", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2499efcf-a71b-4840-ae8f-0b300ca030ca"
+    }, 
+    "song_title": "Every Breaking Wave", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037f26_577b7b77deb4_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 1, 
+    "uuid": "92A68997-6864-4E63-9453-7C80A13B1610"
+}

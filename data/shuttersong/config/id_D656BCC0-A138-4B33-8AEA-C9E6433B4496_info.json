@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T14:14:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002671f_81f972db33d9.ssng", 
+    "updated_at": "2015-08-21T22:43:57-04:00", 
+    "share_url": "https://a.sso.ng/1/81f972db33d9", 
+    "audio_url": "https://s01.sso.ng/1/00000002671f_81f972db33d9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002671f_81f972db33d9_mr.jpg", 
+    "song_album": "Four (Deluxe Edition)", 
+    "user": {
+        "username": "sarahstyles.4", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/01ed55d5-819e-4426-b013-d437f09dbf66.jpg", 
+        "id": "01ed55d5-819e-4426-b013-d437f09dbf66"
+    }, 
+    "song_title": "Act My Age", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002671f_81f972db33d9_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "D656BCC0-A138-4B33-8AEA-C9E6433B4496"
+}

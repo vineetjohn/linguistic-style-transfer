@@ -1,0 +1,27 @@
+{
+    "mood": "lovable", 
+    "caption": "??", 
+    "created_at": "2016-02-12T03:06:43-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e45b_e81159a31c6e.ssng", 
+    "updated_at": "2016-02-15T14:29:53-05:00", 
+    "share_url": "https://a.sso.ng/1/e81159a31c6e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e45b_e81159a31c6e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e45b_e81159a31c6e_mr.jpg", 
+    "song_album": "Would U Love Me - EP", 
+    "user": {
+        "username": "KatieKat", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/db427aa2-3c1e-442a-ae6d-bbafb270443e.jpg", 
+        "id": "db427aa2-3c1e-442a-ae6d-bbafb270443e"
+    }, 
+    "song_title": "LA Girl", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e45b_e81159a31c6e_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "2395CB60-C222-4123-8B8A-CBF0DA954202"
+}

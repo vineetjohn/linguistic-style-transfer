@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "LA", 
+    "created_at": "2016-04-28T09:05:24-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004232c_cbf8f388decf.ssng", 
+    "updated_at": "2016-05-01T22:58:26-04:00", 
+    "share_url": "https://a.sso.ng/1/cbf8f388decf", 
+    "audio_url": "https://s02.sso.ng/1/00000004232c_cbf8f388decf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004232c_cbf8f388decf_mr.jpg", 
+    "song_album": "Black Bear", 
+    "user": {
+        "username": "Sullim321", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "976698bd-3b2e-4526-a825-9320fe148c82"
+    }, 
+    "song_title": "Dark Matter", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004232c_cbf8f388decf_th.jpg", 
+    "song_artist": "Andrew Belle", 
+    "favorite_count": 3, 
+    "uuid": "77418DDC-D74E-4ACB-9795-4DBE52D2F2C9"
+}

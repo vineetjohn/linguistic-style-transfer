@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Evening walks ??", 
+    "created_at": "2015-09-06T04:32:52-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000000045_47e246805680_1.ssng", 
+    "updated_at": "2015-12-29T18:21:04-05:00", 
+    "share_url": "https://a.sso.ng/1/47e246805680", 
+    "audio_url": "https://s01.sso.ng/1/000000000045_47e246805680_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000000045_47e246805680_1_mr.jpg", 
+    "song_album": "Waves (Robin Schulz Radio Edit) - Single", 
+    "user": {
+        "username": "go", 
+        "verified": true, 
+        "username_color": "#f2766a", 
+        "full_name": "Georgina Oxford", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09b3db81-d909-45ee-b737-9c9283d5caeb.jpg", 
+        "id": "09b3db81-d909-45ee-b737-9c9283d5caeb"
+    }, 
+    "song_title": "Waves (Robin Schulz Radio Edit)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000000045_47e246805680_1_th.jpg", 
+    "song_artist": "Mr. Probz", 
+    "favorite_count": 29, 
+    "uuid": "E58EC96B-9323-4FDA-A224-521C87F308D7"
+}

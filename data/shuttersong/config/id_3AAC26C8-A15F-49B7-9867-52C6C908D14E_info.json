@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-29T11:38:03-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d0d7_89f07388b0be.ssng", 
+    "updated_at": "2015-08-30T06:04:02-04:00", 
+    "share_url": "https://a.sso.ng/1/89f07388b0be", 
+    "audio_url": "https://s01.sso.ng/1/00000002d0d7_89f07388b0be.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d0d7_89f07388b0be_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "sarah_02", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/92ce67fc-2d6b-4a82-b21c-5fcc23461d23.jpg", 
+        "id": "92ce67fc-2d6b-4a82-b21c-5fcc23461d23"
+    }, 
+    "song_title": "Selena Gomez   Naturally   Kiss and Tell", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d0d7_89f07388b0be_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "3AAC26C8-A15F-49B7-9867-52C6C908D14E"
+}

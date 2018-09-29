@@ -1,0 +1,27 @@
+{
+    "mood": "alone", 
+    "caption": "", 
+    "created_at": "2016-02-22T00:32:15-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e7c2_319b8529452b.ssng", 
+    "updated_at": "2016-03-05T08:10:59-05:00", 
+    "share_url": "https://a.sso.ng/1/319b8529452b", 
+    "audio_url": "https://s02.sso.ng/1/00000003e7c2_319b8529452b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e7c2_319b8529452b_mr.jpg", 
+    "song_album": "Monster (DotEXE Remix) - Single", 
+    "user": {
+        "username": "LukeyBrooksy", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Brianna", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/57c35848-09c3-497b-952c-559db93acc5a.jpg", 
+        "id": "57c35848-09c3-497b-952c-559db93acc5a"
+    }, 
+    "song_title": "Monster (DotEXE Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e7c2_319b8529452b_th.jpg", 
+    "song_artist": "Meg & Dia", 
+    "favorite_count": 4, 
+    "uuid": "7783530E-3E4A-48CB-BB26-D5F297E4F72C"
+}

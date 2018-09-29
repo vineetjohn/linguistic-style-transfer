@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T15:27:46-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000210d7_2e801df70020.ssng", 
+    "updated_at": "2015-08-04T15:27:46-04:00", 
+    "share_url": "https://a.sso.ng/1/2e801df70020", 
+    "audio_url": "https://s01.sso.ng/1/0000000210d7_2e801df70020.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000210d7_2e801df70020_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "aavamarie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "ava", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/49243662-0ede-4522-b84d-affecd50dcf7.jpg", 
+        "id": "49243662-0ede-4522-b84d-affecd50dcf7"
+    }, 
+    "song_title": "Wrong One", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000210d7_2e801df70020_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "B4E822B7-C433-400B-B4FE-FBCFDC38A1CA"
+}

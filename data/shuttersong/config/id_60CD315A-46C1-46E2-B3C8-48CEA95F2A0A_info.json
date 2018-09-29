@@ -1,0 +1,27 @@
+{
+    "mood": "aggravated", 
+    "caption": "?", 
+    "created_at": "2016-03-26T13:37:47-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ed15_acebd12fb260.ssng", 
+    "updated_at": "2016-03-30T03:17:45-04:00", 
+    "share_url": "https://a.sso.ng/1/acebd12fb260", 
+    "audio_url": "https://s02.sso.ng/1/00000003ed15_acebd12fb260.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ed15_acebd12fb260_mr.jpg", 
+    "song_album": "Sounds Good Feels Good (Deluxe)", 
+    "user": {
+        "username": "BeccaMusic", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "BeccaInfinty ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/bc990ba2-21d7-4061-befe-28d35e1910c4.jpg", 
+        "id": "bc990ba2-21d7-4061-befe-28d35e1910c4"
+    }, 
+    "song_title": "Waste the Night", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ed15_acebd12fb260_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 2, 
+    "uuid": "60CD315A-46C1-46E2-B3C8-48CEA95F2A0A"
+}

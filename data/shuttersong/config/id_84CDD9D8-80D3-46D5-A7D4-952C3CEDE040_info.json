@@ -1,0 +1,27 @@
+{
+    "mood": "numb", 
+    "caption": "", 
+    "created_at": "2016-02-21T15:35:34-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f24f_6e81788d3c89.ssng", 
+    "updated_at": "2016-03-27T15:40:11-04:00", 
+    "share_url": "https://a.sso.ng/1/6e81788d3c89", 
+    "audio_url": "https://s02.sso.ng/1/00000003f24f_6e81788d3c89.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f24f_6e81788d3c89_mr.jpg", 
+    "song_album": "Wiped Out!", 
+    "user": {
+        "username": "katty511", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Kat Adams ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8c7bb89c-db50-434e-ac24-3a78dd501574.jpg", 
+        "id": "8c7bb89c-db50-434e-ac24-3a78dd501574"
+    }, 
+    "song_title": "Single", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f24f_6e81788d3c89_th.jpg", 
+    "song_artist": "The Neighbourhood", 
+    "favorite_count": 3, 
+    "uuid": "84CDD9D8-80D3-46D5-A7D4-952C3CEDE040"
+}

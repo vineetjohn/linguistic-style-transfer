@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#Believe ", 
+    "created_at": "2015-08-03T23:39:04-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e7c_60a9774b57a8_1.ssng", 
+    "updated_at": "2015-08-03T23:39:17-04:00", 
+    "share_url": "https://a.sso.ng/1/60a9774b57a8", 
+    "audio_url": "https://s01.sso.ng/1/000000020e7c_60a9774b57a8_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e7c_60a9774b57a8_1_mr.jpg", 
+    "song_album": "Believe", 
+    "user": {
+        "username": "dishaa17", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "I love Jack and Jack", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ca7edd3f-2712-48d5-b0ac-5138d2091999.jpg", 
+        "id": "ca7edd3f-2712-48d5-b0ac-5138d2091999"
+    }, 
+    "song_title": "Believe", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e7c_60a9774b57a8_1_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "7055240B-1482-499A-BEEA-A176509B9AEA"
+}

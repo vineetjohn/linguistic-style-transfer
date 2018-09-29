@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T12:42:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002130f_5e580434b275.ssng", 
+    "updated_at": "2015-08-04T12:42:19-04:00", 
+    "share_url": "https://a.sso.ng/1/5e580434b275", 
+    "audio_url": "https://s01.sso.ng/1/00000002130f_5e580434b275.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002130f_5e580434b275_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Simoney27", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e90bea8c-0316-4866-92ad-7e358d1648b2.jpg", 
+        "id": "e90bea8c-0316-4866-92ad-7e358d1648b2"
+    }, 
+    "song_title": "Jack and Jack - How We Livin (Official Audio) - #CalibraskaEP", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002130f_5e580434b275_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "FD0761A3-2EF5-4393-B82B-155E72989915"
+}

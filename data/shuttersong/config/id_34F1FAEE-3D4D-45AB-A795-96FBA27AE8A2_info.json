@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-16T11:23:45-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d7bd_2280e55433f5.ssng", 
+    "updated_at": "2016-01-17T19:36:59-05:00", 
+    "share_url": "https://a.sso.ng/1/2280e55433f5", 
+    "audio_url": "https://s02.sso.ng/1/00000003d7bd_2280e55433f5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d7bd_2280e55433f5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Darknees", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2635b10b-2506-423b-ad5b-57ca70dd8d0b.jpg", 
+        "id": "2635b10b-2506-423b-ad5b-57ca70dd8d0b"
+    }, 
+    "song_title": "The Doors - Hello, I Love You (Remastered HD)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d7bd_2280e55433f5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "34F1FAEE-3D4D-45AB-A795-96FBA27AE8A2"
+}

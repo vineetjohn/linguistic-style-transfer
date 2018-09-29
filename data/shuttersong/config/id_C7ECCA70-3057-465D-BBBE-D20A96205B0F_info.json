@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:09:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020b00_4f74ec71193c.ssng", 
+    "updated_at": "2015-08-03T23:09:22-04:00", 
+    "share_url": "https://a.sso.ng/1/4f74ec71193c", 
+    "audio_url": "https://s01.sso.ng/1/000000020b00_4f74ec71193c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020b00_4f74ec71193c_mr.jpg", 
+    "song_album": "L.A.LOVE (la la) (Remix) [feat. YG] - Single", 
+    "user": {
+        "username": "Kaitlyn1645", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e3c27c14-a1ce-4b6c-84a6-4f82ca0f3e22"
+    }, 
+    "song_title": "L.A.LOVE (la la) [feat. YG] [Remix]", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020b00_4f74ec71193c_th.jpg", 
+    "song_artist": "Fergie", 
+    "favorite_count": 1, 
+    "uuid": "C7ECCA70-3057-465D-BBBE-D20A96205B0F"
+}

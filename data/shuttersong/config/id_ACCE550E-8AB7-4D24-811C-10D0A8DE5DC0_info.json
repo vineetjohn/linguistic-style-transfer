@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@daneilsahyoune", 
+    "created_at": "2016-02-15T03:48:21-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e82c_da730066701d.ssng", 
+    "updated_at": "2016-02-15T19:31:07-05:00", 
+    "share_url": "https://a.sso.ng/1/da730066701d", 
+    "audio_url": "https://s02.sso.ng/1/00000003e82c_da730066701d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e82c_da730066701d_mr.jpg", 
+    "song_album": "Candy Shop - EP", 
+    "user": {
+        "username": "lukespindick", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/28c78f9a-2c2e-4cbd-ab8f-a80cbd725372.jpg", 
+        "id": "28c78f9a-2c2e-4cbd-ab8f-a80cbd725372"
+    }, 
+    "song_title": "Candy Shop", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e82c_da730066701d_th.jpg", 
+    "song_artist": "50 Cent", 
+    "favorite_count": 2, 
+    "uuid": "ACCE550E-8AB7-4D24-811C-10D0A8DE5DC0"
+}

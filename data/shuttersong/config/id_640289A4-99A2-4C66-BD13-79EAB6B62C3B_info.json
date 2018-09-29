@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-27T18:50:45-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f4f9_437416f49f23.ssng", 
+    "updated_at": "2015-10-28T07:57:31-04:00", 
+    "share_url": "https://a.sso.ng/1/437416f49f23", 
+    "audio_url": "https://s01.sso.ng/1/00000002f4f9_437416f49f23.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f4f9_437416f49f23_mr.jpg", 
+    "song_album": "Live And Acoustic", 
+    "user": {
+        "username": "brightNshiny", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7fceaa35-3206-4fd0-b4cf-52c495e4a6da"
+    }, 
+    "song_title": "At Last/Sleep All Day", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f4f9_437416f49f23_th.jpg", 
+    "song_artist": "Jason Mraz", 
+    "favorite_count": 1, 
+    "uuid": "640289A4-99A2-4C66-BD13-79EAB6B62C3B"
+}

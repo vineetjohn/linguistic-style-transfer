@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-04T12:26:39-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003f66a_e28ff3437031.ssng", 
+    "updated_at": "2016-04-06T11:10:43-04:00", 
+    "share_url": "https://a.sso.ng/1/e28ff3437031", 
+    "audio_url": "https://s02.sso.ng/1/00000003f66a_e28ff3437031.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003f66a_e28ff3437031_mr.jpg", 
+    "song_album": "The Best of the Geto Boys", 
+    "user": {
+        "username": "jesbro", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "521c4b4a-0dd1-4d8d-a8bb-2fe6e563ca7b"
+    }, 
+    "song_title": "Damn It Feels Good to Be a Gangsta (Mixtape Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003f66a_e28ff3437031_th.jpg", 
+    "song_artist": "Geto Boys", 
+    "favorite_count": 1, 
+    "uuid": "B0FC741D-4BD0-4907-A042-0F7FDBA7FD7A"
+}

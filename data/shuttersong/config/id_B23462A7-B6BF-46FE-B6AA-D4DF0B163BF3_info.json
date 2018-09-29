@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "IMMA PUT YOU TO BED", 
+    "created_at": "2015-08-06T04:09:49-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020eeb_dadca05797b4_1.ssng", 
+    "updated_at": "2015-08-06T04:10:06-04:00", 
+    "share_url": "https://a.sso.ng/1/dadca05797b4", 
+    "audio_url": "https://s01.sso.ng/1/000000020eeb_dadca05797b4_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020eeb_dadca05797b4_1_mr.jpg", 
+    "song_album": "#RWYA", 
+    "user": {
+        "username": "mfrasier", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Miri", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b1ff6366-0423-4c38-886a-9088c56f6be8.jpg", 
+        "id": "b1ff6366-0423-4c38-886a-9088c56f6be8"
+    }, 
+    "song_title": "Right Where You Are", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020eeb_dadca05797b4_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "B23462A7-B6BF-46FE-B6AA-D4DF0B163BF3"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\ude2d", 
+    "created_at": "2016-03-11T14:57:53-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e4fa_3e5a7e3def2f.ssng", 
+    "updated_at": "2016-03-30T22:21:13-04:00", 
+    "share_url": "https://a.sso.ng/1/3e5a7e3def2f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e4fa_3e5a7e3def2f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e4fa_3e5a7e3def2f_mr.jpg", 
+    "song_album": "Blue Neighbourhood (Deluxe)", 
+    "user": {
+        "username": "Jaihoojah", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Dirtycunt", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c0638ccd-c77a-4166-b8f2-9ceb1c49fb37.jpg", 
+        "id": "c0638ccd-c77a-4166-b8f2-9ceb1c49fb37"
+    }, 
+    "song_title": "BLUE (feat. Alex Hope)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e4fa_3e5a7e3def2f_th.jpg", 
+    "song_artist": "Troye Sivan", 
+    "favorite_count": 2, 
+    "uuid": "797E8812-5BC9-4615-B649-1F49ECADF4DA"
+}

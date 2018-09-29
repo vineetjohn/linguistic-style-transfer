@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-03-20T16:10:59-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fe34_e597839dbad1.ssng", 
+    "updated_at": "2016-03-23T18:59:26-04:00", 
+    "share_url": "https://a.sso.ng/1/e597839dbad1", 
+    "audio_url": "https://s02.sso.ng/1/00000003fe34_e597839dbad1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fe34_e597839dbad1_mr.jpg", 
+    "song_album": "Be Alright", 
+    "user": {
+        "username": "_Abigaill_", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "0b03e6fe-85cc-4fdd-b770-597a2e1c7bf6"
+    }, 
+    "song_title": "Be Alright", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fe34_e597839dbad1_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 1, 
+    "uuid": "031E8CE9-4786-499F-9E54-3C2719181BBC"
+}

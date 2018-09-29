@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-14T00:06:01-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e910_a42185acbd08.ssng", 
+    "updated_at": "2016-02-14T00:15:21-05:00", 
+    "share_url": "https://a.sso.ng/1/a42185acbd08", 
+    "audio_url": "https://s02.sso.ng/1/00000003e910_a42185acbd08.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e910_a42185acbd08_mr.jpg", 
+    "song_album": "PrimeMusic.ru January 2014", 
+    "user": {
+        "username": "janos", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/25de931e-86a3-48e6-af7b-944b3a4fc6f4.jpg", 
+        "id": "25de931e-86a3-48e6-af7b-944b3a4fc6f4"
+    }, 
+    "song_title": "I Got U (Radio Edit) (PrimeMusic.ru)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e910_a42185acbd08_th.jpg", 
+    "song_artist": "Duke Dumont feat. Jax Jones", 
+    "favorite_count": 2, 
+    "uuid": "8DA3FBCE-C7AD-4814-B9A3-9EE9834A104D"
+}

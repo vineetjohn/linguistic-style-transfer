@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-14T11:26:24-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000451f9_2b5c42f2e54d.ssng", 
+    "updated_at": "2016-06-16T03:59:07-04:00", 
+    "share_url": "https://a.sso.ng/1/2b5c42f2e54d", 
+    "audio_url": "https://s02.sso.ng/1/0000000451f9_2b5c42f2e54d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000451f9_2b5c42f2e54d_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "aysekacar", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "abc77b5e-c853-4a46-ba08-9ae7373a9a9a"
+    }, 
+    "song_title": "X Ambassadors - Renegades (Lyric Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000451f9_2b5c42f2e54d_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 7, 
+    "uuid": "949105BE-AFCE-418E-AB1D-4C4F8D99FB3A"
+}

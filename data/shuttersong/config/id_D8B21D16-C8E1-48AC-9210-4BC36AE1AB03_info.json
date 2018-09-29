@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Summers not over yet ??????", 
+    "created_at": "2015-08-30T16:52:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d792_29c2e44a1f68_1.ssng", 
+    "updated_at": "2015-09-01T11:00:16-04:00", 
+    "share_url": "https://a.sso.ng/1/29c2e44a1f68", 
+    "audio_url": "https://s01.sso.ng/1/00000002d792_29c2e44a1f68_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d792_29c2e44a1f68_1_mr.jpg", 
+    "song_album": "Cheerleader (Felix Jaehn Remix Radio Edit) - Single", 
+    "user": {
+        "username": "sophia.gold", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/826526b1-540c-4e20-8777-f70090cddbb1.jpg", 
+        "id": "826526b1-540c-4e20-8777-f70090cddbb1"
+    }, 
+    "song_title": "Cheerleader (Felix Jaehn Remix Radio Edit)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d792_29c2e44a1f68_1_th.jpg", 
+    "song_artist": "Omi", 
+    "favorite_count": 2, 
+    "uuid": "D8B21D16-C8E1-48AC-9210-4BC36AE1AB03"
+}

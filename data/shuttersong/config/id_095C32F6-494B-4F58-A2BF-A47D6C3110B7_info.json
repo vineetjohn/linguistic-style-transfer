@@ -1,0 +1,27 @@
+{
+    "mood": "Peaceful", 
+    "caption": "?", 
+    "created_at": "2016-02-11T15:55:14-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e9f6_ee100718304e.ssng", 
+    "updated_at": "2016-02-13T05:17:35-05:00", 
+    "share_url": "https://a.sso.ng/1/ee100718304e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e9f6_ee100718304e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e9f6_ee100718304e_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lukes_sl0th", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/39cabaac-3424-4627-b65b-dce56dd8594b.jpg", 
+        "id": "39cabaac-3424-4627-b65b-dce56dd8594b"
+    }, 
+    "song_title": "The xx - Angels", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e9f6_ee100718304e_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "095C32F6-494B-4F58-A2BF-A47D6C3110B7"
+}

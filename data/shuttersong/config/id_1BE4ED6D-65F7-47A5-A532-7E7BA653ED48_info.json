@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\udc99\ud83c\udf3e", 
+    "created_at": "2016-06-08T09:28:12-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000001f382_70a0131d45ed.ssng", 
+    "updated_at": "2016-07-04T14:27:12-04:00", 
+    "share_url": "https://a.sso.ng/1/70a0131d45ed", 
+    "audio_url": "https://s02.sso.ng/1/00000001f382_70a0131d45ed.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000001f382_70a0131d45ed_mr.jpg", 
+    "song_album": "Dangerous Woman (Deluxe)", 
+    "user": {
+        "username": "sapphire", 
+        "verified": true, 
+        "username_color": "#28c4d8", 
+        "full_name": "Sapphire", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/322041a2-32f5-4184-b5bb-c38c16a3d6ab.jpg", 
+        "id": "322041a2-32f5-4184-b5bb-c38c16a3d6ab"
+    }, 
+    "song_title": "Into You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000001f382_70a0131d45ed_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 33, 
+    "uuid": "1BE4ED6D-65F7-47A5-A532-7E7BA653ED48"
+}

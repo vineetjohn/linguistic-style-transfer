@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T23:35:32-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e84_cc6f89cc8b64.ssng", 
+    "updated_at": "2015-08-04T23:35:32-04:00", 
+    "share_url": "https://a.sso.ng/1/cc6f89cc8b64", 
+    "audio_url": "https://s01.sso.ng/1/000000020e84_cc6f89cc8b64.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e84_cc6f89cc8b64_mr.jpg", 
+    "song_album": "Handwritten (Deluxe)", 
+    "user": {
+        "username": "MadisonT", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3cc236f7-6998-4833-8592-92c5503a9eb6"
+    }, 
+    "song_title": "A Little Too Much", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e84_cc6f89cc8b64_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "629AC705-AC17-41D6-8DD6-FEB142C11CBE"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-22T22:20:10-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045584_70b4a3724266.ssng", 
+    "updated_at": "2016-06-24T16:45:03-04:00", 
+    "share_url": "https://a.sso.ng/1/70b4a3724266", 
+    "audio_url": "https://s02.sso.ng/1/000000045584_70b4a3724266.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045584_70b4a3724266_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mayj", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e18d8aa4-d981-493f-8461-f9e0bff6ca3a"
+    }, 
+    "song_title": "Blitzen Trapper - Black River Killer (OFFICIAL VIDEO)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045584_70b4a3724266_th.jpg", 
+    "song_artist": "Blitzen Trapper", 
+    "favorite_count": 2, 
+    "uuid": "B1B9ABE2-047A-4A61-BC55-03145339B543"
+}

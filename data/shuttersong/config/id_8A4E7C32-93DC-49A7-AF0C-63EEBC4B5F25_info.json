@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-14T10:17:31-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021b27_77badfcdb1b7.ssng", 
+    "updated_at": "2015-08-14T10:42:45-04:00", 
+    "share_url": "https://a.sso.ng/1/77badfcdb1b7", 
+    "audio_url": "https://s01.sso.ng/1/000000021b27_77badfcdb1b7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021b27_77badfcdb1b7_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "layla9601", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "layla", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d228bdc7-1ee5-4c33-b467-e2e9c463ffaa.jpg", 
+        "id": "d228bdc7-1ee5-4c33-b467-e2e9c463ffaa"
+    }, 
+    "song_title": "Be My Baby (feat. Cashmere Cat)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021b27_77badfcdb1b7_th.jpg", 
+    "song_artist": "Ariana Grande", 
+    "favorite_count": 2, 
+    "uuid": "8A4E7C32-93DC-49A7-AF0C-63EEBC4B5F25"
+}

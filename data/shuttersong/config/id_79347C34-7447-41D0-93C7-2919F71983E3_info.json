@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-03T23:04:19-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000039c3a_ee98d8f4eb5c.ssng", 
+    "updated_at": "2016-01-03T23:25:21-05:00", 
+    "share_url": "https://a.sso.ng/1/ee98d8f4eb5c", 
+    "audio_url": "https://s01.sso.ng/1/000000039c3a_ee98d8f4eb5c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000039c3a_ee98d8f4eb5c_mr.jpg", 
+    "song_album": "Let Me Take a Look - Single", 
+    "user": {
+        "username": "Friends.nt", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c4eb5412-0592-4f37-bfd1-26b537e6b0cf.jpg", 
+        "id": "c4eb5412-0592-4f37-bfd1-26b537e6b0cf"
+    }, 
+    "song_title": "#Selfie", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000039c3a_ee98d8f4eb5c_th.jpg", 
+    "song_artist": "Baby Chain", 
+    "favorite_count": 1, 
+    "uuid": "79347C34-7447-41D0-93C7-2919F71983E3"
+}

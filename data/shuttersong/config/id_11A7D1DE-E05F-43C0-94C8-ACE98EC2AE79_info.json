@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "last day of school", 
+    "created_at": "2016-06-20T17:45:39-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004588c_7c17a54520df.ssng", 
+    "updated_at": "2016-06-20T19:24:32-04:00", 
+    "share_url": "https://a.sso.ng/1/7c17a54520df", 
+    "audio_url": "https://s02.sso.ng/1/00000004588c_7c17a54520df.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004588c_7c17a54520df_mr.jpg", 
+    "song_album": "Made In The A.M.", 
+    "user": {
+        "username": "vaporcxl", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "molly ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/76618dde-446a-4fc2-abde-a20e1ebdad62.jpg", 
+        "id": "76618dde-446a-4fc2-abde-a20e1ebdad62"
+    }, 
+    "song_title": "History", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004588c_7c17a54520df_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 3, 
+    "uuid": "11A7D1DE-E05F-43C0-94C8-ACE98EC2AE79"
+}

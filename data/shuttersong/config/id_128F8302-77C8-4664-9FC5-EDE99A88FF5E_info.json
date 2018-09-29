@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u26d4\ufe0f\u26d4\ufe0f\u26d4\ufe0f", 
+    "created_at": "2015-08-30T20:22:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d828_5ebf7a3b6208_1.ssng", 
+    "updated_at": "2015-09-01T10:08:13-04:00", 
+    "share_url": "https://a.sso.ng/1/5ebf7a3b6208", 
+    "audio_url": "https://s01.sso.ng/1/00000002d828_5ebf7a3b6208_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d828_5ebf7a3b6208_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Estefa2710", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b5cbae84-3ce1-4912-a060-48833eb2fc48.jpg", 
+        "id": "b5cbae84-3ce1-4912-a060-48833eb2fc48"
+    }, 
+    "song_title": "Maroon 5 - Sugar", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d828_5ebf7a3b6208_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "128F8302-77C8-4664-9FC5-EDE99A88FF5E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I really hope I win this contest ??????", 
+    "created_at": "2015-08-12T19:04:36-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000207e2_f12a92d10e7c_1.ssng", 
+    "updated_at": "2015-08-12T19:10:02-04:00", 
+    "share_url": "https://a.sso.ng/1/f12a92d10e7c", 
+    "audio_url": "https://s01.sso.ng/1/0000000207e2_f12a92d10e7c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000207e2_f12a92d10e7c_1_mr.jpg", 
+    "song_album": "Cold Hearted - Single", 
+    "user": {
+        "username": "jacksaf", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Angelina", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7db41f79-b18b-4d12-b2b7-e1cee29c5515.jpg", 
+        "id": "7db41f79-b18b-4d12-b2b7-e1cee29c5515"
+    }, 
+    "song_title": "Cold Hearted", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000207e2_f12a92d10e7c_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "FAA44476-B041-4CE0-9C46-A64B39A3510C"
+}

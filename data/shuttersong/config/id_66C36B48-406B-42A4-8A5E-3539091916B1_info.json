@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Bambi a one happy piggie", 
+    "created_at": "2015-08-21T22:36:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a4a7_4069c0e01651_1.ssng", 
+    "updated_at": "2015-08-22T12:08:49-04:00", 
+    "share_url": "https://a.sso.ng/1/4069c0e01651", 
+    "audio_url": "https://s01.sso.ng/1/00000002a4a7_4069c0e01651_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a4a7_4069c0e01651_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "AndreR", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/48378f8a-09f3-4b05-ba16-db7fd799f5ec.jpg", 
+        "id": "48378f8a-09f3-4b05-ba16-db7fd799f5ec"
+    }, 
+    "song_title": "Carly Rae Jepsen - Run Away With Me Lyrics", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a4a7_4069c0e01651_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 4, 
+    "uuid": "66C36B48-406B-42A4-8A5E-3539091916B1"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Hometown show!", 
+    "created_at": "2015-10-24T04:12:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000204cb_207ab863388c_1.ssng", 
+    "updated_at": "2015-10-24T18:40:50-04:00", 
+    "share_url": "https://a.sso.ng/1/207ab863388c", 
+    "audio_url": "https://s01.sso.ng/1/0000000204cb_207ab863388c_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000204cb_207ab863388c_1_mr.jpg", 
+    "song_album": "Doing It Right - Single", 
+    "user": {
+        "username": "JacksUKST", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "Jack and Jack Updates ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/f18d7f99-7d25-4bae-8ce7-2bc6effa455f.jpg", 
+        "id": "f18d7f99-7d25-4bae-8ce7-2bc6effa455f"
+    }, 
+    "song_title": "Doing It Right", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000204cb_207ab863388c_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 4, 
+    "uuid": "8D9675BB-2D9E-429D-8530-3280FA621D89"
+}

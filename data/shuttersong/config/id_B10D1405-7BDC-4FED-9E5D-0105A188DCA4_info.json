@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-12T16:33:04-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004321c_5a91945f09e0.ssng", 
+    "updated_at": "2016-05-12T21:04:57-04:00", 
+    "share_url": "https://a.sso.ng/1/5a91945f09e0", 
+    "audio_url": "https://s02.sso.ng/1/00000004321c_5a91945f09e0.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004321c_5a91945f09e0_mr.jpg", 
+    "song_album": "Views", 
+    "user": {
+        "username": "arodespinosa", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d4370dcc-f5d3-4a67-9b09-068837fde1ef"
+    }, 
+    "song_title": "One Dance (Ft. Wizkid & Kyla)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004321c_5a91945f09e0_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 2, 
+    "uuid": "B10D1405-7BDC-4FED-9E5D-0105A188DCA4"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T11:25:12-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002941c_7da7477ae885.ssng", 
+    "updated_at": "2015-08-21T17:37:23-04:00", 
+    "share_url": "https://a.sso.ng/1/7da7477ae885", 
+    "audio_url": "https://s01.sso.ng/1/00000002941c_7da7477ae885.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002941c_7da7477ae885_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "pinya_2004", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "102c133b-4e62-4dc0-b8c4-6006b4a787c5"
+    }, 
+    "song_title": "black coast - trndsttr (lucian remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002941c_7da7477ae885_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "75091BB8-383D-4A1B-AF75-BD7960E52867"
+}

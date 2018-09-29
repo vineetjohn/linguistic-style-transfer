@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:27:34-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e79_03e73b6d3a27.ssng", 
+    "updated_at": "2015-08-03T23:27:34-04:00", 
+    "share_url": "https://a.sso.ng/1/03e73b6d3a27", 
+    "audio_url": "https://s01.sso.ng/1/000000020e79_03e73b6d3a27.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e79_03e73b6d3a27_mr.jpg", 
+    "song_album": "1000 Forms of Fear", 
+    "user": {
+        "username": "betmalee", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "65da14d9-854d-49fc-a5f5-119f7d6f101b"
+    }, 
+    "song_title": "Elastic Heart", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e79_03e73b6d3a27_th.jpg", 
+    "song_artist": "Sia", 
+    "favorite_count": 1, 
+    "uuid": "C902EC4C-0F04-4F70-A5A3-65A9E89280A3"
+}

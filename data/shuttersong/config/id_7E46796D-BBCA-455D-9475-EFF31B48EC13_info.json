@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-20T15:39:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d902_58d0593e89ad.ssng", 
+    "updated_at": "2016-01-21T18:58:15-05:00", 
+    "share_url": "https://a.sso.ng/1/58d0593e89ad", 
+    "audio_url": "https://s02.sso.ng/1/00000003d902_58d0593e89ad.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d902_58d0593e89ad_mr.jpg", 
+    "song_album": "Death Of A Bachelor", 
+    "user": {
+        "username": "xxsaraanimexx", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b3602aba-059a-474b-a919-831691fad17f"
+    }, 
+    "song_title": "Emperor's New Clothes", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d902_58d0593e89ad_th.jpg", 
+    "song_artist": "Panic! At the Disco", 
+    "favorite_count": 2, 
+    "uuid": "7E46796D-BBCA-455D-9475-EFF31B48EC13"
+}

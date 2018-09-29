@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "jack and jack are the best people ever ??", 
+    "created_at": "2015-08-04T12:20:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021862_007b0bae14b8_1.ssng", 
+    "updated_at": "2015-08-19T00:37:31-04:00", 
+    "share_url": "https://a.sso.ng/1/007b0bae14b8", 
+    "audio_url": "https://s01.sso.ng/1/000000021862_007b0bae14b8_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021862_007b0bae14b8_1_mr.jpg", 
+    "song_album": "Us Against Them (Bonus Track Edition)", 
+    "user": {
+        "username": "chillgilinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/41007db6-780f-4e16-9d00-db6afa65ba9d.jpg", 
+        "id": "41007db6-780f-4e16-9d00-db6afa65ba9d"
+    }, 
+    "song_title": "A Million Lives", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021862_007b0bae14b8_1_th.jpg", 
+    "song_artist": "Jake Miller", 
+    "favorite_count": 5, 
+    "uuid": "B6D210BE-D9EC-4F16-9EE7-3337E7CB2804"
+}

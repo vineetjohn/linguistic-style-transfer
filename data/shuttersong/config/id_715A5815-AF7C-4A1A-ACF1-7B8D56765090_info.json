@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Nike swag asf", 
+    "created_at": "2016-02-10T17:17:08-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5fc_7e31720243af.ssng", 
+    "updated_at": "2016-02-13T05:55:36-05:00", 
+    "share_url": "https://a.sso.ng/1/7e31720243af", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5fc_7e31720243af.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5fc_7e31720243af_mr.jpg", 
+    "song_album": "Trilogy", 
+    "user": {
+        "username": "lukebrooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "nicole", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ec2ffad8-b086-41a9-82ae-7d659a07ba3a.jpg", 
+        "id": "ec2ffad8-b086-41a9-82ae-7d659a07ba3a"
+    }, 
+    "song_title": "Wicked Games", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5fc_7e31720243af_th.jpg", 
+    "song_artist": "The Weeknd", 
+    "favorite_count": 5, 
+    "uuid": "715A5815-AF7C-4A1A-ACF1-7B8D56765090"
+}

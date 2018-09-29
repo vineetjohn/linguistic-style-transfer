@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-16T23:13:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020a00_5d67bd8062a3.ssng", 
+    "updated_at": "2015-12-22T20:45:04-05:00", 
+    "share_url": "https://a.sso.ng/1/5d67bd8062a3", 
+    "audio_url": "https://s01.sso.ng/1/000000020a00_5d67bd8062a3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020a00_5d67bd8062a3_mr.jpg", 
+    "song_album": "Cold Hearted - Single", 
+    "user": {
+        "username": "trendygilinsky", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Jill", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/409a35b8-f3a5-419c-bbec-2f805c26bfa6.jpg", 
+        "id": "409a35b8-f3a5-419c-bbec-2f805c26bfa6"
+    }, 
+    "song_title": "Cold Hearted", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020a00_5d67bd8062a3_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "3389C83F-20D3-4841-B4DF-1C06F74E0E7A"
+}

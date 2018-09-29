@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-13T11:09:06-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000002f9e4_039cbbe24315.ssng", 
+    "updated_at": "2016-01-13T14:49:31-05:00", 
+    "share_url": "https://a.sso.ng/1/039cbbe24315", 
+    "audio_url": "https://s02.sso.ng/1/00000002f9e4_039cbbe24315.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002f9e4_039cbbe24315_mr.jpg", 
+    "song_album": "I'm Sorry", 
+    "user": {
+        "username": "Assylazhar", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "acd1e685-b7cb-4c37-8d38-0bfaa302f6d2"
+    }, 
+    "song_title": "Sweater Weather", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002f9e4_039cbbe24315_th.jpg", 
+    "song_artist": "The Neighbourhood", 
+    "favorite_count": 1, 
+    "uuid": "AB45602E-2B01-4DF6-9D1D-07E83B8C30DE"
+}

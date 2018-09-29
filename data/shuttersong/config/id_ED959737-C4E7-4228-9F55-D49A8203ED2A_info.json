@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T10:53:24-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020829_d03e7c0f4ed9.ssng", 
+    "updated_at": "2015-08-04T10:53:24-04:00", 
+    "share_url": "https://a.sso.ng/1/d03e7c0f4ed9", 
+    "audio_url": "https://s01.sso.ng/1/000000020829_d03e7c0f4ed9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020829_d03e7c0f4ed9_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "gomezmonica", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "jack and jack ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8c345b6c-54f1-4972-b56a-353d44051cde.jpg", 
+        "id": "8c345b6c-54f1-4972-b56a-353d44051cde"
+    }, 
+    "song_title": "5 Seconds Of Summer - She's Kinda Hot", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020829_d03e7c0f4ed9_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "ED959737-C4E7-4228-9F55-D49A8203ED2A"
+}

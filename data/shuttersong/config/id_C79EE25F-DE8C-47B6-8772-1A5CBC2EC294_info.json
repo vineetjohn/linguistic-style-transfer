@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Ready for something sweet music video ?", 
+    "created_at": "2016-02-10T04:24:07-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8ac_e7a2a9ed15ba.ssng", 
+    "updated_at": "2016-02-11T08:50:29-05:00", 
+    "share_url": "https://a.sso.ng/1/e7a2a9ed15ba", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8ac_e7a2a9ed15ba.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8ac_e7a2a9ed15ba_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "beersjai", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "kim", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/dad4f7f2-4c9c-4b9f-9ac1-1dedc71f7555.jpg", 
+        "id": "dad4f7f2-4c9c-4b9f-9ac1-1dedc71f7555"
+    }, 
+    "song_title": "Madison Beer - Something Sweet ( Official Audio)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8ac_e7a2a9ed15ba_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 5, 
+    "uuid": "C79EE25F-DE8C-47B6-8772-1A5CBC2EC294"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "DigiFest Toronto June 13 2015 ", 
+    "created_at": "2015-08-03T23:26:23-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020cce_acb473acba43_1.ssng", 
+    "updated_at": "2015-08-03T23:27:09-04:00", 
+    "share_url": "https://a.sso.ng/1/acb473acba43", 
+    "audio_url": "https://s01.sso.ng/1/000000020cce_acb473acba43_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020cce_acb473acba43_1_mr.jpg", 
+    "song_album": "Like That (feat. Skate) - Single", 
+    "user": {
+        "username": "kaitlyn_81", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Kaitlyn", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0510c970-e784-4158-b948-d6297e5001e0.jpg", 
+        "id": "0510c970-e784-4158-b948-d6297e5001e0"
+    }, 
+    "song_title": "Like That (feat. Skate)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020cce_acb473acba43_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "8B94FE13-E65C-40A0-98A4-77E3960E910B"
+}

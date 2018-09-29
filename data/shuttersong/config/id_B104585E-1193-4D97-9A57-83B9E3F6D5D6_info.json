@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Little Bit - Skate Maloley ", 
+    "created_at": "2015-08-03T23:23:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020c29_f21093ce210e_1.ssng", 
+    "updated_at": "2015-08-03T23:23:45-04:00", 
+    "share_url": "https://a.sso.ng/1/f21093ce210e", 
+    "audio_url": "https://s01.sso.ng/1/000000020c29_f21093ce210e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020c29_f21093ce210e_1_mr.jpg", 
+    "song_album": "Little Bit - Single", 
+    "user": {
+        "username": "SincerelyShae", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Shae", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/048cb394-d8d8-4ee9-b00c-0f72454284dd.jpg", 
+        "id": "048cb394-d8d8-4ee9-b00c-0f72454284dd"
+    }, 
+    "song_title": "Little Bit", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020c29_f21093ce210e_1_th.jpg", 
+    "song_artist": "Skate", 
+    "favorite_count": 1, 
+    "uuid": "B104585E-1193-4D97-9A57-83B9E3F6D5D6"
+}

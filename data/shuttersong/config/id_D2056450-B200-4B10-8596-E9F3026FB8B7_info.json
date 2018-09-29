@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2764\ufe0f", 
+    "created_at": "2016-02-11T11:34:23-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e46e_2adbff7f0170.ssng", 
+    "updated_at": "2016-02-11T15:36:45-05:00", 
+    "share_url": "https://a.sso.ng/1/2adbff7f0170", 
+    "audio_url": "https://s02.sso.ng/1/00000003e46e_2adbff7f0170.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e46e_2adbff7f0170_mr.jpg", 
+    "song_album": "Made in the A.M.", 
+    "user": {
+        "username": "Bubblegumjano", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Niamh", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/9919db4d-7fb1-41fd-b9e1-ecc6ad7b16cf.jpg", 
+        "id": "9919db4d-7fb1-41fd-b9e1-ecc6ad7b16cf"
+    }, 
+    "song_title": "History", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e46e_2adbff7f0170_th.jpg", 
+    "song_artist": "One Direction", 
+    "favorite_count": 1, 
+    "uuid": "D2056450-B200-4B10-8596-E9F3026FB8B7"
+}

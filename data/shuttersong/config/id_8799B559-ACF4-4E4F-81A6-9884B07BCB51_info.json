@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "@brooksluke", 
+    "created_at": "2016-03-04T14:55:14-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e336_2256e27723ad.ssng", 
+    "updated_at": "2016-03-04T22:21:38-05:00", 
+    "share_url": "https://a.sso.ng/1/2256e27723ad", 
+    "audio_url": "https://s02.sso.ng/1/00000003e336_2256e27723ad.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e336_2256e27723ad_mr.jpg", 
+    "song_album": "Vessel", 
+    "user": {
+        "username": "Jamie_Lynn8218", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Jamie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0015119b-7099-4378-993a-2e5f290a9104.jpg", 
+        "id": "0015119b-7099-4378-993a-2e5f290a9104"
+    }, 
+    "song_title": "House of Gold", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e336_2256e27723ad_th.jpg", 
+    "song_artist": "twenty one pilots", 
+    "favorite_count": 3, 
+    "uuid": "8799B559-ACF4-4E4F-81A6-9884B07BCB51"
+}

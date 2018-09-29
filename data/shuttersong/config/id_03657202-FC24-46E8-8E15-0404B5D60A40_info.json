@@ -1,0 +1,27 @@
+{
+    "mood": "gut", 
+    "caption": "Ich bin bei Anne", 
+    "created_at": "2016-06-12T08:21:48-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000449d7_c312e98b668e.ssng", 
+    "updated_at": "2016-06-14T08:09:17-04:00", 
+    "share_url": "https://a.sso.ng/1/c312e98b668e", 
+    "audio_url": "https://s02.sso.ng/1/0000000449d7_c312e98b668e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000449d7_c312e98b668e_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "sophie48", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/70f5730d-c12d-4449-9d76-42b64fb71245.jpg", 
+        "id": "70f5730d-c12d-4449-9d76-42b64fb71245"
+    }, 
+    "song_title": "All In It", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000449d7_c312e98b668e_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 2, 
+    "uuid": "03657202-FC24-46E8-8E15-0404B5D60A40"
+}

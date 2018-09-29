@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Ben and jerry machine", 
+    "created_at": "2015-08-05T09:24:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021de8_bd06597f6724_1.ssng", 
+    "updated_at": "2015-08-05T09:24:41-04:00", 
+    "share_url": "https://a.sso.ng/1/bd06597f6724", 
+    "audio_url": "https://s01.sso.ng/1/000000021de8_bd06597f6724_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021de8_bd06597f6724_1_mr.jpg", 
+    "song_album": "Random Access Memories", 
+    "user": {
+        "username": "OliverBanana8", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e74a28ac-845e-4d47-ac5c-35ca86bd4c1e.jpg", 
+        "id": "e74a28ac-845e-4d47-ac5c-35ca86bd4c1e"
+    }, 
+    "song_title": "Instant Crush", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021de8_bd06597f6724_1_th.jpg", 
+    "song_artist": "Daft Punk,Julian Casablancas", 
+    "favorite_count": 1, 
+    "uuid": "3FC213D8-1AD8-4AA4-A99F-B802F098B1BC"
+}

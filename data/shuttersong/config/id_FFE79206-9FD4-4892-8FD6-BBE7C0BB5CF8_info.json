@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-26T16:46:09-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000022953_7305e1bfa23f.ssng", 
+    "updated_at": "2016-05-28T03:46:03-04:00", 
+    "share_url": "https://a.sso.ng/1/7305e1bfa23f", 
+    "audio_url": "https://s02.sso.ng/1/000000022953_7305e1bfa23f.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000022953_7305e1bfa23f_mr.jpg", 
+    "song_album": "Seeed", 
+    "user": {
+        "username": "rannas", 
+        "verified": false, 
+        "username_color": "#f2766a", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/fbf631d7-de6e-449f-b623-8108af7a652f.jpg", 
+        "id": "fbf631d7-de6e-449f-b623-8108af7a652f"
+    }, 
+    "song_title": "Beautiful", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000022953_7305e1bfa23f_th.jpg", 
+    "song_artist": "Seeed", 
+    "favorite_count": 5, 
+    "uuid": "FFE79206-9FD4-4892-8FD6-BBE7C0BB5CF8"
+}

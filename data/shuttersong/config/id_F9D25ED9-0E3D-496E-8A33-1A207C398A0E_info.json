@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Happy Day!! ?", 
+    "created_at": "2015-08-21T12:47:53-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000017278_4fdd017dd1e3_1.ssng", 
+    "updated_at": "2015-12-22T20:36:53-05:00", 
+    "share_url": "https://a.sso.ng/1/4fdd017dd1e3", 
+    "audio_url": "https://s01.sso.ng/1/000000017278_4fdd017dd1e3_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000017278_4fdd017dd1e3_1_mr.jpg", 
+    "song_album": "Frank", 
+    "user": {
+        "username": "ILYFIGUEROA", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/36f69790-423c-4464-ad2b-cec8d4f2b439.jpg", 
+        "id": "36f69790-423c-4464-ad2b-cec8d4f2b439"
+    }, 
+    "song_title": "Take the Box", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000017278_4fdd017dd1e3_1_th.jpg", 
+    "song_artist": "Amy Winehouse", 
+    "favorite_count": 1, 
+    "uuid": "F9D25ED9-0E3D-496E-8A33-1A207C398A0E"
+}

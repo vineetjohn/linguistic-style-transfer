@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2764\ufe0f\u2764\ufe0f", 
+    "created_at": "2016-02-11T14:52:46-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eae6_77f50dfb8089.ssng", 
+    "updated_at": "2016-02-11T14:54:58-05:00", 
+    "share_url": "https://a.sso.ng/1/77f50dfb8089", 
+    "audio_url": "https://s02.sso.ng/1/00000003eae6_77f50dfb8089.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eae6_77f50dfb8089_mr.jpg", 
+    "song_album": "Luckiest Girl - Single", 
+    "user": {
+        "username": "kendraxdylan", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c5ff1cbf-d602-4b2b-ba9b-72b7dc228724.jpg", 
+        "id": "c5ff1cbf-d602-4b2b-ba9b-72b7dc228724"
+    }, 
+    "song_title": "Luckiest Girl", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eae6_77f50dfb8089_th.jpg", 
+    "song_artist": "Sarah Fisher, Chris Stylez &amp; Dan Smith", 
+    "favorite_count": 1, 
+    "uuid": "FD3C7F38-B900-438A-9710-CAFC019E1329"
+}

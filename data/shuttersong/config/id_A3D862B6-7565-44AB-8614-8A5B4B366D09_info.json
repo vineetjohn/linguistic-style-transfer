@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "JW ?", 
+    "created_at": "2015-08-12T17:40:24-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000023739_12c6ae7fa07e_1.ssng", 
+    "updated_at": "2015-08-18T23:41:02-04:00", 
+    "share_url": "https://a.sso.ng/1/12c6ae7fa07e", 
+    "audio_url": "https://s01.sso.ng/1/000000023739_12c6ae7fa07e_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000023739_12c6ae7fa07e_1_mr.jpg", 
+    "song_album": "A Piece of Me - EP", 
+    "user": {
+        "username": "Michelexcx", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Michele", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/37e7234e-ab9d-4af5-bfeb-d4255fff751f.jpg", 
+        "id": "37e7234e-ab9d-4af5-bfeb-d4255fff751f"
+    }, 
+    "song_title": "Ohio", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000023739_12c6ae7fa07e_1_th.jpg", 
+    "song_artist": "Jacob Whitesides", 
+    "favorite_count": 5, 
+    "uuid": "A3D862B6-7565-44AB-8614-8A5B4B366D09"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-19T07:28:53-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040135_35e9ef062ade.ssng", 
+    "updated_at": "2016-06-20T04:32:33-04:00", 
+    "share_url": "https://a.sso.ng/1/35e9ef062ade", 
+    "audio_url": "https://s02.sso.ng/1/000000040135_35e9ef062ade.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040135_35e9ef062ade_mr.jpg", 
+    "song_album": "Majestic (Deluxe Edition) [Live]", 
+    "user": {
+        "username": "ery_silva07", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1492d697-9029-41ac-95ef-58827635d70f"
+    }, 
+    "song_title": "Forever (Radio Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040135_35e9ef062ade_th.jpg", 
+    "song_artist": "Kari Jobe", 
+    "favorite_count": 2, 
+    "uuid": "5298047B-3ADF-425F-BE11-4261A320B21F"
+}

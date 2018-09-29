@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Ben is Iron Man!", 
+    "created_at": "2016-06-10T14:12:28-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044f05_71529cd2049d.ssng", 
+    "updated_at": "2016-06-11T10:03:23-04:00", 
+    "share_url": "https://a.sso.ng/1/71529cd2049d", 
+    "audio_url": "https://s02.sso.ng/1/000000044f05_71529cd2049d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044f05_71529cd2049d_mr.jpg", 
+    "song_album": "Paranoid", 
+    "user": {
+        "username": "danbeatty65", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "9e5b309d-8267-4e31-829a-74f6143dbfb6"
+    }, 
+    "song_title": "Iron Man", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044f05_71529cd2049d_th.jpg", 
+    "song_artist": "Black Sabbath", 
+    "favorite_count": 2, 
+    "uuid": "1246159A-03B3-44E1-BCB5-695FF46222D2"
+}

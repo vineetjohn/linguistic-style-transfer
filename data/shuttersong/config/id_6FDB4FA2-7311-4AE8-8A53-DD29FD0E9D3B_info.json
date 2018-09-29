@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "We're all mad here. \u2615\ufe0f", 
+    "created_at": "2016-05-05T18:17:21-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e027_81f179ca3cdc.ssng", 
+    "updated_at": "2016-05-06T13:43:59-04:00", 
+    "share_url": "https://a.sso.ng/1/81f179ca3cdc", 
+    "audio_url": "https://s02.sso.ng/1/00000003e027_81f179ca3cdc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e027_81f179ca3cdc_mr.jpg", 
+    "song_album": "Cry Baby (Deluxe Version)", 
+    "user": {
+        "username": "sp", 
+        "verified": true, 
+        "username_color": "", 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/15a2ad9f-dd3b-4ae5-b232-a9fa599472c8.jpg", 
+        "id": "15a2ad9f-dd3b-4ae5-b232-a9fa599472c8"
+    }, 
+    "song_title": "Mad Hatter", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e027_81f179ca3cdc_th.jpg", 
+    "song_artist": "Melanie Martinez", 
+    "favorite_count": 5, 
+    "uuid": "6FDB4FA2-7311-4AE8-8A53-DD29FD0E9D3B"
+}

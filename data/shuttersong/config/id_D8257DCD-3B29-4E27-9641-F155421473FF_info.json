@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-01T03:12:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002dc47_03708165d8a5.ssng", 
+    "updated_at": "2015-09-02T01:51:21-04:00", 
+    "share_url": "https://a.sso.ng/1/03708165d8a5", 
+    "audio_url": "https://s01.sso.ng/1/00000002dc47_03708165d8a5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002dc47_03708165d8a5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Vrthur", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "8515b077-9af6-4cf1-9c41-1da8ee0c2553"
+    }, 
+    "song_title": "Alive (Original Mix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002dc47_03708165d8a5_th.jpg", 
+    "song_artist": "Funkin Matt", 
+    "favorite_count": 1, 
+    "uuid": "D8257DCD-3B29-4E27-9641-F155421473FF"
+}

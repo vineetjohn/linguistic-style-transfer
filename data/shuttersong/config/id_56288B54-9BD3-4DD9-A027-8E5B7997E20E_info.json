@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-05T00:24:38-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020eca_2917e85e1fc1.ssng", 
+    "updated_at": "2015-08-05T00:24:38-04:00", 
+    "share_url": "https://a.sso.ng/1/2917e85e1fc1", 
+    "audio_url": "https://s01.sso.ng/1/000000020eca_2917e85e1fc1.m4a", 
+    "comment_count": 3, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020eca_2917e85e1fc1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "nyeli.c", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/53e1ddf7-0b5d-4451-ae1f-64d73abbceba.jpg", 
+        "id": "53e1ddf7-0b5d-4451-ae1f-64d73abbceba"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020eca_2917e85e1fc1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "56288B54-9BD3-4DD9-A027-8E5B7997E20E"
+}

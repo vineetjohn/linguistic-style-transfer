@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "This is a real friend \u270c?\ufe0f", 
+    "created_at": "2015-08-03T23:37:08-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e60_11d6d238be3c_1.ssng", 
+    "updated_at": "2015-08-03T23:37:32-04:00", 
+    "share_url": "https://a.sso.ng/1/11d6d238be3c", 
+    "audio_url": "https://s01.sso.ng/1/000000020e60_11d6d238be3c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e60_11d6d238be3c_1_mr.jpg", 
+    "song_album": "The 20/20 Experience (Deluxe Version)", 
+    "user": {
+        "username": "lolo1lorie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lorie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0322b7c9-fa5a-46ab-afde-f123ddfbfa4a.jpg", 
+        "id": "0322b7c9-fa5a-46ab-afde-f123ddfbfa4a"
+    }, 
+    "song_title": "Mirrors", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e60_11d6d238be3c_1_th.jpg", 
+    "song_artist": "Justin Timberlake", 
+    "favorite_count": 1, 
+    "uuid": "3CE60311-AFD1-412B-BA58-94B936AD88D7"
+}

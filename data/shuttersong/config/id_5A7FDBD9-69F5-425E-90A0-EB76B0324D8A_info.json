@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-22T15:32:39-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000034f0b_78025c091b55.ssng", 
+    "updated_at": "2015-12-22T15:36:29-05:00", 
+    "share_url": "https://a.sso.ng/1/78025c091b55", 
+    "audio_url": "https://s01.sso.ng/1/000000034f0b_78025c091b55.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000034f0b_78025c091b55_mr.jpg", 
+    "song_album": "A Girl Like Me", 
+    "user": {
+        "username": "melimartinezf", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/82b57045-18e4-499b-a767-23d1d0ebbb00.jpg", 
+        "id": "82b57045-18e4-499b-a767-23d1d0ebbb00"
+    }, 
+    "song_title": "California King Bed", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000034f0b_78025c091b55_th.jpg", 
+    "song_artist": "Rihanna", 
+    "favorite_count": 1, 
+    "uuid": "5A7FDBD9-69F5-425E-90A0-EB76B0324D8A"
+}

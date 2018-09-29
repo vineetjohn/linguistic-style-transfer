@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "?you can drown out all my troubles?", 
+    "created_at": "2015-08-07T11:24:42-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022b68_4ba2113fd920_1.ssng", 
+    "updated_at": "2015-08-07T13:32:39-04:00", 
+    "share_url": "https://a.sso.ng/1/4ba2113fd920", 
+    "audio_url": "https://s01.sso.ng/1/000000022b68_4ba2113fd920_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022b68_4ba2113fd920_1_mr.jpg", 
+    "song_album": "Flights - Single", 
+    "user": {
+        "username": "love.johnson", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "C.Johnson", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4970fef6-67bb-43c1-8f24-6fa89a6e69f1.jpg", 
+        "id": "4970fef6-67bb-43c1-8f24-6fa89a6e69f1"
+    }, 
+    "song_title": "Flights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022b68_4ba2113fd920_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "5910323D-5610-453B-9BCD-9AD51FE93DA2"
+}

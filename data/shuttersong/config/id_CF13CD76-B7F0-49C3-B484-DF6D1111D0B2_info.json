@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#jackandjack #jackjohnson #jackgilinsky", 
+    "created_at": "2015-08-03T20:51:13-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002055e_665539a6dfa5.ssng", 
+    "updated_at": "2015-10-24T15:54:21-04:00", 
+    "share_url": "https://a.sso.ng/1/665539a6dfa5", 
+    "audio_url": "https://s01.sso.ng/1/00000002055e_665539a6dfa5.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002055e_665539a6dfa5_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "montseflores", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Montse", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4541c6b-98da-4ff2-9a5f-3ffb951bba93.jpg", 
+        "id": "d4541c6b-98da-4ff2-9a5f-3ffb951bba93"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002055e_665539a6dfa5_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 3, 
+    "uuid": "CF13CD76-B7F0-49C3-B484-DF6D1111D0B2"
+}

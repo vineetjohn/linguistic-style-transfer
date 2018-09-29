@@ -1,0 +1,27 @@
+{
+    "mood": "agradecido", 
+    "caption": "???\u2728", 
+    "created_at": "2015-12-22T15:04:38-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002c329_10d010eaa0f2_1.ssng", 
+    "updated_at": "2015-12-22T15:29:20-05:00", 
+    "share_url": "https://a.sso.ng/1/10d010eaa0f2", 
+    "audio_url": "https://s01.sso.ng/1/00000002c329_10d010eaa0f2_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002c329_10d010eaa0f2_1_mr.jpg", 
+    "song_album": "Ain't Nobody (Loves Me Better)  - Single", 
+    "user": {
+        "username": "bishuus", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a2ab7030-f733-402c-a294-2fe3876c4bac.jpg", 
+        "id": "a2ab7030-f733-402c-a294-2fe3876c4bac"
+    }, 
+    "song_title": "Ain't Nobody (Loves Me Better) ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002c329_10d010eaa0f2_1_th.jpg", 
+    "song_artist": "Felix Jaehn ft. Jasmine Thompson", 
+    "favorite_count": 1, 
+    "uuid": "3A83F358-A9B0-42A0-94FD-96B3129970C6"
+}

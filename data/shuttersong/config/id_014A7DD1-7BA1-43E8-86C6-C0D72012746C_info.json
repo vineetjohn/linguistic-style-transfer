@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Buy Calibraska on iTunes", 
+    "created_at": "2015-08-03T23:58:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020d37_3fcc3d0ef13b_1.ssng", 
+    "updated_at": "2015-08-03T23:59:16-04:00", 
+    "share_url": "https://a.sso.ng/1/3fcc3d0ef13b", 
+    "audio_url": "https://s01.sso.ng/1/000000020d37_3fcc3d0ef13b_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020d37_3fcc3d0ef13b_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "JazminZepeda", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/99ea5f00-0487-4f81-8ad4-cb89422e648a.jpg", 
+        "id": "99ea5f00-0487-4f81-8ad4-cb89422e648a"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020d37_3fcc3d0ef13b_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "014A7DD1-7BA1-43E8-86C6-C0D72012746C"
+}

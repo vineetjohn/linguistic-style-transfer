@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I love this song @jackandjackofficial #contest", 
+    "created_at": "2015-08-17T04:23:22-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000023f2e_986be03cc6c8_4.ssng", 
+    "updated_at": "2015-08-17T11:17:58-04:00", 
+    "share_url": "https://a.sso.ng/1/986be03cc6c8", 
+    "audio_url": "https://s01.sso.ng/1/000000023f2e_986be03cc6c8_4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000023f2e_986be03cc6c8_4_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "majestyjacks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2a479ac3-9a9a-456a-9c99-b343eca546be.jpg", 
+        "id": "2a479ac3-9a9a-456a-9c99-b343eca546be"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000023f2e_986be03cc6c8_4_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "552878A9-6DBC-4BAA-9EBE-CF78D972EE0A"
+}

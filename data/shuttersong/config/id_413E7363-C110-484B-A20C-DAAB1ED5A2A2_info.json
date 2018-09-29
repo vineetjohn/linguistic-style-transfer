@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-20T12:50:07-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000301eb_5e0fc0d747d1.ssng", 
+    "updated_at": "2015-11-21T21:53:56-05:00", 
+    "share_url": "https://a.sso.ng/1/5e0fc0d747d1", 
+    "audio_url": "https://s01.sso.ng/1/0000000301eb_5e0fc0d747d1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000301eb_5e0fc0d747d1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "novaleedries", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "f3b43f00-dfbf-402d-8339-3fd3920f38b3"
+    }, 
+    "song_title": "Young Thug - With That (1)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000301eb_5e0fc0d747d1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "413E7363-C110-484B-A20C-DAAB1ED5A2A2"
+}

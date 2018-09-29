@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-16T09:15:15-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000030c7f_bb73a4d7d7e6.ssng", 
+    "updated_at": "2016-01-18T15:03:21-05:00", 
+    "share_url": "https://a.sso.ng/1/bb73a4d7d7e6", 
+    "audio_url": "https://s02.sso.ng/1/000000030c7f_bb73a4d7d7e6.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030c7f_bb73a4d7d7e6_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "doll21", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "bbf4ca4b-a649-456e-89cb-413037493f3a"
+    }, 
+    "song_title": "Zara_Larsson_MNEK_-_Never_Forget_You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030c7f_bb73a4d7d7e6_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "4BB7E7EA-9CF9-46A0-8A5A-F94F0798CF13"
+}

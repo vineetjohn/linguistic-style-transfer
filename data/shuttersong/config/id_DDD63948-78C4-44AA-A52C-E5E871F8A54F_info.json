@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": " idk how to use this app but hey !!! ", 
+    "created_at": "2015-08-05T18:34:27-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021ac6_b48176c7a854_1.ssng", 
+    "updated_at": "2015-08-05T18:34:53-04:00", 
+    "share_url": "https://a.sso.ng/1/b48176c7a854", 
+    "audio_url": "https://s01.sso.ng/1/000000021ac6_b48176c7a854_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021ac6_b48176c7a854_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "EXPLIClTJOHNSON", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "lexie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/62040c97-ede6-4e95-bd04-1103667797b1.jpg", 
+        "id": "62040c97-ede6-4e95-bd04-1103667797b1"
+    }, 
+    "song_title": "Shallow Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021ac6_b48176c7a854_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 3, 
+    "uuid": "DDD63948-78C4-44AA-A52C-E5E871F8A54F"
+}

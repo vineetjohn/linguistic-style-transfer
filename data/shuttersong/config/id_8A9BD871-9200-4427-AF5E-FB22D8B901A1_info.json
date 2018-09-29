@@ -1,0 +1,27 @@
+{
+    "mood": "Happy", 
+    "caption": "@beaub", 
+    "created_at": "2016-02-12T15:50:02-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e933_301e19fb653d.ssng", 
+    "updated_at": "2016-02-12T17:34:02-05:00", 
+    "share_url": "https://a.sso.ng/1/301e19fb653d", 
+    "audio_url": "https://s02.sso.ng/1/00000003e933_301e19fb653d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e933_301e19fb653d_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "plummyluke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b04ce8fd-5494-4dd5-8348-7677e1b82ec1.jpg", 
+        "id": "b04ce8fd-5494-4dd5-8348-7677e1b82ec1"
+    }, 
+    "song_title": "The Janoskians - Best Friends (Explicit)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e933_301e19fb653d_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "8A9BD871-9200-4427-AF5E-FB22D8B901A1"
+}

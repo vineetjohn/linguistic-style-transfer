@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Habibi", 
+    "created_at": "2016-03-30T18:02:35-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e876_3a3a7f6d9ab7.ssng", 
+    "updated_at": "2016-03-31T14:57:31-04:00", 
+    "share_url": "https://a.sso.ng/1/3a3a7f6d9ab7", 
+    "audio_url": "https://s02.sso.ng/1/00000003e876_3a3a7f6d9ab7.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e876_3a3a7f6d9ab7_mr.jpg", 
+    "song_album": "Habibi Love (I Need Your Love) [feat. Mohombi, Faydee & Costi] - Single", 
+    "user": {
+        "username": "joslynepov", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/298e610a-ea10-4a56-8b73-0b8097d356e6.jpg", 
+        "id": "298e610a-ea10-4a56-8b73-0b8097d356e6"
+    }, 
+    "song_title": "Habibi Love (I Need Your Love) [feat. Mohombi, Faydee & Costi]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e876_3a3a7f6d9ab7_th.jpg", 
+    "song_artist": "Shaggy", 
+    "favorite_count": 2, 
+    "uuid": "D2607F8D-59BB-46E1-BA3F-B835B5D5184E"
+}

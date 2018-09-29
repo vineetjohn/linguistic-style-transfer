@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo @KarinaR\u00e1mos", 
+    "created_at": "2016-01-01T23:47:21-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003624e_a13c514358f2.ssng", 
+    "updated_at": "2016-01-02T00:49:41-05:00", 
+    "share_url": "https://a.sso.ng/1/a13c514358f2", 
+    "audio_url": "https://s01.sso.ng/1/00000003624e_a13c514358f2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003624e_a13c514358f2_mr.jpg", 
+    "song_album": "V", 
+    "user": {
+        "username": "KarinaRamosR", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/44c3bc78-0323-4b57-9170-5de359cb29ae.jpg", 
+        "id": "44c3bc78-0323-4b57-9170-5de359cb29ae"
+    }, 
+    "song_title": "Feelings", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003624e_a13c514358f2_th.jpg", 
+    "song_artist": "Maroon 5 ", 
+    "favorite_count": 1, 
+    "uuid": "085724B0-5DB0-4DB1-9A6A-6A77B4FCE991"
+}

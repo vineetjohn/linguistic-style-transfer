@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-20T19:04:23-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000371be_89a340162612_2.ssng", 
+    "updated_at": "2015-12-21T15:12:10-05:00", 
+    "share_url": "https://a.sso.ng/1/89a340162612", 
+    "audio_url": "https://s01.sso.ng/1/0000000371be_89a340162612_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000371be_89a340162612_2_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Veronicalvarez22", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Veronica Alvarez", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/7a97dab0-2730-4f8a-af90-54437cfe5aab.jpg", 
+        "id": "7a97dab0-2730-4f8a-af90-54437cfe5aab"
+    }, 
+    "song_title": " A Little Too Much ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000371be_89a340162612_2_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "A17D8B33-048A-4753-97B7-1B1D6243FF55"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-02T22:03:54-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000374ac_f56ba461c4fe.ssng", 
+    "updated_at": "2016-01-03T13:57:41-05:00", 
+    "share_url": "https://a.sso.ng/1/f56ba461c4fe", 
+    "audio_url": "https://s01.sso.ng/1/0000000374ac_f56ba461c4fe.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000374ac_f56ba461c4fe_mr.jpg", 
+    "song_album": "5 Seconds of Summer", 
+    "user": {
+        "username": "Nikolle3102", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/da6a0714-dccf-4910-91ba-c2b608f2561a.jpg", 
+        "id": "da6a0714-dccf-4910-91ba-c2b608f2561a"
+    }, 
+    "song_title": "Wrapped Around Your Finger", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000374ac_f56ba461c4fe_th.jpg", 
+    "song_artist": "Don't Stop - EP", 
+    "favorite_count": 3, 
+    "uuid": "A507D56C-2603-4795-8B01-E1ADB262A2A2"
+}

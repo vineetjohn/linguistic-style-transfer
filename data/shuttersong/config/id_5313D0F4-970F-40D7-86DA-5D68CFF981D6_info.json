@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-27T21:11:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000401e9_8a693d2f628d.ssng", 
+    "updated_at": "2016-03-30T03:15:38-04:00", 
+    "share_url": "https://a.sso.ng/1/8a693d2f628d", 
+    "audio_url": "https://s02.sso.ng/1/0000000401e9_8a693d2f628d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000401e9_8a693d2f628d_mr.jpg", 
+    "song_album": "Alone in IZ World", 
+    "user": {
+        "username": "Sully1983", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "28de4ac6-4236-4702-8bf1-23075dba0336"
+    }, 
+    "song_title": "Somewhere Over the Rainbow", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000401e9_8a693d2f628d_th.jpg", 
+    "song_artist": "Israel Kamakawiwo'ole", 
+    "favorite_count": 1, 
+    "uuid": "5313D0F4-970F-40D7-86DA-5D68CFF981D6"
+}

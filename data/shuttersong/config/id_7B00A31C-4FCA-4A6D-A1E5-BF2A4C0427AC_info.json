@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-17T18:47:29-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024c66_2da8fbb75d5f.ssng", 
+    "updated_at": "2015-08-19T00:32:31-04:00", 
+    "share_url": "https://a.sso.ng/1/2da8fbb75d5f", 
+    "audio_url": "https://s01.sso.ng/1/000000024c66_2da8fbb75d5f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024c66_2da8fbb75d5f_mr.jpg", 
+    "song_album": "Dirty Heads", 
+    "user": {
+        "username": "icequeen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0989c656-dbd2-4688-a056-a32e41469d99.jpg", 
+        "id": "0989c656-dbd2-4688-a056-a32e41469d99"
+    }, 
+    "song_title": "Burn Slow ft. Tech N9ne (Audio Stream)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024c66_2da8fbb75d5f_th.jpg", 
+    "song_artist": "Dirty Heads", 
+    "favorite_count": 1, 
+    "uuid": "7B00A31C-4FCA-4A6D-A1E5-BF2A4C0427AC"
+}

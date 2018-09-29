@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "this is my favorite song by jack & jack whenever I listen to it I feel motivated ", 
+    "created_at": "2015-08-11T18:46:03-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002206c_63a143c1f23f_1.ssng", 
+    "updated_at": "2015-08-19T00:38:24-04:00", 
+    "share_url": "https://a.sso.ng/1/63a143c1f23f", 
+    "audio_url": "https://s01.sso.ng/1/00000002206c_63a143c1f23f_1.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002206c_63a143c1f23f_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "jackswildlife", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Arielle", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/637c09d3-4ee9-459d-ab1a-6ccd7c062cef.jpg", 
+        "id": "637c09d3-4ee9-459d-ab1a-6ccd7c062cef"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002206c_63a143c1f23f_1_th.jpg", 
+    "song_artist": "Jack & Jack ", 
+    "favorite_count": 7, 
+    "uuid": "5CD3AEDD-7314-45CF-B718-A255FBBEA192"
+}

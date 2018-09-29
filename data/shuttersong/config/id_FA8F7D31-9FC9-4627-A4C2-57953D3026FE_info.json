@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T08:45:57-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000216ae_f8494ecb9a08.ssng", 
+    "updated_at": "2015-08-04T08:45:57-04:00", 
+    "share_url": "https://a.sso.ng/1/f8494ecb9a08", 
+    "audio_url": "https://s01.sso.ng/1/0000000216ae_f8494ecb9a08.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000216ae_f8494ecb9a08_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "argosha", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Rita Molod", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d29186cb-d6fe-4f8c-bea4-13bacf0dc7c4.jpg", 
+        "id": "d29186cb-d6fe-4f8c-bea4-13bacf0dc7c4"
+    }, 
+    "song_title": "Meg Myers - Make a Shadow", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000216ae_f8494ecb9a08_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "FA8F7D31-9FC9-4627-A4C2-57953D3026FE"
+}

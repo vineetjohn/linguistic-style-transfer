@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-07T10:19:37-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000022957_a266a0be5dcf.ssng", 
+    "updated_at": "2015-08-07T10:19:37-04:00", 
+    "share_url": "https://a.sso.ng/1/a266a0be5dcf", 
+    "audio_url": "https://s01.sso.ng/1/000000022957_a266a0be5dcf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000022957_a266a0be5dcf_mr.jpg", 
+    "song_album": "Monsters In the Closet (Deluxe Edition)", 
+    "user": {
+        "username": "Jazmin.Gutierrez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/22de4210-4dd7-45a4-a775-437dbda184c4.jpg", 
+        "id": "22de4210-4dd7-45a4-a775-437dbda184c4"
+    }, 
+    "song_title": "Hold onto Me", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000022957_a266a0be5dcf_th.jpg", 
+    "song_artist": "Mayday Parade", 
+    "favorite_count": 1, 
+    "uuid": "4E5284AE-67E8-4997-A63D-605A59B530B1"
+}

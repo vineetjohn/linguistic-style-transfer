@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-08-22T22:16:56-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002b3aa_9ce1ca31e8a7_1.ssng", 
+    "updated_at": "2015-08-23T00:25:47-04:00", 
+    "share_url": "https://a.sso.ng/1/9ce1ca31e8a7", 
+    "audio_url": "https://s01.sso.ng/1/00000002b3aa_9ce1ca31e8a7_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002b3aa_9ce1ca31e8a7_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "AlixVidal", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4eddb0a2-b514-4fdb-bb40-816f483d909c.jpg", 
+        "id": "4eddb0a2-b514-4fdb-bb40-816f483d909c"
+    }, 
+    "song_title": "MAGIC_ - Rude", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002b3aa_9ce1ca31e8a7_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "A1775E01-6575-4C1B-90A1-69E98E1B5E51"
+}

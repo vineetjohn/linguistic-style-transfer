@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-14T18:02:44-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_ad53772b668f.ssng", 
+    "updated_at": "2016-05-14T19:55:33-04:00", 
+    "share_url": "https://a.sso.ng/1/ad53772b668f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_ad53772b668f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_ad53772b668f_mr.jpg", 
+    "song_album": "5 Seconds of Summer (Deluxe)", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "She Looks So Perfect", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_ad53772b668f_th.jpg", 
+    "song_artist": "5 Seconds of Summer", 
+    "favorite_count": 1, 
+    "uuid": "548E17E7-723C-4963-BB48-6577A88946AE"
+}

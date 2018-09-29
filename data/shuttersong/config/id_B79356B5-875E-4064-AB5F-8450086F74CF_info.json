@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-06-10T11:01:56-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044d01_ff1f9071d5d3.ssng", 
+    "updated_at": "2016-06-12T10:40:59-04:00", 
+    "share_url": "https://a.sso.ng/1/ff1f9071d5d3", 
+    "audio_url": "https://s02.sso.ng/1/000000044d01_ff1f9071d5d3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044d01_ff1f9071d5d3_mr.jpg", 
+    "song_album": "100 Hits Car Songs - CD5", 
+    "user": {
+        "username": "ankit1063", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0299c9fb-05ae-4883-aa5d-8877daa11e90.jpg", 
+        "id": "0299c9fb-05ae-4883-aa5d-8877daa11e90"
+    }, 
+    "song_title": "Never Gonna Give You Up (7\"\" Mix) - Rick Astley", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044d01_ff1f9071d5d3_th.jpg", 
+    "song_artist": "Various", 
+    "favorite_count": 2, 
+    "uuid": "B79356B5-875E-4064-AB5F-8450086F74CF"
+}

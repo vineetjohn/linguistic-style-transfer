@@ -1,0 +1,27 @@
+{
+    "mood": "relaxed", 
+    "caption": "Luke\u2764\ufe0f", 
+    "created_at": "2016-02-11T21:03:02-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eb2a_09dc3596b293.ssng", 
+    "updated_at": "2016-02-26T22:49:14-05:00", 
+    "share_url": "https://a.sso.ng/1/09dc3596b293", 
+    "audio_url": "https://s02.sso.ng/1/00000003eb2a_09dc3596b293.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eb2a_09dc3596b293_mr.jpg", 
+    "song_album": "Picture Show", 
+    "user": {
+        "username": "lukethelamp", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ashlyn", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6b3edea2-cea3-4de3-9d8a-21906f72fc7b.jpg", 
+        "id": "6b3edea2-cea3-4de3-9d8a-21906f72fc7b"
+    }, 
+    "song_title": "Everybody Talks", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eb2a_09dc3596b293_th.jpg", 
+    "song_artist": "Neon Trees", 
+    "favorite_count": 7, 
+    "uuid": "7EE11D17-41CD-4DFA-AE0B-0D4DEBA08FE5"
+}

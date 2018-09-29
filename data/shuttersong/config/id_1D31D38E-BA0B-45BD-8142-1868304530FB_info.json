@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "The view thou", 
+    "created_at": "2016-03-16T20:22:24-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e336_999eb065515e.ssng", 
+    "updated_at": "2016-05-17T08:38:36-04:00", 
+    "share_url": "https://a.sso.ng/1/999eb065515e", 
+    "audio_url": "https://s02.sso.ng/1/00000003e336_999eb065515e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e336_999eb065515e_mr.jpg", 
+    "song_album": "Good Feeling - Single", 
+    "user": {
+        "username": "Jamie_Lynn8218", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Jamie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0015119b-7099-4378-993a-2e5f290a9104.jpg", 
+        "id": "0015119b-7099-4378-993a-2e5f290a9104"
+    }, 
+    "song_title": "Good Feeling", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e336_999eb065515e_th.jpg", 
+    "song_artist": "Flo Rida", 
+    "favorite_count": 4, 
+    "uuid": "1D31D38E-BA0B-45BD-8142-1868304530FB"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "calm", 
+    "caption": "Photoshoot in the woods \ud83c\udf32\ud83c\udf32", 
+    "created_at": "2016-06-07T21:30:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000020c39_6ef3f6646f0f.ssng", 
+    "updated_at": "2016-06-16T00:45:09-04:00", 
+    "share_url": "https://a.sso.ng/1/6ef3f6646f0f", 
+    "audio_url": "https://s02.sso.ng/1/000000020c39_6ef3f6646f0f.m4a", 
+    "comment_count": 2, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000020c39_6ef3f6646f0f_mr.jpg", 
+    "song_album": "I Know What You Did Last Summer (feat. Kelly Rowland) - Single", 
+    "user": {
+        "username": "KenzieS", 
+        "verified": false, 
+        "username_color": "#F95E59", 
+        "full_name": "Kenzie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0143701c-03a1-476e-b2cc-761410bcb8d2.jpg", 
+        "id": "0143701c-03a1-476e-b2cc-761410bcb8d2"
+    }, 
+    "song_title": "I Know What You Did Last Summer (feat. Kelly Rowland)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000020c39_6ef3f6646f0f_th.jpg", 
+    "song_artist": "Jacob Whitesides", 
+    "favorite_count": 7, 
+    "uuid": "EDD5A1B8-3D4C-4355-B829-0706491E637A"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\ude0b", 
+    "created_at": "2016-05-18T23:27:55-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e821_1328cc77b676.ssng", 
+    "updated_at": "2016-06-15T12:14:11-04:00", 
+    "share_url": "https://a.sso.ng/1/1328cc77b676", 
+    "audio_url": "https://s02.sso.ng/1/00000003e821_1328cc77b676.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e821_1328cc77b676_mr.jpg", 
+    "song_album": "Melbourne Bounce", 
+    "user": {
+        "username": "Annini", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/09e1fb3d-69fa-4375-93a4-008fc02e1b34.jpg", 
+        "id": "09e1fb3d-69fa-4375-93a4-008fc02e1b34"
+    }, 
+    "song_title": "Melbourne Bounce (Deorro Remix) [feat. BIG NAB]", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e821_1328cc77b676_th.jpg", 
+    "song_artist": "Orkestrated & Fries & Shine", 
+    "favorite_count": 2, 
+    "uuid": "AF949697-E24C-4875-9B23-42508F05DD05"
+}

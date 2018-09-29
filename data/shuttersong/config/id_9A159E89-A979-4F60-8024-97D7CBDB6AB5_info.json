@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-18T04:20:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045617_115af2398ca9.ssng", 
+    "updated_at": "2016-06-24T02:58:42-04:00", 
+    "share_url": "https://a.sso.ng/1/115af2398ca9", 
+    "audio_url": "https://s02.sso.ng/1/000000045617_115af2398ca9.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045617_115af2398ca9_mr.jpg", 
+    "song_album": "The Essential Van Morrison", 
+    "user": {
+        "username": "SherreeRossetto", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7b286b3a-f748-43c4-81d6-342b144daaa5"
+    }, 
+    "song_title": "Someone Like You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045617_115af2398ca9_th.jpg", 
+    "song_artist": "Van Morrison", 
+    "favorite_count": 3, 
+    "uuid": "9A159E89-A979-4F60-8024-97D7CBDB6AB5"
+}

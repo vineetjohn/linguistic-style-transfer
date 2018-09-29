@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "My favourite place in the world", 
+    "created_at": "2015-09-11T13:51:34-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000001f449_0c3c92808eb0_1.ssng", 
+    "updated_at": "2015-12-31T07:21:29-05:00", 
+    "share_url": "https://a.sso.ng/1/0c3c92808eb0", 
+    "audio_url": "https://s01.sso.ng/1/00000001f449_0c3c92808eb0_1.m4a", 
+    "comment_count": 3, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000001f449_0c3c92808eb0_1_mr.jpg", 
+    "song_album": "Man Alive", 
+    "user": {
+        "username": "KTrose", 
+        "verified": false, 
+        "username_color": "#28c4d8", 
+        "full_name": "Caitlin", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4b3b27a-e8ee-4bec-bb54-b00569986ac2.jpg", 
+        "id": "d4b3b27a-e8ee-4bec-bb54-b00569986ac2"
+    }, 
+    "song_title": "Photoshop Handsome", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000001f449_0c3c92808eb0_1_th.jpg", 
+    "song_artist": "Everything Everything", 
+    "favorite_count": 5, 
+    "uuid": "543001B3-3D25-4C11-9323-CF62221A1F74"
+}

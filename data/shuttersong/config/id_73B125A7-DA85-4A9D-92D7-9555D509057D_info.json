@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Why aren't you smiling? ?", 
+    "created_at": "2015-08-26T17:30:52-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021f1d_9639ef964f8f_1.ssng", 
+    "updated_at": "2015-08-27T19:14:43-04:00", 
+    "share_url": "https://a.sso.ng/1/9639ef964f8f", 
+    "audio_url": "https://s01.sso.ng/1/000000021f1d_9639ef964f8f_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021f1d_9639ef964f8f_1_mr.jpg", 
+    "song_album": "Souled Out (Deluxe Edition)", 
+    "user": {
+        "username": "YeetLords", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "TicTacWilk", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a0c458f6-e28a-46e7-be2a-5a30b7a81549.jpg", 
+        "id": "a0c458f6-e28a-46e7-be2a-5a30b7a81549"
+    }, 
+    "song_title": "W.A.Y.S.", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021f1d_9639ef964f8f_1_th.jpg", 
+    "song_artist": "Jhen\u00e9 Aiko", 
+    "favorite_count": 1, 
+    "uuid": "73B125A7-DA85-4A9D-92D7-9555D509057D"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "???", 
+    "created_at": "2015-08-23T12:02:38-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002bb80_2ecd0fc13f38.ssng", 
+    "updated_at": "2015-08-26T11:56:59-04:00", 
+    "share_url": "https://a.sso.ng/1/2ecd0fc13f38", 
+    "audio_url": "https://s01.sso.ng/1/00000002bb80_2ecd0fc13f38.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002bb80_2ecd0fc13f38_mr.jpg", 
+    "song_album": "The Freewheelin' Bob Dylan", 
+    "user": {
+        "username": "Gabrielakol", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "16e964fa-10a1-493b-abb0-a8a5de7c372b"
+    }, 
+    "song_title": "Blowin' in the Wind", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002bb80_2ecd0fc13f38_th.jpg", 
+    "song_artist": "Bob Dylan", 
+    "favorite_count": 1, 
+    "uuid": "F57EAA0B-0311-4A0B-86CB-390CF1DC8054"
+}

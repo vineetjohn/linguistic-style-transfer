@@ -1,0 +1,27 @@
+{
+    "mood": "sleepy", 
+    "caption": "\ud83c\udf03", 
+    "created_at": "2016-05-02T16:26:42-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e1e3_1361ff7c793f.ssng", 
+    "updated_at": "2016-05-02T19:02:58-04:00", 
+    "share_url": "https://a.sso.ng/1/1361ff7c793f", 
+    "audio_url": "https://s02.sso.ng/1/00000003e1e3_1361ff7c793f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e1e3_1361ff7c793f_mr.jpg", 
+    "song_album": "One Dance (Single)", 
+    "user": {
+        "username": "Ria.Shoker", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Ria Shoker", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4a1a2045-0246-4941-817f-1a2aac2bb05f.jpg", 
+        "id": "4a1a2045-0246-4941-817f-1a2aac2bb05f"
+    }, 
+    "song_title": "One Dance", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e1e3_1361ff7c793f_th.jpg", 
+    "song_artist": "Drake Feat. Wizkid & Kyla", 
+    "favorite_count": 1, 
+    "uuid": "A0DC7ECE-F49E-4844-BA8C-052F7C6751CA"
+}

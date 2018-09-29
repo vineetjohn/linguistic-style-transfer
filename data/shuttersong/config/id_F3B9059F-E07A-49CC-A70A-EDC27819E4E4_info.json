@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "#Relax", 
+    "created_at": "2016-04-03T21:27:28-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004083d_bb295cf85e54.ssng", 
+    "updated_at": "2016-04-04T10:47:32-04:00", 
+    "share_url": "https://a.sso.ng/1/bb295cf85e54", 
+    "audio_url": "https://s02.sso.ng/1/00000004083d_bb295cf85e54.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004083d_bb295cf85e54_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "MilenaFleitas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/4a2f3b2d-5569-4c89-b630-967ef6571b6e.jpg", 
+        "id": "4a2f3b2d-5569-4c89-b630-967ef6571b6e"
+    }, 
+    "song_title": "Sia - Elastic Heart feat. Shia LaBeouf & Maddie Ziegler (Official Video)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004083d_bb295cf85e54_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "F3B9059F-E07A-49CC-A70A-EDC27819E4E4"
+}

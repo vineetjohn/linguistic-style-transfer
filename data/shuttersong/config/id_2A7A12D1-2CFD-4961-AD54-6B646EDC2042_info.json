@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-12-18T00:52:00-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000033b2d_69ba66269ecd_1.ssng", 
+    "updated_at": "2015-12-18T23:51:11-05:00", 
+    "share_url": "https://a.sso.ng/1/69ba66269ecd", 
+    "audio_url": "https://s01.sso.ng/1/000000033b2d_69ba66269ecd_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000033b2d_69ba66269ecd_1_mr.jpg", 
+    "song_album": "Dust Clears (Remixes) - EP", 
+    "user": {
+        "username": "sahyhernandez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c928bbda-061f-48e6-8f69-017c69da2f98.jpg", 
+        "id": "c928bbda-061f-48e6-8f69-017c69da2f98"
+    }, 
+    "song_title": "Dust Clears", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000033b2d_69ba66269ecd_1_th.jpg", 
+    "song_artist": "Clean Bandit", 
+    "favorite_count": 7, 
+    "uuid": "2A7A12D1-2CFD-4961-AD54-6B646EDC2042"
+}

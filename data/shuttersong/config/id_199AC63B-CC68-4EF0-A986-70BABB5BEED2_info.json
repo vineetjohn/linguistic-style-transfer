@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "relax", 
+    "created_at": "2016-01-01T22:36:45-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036931_e249300739a8.ssng", 
+    "updated_at": "2016-01-02T00:50:13-05:00", 
+    "share_url": "https://a.sso.ng/1/e249300739a8", 
+    "audio_url": "https://s01.sso.ng/1/000000036931_e249300739a8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036931_e249300739a8_mr.jpg", 
+    "song_album": "Creed", 
+    "user": {
+        "username": "pollock23", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "maria pollock", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/cd3a4553-93f8-4c1d-bb17-7f2b68ef43f5.jpg", 
+        "id": "cd3a4553-93f8-4c1d-bb17-7f2b68ef43f5"
+    }, 
+    "song_title": "My Sacrifice", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036931_e249300739a8_th.jpg", 
+    "song_artist": "Weathered", 
+    "favorite_count": 1, 
+    "uuid": "199AC63B-CC68-4EF0-A986-70BABB5BEED2"
+}

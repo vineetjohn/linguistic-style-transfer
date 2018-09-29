@@ -1,0 +1,27 @@
+{
+    "mood": "Cheeky", 
+    "caption": "@brooksluke", 
+    "created_at": "2016-03-02T06:32:26-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e2ae_f53e5930d42c.ssng", 
+    "updated_at": "2016-03-02T16:38:06-05:00", 
+    "share_url": "https://a.sso.ng/1/f53e5930d42c", 
+    "audio_url": "https://s02.sso.ng/1/00000003e2ae_f53e5930d42c.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e2ae_f53e5930d42c_mr.jpg", 
+    "song_album": "Miley Cyrus & Her Dead Petz", 
+    "user": {
+        "username": "ExplicitLuke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/cf77944c-c712-402e-b2f7-0faba4dedc4a.jpg", 
+        "id": "cf77944c-c712-402e-b2f7-0faba4dedc4a"
+    }, 
+    "song_title": "Bang Me Box", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e2ae_f53e5930d42c_th.jpg", 
+    "song_artist": "Miley Cyrus", 
+    "favorite_count": 2, 
+    "uuid": "A467E965-4659-4D83-A50C-C9E9DC4360BF"
+}

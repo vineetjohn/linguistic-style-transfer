@@ -1,0 +1,27 @@
+{
+    "mood": "ensam", 
+    "caption": "I'd rather be with you ?", 
+    "created_at": "2016-02-22T09:37:11-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e8bb_00808398d6d3.ssng", 
+    "updated_at": "2016-02-24T17:04:10-05:00", 
+    "share_url": "https://a.sso.ng/1/00808398d6d3", 
+    "audio_url": "https://s02.sso.ng/1/00000003e8bb_00808398d6d3.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e8bb_00808398d6d3_mr.jpg", 
+    "song_album": "Simple Times", 
+    "user": {
+        "username": "lukesshavedface", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/35d5b4c6-f225-4c92-9b2f-b7cf752dc249.jpg", 
+        "id": "35d5b4c6-f225-4c92-9b2f-b7cf752dc249"
+    }, 
+    "song_title": "I'd Rather Be With You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e8bb_00808398d6d3_th.jpg", 
+    "song_artist": "Joshua Radin", 
+    "favorite_count": 4, 
+    "uuid": "6041608C-8EB6-41E5-9EA9-D3F113994983"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Favorite person , favorite song .", 
+    "created_at": "2015-08-04T14:46:39-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000219c5_ff9f35f61c97_1.ssng", 
+    "updated_at": "2015-08-04T14:47:26-04:00", 
+    "share_url": "https://a.sso.ng/1/ff9f35f61c97", 
+    "audio_url": "https://s01.sso.ng/1/0000000219c5_ff9f35f61c97_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000219c5_ff9f35f61c97_1_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "emma.7879", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b9742cee-641e-41e5-a494-f5836c6359d1"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000219c5_ff9f35f61c97_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "B53C25BF-8B06-49D6-B9BB-A0F9AD72C6A7"
+}

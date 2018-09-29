@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Like that. #jackandjack #jackjohnson #jackgilinsky", 
+    "created_at": "2015-08-04T17:40:09-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021ae5_2669f7221172_1.ssng", 
+    "updated_at": "2015-10-24T17:03:30-04:00", 
+    "share_url": "https://a.sso.ng/1/2669f7221172", 
+    "audio_url": "https://s01.sso.ng/1/000000021ae5_2669f7221172_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021ae5_2669f7221172_1_mr.jpg", 
+    "song_album": "Like That (feat. Skate) - Single", 
+    "user": {
+        "username": "alyssa_garza15", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Alyssa Garza", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/5a531f0e-ea6d-420e-bc5c-101b3b87fe14.jpg", 
+        "id": "5a531f0e-ea6d-420e-bc5c-101b3b87fe14"
+    }, 
+    "song_title": "Like That (feat. Skate)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021ae5_2669f7221172_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 5, 
+    "uuid": "FAC5B10A-6029-47FD-A746-59DFB2ECB903"
+}

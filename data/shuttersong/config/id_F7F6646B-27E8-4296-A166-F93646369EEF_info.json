@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-26T06:59:50-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003669a_6b0a9f47e5cc.ssng", 
+    "updated_at": "2015-12-27T14:22:22-05:00", 
+    "share_url": "https://a.sso.ng/1/6b0a9f47e5cc", 
+    "audio_url": "https://s01.sso.ng/1/00000003669a_6b0a9f47e5cc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003669a_6b0a9f47e5cc_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "Anndrea_Fuentes", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Andrea Fuentes.", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a8200bdb-cf35-4ce9-b059-d674b290c5f8.jpg", 
+        "id": "a8200bdb-cf35-4ce9-b059-d674b290c5f8"
+    }, 
+    "song_title": "The Troubles", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003669a_6b0a9f47e5cc_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 1, 
+    "uuid": "F7F6646B-27E8-4296-A166-F93646369EEF"
+}

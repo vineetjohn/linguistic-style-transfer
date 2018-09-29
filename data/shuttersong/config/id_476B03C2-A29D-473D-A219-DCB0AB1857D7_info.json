@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo mi usuario: Celeste Amaya", 
+    "created_at": "2015-12-18T22:33:24-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000031f66_d374c3cbcbdb.ssng", 
+    "updated_at": "2015-12-21T12:16:42-05:00", 
+    "share_url": "https://a.sso.ng/1/d374c3cbcbdb", 
+    "audio_url": "https://s01.sso.ng/1/000000031f66_d374c3cbcbdb.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000031f66_d374c3cbcbdb_mr.jpg", 
+    "song_album": "The Very Best Of The Eagles", 
+    "user": {
+        "username": "celesteamaya", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/611fe9e4-f838-4961-89c0-311d9011c48d.jpg", 
+        "id": "611fe9e4-f838-4961-89c0-311d9011c48d"
+    }, 
+    "song_title": "Best Of My Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000031f66_d374c3cbcbdb_th.jpg", 
+    "song_artist": "The Eagles", 
+    "favorite_count": 2, 
+    "uuid": "476B03C2-A29D-473D-A219-DCB0AB1857D7"
+}

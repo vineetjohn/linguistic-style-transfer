@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T15:45:25-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021a1f_3edb62fad140.ssng", 
+    "updated_at": "2015-08-04T15:45:25-04:00", 
+    "share_url": "https://a.sso.ng/1/3edb62fad140", 
+    "audio_url": "https://s01.sso.ng/1/000000021a1f_3edb62fad140.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021a1f_3edb62fad140_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "lisebellemin", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/76e01b24-8843-4120-920b-f7f6e1ee9db6.jpg", 
+        "id": "76e01b24-8843-4120-920b-f7f6e1ee9db6"
+    }, 
+    "song_title": "Jack and Jack - Paradise (Never Change) (Lyrics)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021a1f_3edb62fad140_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "0181CD96-022A-4778-8FE5-29E08D670B74"
+}

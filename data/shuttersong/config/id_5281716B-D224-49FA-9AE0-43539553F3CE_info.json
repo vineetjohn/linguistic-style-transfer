@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:11:57-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020bb5_bc2aca6ff615.ssng", 
+    "updated_at": "2015-08-03T23:11:57-04:00", 
+    "share_url": "https://a.sso.ng/1/bc2aca6ff615", 
+    "audio_url": "https://s01.sso.ng/1/000000020bb5_bc2aca6ff615.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020bb5_bc2aca6ff615_mr.jpg", 
+    "song_album": "Flights - Single", 
+    "user": {
+        "username": "ciriloaileen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c1b215fe-8aed-471f-b543-2991c31e09de"
+    }, 
+    "song_title": "Flights", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020bb5_bc2aca6ff615_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "5281716B-D224-49FA-9AE0-43539553F3CE"
+}

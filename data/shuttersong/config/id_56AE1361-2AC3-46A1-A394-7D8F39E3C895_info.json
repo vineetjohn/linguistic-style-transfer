@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Whenever you smile, I smile ?", 
+    "created_at": "2015-08-04T20:50:18-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020e7c_4373ce171dec_1.ssng", 
+    "updated_at": "2015-08-04T20:50:39-04:00", 
+    "share_url": "https://a.sso.ng/1/4373ce171dec", 
+    "audio_url": "https://s01.sso.ng/1/000000020e7c_4373ce171dec_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020e7c_4373ce171dec_1_mr.jpg", 
+    "song_album": "My World 2.0", 
+    "user": {
+        "username": "dishaa17", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "I love Jack and Jack", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ca7edd3f-2712-48d5-b0ac-5138d2091999.jpg", 
+        "id": "ca7edd3f-2712-48d5-b0ac-5138d2091999"
+    }, 
+    "song_title": "U Smile", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020e7c_4373ce171dec_1_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "56AE1361-2AC3-46A1-A394-7D8F39E3C895"
+}

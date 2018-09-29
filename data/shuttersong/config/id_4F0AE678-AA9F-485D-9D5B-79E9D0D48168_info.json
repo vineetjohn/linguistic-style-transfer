@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-12T16:10:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020dd8_01583c0b7ec4.ssng", 
+    "updated_at": "2015-08-12T19:12:57-04:00", 
+    "share_url": "https://a.sso.ng/1/01583c0b7ec4", 
+    "audio_url": "https://s01.sso.ng/1/000000020dd8_01583c0b7ec4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020dd8_01583c0b7ec4_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "aliyahbernal", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/65cef5cc-a54a-4d7d-a249-ac4ebd42ee01.jpg", 
+        "id": "65cef5cc-a54a-4d7d-a249-ac4ebd42ee01"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020dd8_01583c0b7ec4_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "4F0AE678-AA9F-485D-9D5B-79E9D0D48168"
+}

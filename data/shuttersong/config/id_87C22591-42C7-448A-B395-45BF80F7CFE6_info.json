@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f", 
+    "created_at": "2016-02-16T16:36:34-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e409_c5d306b11a59.ssng", 
+    "updated_at": "2016-02-16T18:41:40-05:00", 
+    "share_url": "https://a.sso.ng/1/c5d306b11a59", 
+    "audio_url": "https://s02.sso.ng/1/00000003e409_c5d306b11a59.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e409_c5d306b11a59_mr.jpg", 
+    "song_album": "Teenage Desperate - Single", 
+    "user": {
+        "username": "beausgalxx", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a7eb3820-163b-4a7a-9716-27b91000a88c.jpg", 
+        "id": "a7eb3820-163b-4a7a-9716-27b91000a88c"
+    }, 
+    "song_title": "Teenage Desperate", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e409_c5d306b11a59_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 1, 
+    "uuid": "87C22591-42C7-448A-B395-45BF80F7CFE6"
+}

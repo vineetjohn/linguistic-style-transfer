@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Ain't 21 but we pop champagne ??", 
+    "created_at": "2015-08-04T00:20:47-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002055e_a33c06b53b26_1.ssng", 
+    "updated_at": "2015-08-04T00:23:01-04:00", 
+    "share_url": "https://a.sso.ng/1/a33c06b53b26", 
+    "audio_url": "https://s01.sso.ng/1/00000002055e_a33c06b53b26_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002055e_a33c06b53b26_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "montseflores", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Montse", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d4541c6b-98da-4ff2-9a5f-3ffb951bba93.jpg", 
+        "id": "d4541c6b-98da-4ff2-9a5f-3ffb951bba93"
+    }, 
+    "song_title": "How We Livin", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002055e_a33c06b53b26_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 2, 
+    "uuid": "C0260FAE-8871-4ACD-9FBC-1C65361F4762"
+}

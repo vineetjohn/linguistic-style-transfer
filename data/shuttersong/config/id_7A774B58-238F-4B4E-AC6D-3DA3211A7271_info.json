@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Jaja que trat\u00f3 es el primer d\u00eda que lo uso", 
+    "created_at": "2016-01-19T21:37:00-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d935_462b0605488e.ssng", 
+    "updated_at": "2016-01-20T03:27:24-05:00", 
+    "share_url": "https://a.sso.ng/1/462b0605488e", 
+    "audio_url": "https://s02.sso.ng/1/00000003d935_462b0605488e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d935_462b0605488e_mr.jpg", 
+    "song_album": "Songs of Innocence", 
+    "user": {
+        "username": "chiippi.2004", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "15594de1-629b-454f-861f-c441aca10c28"
+    }, 
+    "song_title": "California (There Is No End to Love)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d935_462b0605488e_th.jpg", 
+    "song_artist": "U2", 
+    "favorite_count": 1, 
+    "uuid": "7A774B58-238F-4B4E-AC6D-3DA3211A7271"
+}

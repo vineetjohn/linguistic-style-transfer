@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-04T09:46:30-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020bb5_33c5a5e00f9a.ssng", 
+    "updated_at": "2015-08-04T09:46:30-04:00", 
+    "share_url": "https://a.sso.ng/1/33c5a5e00f9a", 
+    "audio_url": "https://s01.sso.ng/1/000000020bb5_33c5a5e00f9a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020bb5_33c5a5e00f9a_mr.jpg", 
+    "song_album": "Tides - Single", 
+    "user": {
+        "username": "ciriloaileen", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "c1b215fe-8aed-471f-b543-2991c31e09de"
+    }, 
+    "song_title": "Tides", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020bb5_33c5a5e00f9a_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "A0F6AD65-EC56-47C5-B156-3F53B8FA17B2"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-28T08:33:10-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002e3f4_1e250f9c90a8.ssng", 
+    "updated_at": "2015-09-29T20:28:00-04:00", 
+    "share_url": "https://a.sso.ng/1/1e250f9c90a8", 
+    "audio_url": "https://s01.sso.ng/1/00000002e3f4_1e250f9c90a8.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002e3f4_1e250f9c90a8_mr.jpg", 
+    "song_album": "What We Saw From The Cheap Seats", 
+    "user": {
+        "username": "otakusenpaii", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "d045192e-076c-4815-9366-0fca26ae6854"
+    }, 
+    "song_title": "Don't Leave Me (Ne Me Quitte Pas) ", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002e3f4_1e250f9c90a8_th.jpg", 
+    "song_artist": "Regina Spektor", 
+    "favorite_count": 1, 
+    "uuid": "0E88D57A-843B-411B-8EB2-450DA8814CE9"
+}

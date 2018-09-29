@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Janoskians???", 
+    "created_at": "2016-02-12T04:36:05-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ec42_16e1d99eacab.ssng", 
+    "updated_at": "2016-05-15T19:37:51-04:00", 
+    "share_url": "https://a.sso.ng/1/16e1d99eacab", 
+    "audio_url": "https://s02.sso.ng/1/00000003ec42_16e1d99eacab.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ec42_16e1d99eacab_mr.jpg", 
+    "song_album": "Best Friends", 
+    "user": {
+        "username": "janoskians_098", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8acf9f3a-848f-4e92-bce5-ac02cb39d31c.jpg", 
+        "id": "8acf9f3a-848f-4e92-bce5-ac02cb39d31c"
+    }, 
+    "song_title": "Best Friends", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ec42_16e1d99eacab_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 2, 
+    "uuid": "4CA9844D-F6A0-4520-B117-B1BB5E1E8C3B"
+}

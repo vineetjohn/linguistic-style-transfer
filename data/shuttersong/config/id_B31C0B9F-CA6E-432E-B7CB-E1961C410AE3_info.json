@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "DAMN DANIEL ?", 
+    "created_at": "2016-03-06T20:28:32-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e724_d2a1fa3cce02.ssng", 
+    "updated_at": "2016-04-30T09:07:02-04:00", 
+    "share_url": "https://a.sso.ng/1/d2a1fa3cce02", 
+    "audio_url": "https://s02.sso.ng/1/00000003e724_d2a1fa3cce02.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e724_d2a1fa3cce02_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "ageofteens", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "alexia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/658bd815-d8a9-42c7-b166-bf96697c0cd6.jpg", 
+        "id": "658bd815-d8a9-42c7-b166-bf96697c0cd6"
+    }, 
+    "song_title": "Under the Bridge", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e724_d2a1fa3cce02_th.jpg", 
+    "song_artist": "Red Hot Chilli Peppers", 
+    "favorite_count": 7, 
+    "uuid": "B31C0B9F-CA6E-432E-B7CB-E1961C410AE3"
+}

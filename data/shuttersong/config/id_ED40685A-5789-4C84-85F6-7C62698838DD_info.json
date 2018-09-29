@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "my boysss ", 
+    "created_at": "2015-08-04T05:50:55-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002157b_ec61464af9bb_1.ssng", 
+    "updated_at": "2015-08-04T05:51:30-04:00", 
+    "share_url": "https://a.sso.ng/1/ec61464af9bb", 
+    "audio_url": "https://s01.sso.ng/1/00000002157b_ec61464af9bb_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002157b_ec61464af9bb_1_mr.jpg", 
+    "song_album": "Doing It Right - Single", 
+    "user": {
+        "username": "pauulinaperez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "omahazard", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ef5c2305-4d20-4230-9444-02184e39577e.jpg", 
+        "id": "ef5c2305-4d20-4230-9444-02184e39577e"
+    }, 
+    "song_title": "Doing It Right", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002157b_ec61464af9bb_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 1, 
+    "uuid": "ED40685A-5789-4C84-85F6-7C62698838DD"
+}

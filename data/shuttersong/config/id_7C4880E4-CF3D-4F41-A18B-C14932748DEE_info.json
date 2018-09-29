@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-01T16:23:54-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004319c_4c7433becaa5.ssng", 
+    "updated_at": "2016-06-05T10:18:36-04:00", 
+    "share_url": "https://a.sso.ng/1/4c7433becaa5", 
+    "audio_url": "https://s02.sso.ng/1/00000004319c_4c7433becaa5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004319c_4c7433becaa5_mr.jpg", 
+    "song_album": "Views", 
+    "user": {
+        "username": "lizxie__", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Lol Lizzie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e84381c7-df0d-47f3-ac6c-f05ef8ae909e.jpg", 
+        "id": "e84381c7-df0d-47f3-ac6c-f05ef8ae909e"
+    }, 
+    "song_title": "One Dance (feat. Wizkid & Kyla)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004319c_4c7433becaa5_th.jpg", 
+    "song_artist": "Drake", 
+    "favorite_count": 3, 
+    "uuid": "7C4880E4-CF3D-4F41-A18B-C14932748DEE"
+}

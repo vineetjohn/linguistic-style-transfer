@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-26T16:30:22-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000030317_1b7f04f63349.ssng", 
+    "updated_at": "2016-03-30T03:17:38-04:00", 
+    "share_url": "https://a.sso.ng/1/1b7f04f63349", 
+    "audio_url": "https://s02.sso.ng/1/000000030317_1b7f04f63349.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030317_1b7f04f63349_mr.jpg", 
+    "song_album": "The Afterglow - EP", 
+    "user": {
+        "username": "lexii", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "76b521b2-7e42-43c8-8235-fc628b66e3ea"
+    }, 
+    "song_title": "Valley Girls", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030317_1b7f04f63349_th.jpg", 
+    "song_artist": "Blackbear", 
+    "favorite_count": 2, 
+    "uuid": "5E8A1D85-6A31-4C4E-8041-7342FFD6DC7C"
+}

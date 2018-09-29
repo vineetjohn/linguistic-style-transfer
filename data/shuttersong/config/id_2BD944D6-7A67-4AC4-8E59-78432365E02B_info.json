@@ -1,0 +1,27 @@
+{
+    "mood": "cheeky", 
+    "caption": "??", 
+    "created_at": "2016-02-21T15:10:19-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea06_9731d96dad3d.ssng", 
+    "updated_at": "2016-02-25T08:44:21-05:00", 
+    "share_url": "https://a.sso.ng/1/9731d96dad3d", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea06_9731d96dad3d.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea06_9731d96dad3d_mr.jpg", 
+    "song_album": "Lush Life - Single", 
+    "user": {
+        "username": "grace.30", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8f290863-914e-482a-a3e8-77cb89ddb8ab.jpg", 
+        "id": "8f290863-914e-482a-a3e8-77cb89ddb8ab"
+    }, 
+    "song_title": "Lush Life", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea06_9731d96dad3d_th.jpg", 
+    "song_artist": "Zara Larsson", 
+    "favorite_count": 3, 
+    "uuid": "2BD944D6-7A67-4AC4-8E59-78432365E02B"
+}

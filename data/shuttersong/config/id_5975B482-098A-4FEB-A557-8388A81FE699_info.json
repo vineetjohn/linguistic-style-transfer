@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??", 
+    "created_at": "2015-11-08T05:12:53-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000202fa_ce79d6fd1091_1.ssng", 
+    "updated_at": "2016-02-25T10:53:04-05:00", 
+    "share_url": "https://a.sso.ng/1/ce79d6fd1091", 
+    "audio_url": "https://s01.sso.ng/1/0000000202fa_ce79d6fd1091_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000202fa_ce79d6fd1091_1_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Saadet", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/12f3b46d-3f58-45a0-a56b-665eea5fa3d3.jpg", 
+        "id": "12f3b46d-3f58-45a0-a56b-665eea5fa3d3"
+    }, 
+    "song_title": "Red Hot Chili Peppers - Otherside [Official Music Video]-2", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000202fa_ce79d6fd1091_1_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "5975B482-098A-4FEB-A557-8388A81FE699"
+}

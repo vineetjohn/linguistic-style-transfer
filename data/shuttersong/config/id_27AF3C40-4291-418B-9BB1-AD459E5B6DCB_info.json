@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-21T11:20:10-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000025320_22e1ccfad0cd.ssng", 
+    "updated_at": "2015-08-21T17:08:59-04:00", 
+    "share_url": "https://a.sso.ng/1/22e1ccfad0cd", 
+    "audio_url": "https://s01.sso.ng/1/000000025320_22e1ccfad0cd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000025320_22e1ccfad0cd_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "chelseybri", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1fbd145d-2637-435e-811b-b9d31aa542c0"
+    }, 
+    "song_title": "Jealous - CH", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000025320_22e1ccfad0cd_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "27AF3C40-4291-418B-9BB1-AD459E5B6DCB"
+}

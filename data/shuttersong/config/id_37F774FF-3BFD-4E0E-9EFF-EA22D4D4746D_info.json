@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-05T20:59:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042a2b_bf667fb7e731.ssng", 
+    "updated_at": "2016-05-06T10:52:17-04:00", 
+    "share_url": "https://a.sso.ng/1/bf667fb7e731", 
+    "audio_url": "https://s02.sso.ng/1/000000042a2b_bf667fb7e731.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042a2b_bf667fb7e731_mr.jpg", 
+    "song_album": "The Best of Johnny Nash", 
+    "user": {
+        "username": "Sazzi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3b79c44b-cee6-436b-99cf-ea3b89c46ca3"
+    }, 
+    "song_title": "I Can See Clearly Now", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042a2b_bf667fb7e731_th.jpg", 
+    "song_artist": "Johnny Nash", 
+    "favorite_count": 1, 
+    "uuid": "37F774FF-3BFD-4E0E-9EFF-EA22D4D4746D"
+}

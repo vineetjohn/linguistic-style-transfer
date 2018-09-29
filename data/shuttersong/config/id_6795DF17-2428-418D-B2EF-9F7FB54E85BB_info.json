@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-05-28T09:27:38-04:00", 
+    "file_url": "https://s02.sso.ng/1/0000000441d9_a017578dc37b.ssng", 
+    "updated_at": "2016-06-01T13:49:48-04:00", 
+    "share_url": "https://a.sso.ng/1/a017578dc37b", 
+    "audio_url": "https://s02.sso.ng/1/0000000441d9_a017578dc37b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/0000000441d9_a017578dc37b_mr.jpg", 
+    "song_album": "youtu.be/bA-e5kihmcY", 
+    "user": {
+        "username": "verruecktaberliebenswert", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "5f9ee40f-e0d3-47ee-9b4a-d1c83763905d"
+    }, 
+    "song_title": "Kings of Leon", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/0000000441d9_a017578dc37b_th.jpg", 
+    "song_artist": "Rock City", 
+    "favorite_count": 2, 
+    "uuid": "6795DF17-2428-418D-B2EF-9F7FB54E85BB"
+}

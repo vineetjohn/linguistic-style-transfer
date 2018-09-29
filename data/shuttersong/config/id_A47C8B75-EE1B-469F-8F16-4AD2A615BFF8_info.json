@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#SantaSorteo NiKi", 
+    "created_at": "2015-12-17T23:49:12-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000033b20_5dd0353c38d1_1.ssng", 
+    "updated_at": "2015-12-25T18:19:15-05:00", 
+    "share_url": "https://a.sso.ng/1/5dd0353c38d1", 
+    "audio_url": "https://s01.sso.ng/1/000000033b20_5dd0353c38d1_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000033b20_5dd0353c38d1_1_mr.jpg", 
+    "song_album": "I'll Be Home For Christmas", 
+    "user": {
+        "username": "nungis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Nicole Paola Sandi Vargas", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/d967916d-3250-4989-9b0c-98c8be65eac4.jpg", 
+        "id": "d967916d-3250-4989-9b0c-98c8be65eac4"
+    }, 
+    "song_title": "All I Want for Christmas is You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000033b20_5dd0353c38d1_1_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 1, 
+    "uuid": "A47C8B75-EE1B-469F-8F16-4AD2A615BFF8"
+}

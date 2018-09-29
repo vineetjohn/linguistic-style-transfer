@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#santasorteo", 
+    "created_at": "2015-12-17T22:54:40-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000031bdd_61f9b50712b4.ssng", 
+    "updated_at": "2015-12-27T22:21:23-05:00", 
+    "share_url": "https://a.sso.ng/1/61f9b50712b4", 
+    "audio_url": "https://s01.sso.ng/1/000000031bdd_61f9b50712b4.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000031bdd_61f9b50712b4_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "laurasilvanna", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/c18bc6c0-49e9-4a2f-bd6a-24faad371d32.jpg", 
+        "id": "c18bc6c0-49e9-4a2f-bd6a-24faad371d32"
+    }, 
+    "song_title": "#SELFIE (Official Music Video) - The Chainsmokers", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000031bdd_61f9b50712b4_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 3, 
+    "uuid": "233E8174-6027-4DEE-B5FC-CB9D30754E4E"
+}

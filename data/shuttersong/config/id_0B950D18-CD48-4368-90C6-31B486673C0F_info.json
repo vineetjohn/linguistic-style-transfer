@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-05T12:24:33-05:00", 
+    "file_url": "https://s02.sso.ng/1/000000030a9d_beeebf6a243f.ssng", 
+    "updated_at": "2016-03-06T19:12:18-05:00", 
+    "share_url": "https://a.sso.ng/1/beeebf6a243f", 
+    "audio_url": "https://s02.sso.ng/1/000000030a9d_beeebf6a243f.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000030a9d_beeebf6a243f_mr.jpg", 
+    "song_album": "How Deep Is Your Love - Single", 
+    "user": {
+        "username": "mariaasanchez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1da29d0c-25ef-420c-ae03-c8f574298faf.jpg", 
+        "id": "1da29d0c-25ef-420c-ae03-c8f574298faf"
+    }, 
+    "song_title": "How Deep Is Your Love", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000030a9d_beeebf6a243f_th.jpg", 
+    "song_artist": "Calvin Harris & Disciples", 
+    "favorite_count": 1, 
+    "uuid": "0B950D18-CD48-4368-90C6-31B486673C0F"
+}

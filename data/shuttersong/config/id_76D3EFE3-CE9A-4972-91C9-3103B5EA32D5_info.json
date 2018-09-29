@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Pues tocara empezarlos (y cumplirlos?)", 
+    "created_at": "2016-01-02T19:25:41-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000037272_16661c979ec5.ssng", 
+    "updated_at": "2016-01-03T15:39:09-05:00", 
+    "share_url": "https://a.sso.ng/1/16661c979ec5", 
+    "audio_url": "https://s01.sso.ng/1/000000037272_16661c979ec5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000037272_16661c979ec5_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "Daniela23Viesca", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b01057bc-56a4-4aab-a56e-bf6d59c13eb3.jpg", 
+        "id": "b01057bc-56a4-4aab-a56e-bf6d59c13eb3"
+    }, 
+    "song_title": "Maybe", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000037272_16661c979ec5_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "76D3EFE3-CE9A-4972-91C9-3103B5EA32D5"
+}

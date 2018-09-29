@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "I know what you did last summer.", 
+    "created_at": "2015-12-19T02:46:42-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036b44_c4dc9931cc20.ssng", 
+    "updated_at": "2015-12-28T11:38:26-05:00", 
+    "share_url": "https://a.sso.ng/1/c4dc9931cc20", 
+    "audio_url": "https://s01.sso.ng/1/000000036b44_c4dc9931cc20.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036b44_c4dc9931cc20_mr.jpg", 
+    "song_album": "Shawn Mendes & Camila Cabello", 
+    "user": {
+        "username": "gabrielleeep", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8241b992-73c1-4fe3-a3fc-df12a8f60940.jpg", 
+        "id": "8241b992-73c1-4fe3-a3fc-df12a8f60940"
+    }, 
+    "song_title": "I Know What You Did Last Summer", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036b44_c4dc9931cc20_th.jpg", 
+    "song_artist": "I Know What You Did Last Summer - Single", 
+    "favorite_count": 1, 
+    "uuid": "B08948F5-3DB6-4AC2-A01E-620DC368E073"
+}

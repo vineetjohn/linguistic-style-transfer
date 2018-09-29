@@ -1,0 +1,27 @@
+{
+    "mood": "agridulce", 
+    "caption": "#SantaSorteo @zamaraescobar", 
+    "created_at": "2015-12-19T16:55:39-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000036b10_339c4a74edfd_2.ssng", 
+    "updated_at": "2015-12-19T17:28:48-05:00", 
+    "share_url": "https://a.sso.ng/1/339c4a74edfd", 
+    "audio_url": "https://s01.sso.ng/1/000000036b10_339c4a74edfd_2.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000036b10_339c4a74edfd_2_mr.jpg", 
+    "song_album": "Purpose (Deluxe)", 
+    "user": {
+        "username": "Zamara", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/69d7aac1-c5ec-4294-a050-f6abdc041013.jpg", 
+        "id": "69d7aac1-c5ec-4294-a050-f6abdc041013"
+    }, 
+    "song_title": "Sorry", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000036b10_339c4a74edfd_2_th.jpg", 
+    "song_artist": "Justin Bieber", 
+    "favorite_count": 1, 
+    "uuid": "C3F87745-14E6-4466-B8A3-FFB76C98A972"
+}

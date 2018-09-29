@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-01-01T23:08:57-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003b5a0_545d6dedbc1b.ssng", 
+    "updated_at": "2016-01-02T00:49:57-05:00", 
+    "share_url": "https://a.sso.ng/1/545d6dedbc1b", 
+    "audio_url": "https://s01.sso.ng/1/00000003b5a0_545d6dedbc1b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003b5a0_545d6dedbc1b_mr.jpg", 
+    "song_album": "Escape", 
+    "user": {
+        "username": "Paulomax", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2b8938b9-6f52-485d-bd59-96cdce9e21e3"
+    }, 
+    "song_title": "Escape", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003b5a0_545d6dedbc1b_th.jpg", 
+    "song_artist": "Enrique Iglesias", 
+    "favorite_count": 1, 
+    "uuid": "1C2D5E33-87DE-4EB1-9A88-250EB26F53B5"
+}

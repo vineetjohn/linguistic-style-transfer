@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Babys ??", 
+    "created_at": "2015-09-03T19:33:16-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000263f0_dd48fb15fe4c_1.ssng", 
+    "updated_at": "2015-09-04T10:16:39-04:00", 
+    "share_url": "https://a.sso.ng/1/dd48fb15fe4c", 
+    "audio_url": "https://s01.sso.ng/1/0000000263f0_dd48fb15fe4c_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000263f0_dd48fb15fe4c_1_mr.jpg", 
+    "song_album": "Random Access Memories", 
+    "user": {
+        "username": "Angigi", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Angelica ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a7c2c840-be96-4862-87b3-94bedf61c0c4.jpg", 
+        "id": "a7c2c840-be96-4862-87b3-94bedf61c0c4"
+    }, 
+    "song_title": "Instant Crush (feat. Julian Casablancas)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000263f0_dd48fb15fe4c_1_th.jpg", 
+    "song_artist": "Daft Punk", 
+    "favorite_count": 1, 
+    "uuid": "9E599B7B-A558-4034-B7EF-5280CD6FE121"
+}

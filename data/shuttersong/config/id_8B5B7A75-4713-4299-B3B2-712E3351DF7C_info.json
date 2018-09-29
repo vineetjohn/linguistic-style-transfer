@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "Awesome let's do this I'm excited", 
+    "created_at": "2016-01-18T23:57:28-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003d8e7_5497d9e95f39.ssng", 
+    "updated_at": "2016-01-24T22:44:53-05:00", 
+    "share_url": "https://a.sso.ng/1/5497d9e95f39", 
+    "audio_url": "https://s02.sso.ng/1/00000003d8e7_5497d9e95f39.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003d8e7_5497d9e95f39_mr.jpg", 
+    "song_album": "DJ Got Us Fallin' In Love (feat. Pitbull) - Single", 
+    "user": {
+        "username": "zacwilliams", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e4fa59b5-a957-435f-a739-0b9deebabbd2"
+    }, 
+    "song_title": "DJ Got Us Fallin' In Love (feat. Pitbull)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003d8e7_5497d9e95f39_th.jpg", 
+    "song_artist": "Usher", 
+    "favorite_count": 1, 
+    "uuid": "8B5B7A75-4713-4299-B3B2-712E3351DF7C"
+}

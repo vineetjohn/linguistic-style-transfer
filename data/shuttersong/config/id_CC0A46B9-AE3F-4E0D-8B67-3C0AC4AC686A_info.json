@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-05-15T23:53:53-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000002f372_78ccede5d900.ssng", 
+    "updated_at": "2016-05-16T09:24:46-04:00", 
+    "share_url": "https://a.sso.ng/1/78ccede5d900", 
+    "audio_url": "https://s02.sso.ng/1/00000002f372_78ccede5d900.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002f372_78ccede5d900_mr.jpg", 
+    "song_album": "Covers", 
+    "user": {
+        "username": "KarateKid", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/6673e7f3-e2dd-4ab5-afee-5d903cd078b3.jpg", 
+        "id": "6673e7f3-e2dd-4ab5-afee-5d903cd078b3"
+    }, 
+    "song_title": "Feel No Ways", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002f372_78ccede5d900_th.jpg", 
+    "song_artist": "Karate Kid", 
+    "favorite_count": 2, 
+    "uuid": "CC0A46B9-AE3F-4E0D-8B67-3C0AC4AC686A"
+}

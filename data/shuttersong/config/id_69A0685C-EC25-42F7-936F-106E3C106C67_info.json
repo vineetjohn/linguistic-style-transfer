@@ -1,0 +1,27 @@
+{
+    "mood": "accomplished", 
+    "caption": "sometimes my hair looks good so I take photos as evidence", 
+    "created_at": "2016-05-11T18:02:16-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000042523_8d3991b43ccf.ssng", 
+    "updated_at": "2016-05-12T09:35:36-04:00", 
+    "share_url": "https://a.sso.ng/1/8d3991b43ccf", 
+    "audio_url": "https://s02.sso.ng/1/000000042523_8d3991b43ccf.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000042523_8d3991b43ccf_mr.jpg", 
+    "song_album": "The Heist (Deluxe Edition)", 
+    "user": {
+        "username": "tidalwave", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "emily", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/b0010c9f-30dd-4249-948f-548ee88cd0ae.jpg", 
+        "id": "b0010c9f-30dd-4249-948f-548ee88cd0ae"
+    }, 
+    "song_title": "White Walls (feat. ScHoolboy Q & Hollis)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000042523_8d3991b43ccf_th.jpg", 
+    "song_artist": "Macklemore & Ryan Lewis", 
+    "favorite_count": 2, 
+    "uuid": "69A0685C-EC25-42F7-936F-106E3C106C67"
+}

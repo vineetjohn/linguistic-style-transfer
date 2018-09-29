@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\udc17\ud83d\udc17", 
+    "created_at": "2016-06-10T19:52:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000044f53_5b520521ee2d.ssng", 
+    "updated_at": "2016-06-14T11:11:29-04:00", 
+    "share_url": "https://a.sso.ng/1/5b520521ee2d", 
+    "audio_url": "https://s02.sso.ng/1/000000044f53_5b520521ee2d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000044f53_5b520521ee2d_mr.jpg", 
+    "song_album": "The Drug In Me Is You", 
+    "user": {
+        "username": "fallenwiltedangel1", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "dce38497-b1d8-4a20-a5bc-b5f820d01aa1"
+    }, 
+    "song_title": "The Drug In Me Is You", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000044f53_5b520521ee2d_th.jpg", 
+    "song_artist": "Falling In Reverse", 
+    "favorite_count": 6, 
+    "uuid": "7E36BF21-2D20-4A0B-AFFA-5AA52CFE95E5"
+}

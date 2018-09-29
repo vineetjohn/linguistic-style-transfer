@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-04-23T06:55:29-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000040b58_449b21055360.ssng", 
+    "updated_at": "2016-04-23T15:58:04-04:00", 
+    "share_url": "https://a.sso.ng/1/449b21055360", 
+    "audio_url": "https://s02.sso.ng/1/000000040b58_449b21055360.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000040b58_449b21055360_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "laure.frd", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2ae982d1-0415-422d-9797-261e16ca23d6"
+    }, 
+    "song_title": "Son Lux - Lost It To Trying (Album Version)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000040b58_449b21055360_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "B6CC0932-A141-4CBA-AFA7-812732404529"
+}

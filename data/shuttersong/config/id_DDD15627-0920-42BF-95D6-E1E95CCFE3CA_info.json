@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:27:46-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020b67_eee0709f7d4d.ssng", 
+    "updated_at": "2015-08-03T23:27:46-04:00", 
+    "share_url": "https://a.sso.ng/1/eee0709f7d4d", 
+    "audio_url": "https://s01.sso.ng/1/000000020b67_eee0709f7d4d.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020b67_eee0709f7d4d_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "marianfdz99", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "3d049e69-2c80-471f-aa8f-438883abed93"
+    }, 
+    "song_title": "See_You_Again__Love_Me_Like_You_Do__Sugar_(Acoustic_Mashup)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020b67_eee0709f7d4d_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 1, 
+    "uuid": "DDD15627-0920-42BF-95D6-E1E95CCFE3CA"
+}

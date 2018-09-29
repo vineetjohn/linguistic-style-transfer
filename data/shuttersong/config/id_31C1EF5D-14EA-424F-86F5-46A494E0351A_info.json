@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-07-03T06:58:14-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000002008e_fe2f1c6f16ab.ssng", 
+    "updated_at": "2016-07-06T10:59:15-04:00", 
+    "share_url": "https://a.sso.ng/1/fe2f1c6f16ab", 
+    "audio_url": "https://s02.sso.ng/1/00000002008e_fe2f1c6f16ab.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000002008e_fe2f1c6f16ab_mr.jpg", 
+    "song_album": "BEST CAFE STYLE -POP LIFE-", 
+    "user": {
+        "username": "hiro_3", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "a90c40d9-4981-4793-a67c-60c4f990b4fb"
+    }, 
+    "song_title": "Don't Look Back In Anger", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000002008e_fe2f1c6f16ab_th.jpg", 
+    "song_artist": "DJ HAL", 
+    "favorite_count": 3, 
+    "uuid": "31C1EF5D-14EA-424F-86F5-46A494E0351A"
+}

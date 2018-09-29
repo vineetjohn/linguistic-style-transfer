@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-09-05T09:17:15-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002d7c3_9196c99febe5.ssng", 
+    "updated_at": "2015-09-05T20:20:07-04:00", 
+    "share_url": "https://a.sso.ng/1/9196c99febe5", 
+    "audio_url": "https://s01.sso.ng/1/00000002d7c3_9196c99febe5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002d7c3_9196c99febe5_mr.jpg", 
+    "song_album": "Reflection (Deluxe)", 
+    "user": {
+        "username": "Alimac", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Camila", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/06f72e57-ef08-4371-a9df-d659e7758ca2.jpg", 
+        "id": "06f72e57-ef08-4371-a9df-d659e7758ca2"
+    }, 
+    "song_title": "Worth It (feat. Kid Ink)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002d7c3_9196c99febe5_th.jpg", 
+    "song_artist": "Fifth Harmony", 
+    "favorite_count": 1, 
+    "uuid": "74B65AA6-AAA1-45F1-BE86-32414C49CB65"
+}

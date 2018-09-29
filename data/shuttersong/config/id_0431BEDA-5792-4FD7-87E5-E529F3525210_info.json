@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-18T02:47:38-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003fd1b_df2ed2323be5.ssng", 
+    "updated_at": "2016-03-20T01:04:07-04:00", 
+    "share_url": "https://a.sso.ng/1/df2ed2323be5", 
+    "audio_url": "https://s02.sso.ng/1/00000003fd1b_df2ed2323be5.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003fd1b_df2ed2323be5_mr.jpg", 
+    "song_album": "Nights Out", 
+    "user": {
+        "username": "wendy19", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "7423f531-2788-4981-9644-3ed02f98dded"
+    }, 
+    "song_title": "Heartbreaker", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003fd1b_df2ed2323be5_th.jpg", 
+    "song_artist": "Metronomy", 
+    "favorite_count": 3, 
+    "uuid": "0431BEDA-5792-4FD7-87E5-E529F3525210"
+}

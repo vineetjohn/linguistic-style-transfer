@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "??REALITY??", 
+    "created_at": "2015-08-21T12:47:43-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002906f_75b4aad062f3_1.ssng", 
+    "updated_at": "2015-08-21T17:41:44-04:00", 
+    "share_url": "https://a.sso.ng/1/75b4aad062f3", 
+    "audio_url": "https://s01.sso.ng/1/00000002906f_75b4aad062f3_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002906f_75b4aad062f3_1_mr.jpg", 
+    "song_album": "Unorthodox Jukebox", 
+    "user": {
+        "username": "zoey_110", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1a70a8f0-5360-4a76-baf6-2f53c4ee52d9"
+    }, 
+    "song_title": "When I Was Your Man", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002906f_75b4aad062f3_1_th.jpg", 
+    "song_artist": "Bruno Mars", 
+    "favorite_count": 1, 
+    "uuid": "2B327469-242C-40FF-A07A-F28FF7F2869E"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-15T11:05:06-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000241fb_b8c3ee8ee046.ssng", 
+    "updated_at": "2015-08-17T21:29:25-04:00", 
+    "share_url": "https://a.sso.ng/1/b8c3ee8ee046", 
+    "audio_url": "https://s01.sso.ng/1/0000000241fb_b8c3ee8ee046.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000241fb_b8c3ee8ee046_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "johnson_drugs", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Anna", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/42bad0a8-3a95-43ec-b279-f5232476caea.jpg", 
+        "id": "42bad0a8-3a95-43ec-b279-f5232476caea"
+    }, 
+    "song_title": "Flights - Jack and Jack", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000241fb_b8c3ee8ee046_th.jpg", 
+    "song_artist": "", 
+    "favorite_count": 2, 
+    "uuid": "30FED575-221A-4865-8A24-000BB1EE0D10"
+}

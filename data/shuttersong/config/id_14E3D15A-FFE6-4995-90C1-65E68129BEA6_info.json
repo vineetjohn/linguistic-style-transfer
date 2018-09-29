@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": ":)", 
+    "created_at": "2016-06-20T17:23:58-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000004582d_80635ee3c8fd.ssng", 
+    "updated_at": "2016-06-21T14:11:45-04:00", 
+    "share_url": "https://a.sso.ng/1/80635ee3c8fd", 
+    "audio_url": "https://s02.sso.ng/1/00000004582d_80635ee3c8fd.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000004582d_80635ee3c8fd_mr.jpg", 
+    "song_album": "Blue Neighbourhood (Deluxe)", 
+    "user": {
+        "username": "BeaurritoBrooks", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "makayla", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/3ca416fd-3023-4946-989a-bfc68355c887.jpg", 
+        "id": "3ca416fd-3023-4946-989a-bfc68355c887"
+    }, 
+    "song_title": "WILD (XXYYXX Remix)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000004582d_80635ee3c8fd_th.jpg", 
+    "song_artist": "Troye Sivan", 
+    "favorite_count": 8, 
+    "uuid": "14E3D15A-FFE6-4995-90C1-65E68129BEA6"
+}

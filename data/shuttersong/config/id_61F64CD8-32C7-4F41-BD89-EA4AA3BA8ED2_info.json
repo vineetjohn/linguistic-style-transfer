@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-24T10:10:01-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000003814a_fab855ae23ee.ssng", 
+    "updated_at": "2015-12-24T15:00:28-05:00", 
+    "share_url": "https://a.sso.ng/1/fab855ae23ee", 
+    "audio_url": "https://s01.sso.ng/1/00000003814a_fab855ae23ee.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000003814a_fab855ae23ee_mr.jpg", 
+    "song_album": "The E.N.D. (The Energy Never Dies)", 
+    "user": {
+        "username": "AmandaGomez", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2e41ac24-976b-4c38-baf1-21a76d431ecc.jpg", 
+        "id": "2e41ac24-976b-4c38-baf1-21a76d431ecc"
+    }, 
+    "song_title": "I Gotta Feeling", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000003814a_fab855ae23ee_th.jpg", 
+    "song_artist": "The Black Eyed Peas", 
+    "favorite_count": 1, 
+    "uuid": "61F64CD8-32C7-4F41-BD89-EA4AA3BA8ED2"
+}

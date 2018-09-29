@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "#smile", 
+    "created_at": "2015-12-21T21:38:20-05:00", 
+    "file_url": "https://s01.sso.ng/1/000000038a4a_6adb98bf4550_1.ssng", 
+    "updated_at": "2015-12-25T23:51:24-05:00", 
+    "share_url": "https://a.sso.ng/1/6adb98bf4550", 
+    "audio_url": "https://s01.sso.ng/1/000000038a4a_6adb98bf4550_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000038a4a_6adb98bf4550_1_mr.jpg", 
+    "song_album": "My Everything (Deluxe)", 
+    "user": {
+        "username": "Nanda05http404", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ffbf612c-0708-4377-aba1-5d52664ee20b.jpg", 
+        "id": "ffbf612c-0708-4377-aba1-5d52664ee20b"
+    }, 
+    "song_title": "Love Me Harder", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000038a4a_6adb98bf4550_1_th.jpg", 
+    "song_artist": "Ariana Grande & The Weeknd", 
+    "favorite_count": 1, 
+    "uuid": "9A56C26E-0D56-4F75-BB6C-93AE965DF599"
+}

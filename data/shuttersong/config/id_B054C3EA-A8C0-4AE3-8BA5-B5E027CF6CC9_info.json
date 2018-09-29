@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-03T23:12:23-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000020bea_4d36db65ff27.ssng", 
+    "updated_at": "2015-08-03T23:12:23-04:00", 
+    "share_url": "https://a.sso.ng/1/4d36db65ff27", 
+    "audio_url": "https://s01.sso.ng/1/000000020bea_4d36db65ff27.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000020bea_4d36db65ff27_mr.jpg", 
+    "song_album": "1989", 
+    "user": {
+        "username": "Jos4213", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "1516f24e-0591-41dc-9e37-7755e9455589"
+    }, 
+    "song_title": "Shake It Off", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000020bea_4d36db65ff27_th.jpg", 
+    "song_artist": "Taylor Swift", 
+    "favorite_count": 1, 
+    "uuid": "B054C3EA-A8C0-4AE3-8BA5-B5E027CF6CC9"
+}

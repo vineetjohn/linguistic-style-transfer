@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-03-22T20:02:19-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e5d1_019b332cfe01.ssng", 
+    "updated_at": "2016-06-14T11:24:35-04:00", 
+    "share_url": "https://a.sso.ng/1/019b332cfe01", 
+    "audio_url": "https://s02.sso.ng/1/00000003e5d1_019b332cfe01.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e5d1_019b332cfe01_mr.jpg", 
+    "song_album": "Unknown Album", 
+    "user": {
+        "username": "itsyammounibitch", 
+        "verified": false, 
+        "username_color": "#8977BA", 
+        "full_name": "Amanda Leis-Miguel ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/2aace85d-3b49-48aa-9813-13289294d780.jpg", 
+        "id": "2aace85d-3b49-48aa-9813-13289294d780"
+    }, 
+    "song_title": "This Fucking Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e5d1_019b332cfe01_th.jpg", 
+    "song_artist": "The Janoskians", 
+    "favorite_count": 19, 
+    "uuid": "61BC331E-5509-4DD0-80D6-288C748A6D10"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-11-11T12:22:39-05:00", 
+    "file_url": "https://s01.sso.ng/1/00000002f9e4_510ed359d4db.ssng", 
+    "updated_at": "2015-11-12T15:32:20-05:00", 
+    "share_url": "https://a.sso.ng/1/510ed359d4db", 
+    "audio_url": "https://s01.sso.ng/1/00000002f9e4_510ed359d4db.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002f9e4_510ed359d4db_mr.jpg", 
+    "song_album": "We The People", 
+    "user": {
+        "username": "Assylazhar", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "acd1e685-b7cb-4c37-8d38-0bfaa302f6d2"
+    }, 
+    "song_title": "Spun", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002f9e4_510ed359d4db_th.jpg", 
+    "song_artist": "FLIPSYDE", 
+    "favorite_count": 1, 
+    "uuid": "13886679-696D-4533-843F-89B2416EB303"
+}

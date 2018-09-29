@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "\ud83d\udc45 @beaub", 
+    "created_at": "2016-06-20T16:56:06-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003eb55_b418dbfcdc00.ssng", 
+    "updated_at": "2016-06-20T17:47:10-04:00", 
+    "share_url": "https://a.sso.ng/1/b418dbfcdc00", 
+    "audio_url": "https://s02.sso.ng/1/00000003eb55_b418dbfcdc00.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003eb55_b418dbfcdc00_mr.jpg", 
+    "song_album": "Lemonade", 
+    "user": {
+        "username": "brxxkealexis", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "brooke", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/a47fb6b1-9d03-49b0-8f56-8b699b6b1645.jpg", 
+        "id": "a47fb6b1-9d03-49b0-8f56-8b699b6b1645"
+    }, 
+    "song_title": "Hold Up", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003eb55_b418dbfcdc00_th.jpg", 
+    "song_artist": "Beyonc\u00e9", 
+    "favorite_count": 2, 
+    "uuid": "39B9C57D-A8FA-4A20-82CC-6264AACC8D3A"
+}

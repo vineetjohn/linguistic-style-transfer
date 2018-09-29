@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "This is my all time favorite song? @JackAndJackOfficial", 
+    "created_at": "2015-08-04T09:53:37-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000021708_8e164e85be73_1.ssng", 
+    "updated_at": "2015-12-31T06:51:07-05:00", 
+    "share_url": "https://a.sso.ng/1/8e164e85be73", 
+    "audio_url": "https://s01.sso.ng/1/000000021708_8e164e85be73_1.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000021708_8e164e85be73_1_mr.jpg", 
+    "song_album": "Calibraska - EP", 
+    "user": {
+        "username": "ohsnapitzjessica", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/952e97c4-76fd-4138-850f-3760c41e7d17.jpg", 
+        "id": "952e97c4-76fd-4138-850f-3760c41e7d17"
+    }, 
+    "song_title": "California", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000021708_8e164e85be73_1_th.jpg", 
+    "song_artist": "Jack & Jack", 
+    "favorite_count": 4, 
+    "uuid": "95AA5C93-FF1C-4D85-98DB-B9F88E352672"
+}

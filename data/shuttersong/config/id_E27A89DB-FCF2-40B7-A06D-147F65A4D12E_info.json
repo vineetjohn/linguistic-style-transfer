@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-12-11T00:18:39-05:00", 
+    "file_url": "https://s01.sso.ng/1/0000000307d1_c4106bc8593e.ssng", 
+    "updated_at": "2015-12-11T19:59:40-05:00", 
+    "share_url": "https://a.sso.ng/1/c4106bc8593e", 
+    "audio_url": "https://s01.sso.ng/1/0000000307d1_c4106bc8593e.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000307d1_c4106bc8593e_mr.jpg", 
+    "song_album": "The Christmas Song", 
+    "user": {
+        "username": "stephen714", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Stephen714", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "09e35edf-efeb-49f5-b272-1c84aba4efde"
+    }, 
+    "song_title": "The Christmas Song", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000307d1_c4106bc8593e_th.jpg", 
+    "song_artist": "Nat King Cole", 
+    "favorite_count": 1, 
+    "uuid": "E27A89DB-FCF2-40B7-A06D-147F65A4D12E"
+}

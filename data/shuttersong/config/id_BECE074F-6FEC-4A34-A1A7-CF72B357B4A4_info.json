@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-03-07T17:47:35-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e307_57846075aa87.ssng", 
+    "updated_at": "2016-04-30T08:57:10-04:00", 
+    "share_url": "https://a.sso.ng/1/57846075aa87", 
+    "audio_url": "https://s02.sso.ng/1/00000003e307_57846075aa87.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e307_57846075aa87_mr.jpg", 
+    "song_album": "Born To Die (The Paradise Edition)", 
+    "user": {
+        "username": "sadgirluke", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/8b0c02d2-816d-4683-8466-d9a7745075cf.jpg", 
+        "id": "8b0c02d2-816d-4683-8466-d9a7745075cf"
+    }, 
+    "song_title": "Ride", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e307_57846075aa87_th.jpg", 
+    "song_artist": "Lana Del Rey", 
+    "favorite_count": 1, 
+    "uuid": "BECE074F-6FEC-4A34-A1A7-CF72B357B4A4"
+}

@@ -1,0 +1,27 @@
+{
+    "mood": "Dark", 
+    "caption": "", 
+    "created_at": "2016-02-10T19:29:17-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ea23_9e96c0a7a060.ssng", 
+    "updated_at": "2016-02-10T19:30:34-05:00", 
+    "share_url": "https://a.sso.ng/1/9e96c0a7a060", 
+    "audio_url": "https://s02.sso.ng/1/00000003ea23_9e96c0a7a060.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ea23_9e96c0a7a060_mr.jpg", 
+    "song_album": "VA- Billboard Hot 100 (Week 45) Nov. 07. 2015 (M-100) RZ-RG", 
+    "user": {
+        "username": "luqemafia", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "julia", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "b49357fd-7758-41a4-8845-1620da447a0a"
+    }, 
+    "song_title": "Cake By The Ocean", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ea23_9e96c0a7a060_th.jpg", 
+    "song_artist": "DNCE", 
+    "favorite_count": 1, 
+    "uuid": "7468BD3A-69FA-430E-8F8C-B2913761E597"
+}

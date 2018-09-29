@@ -1,0 +1,27 @@
+{
+    "mood": "good", 
+    "caption": "Paddocks. Sunny afternoon.", 
+    "created_at": "2016-01-15T15:43:33-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000000002b_7c846c446875.ssng", 
+    "updated_at": "2016-02-11T15:30:35-05:00", 
+    "share_url": "https://a.sso.ng/1/7c846c446875", 
+    "audio_url": "https://s02.sso.ng/1/00000000002b_7c846c446875.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000000002b_7c846c446875_mr.jpg", 
+    "song_album": "County Line", 
+    "user": {
+        "username": "w", 
+        "verified": true, 
+        "username_color": null, 
+        "full_name": "William", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/0cae3ea0-2922-4a36-9a55-3fc5387033e5.jpg", 
+        "id": "0cae3ea0-2922-4a36-9a55-3fc5387033e5"
+    }, 
+    "song_title": "County Line - Original Mix", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000000002b_7c846c446875_th.jpg", 
+    "song_artist": "Morgan Page", 
+    "favorite_count": 22, 
+    "uuid": "68E34987-D81F-4B2E-9B89-F1BB835A8C56"
+}

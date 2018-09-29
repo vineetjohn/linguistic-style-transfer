@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-22T06:20:21-04:00", 
+    "file_url": "https://s01.sso.ng/1/00000002a868_8895c8ad20bc.ssng", 
+    "updated_at": "2015-08-22T23:45:30-04:00", 
+    "share_url": "https://a.sso.ng/1/8895c8ad20bc", 
+    "audio_url": "https://s01.sso.ng/1/00000002a868_8895c8ad20bc.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/00000002a868_8895c8ad20bc_mr.jpg", 
+    "song_album": "Vanessa Paradis", 
+    "user": {
+        "username": "solera", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "2d86035f-a895-4653-9878-c8d754ebf26e"
+    }, 
+    "song_title": "Be My Baby", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/00000002a868_8895c8ad20bc_th.jpg", 
+    "song_artist": "Vanessa Paradis", 
+    "favorite_count": 1, 
+    "uuid": "076F9F72-F607-4789-8606-39FF9EBCC1F8"
+}

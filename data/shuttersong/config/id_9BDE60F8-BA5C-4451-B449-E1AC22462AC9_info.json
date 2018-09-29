@@ -1,0 +1,27 @@
+{
+    "mood": "", 
+    "caption": "", 
+    "created_at": "2016-02-13T00:58:26-05:00", 
+    "file_url": "https://s02.sso.ng/1/00000003ecdf_0d88795d6187.ssng", 
+    "updated_at": "2016-05-12T22:36:33-04:00", 
+    "share_url": "https://a.sso.ng/1/0d88795d6187", 
+    "audio_url": "https://s02.sso.ng/1/00000003ecdf_0d88795d6187.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003ecdf_0d88795d6187_mr.jpg", 
+    "song_album": "Blue Neighbourhood", 
+    "user": {
+        "username": "elias.liveX", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Elias Live", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/490ddaf7-6d14-4611-a3f4-7bbccfe53633.jpg", 
+        "id": "490ddaf7-6d14-4611-a3f4-7bbccfe53633"
+    }, 
+    "song_title": "Talk Me Down", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003ecdf_0d88795d6187_th.jpg", 
+    "song_artist": "Troye Sivan", 
+    "favorite_count": 1, 
+    "uuid": "9BDE60F8-BA5C-4451-B449-E1AC22462AC9"
+}

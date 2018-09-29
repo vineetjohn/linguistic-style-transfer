@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-08-13T14:33:19-04:00", 
+    "file_url": "https://s01.sso.ng/1/000000024059_111824c2ea4a.ssng", 
+    "updated_at": "2015-08-15T00:04:31-04:00", 
+    "share_url": "https://a.sso.ng/1/111824c2ea4a", 
+    "audio_url": "https://s01.sso.ng/1/000000024059_111824c2ea4a.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s01.sso.ng/1/000000024059_111824c2ea4a_mr.jpg", 
+    "song_album": "Show You - Single", 
+    "user": {
+        "username": "amber_wyllie", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Amber_wyllie", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/1ced0b36-5e96-4a52-8774-8b51d5d8c3c2.jpg", 
+        "id": "1ced0b36-5e96-4a52-8774-8b51d5d8c3c2"
+    }, 
+    "song_title": "Show You", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/000000024059_111824c2ea4a_th.jpg", 
+    "song_artist": "Shawn Mendes", 
+    "favorite_count": 1, 
+    "uuid": "6A9F00CB-95B8-4C94-B41D-0D77EA003A6A"
+}

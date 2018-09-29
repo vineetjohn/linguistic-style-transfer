@@ -1,0 +1,27 @@
+{
+    "mood": "annoyed", 
+    "caption": "", 
+    "created_at": "2016-05-14T17:58:16-04:00", 
+    "file_url": "https://s02.sso.ng/1/00000003e79e_5ced2232c747.ssng", 
+    "updated_at": "2016-05-14T19:55:39-04:00", 
+    "share_url": "https://a.sso.ng/1/5ced2232c747", 
+    "audio_url": "https://s02.sso.ng/1/00000003e79e_5ced2232c747.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/00000003e79e_5ced2232c747_mr.jpg", 
+    "song_album": "Monstercat 014 - Discovery", 
+    "user": {
+        "username": "HeyItsEmma", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Emma", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/e5217a88-39b4-4912-968e-024cb3117c38.jpg", 
+        "id": "e5217a88-39b4-4912-968e-024cb3117c38"
+    }, 
+    "song_title": "Lock in Your Love (feat. Charlotte Haining)", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/00000003e79e_5ced2232c747_th.jpg", 
+    "song_artist": "Teqq", 
+    "favorite_count": 1, 
+    "uuid": "01415F64-C962-4726-9B47-0B81EDC0089E"
+}

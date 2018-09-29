@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2016-06-20T11:36:08-04:00", 
+    "file_url": "https://s02.sso.ng/1/000000045584_42653c98854b.ssng", 
+    "updated_at": "2016-07-01T03:28:19-04:00", 
+    "share_url": "https://a.sso.ng/1/42653c98854b", 
+    "audio_url": "https://s02.sso.ng/1/000000045584_42653c98854b.m4a", 
+    "comment_count": 0, 
+    "timeline_image_url": "https://s02.sso.ng/1/000000045584_42653c98854b_mr.jpg", 
+    "song_album": "", 
+    "user": {
+        "username": "mayj", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": null, 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/", 
+        "id": "e18d8aa4-d981-493f-8461-f9e0bff6ca3a"
+    }, 
+    "song_title": "Intermission", 
+    "is_mine": false, 
+    "thumb_url": "https://s02.sso.ng/1/000000045584_42653c98854b_th.jpg", 
+    "song_artist": "Nine Black Alps", 
+    "favorite_count": 1, 
+    "uuid": "3BCCF2AE-C14F-4C36-856A-A8CCB41D1293"
+}

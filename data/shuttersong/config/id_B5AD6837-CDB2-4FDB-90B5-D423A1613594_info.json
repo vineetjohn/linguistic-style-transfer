@@ -1,0 +1,27 @@
+{
+    "mood": null, 
+    "caption": "", 
+    "created_at": "2015-10-14T14:35:51-04:00", 
+    "file_url": "https://s01.sso.ng/1/0000000228eb_9e5daef09b68.ssng", 
+    "updated_at": "2015-10-22T09:25:31-04:00", 
+    "share_url": "https://a.sso.ng/1/9e5daef09b68", 
+    "audio_url": "https://s01.sso.ng/1/0000000228eb_9e5daef09b68.m4a", 
+    "comment_count": 1, 
+    "timeline_image_url": "https://s01.sso.ng/1/0000000228eb_9e5daef09b68_mr.jpg", 
+    "song_album": "Listen", 
+    "user": {
+        "username": "Paolas", 
+        "verified": false, 
+        "username_color": null, 
+        "full_name": "Paola Lisseth ", 
+        "public_shuttersong": true, 
+        "picture_thumb_url": "https://s02.sso.ng/users/ae171a89-4014-41bf-9634-9f6339b1a76a.jpg", 
+        "id": "ae171a89-4014-41bf-9634-9f6339b1a76a"
+    }, 
+    "song_title": "Bang my Head (feat. Sia)", 
+    "is_mine": false, 
+    "thumb_url": "https://s01.sso.ng/1/0000000228eb_9e5daef09b68_th.jpg", 
+    "song_artist": "David Guetta", 
+    "favorite_count": 3, 
+    "uuid": "B5AD6837-CDB2-4FDB-90B5-D423A1613594"
+}
