@@ -71,12 +71,12 @@ This will produce a folder like `saved-models-classifier/xxxxxxxxxx`.
 
 
 ### Train Kneser-Ney Language Model
-```bash
-./scripts/run_language_model_training.sh \
---text-file-path ${TRAINING_TEXT_FILE_PATH} \
---model-save-path ${LANGUAGE_MODEL_PATH}
-```
+Use [this tutorial](https://github.com/kpu/kenlm) to setup the KenLM library
 
+Use the below command to train a `n`-gram language model
+```bash
+./bin/lmplz -o ${n} --text ${TRAINING_TEXT_FILE_PATH} > ${LANGUAGE_MODEL_PATH}
+```
 
 ### Extract label-correlated words 
 ```bash
