@@ -111,7 +111,7 @@ def get_test_sequences(text_file_path, text_tokenizer, word_index, inverse_word_
     return [actual_sequences, actual_word_lists, padded_sequences, text_sequence_lengths]
 
 
-def get_labels(label_file_path, store_labels):
+def get_labels(label_file_path, store_labels, store_path):
     all_labels = list(open(label_file_path, "r").readlines())
     all_labels = [label.strip() for label in all_labels]
 
@@ -125,9 +125,9 @@ def get_labels(label_file_path, store_labels):
         counter += 1
 
     if store_labels:
-        with open(global_config.index_to_label_dict_path, 'w') as file:
+        with open(os.path.join(store_path, global_config.index_to_label_dict_file), 'w') as file:
             json.dump(index_to_label_map, file)
-        with open(global_config.label_to_index_dict_path, 'w') as file:
+        with open(os.path.join(store_path, global_config.label_to_index_dict_file), 'w') as file:
             json.dump(label_to_index_map, file)
     logger.info("labels: {}".format(label_to_index_map))
 

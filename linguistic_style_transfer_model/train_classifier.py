@@ -25,7 +25,8 @@ def train_classifier_model(options):
 
     x = np.asarray(x)
 
-    [y, _] = data_processor.get_labels(options['label_file_path'], False)
+    [y, _] = data_processor.get_labels(
+        options['label_file_path'], True, global_config.classifier_save_directory)
 
     shuffle_indices = np.random.permutation(np.arange(len(y)))
     x_shuffled = x[shuffle_indices]

@@ -26,7 +26,7 @@ def get_data(options):
     logger.debug("padded_sequences: {}".format(padded_sequences.shape))
 
     [one_hot_labels, num_labels] = \
-        data_processor.get_labels(options.label_file_path, True)
+        data_processor.get_labels(options.label_file_path, True, global_config.save_directory)
     logger.debug("one_hot_labels.shape: {}".format(one_hot_labels.shape))
 
     return [word_index, padded_sequences, text_sequence_lengths, one_hot_labels, num_labels,
