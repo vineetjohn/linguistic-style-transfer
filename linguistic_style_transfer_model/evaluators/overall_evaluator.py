@@ -55,7 +55,7 @@ def main(argv):
             options.inference_path, "generated_sentences_{}.txt".format(label_index))
 
         [style_transfer_score, _] = style_transfer.get_style_transfer_score(
-            options.classifier_model_path, generated_text_file_path, label_index)
+            options.classifier_model_path, generated_text_file_path, str(label_index), None)
         [content_preservation_score, word_overlap_score] = \
             content_preservation.run_content_preservation_evaluator(
                 actual_text_file_path, generated_text_file_path, options.embeddings_path)

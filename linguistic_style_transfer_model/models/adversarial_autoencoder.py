@@ -704,7 +704,7 @@ class AdversarialAutoencoder:
                     output_file.write(sentence + "\n")
 
             [style_transfer_score, confusion_matrix] = style_transfer.get_style_transfer_score(
-                options.classifier_saved_model_path, output_file_path, i)
+                options.classifier_saved_model_path, output_file_path, str(i), None)
             logger.debug("style_transfer_score: {}".format(style_transfer_score))
             logger.debug("confusion_matrix:\n{}".format(confusion_matrix))
 

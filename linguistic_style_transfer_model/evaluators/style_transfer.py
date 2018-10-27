@@ -15,7 +15,7 @@ from linguistic_style_transfer_model.utils import data_processor, log_initialize
 logger = logging.getLogger(global_config.logger_name)
 
 
-def get_style_transfer_score(classifier_saved_model_path, text_file_path, label):
+def get_style_transfer_score(classifier_saved_model_path, text_file_path, label, label_file_path):
     with open(os.path.join(classifier_saved_model_path,
                            global_config.vocab_save_file), 'r') as json_file:
         word_index = json.load(json_file)
@@ -35,7 +35,20 @@ def get_style_transfer_score(classifier_saved_model_path, text_file_path, label)
         truncating='post', value=word_index[global_config.eos_token])
 
     x_test = np.asarray(text_sequences)
-    y_test = np.asarray([int(label)] * len(text_sequences))
+
+    if label:
+        y_test = np.asarray([int(label)] * len(text_sequences))
+    else:
+        label_to_index_dict = None
+        labels = list()
+        with open(os.path.join(classifier_saved_model_path, 
+                               global_config.label_to_index_dict_file)) as json_file:
+            label_to_index_dict = json.load(json_file)
+        with open(label_file_path) as label_file:
+            for label_str in label_file:
+                labels.append(label_to_index_dict[label_str.strip()])
+        y_test = np.asarray(labels)
+        
 
     checkpoint_file = tf.train.latest_checkpoint(
         os.path.join(classifier_saved_model_path, "checkpoints"))
@@ -83,17 +96,22 @@ def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument("--classifier-saved-model-path", type=str)
     parser.add_argument("--text-file-path", type=str, required=True)
-    parser.add_argument("--label-index", type=int, required=True)
+    parser.add_argument("--label-index", type=str, required=False)
+    parser.add_argument("--label-file-path", type=str, required=False)
     args_namespace = parser.parse_args(argv)
     command_line_args = vars(args_namespace)
 
     global logger
     logger = log_initializer.setup_custom_logger(global_config.logger_name, "INFO")
 
+    if not command_line_args['label_file_path'] and not command_line_args['label_index']:
+        raise Exception("Provide either label-index or label_file_path")
+
     [style_transfer_score, confusion_matrix] = \
         get_style_transfer_score(command_line_args['classifier_saved_model_path'],
                                  command_line_args['text_file_path'],
-                                 command_line_args['label_index'])
+                                 command_line_args['label_index'], 
+                                 command_line_args['label_file_path'])
     logger.info("style_transfer_score: {}".format(style_transfer_score))
     logger.info("confusion_matrix: {}".format(confusion_matrix))
 
