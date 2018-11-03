@@ -12,7 +12,7 @@ from linguistic_style_transfer_model.utils import log_initializer
 logger = logging.getLogger(global_config.logger_name)
 
 
-def get_classification_accuracy(predictions_file_path, gold_labels_file_path, saved_model_path):
+def get_label_accuracy(predictions_file_path, gold_labels_file_path, saved_model_path):
     with open(os.path.join(saved_model_path,
                            global_config.label_to_index_dict_file), 'r') as json_file:
         label_to_index_map = json.load(json_file)
@@ -42,7 +42,7 @@ def main(argv):
     logger = log_initializer.setup_custom_logger(global_config.logger_name, "DEBUG")
 
     options = parser.parse_args(args=argv)
-    get_classification_accuracy(options.predictions_file_path, options.gold_labels_file_path,
+    get_label_accuracy(options.predictions_file_path, options.gold_labels_file_path,
                                 options.saved_model_path)
 
 

@@ -9,7 +9,7 @@ from types import SimpleNamespace
 
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.evaluators import \
-    style_transfer, content_preservation, language_model_evaluator
+    style_transfer, content_preservation, language_fluency
 from linguistic_style_transfer_model.utils import log_initializer
 
 logger = logging.getLogger(global_config.logger_name)
@@ -59,7 +59,7 @@ def main(argv):
         [content_preservation_score, word_overlap_score] = \
             content_preservation.run_content_preservation_evaluator(
                 actual_text_file_path, generated_text_file_path, options.embeddings_path)
-        ll_score = language_model_evaluator.score_generated_sentences(
+        ll_score = language_fluency.score_generated_sentences(
             generated_text_file_path, options.language_model_path)
 
         style_transfer_scores.append(style_transfer_score)
