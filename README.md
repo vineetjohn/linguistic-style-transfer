@@ -174,8 +174,20 @@ CUDA_VISIBLE_DEVICES="0" \
 TF_CPP_MIN_LOG_LEVEL=1 \
 ./scripts/run_style_transfer_evaluator.sh \
 --classifier-saved-model-path ${CLASSIFIER_SAVED_MODEL_PATH} \
---text-file-path ${TEST_TEXT_FILE_PATH} \
---label-index ${TEST_TEXT_FILE_LABEL}
+--text-file-path ${GENERATED_TEXT_FILE_PATH} \
+--label-index ${GENERATED_TEXT_LABEL}
+```
+
+Alternatively, if you have a file with the labels, use the below command instead
+
+```bash
+CUDA_DEVICE_ORDER="PCI_BUS_ID" \
+CUDA_VISIBLE_DEVICES="0" \
+TF_CPP_MIN_LOG_LEVEL=1 \
+./scripts/run_style_transfer_evaluator.sh \
+--classifier-saved-model-path ${CLASSIFIER_SAVED_MODEL_PATH} \
+--text-file-path ${GENERATED_TEXT_FILE_PATH} \
+--label-file-path ${GENERATED_LABELS_FILE_PATH}
 ```
 
 
