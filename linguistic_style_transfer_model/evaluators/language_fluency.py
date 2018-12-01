@@ -6,6 +6,7 @@ from types import SimpleNamespace
 
 from linguistic_style_transfer_model.config import global_config
 from linguistic_style_transfer_model.utils import log_initializer
+from linguistic_style_transfer_model.corpus_adapters.punctuation_stripper import clean_text
 
 logger = None
 
@@ -26,8 +27,9 @@ def score_generated_sentences(generated_text_file_path, language_model_path):
     model = kenlm.LanguageModel(language_model_path)
     with open(generated_text_file_path) as generated_text_file:
         for sentence in generated_text_file:
-            log_probs.append(model.score(sentence))
-            perplexity_scores.append(model.perplexity(sentence))
+            cleaned_sentence = clean_text(sentence)
+            log_probs.append(model.score(cleaned_sentence))
+            perplexity_scores.append(model.perplexity(cleaned_sentence))
 
     return statistics.mean(log_probs), statistics.mean(perplexity_scores)
 
