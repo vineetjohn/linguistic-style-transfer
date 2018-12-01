@@ -219,6 +219,8 @@ TF_CPP_MIN_LOG_LEVEL=1 \
 --generated-text-file-path ${GENERATED_TEXT_FILE_PATH}
 ```
 
+Log-likelihood values are base 10.
+
 
 ### All Evaluation Metrics (works only for the output of this project)
 
