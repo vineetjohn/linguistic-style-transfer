@@ -99,6 +99,7 @@ def main(argv):
     parser.add_argument("--logging-level", type=str, default="INFO")
     run_mode = parser.add_mutually_exclusive_group(required=True)
     run_mode.add_argument("--train-model", action="store_true", default=False)
+    run_mode.add_argument("--transform-text", action="store_true", default=False)
     run_mode.add_argument("--generate-novel-text", action="store_true", default=False)
 
     parser.parse_known_args(args=argv, namespace=options)
@@ -113,7 +114,7 @@ def main(argv):
         parser.add_argument("--validation-embeddings-file-path", type=str, required=True)
         parser.add_argument("--dump-embeddings", action="store_true", default=False)
         parser.add_argument("--classifier-saved-model-path", type=str, required=True)
-    if options.generate_novel_text:
+    if options.transform_text:
         parser.add_argument("--saved-model-path", type=str, required=True)
         parser.add_argument("--evaluation-text-file-path", type=str, required=True)
         parser.add_argument("--evaluation-label-file-path", type=str, required=True)
@@ -123,7 +124,7 @@ def main(argv):
     global logger
     logger = log_initializer.setup_custom_logger(global_config.logger_name, options.logging_level)
 
-    if not (options.train_model or options.generate_novel_text):
+    if not (options.train_model or options.transform_text):
         logger.info("Nothing to do. Exiting ...")
         sys.exit(0)
 
@@ -170,7 +171,7 @@ def main(argv):
 
         logger.info("Training complete!")
 
-    elif options.generate_novel_text:
+    elif options.transform_text:
         # Enforce a particular style embedding and regenerate text
         logger.info("Generating novel text ...")
 

@@ -8,6 +8,7 @@ class Options(argparse.Namespace):
         super().__init__(**kwargs)
         self.logging_level = None
         self.train_model = None
+        self.transform_text = None
         self.generate_novel_text = None
         self.vocab_size = None
         self.training_epochs = None
