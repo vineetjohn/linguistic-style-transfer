@@ -173,7 +173,7 @@ def main(argv):
 
     elif options.transform_text:
         # Enforce a particular style embedding and regenerate text
-        logger.info("Generating novel text ...")
+        logger.info("Transforming text style ...")
 
         with open(os.path.join(options.saved_model_path,
                                global_config.model_config_file), 'r') as json_file:

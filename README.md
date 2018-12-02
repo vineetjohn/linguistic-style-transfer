@@ -125,7 +125,7 @@ CUDA_DEVICE_ORDER="PCI_BUS_ID" \
 CUDA_VISIBLE_DEVICES="0" \
 TF_CPP_MIN_LOG_LEVEL=1 \
 ./scripts/run_linguistic_style_transfer_model.sh \
---generate-novel-text \
+--transform-text \
 --evaluation-text-file-path ${TEST_TEXT_FILE_PATH} \
 --saved-model-path ${SAVED_MODEL_PATH} \
 --logging-level="DEBUG"
