@@ -120,8 +120,8 @@ def main(argv):
         parser.add_argument("--evaluation-label-file-path", type=str, required=True)
     if options.generate_novel_text:
         parser.add_argument("--saved-model-path", type=str, required=True)
-        parser.add_argument("--num-sentences-to-generate", type=int, default=1000)
-        parser.add_argument("--label-index", type=int, default=1000)
+        parser.add_argument("--num-sentences-to-generate", type=int, default=1000, required=True)
+        parser.add_argument("--label-index", type=int, default=1000, required=False)
 
     parser.parse_known_args(args=argv, namespace=options)
 
@@ -232,7 +232,7 @@ def main(argv):
 
             style_embedding = np.asarray(average_label_embeddings[i])
             [generated_sequences, final_sequence_lengths, _, _, _, cross_entropy_scores] = \
-                network.generate_novel_sentences(
+                network.transform_sentences(
                     sess, filtered_padded_sequences, filtered_text_sequence_lengths, style_embedding,
                     num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
             nll = -np.mean(a=cross_entropy_scores, axis=0)
@@ -253,7 +253,7 @@ def main(argv):
 
         logger.info("Predicting labels from latent spaces ...")
         _, _, overall_label_predictions, style_label_predictions, adversarial_label_predictions, _ = \
-            network.generate_novel_sentences(
+            network.transform_sentences(
                 sess, padded_sequences, text_sequence_lengths, average_label_embeddings[0],
                 num_labels, os.path.join(options.saved_model_path, global_config.model_save_file))
 
@@ -284,7 +284,76 @@ def main(argv):
         sess.close()
 
     elif options.generate_novel_text:
-        raise Exception("Not implemented yet")
+        logger.info("Generating novel text")
+
+        with open(os.path.join(options.saved_model_path,
+                               global_config.model_config_file), 'r') as json_file:
+            model_config_dict = json.load(json_file)
+            mconf.init_from_dict(model_config_dict)
+            logger.info("Restored model config from saved JSON")
+
+        with open(os.path.join(options.saved_model_path,
+                               global_config.vocab_save_file), 'r') as json_file:
+            word_index = json.load(json_file)
+        with open(os.path.join(options.saved_model_path,
+                               global_config.index_to_label_dict_file), 'r') as json_file:
+            index_to_label_map = json.load(json_file)
+        with open(os.path.join(options.saved_model_path,
+                               global_config.average_label_embeddings_file), 'rb') as pickle_file:
+            average_label_embeddings = pickle.load(pickle_file)
+
+        global_config.vocab_size = len(word_index)
+        inverse_word_index = {v: k for k, v in word_index.items()}
+
+        num_labels = len(index_to_label_map)
+        text_tokenizer = tf.keras.preprocessing.text.Tokenizer(
+            num_words=global_config.vocab_size, filters=global_config.tokenizer_filters)
+        text_tokenizer.word_index = word_index
+        data_processor.populate_word_blacklist(word_index)
+
+        logger.info("Building model architecture ...")
+        network = adversarial_autoencoder.AdversarialAutoencoder()
+        encoder_embedding_matrix, decoder_embedding_matrix = get_word_embeddings(None, word_index)
+        network.build_model(
+            word_index, encoder_embedding_matrix, decoder_embedding_matrix, num_labels)
+
+        sess = tf_session_helper.get_tensorflow_session()
+
+        for label_index in index_to_label_map:
+            if options.label_index and label_index != options.label_index:
+                continue
+
+            style_embedding = np.asarray(average_label_embeddings[int(label_index)])
+            generated_sequences, final_sequence_lengths = \
+                network.generate_novel_sentences(
+                    sess, style_embedding, options.num_sentences_to_generate, num_labels,
+                    os.path.join(options.saved_model_path, global_config.model_save_file))
+
+            # first trims the generates sentences down to the length the decoder returns
+            # then trim any <eos> token
+            trimmed_generated_sequences = \
+                [[index for index in sequence
+                  if index != global_config.predefined_word_index[global_config.eos_token]]
+                 for sequence in [x[:(y - 1)] for (x, y) in zip(generated_sequences, final_sequence_lengths)]]
+
+            generated_word_lists = \
+                [data_processor.generate_words_from_indices(x, inverse_word_index)
+                 for x in trimmed_generated_sequences]
+
+            generated_sentences = [" ".join(x) for x in generated_word_lists]
+            output_file_path = "output/{}-generation/generated_sentences_{}.txt".format(
+                global_config.experiment_timestamp, label_index)
+            os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+            with open(output_file_path, 'w') as output_file:
+                for sentence in generated_sentences:
+                    output_file.write(sentence + "\n")
+
+            logger.info("Generated {} sentences of label {} at path {}".format(
+                options.num_sentences_to_generate, index_to_label_map[label_index], output_file_path
+            ))
+
+        sess.close()
+        logger.info("Generation run complete")
 
 
 if __name__ == "__main__":

@@ -197,18 +197,21 @@ class AdversarialAutoencoder:
         self.inference_mode = tf.placeholder(dtype=tf.bool, name="inference_mode")
         logger.debug("inference_mode: {}".format(self.inference_mode))
 
+        self.generation_mode = tf.placeholder(dtype=tf.bool, name="generation_mode")
+        logger.debug("generation_mode: {}".format(self.generation_mode))
+
         self.recurrent_state_keep_prob = tf.cond(
-            pred=self.inference_mode,
+            pred=tf.math.logical_or(self.inference_mode, self.generation_mode),
             true_fn=lambda: 1.0,
             false_fn=lambda: mconf.recurrent_state_keep_prob)
 
         self.fully_connected_keep_prob = tf.cond(
-            pred=self.inference_mode,
+            pred=tf.math.logical_or(self.inference_mode, self.generation_mode),
             true_fn=lambda: 1.0,
             false_fn=lambda: mconf.fully_connected_keep_prob)
 
         self.sequence_word_keep_prob = tf.cond(
-            pred=self.inference_mode,
+            pred=tf.math.logical_or(self.inference_mode, self.generation_mode),
             true_fn=lambda: 1.0,
             false_fn=lambda: mconf.sequence_word_keep_prob)
 
@@ -216,6 +219,11 @@ class AdversarialAutoencoder:
             dtype=tf.float32, shape=[None, mconf.style_embedding_size],
             name="conditioning_embedding")
         logger.debug("conditioning_embedding: {}".format(self.conditioning_embedding))
+
+        self.sampled_content_embedding = tf.placeholder(
+            dtype=tf.float32, shape=[None, mconf.content_embedding_size],
+            name="sampled_content_embedding")
+        logger.debug("sampled_content_embedding: {}".format(self.sampled_content_embedding))
 
         self.epoch = tf.placeholder(dtype=tf.float32, shape=(), name="epoch")
         logger.debug("epoch: {}".format(self.epoch))
@@ -265,7 +273,7 @@ class AdversarialAutoencoder:
         sampled_style_embedding = self.sample_prior(style_embedding_mu, style_embedding_sigma)
 
         self.style_embedding = tf.cond(
-            pred=self.inference_mode,
+            pred=tf.math.logical_or(self.inference_mode, self.generation_mode),
             true_fn=lambda: self.conditioning_embedding,
             false_fn=lambda: sampled_style_embedding)
         logger.debug("style_embedding: {}".format(self.style_embedding))
@@ -276,10 +284,15 @@ class AdversarialAutoencoder:
         self.content_kl_loss = unweighted_content_kl_loss * self.content_kl_weight
         sampled_content_embedding = self.sample_prior(content_embedding_mu, content_embedding_sigma)
 
-        self.content_embedding = tf.cond(
+        pre_content_embedding = tf.cond(
             pred=self.inference_mode,
             true_fn=lambda: content_embedding_mu,
             false_fn=lambda: sampled_content_embedding)
+        self.content_embedding = tf.cond(
+            pred=self.generation_mode,
+            true_fn=lambda: self.sampled_content_embedding,
+            false_fn=lambda: pre_content_embedding
+        )
         logger.debug("content_embedding: {}".format(self.content_embedding))
 
         # concatenated generative embedding
@@ -419,13 +432,16 @@ class AdversarialAutoencoder:
 
     def run_batch(self, sess, start_index, end_index, fetches, padded_sequences,
                   one_hot_labels, text_sequence_lengths,
-                  conditioning_embedding, inference_mode,
+                  conditioning_embedding, inference_mode, generation_mode,
                   style_kl_weight, content_kl_weight, current_epoch):
 
-        if not inference_mode:
+        if not inference_mode and not generation_mode:
             conditioning_embedding = np.random.uniform(
                 size=(end_index - start_index, mconf.style_embedding_size),
                 low=-0.05, high=0.05).astype(dtype=np.float32)
+
+        sampled_content_embedding = np.random.normal(
+            size=(end_index - start_index, mconf.content_embedding_size)).astype(dtype=np.float32)
 
         bow_representations = data_processor.get_bow_representations(
             padded_sequences[start_index: end_index])
@@ -438,7 +454,9 @@ class AdversarialAutoencoder:
                 self.sequence_lengths: text_sequence_lengths[start_index: end_index],
                 self.input_bow_representations: bow_representations,
                 self.inference_mode: inference_mode,
+                self.generation_mode: generation_mode,
                 self.conditioning_embedding: conditioning_embedding,
+                self.sampled_content_embedding: sampled_content_embedding,
                 self.style_kl_weight: style_kl_weight,
                 self.content_kl_weight: content_kl_weight,
                 self.epoch: current_epoch
@@ -584,7 +602,7 @@ class AdversarialAutoencoder:
                     self.run_batch(
                         sess, start_index, end_index, fetches,
                         shuffled_padded_sequences, shuffled_one_hot_labels,
-                        shuffled_text_sequence_lengths, None, False,
+                        shuffled_text_sequence_lengths, None, False, False,
                         style_kl_weight, content_kl_weight, current_epoch)
 
                 log_msg = "[R: {:.2f}, " \
@@ -680,7 +698,7 @@ class AdversarialAutoencoder:
                         [self.inference_output, self.final_sequence_lengths],
                         validation_sequences_to_transfer, validation_labels_to_transfer,
                         validation_sequence_lengths_to_transfer,
-                        conditioning_embedding, True, 0, 0, current_epoch)
+                        conditioning_embedding, True, False, 0, 0, current_epoch)
                 validation_generated_sequences.extend(validation_generated_sequences_batch)
                 validation_generated_sequence_lengths.extend(validation_sequence_lengths_batch)
 
@@ -738,8 +756,8 @@ class AdversarialAutoencoder:
             }
             validation_scores_file.write(json.dumps(validation_record) + "\n")
 
-    def generate_novel_sentences(self, sess, padded_sequences, text_sequence_lengths, style_embedding,
-                                 num_labels, model_save_path):
+    def transform_sentences(self, sess, padded_sequences, text_sequence_lengths, style_embedding,
+                            num_labels, model_save_path):
 
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
@@ -781,7 +799,7 @@ class AdversarialAutoencoder:
                      self.quantized_style_adversary_prediction,
                      self.reconstruction_loss],
                     padded_sequences, one_hot_labels_placeholder, text_sequence_lengths,
-                    conditioning_embedding, True, style_kl_weight, content_kl_weight, current_epoch)
+                    conditioning_embedding, True, False, style_kl_weight, content_kl_weight, current_epoch)
 
             generated_sequences.extend(generated_sequences_batch)
             final_sequence_lengths.extend(final_sequence_lengths_batch)
@@ -792,3 +810,42 @@ class AdversarialAutoencoder:
 
         return generated_sequences, final_sequence_lengths, overall_label_predictions, \
                style_label_predictions, adversarial_label_predictions, cross_entropy_scores
+
+    def generate_novel_sentences(self, sess, style_embedding, data_size, num_labels, model_save_path):
+        sess.run(tf.global_variables_initializer())
+        saver = tf.train.Saver()
+        saver.restore(sess=sess, save_path=model_save_path)
+
+        generated_sequences = list()
+        final_sequence_lengths = list()
+
+        num_batches = data_size // mconf.batch_size
+        if data_size % mconf.batch_size:
+            num_batches += 1
+
+        end_index = None
+        style_kl_weight = 0
+        content_kl_weight = 0
+        current_epoch = 0
+
+        dummy_sequences = np.zeros(shape=(data_size, global_config.max_sequence_length))
+        dummy_oh_labels = np.zeros(shape=(data_size, num_labels))  # oh = one hot
+        dummy_ts_lengths = np.zeros(shape=(data_size))  # ts = text sequence
+
+        for batch_number in range(num_batches):
+            (start_index, end_index) = self.get_batch_indices(
+                batch_number=batch_number, data_limit=data_size)
+
+            conditioning_embedding = np.tile(A=style_embedding, reps=(end_index - start_index, 1))
+
+            generated_sequences_batch, final_sequence_lengths_batch = \
+                self.run_batch(
+                    sess, start_index, end_index,
+                    [self.inference_output, self.final_sequence_lengths],
+                    dummy_sequences, dummy_oh_labels, dummy_ts_lengths,
+                    conditioning_embedding, False, True, style_kl_weight, content_kl_weight, current_epoch)
+
+            generated_sequences.extend(generated_sequences_batch)
+            final_sequence_lengths.extend(final_sequence_lengths_batch)
+
+        return generated_sequences, final_sequence_lengths

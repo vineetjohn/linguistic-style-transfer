@@ -24,3 +24,4 @@ class Options(argparse.Namespace):
         self.evaluation_text_file_path = None
         self.evaluation_label_file_path = None
         self.num_sentences_to_generate = None
+        self.label_index = None
