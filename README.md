@@ -136,6 +136,21 @@ TF_CPP_MIN_LOG_LEVEL=1 \
 This will produce a folder like `output/xxxxxxxxxx-inference`.
 
 
+### Generate new sentences
+
+```bash
+CUDA_DEVICE_ORDER="PCI_BUS_ID" \
+CUDA_VISIBLE_DEVICES="0" \
+TF_CPP_MIN_LOG_LEVEL=1 \
+./scripts/run_linguistic_style_transfer_model.sh \
+--generate-novel-text \
+--saved-model-path ${SAVED_MODEL_PATH} \
+--num-sentences-to-generate ${NUM_SENTENCES}
+--logging-level="DEBUG"
+```
+
+This will produce a folder like `output/xxxxxxxxxx-generation`.
+
 ---
 
 
