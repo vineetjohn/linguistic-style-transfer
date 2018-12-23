@@ -118,13 +118,17 @@ def main(argv):
         parser.add_argument("--saved-model-path", type=str, required=True)
         parser.add_argument("--evaluation-text-file-path", type=str, required=True)
         parser.add_argument("--evaluation-label-file-path", type=str, required=True)
+    if options.generate_novel_text:
+        parser.add_argument("--saved-model-path", type=str, required=True)
+        parser.add_argument("--num-sentences-to-generate", type=int, default=1000)
+        parser.add_argument("--label-index", type=int, default=1000)
 
     parser.parse_known_args(args=argv, namespace=options)
 
     global logger
     logger = log_initializer.setup_custom_logger(global_config.logger_name, options.logging_level)
 
-    if not (options.train_model or options.transform_text):
+    if not (options.train_model or options.transform_text or options.generate_novel_text):
         logger.info("Nothing to do. Exiting ...")
         sys.exit(0)
 
@@ -278,6 +282,9 @@ def main(argv):
         logger.info("Inference run complete")
 
         sess.close()
+
+    elif options.generate_novel_text:
+        raise Exception("Not implemented yet")
 
 
 if __name__ == "__main__":
