@@ -34,6 +34,8 @@ Neural network model to disentangle and transfer linguistic style in text
 * Yelp Service Reviews - [Link](https://github.com/shentianxiao/language-style-transfer)
 * Amazon Product Reviews - [Link](https://github.com/fuzhenxin/text_style_transfer)
 
+[Download this data](https://www.dropbox.com/s/83uhbrxjvnblair/lst-data.zip?dl=0)
+
 ---
 
 ## Pretraining
