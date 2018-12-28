@@ -31,10 +31,14 @@ Neural network model to disentangle and transfer linguistic style in text
 
 ## Data Sources
 
+### Customer Review Datasets
 * Yelp Service Reviews - [Link](https://github.com/shentianxiao/language-style-transfer)
 * Amazon Product Reviews - [Link](https://github.com/fuzhenxin/text_style_transfer)
 
-[Download this data](https://www.dropbox.com/s/83uhbrxjvnblair/lst-data.zip?dl=0)
+[Download Yelp + Amazon data](https://www.dropbox.com/s/83uhbrxjvnblair/lst-data.zip?dl=0)
+
+### Word Embeddings
+References to `${VALIDATION_WORD_EMBEDDINGS_PATH}` in the instructions below should be replaced by the path to the file `glove.6B.100d.txt`, which can be downloaded from [here](http://nlp.stanford.edu/data/glove.6B.zip).
 
 ---
 
