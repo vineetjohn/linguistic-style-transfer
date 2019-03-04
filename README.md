@@ -23,9 +23,23 @@ Neural network model to disentangle and transfer linguistic style in text
 ## Notes
 
 * Ignore `CUDA_DEVICE_ORDER="PCI_BUS_ID"`, `CUDA_VISIBLE_DEVICES="0"` unless you're training with a GPU
-* Input data file format: 
-    * `${TEXT_FILE_PATH}` should have 1 sentence per line. 
+* Input data file format:
+    * `${TEXT_FILE_PATH}` should have 1 sentence per line.
     * Similarly, `${LABEL_FILE_PATH}` should have 1 label per line.
+* Assuming that you already have [g++](https://gcc.gnu.org/) and [bash](http://tiswww.case.edu/php/chet/bash/bashtop.html) installed, run the following commands to setup the [kenlm](https://github.com/kpu/kenlm) library properly:
+    * `wget -O - https://kheafield.com/code/kenlm.tar.gz |tar xz`
+    * `mkdir kenlm/build`
+    * `cd kenlm/build`
+    * `sudo apt-get install build-essential libboost-all-dev cmake zlib1g-dev libbz2-dev liblzma-dev` (to install basic dependencies)
+    * Install [Boost](https://www.boost.org/):
+        * Download boost_1_67_0.tar.bz2 from [here](https://www.boost.org/users/history/version_1_67_0.html)
+        * `tar --bzip2 -xf /path/to/boost_1_67_0.tar.bz2`
+    * Install [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page):
+        * `export EIGEN3_ROOT=$HOME/eigen-eigen-07105f7124f9`
+        * `cd $HOME; wget -O - https://bitbucket.org/eigen/eigen/get/3.2.8.tar.bz2 |tar xj`
+        * Go back to the `kenlm/build` folder and run `rm CMakeCache.txt`
+    * `cmake ..`
+    * `make -j2`
 
 ---
 
@@ -77,14 +91,12 @@ This will produce a folder like `saved-models-classifier/xxxxxxxxxx`.
 
 
 ### Train Kneser-Ney Language Model
-Use [this tutorial](https://github.com/kpu/kenlm) to setup the KenLM library
-
-Use the below command to train a `n`-gram language model
+Use the below command to train a `n`-gram language model (run from the `kenlm/build` folder)
 ```bash
 ./bin/lmplz -o ${n} --text ${TRAINING_TEXT_FILE_PATH} > ${LANGUAGE_MODEL_PATH}
 ```
 
-### Extract label-correlated words 
+### Extract label-correlated words
 ```bash
 ./scripts/run_word_retriever.sh \
 --text-file-path ${TEXT_FILE_PATH} \
@@ -120,7 +132,7 @@ TF_CPP_MIN_LOG_LEVEL=1 \
 --logging-level="DEBUG"
 ```
 
-This will produce a folder like `saved-models/xxxxxxxxxx`. 
+This will produce a folder like `saved-models/xxxxxxxxxx`.
 It will also produce `output/xxxxxxxxxx-training` if validation is turned on.
 
 
