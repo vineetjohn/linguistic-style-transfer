@@ -52,6 +52,11 @@ Neural network model to disentangle and transfer linguistic style in text
 ### Word Embeddings
 References to `${VALIDATION_WORD_EMBEDDINGS_PATH}` in the instructions below should be replaced by the path to the file `glove.6B.100d.txt`, which can be downloaded from [here](http://nlp.stanford.edu/data/glove.6B.zip).
 
+## Opinion Lexicon
+The file `"data/opinion-lexicon/sentiment-words.txt"`, referenced in [global_config.py](https://github.com/vineetjohn/linguistic-style-transfer/blob/master/linguistic_style_transfer_model/config/global_config.py) can be downloaded from below page.
+- [Page URL](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html)
+- [Direct Download](http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar)
+
 ---
 
 ## Pretraining
